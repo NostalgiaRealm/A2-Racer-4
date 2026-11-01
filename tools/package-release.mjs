@@ -87,8 +87,8 @@ with zipfile.ZipFile(target, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as z:
   const listFile = join(out, '.decompile-files');
   writeFileSync(listFile, list.join('\0') + '\0');
   const tar = file.replace(/\.gz$/, '');
-  must('tar', ['--create', '--file', tar, '--null', '--files-from', listFile, '--no-recursion', '--sort=name', '--format=gnu',
-    `--mtime=${stamp}`, '--owner=0', '--group=0', '--numeric-owner', '--mode=u+rw,go+r,a+X', '--directory', ROOT]);
+  must('tar', ['--create', '--file', tar, '--sort=name', '--format=gnu', `--mtime=${stamp}`, '--owner=0', '--group=0',
+    '--numeric-owner', '--mode=u+rw,go+r,a+X', '--directory', ROOT, '--no-recursion', '--null', '--files-from', listFile]);
   rmSync(listFile);
   rmSync(file, { force: true });
   must('pigz', ['-9', '-n', tar]);

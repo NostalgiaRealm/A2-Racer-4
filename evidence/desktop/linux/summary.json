@@ -1,22 +1,22 @@
 {
-  "exe": "release/linux-unpacked/a2racer4",
+  "exe": "/tmp/claude-1000/-home-rick-Documents-Rebuilds-A2-Racer-4/dc7224f9-a649-4a2d-ad94-1e6598710c25/scratchpad/ai/squashfs-root/a2racer4",
   "errors": [],
   "http": [],
   "checks": {
     "menuForm": "TfrmIntro",
     "race": {
       "stats": {
-        "verts": 5914,
-        "indices": 23001,
+        "verts": 5868,
+        "indices": 22053,
         "batches": 19,
-        "matrices": 281,
-        "ticksCaptured": 1813,
+        "matrices": 340,
+        "ticksCaptured": 1209,
         "calls": 1
       },
       "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
       "bot": {
-        "chunk": 151,
-        "speed": 16.21011734008789
+        "chunk": 137,
+        "speed": 25.918245315551758
       }
     }
   },

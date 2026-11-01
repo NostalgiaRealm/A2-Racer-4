@@ -14,7 +14,7 @@ Scope comes from the brief: verification stays on one level, **etappe 0, Amsterd
 | Original, reference runs | `spel.dat` (SHA-256 `ccd1b034...`, same bytes as the install and the disc) under Wine 11.20 Staging, Xvfb, llvmpipe, throwaway prefix, with the data of disc 1.01. The updates do not change that data for etappe 0, car 0: [provenance.md](provenance.md#installed-updates). Details in [`evidence/reference-wine/results.md`](../evidence/reference-wine/results.md) |
 | Original, 8-bit path | `spel.dat`, the same bytes, on a throwaway copy of the owner's 86Box machine: Windows 98 SE, DirectX 9 with its Ramp rasteriser, an emulated Voodoo3 3000, Pentium MMX 266 or K6-2 550, disc 1.01's data. Wine cannot run this path. Details in [provenance.md](provenance.md#reference-runs-of-the-8-bit-path), [`evidence/reference-86box/results.md`](../evidence/reference-86box/results.md) |
 | Desktop package, launch check | Electron 44.9.2 (Chromium 152), Linux package, private Xvfb, SwiftShader. No GPU figures come from this |
-| Not used | A real phone or tablet, a real gamepad, joystick or wheel, Firefox, Safari, Windows, macOS, period hardware. Touch is CDP or Playwright emulation, the pad a stand-in for `navigator.getGamepads`, sound checked by state and never by ear |
+| Not used | A real phone or tablet, a real gamepad, joystick or wheel, Firefox, Safari, real Windows, macOS, period hardware. Touch is CDP or Playwright emulation, the pad a stand-in for `navigator.getGamepads`, sound checked by state and never by ear |
 
 ## Criteria
 
@@ -186,7 +186,9 @@ Package content and launch are separate checks, and neither is gameplay testing:
 |---|---|---|
 | Package content, `tools/verify-desktop-package.mjs` | Linux and Windows x64 here, macOS on GitHub Actions: every game file equals `dist/` byte for byte, `app.asar` holds the wrapper only | 774 game files, 5 wrapper files, same tree hash on Linux and Windows. Written to `integrity-*.json` in the release |
 | Launch, `tools/check-desktop.mjs` | Linux package: the first screen of the menu, then a race on etappe 0 by the bot for 30 s, read through the app's own protocol with byte ranges | Pass, no console errors or failed requests. Bot at chunk 151, 16.2 m/s. `evidence/desktop/linux/` |
-| Not run | Windows and macOS packages | Not started by anyone |
+| Launch under Wine, by hand through the remote debugging port | Windows package, `win-unpacked/a2racer4.exe`, Wine on Linux with a throwaway prefix. Not Windows. Menu, then a race on etappe 0 by the bot for 20 s | Pass, no console errors. `evidence/desktop/wine/` |
+| Source, from a fresh clone of the tag | `npm ci` restores `rcs.img`, `npm run recompile`, `npm run build` | `spel.wasm` and every file of `dist/` byte-identical to the working copy's |
+| Not run | Windows package on Windows, macOS packages. `npm run prepare:assets` from a fresh clone | Not started |
 
 ## Known discrepancies
 

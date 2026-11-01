@@ -46,6 +46,6 @@ Keep these apart in the notes. A later one does not stand in for an earlier one.
 |---|---|---|
 | Source | The tree works | `tools/check-*.mjs`: [validation.md](validation.md) |
 | Package content | The package holds the right bytes | `tools/verify-desktop-package.mjs`, runs in the build, writes `integrity-*.json` |
-| Launch | The package starts and a race runs | `node tools/check-desktop.mjs --exe <executable>` under Xvfb, Linux only |
+| Launch | The package starts and a race runs | `node tools/check-desktop.mjs --exe <executable>` under Xvfb, Linux. Windows package under Wine by hand: start it with `--remote-debugging-port`, drive it with Playwright's `connectOverCDP`. That is Wine, not Windows |
 | Gameplay | Someone or something played it | The flow checks, in a browser. Not on the packages |
 | Real device | It works on that device | None so far |

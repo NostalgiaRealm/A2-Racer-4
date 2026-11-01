@@ -10,7 +10,7 @@ The game's content is in the port, with Davilex's two official updates, track 9 
 
 ## Downloads
 
-Desktop builds for Linux, Windows and macOS, a static web build, the source and the decompile: [`docs/releases/1.0.0.md`](docs/releases/1.0.0.md) lists the files and what was checked on each. The Windows and macOS packages have not been started by anyone so far.
+Desktop builds for Linux, Windows and macOS, a static web build, the source and the decompile: [`docs/releases/1.0.0.md`](docs/releases/1.0.0.md) lists the files and what was checked on each. The Windows package has run under Wine but not on Windows, and the macOS packages have not been started so far.
 
 The decompile of the original game is in [`original-game-decompiled/`](original-game-decompiled/README.md): generated C and assembly of every game module, unpacked resources, Ghidra projects, format documents and the game's own files. What is left out, such as the disc image and third-party installers: [`docs/releasing.md`](docs/releasing.md#what-is-published).
 

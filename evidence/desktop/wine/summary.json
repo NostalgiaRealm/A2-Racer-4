@@ -1,0 +1,9 @@
+{
+  "package": "win-unpacked/a2racer4.exe, A2-Racer-4 1.0.0",
+  "environment": "Wine on Fedora 44, throwaway prefix, private Xvfb. Not Windows.",
+  "gpu": "ANGLE (AMD, Vulkan 1.4.354 (AMD Radeon RX 6700 XT (0x000073DF)), radv)",
+  "menuForm": "TfrmNewPlayer",
+  "race": { "query": "race=1&bot=1&bench=1", "seconds": 20, "bot": { "chunk": 137, "speed": 25.956 }, "ticksCaptured": 1211 },
+  "errors": [],
+  "pass": true
+}
