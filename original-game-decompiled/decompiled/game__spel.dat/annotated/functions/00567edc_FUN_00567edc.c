@@ -1,0 +1,19 @@
+
+/* ==== FUN_00567edc @ 00567edc ==== 
+ * signature: undefined __cdecl FUN_00567edc(uint * param_1)
+ * body: 00567edc-00567f08
+ */
+
+void __cdecl FUN_00567edc(uint *param_1)
+
+{
+  uint uVar1;
+  
+  uVar1 = param_1[1];
+  param_1[1] = uVar1 >> 1 | param_1[2] << 0x1f;
+  param_1[2] = param_1[2] >> 1;
+  *param_1 = *param_1 >> 1 | uVar1 << 0x1f;
+  return;
+}
+
+

@@ -1,0 +1,9 @@
+[autorun]
+open=autorun.exe
+icon=data\A2Racer4.exe,0 
+[Application Info]
+Appname=A2 Racer 4
+AppVersion=1
+AppLanguage=NL
+Execute=setup.exe
+AppWindowName=A2 Racer 4

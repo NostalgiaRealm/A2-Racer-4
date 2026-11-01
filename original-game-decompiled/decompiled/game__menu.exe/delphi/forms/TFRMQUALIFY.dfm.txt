@@ -1,0 +1,83 @@
+object frmQualify: TfrmQualify
+  Left = 122
+  Top = 97
+  ActiveControl = btnNext.WrapperbtnNext
+  Caption = 'frmQualify'
+  ClientHeight = 594
+  ClientWidth = 814
+  PixelsPerInch = 96
+  TextHeight = 13
+  object imgBackGround: TImage
+    Width = 814
+    Height = 594
+  end
+  object lblTextBlock: TLabel
+    Left = 42
+    Top = 168
+    Width = 311
+    Height = 177
+    AutoSize = False
+    Caption = 'lblTextBlock'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+    WordWrap = True
+  end
+  object btnHelp: TGDIButton
+    TabOrder = 2
+  end
+  object btnNext: TGDIButton
+    TabOrder = 0
+  end
+  object imgTrackName: TGDIGraphic
+    Left = 82
+    Top = 91
+    Width = 100
+    Height = 50
+    LinkedGraphic.Storage = SL_EXTERNAL
+    LinkedGraphic.GraphicName = ''
+    TransparentColor = clBlack
+    Transparent = False
+    TransparentMode = tmAuto
+    Translucent = True
+    TranslucencyFactor = 255
+  end
+  object lblYouLost: TLabel
+    Left = 42
+    Top = 413
+    Width = 311
+    Height = 33
+    AutoSize = False
+    Caption = 'lblTextBlock'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object imgWinnerName: TGDIGraphic
+    Left = 49
+    Top = 448
+    Width = 100
+    Height = 50
+    LinkedGraphic.Storage = SL_EXTERNAL
+    LinkedGraphic.GraphicName = ''
+    TransparentColor = clBlack
+    Transparent = False
+    TransparentMode = tmAuto
+    Translucent = True
+    TranslucencyFactor = 255
+  end
+  object timSample: TTimer
+    Enabled = False
+    OnTimer = timSampleTimer
+    Left = 472
+    Top = 216
+  end
+end

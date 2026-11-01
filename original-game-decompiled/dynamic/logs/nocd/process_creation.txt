@@ -1,0 +1,4 @@
+015c:trace:process:CreateProcessInternalW app L"C:\\A2R4\\A2Racer4.exe" cmdline L"\"C:\\A2R4\\A2Racer4.exe\" "
+015c:trace:process:CreateProcessInternalW started process pid 0160 tid 0164
+0164:trace:process:CreateProcessInternalW app L".\\menu.exe" cmdline L"menu.exe /FirstTime"
+0164:trace:process:CreateProcessInternalW started process pid 0168 tid 016c

@@ -1,0 +1,2319 @@
+; Text extracted from LEESMIJ.HLP by winhelp_to_text.py. Formatting, hotspots and pictures omitted.
+; WinHelp version 1.33, flags 0, internal files: EHELP.XML, |CF1, |CONTEXT, |CTXOMAP, |FONT, |KWBTREE, |KWDATA, |KWMAP, |SYSTEM, |TOPIC, |TTLBTREE, |bm0
+
+
+===== TOPIC 1: "Het is niet gelukt om de beeldscherminstellingen aan te passen" =====
+
+
+"Het is niet gelukt om de beeldscherminstellingen aan te passen"
+
+
+
+
+Als je bovenstaande foutmelding krijgt, kun je het oplossen door het volgende te doen:
+
+
+
+
+1.
+Kies 
+Start
+ð
+Instellingen
+ð
+Configuratiescherm
+.
+
+
+
+2.
+Dubbelklik op het pictogram 
+Beeldscherm
+ en kies vervolgens 
+Instellingen
+.
+
+
+
+3.
+Zet de resolutie van je beeldscherm op 
+800x600
+ door met je muis op de blokjes in de schuifbalken in de 
+‘
+Display area
+’
+ te klikken en deze vervolgens naar links of rechts te bewegen. 
+
+
+
+4.
+Zet de 
+‘
+Color palette
+’
+ (naast de Display area) op 
+Hoge kleuren (16bit)
+.
+
+
+
+5.
+Klik op 
+Toepassen
+.
+
+
+
+6.
+Klik op 
+OK
+ om de wijziging door te voeren. Het beeldscherm zal even zwart worden.
+
+
+
+7.
+Werkt de instelling correct, klik dan op 
+OK
+ om de instelling te bewaren en sluit daarna het Configuratiescherm. Werkt de instelling niet correct, klikt dan op 
+Annuleren
+.
+
+
+
+
+===== TOPIC 2: Welkom bij de leesmij.hlp =====
+
+
+Welkom bij de leesmij.hlp
+
+
+
+Gefeliciteerd met de aanschaf van A2 Racer!
+In deze leesmij worden de meest voorkomende problemen behandeld, die je kunt tegenkomen wanneer je A2 Racer installeert of speelt. Staat jouw probleem hier niet bij, dan kun je altijd 
+
+contact opnemen
+
+ met de Davilex Helpdesk. Ook kun je voor de laatste productinformatie onze Internetpagina bezoeken op 
+
+www.davilex.com
+
+.
+
+
+
+
+Microsoft DirectX 
+
+
+
+A2 Racer is geoptimaliseerd voor Microsoft DirectX 6.0 of hoger. Voor een optimale prestatie van A2 Racer adviseren we je dan ook de nieuwste DirectX drivers te installeren. 
+
+
+
+Nieuwe DirectX drivers installeren
+
+ 
+
+
+
+
+
+===== TOPIC 3: Credits A2 Racer =====
+
+
+Credits A2 Racer
+
+
+
+
+PRODUCT DEVELOPMENT MANAGER
+
+Rudolf Wolterbeek-Muller
+
+
+PROJECT LEIDING
+
+Igor Frid
+
+
+PRODUCT ONTWERP
+
+Byron Tik
+
+
+TECHNISCH ONTWERP
+
+Jeroen Krebbers
+
+
+GRAFISCH ONTWERP
+
+André van Rooijen
+
+
+PROGRAMMERING
+
+Cameron Rabelink
+Frits Broekhuis
+Jasja Glasbeek
+Jelle van der Beek
+Jeroen Krebbers
+Marcel Egtberts
+Mark van der Gugten
+
+
+REDACTIE
+
+Nineke van Lieren
+
+
+GRAFISCHE VORMGEVING
+
+
+
+Arne Goossens
+Bone Buddrus 
+Dirk Dobbert
+Gijs de Jong
+Hidde van Dijk 
+Jack Hageraats
+Kent Kuné
+Marcel du Long
+Marco Kachel
+Pepijn Rijnders
+Ralf Schmäing
+Sven Faltus
+
+
+MUZIEK EN GELUID
+
+Mike van Dalm
+Nico Verrips
+
+
+KWALITEITSCONTROLE
+
+Didier Pippel
+
+Francois Rademakers
+
+Jan Molenaar
+
+
+PRODUCT MANAGER
+
+Ellen van Meerendonk
+
+
+
+Speciale dank aan:
+
+Michael Scholz
+
+
+
+
+===== TOPIC 4: Wat moet ik doen bij problemen met het programma? =====
+
+
+Wat moet ik doen bij problemen met het programma?
+
+
+
+Als je problemen hebt, dien je de hulp in te roepen van Davilex Service. Davilex Service is een programma dat speciaal gemaakt is om je maximaal te ondersteunen en antwoord te geven op je vragen. Kom je er toch niet uit, dan kun je met Davilex Service een rapport laten maken dat je dient te gebruiken bij contact met het Service Center. Je kunt het Service Center bereiken per e-mail (wordt met voorrang behandeld), per post, per fax of per telefoon. Het adres, 
+faxnummer en telefoonnummer 
+vind je in Davilex Service.
+
+
+
+Let op
+
+
+
+·
+
+Alleen rapporten die via Davilex Service aangemaakt zijn worden door het Service Center behandeld. 
+
+
+
+·
+
+Voor de ondersteuning van het Service Center moet je wel geregistreerd zijn. Vul daarom tijdens de installatie van A2 Racer de registratiekaart in en stuur deze snel op.
+
+
+
+Davilex Service opstarten
+
+
+
+Tijdens de installatie wordt Davi-Service automatisch geïnstalleerd op de harde schijf van je pc. Kies vanuit Windows de 
+Start
+-knop linksonder, kies vervolgens
+ 
+de programmagroep
+ 
+Programma
+’
+s
+, 
+de programmagroep 
+Davilex
+ en dan het programma
+ 
+Davilex Service
+.
+
+
+
+
+
+Verkoop en Informatie
+
+
+
+Kijk voor informatie over en verkoop van Davilex-programma
+’
+s op het internet:
+ 
+
+www.davilex.nl 
+
+ 
+(Informatie) of 
+
+shop.davilex.nl
+
+ (bestellen).
+
+
+
+
+
+Overige vragen
+
+
+Voor alle overige vragen en eventuele klachten kun je telefonisch contact opnemen met het Service Center op telefoonnummer: 
+0900
+–
+2025116.
+
+
+
+
+
+===== TOPIC 5: Nieuwe DirectX drivers installeren =====
+
+
+Nieuwe DirectX drivers installeren
+
+
+
+
+We raden je aan de nieuwste stuurprogramma's van de fabrikant van je video- of geluidskaart te gebruiken. Voor jouw gemak staan in de map 
+Helpdesk 
+van de A2 Racer cd-rom een aantal stuurprogramma's voor veel gebruikte video- en geluidskaarten.
+Staan de stuurprogramma's van jouw video- of geluidskaart hier niet bij, kijk dan op 
+
+www.winfiles.com
+
+, waar je de laatste informatie vindt over alle bekende stuurprogramma's.
+
+
+
+
+Je hebt, voordat je op zoek gaat naar nieuwe stuurprogramma's, bestaande versies nodig van de huidige stuurprogramma's. Hoe je hier achter komt, staat bij 
+
+Versie DirectX audiodrivers
+
+ of 
+
+Versie DirectX videodrivers
+
+.
+
+
+
+
+
+
+===== TOPIC 6: Updates en extra's =====
+
+
+Updates en extra's
+
+
+
+
+Voor de laatste nieuwtjes en eventuele updates van A2 Racer kun je terecht op onze Internetpagina 
+
+www.A2racer.nl
+
+ 
+Voor algemene informatie over Davilex kun je terecht op onze Internetpagina 
+
+www.davilex.com
+
+ 
+
+
+
+
+
+
+===== TOPIC 7: 3D-kaarten =====
+
+
+3D-kaarten
+
+
+
+
+A2 Racer ondersteunt verschillende 3D-kaarten. Er zijn echter enkele kaarten die wij niet ondersteunen. Je 3D-kaart moet minimaal aan de volgende systeemeisen voldoen:
+
+
+
+
+·
+
+4 Mb geheugen
+
+·
+
+DirectX Support
+
+
+
+
+A2 Racer ondersteunt onder andere:
+
+
+
+·
+
+Voodoo serie
+
+·
+
+TNT serie
+
+
+
+·
+
+Geforce serie
+
+
+
+·
+
+Matrox serie
+
+
+
+
+Heb je problemen met je 3D-kaart, dan raden we je aan eerst nieuwe stuurprogramma's te installeren. Zie hiervoor 
+
+Nieuwe DirectX drivers
+
+.
+
+
+
+
+
+
+===== TOPIC 8: Speciale PowerVR instellingen =====
+
+
+Speciale PowerVR instellingen
+
+
+
+
+Om de PowerVR ten volle te benutten, kun je speciale mogelijkheden instellen. 
+Dit doe je op de volgende manier: 
+
+
+
+
+
+Let op!
+ Dit geldt alleen voor PowerVR versie 1.
+
+
+
+1.
+Klik op 
+Start
+ð
+Instellingen
+ð
+Configuratiescherm
+. 
+
+
+
+
+2.
+Dubbelklik op 
+Beeldscherm
+.
+
+
+
+3.
+Klik op het tabblad 
+PowerVR
+.
+
+
+
+4.
+Klik op 
+Advanced
+.
+
+
+
+5.
+Klik op 
+Add Application Hints
+.
+
+
+
+6.
+Voer een beschrijving in van de toepassing, in dit geval ' 
+A2 Racer
+’
+.
+
+
+
+7.
+Zoek het bestand A2 Racer.exe via de bladerknop (browse). Dit bestand is te vinden in de map 
+C:\Program Files\Davilex\A2 Racer4
+.
+
+
+
+8.
+Klik op 
+A2 Racer4.exe
+ en klik op 
+Openen
+.
+
+
+
+9.
+Plaats een vinkje bij de volgende opties:
+
+
+
+·
+
+Enable PowerVR HAL
+
+
+
+·
+
+Dithering
+
+
+
+·
+
+Color Key
+
+
+
+10.
+Zet de volgende optie op 
+None
+: 
+‘
+Override application sorting
+’
+
+
+
+
+11.
+Klik op 
+OK
+.
+
+
+
+12.
+Klik nogmaals op 
+OK
+ in het tabblad 
+Eigenschappen voor Beeldscherm.
+
+
+
+
+13.
+Je kunt A2 Racer nu opnieuw starten.
+
+
+
+
+===== TOPIC 9: "Kan de A2 Racer cd-rom niet vinden" =====
+
+
+"Kan de A2 Racer cd-rom niet vinden"
+
+
+
+Deze melding kan zich in twee situaties voordoen:
+
+
+
+
+
+A2 Racer cd zit niet in de cd-romspeler.
+
+Als je A2 Racer wilt spelen, moet de cd in de cd-romspeler zitten vóórdat je het spel opstart.
+
+
+Meerdere cd-romspelers
+
+A2 Racer moet in de master cd-romspeler zitten als je A2 Racer wilt spelen. Als je niet weet welk van je cd-romspelers de master is, probeer dan alle cd-romspelers, totdat A2 Racer werkt.
+
+
+
+
+
+
+===== TOPIC 10: Error - ...Blt_surf_2_surf blitting error (operation not supported) =====
+
+
+Error - ...Blt_surf_2_surf blitting error ( operation not supported)
+
+
+
+
+Je videodrivers zijn waarschijnlijk verouderd. Installeer de videodrivers opnieuw.
+
+
+
+
+
+
+
+
+===== TOPIC 11: Algemeen =====
+
+
+Algemeen
+
+
+
+
+A2 Racer maakt gebruik van DirectX van Microsoft. Om het programma optimaal te laten draaien, adviseren wij je de meest recente stuurprogramma
+’
+s van je video- of geluidskaart te gebruiken.
+Als je denkt dat je verouderde stuurprogramma
+’
+s hebt, raadpleeg dan op de Davilex homepage de sectie 
+‘
+Stuurprogramma
+’
+s
+’
+ van jouw hardwareleverancier(s).
+
+
+
+www.davilex.nl/nl/algemeen/stuurprog.htm 
+
+ 
+
+
+
+Staan de drivers van jouw video- of geluidskaart hier niet bij, ga dan naar de DirectX homepage op 
+www.microsoft.com/directx
+. Hier hebben ze de laatste informatie over alle ondersteunde drivers.
+
+
+
+Video-drivers:
+
+
+www.microsoft.com/directx/pavilion/hardware/vidcardlist.htm
+
+ 
+
+
+Audio-drivers:
+
+
+www.microsoft.com/directx/pavilion/hardware/soundcardlist.htm
+
+ 
+
+
+
+
+===== TOPIC 12: Systeemtips - Inleiding =====
+
+
+Systeemtips - Inleiding
+
+
+
+
+De problemen die je ondervindt met het Davilex-programma, worden mogelijk veroorzaakt door de zogeheten schijfvervuiling en/of bepaalde instellingen op je pc.
+
+
+
+
+Tijdens ieder gebruik van een pc treedt er vervuiling van de harde schijf op. Hierdoor kan het gebeuren dat programma's die veel data van de harde schijf lezen of schrijven niet goed meer functioneren. Door regelmatig de harde schijf van je computer te controleren, kun je veel problemen voorkomen.
+
+
+
+
+1.
+
+
+Verwijder alle tijdelijke bestanden van de computer
+
+ 
+
+
+2.
+
+
+Scan de harde schijf op fouten m.b.v. het programma Scandisk
+
+ 
+
+
+3.
+
+
+Defragmenteer de harde schijf
+
+
+
+
+
+
+===== TOPIC 13: Tijdelijke bestanden van de computer verwijderen =====
+
+
+Tijdelijke bestanden van de computer verwijderen
+
+
+
+1.
+Ga naar 
+Start
+ð
+Afsluiten
+ en kies 
+Opstarten
+ in MS-DOS modus. 
+
+
+
+2.
+Typ hierna het volgende commando in: 
+“
+SET
+”
+ en druk op 
+Enter
+.
+
+
+
+3.
+Er verschijnt nu een lijst met de instellingen van je pc. Eén of meer van deze instellingen geven de mappen aan waar de tijdelijke bestanden worden bewaard (bijvoorbeeld 
+C:\WINDOWS\TEMP
+).
+
+
+
+4.
+Ga naar de juiste map door bijvoorbeeld in te typen: 
+
+“
+CD\WINDOWS\TEMP
+”
+  en druk op 
+Enter
+.
+
+
+
+5.
+Verwijder alle overbodige tijdelijke bestanden met het commando:
+
+DEL*.TMP
+ en druk op 
+Enter
+.
+
+
+
+6.
+Keer terug naar Windows door het volgende commando in te typen: 
+“
+EXIT
+”
+ en druk op 
+Enter
+.
+
+
+
+
+===== TOPIC 14: Harde schijf op fouten scannen m.b.v. het programma Scandisk =====
+
+
+Harde schijf op fouten scannen m.b.v. het programma Scandisk
+
+
+
+1.
+Kies voor 
+Start
+ð
+Uitvoeren
+ en typ als opdrachtregel in:
+
+“
+SCANDISK
+”
+ en klik op 
+OK
+.
+
+
+
+2.
+Kies voor de opties 
+Uitgebreid
+ en 
+Fouten automatisch repareren
+, druk vervolgens op 
+Beginnen
+ en volg de instructies van het programma.
+
+
+
+
+===== TOPIC 15: Harde schijf defragmenteren =====
+
+
+Harde schijf defragmenteren
+
+
+
+1.
+Kies voor 
+Start
+ð
+Uitvoeren
+ en typ in: 
+“
+DEFRAG
+”
+ en druk op 
+OK
+. 
+
+
+
+
+Mogelijk geeft het programma aan dat het defragmenteren niet noodzakelijk is, omdat slechts een klein percentage van de harde schijf gedefragmenteerd is. Indien je de harde schijf niet regelmatig hebt gedefragmenteerd, is het raadzaam de defragmentatie toch te laten uitvoeren.
+
+
+
+
+Indien je meerdere harde schijven in je computer hebt zitten, zul je 
+DEFRAG 
+voor elke van deze harde schijven moeten uitvoeren.
+
+
+
+Let op! 
+ Zowel de controle als de defragmentatie van de harde schijf kunnen geruime tijd in beslag nemen.
+
+
+
+
+
+Tip:
+ Controleer het aantal gedeclareerde FILES in het bestand 
+CONFIG.SYS:
+
+
+
+
+
+1.
+Kies voor 
+Start
+ð
+Uitvoeren
+ en typ: 
+“
+SYSEDIT
+”
+ en druk op 
+OK
+.
+
+
+
+2.
+Controleer het aantal gedeclareerde FILES bij de instellingen van het bestand 
+CONFIG.SYS
+. Indien dit er minder zijn dan 40, raden wij je aan dit aantal te verhogen naar een aantal dat ligt tussen de 40 en de 80.
+
+
+
+
+===== TOPIC 16: Jouw systeem voldoet niet aan de minimale systeemeisen =====
+
+
+Jouw systeem voldoet niet aan de minimale systeemeisen
+
+
+
+
+Wanneer het spel te traag werkt, kan dit verschillende oorzaken hebben. Controleer eerst of jouw systeem voldoet aan de minimale systeemeisen. Deze eisen staan onder meer vermeld op de zijkant van de verpakking. 
+
+
+
+
+
+
+===== TOPIC 17: Er zijn andere programma's onder Windows actief =====
+
+
+Er zijn andere programma's onder Windows actief
+
+
+
+
+Wanneer het spel te traag werkt, kan dit verschillende oorzaken hebben. Ook het actief zijn van andere programma's onder Windows tijdens het spelen van A2 Racer kan een negatieve invloed op de (grafische) prestaties hebben.
+
+Ga dit dus eerst na.
+
+
+
+
+===== TOPIC 18: Beeldschermresolutie is niet correct =====
+
+
+Beeldschermresolutie is niet correct
+
+
+
+
+De problemen die je hebt, worden waarschijnlijk veroorzaakt door de ingestelde resolutie van je beeldscherm. Door de instellingen van het beeldscherm te veranderen, wordt het probleem waarschijnlijk opgelost. Je gaat hierbij als volgt te werk:
+
+
+
+
+1.
+Ga naar 
+Start
+ð
+Instellingen
+ð
+Configuratiescherm
+ð
+Beeldscherm
+ en selecteer het tabblad 
+Instellingen
+.
+
+
+
+2.
+Stel het kleurenpalet in op 
+256 kleuren
+, de tekengrootte op 
+Kleine lettertypen
+ en bureaublad op 
+800x 600 pixels
+.
+
+
+
+3.
+Klik op 
+OK
+.
+
+
+
+
+===== TOPIC 19: Monitor is verkeerd ingesteld =====
+
+
+Monitor is verkeerd ingesteld
+
+
+
+
+Je kunt de monitorinstellingen als volgt aanpassen:
+
+
+
+
+1.
+Ga naar 
+Start
+ð
+Instellingen
+ð
+Configuratiescherm
+ð
+Beeldscherm
+.
+
+
+
+2.
+Kies voor het tabblad 
+Instellingen
+.
+
+
+
+3.
+Klik op de knop 
+Geavanceerde eigenschappen
+.
+
+
+
+4.
+Kies vervolgens voor het tabblad 
+Monitor
+.
+
+
+
+5.
+Klik nu op de knop 
+Wijzigen
+.
+
+
+
+6.
+Selecteer 
+Standaard monitortypen
+ en 
+Super VGA 800x600
+.
+
+
+
+7.
+Klik op de knop 
+Toepassen
+ en daarna op 
+OK
+. Herstart nu de computer.
+
+
+
+Let op! 
+Indien je de monitor instelt zoals hierboven is beschreven, kun je zeer waarschijnlijk geen gebruik meer maken van de extra functies van je monitor. Raadpleeg de handleiding van jouw monitor voor de juiste instellingen. Zorg er daarbij voor dat je de monitor minimaal op 
+SVGA 800x600 
+instelt.
+
+
+
+
+===== TOPIC 20: Schermbeveiliging staat nog aan =====
+
+
+Schermbeveiliging staat nog aan
+
+
+
+
+Door de schermbeveiliging van Windows uit te schakelen, kun je onderzoeken of de problemen worden veroorzaakt door een conflict tussen de software van Davilex en de schermbeveiliging. Ga als volgt te werk om de schermbeveiliging uit te schakelen:
+
+
+
+
+1.
+Ga naar 
+Start
+ð
+Instellingen
+ð
+Configuratie scherm
+.
+
+
+
+2.
+Dubbelklik op het pictogram 
+Beeldscherm
+.
+
+
+
+3.
+Selecteer nu het tabblad 
+Schermbeveiliging
+.
+
+
+
+4.
+Vervolgens kies je voor 
+Schermbeveiliging
+ en de optie 
+(Geen).
+
+
+
+
+5.
+Klik op de Knop 
+Toepassen
+ en daarna op 
+OK
+.
+
+
+
+
+===== TOPIC 21: Flikkerend beeld =====
+
+
+Flikkerend beeld
+
+
+
+
+Als het beeld flikkert tijdens het spel, kun je dit op de volgende manier oplossen:
+
+
+
+
+1.
+Ga naar het 
+Opties Menu
+ en klik onder het kopje
+ 
+‘
+Weergave
+’
+ op de knop 
+Geavanceerd.
+
+
+
+
+2.
+Kies vervolgens het tabblad 
+Problemen
+.
+
+
+
+3.
+Zet de optie 
+‘
+Ververssingssnelheid synchroniseren op beeldscherm
+’
+ aan door met je muis op het hokje voor deze regel te klikken.
+
+
+
+4.
+Klik vervolgens op 
+OK. 
+
+
+
+
+
+===== TOPIC 22: Textures zijn niet transparant =====
+
+
+Textures zijn niet transparant
+
+
+
+
+Verschillende 3D-kaarten ondersteunen geen transparante textures. A2 Racer gebruikt deze transparanties voor onder meer remlichten en zwaailichten. Je kunt de transparante textures op de volgende manier uitzetten:
+
+
+
+
+1.
+Ga naar het 
+Opties Menu
+ en klik onder het kopje
+ 
+‘
+Weergave
+’
+ op de knop 
+Geavanceerd.
+
+
+
+
+2.
+Kies vervolgens het tabblad 
+Problemen.
+
+
+
+
+3.
+Zet de optie 
+‘
+Transparante effecten aan (alleen 3D-kaart)
+’
+ uit, door met je muis op het afgevinkte hokje voor deze regel te klikken. Het vinkje zal nu verdwijnen.
+
+
+
+4.
+Klik vervolgens op 
+OK. 
+
+
+
+
+
+===== TOPIC 23: Videosettings staan verkeerd =====
+
+
+Videosettings staan verkeerd
+
+
+
+
+Een traag spel kan ook te maken hebben met een te hoge videosetting. 
+
+Je hebt in het 
+Opties
+-menu onder 
+‘
+Weergave
+’
+ gekozen voor de resolutie 
+Hoog
+ of 
+3D-kaart
+. 
+Voor 
+Hoog
+ heb je een zeer snelle pc nodig en voor de optie 3D-kaart heb je een speciale 3D-kaart nodig. Probeer het spel eens te spelen in een lager resolutie. Zet daarvoor in het 
+Opties
+-menu de instelling van de weergave naar 
+Laag
+.
+
+
+
+
+
+
+===== TOPIC 24: Hardware-acceleratie is niet correct =====
+
+
+Hardware-acceleratie is niet correct
+
+
+
+Je kunt de instellingen van je hardware-acceleratie op de volgende manier wijzigen:
+
+
+
+1.
+Kies 
+Start
+ð
+Instellingen
+ð
+Configuratiescherm
+.
+
+
+
+2.
+Dubbelklik op het pictogram 
+Systeem
+.
+
+
+
+3.
+Klik op het tabblad 
+Prestaties
+ en kies vervolgens 
+Beeldscherm
+.
+
+
+
+4.
+Verplaats de 
+‘
+Hardware Acceleratie
+’
+ schuifknop totdat deze zich één positie rechts van 
+Geen
+ bevindt (dit is de 
+”
+Basis-acceleratiefuncties
+”
+ instelling) 
+
+
+
+5.
+Klik op 
+OK
+, en kies dan voor 
+Sluiten
+.
+
+
+
+6.
+Wanneer wordt gevraagd de computer te herstarten, klik je op 
+Ja
+. 
+
+
+
+
+Na het herstarten van Windows, zal het programma zonder problemen moeten starten. 
+
+
+
+
+
+===== TOPIC 25: Waarom heb ik na installatie van DirectX geen beeld meer in Windows? =====
+
+
+Waarom heb ik na installatie van DirectX geen beeld meer in Windows?
+
+
+
+
+Waarschijnlijk zijn de stuurprogramma
+’
+s voor je videokaart verouderd en werken ze niet goed samen met DirectX. Het beste is nieuwe stuurprogramma
+’
+s te zoeken en deze te installeren.
+
+Kun je deze stuurprogramma
+’
+s niet vinden, dan kun je de originele stuurprogramma
+’
+s voor je videokaart herstellen door het volgende te doen: 
+
+
+
+
+1.
+Plaats de cd-rom in je cd-romspeler.
+
+
+
+2.
+Ga naar 
+Start
+ð
+Uitvoeren
+. 
+
+
+
+
+3.
+Typ als opdrachtregel in: 
+X:\DXSETUP\dxsetup.exe
+, waarbij 
+“
+X
+”
+ staat voor de driveletter van je cd-romspeler.
+
+
+
+4.
+Je krijgt nu een venster met onder andere de knop 
+Beeldschermstuurprogramma
+’
+s terugzetten
+. Klik op deze knop en volg verdere aanwijzigen van het programma.
+
+
+
+
+===== TOPIC 26: Waarom heb ik schokkerig of zwart beeld tijdens het spel? =====
+
+
+Waarom heb ik schokkerig of zwart beeld tijdens het spel?
+
+
+
+
+Na het starten van een Davilex programma wordt het beeld zwart of zie je slechts een patroon van golvende lijnen tegen een zwarte achtergrond. Deze problemen worden veroorzaakt door het feit dat het met het programma meegeleverde Windows stuurprogramma DirectX de beeldvernieuwingsfrequentie (refresh-rate) van je monitor aanpast.
+
+Je kunt dit probleem op twee manieren oplossen:
+
+
+
+
+1.
+
+
+Het wijzigen van de beeldvernieuwingsfrequentie
+
+.
+
+
+2.
+
+
+Het wijzigen van de hardware acceleratie instelling van je beeldschermadapter
+
+.
+
+
+
+
+===== TOPIC 27: Wijzigen van de beeldvernieuwingsfrequentie =====
+
+
+Wijzigen van de beeldvernieuwingsfrequentie
+
+
+
+
+Niet alle videostuurprogramma
+’
+s stellen je in staat de vernieuwingsfrequentie te veranderen. Wanneer jouw videostuurprogramma je niet in staat stelt de vernieuwingsfrequentie van je monitor in te stellen, volg dan de stappen in  
+
+"Het wijzigen van de Hardware Acceleratie instelling"
+
+. 
+Ga als volgt te werk om vast te stellen of jouw videostuurprogramma de mogelijkheid biedt om de vernieuwingsfrequentie van je monitor in te stellen:
+
+
+
+
+1.
+Kies voor 
+Start
+ð
+Instellingen
+ð
+Configuratiescherm
+.
+
+
+
+2.
+Dubbelklik op het pictogram 
+Beeldscherm
+ en kies vervolgens 
+Instellingen
+.
+
+
+
+3.
+Klik op de knop 
+Beeldschermtype wijzigen
+ en kies vervolgens 
+Adapter
+.
+
+
+
+OPMERKING
+: Wanneer je Microsoft Windows 95 OEM Service Release 2 (OSR2) gebruikt, klik je op 
+Geavanceerde eigenschappen
+ en vervolgens op het tabblad 
+Adapter
+. Wanneer je Microsoft Windows 98 gebruikt, klik je op 
+Geavanceerd
+ en dan op het tabblad 
+Adapter
+.
+
+
+
+·
+
+Wanneer je geen tabblad 
+Adapter
+ ziet, volg je de aanwijzingen in 
+
+"Het verlagen van de Hardware Acceleratie"
+
+.
+
+
+
+·
+
+Wanneer je een vernieuwingsfrequentie keuzeregel ziet, kun je handmatig de vernieuwingsfrequentie van je monitor aanpassen. 
+
+
+
+
+Je kunt de vernieuwingsfrequentie van jouw monitor op de volgende manier wijzigen:
+
+
+
+1.
+Kies 
+Start
+ð
+Instellingen
+ð
+Configuratiescherm
+.
+
+
+
+2.
+Dubbelklik op het pictogram 
+Beeldscherm
+ en kies vervolgens 
+Instellingen
+.
+
+
+
+3.
+Klik op 
+Beeldschermtype wijzigen
+ en kies vervolgens 
+Adapter
+.
+
+
+
+4.
+Op het tabblad 
+Adapter
+ kies je in de keuzeregel 
+‘
+Vernieuwingsfrequentie
+’
+ voor 
+Standaardwaarden Adapter.
+ Klik vervolgens op 
+OK
+.
+
+
+
+5.
+Klik op 
+OK 
+wanneer gevraagd wordt de instelling te testen. 
+
+
+
+6.
+Werkt de instelling correct, klik dan op 
+Ja
+ om de instelling te bewaren. Werkt de instelling niet correct, klikt dan op 
+Nee
+ en volgt de stappen in 
+
+"Het wijzigen van de Hardware Acceleratie instelling"
+
+.
+
+
+
+7.
+Klik op 
+OK
+, en sluit het Configuratiescherm.
+
+
+
+
+===== TOPIC 28: Waarom start het programma niet goed op na installatie? =====
+
+
+Waarom start het programma niet goed op na installatie?
+
+
+
+Om dit probleem op te lossen, moet je DirectX opnieuw installeren. 
+Ga hiervoor als volgt te werk:
+
+
+
+1.
+Plaats de cd-rom in de cd-romspeler.
+
+
+
+2.
+Kies 
+Start
+ð
+Uitvoeren
+.
+
+
+
+
+3.
+Geef nu als opdracht:
+“
+X:\DXSETUP\dxsetup.exe
+”
+
+(X staat voor de aanduiding van je cd-romspeler) 
+en klik op 
+OK
+.
+
+
+
+4.
+Het installatieprogramma van DirectX wordt nu gestart.
+
+
+
+5.
+Kies voor de optie 
+DirectX opnieuw installeren
+. 
+
+
+
+
+Let op!
+ Tijdens de installatie kun je de melding krijgen dat er oudere stuurprogramma's op je systeem aanwezig zijn. Op de vraag of deze stuurprogramma's overschreven moeten worden, antwoord je met 
+Ja
+. 
+
+
+
+6.
+Start Windows opnieuw op door op 
+OK
+ te klikken.
+
+
+
+
+===== TOPIC 29: Welke versie videokaartstuurprogramma's zijn er geïnstalleerd? =====
+
+
+Welke versie videokaartstuurprogramma's zijn er geïnstalleerd?
+
+
+
+
+Om de juiste stuurprogramma
+’
+s voor je videokaart te kunnen vinden, is het van belang te weten welke videokaart je hebt en welke versies van de stuurprogramma
+’
+s je hebt geïnstalleerd.
+Je kunt dit op de volgende manier nagaan:
+
+
+
+
+1.
+Ga naar 
+Start
+ð
+Instellingen
+ð
+Configuratiescherm
+.
+
+
+
+2.
+Dubbelklik op het pictogram 
+Systeem
+.
+
+
+
+3.
+Klik op 
+Apparaatbeheer
+.
+
+
+
+4.
+Open de lijst 
+Beeldschermadapters
+ en klik op 
+[+]
+.
+
+
+
+5.
+Klik op de daaronder vermelde adapter en klik op 
+Eigenschappen
+.
+
+
+
+6.
+Onder het tabblad 
+Algemeen
+ staan nu merk en type videokaart vermeld. Noteer deze.
+
+
+
+7.
+Klik op het tabblad 
+Stuurprogramma's
+. Noteer hieruit datum en versienummer.
+
+
+
+
+Je hebt nu alle informatie in je bezit om nieuwe stuurprogramma
+’
+s te vinden.
+Met deze informatie kun je contact opnemen met de leverancier of producent van de videokaart om te controleren of je over de meest recente versie van het stuurprogramma beschikt. 
+Stuurprogramma's zijn meestal gratis te downloaden vanaf de Internetsite van de producent en/of leverancier van de videokaart.
+
+
+
+
+
+
+===== TOPIC 30: Waarom ontmoet ik tijdens het spel zo weinig andere verkeersdeelnemers? =====
+
+
+Waarom ontmoet ik tijdens het spel zo weinig andere verkeersdeelnemers?
+
+
+
+
+De hoeveelheid verkeer dat tijdens het spel op de weg aanwezig is, is afhankelijk van de kloksnelheid van je pc, de kwaliteit van je videokaart en de hoeveelheid beschikbaar geheugen.
+Door het spel in een lagere resolutie te spelen, zal het systeem minder zwaar belast worden. Je kunt de resolutie in het spel als volgt aanpassen:
+
+
+
+1.
+Start het programma op.
+
+
+
+2.
+Ga naar het 
+Opties Menu
+.
+
+
+
+3.
+Selecteer onder het kopje 
+Weergave
+ een lagere resolutie. Druk op 
+OK
+.
+
+
+
+
+===== TOPIC 31: Hoe kan ik problemen met geluid oplossen? =====
+
+
+Hoe kan ik problemen met geluid oplossen?
+
+
+
+Heb je tijdens het spelen van het Davilex Programma problemen met de geluidsweergave? Installeer dan de audiodriver van DirectX opnieuw.
+
+
+
+
+Versie van DirectX audiodrivers
+
+Om de juiste stuurprogramma's voor je geluidskaart te kunnen vinden, is het van belang te weten welke geluidskaart je hebt en welke versie stuurprogramma's (drivers) je hebt geïnstalleerd.
+
+Je kunt dit op de volgende manier nagaan:
+
+
+
+1.
+Klik op 
+Start
+ð
+Instellingen
+ð
+Configuratiescherm
+.
+
+
+
+2.
+Dubbelklik op 
+Systeem
+.
+
+
+
+3.
+Kies het tabblad 
+Apparaatbeheer
+.
+
+
+
+4.
+Open de lijst 
+Besturing voor geluid, video en spelletjes
+ en klik op 
+[+]
+.
+
+
+
+5.
+Klik op de daaronder vermelde geluidsadapter en klik op 
+Eigenschappen
+.
+
+
+
+6.
+In het tabblad Algemeen staan nu merk en type van de geluidskaart. Noteer deze.
+
+
+
+7.
+Klik op het tabblad 
+Stuurprogramma's
+. Noteer de weergegeven datum en het versienummer.
+
+
+
+
+Met deze informatie kun je contact opnemen met de leverancier of producent van de geluidskaart om te controleren of je over de meest recente versies van de stuurprogramma's beschikt. 
+De stuurprogramma's zijn meestal gratis te downloaden vanaf de Internetsite van de producent en/of leverancier van de geluidskaart.
+
+
+
+
+
+===== TOPIC 32: Waarom werkt het geluid onder Windows niet meer na installatie van DirectX? =====
+
+
+Waarom werkt het geluid onder Windows niet meer na installatie van DirectX?
+
+
+
+
+Het programma maakt gebruik van DirectX. Tijdens de installatie van het programma wordt ook een versie van DirectX geïnstalleerd. Er worden onder andere nieuwe (algemene) stuurprogramma
+’
+s voor je geluidskaart geïnstalleerd. Kennelijk werken deze nieuwe stuurprogramma
+’
+s niet goed samen met de geluidskaart van jouw computer.
+De meeste fabrikanten van geluidskaarten plaatsen nieuwe stuurprogramma
+’
+s (aangepast aan de nieuwe versie van DirectX) op Internet. Ook jouw hardwareleverancier kan je van een nieuw stuurprogramma voorzien.
+
+
+
+Zie ook:  
+
+
+
+
+
+Nieuwe DirectX drivers installeren
+
+ 
+
+
+Hoe kan ik problemen met geluid oplossen?
+
+ 
+
+Kun je geen nieuwe stuurprogramma
+’
+s bemachtigen, plaats dan de originele stuurprogramma
+’
+s voor je geluidskaart terug. Ga hiervoor als volgt te werk:
+
+
+
+
+1.
+Plaats de cd-rom in je cd-romspeler.
+
+
+
+2.
+Ga naar  
+Start 
+Þ
+ Uitvoeren 
+en typ hier als opdrachtregel in: 
+“
+X:\DXSETUP\dxsetup.exe
+”
+
+(X staat hierbij voor de letter van jouw cd-romspeler) 
+
+
+
+3.
+Klik op 
+OK.
+
+
+
+
+4.
+Klik op de knop 
+Geluidsstuurprogramma
+’
+s terugzetten
+ en volg de aanwijzingen van het setupprogramma.
+
+
+
+
+Om de juiste stuurprogramma's voor je geluidskaart te kunnen vinden, is het van belang te weten welke geluidskaart je hebt en 
+
+welke versie
+
+ geluidskaart-stuurprogramma's (drivers) je hebt geïnstalleerd.
+
+
+Bieden bovenstaande oplossingen geen uitkomst, schakel dan het geluid volledig uit. 
+
+
+
+
+
+
+
+
+===== TOPIC 33: Waarom werkt na installatie van DirectX het geluid onder Windows niet meer? =====
+
+
+Waarom werkt na installatie van DirectX het geluid onder Windows niet meer?
+
+
+
+
+Het programma maakt gebruik van DirectX. Tijdens de installatie van het programma wordt ook een versie van DirectX geïnstalleerd. Er worden onder andere nieuwe (algemene) stuurprogramma
+’
+s voor je geluidskaart geïnstalleerd. Kennelijk werken deze nieuwe stuurprogramma
+’
+s niet goed samen met de geluidskaart van jouw computer.
+De meeste fabrikanten van geluidskaarten plaatsen nieuwe stuurprogramma
+’
+s (aangepast aan de nieuwe versie van DirectX) op Internet. Ook jouw hardwareleverancier kan je van een nieuw stuurprogramma voorzien.
+
+
+
+Zie ook:  
+
+
+
+
+
+Nieuwe DirectX drivers installeren
+
+ 
+
+
+Hoe kan ik problemen met geluid oplossen?
+
+ 
+
+Kun je geen nieuwe stuurprogramma
+’
+s bemachtigen, plaats dan de originele stuurprogramma
+’
+s voor je geluidskaart terug. Ga hiervoor als volgt te werk:
+
+
+
+
+5.
+Plaats de cd-rom in je cd-romspeler.
+
+
+
+6.
+Ga naar  
+Start 
+Þ
+ Uitvoeren 
+en typ hier als opdrachtregel in: 
+“
+X:\DXSETUP\dxsetup.exe
+”
+
+(X staat hierbij voor de letter van jouw cd-romspeler) 
+
+
+
+7.
+Klik op 
+OK.
+
+
+
+
+8.
+Klik op de knop 
+Geluidsstuurprogramma
+’
+s terugzetten
+ en volg de aanwijzingen van het setupprogramma.
+
+
+
+
+Om de juiste stuurprogramma's voor je geluidskaart te kunnen vinden, is het van belang te weten welke geluidskaart je hebt en 
+
+welke versie
+
+ geluidskaart-stuurprogramma's (drivers) je hebt geïnstalleerd.
+
+
+Bieden bovenstaande oplossingen geen uitkomst, schakel dan het geluid volledig uit. 
+
+
+
+
+
+
+
+===== TOPIC 34: Waarom werkt de besturing van mijn gamepad niet (goed)? =====
+
+
+Waarom werkt de besturing van mijn gamepad niet (goed)?
+
+
+
+
+Waarschijnlijk wordt het probleem veroorzaakt doordat de gamepad niet of niet correct onder Windows  is gekalibreerd. Door dit alsnog te doen, wordt het probleem verholpen. 
+
+Om dit probleem op te lossen kun je de volgende stappen volgen:
+
+
+
+
+1.
+Ga naar 
+Start
+ð
+Instellingen
+ð
+Configuratiescherm
+ en selecteer de optie Spelbesturing. 
+
+
+
+2.
+Klik op Toevoegen (let er hierbij op dat je de juiste soort gamepad kiest). 
+
+
+
+3.
+Geef de juiste gamepad op en klik op Eigenschappen. 
+
+
+
+4.
+Bij Instellingen klik je op Kalibreren. 
+
+
+
+5.
+Volg verder de instructies op het beeldscherm.
+
+
+
+
+===== TOPIC 35: Waarom werkt de besturing van mijn stuur niet (goed)? =====
+
+
+Waarom werkt de besturing van mijn stuur niet (goed)?
+
+
+
+
+Als je stuur niet of niet goed werkt, kan dit twee oorzaken hebben: of je stuur is niet gekalibreerd onder Windows, of je hebt het stuur bewogen nadat je in het 
+Opties
+-menu op start hebt gedrukt. Hieronder staat beschreven hoe je dit kunt oplossen.
+
+
+Stuur kalibreren
+
+Je moet het stuur eerst kalibreren onder Windows voordat je deze kan gebruiken. 
+Dit kun je op de volgende wijze doen:
+
+
+
+
+1.
+Klik op 
+Start
+ð
+Instellingen
+ð
+Configuratiescherm
+.
+
+
+
+2.
+Kies 
+Spelbesturingen
+.
+
+
+
+3.
+Klik op 
+Toevoegen
+ en selecteer het juiste type Stuur en klik op 
+OK
+.
+
+
+
+4.
+Klik op 
+Eigenschappen
+. Op het tabblad 
+Instellingen
+ kun je het stuur via de knop 
+Kalibreren
+ juist instellen.  
+
+
+
+5.
+Volg verder de aanwijzingen op het beeldscherm op. Via het tabblad 
+Testen
+ kun je het stuur gaan testen. 
+
+
+
+
+Het is zeer raadzaam ook de handleiding van je stuur te raadplegen.
+
+
+
+
+
+
+
+===== TOPIC 36: Error-...could not create surface (application out of free memory) =====
+
+
+Error-...could not create surface (application out of free memory)
+
+
+
+Deze melding kan twee verschillende oorzaken hebben. Het is mogelijk dat er sprake is van een probleem met 
+Virtual Memory
+. Ook kan het zijn dat je geen 
+3D-kaart
+ hebt geïnstalleerd, maar wel voor deze instelling hebt gekozen in het 
+Opties
+-menu. Hieronder zie je hoe je deze problemen kunt oplossen.
+
+
+
+
+
+Virtual Memory
+
+
+
+Windows maakt gebruik van Virtual Memory. Zodra A2 Racer wordt opgestart, wordt alles wat op dat moment in het geheugen van je pc staat naar Virtual Memory geschreven. Waarschijnlijk is de harde schijf waarop deze file gezet wordt vol (meestal C:\). Er moet minimaal 100 Mb vrij zijn om A2 Racer te kunnen draaien. Is dit niet het geval, dan kun je het beste proberen wat harde schijfruimte vrij te maken.
+
+
+
+
+Je kunt via de volgende stappen controleren of er genoeg ruimte vrij is op de harde schijf:
+
+
+
+
+1.
+Dubbelklik op het pictogram 
+Deze computer
+ op het bureaublad.
+
+
+
+2.
+Selecteer de harde schijf. Dit is meestal C:\.
+
+
+
+3.
+Ga naar 
+Bestand
+ en kies 
+Eigenschappen
+ (of: klik op je rechter muisknop en kies 
+Eigenschappen
+).
+
+
+
+4.
+Hier kun je aflezen hoeveel ruimte er nog vrij is.
+
+
+
+3D-kaart
+
+Je hebt in het 
+Opties
+-menu gekozen voor 3D-kaart. Jouw 3D-kaart wordt niet goed ondersteund door DirectX, óf je hebt geen 3D-kaart in je systeem zitten (dit is een extra 'add-on' voor je pc). Zet in het 
+Opties
+-menu de 3D-kaart uit en zet de weergave op 
+Normaal
+. Start dan A2 Racer opnieuw.
+
+
+
+
+===== TOPIC 37: De weergave tijdens het spel is te donker =====
+
+
+De weergave tijdens het spel is te donker
+
+
+
+
+Een bekend probleem is een te donkere weergave op sommige 3D-hardware, hierdoor wordt het lastig om het spel te spelen. Om dit te verhelpen heb je de volgende mogelijkheden:
+
+
+
+
+
+Helderheid verhogen via Windows Start menu:
+
+
+
+
+Kies 
+Start
+ð
+Instellingen
+ð
+Configuratie Scherm
+ð
+Beeldscherm
+.
+
+
+
+
+Indien je computer is uitgerust met 3D-hardware, kun je hier de helderheid instellen, meestal via zogenaamde gamma-sliders (schuifbalken). Als je het beeld helderder wilt hebben in 3D, moet je alledrie de kleuren gelijkmatig aanpassen. Hoe verder de kleuren naar rechts staan, hoe intenser de kleuren.
+
+Raadpleeg de pc-documentatie of -leverancier voor meer informatie.
+
+
+
+
+Helderheid verhogen in A2 Racer zelf
+
+Dit kun je doen door tijdens het spel op 
+[Esc] 
+te drukken en vervolgens bij 
+Weergave
+ð
+Helderheid 
+een hogere helderheid te kiezen.
+
+
+Let op
+: Het aanpassen van de helderheid duurt enige tijd.
+ 
+
+
+
+
+===== TOPIC 38: Update voor DirectX 7.0 =====
+
+
+Update voor DirectX 7.0
+
+
+
+
+Met 
+‘
+A2 Racer, de Politie slaat terug
+’
+ wordt DirectX 7.0 meegeleverd. Er is echter besloten om op de cd-rom is ook een 
+update
+ van Microsoft DirectX 7.0 naar DirectX 7.0a mee te leveren.
+
+Je kunt de DirectX van 7.0 naar 7.0a 
+updaten
+, door het volgende te doen:
+
+
+
+
+1.
+Plaats de cd-rom in je cd-romspeler.
+
+
+
+2.
+Ga naar 
+Start
+ð
+Uitvoeren
+. 
+
+
+
+
+3.
+Typ als opdrachtregel in: 
+X:\HELPDESK\DIRECTX\dx7adut.exe
+, waarbij 
+“
+X
+”
+ staat voor de driveletter van je cd-romspeler.
+
+
+
+
+===== TOPIC 39:  =====

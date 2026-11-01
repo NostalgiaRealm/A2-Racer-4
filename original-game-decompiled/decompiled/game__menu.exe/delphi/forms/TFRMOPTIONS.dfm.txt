@@ -1,0 +1,481 @@
+object frmOptions: TfrmOptions
+  Left = 50
+  Top = 4
+  ActiveControl = chkVideo3d.WrapperchkVideo3d
+  Caption = 'frmOptions'
+  ClientHeight = 520
+  ClientWidth = 753
+  OldCreateOrder = True
+  OnCreate = GDIFormCreate
+  OnDestroy = GDIFormDestroy
+  DoubleBuffered = True
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnHelp: TGDIButton
+    Left = 382
+    Top = 13
+  end
+  object btnCancel: TGDIButton
+    Left = 336
+    Top = 435
+    Width = 80
+    Height = 75
+    Cancel = False
+    Default = False
+    ModalResult = 0
+    Definition = Data.gdfBtnCancelDlg
+    MouseCheckDelay = 60
+    TabOrder = 5
+    TabStop = True
+    Caption = 'btnMain'
+    OnClick = btnCancelClick
+  end
+  object btnClose: TGDIButton
+    Left = 457
+    Top = 13
+  end
+  object btnOk1: TGDIButton
+    Left = 413
+    Top = 435
+    ModalResult = 0
+    OnClick = btnOkClick
+  end
+  object pnlBack1: TPanel
+    Left = 7
+    Top = 93
+    Width = 190
+    Height = 355
+    BevelOuter = bvNone
+    Caption = 'pnlBack1'
+    TabOrder = 3
+    object imgControl: TImage
+      Left = 54
+      Top = 9
+      Width = 105
+      Height = 105
+      AutoSize = True
+    end
+    object btnControls: TGDIButton
+      Left = 54
+      Top = 256
+      Width = 100
+      Height = 50
+      Cancel = False
+      Default = False
+      ModalResult = 0
+      Definition = gdfBtnCtrlSettings
+      MouseCheckDelay = 30
+      TabOrder = 0
+      TabStop = True
+      Caption = 'btnControls'
+      OnClick = btnControlsClick
+    end
+    object chkStartInfoOn: TGDICheckBox
+      Left = 10
+      Top = 313
+      Width = 40
+      Height = 40
+      Checked = False
+      Definition = Data.gdfCheckBox
+      TabOrder = 5
+      MouseCheckDelay = 60
+    end
+    object optKeyboard: TGDIRadioButton
+      Left = 61
+      Top = 155
+      Width = 16
+      Height = 16
+      Checked = False
+      Definition = Data.gdfRadioBtn
+      TabOrder = 1
+      MouseCheckDelay = 60
+      OnClick = optKeyboardClick
+    end
+    object optJoyPad: TGDIRadioButton
+      Left = 61
+      Top = 182
+      Width = 16
+      Height = 16
+      Checked = False
+      Definition = Data.gdfRadioBtn
+      TabOrder = 2
+      MouseCheckDelay = 60
+      OnClick = optJoypadClick
+    end
+    object optJoystick: TGDIRadioButton
+      Left = 61
+      Top = 207
+      Width = 16
+      Height = 16
+      Checked = False
+      Definition = Data.gdfRadioBtn
+      TabOrder = 3
+      MouseCheckDelay = 60
+      OnClick = optJoystickClick
+    end
+    object optWheel: TGDIRadioButton
+      Left = 61
+      Top = 232
+      Width = 16
+      Height = 16
+      Checked = False
+      Definition = Data.gdfRadioBtn
+      TabOrder = 4
+      MouseCheckDelay = 60
+      OnClick = optWheelClick
+    end
+    object lblKeyboard: TLabel
+      Left = 80
+      Top = 151
+      Width = 80
+      Height = 25
+      AutoSize = False
+      Caption = 'lblKeyboard'
+      Transparent = True
+      Layout = tlCenter
+      OnClick = lblKeyboardClick
+    end
+    object lblJoypad: TLabel
+      Left = 82
+      Top = 179
+      Width = 76
+      Height = 25
+      AutoSize = False
+      Caption = 'lblJoypad'
+      Transparent = True
+      Layout = tlCenter
+      OnClick = lblJoypadClick
+    end
+    object lblJoystick: TLabel
+      Left = 81
+      Top = 204
+      Width = 84
+      Height = 25
+      AutoSize = False
+      Caption = 'lblJoystick'
+      Transparent = True
+      Layout = tlCenter
+      OnClick = lblJoystickClick
+    end
+    object lblWheel: TLabel
+      Left = 84
+      Top = 226
+      Width = 76
+      Height = 25
+      AutoSize = False
+      Caption = 'lblWheel'
+      Transparent = True
+      Layout = tlCenter
+      OnClick = lblWheelClick
+    end
+    object lblClickArea: TLabel
+      Left = 41
+      Top = 326
+      Width = 200
+      Height = 25
+      AutoSize = False
+      Transparent = True
+      OnClick = lblClickAreaClick
+    end
+    object imgPanel1: TImage
+      Left = 0
+      Top = 0
+      Width = 190
+      Height = 355
+      Align = alClient
+    end
+  end
+  object pnlBack2: TPanel
+    Left = 209
+    Top = 96
+    Width = 290
+    Height = 309
+    BevelOuter = bvNone
+    Caption = 'pnlBack2'
+    TabOrder = 4
+    object imgPanel2: TImage
+      Left = 0
+      Top = 0
+      Width = 290
+      Height = 309
+      Align = alClient
+    end
+    object imgSound: TImage
+      Left = 166
+      Top = 7
+      Width = 119
+      Height = 107
+      AutoSize = True
+    end
+    object imgVideo: TImage
+      Left = 8
+      Top = 7
+      Width = 105
+      Height = 105
+      AutoSize = True
+    end
+    object imgVideo3d: TGDIGraphic
+      Left = 8
+      Top = 7
+      Width = 100
+      Height = 50
+      LinkedGraphic.Storage = SL_EXTERNAL
+      LinkedGraphic.GraphicName = ''
+      TransparentColor = clBlack
+      Transparent = False
+      TransparentMode = tmAuto
+      Translucent = True
+      TranslucencyFactor = 255
+    end
+    object chkVideo3d: TGDICheckBox
+      Left = 7
+      Top = 133
+      Width = 40
+      Height = 40
+      Checked = False
+      Definition = Data.gdfCheckBox
+      TabOrder = 4
+      MouseCheckDelay = 60
+      OnClick = chkVideo3dClick
+    end
+    object lblVideoLow: TLabel
+      Left = 33
+      Top = 176
+      Width = 80
+      Height = 25
+      AutoSize = False
+      Caption = 'lblVideo3d'
+      Transparent = True
+      Layout = tlCenter
+      OnClick = lblVideoLowClick
+    end
+    object optVideoLow: TGDIRadioButton
+      Left = 17
+      Top = 179
+      Width = 16
+      Height = 16
+      Checked = False
+      Definition = Data.gdfRadioBtn
+      TabOrder = 5
+      MouseCheckDelay = 60
+      OnClick = optVideoLowClick
+    end
+    object optVideoMedium: TGDIRadioButton
+      Left = 17
+      Top = 204
+      Width = 16
+      Height = 16
+      Checked = False
+      Definition = Data.gdfRadioBtn
+      TabOrder = 6
+      MouseCheckDelay = 60
+      OnClick = optVideoMediumClick
+    end
+    object lblVideoMedium: TLabel
+      Left = 33
+      Top = 200
+      Width = 80
+      Height = 25
+      AutoSize = False
+      Caption = 'lblVideo3d'
+      Transparent = True
+      Layout = tlCenter
+      OnClick = lblVideoMediumClick
+    end
+    object lblVideoHigh: TLabel
+      Left = 33
+      Top = 226
+      Width = 80
+      Height = 25
+      AutoSize = False
+      Caption = 'lblVideo3d'
+      Transparent = True
+      Layout = tlCenter
+      OnClick = lblVideoHighClick
+    end
+    object optVideoHigh: TGDIRadioButton
+      Left = 17
+      Top = 229
+      Width = 16
+      Height = 16
+      Checked = False
+      Definition = Data.gdfRadioBtn
+      TabOrder = 7
+      MouseCheckDelay = 60
+      OnClick = optVideoHighClick
+    end
+    object btnVideoAdvanced: TGDIButton
+      Left = 7
+      Top = 255
+      Width = 100
+      Height = 50
+      Cancel = False
+      Default = False
+      ModalResult = 0
+      Definition = gdfBtnAdvVideo
+      MouseCheckDelay = 30
+      TabOrder = 0
+      TabStop = True
+      Caption = 'btnVideoAdvanced'
+      OnClick = btnVideoAdvancedClick
+    end
+    object lblVideo3d: TLabel
+      Left = 36
+      Top = 150
+      Width = 62
+      Height = 25
+      AutoSize = False
+      Caption = 'lblVideo3d'
+      Transparent = True
+      Layout = tlCenter
+      OnClick = lblVideo3dClick
+    end
+    object sldrMusic: TDaviGraphicSlider
+      Left = 171
+      Top = 138
+      Width = 111
+      Height = 15
+      BackImage.Data = {binary 5098 bytes e6130000424de61300000000000036000000280000006f0000000f0000000100}
+      Definition = Data.defSlider
+      DelayTime = 250
+      LargeStep = 5
+      MarginHorz = 0
+      MarginVert = 0
+      Min = 0
+      Max = 100
+      Position = 0
+      RepeatTime = 50
+      OnChange = sldrMusicChange
+      TabOrder = 1
+      Text = 'sldrMusic'
+    end
+    object sldrSound: TDaviGraphicSlider
+      Left = 170
+      Top = 196
+      Width = 111
+      Height = 15
+      BackImage.Data = {binary 5098 bytes e6130000424de61300000000000036000000280000006f0000000f0000000100}
+      Definition = Data.defSlider
+      DelayTime = 250
+      LargeStep = 5
+      MarginHorz = 0
+      MarginVert = 0
+      Min = 0
+      Max = 100
+      Position = 0
+      RepeatTime = 50
+      OnChange = sldrSoundChange
+      TabOrder = 2
+      Text = 'sldrMusic'
+    end
+    object sldrVoice: TDaviGraphicSlider
+      Left = 169
+      Top = 259
+      Width = 111
+      Height = 15
+      BackImage.Data = {binary 5098 bytes e6130000424de61300000000000036000000280000006f0000000f0000000100}
+      Definition = Data.defSlider
+      DelayTime = 250
+      LargeStep = 5
+      MarginHorz = 0
+      MarginVert = 0
+      Min = 0
+      Max = 100
+      Position = 0
+      RepeatTime = 50
+      OnChange = sldrVoiceChange
+      TabOrder = 3
+      Text = 'sldrMusic'
+    end
+  end
+  object wavIrritatingAsHell: TDaviWave
+    Filename = 'd:\\acop\\ingebakken\\trin.wav'
+    Left = 88
+    Top = 16
+    WavFileData = {binary 2634 bytes 524946468a0a000057415645666d742010000000010001002256000044ac0000}
+  end
+  object gdfBtnAdvVideo: TGDIButtonDefinition
+    UpLink.Storage = SL_EXTERNAL
+    UpLink.GraphicName = ''
+    DownLink.Storage = SL_EXTERNAL
+    DownLink.GraphicName = ''
+    FocusedLink.Storage = SL_EXTERNAL
+    FocusedLink.GraphicName = ''
+    HoveredLink.Storage = SL_EXTERNAL
+    HoveredLink.GraphicName = ''
+    DisabledLink.Storage = SL_EXTERNAL
+    DisabledLink.GraphicName = ''
+    HintLink.Storage = SL_EXTERNAL
+    HintLink.GraphicName = ''
+    ClickRegionLink.Storage = SL_EXTERNAL
+    ClickRegionLink.GraphicName = ''
+    Width = 100
+    Height = 50
+    CaptionRect.Left = 0
+    CaptionRect.Top = 0
+    CaptionRect.Right = 0
+    CaptionRect.Bottom = 0
+    WordWrap = False
+    Layout = tlCenter
+    Alignment = taCenter
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    HintFont.Charset = DEFAULT_CHARSET
+    HintFont.Color = clWindowText
+    HintFont.Height = -11
+    HintFont.Name = 'MS Sans Serif'
+    HintFont.Style = []
+    Transparent = False
+    TransparentMode = tmAuto
+    TransparentColor = clBlack
+    Translucent = True
+    TranslucencyFactor = 255
+    Left = 256
+    Top = 424
+  end
+  object gdfBtnCtrlSettings: TGDIButtonDefinition
+    UpLink.Storage = SL_EXTERNAL
+    UpLink.GraphicName = ''
+    DownLink.Storage = SL_EXTERNAL
+    DownLink.GraphicName = ''
+    FocusedLink.Storage = SL_EXTERNAL
+    FocusedLink.GraphicName = ''
+    HoveredLink.Storage = SL_EXTERNAL
+    HoveredLink.GraphicName = ''
+    DisabledLink.Storage = SL_EXTERNAL
+    DisabledLink.GraphicName = ''
+    HintLink.Storage = SL_EXTERNAL
+    HintLink.GraphicName = ''
+    ClickRegionLink.Storage = SL_EXTERNAL
+    ClickRegionLink.GraphicName = ''
+    Width = 100
+    Height = 50
+    CaptionRect.Left = 0
+    CaptionRect.Top = 0
+    CaptionRect.Right = 0
+    CaptionRect.Bottom = 0
+    WordWrap = False
+    Layout = tlCenter
+    Alignment = taCenter
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    HintFont.Charset = DEFAULT_CHARSET
+    HintFont.Color = clWindowText
+    HintFont.Height = -11
+    HintFont.Name = 'MS Sans Serif'
+    HintFont.Style = []
+    Transparent = False
+    TransparentMode = tmAuto
+    TransparentColor = clBlack
+    Translucent = True
+    TranslucencyFactor = 255
+    Left = 96
+    Top = 424
+  end
+end

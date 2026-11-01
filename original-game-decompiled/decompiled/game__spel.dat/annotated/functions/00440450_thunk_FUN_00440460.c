@@ -1,0 +1,165 @@
+
+/* ==== thunk_FUN_00440460 @ 00440450 ==== 
+ * signature: undefined __stdcall thunk_FUN_00440460(void)
+ * body: 00440450-00440454
+ * thunk to: FUN_00440460
+ */
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void thunk_FUN_00440460(void)
+
+{
+  _DAT_0059c76c = 0x4b;
+  _DAT_0059c778 = 0x4b;
+  _DAT_0059c784 = 0x5c;
+  _DAT_0059c790 = 0x5c;
+  _DAT_0059c718 = DAT_005b379c / 2;
+  _DAT_0059c714 = DAT_005b3798 / 2;
+  _DAT_0059c774 = 0x229;
+  _DAT_0059c78c = 0x229;
+  _DAT_0059c79c = 0x6d;
+  _DAT_0059c7a4 = 0x229;
+  _DAT_0059c7a8 = 0x6d;
+  _DAT_0059c768 = 0x1e4;
+  _DAT_0059c780 = 0x1e4;
+  _DAT_0059c798 = 0x1e4;
+  _DAT_0059c7ec = 0x1e4;
+  _DAT_0059c71c = 0xffffffff;
+  _DAT_0059c720 = _DAT_0059c714;
+  _DAT_0059c724 = 0xaa;
+  _DAT_0059c728 = 0xffffffff;
+  _DAT_0059c72c = _DAT_0059c714;
+  _DAT_0059c730 = 0xdc;
+  _DAT_0059c734 = 0xffffffff;
+  _DAT_0059c738 = _DAT_0059c714;
+  _DAT_0059c73c = 0xf6;
+  _DAT_0059c740 = 0xffffffff;
+  _DAT_0059c744 = 0x222;
+  _DAT_0059c748 = 4;
+  _DAT_0059c74c = 0xffffffff;
+  _DAT_0059c750 = 0x1f6;
+  _DAT_0059c754 = 0x18;
+  _DAT_0059c758 = 0xffffffff;
+  _DAT_0059c75c = 0x214;
+  _DAT_0059c760 = 0x36;
+  _DAT_0059c764 = 0xffffffff;
+  _DAT_0059c770 = 0xffffffff;
+  _DAT_0059c77c = 0xffffffff;
+  _DAT_0059c788 = 0xffffffff;
+  _DAT_0059c794 = 0xffffffff;
+  _DAT_0059c7a0 = 0xffffffff;
+  _DAT_0059c7ac = 0xffffffff;
+  _DAT_0059c7b0 = 0x237;
+  _DAT_0059c7b4 = 0x8b;
+  _DAT_0059c7b8 = 0xffffffff;
+  _DAT_0059c7bc = 0x23b;
+  _DAT_0059c7c0 = 0x9f;
+  _DAT_0059c7c4 = 0xffffffff;
+  _DAT_0059c7c8 = 0x244;
+  _DAT_0059c7cc = 0xbd;
+  _DAT_0059c7d0 = 0xffffffff;
+  _DAT_0059c7d4 = 0x23b;
+  _DAT_0059c7d8 = 0xd1;
+  _DAT_0059c7dc = 9;
+  _DAT_0059c7e0 = 0x1da;
+  _DAT_0059c7e4 = 0xf;
+  _DAT_0059c7e8 = 0xb;
+  _DAT_0059c7f0 = 0x154;
+  _DAT_0059c7f4 = 0xffffffff;
+  _DAT_0059c7f8 = 0x246;
+  _DAT_0059c7fc = 0x170;
+  _DAT_0059c800 = 0x15;
+  _DAT_0059c804 = 0x21c;
+  _DAT_0059c808 = 0x184;
+  _DAT_0059c888 = 0x100;
+  _DAT_0059c894 = 0x100;
+  _DAT_0059c8a0 = 0x100;
+  _DAT_0059c80c = 0xffffffff;
+  _DAT_0059c810 = 0x22f;
+  _DAT_0059c814 = 0x199;
+  _DAT_0059c818 = 0xffffffff;
+  _DAT_0059c81c = 0x1f9;
+  _DAT_0059c820 = 0x1ac;
+  _DAT_0059c824 = 0xc;
+  _DAT_0059c828 = 0x1e5;
+  _DAT_0059c82c = 0xf;
+  _DAT_0059c830 = 0xffffffff;
+  _DAT_0059c834 = 0x20a;
+  _DAT_0059c838 = 0x38;
+  _DAT_0059c83c = 0xffffffff;
+  _DAT_0059c840 = 0x202;
+  _DAT_0059c844 = 0x4c;
+  _DAT_0059c848 = 0xffffffff;
+  _DAT_0059c84c = 0x234;
+  _DAT_0059c850 = 0x6b;
+  _DAT_0059c854 = 0xffffffff;
+  _DAT_0059c858 = 0x237;
+  _DAT_0059c85c = 0x7f;
+  _DAT_0059c860 = 6;
+  _DAT_0059c864 = 0x31;
+  _DAT_0059c868 = 0x2e;
+  _DAT_0059c86c = 0xffffffff;
+  _DAT_0059c870 = 0x140;
+  _DAT_0059c874 = 0xf0;
+  _DAT_0059c878 = 3;
+  _DAT_0059c87c = 0x1ee;
+  _DAT_0059c880 = 0x53;
+  _DAT_0059c884 = 0xffffffff;
+  _DAT_0059c88c = 0x9f;
+  _DAT_0059c890 = 0xffffffff;
+  _DAT_0059c898 = 0xba;
+  _DAT_0059c89c = 0xffffffff;
+  _DAT_0059c8a4 = 0xed;
+  _DAT_0059c8a8 = 0xffffffff;
+  _DAT_0059c8ac = 0x184;
+  _DAT_0059c8b0 = 0x119;
+  _DAT_0059c8b4 = 0xffffffff;
+  _DAT_0059c8b8 = 0x184;
+  _DAT_0059c8bc = 0x135;
+  _DAT_0059c8c0 = 0xffffffff;
+  _DAT_0059c8c4 = 0x184;
+  _DAT_0059c8c8 = 0x151;
+  _DAT_0059c8cc = 0xffffffff;
+  _DAT_0059c8d0 = 0x184;
+  _DAT_0059c8d4 = 0x186;
+  _DAT_0059c8d8 = 4;
+  _DAT_0059c8dc = 0x31;
+  _DAT_0059c8e0 = 0x2e;
+  _DAT_0059c8e4 = 0;
+  _DAT_0059c8e8 = 0xeb;
+  _DAT_0059c8ec = 0xf;
+  _DAT_0059c8f0 = 0xffffffff;
+  _DAT_0059c8f4 = _DAT_0059c714;
+  _DAT_0059c8f8 = 0xc;
+  _DAT_0059c8fc = 0xffffffff;
+  _DAT_0059c900 = _DAT_0059c714;
+  _DAT_0059c904 = 0x18;
+  _DAT_0059c908 = 0xffffffff;
+  _DAT_0059c90c = _DAT_0059c714;
+  _DAT_0059c910 = 0x50;
+  _DAT_0059c914 = 0xffffffff;
+  _DAT_0059c918 = _DAT_0059c714;
+  _DAT_0059c91c = 0x14;
+  _DAT_0059c920 = 0xffffffff;
+  _DAT_0059c924 = 0x184;
+  _DAT_0059c928 = 0xcf;
+  _DAT_0059c92c = 0xffffffff;
+  _DAT_0059c930 = 0x184;
+  _DAT_0059c934 = 0xeb;
+  _DAT_0059c938 = 0xffffffff;
+  _DAT_0059c93c = 0x184;
+  _DAT_0059c940 = 0x107;
+  _DAT_0059c944 = 0xffffffff;
+  _DAT_0059c948 = 0x184;
+  _DAT_0059c94c = 0x13c;
+  _DAT_0059c950 = 0xffffffff;
+  _DAT_0059c954 = 0x126;
+  _DAT_0059c958 = 0x9d;
+  _DAT_0059c95c = 0xffffffff;
+  _DAT_0059c960 = 0x244;
+  _DAT_0059c964 = 0x15d;
+  return;
+}
+
+

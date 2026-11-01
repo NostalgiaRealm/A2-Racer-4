@@ -1,0 +1,23 @@
+{
+ "program": "A2Racer4.exe",
+ "language": "x86:LE:32:default",
+ "compiler_spec": "windows",
+ "image_base": "00400000",
+ "ghidra_version": "12.1.4",
+ "functions": 149,
+ "decompiled": 149,
+ "assembly_only": 0,
+ "retried": 0,
+ "decompiled_with_fallback_style": 0,
+ "strings": 115,
+ "instructions": 6418,
+ "executable_bytes": 20480,
+ "executable_bytes_without_instructions": 2310,
+ "gap_padding_bytes": 1972,
+ "gap_defined_data_bytes": 224,
+ "gap_ambiguous_bytes": 21,
+ "instruction_bytes_outside_functions": 5,
+ "unreachable_after_noreturn_regions": 2,
+ "unreachable_after_noreturn_bytes": 4,
+ "error_bookmarks": 8
+}

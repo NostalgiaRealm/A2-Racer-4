@@ -1,0 +1,35 @@
+object frmWinChase: TfrmWinChase
+  ActiveControl = btnHelp.WrapperbtnHelp
+  Caption = 'frmWinChase'
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblTextBlock: TLabel
+    Left = 48
+    Top = 160
+    Width = 313
+    Height = 345
+    AutoSize = False
+    Caption = 'lblTextBlock'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+    WordWrap = True
+  end
+  object imgTrackName: TGDIGraphic
+    Left = 97
+    Top = 83
+    Width = 100
+    Height = 50
+    LinkedGraphic.Storage = SL_EXTERNAL
+    LinkedGraphic.GraphicName = ''
+    TransparentColor = clBlack
+    Transparent = False
+    TransparentMode = tmAuto
+    Translucent = True
+    TranslucencyFactor = 255
+  end
+end

@@ -1,0 +1,6184 @@
+{
+ "file": "setdebug.exe",
+ "vmt_layout": "Delphi 5 (vmtSelfPtr=-76)",
+ "init_table": 4478984,
+ "unit_count": 38,
+ "class_count": 139,
+ "seed_count": 1058,
+ "forms": [],
+ "classes": [
+  {
+   "vmt": 4198592,
+   "name": "TObject",
+   "instance_size": 4,
+   "parent_vmt": null,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4198832,
+   "name": "TInterfacedObject",
+   "instance_size": 12,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4222672,
+   "name": "Exception",
+   "instance_size": 12,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4222776,
+   "name": "EAbort",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4222860,
+   "name": "EHeapException",
+   "instance_size": 16,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4222952,
+   "name": "EOutOfMemory",
+   "instance_size": 16,
+   "parent_vmt": 4222860,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4223044,
+   "name": "EInOutError",
+   "instance_size": 16,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4223132,
+   "name": "EExternal",
+   "instance_size": 16,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4223220,
+   "name": "EExternalException",
+   "instance_size": 16,
+   "parent_vmt": 4223132,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4223316,
+   "name": "EIntError",
+   "instance_size": 16,
+   "parent_vmt": 4223132,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4223404,
+   "name": "EDivByZero",
+   "instance_size": 16,
+   "parent_vmt": 4223316,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4223492,
+   "name": "ERangeError",
+   "instance_size": 16,
+   "parent_vmt": 4223316,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4223580,
+   "name": "EIntOverflow",
+   "instance_size": 16,
+   "parent_vmt": 4223316,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4223672,
+   "name": "EMathError",
+   "instance_size": 16,
+   "parent_vmt": 4223132,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4223760,
+   "name": "EInvalidOp",
+   "instance_size": 16,
+   "parent_vmt": 4223672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4223848,
+   "name": "EZeroDivide",
+   "instance_size": 16,
+   "parent_vmt": 4223672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4223936,
+   "name": "EOverflow",
+   "instance_size": 16,
+   "parent_vmt": 4223672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4224024,
+   "name": "EUnderflow",
+   "instance_size": 16,
+   "parent_vmt": 4223672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4224112,
+   "name": "EInvalidPointer",
+   "instance_size": 16,
+   "parent_vmt": 4222860,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4224204,
+   "name": "EInvalidCast",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4224296,
+   "name": "EConvertError",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4224388,
+   "name": "EAccessViolation",
+   "instance_size": 16,
+   "parent_vmt": 4223132,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4224484,
+   "name": "EPrivilege",
+   "instance_size": 16,
+   "parent_vmt": 4223132,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4224572,
+   "name": "EStackOverflow",
+   "instance_size": 16,
+   "parent_vmt": 4223132,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4224664,
+   "name": "EControlC",
+   "instance_size": 16,
+   "parent_vmt": 4223132,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4224752,
+   "name": "EVariantError",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4224844,
+   "name": "EAssertionFailed",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4224940,
+   "name": "EAbstractError",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4225032,
+   "name": "EIntfCastError",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4225124,
+   "name": "EWin32Error",
+   "instance_size": 16,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4225212,
+   "name": "ESafecallException",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4225356,
+   "name": "TMultiReadExclusiveWriteSynchronizer",
+   "instance_size": 56,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4248756,
+   "name": "EStreamError",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4248848,
+   "name": "EFCreateError",
+   "instance_size": 12,
+   "parent_vmt": 4248756,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4248940,
+   "name": "EFOpenError",
+   "instance_size": 12,
+   "parent_vmt": 4248756,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4249028,
+   "name": "EFilerError",
+   "instance_size": 12,
+   "parent_vmt": 4248756,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4249116,
+   "name": "EReadError",
+   "instance_size": 12,
+   "parent_vmt": 4249028,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4249204,
+   "name": "EWriteError",
+   "instance_size": 12,
+   "parent_vmt": 4249028,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4249292,
+   "name": "EClassNotFound",
+   "instance_size": 12,
+   "parent_vmt": 4249028,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4249384,
+   "name": "EResNotFound",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4249476,
+   "name": "EListError",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4249564,
+   "name": "EBitsError",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4249652,
+   "name": "EStringListError",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4249748,
+   "name": "EComponentError",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4249840,
+   "name": "EOutOfResources",
+   "instance_size": 16,
+   "parent_vmt": 4222952,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4249932,
+   "name": "EInvalidOperation",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4250028,
+   "name": "TList",
+   "instance_size": 16,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4255820,
+    4256304,
+    4255484,
+    4255608
+   ]
+  },
+  {
+   "vmt": 4250128,
+   "name": "TThreadList",
+   "instance_size": 36,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4250216,
+   "name": "TBits",
+   "instance_size": 12,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4250300,
+   "name": "TPersistent",
+   "instance_size": 4,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4257636,
+     "id": 65535
+    },
+    {
+     "address": 4257460,
+     "id": 65534
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Classes",
+    "prop_count": 0,
+    "props": []
+   },
+   "slots": [
+    4257448,
+    4257456,
+    4257220
+   ]
+  },
+  {
+   "vmt": 4250508,
+   "name": "TStrings",
+   "instance_size": 12,
+   "parent_vmt": 4250300,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Classes",
+    "prop_count": 0,
+    "props": []
+   },
+   "slots": [
+    4257448,
+    4258284,
+    4258060,
+    4204780,
+    4258928,
+    4204780,
+    4258936,
+    4259024,
+    4260112,
+    4260160,
+    4260520,
+    4260656,
+    4260848,
+    4257804,
+    4257840,
+    4257876,
+    4204780,
+    4204780,
+    4258696,
+    4258940,
+    4259256,
+    4204780,
+    4259680,
+    4259764,
+    4259936,
+    4260340,
+    4260428,
+    4260576
+   ]
+  },
+  {
+   "vmt": 4250796,
+   "name": "TStringList",
+   "instance_size": 48,
+   "parent_vmt": 4250508,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Classes",
+    "prop_count": 0,
+    "props": []
+   },
+   "slots": [
+    4257448,
+    4258284,
+    4258060,
+    4261768,
+    4261820,
+    4261824,
+    4261828,
+    4259024,
+    4262152,
+    4262240,
+    4262448,
+    4260656,
+    4262504,
+    4261240,
+    4257840,
+    4257876,
+    4261384,
+    4261440,
+    4261540,
+    4258940,
+    4261920,
+    4261976,
+    4259680,
+    4259764,
+    4259936,
+    4260340,
+    4260428,
+    4260576,
+    4261328,
+    4261356,
+    4261664,
+    4262544,
+    4262560
+   ]
+  },
+  {
+   "vmt": 4251056,
+   "name": "TStream",
+   "instance_size": 4,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4262692,
+    4204780,
+    4204780,
+    4204780
+   ]
+  },
+  {
+   "vmt": 4251156,
+   "name": "THandleStream",
+   "instance_size": 8,
+   "parent_vmt": 4251056,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4263128,
+    4263084,
+    4263100,
+    4263116
+   ]
+  },
+  {
+   "vmt": 4251264,
+   "name": "TFileStream",
+   "instance_size": 8,
+   "parent_vmt": 4251156,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4263128,
+    4263084,
+    4263100,
+    4263116
+   ]
+  },
+  {
+   "vmt": 4251368,
+   "name": "TCustomMemoryStream",
+   "instance_size": 16,
+   "parent_vmt": 4251056,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4262692,
+    4263392,
+    4204780,
+    4263448
+   ]
+  },
+  {
+   "vmt": 4251480,
+   "name": "TMemoryStream",
+   "instance_size": 20,
+   "parent_vmt": 4251368,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4263592,
+    4263392,
+    4263768,
+    4263448,
+    4263636
+   ]
+  },
+  {
+   "vmt": 4251592,
+   "name": "TResourceStream",
+   "instance_size": 24,
+   "parent_vmt": 4251368,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4262692,
+    4263392,
+    4264212,
+    4263448
+   ]
+  },
+  {
+   "vmt": 4251976,
+   "name": "TStreamAdapter",
+   "instance_size": 24,
+   "parent_vmt": 4198832,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4277380,
+    4277484,
+    4277588,
+    4277708,
+    4277808,
+    4278296,
+    4278308,
+    4278320,
+    4278332,
+    4278344,
+    4278472
+   ]
+  },
+  {
+   "vmt": 4252112,
+   "name": "TFiler",
+   "instance_size": 40,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4264348,
+    4204780,
+    4204780,
+    4204780
+   ]
+  },
+  {
+   "vmt": 4252212,
+   "name": "TReader",
+   "instance_size": 120,
+   "parent_vmt": 4252112,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4264348,
+    4265872,
+    4265924,
+    4266716,
+    4266164,
+    4273864,
+    4266196,
+    4274072,
+    4274048,
+    4269552
+   ]
+  },
+  {
+   "vmt": 4252428,
+   "name": "TComponent",
+   "instance_size": 36,
+   "parent_vmt": 4250300,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4275660,
+     "id": 65533
+    },
+    {
+     "address": 4275668,
+     "id": 65532
+    },
+    {
+     "address": 4275672,
+     "id": 65531
+    },
+    {
+     "address": 4275696,
+     "id": 65535
+    },
+    {
+     "address": 4275700,
+     "id": 65530
+    },
+    {
+     "address": 4275708,
+     "id": 65529
+    },
+    {
+     "address": 4275712,
+     "id": 65528
+    },
+    {
+     "address": 4275724,
+     "id": 65527
+    },
+    {
+     "address": 4275892,
+     "id": 65526
+    },
+    {
+     "address": 4275912,
+     "id": 65525
+    },
+    {
+     "address": 4276452,
+     "id": 65524
+    },
+    {
+     "address": 4275704,
+     "id": 65523
+    },
+    {
+     "address": 4275676,
+     "id": 65534
+    },
+    {
+     "address": 4275656,
+     "id": 65522
+    },
+    {
+     "address": 4276492,
+     "id": 65521
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Classes",
+    "prop_count": 2,
+    "props": [
+     {
+      "name": "Name",
+      "get": 4278190088,
+      "set": 4261412888
+     },
+     {
+      "name": "Tag",
+      "get": 4278190092,
+      "set": 4278190092
+     }
+    ]
+   },
+   "slots": [
+    4257448,
+    4275520,
+    4257220,
+    4275736,
+    4275428,
+    4275748,
+    4275996,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4274616
+   ]
+  },
+  {
+   "vmt": 4252776,
+   "name": "TBasicActionLink",
+   "instance_size": 20,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4276696,
+    4276752,
+    4276836,
+    4276792,
+    4276840,
+    4276628,
+    4276776,
+    4276848
+   ]
+  },
+  {
+   "vmt": 4252904,
+   "name": "TBasicAction",
+   "instance_size": 68,
+   "parent_vmt": 4252428,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4277016,
+     "id": 65520
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Classes",
+    "prop_count": 2,
+    "props": []
+   },
+   "slots": [
+    4257448,
+    4275520,
+    4257220,
+    4275736,
+    4275428,
+    4275748,
+    4275996,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4276860,
+    4277156,
+    4277072,
+    4277004,
+    4277012,
+    4277008,
+    4277044
+   ]
+  },
+  {
+   "vmt": 4254268,
+   "name": "TIntConst",
+   "instance_size": 16,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4264428,
+   "name": "TPropFixup",
+   "instance_size": 24,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4279012,
+   "name": "EInvalidGraphic",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4279104,
+   "name": "EInvalidGraphicOperation",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4279800,
+   "name": "TGraphicsObject",
+   "instance_size": 24,
+   "parent_vmt": 4250300,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4284668,
+     "id": 65533
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Graphics",
+    "prop_count": 0,
+    "props": []
+   },
+   "slots": [
+    4257448,
+    4257456,
+    4257220
+   ]
+  },
+  {
+   "vmt": 4280012,
+   "name": "TFont",
+   "instance_size": 36,
+   "parent_vmt": 4279800,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4285492,
+     "id": 65533
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Graphics",
+    "prop_count": 7,
+    "props": [
+     {
+      "name": "Charset",
+      "get": 4286644,
+      "set": 4286652
+     },
+     {
+      "name": "Color",
+      "get": 4278190104,
+      "set": 4285836
+     },
+     {
+      "name": "Height",
+      "get": 4286316,
+      "set": 4286324
+     },
+     {
+      "name": "Name",
+      "get": 4286364,
+      "set": 4286388
+     },
+     {
+      "name": "Pitch",
+      "get": 4286596,
+      "set": 4286604
+     },
+     {
+      "name": "Size",
+      "get": 4286480,
+      "set": 4286508
+     },
+     {
+      "name": "Style",
+      "get": 4286540,
+      "set": 4286552
+     }
+    ]
+   },
+   "slots": [
+    4257448,
+    4257456,
+    4285520
+   ]
+  },
+  {
+   "vmt": 4280392,
+   "name": "TPen",
+   "instance_size": 28,
+   "parent_vmt": 4279800,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Graphics",
+    "prop_count": 4,
+    "props": [
+     {
+      "name": "Color",
+      "get": 4287088,
+      "set": 4287096
+     },
+     {
+      "name": "Mode",
+      "get": 4278190104,
+      "set": 4287288
+     },
+     {
+      "name": "Style",
+      "get": 4287308,
+      "set": 4287316
+     },
+     {
+      "name": "Width",
+      "get": 4287356,
+      "set": 4287364
+     }
+    ]
+   },
+   "slots": [
+    4257448,
+    4257456,
+    4286800
+   ]
+  },
+  {
+   "vmt": 4280648,
+   "name": "TBrush",
+   "instance_size": 24,
+   "parent_vmt": 4279800,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Graphics",
+    "prop_count": 2,
+    "props": [
+     {
+      "name": "Color",
+      "get": 4287828,
+      "set": 4287836
+     },
+     {
+      "name": "Style",
+      "get": 4288112,
+      "set": 4288120
+     }
+    ]
+   },
+   "slots": [
+    4257448,
+    4257456,
+    4287512
+   ]
+  },
+  {
+   "vmt": 4280844,
+   "name": "TCanvas",
+   "instance_size": 88,
+   "parent_vmt": 4250300,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Graphics",
+    "prop_count": 4,
+    "props": [
+     {
+      "name": "Brush",
+      "get": 4278190100,
+      "set": 4289388
+     },
+     {
+      "name": "CopyMode",
+      "get": 4278190112,
+      "set": 4278190112
+     },
+     {
+      "name": "Font",
+      "get": 4278190092,
+      "set": 4289360
+     },
+     {
+      "name": "Pen",
+      "get": 4278190096,
+      "set": 4289376
+     }
+    ]
+   },
+   "slots": [
+    4257448,
+    4257456,
+    4257220,
+    4289932,
+    4289912,
+    4289708
+   ]
+  },
+  {
+   "vmt": 4281236,
+   "name": "TGraphic",
+   "instance_size": 28,
+   "parent_vmt": 4250300,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4295740,
+     "id": 65533
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Graphics",
+    "prop_count": 0,
+    "props": []
+   },
+   "slots": [
+    4257448,
+    4295248,
+    4257220,
+    4295080,
+    4295136,
+    4204780,
+    4295324,
+    4204780,
+    4204780,
+    4295648,
+    4295652,
+    4204780,
+    4295780,
+    4204780,
+    4295880,
+    4295884,
+    4204780,
+    4295900,
+    4295656,
+    4295792,
+    4204780,
+    4204780,
+    4204780,
+    4204780
+   ]
+  },
+  {
+   "vmt": 4281464,
+   "name": "TPicture",
+   "instance_size": 32,
+   "parent_vmt": 4250300,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4297736,
+     "id": 65533
+    },
+    {
+     "address": 4297772,
+     "id": 65532
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Graphics",
+    "prop_count": 0,
+    "props": []
+   },
+   "slots": [
+    4297292,
+    4298308,
+    4297644
+   ]
+  },
+  {
+   "vmt": 4281632,
+   "name": "TSharedImage",
+   "instance_size": 8,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4204780
+   ]
+  },
+  {
+   "vmt": 4281728,
+   "name": "TMetafileImage",
+   "instance_size": 36,
+   "parent_vmt": 4281632,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4298492
+   ]
+  },
+  {
+   "vmt": 4281824,
+   "name": "TMetafile",
+   "instance_size": 40,
+   "parent_vmt": 4281236,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Graphics",
+    "prop_count": 0,
+    "props": []
+   },
+   "slots": [
+    4257448,
+    4295248,
+    4298616,
+    4298496,
+    4295136,
+    4298764,
+    4295324,
+    4298912,
+    4298920,
+    4299020,
+    4295652,
+    4299160,
+    4299384,
+    4300252,
+    4295880,
+    4300488,
+    4300492,
+    4300836,
+    4295656,
+    4300084,
+    4299260,
+    4300224,
+    4301436,
+    4301568
+   ]
+  },
+  {
+   "vmt": 4282044,
+   "name": "TBitmapImage",
+   "instance_size": 116,
+   "parent_vmt": 4281632,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4302700
+   ]
+  },
+  {
+   "vmt": 4282140,
+   "name": "TBitmap",
+   "instance_size": 52,
+   "parent_vmt": 4281236,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Graphics",
+    "prop_count": 0,
+    "props": []
+   },
+   "slots": [
+    4257448,
+    4295248,
+    4305456,
+    4305292,
+    4305924,
+    4305964,
+    4295324,
+    4306656,
+    4306824,
+    4306888,
+    4295652,
+    4306980,
+    4307840,
+    4309796,
+    4310008,
+    4295884,
+    4310220,
+    4310304,
+    4295656,
+    4295792,
+    4307548,
+    4310980,
+    4307416,
+    4310988,
+    4306744,
+    4306840,
+    4309484
+   ]
+  },
+  {
+   "vmt": 4282368,
+   "name": "TIconImage",
+   "instance_size": 24,
+   "parent_vmt": 4281632,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4311196
+   ]
+  },
+  {
+   "vmt": 4282460,
+   "name": "TIcon",
+   "instance_size": 44,
+   "parent_vmt": 4281236,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Graphics",
+    "prop_count": 0,
+    "props": []
+   },
+   "slots": [
+    4257448,
+    4295248,
+    4311352,
+    4311220,
+    4295136,
+    4311448,
+    4295324,
+    4311512,
+    4311556,
+    4295648,
+    4295652,
+    4311576,
+    4295780,
+    4312220,
+    4295880,
+    4312244,
+    4312248,
+    4295900,
+    4295656,
+    4295792,
+    4311896,
+    4312272,
+    4312316,
+    4312336
+   ]
+  },
+  {
+   "vmt": 4282692,
+   "name": "TResourceManager",
+   "instance_size": 36,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4296032,
+   "name": "TFileFormatsList",
+   "instance_size": 16,
+   "parent_vmt": 4250028,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4255820,
+    4256304,
+    4255484,
+    4255608
+   ]
+  },
+  {
+   "vmt": 4296820,
+   "name": "TClipboardFormats",
+   "instance_size": 12,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4301696,
+   "name": "TBitmapCanvas",
+   "instance_size": 100,
+   "parent_vmt": 4280844,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Graphics",
+    "prop_count": 4,
+    "props": []
+   },
+   "slots": [
+    4257448,
+    4257456,
+    4257220,
+    4289932,
+    4289912,
+    4302336
+   ]
+  },
+  {
+   "vmt": 4312672,
+   "name": "TPatternManager",
+   "instance_size": 32,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4313964,
+   "name": "TOrderedList",
+   "instance_size": 8,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4204780,
+    4314240,
+    4314220
+   ]
+  },
+  {
+   "vmt": 4314068,
+   "name": "TStack",
+   "instance_size": 8,
+   "parent_vmt": 4313964,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4314272,
+    4314240,
+    4314220
+   ]
+  },
+  {
+   "vmt": 4317700,
+   "name": "TCustomLabel",
+   "instance_size": 308,
+   "parent_vmt": 4330412,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4323012,
+     "id": 45074
+    },
+    {
+     "address": 4323036,
+     "id": 45070
+    },
+    {
+     "address": 4323064,
+     "id": 45062
+    },
+    {
+     "address": 4322536,
+     "id": 65485
+    },
+    {
+     "address": 4321884,
+     "id": 65484
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "StdCtrls",
+    "prop_count": 8,
+    "props": []
+   },
+   "slots": [
+    4351204,
+    4348476,
+    4257220,
+    4322512,
+    4322964,
+    4341044,
+    4343236,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4321756,
+    4347312,
+    4347308,
+    4347516,
+    4342492,
+    4342336,
+    4344540,
+    4340608,
+    4340612,
+    4351608,
+    4351652,
+    4340992,
+    4343616,
+    4343472,
+    4344244,
+    4343928,
+    4347980,
+    4351780,
+    4344988,
+    4345024,
+    4341408,
+    4345004,
+    4322252,
+    4321864,
+    4322760
+   ]
+  },
+  {
+   "vmt": 4318008,
+   "name": "TLabel",
+   "instance_size": 312,
+   "parent_vmt": 4317700,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "StdCtrls",
+    "prop_count": 45,
+    "props": [
+     {
+      "name": "Align",
+      "get": 4278190155,
+      "set": 4341260
+     },
+     {
+      "name": "Alignment",
+      "get": 4278190380,
+      "set": 4322740
+     },
+     {
+      "name": "Anchors",
+      "get": 4278190161,
+      "set": 4340812
+     },
+     {
+      "name": "AutoSize",
+      "get": 4278190381,
+      "set": 4261413004
+     },
+     {
+      "name": "BiDiMode",
+      "get": 4278190159,
+      "set": 4261412968
+     },
+     {
+      "name": "Caption",
+      "get": 4343780,
+      "set": 4343828
+     },
+     {
+      "name": "Color",
+      "get": 4278190176,
+      "set": 4344176
+     },
+     {
+      "name": "Constraints",
+      "get": 4278190180,
+      "set": 4278190180
+     },
+     {
+      "name": "DragCursor",
+      "get": 4278190186,
+      "set": 4278190186
+     },
+     {
+      "name": "DragKind",
+      "get": 4278190219,
+      "set": 4278190219
+     },
+     {
+      "name": "DragMode",
+      "get": 4278190157,
+      "set": 4261412952
+     },
+     {
+      "name": "Enabled",
+      "get": 4261412940,
+      "set": 4261412956
+     },
+     {
+      "name": "FocusControl",
+      "get": 4278190376,
+      "set": 4322800
+     },
+     {
+      "name": "Font",
+      "get": 4278190168,
+      "set": 4344016
+     },
+     {
+      "name": "ParentBiDiMode",
+      "get": 4278190160,
+      "set": 4261412964
+     },
+     {
+      "name": "ParentColor",
+      "get": 4278190154,
+      "set": 4344212
+     },
+     {
+      "name": "ParentFont",
+      "get": 4278190153,
+      "set": 4344072
+     },
+     {
+      "name": "ParentShowHint",
+      "get": 4278190218,
+      "set": 4344140
+     },
+     {
+      "name": "PopupMenu",
+      "get": 4278190188,
+      "set": 4343708
+     },
+     {
+      "name": "ShowAccelChar",
+      "get": 4278190384,
+      "set": 4322820
+     },
+     {
+      "name": "ShowHint",
+      "get": 4278190217,
+      "set": 4344104
+     },
+     {
+      "name": "Transparent",
+      "get": 4322788,
+      "set": 4322840
+     },
+     {
+      "name": "Layout",
+      "get": 4278190382,
+      "set": 4322904
+     },
+     {
+      "name": "Visible",
+      "get": 4278190151,
+      "set": 4343548
+     },
+     {
+      "name": "WordWrap",
+      "get": 4278190383,
+      "set": 4322924
+     },
+     {
+      "name": "OnClick",
+      "get": 4278190344,
+      "set": 4278190344
+     },
+     {
+      "name": "OnContextPopup",
+      "get": 4278190360,
+      "set": 4278190360
+     },
+     {
+      "name": "OnDblClick",
+      "get": 4278190352,
+      "set": 4278190352
+     },
+     {
+      "name": "OnDragDrop",
+      "get": 4278190288,
+      "set": 4278190288
+     },
+     {
+      "name": "OnDragOver",
+      "get": 4278190296,
+      "set": 4278190296
+     },
+     {
+      "name": "OnEndDock",
+      "get": 4278190320,
+      "set": 4278190320
+     },
+     {
+      "name": "OnEndDrag",
+      "get": 4278190336,
+      "set": 4278190336
+     },
+     {
+      "name": "OnMouseDown",
+      "get": 4278190264,
+      "set": 4278190264
+     },
+     {
+      "name": "OnMouseMove",
+      "get": 4278190272,
+      "set": 4278190272
+     },
+     {
+      "name": "OnMouseUp",
+      "get": 4278190280,
+      "set": 4278190280
+     },
+     {
+      "name": "OnStartDock",
+      "get": 4278190312,
+      "set": 4278190312
+     },
+     {
+      "name": "OnStartDrag",
+      "get": 4278190328,
+      "set": 4278190328
+     }
+    ]
+   },
+   "slots": [
+    4351204,
+    4348476,
+    4257220,
+    4322512,
+    4322964,
+    4341044,
+    4343236,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4321756,
+    4347312,
+    4347308,
+    4347516,
+    4342492,
+    4342336,
+    4344540,
+    4340608,
+    4340612,
+    4351608,
+    4351652,
+    4340992,
+    4343616,
+    4343472,
+    4344244,
+    4343928,
+    4347980,
+    4351780,
+    4344988,
+    4345024,
+    4341408,
+    4345004,
+    4322252,
+    4321864,
+    4322760
+   ]
+  },
+  {
+   "vmt": 4319612,
+   "name": "TButtonActionLink",
+   "instance_size": 44,
+   "parent_vmt": 4329088,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4323220,
+    4276752,
+    4340000,
+    4276792,
+    4340172,
+    4276628,
+    4276776,
+    4276848,
+    4339732,
+    4323256,
+    4339848,
+    4352204,
+    4339900,
+    4389160,
+    4389180,
+    4339952,
+    4340040,
+    4323312,
+    4340072,
+    4352256,
+    4340104,
+    4389240,
+    4389244,
+    4340140,
+    4339500
+   ]
+  },
+  {
+   "vmt": 4319808,
+   "name": "TButtonControl",
+   "instance_size": 500,
+   "parent_vmt": 4329384,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4323496,
+     "id": 65520
+    },
+    {
+     "address": 4323568,
+     "id": 65502
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "StdCtrls",
+    "prop_count": 9,
+    "props": []
+   },
+   "slots": [
+    4371348,
+    4348476,
+    4257220,
+    4351148,
+    4341192,
+    4352996,
+    4343236,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4323412,
+    4370060,
+    4371396,
+    4371184,
+    4368732,
+    4368764,
+    4368084,
+    4340608,
+    4340612,
+    4351608,
+    4351652,
+    4340992,
+    4343616,
+    4343472,
+    4344244,
+    4343928,
+    4323584,
+    4351780,
+    4368168,
+    4368292,
+    4367144,
+    4368264,
+    4353116,
+    4354564,
+    4357508,
+    4356472,
+    4357180,
+    4356772,
+    4357336,
+    4357248,
+    4368584,
+    4359820,
+    4367748,
+    4368436,
+    4323576,
+    4323580
+   ]
+  },
+  {
+   "vmt": 4320148,
+   "name": "TButton",
+   "instance_size": 512,
+   "parent_vmt": 4319808,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4324084,
+     "id": 45061
+    },
+    {
+     "address": 4324196,
+     "id": 45062
+    },
+    {
+     "address": 4324328,
+     "id": 45063
+    },
+    {
+     "address": 4324064,
+     "id": 48401
+    },
+    {
+     "address": 4324412,
+     "id": 20
+    },
+    {
+     "address": 4323804,
+     "id": 65516
+    },
+    {
+     "address": 4323840,
+     "id": 65486
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "StdCtrls",
+    "prop_count": 46,
+    "props": [
+     {
+      "name": "Action",
+      "get": 4340796,
+      "set": 4340844
+     },
+     {
+      "name": "Anchors",
+      "get": 4278190161,
+      "set": 4340812
+     },
+     {
+      "name": "BiDiMode",
+      "get": 4278190159,
+      "set": 4261412968
+     },
+     {
+      "name": "Cancel",
+      "get": 4278190585,
+      "set": 4278190585
+     },
+     {
+      "name": "Caption",
+      "get": 4343780,
+      "set": 4343828
+     },
+     {
+      "name": "Constraints",
+      "get": 4278190180,
+      "set": 4278190180
+     },
+     {
+      "name": "Default",
+      "get": 4278190584,
+      "set": 4323928
+     },
+     {
+      "name": "DragCursor",
+      "get": 4278190186,
+      "set": 4278190186
+     },
+     {
+      "name": "DragKind",
+      "get": 4278190219,
+      "set": 4278190219
+     },
+     {
+      "name": "DragMode",
+      "get": 4278190157,
+      "set": 4261412952
+     },
+     {
+      "name": "Enabled",
+      "get": 4261412940,
+      "set": 4261412956
+     },
+     {
+      "name": "Font",
+      "get": 4278190168,
+      "set": 4344016
+     },
+     {
+      "name": "ModalResult",
+      "get": 4278190588,
+      "set": 4278190588
+     },
+     {
+      "name": "ParentBiDiMode",
+      "get": 4278190160,
+      "set": 4261412964
+     },
+     {
+      "name": "ParentFont",
+      "get": 4278190153,
+      "set": 4344072
+     },
+     {
+      "name": "ParentShowHint",
+      "get": 4278190218,
+      "set": 4344140
+     },
+     {
+      "name": "PopupMenu",
+      "get": 4278190188,
+      "set": 4343708
+     },
+     {
+      "name": "ShowHint",
+      "get": 4278190217,
+      "set": 4344104
+     },
+     {
+      "name": "TabOrder",
+      "get": 4368968,
+      "set": 4369096
+     },
+     {
+      "name": "TabStop",
+      "get": 4278190452,
+      "set": 4369120
+     },
+     {
+      "name": "Visible",
+      "get": 4278190151,
+      "set": 4343548
+     },
+     {
+      "name": "OnClick",
+      "get": 4278190344,
+      "set": 4278190344
+     },
+     {
+      "name": "OnContextPopup",
+      "get": 4278190360,
+      "set": 4278190360
+     },
+     {
+      "name": "OnDragDrop",
+      "get": 4278190288,
+      "set": 4278190288
+     },
+     {
+      "name": "OnDragOver",
+      "get": 4278190296,
+      "set": 4278190296
+     },
+     {
+      "name": "OnEndDock",
+      "get": 4278190320,
+      "set": 4278190320
+     },
+     {
+      "name": "OnEndDrag",
+      "get": 4278190336,
+      "set": 4278190336
+     },
+     {
+      "name": "OnEnter",
+      "get": 4278190488,
+      "set": 4278190488
+     },
+     {
+      "name": "OnExit",
+      "get": 4278190496,
+      "set": 4278190496
+     },
+     {
+      "name": "OnKeyDown",
+      "get": 4278190512,
+      "set": 4278190512
+     },
+     {
+      "name": "OnKeyPress",
+      "get": 4278190520,
+      "set": 4278190520
+     },
+     {
+      "name": "OnKeyUp",
+      "get": 4278190528,
+      "set": 4278190528
+     },
+     {
+      "name": "OnMouseDown",
+      "get": 4278190264,
+      "set": 4278190264
+     },
+     {
+      "name": "OnMouseMove",
+      "get": 4278190272,
+      "set": 4278190272
+     },
+     {
+      "name": "OnMouseUp",
+      "get": 4278190280,
+      "set": 4278190280
+     },
+     {
+      "name": "OnStartDock",
+      "get": 4278190312,
+      "set": 4278190312
+     },
+     {
+      "name": "OnStartDrag",
+      "get": 4278190328,
+      "set": 4278190328
+     }
+    ]
+   },
+   "slots": [
+    4371348,
+    4348476,
+    4257220,
+    4351148,
+    4341192,
+    4352996,
+    4343236,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4323704,
+    4370060,
+    4371396,
+    4371184,
+    4368732,
+    4368764,
+    4368084,
+    4340608,
+    4340612,
+    4351608,
+    4351652,
+    4340992,
+    4343616,
+    4343472,
+    4344244,
+    4343928,
+    4323584,
+    4351780,
+    4368168,
+    4368292,
+    4367144,
+    4368264,
+    4353116,
+    4354564,
+    4357508,
+    4323980,
+    4357180,
+    4324040,
+    4357336,
+    4357248,
+    4368584,
+    4359820,
+    4367748,
+    4368436,
+    4323576,
+    4323580,
+    4323844
+   ]
+  },
+  {
+   "vmt": 4324700,
+   "name": "THintAction",
+   "instance_size": 128,
+   "parent_vmt": 4387404,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "StdActns",
+    "prop_count": 4,
+    "props": [
+     {
+      "name": "Hint",
+      "get": 4278190176,
+      "set": 4389872
+     }
+    ]
+   },
+   "slots": [
+    4389380,
+    4275520,
+    4257220,
+    4275736,
+    4275428,
+    4387868,
+    4390244,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4324856,
+    4277156,
+    4277072,
+    4277004,
+    4277012,
+    4277008,
+    4388208
+   ]
+  },
+  {
+   "vmt": 4325144,
+   "name": "TDragObject",
+   "instance_size": 52,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4333328,
+    4333640,
+    4333636,
+    4333240,
+    4333336,
+    4333664,
+    4333668,
+    4333676
+   ]
+  },
+  {
+   "vmt": 4325264,
+   "name": "TBaseDragControlObject",
+   "instance_size": 60,
+   "parent_vmt": 4325144,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4333796,
+    4333640,
+    4333636,
+    4333716,
+    4333336,
+    4333664,
+    4333668,
+    4333676,
+    4333760,
+    4333680
+   ]
+  },
+  {
+   "vmt": 4325404,
+   "name": "TDragControlObject",
+   "instance_size": 64,
+   "parent_vmt": 4325264,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4333796,
+    4333848,
+    4333872,
+    4333716,
+    4333336,
+    4333884,
+    4333668,
+    4333916,
+    4333760,
+    4333680
+   ]
+  },
+  {
+   "vmt": 4325540,
+   "name": "TDragDockObject",
+   "instance_size": 112,
+   "parent_vmt": 4325264,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4333796,
+    4334432,
+    4333636,
+    4334096,
+    4333336,
+    4333664,
+    4333668,
+    4333676,
+    4334196,
+    4333948,
+    4334264,
+    4334392,
+    4334412,
+    4334444
+   ]
+  },
+  {
+   "vmt": 4325688,
+   "name": "TControlCanvas",
+   "instance_size": 100,
+   "parent_vmt": 4280844,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Controls",
+    "prop_count": 4,
+    "props": []
+   },
+   "slots": [
+    4257448,
+    4257456,
+    4257220,
+    4289932,
+    4289912,
+    4338860
+   ]
+  },
+  {
+   "vmt": 4325848,
+   "name": "TControlActionLink",
+   "instance_size": 28,
+   "parent_vmt": 4387648,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4339472,
+    4276752,
+    4340000,
+    4276792,
+    4340172,
+    4276628,
+    4276776,
+    4276848,
+    4339732,
+    4389080,
+    4339848,
+    4389120,
+    4339900,
+    4389160,
+    4389180,
+    4339952,
+    4340040,
+    4389224,
+    4340072,
+    4389232,
+    4340104,
+    4389240,
+    4389244,
+    4340140,
+    4339500
+   ]
+  },
+  {
+   "vmt": 4326292,
+   "name": "TSizeConstraints",
+   "instance_size": 32,
+   "parent_vmt": 4250300,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4339452,
+     "id": 65533
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Controls",
+    "prop_count": 4,
+    "props": [
+     {
+      "name": "MaxHeight",
+      "get": 4278190088,
+      "set": 4339284
+     },
+     {
+      "name": "MaxWidth",
+      "get": 4278190092,
+      "set": 4339284
+     },
+     {
+      "name": "MinHeight",
+      "get": 4278190096,
+      "set": 4339284
+     },
+     {
+      "name": "MinWidth",
+      "get": 4278190100,
+      "set": 4339284
+     }
+    ]
+   },
+   "slots": [
+    4339208,
+    4257456,
+    4257220,
+    4339148
+   ]
+  },
+  {
+   "vmt": 4328212,
+   "name": "TControl",
+   "instance_size": 288,
+   "parent_vmt": 4252428,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4348820,
+     "id": 513
+    },
+    {
+     "address": 4348896,
+     "id": 161
+    },
+    {
+     "address": 4349168,
+     "id": 516
+    },
+    {
+     "address": 4349248,
+     "id": 519
+    },
+    {
+     "address": 4348924,
+     "id": 515
+    },
+    {
+     "address": 4349208,
+     "id": 518
+    },
+    {
+     "address": 4349288,
+     "id": 521
+    },
+    {
+     "address": 4349376,
+     "id": 512
+    },
+    {
+     "address": 4349552,
+     "id": 514
+    },
+    {
+     "address": 4349672,
+     "id": 517
+    },
+    {
+     "address": 4349704,
+     "id": 520
+    },
+    {
+     "address": 4349736,
+     "id": 31
+    },
+    {
+     "address": 4349800,
+     "id": 71
+    },
+    {
+     "address": 4349976,
+     "id": 45067
+    },
+    {
+     "address": 4350016,
+     "id": 45068
+    },
+    {
+     "address": 4350024,
+     "id": 45070
+    },
+    {
+     "address": 4350032,
+     "id": 45069
+    },
+    {
+     "address": 4350184,
+     "id": 45064
+    },
+    {
+     "address": 4350232,
+     "id": 45109
+    },
+    {
+     "address": 4350040,
+     "id": 45065
+    },
+    {
+     "address": 4350144,
+     "id": 45091
+    },
+    {
+     "address": 4351796,
+     "id": 45104
+    },
+    {
+     "address": 4350264,
+     "id": 45066
+    },
+    {
+     "address": 4350272,
+     "id": 45075
+    },
+    {
+     "address": 4350296,
+     "id": 45076
+    },
+    {
+     "address": 4350320,
+     "id": 45084
+    },
+    {
+     "address": 4350604,
+     "id": 45114
+    },
+    {
+     "address": 4350120,
+     "id": 45116
+    },
+    {
+     "address": 4350088,
+     "id": 45117
+    },
+    {
+     "address": 4351840,
+     "id": 123
+    },
+    {
+     "address": 4350700,
+     "id": 65520
+    },
+    {
+     "address": 4351660,
+     "id": 65519
+    },
+    {
+     "address": 4345352,
+     "id": 65518
+    },
+    {
+     "address": 4342880,
+     "id": 65517
+    },
+    {
+     "address": 4348556,
+     "id": 65516
+    },
+    {
+     "address": 4348664,
+     "id": 65515
+    },
+    {
+     "address": 4346072,
+     "id": 65514
+    },
+    {
+     "address": 4345976,
+     "id": 65513
+    },
+    {
+     "address": 4352116,
+     "id": 65512
+    },
+    {
+     "address": 4345996,
+     "id": 65511
+    },
+    {
+     "address": 4342180,
+     "id": 65510
+    },
+    {
+     "address": 4346040,
+     "id": 65509
+    },
+    {
+     "address": 4345572,
+     "id": 65508
+    },
+    {
+     "address": 4345588,
+     "id": 65507
+    },
+    {
+     "address": 4345724,
+     "id": 65506
+    },
+    {
+     "address": 4345692,
+     "id": 65505
+    },
+    {
+     "address": 4346376,
+     "id": 65504
+    },
+    {
+     "address": 4346392,
+     "id": 65503
+    },
+    {
+     "address": 4350980,
+     "id": 65502
+    },
+    {
+     "address": 4351432,
+     "id": 65501
+    },
+    {
+     "address": 4340616,
+     "id": 65500
+    },
+    {
+     "address": 4349008,
+     "id": 65499
+    },
+    {
+     "address": 4348696,
+     "id": 65498
+    },
+    {
+     "address": 4349328,
+     "id": 65497
+    },
+    {
+     "address": 4349436,
+     "id": 65496
+    },
+    {
+     "address": 4345768,
+     "id": 65495
+    },
+    {
+     "address": 4340672,
+     "id": 65494
+    },
+    {
+     "address": 4340996,
+     "id": 65493
+    },
+    {
+     "address": 4341012,
+     "id": 65492
+    },
+    {
+     "address": 4340632,
+     "id": 65529
+    },
+    {
+     "address": 4344504,
+     "id": 65491
+    },
+    {
+     "address": 4347976,
+     "id": 65490
+    },
+    {
+     "address": 4341912,
+     "id": 65489
+    },
+    {
+     "address": 4345648,
+     "id": 65488
+    },
+    {
+     "address": 4345272,
+     "id": 65487
+    },
+    {
+     "address": 4340628,
+     "id": 65523
+    },
+    {
+     "address": 4340620,
+     "id": 65522
+    },
+    {
+     "address": 4345300,
+     "id": 65486
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Controls",
+    "prop_count": 8,
+    "props": [
+     {
+      "name": "Left",
+      "get": 4278190128,
+      "set": 4341780
+     },
+     {
+      "name": "Top",
+      "get": 4278190132,
+      "set": 4341812
+     },
+     {
+      "name": "Width",
+      "get": 4278190136,
+      "set": 4341848
+     },
+     {
+      "name": "Height",
+      "get": 4278190140,
+      "set": 4341880
+     },
+     {
+      "name": "Cursor",
+      "get": 4278190184,
+      "set": 4344276
+     },
+     {
+      "name": "Hint",
+      "get": 4278190192,
+      "set": 4278190192
+     }
+    ]
+   },
+   "slots": [
+    4351204,
+    4348476,
+    4257220,
+    4351148,
+    4341192,
+    4341044,
+    4343236,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4340216,
+    4347312,
+    4347308,
+    4347516,
+    4342492,
+    4342336,
+    4344540,
+    4340608,
+    4340612,
+    4351608,
+    4351652,
+    4340992,
+    4343616,
+    4343472,
+    4344244,
+    4343928,
+    4347980,
+    4351780,
+    4344988,
+    4345024,
+    4341408,
+    4345004
+   ]
+  },
+  {
+   "vmt": 4329088,
+   "name": "TWinControlActionLink",
+   "instance_size": 36,
+   "parent_vmt": 4325848,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4352168,
+    4276752,
+    4340000,
+    4276792,
+    4340172,
+    4276628,
+    4276776,
+    4276848,
+    4339732,
+    4389080,
+    4339848,
+    4352204,
+    4339900,
+    4389160,
+    4389180,
+    4339952,
+    4340040,
+    4389224,
+    4340072,
+    4352256,
+    4340104,
+    4389240,
+    4389244,
+    4340140,
+    4339500
+   ]
+  },
+  {
+   "vmt": 4329384,
+   "name": "TWinControl",
+   "instance_size": 492,
+   "parent_vmt": 4328212,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4360420,
+     "id": 15
+    },
+    {
+     "address": 4360772,
+     "id": 273
+    },
+    {
+     "address": 4360804,
+     "id": 78
+    },
+    {
+     "address": 4360840,
+     "id": 21
+    },
+    {
+     "address": 4360920,
+     "id": 276
+    },
+    {
+     "address": 4360952,
+     "id": 277
+    },
+    {
+     "address": 4360984,
+     "id": 57
+    },
+    {
+     "address": 4361020,
+     "id": 45
+    },
+    {
+     "address": 4361056,
+     "id": 43
+    },
+    {
+     "address": 4361092,
+     "id": 44
+    },
+    {
+     "address": 4361128,
+     "id": 20
+    },
+    {
+     "address": 4361204,
+     "id": 71
+    },
+    {
+     "address": 4361396,
+     "id": 70
+    },
+    {
+     "address": 4361476,
+     "id": 5
+    },
+    {
+     "address": 4361528,
+     "id": 3
+    },
+    {
+     "address": 4361548,
+     "id": 32
+    },
+    {
+     "address": 4363720,
+     "id": 256
+    },
+    {
+     "address": 4363752,
+     "id": 260
+    },
+    {
+     "address": 4363928,
+     "id": 257
+    },
+    {
+     "address": 4363960,
+     "id": 261
+    },
+    {
+     "address": 4364132,
+     "id": 258
+    },
+    {
+     "address": 4364936,
+     "id": 274
+    },
+    {
+     "address": 4365104,
+     "id": 47
+    },
+    {
+     "address": 4365136,
+     "id": 528
+    },
+    {
+     "address": 4365188,
+     "id": 46
+    },
+    {
+     "address": 4365220,
+     "id": 2
+    },
+    {
+     "address": 4371848,
+     "id": 131
+    },
+    {
+     "address": 4365272,
+     "id": 130
+    },
+    {
+     "address": 4365300,
+     "id": 132
+    },
+    {
+     "address": 4371992,
+     "id": 133
+    },
+    {
+     "address": 4365436,
+     "id": 783
+    },
+    {
+     "address": 4365472,
+     "id": 785
+    },
+    {
+     "address": 4360868,
+     "id": 26
+    },
+    {
+     "address": 4360888,
+     "id": 29
+    },
+    {
+     "address": 4360904,
+     "id": 30
+    },
+    {
+     "address": 4361804,
+     "id": 7
+    },
+    {
+     "address": 4361824,
+     "id": 8
+    },
+    {
+     "address": 4361844,
+     "id": 269
+    },
+    {
+     "address": 4361864,
+     "id": 270
+    },
+    {
+     "address": 4364256,
+     "id": 522
+    },
+    {
+     "address": 4372640,
+     "id": 123
+    },
+    {
+     "address": 4365740,
+     "id": 45111
+    },
+    {
+     "address": 4365760,
+     "id": 45102
+    },
+    {
+     "address": 4365780,
+     "id": 45061
+    },
+    {
+     "address": 4365788,
+     "id": 45062
+    },
+    {
+     "address": 4365796,
+     "id": 45063
+    },
+    {
+     "address": 4365804,
+     "id": 45067
+    },
+    {
+     "address": 4365892,
+     "id": 45068
+    },
+    {
+     "address": 4365964,
+     "id": 45069
+    },
+    {
+     "address": 4366004,
+     "id": 45070
+    },
+    {
+     "address": 4366128,
+     "id": 45115
+    },
+    {
+     "address": 4366064,
+     "id": 45071
+    },
+    {
+     "address": 4366176,
+     "id": 45072
+    },
+    {
+     "address": 4366240,
+     "id": 45073
+    },
+    {
+     "address": 4365852,
+     "id": 45081
+    },
+    {
+     "address": 4365504,
+     "id": 45090
+    },
+    {
+     "address": 4365584,
+     "id": 45082
+    },
+    {
+     "address": 4365696,
+     "id": 45083
+    },
+    {
+     "address": 4365708,
+     "id": 45084
+    },
+    {
+     "address": 4366304,
+     "id": 45092
+    },
+    {
+     "address": 4366448,
+     "id": 45109
+    },
+    {
+     "address": 4366312,
+     "id": 45093
+    },
+    {
+     "address": 4366320,
+     "id": 45094
+    },
+    {
+     "address": 4366328,
+     "id": 45095
+    },
+    {
+     "address": 4366336,
+     "id": 45103
+    },
+    {
+     "address": 4366624,
+     "id": 48384
+    },
+    {
+     "address": 4366840,
+     "id": 48385
+    },
+    {
+     "address": 4366924,
+     "id": 48386
+    },
+    {
+     "address": 4367000,
+     "id": 48388
+    },
+    {
+     "address": 4367092,
+     "id": 48390
+    },
+    {
+     "address": 4366428,
+     "id": 45100
+    },
+    {
+     "address": 4357756,
+     "id": 45107
+    },
+    {
+     "address": 4368184,
+     "id": 45108
+    },
+    {
+     "address": 4363164,
+     "id": 45112
+    },
+    {
+     "address": 4363404,
+     "id": 45113
+    },
+    {
+     "address": 4363444,
+     "id": 45114
+    },
+    {
+     "address": 4365528,
+     "id": 45116
+    },
+    {
+     "address": 4364164,
+     "id": 45123
+    },
+    {
+     "address": 4371244,
+     "id": 65520
+    },
+    {
+     "address": 4368788,
+     "id": 65519
+    },
+    {
+     "address": 4367436,
+     "id": 65517
+    },
+    {
+     "address": 4362876,
+     "id": 65485
+    },
+    {
+     "address": 4362272,
+     "id": 65484
+    },
+    {
+     "address": 4362480,
+     "id": 65483
+    },
+    {
+     "address": 4362428,
+     "id": 65482
+    },
+    {
+     "address": 4362284,
+     "id": 65481
+    },
+    {
+     "address": 4362316,
+     "id": 65480
+    },
+    {
+     "address": 4354996,
+     "id": 65479
+    },
+    {
+     "address": 4364412,
+     "id": 65478
+    },
+    {
+     "address": 4364608,
+     "id": 65477
+    },
+    {
+     "address": 4364684,
+     "id": 65476
+    },
+    {
+     "address": 4362280,
+     "id": 65475
+    },
+    {
+     "address": 4362544,
+     "id": 65474
+    },
+    {
+     "address": 4371308,
+     "id": 65502
+    },
+    {
+     "address": 4369924,
+     "id": 65533
+    },
+    {
+     "address": 4362724,
+     "id": 65473
+    },
+    {
+     "address": 4363576,
+     "id": 65472
+    },
+    {
+     "address": 4363784,
+     "id": 65471
+    },
+    {
+     "address": 4363992,
+     "id": 65470
+    },
+    {
+     "address": 4365336,
+     "id": 65494
+    },
+    {
+     "address": 4362632,
+     "id": 65469
+    },
+    {
+     "address": 4369996,
+     "id": 65530
+    },
+    {
+     "address": 4367988,
+     "id": 65491
+    },
+    {
+     "address": 4368372,
+     "id": 65468
+    },
+    {
+     "address": 4362348,
+     "id": 65467
+    },
+    {
+     "address": 4355208,
+     "id": 65466
+    },
+    {
+     "address": 4368492,
+     "id": 65465
+    },
+    {
+     "address": 4369524,
+     "id": 65464
+    },
+    {
+     "address": 4364344,
+     "id": 65463
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Controls",
+    "prop_count": 9,
+    "props": [
+     {
+      "name": "HelpContext",
+      "get": 4278190416,
+      "set": 4278190416
+     }
+    ]
+   },
+   "slots": [
+    4371348,
+    4348476,
+    4257220,
+    4351148,
+    4341192,
+    4352996,
+    4343236,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4352288,
+    4370060,
+    4371396,
+    4371184,
+    4368732,
+    4368764,
+    4368084,
+    4340608,
+    4340612,
+    4351608,
+    4351652,
+    4340992,
+    4343616,
+    4343472,
+    4344244,
+    4343928,
+    4358732,
+    4351780,
+    4368168,
+    4368292,
+    4367144,
+    4368264,
+    4353116,
+    4354564,
+    4357508,
+    4356472,
+    4357180,
+    4356772,
+    4357336,
+    4357248,
+    4368584,
+    4359820,
+    4367748,
+    4368436
+   ]
+  },
+  {
+   "vmt": 4330412,
+   "name": "TGraphicControl",
+   "instance_size": 292,
+   "parent_vmt": 4328212,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4372904,
+     "id": 15
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Controls",
+    "prop_count": 8,
+    "props": []
+   },
+   "slots": [
+    4351204,
+    4348476,
+    4257220,
+    4351148,
+    4341192,
+    4341044,
+    4343236,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4372748,
+    4347312,
+    4347308,
+    4347516,
+    4342492,
+    4342336,
+    4344540,
+    4340608,
+    4340612,
+    4351608,
+    4351652,
+    4340992,
+    4343616,
+    4343472,
+    4344244,
+    4343928,
+    4347980,
+    4351780,
+    4344988,
+    4345024,
+    4341408,
+    4345004,
+    4373072
+   ]
+  },
+  {
+   "vmt": 4330692,
+   "name": "TCustomControl",
+   "instance_size": 500,
+   "parent_vmt": 4329384,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4375136,
+     "id": 15
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Controls",
+    "prop_count": 9,
+    "props": []
+   },
+   "slots": [
+    4371348,
+    4348476,
+    4257220,
+    4351148,
+    4341192,
+    4352996,
+    4343236,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4374996,
+    4370060,
+    4371396,
+    4371184,
+    4368732,
+    4368764,
+    4368084,
+    4340608,
+    4340612,
+    4351608,
+    4351652,
+    4340992,
+    4343616,
+    4343472,
+    4344244,
+    4343928,
+    4358732,
+    4351780,
+    4368168,
+    4368292,
+    4367144,
+    4368264,
+    4353116,
+    4354564,
+    4357508,
+    4356472,
+    4357180,
+    4356772,
+    4357336,
+    4357248,
+    4368584,
+    4375168,
+    4367748,
+    4368436,
+    4375340
+   ]
+  },
+  {
+   "vmt": 4331020,
+   "name": "THintWindow",
+   "instance_size": 508,
+   "parent_vmt": 4330692,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4373240,
+     "id": 132
+    },
+    {
+     "address": 4373248,
+     "id": 133
+    },
+    {
+     "address": 4373640,
+     "id": 45074
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Controls",
+    "prop_count": 9,
+    "props": []
+   },
+   "slots": [
+    4371348,
+    4348476,
+    4257220,
+    4351148,
+    4341192,
+    4352996,
+    4343236,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4373076,
+    4370060,
+    4371396,
+    4371184,
+    4368732,
+    4368764,
+    4368084,
+    4340608,
+    4340612,
+    4351608,
+    4351652,
+    4340992,
+    4343616,
+    4343472,
+    4344244,
+    4343928,
+    4358732,
+    4351780,
+    4368168,
+    4368292,
+    4367144,
+    4368264,
+    4353116,
+    4354564,
+    4357508,
+    4373180,
+    4357180,
+    4356772,
+    4357336,
+    4357248,
+    4368584,
+    4375168,
+    4367748,
+    4368436,
+    4373376,
+    4373792,
+    4374076,
+    4374120,
+    4373532
+   ]
+  },
+  {
+   "vmt": 4331368,
+   "name": "TDockZone",
+   "instance_size": 36,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4331700,
+   "name": "TDockTree",
+   "instance_size": 120,
+   "parent_vmt": 4198832,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4376976,
+    4377352,
+    4377368,
+    4379280,
+    4380024,
+    4380600,
+    4381124,
+    4382368,
+    4381796,
+    4376540,
+    4380244
+   ]
+  },
+  {
+   "vmt": 4331832,
+   "name": "TMouse",
+   "instance_size": 40,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4332876,
+   "name": "TSiteList",
+   "instance_size": 16,
+   "parent_vmt": 4250028,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4255820,
+    4256304,
+    4333088,
+    4255608
+   ]
+  },
+  {
+   "vmt": 4386896,
+   "name": "TContainedAction",
+   "instance_size": 80,
+   "parent_vmt": 4252904,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4388076,
+     "id": 65529
+    },
+    {
+     "address": 4388120,
+     "id": 65520
+    },
+    {
+     "address": 4387836,
+     "id": 65523
+    },
+    {
+     "address": 4387852,
+     "id": 65522
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "ActnList",
+    "prop_count": 3,
+    "props": [
+     {
+      "name": "Category",
+      "get": 4278190152,
+      "set": 4387992
+     }
+    ]
+   },
+   "slots": [
+    4257448,
+    4275520,
+    4257220,
+    4275736,
+    4275428,
+    4387868,
+    4275996,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4276860,
+    4277156,
+    4277072,
+    4277004,
+    4277012,
+    4277008,
+    4388208
+   ]
+  },
+  {
+   "vmt": 4387188,
+   "name": "TCustomActionList",
+   "instance_size": 72,
+   "parent_vmt": 4252428,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4388480,
+     "id": 65533
+    },
+    {
+     "address": 4388552,
+     "id": 65530
+    },
+    {
+     "address": 4388996,
+     "id": 65524
+    },
+    {
+     "address": 4389028,
+     "id": 65521
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "ActnList",
+    "prop_count": 2,
+    "props": []
+   },
+   "slots": [
+    4257448,
+    4275520,
+    4257220,
+    4275736,
+    4388664,
+    4275748,
+    4275996,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4388296,
+    4388796
+   ]
+  },
+  {
+   "vmt": 4387404,
+   "name": "TCustomAction",
+   "instance_size": 128,
+   "parent_vmt": 4386896,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4390320,
+     "id": 65519
+    },
+    {
+     "address": 4390352,
+     "id": 65520
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "ActnList",
+    "prop_count": 3,
+    "props": []
+   },
+   "slots": [
+    4389380,
+    4275520,
+    4257220,
+    4275736,
+    4275428,
+    4387868,
+    4390244,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4389252,
+    4277156,
+    4277072,
+    4277004,
+    4277012,
+    4277008,
+    4388208
+   ]
+  },
+  {
+   "vmt": 4387648,
+   "name": "TActionLink",
+   "instance_size": 24,
+   "parent_vmt": 4252776,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4276696,
+    4276752,
+    4276836,
+    4276792,
+    4276840,
+    4276628,
+    4276776,
+    4276848,
+    4389060,
+    4389080,
+    4389100,
+    4389120,
+    4389140,
+    4389160,
+    4389180,
+    4389200,
+    4389220,
+    4389224,
+    4389228,
+    4389232,
+    4389236,
+    4389240,
+    4389244,
+    4389248
+   ]
+  },
+  {
+   "vmt": 4390520,
+   "name": "TChangeLink",
+   "instance_size": 16,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4395628,
+     "id": 65535
+    }
+   ],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4390644,
+   "name": "TCustomImageList",
+   "instance_size": 96,
+   "parent_vmt": 4252428,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4393840,
+     "id": 65520
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "ImgList",
+    "prop_count": 2,
+    "props": []
+   },
+   "slots": [
+    4393500,
+    4394404,
+    4393308,
+    4275736,
+    4275428,
+    4275748,
+    4275996,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4390840,
+    4392320,
+    4391024,
+    4393824
+   ]
+  },
+  {
+   "vmt": 4395784,
+   "name": "EMenuError",
+   "instance_size": 12,
+   "parent_vmt": 4222672,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4396396,
+   "name": "TMenuActionLink",
+   "instance_size": 28,
+   "parent_vmt": 4387648,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4400908,
+    4276752,
+    4401336,
+    4276792,
+    4401632,
+    4276628,
+    4276776,
+    4276848,
+    4400936,
+    4400992,
+    4401040,
+    4401088,
+    4401136,
+    4401188,
+    4401236,
+    4401288,
+    4401376,
+    4401408,
+    4401440,
+    4401472,
+    4401500,
+    4401536,
+    4401568,
+    4401600
+   ]
+  },
+  {
+   "vmt": 4396584,
+   "name": "TMenuItem",
+   "instance_size": 160,
+   "parent_vmt": 4252428,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4411104,
+     "id": 65520
+    },
+    {
+     "address": 4409648,
+     "id": 65519
+    },
+    {
+     "address": 4409856,
+     "id": 65533
+    },
+    {
+     "address": 4409912,
+     "id": 65530
+    },
+    {
+     "address": 4410960,
+     "id": 65529
+    },
+    {
+     "address": 4410940,
+     "id": 65523
+    },
+    {
+     "address": 4409228,
+     "id": 65522
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Menus",
+    "prop_count": 23,
+    "props": [
+     {
+      "name": "Action",
+      "get": 4409632,
+      "set": 4410732
+     },
+     {
+      "name": "AutoHotkeys",
+      "get": 4278190127,
+      "set": 4413680
+     },
+     {
+      "name": "AutoLineReduction",
+      "get": 4278190128,
+      "set": 4414048
+     },
+     {
+      "name": "Bitmap",
+      "get": 4410692,
+      "set": 4410844
+     },
+     {
+      "name": "Break",
+      "get": 4278190140,
+      "set": 4409232
+     },
+     {
+      "name": "Caption",
+      "get": 4278190116,
+      "set": 4409248
+     },
+     {
+      "name": "Checked",
+      "get": 4278190124,
+      "set": 4409360
+     },
+     {
+      "name": "SubMenuImages",
+      "get": 4278190192,
+      "set": 4411836
+     },
+     {
+      "name": "Default",
+      "get": 4278190126,
+      "set": 4409944
+     },
+     {
+      "name": "Enabled",
+      "get": 4278190125,
+      "set": 4409444
+     },
+     {
+      "name": "GroupIndex",
+      "get": 4278190131,
+      "set": 4409564
+     },
+     {
+      "name": "HelpContext",
+      "get": 4278190152,
+      "set": 4278190152
+     },
+     {
+      "name": "Hint",
+      "get": 4278190156,
+      "set": 4278190156
+     },
+     {
+      "name": "ImageIndex",
+      "get": 4278190132,
+      "set": 4409744
+     },
+     {
+      "name": "RadioItem",
+      "get": 4278190129,
+      "set": 4411060
+     },
+     {
+      "name": "ShortCut",
+      "get": 4278190164,
+      "set": 4409708
+     },
+     {
+      "name": "Visible",
+      "get": 4278190130,
+      "set": 4409728
+     },
+     {
+      "name": "OnClick",
+      "get": 4278190208,
+      "set": 4278190208
+     },
+     {
+      "name": "OnDrawItem",
+      "get": 4278190216,
+      "set": 4278190216
+     },
+     {
+      "name": "OnAdvancedDrawItem",
+      "get": 4278190224,
+      "set": 4278190224
+     },
+     {
+      "name": "OnMeasureItem",
+      "get": 4278190232,
+      "set": 4278190232
+     }
+    ]
+   },
+   "slots": [
+    4411664,
+    4403252,
+    4257220,
+    4402888,
+    4411784,
+    4275748,
+    4275996,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4401676,
+    4408312,
+    4403852,
+    4410544,
+    4410036,
+    4410340
+   ]
+  },
+  {
+   "vmt": 4397604,
+   "name": "TMenu",
+   "instance_size": 72,
+   "parent_vmt": 4252428,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4414360,
+     "id": 65533
+    },
+    {
+     "address": 4414400,
+     "id": 65530
+    },
+    {
+     "address": 4415316,
+     "id": 65520
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Menus",
+    "prop_count": 3,
+    "props": [
+     {
+      "name": "Items",
+      "get": 4278190120,
+      "set": 0
+     }
+    ]
+   },
+   "slots": [
+    4257448,
+    4275520,
+    4257220,
+    4416212,
+    4416368,
+    4275748,
+    4275996,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4414152,
+    4416188,
+    4414388,
+    4416236
+   ]
+  },
+  {
+   "vmt": 4397848,
+   "name": "TMainMenu",
+   "instance_size": 80,
+   "parent_vmt": 4397604,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Menus",
+    "prop_count": 11,
+    "props": [
+     {
+      "name": "AutoHotkeys",
+      "get": 4417424,
+      "set": 4417440
+     },
+     {
+      "name": "AutoLineReduction",
+      "get": 4417456,
+      "set": 4417472
+     },
+     {
+      "name": "AutoMerge",
+      "get": 4278190156,
+      "set": 4417488
+     },
+     {
+      "name": "BiDiMode",
+      "get": 4278190116,
+      "set": 4417304
+     },
+     {
+      "name": "Images",
+      "get": 4278190140,
+      "set": 4416308
+     },
+     {
+      "name": "OwnerDraw",
+      "get": 4278190132,
+      "set": 4415992
+     },
+     {
+      "name": "ParentBiDiMode",
+      "get": 4278190133,
+      "set": 4417324
+     },
+     {
+      "name": "OnChange",
+      "get": 4278190144,
+      "set": 4278190144
+     }
+    ]
+   },
+   "slots": [
+    4257448,
+    4275520,
+    4257220,
+    4416212,
+    4416368,
+    4275748,
+    4275996,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4414152,
+    4416188,
+    4417708,
+    4417520
+   ]
+  },
+  {
+   "vmt": 4398576,
+   "name": "TPopupMenu",
+   "instance_size": 104,
+   "parent_vmt": 4397604,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Menus",
+    "prop_count": 16,
+    "props": [
+     {
+      "name": "Alignment",
+      "get": 4278190160,
+      "set": 4278190160
+     },
+     {
+      "name": "AutoHotkeys",
+      "get": 4417424,
+      "set": 4417440
+     },
+     {
+      "name": "AutoLineReduction",
+      "get": 4417456,
+      "set": 4417472
+     },
+     {
+      "name": "AutoPopup",
+      "get": 4278190161,
+      "set": 4278190161
+     },
+     {
+      "name": "BiDiMode",
+      "get": 4278190116,
+      "set": 4417304
+     },
+     {
+      "name": "HelpContext",
+      "get": 4419396,
+      "set": 4419404
+     },
+     {
+      "name": "Images",
+      "get": 4278190140,
+      "set": 4416308
+     },
+     {
+      "name": "MenuAnimation",
+      "get": 4278190169,
+      "set": 4278190169
+     },
+     {
+      "name": "OwnerDraw",
+      "get": 4278190132,
+      "set": 4415992
+     },
+     {
+      "name": "ParentBiDiMode",
+      "get": 4278190133,
+      "set": 4417324
+     },
+     {
+      "name": "TrackButton",
+      "get": 4278190168,
+      "set": 4278190168
+     },
+     {
+      "name": "OnChange",
+      "get": 4278190144,
+      "set": 4278190144
+     },
+     {
+      "name": "OnPopup",
+      "get": 4278190176,
+      "set": 4278190176
+     }
+    ]
+   },
+   "slots": [
+    4257448,
+    4275520,
+    4257220,
+    4416212,
+    4416368,
+    4275748,
+    4275996,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4419208,
+    4416188,
+    4414388,
+    4416236,
+    4419376,
+    4419560
+   ]
+  },
+  {
+   "vmt": 4399252,
+   "name": "TPopupList",
+   "instance_size": 20,
+   "parent_vmt": 4250028,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4255820,
+    4256304,
+    4255484,
+    4255608,
+    4417800
+   ]
+  },
+  {
+   "vmt": 4399360,
+   "name": "TMenuItemStack",
+   "instance_size": 8,
+   "parent_vmt": 4314068,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4314272,
+    4314240,
+    4314220
+   ]
+  },
+  {
+   "vmt": 4420924,
+   "name": "TControlScrollBar",
+   "instance_size": 72,
+   "parent_vmt": 4250300,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Forms",
+    "prop_count": 13,
+    "props": [
+     {
+      "name": "ButtonSize",
+      "get": 4278190116,
+      "set": 4433612
+     },
+     {
+      "name": "Color",
+      "get": 4278190120,
+      "set": 4433680
+     },
+     {
+      "name": "Increment",
+      "get": 4278190088,
+      "set": 4278190088
+     },
+     {
+      "name": "Margin",
+      "get": 4278190106,
+      "set": 4278190106
+     },
+     {
+      "name": "ParentColor",
+      "get": 4278190124,
+      "set": 4433708
+     },
+     {
+      "name": "Position",
+      "get": 4278190092,
+      "set": 4433732
+     },
+     {
+      "name": "Range",
+      "get": 4278190096,
+      "set": 4434068
+     },
+     {
+      "name": "Smooth",
+      "get": 4278190111,
+      "set": 4278190111
+     },
+     {
+      "name": "Size",
+      "get": 4278190128,
+      "set": 4433928
+     },
+     {
+      "name": "Style",
+      "get": 4278190132,
+      "set": 4433996
+     },
+     {
+      "name": "ThumbSize",
+      "get": 4278190136,
+      "set": 4434020
+     },
+     {
+      "name": "Tracking",
+      "get": 4278190109,
+      "set": 4278190109
+     },
+     {
+      "name": "Visible",
+      "get": 4278190108,
+      "set": 4434100
+     }
+    ]
+   },
+   "slots": [
+    4257448,
+    4257456,
+    4431852
+   ]
+  },
+  {
+   "vmt": 4421584,
+   "name": "TScrollingWinControl",
+   "instance_size": 516,
+   "parent_vmt": 4329384,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4436168,
+     "id": 5
+    },
+    {
+     "address": 4436388,
+     "id": 276
+    },
+    {
+     "address": 4436424,
+     "id": 277
+    },
+    {
+     "address": 4436576,
+     "id": 45116
+    },
+    {
+     "address": 4436128,
+     "id": 65517
+    },
+    {
+     "address": 4434944,
+     "id": 65479
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Forms",
+    "prop_count": 11,
+    "props": [
+     {
+      "name": "HorzScrollBar",
+      "get": 4278190576,
+      "set": 4435320
+     },
+     {
+      "name": "VertScrollBar",
+      "get": 4278190580,
+      "set": 4435336
+     }
+    ]
+   },
+   "slots": [
+    4371348,
+    4348476,
+    4257220,
+    4351148,
+    4341192,
+    4352996,
+    4343236,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4434656,
+    4370060,
+    4371396,
+    4371184,
+    4368732,
+    4368764,
+    4368084,
+    4340608,
+    4340612,
+    4351608,
+    4351652,
+    4340992,
+    4343616,
+    4343472,
+    4344244,
+    4343928,
+    4358732,
+    4351780,
+    4368168,
+    4368292,
+    4367144,
+    4368264,
+    4436460,
+    4434880,
+    4357508,
+    4434820,
+    4357180,
+    4434836,
+    4357336,
+    4357248,
+    4368584,
+    4359820,
+    4367748,
+    4368436,
+    4434912,
+    4435600,
+    4436164
+   ]
+  },
+  {
+   "vmt": 4422168,
+   "name": "TScrollBox",
+   "instance_size": 524,
+   "parent_vmt": 4421584,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4436916,
+     "id": 132
+    },
+    {
+     "address": 4436924,
+     "id": 45072
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Forms",
+    "prop_count": 60,
+    "props": [
+     {
+      "name": "Align",
+      "get": 4278190155,
+      "set": 4341260
+     },
+     {
+      "name": "Anchors",
+      "get": 4278190161,
+      "set": 4340812
+     },
+     {
+      "name": "AutoScroll",
+      "get": 4278190584,
+      "set": 4435260
+     },
+     {
+      "name": "AutoSize",
+      "get": 4278190156,
+      "set": 4343204
+     },
+     {
+      "name": "BiDiMode",
+      "get": 4278190159,
+      "set": 4261412968
+     },
+     {
+      "name": "BorderStyle",
+      "get": 4278190600,
+      "set": 4436896
+     },
+     {
+      "name": "Constraints",
+      "get": 4278190180,
+      "set": 4278190180
+     },
+     {
+      "name": "DockSite",
+      "get": 4278190404,
+      "set": 4362984
+     },
+     {
+      "name": "DragCursor",
+      "get": 4278190186,
+      "set": 4278190186
+     },
+     {
+      "name": "DragKind",
+      "get": 4278190219,
+      "set": 4278190219
+     },
+     {
+      "name": "DragMode",
+      "get": 4278190157,
+      "set": 4261412952
+     },
+     {
+      "name": "Enabled",
+      "get": 4261412940,
+      "set": 4261412956
+     },
+     {
+      "name": "Color",
+      "get": 4278190176,
+      "set": 4344176
+     },
+     {
+      "name": "Ctl3D",
+      "get": 4278190392,
+      "set": 4368884
+     },
+     {
+      "name": "Font",
+      "get": 4278190168,
+      "set": 4344016
+     },
+     {
+      "name": "ParentBiDiMode",
+      "get": 4278190160,
+      "set": 4261412964
+     },
+     {
+      "name": "ParentColor",
+      "get": 4278190154,
+      "set": 4344212
+     },
+     {
+      "name": "ParentCtl3D",
+      "get": 4278190432,
+      "set": 4368932
+     },
+     {
+      "name": "ParentFont",
+      "get": 4278190153,
+      "set": 4344072
+     },
+     {
+      "name": "ParentShowHint",
+      "get": 4278190218,
+      "set": 4344140
+     },
+     {
+      "name": "PopupMenu",
+      "get": 4278190188,
+      "set": 4343708
+     },
+     {
+      "name": "ShowHint",
+      "get": 4278190217,
+      "set": 4344104
+     },
+     {
+      "name": "TabOrder",
+      "get": 4368968,
+      "set": 4369096
+     },
+     {
+      "name": "TabStop",
+      "get": 4278190452,
+      "set": 4369120
+     },
+     {
+      "name": "Visible",
+      "get": 4278190151,
+      "set": 4343548
+     },
+     {
+      "name": "OnCanResize",
+      "get": 4278190248,
+      "set": 4278190248
+     },
+     {
+      "name": "OnClick",
+      "get": 4278190344,
+      "set": 4278190344
+     },
+     {
+      "name": "OnConstrainedResize",
+      "get": 4278190256,
+      "set": 4278190256
+     },
+     {
+      "name": "OnContextPopup",
+      "get": 4278190360,
+      "set": 4278190360
+     },
+     {
+      "name": "OnDblClick",
+      "get": 4278190352,
+      "set": 4278190352
+     },
+     {
+      "name": "OnDockDrop",
+      "get": 4278190472,
+      "set": 4278190472
+     },
+     {
+      "name": "OnDockOver",
+      "get": 4278190480,
+      "set": 4278190480
+     },
+     {
+      "name": "OnDragDrop",
+      "get": 4278190288,
+      "set": 4278190288
+     },
+     {
+      "name": "OnDragOver",
+      "get": 4278190296,
+      "set": 4278190296
+     },
+     {
+      "name": "OnEndDock",
+      "get": 4278190320,
+      "set": 4278190320
+     },
+     {
+      "name": "OnEndDrag",
+      "get": 4278190336,
+      "set": 4278190336
+     },
+     {
+      "name": "OnEnter",
+      "get": 4278190488,
+      "set": 4278190488
+     },
+     {
+      "name": "OnExit",
+      "get": 4278190496,
+      "set": 4278190496
+     },
+     {
+      "name": "OnGetSiteInfo",
+      "get": 4278190504,
+      "set": 4278190504
+     },
+     {
+      "name": "OnMouseDown",
+      "get": 4278190264,
+      "set": 4278190264
+     },
+     {
+      "name": "OnMouseMove",
+      "get": 4278190272,
+      "set": 4278190272
+     },
+     {
+      "name": "OnMouseUp",
+      "get": 4278190280,
+      "set": 4278190280
+     },
+     {
+      "name": "OnMouseWheel",
+      "get": 4278190536,
+      "set": 4278190536
+     },
+     {
+      "name": "OnMouseWheelDown",
+      "get": 4278190544,
+      "set": 4278190544
+     },
+     {
+      "name": "OnMouseWheelUp",
+      "get": 4278190552,
+      "set": 4278190552
+     },
+     {
+      "name": "OnResize",
+      "get": 4278190304,
+      "set": 4278190304
+     },
+     {
+      "name": "OnStartDock",
+      "get": 4278190312,
+      "set": 4278190312
+     },
+     {
+      "name": "OnStartDrag",
+      "get": 4278190328,
+      "set": 4278190328
+     },
+     {
+      "name": "OnUnDock",
+      "get": 4278190560,
+      "set": 4278190560
+     }
+    ]
+   },
+   "slots": [
+    4371348,
+    4348476,
+    4257220,
+    4351148,
+    4341192,
+    4352996,
+    4343236,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4436720,
+    4370060,
+    4371396,
+    4371184,
+    4368732,
+    4368764,
+    4368084,
+    4340608,
+    4340612,
+    4351608,
+    4351652,
+    4340992,
+    4343616,
+    4343472,
+    4344244,
+    4343928,
+    4358732,
+    4351780,
+    4368168,
+    4368292,
+    4367144,
+    4368264,
+    4436460,
+    4434880,
+    4357508,
+    4436816,
+    4357180,
+    4434836,
+    4357336,
+    4357248,
+    4368584,
+    4359820,
+    4367748,
+    4368436,
+    4434912,
+    4435600,
+    4436164
+   ]
+  },
+  {
+   "vmt": 4425044,
+   "name": "TCustomForm",
+   "instance_size": 720,
+   "parent_vmt": 4421584,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4448348,
+     "id": 15
+    },
+    {
+     "address": 4448572,
+     "id": 20
+    },
+    {
+     "address": 4448476,
+     "id": 39
+    },
+    {
+     "address": 4448628,
+     "id": 55
+    },
+    {
+     "address": 4448900,
+     "id": 129
+    },
+    {
+     "address": 4448952,
+     "id": 161
+    },
+    {
+     "address": 4449096,
+     "id": 2
+    },
+    {
+     "address": 4449192,
+     "id": 273
+    },
+    {
+     "address": 4449244,
+     "id": 279
+    },
+    {
+     "address": 4449268,
+     "id": 288
+    },
+    {
+     "address": 4449324,
+     "id": 287
+    },
+    {
+     "address": 4449492,
+     "id": 6
+    },
+    {
+     "address": 4449580,
+     "id": 16
+    },
+    {
+     "address": 4449588,
+     "id": 17
+    },
+    {
+     "address": 4449720,
+     "id": 274
+    },
+    {
+     "address": 4449860,
+     "id": 24
+    },
+    {
+     "address": 4450012,
+     "id": 546
+    },
+    {
+     "address": 4450100,
+     "id": 40
+    },
+    {
+     "address": 4450144,
+     "id": 529
+    },
+    {
+     "address": 4450236,
+     "id": 83
+    },
+    {
+     "address": 4450496,
+     "id": 36
+    },
+    {
+     "address": 4454156,
+     "id": 26
+    },
+    {
+     "address": 4450612,
+     "id": 70
+    },
+    {
+     "address": 4454364,
+     "id": 45120
+    },
+    {
+     "address": 4454620,
+     "id": 45119
+    },
+    {
+     "address": 4450764,
+     "id": 45056
+    },
+    {
+     "address": 4449632,
+     "id": 45079
+    },
+    {
+     "address": 4442148,
+     "id": 45116
+    },
+    {
+     "address": 4450796,
+     "id": 45057
+    },
+    {
+     "address": 4450828,
+     "id": 45061
+    },
+    {
+     "address": 4444004,
+     "id": 45069
+    },
+    {
+     "address": 4444064,
+     "id": 45072
+    },
+    {
+     "address": 4444136,
+     "id": 45070
+    },
+    {
+     "address": 4444168,
+     "id": 45077
+    },
+    {
+     "address": 4450984,
+     "id": 45081
+    },
+    {
+     "address": 4452388,
+     "id": 45085
+    },
+    {
+     "address": 4452420,
+     "id": 45089
+    },
+    {
+     "address": 4452428,
+     "id": 45074
+    },
+    {
+     "address": 4452508,
+     "id": 45097
+    },
+    {
+     "address": 4442300,
+     "id": 45117
+    },
+    {
+     "address": 4452516,
+     "id": 45064
+    },
+    {
+     "address": 4447836,
+     "id": 65462
+    },
+    {
+     "address": 4447328,
+     "id": 65461
+    },
+    {
+     "address": 4439496,
+     "id": 65518
+    },
+    {
+     "address": 4439500,
+     "id": 65517
+    },
+    {
+     "address": 4447884,
+     "id": 65460
+    },
+    {
+     "address": 4439828,
+     "id": 65459
+    },
+    {
+     "address": 4439860,
+     "id": 65458
+    },
+    {
+     "address": 4439892,
+     "id": 65457
+    },
+    {
+     "address": 4440060,
+     "id": 65533
+    },
+    {
+     "address": 4447932,
+     "id": 65456
+    },
+    {
+     "address": 4448176,
+     "id": 65494
+    },
+    {
+     "address": 4454128,
+     "id": 65493
+    },
+    {
+     "address": 4440212,
+     "id": 65530
+    },
+    {
+     "address": 4442608,
+     "id": 65510
+    },
+    {
+     "address": 4440564,
+     "id": 65490
+    },
+    {
+     "address": 4442536,
+     "id": 65489
+    },
+    {
+     "address": 4454788,
+     "id": 65455
+    },
+    {
+     "address": 4455028,
+     "id": 65463
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Forms",
+    "prop_count": 11,
+    "props": []
+   },
+   "slots": [
+    4371348,
+    4439172,
+    4257220,
+    4438316,
+    4438376,
+    4438644,
+    4343236,
+    4276556,
+    4440724,
+    4275756,
+    4454912,
+    4436968,
+    4370060,
+    4371396,
+    4371184,
+    4368732,
+    4439924,
+    4368084,
+    4340608,
+    4340612,
+    4440168,
+    4351652,
+    4340992,
+    4343616,
+    4440668,
+    4440360,
+    4343928,
+    4440788,
+    4351780,
+    4368168,
+    4368292,
+    4367144,
+    4368264,
+    4436460,
+    4442088,
+    4357508,
+    4445104,
+    4445956,
+    4445636,
+    4446212,
+    4357248,
+    4368584,
+    4447992,
+    4367748,
+    4453088,
+    4434912,
+    4435600,
+    4449524,
+    4438104,
+    4438220,
+    4454024,
+    4437420,
+    4452788,
+    4446672,
+    4453240,
+    4440664
+   ]
+  },
+  {
+   "vmt": 4425784,
+   "name": "TForm",
+   "instance_size": 720,
+   "parent_vmt": 4425044,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Forms",
+    "prop_count": 86,
+    "props": [
+     {
+      "name": "Action",
+      "get": 4340796,
+      "set": 4340844
+     },
+     {
+      "name": "ActiveControl",
+      "get": 4278190600,
+      "set": 4446380
+     },
+     {
+      "name": "Align",
+      "get": 4278190155,
+      "set": 4341260
+     },
+     {
+      "name": "Anchors",
+      "get": 4278190161,
+      "set": 4340812
+     },
+     {
+      "name": "AutoScroll",
+      "get": 4278190584,
+      "set": 4435260
+     },
+     {
+      "name": "AutoSize",
+      "get": 4278190156,
+      "set": 4343204
+     },
+     {
+      "name": "BiDiMode",
+      "get": 4278190159,
+      "set": 4261412968
+     },
+     {
+      "name": "BorderIcons",
+      "get": 4278190608,
+      "set": 4442436
+     },
+     {
+      "name": "BorderStyle",
+      "get": 4278190609,
+      "set": 4442480
+     },
+     {
+      "name": "BorderWidth",
+      "get": 4278190380,
+      "set": 4368852
+     },
+     {
+      "name": "Caption",
+      "get": 4343780,
+      "set": 4343828
+     },
+     {
+      "name": "ClientHeight",
+      "get": 4342428,
+      "set": 4440448
+     },
+     {
+      "name": "ClientWidth",
+      "get": 4342360,
+      "set": 4440400
+     },
+     {
+      "name": "Color",
+      "get": 4278190176,
+      "set": 4344176
+     },
+     {
+      "name": "Constraints",
+      "get": 4278190180,
+      "set": 4278190180
+     },
+     {
+      "name": "Ctl3D",
+      "get": 4278190392,
+      "set": 4368884
+     },
+     {
+      "name": "UseDockManager",
+      "get": 4278190460,
+      "set": 4369216
+     },
+     {
+      "name": "DefaultMonitor",
+      "get": 4278190617,
+      "set": 4278190617
+     },
+     {
+      "name": "DockSite",
+      "get": 4278190404,
+      "set": 4362984
+     },
+     {
+      "name": "DragKind",
+      "get": 4278190219,
+      "set": 4278190219
+     },
+     {
+      "name": "DragMode",
+      "get": 4278190157,
+      "set": 4261412952
+     },
+     {
+      "name": "Enabled",
+      "get": 4261412940,
+      "set": 4261412956
+     },
+     {
+      "name": "ParentFont",
+      "get": 4278190153,
+      "set": 4344072
+     },
+     {
+      "name": "Font",
+      "get": 4278190168,
+      "set": 4344016
+     },
+     {
+      "name": "FormStyle",
+      "get": 4278190615,
+      "set": 4443064
+     },
+     {
+      "name": "Height",
+      "get": 4278190140,
+      "set": 4341880
+     },
+     {
+      "name": "HelpFile",
+      "get": 4278190628,
+      "set": 4278190628
+     },
+     {
+      "name": "HorzScrollBar",
+      "get": 4278190576,
+      "set": 4435320
+     },
+     {
+      "name": "Icon",
+      "get": 4278190632,
+      "set": 4443004
+     },
+     {
+      "name": "KeyPreview",
+      "get": 4278190613,
+      "set": 4278190613
+     },
+     {
+      "name": "Menu",
+      "get": 4278190640,
+      "set": 4443392
+     },
+     {
+      "name": "OldCreateOrder",
+      "get": 4278190620,
+      "set": 4278190620
+     },
+     {
+      "name": "ObjectMenuItem",
+      "get": 4278190664,
+      "set": 4443316
+     },
+     {
+      "name": "ParentBiDiMode",
+      "get": 4278190160,
+      "set": 4261412964
+     },
+     {
+      "name": "PixelsPerInch",
+      "get": 4443844,
+      "set": 4443864
+     },
+     {
+      "name": "PopupMenu",
+      "get": 4278190188,
+      "set": 4343708
+     },
+     {
+      "name": "Position",
+      "get": 4278190616,
+      "set": 4443916
+     },
+     {
+      "name": "PrintScale",
+      "get": 4278190621,
+      "set": 4278190621
+     },
+     {
+      "name": "Scaled",
+      "get": 4443944,
+      "set": 4443956
+     },
+     {
+      "name": "ShowHint",
+      "get": 4278190217,
+      "set": 4344104
+     },
+     {
+      "name": "VertScrollBar",
+      "get": 4278190580,
+      "set": 4435336
+     },
+     {
+      "name": "Visible",
+      "get": 4278190151,
+      "set": 4440496
+     },
+     {
+      "name": "Width",
+      "get": 4278190136,
+      "set": 4341848
+     },
+     {
+      "name": "WindowState",
+      "get": 4278190611,
+      "set": 4444196
+     },
+     {
+      "name": "WindowMenu",
+      "get": 4278190656,
+      "set": 4443352
+     },
+     {
+      "name": "OnActivate",
+      "get": 4278190704,
+      "set": 4278190704
+     },
+     {
+      "name": "OnCanResize",
+      "get": 4278190248,
+      "set": 4278190248
+     },
+     {
+      "name": "OnClick",
+      "get": 4278190344,
+      "set": 4278190344
+     },
+     {
+      "name": "OnClose",
+      "get": 4278190712,
+      "set": 4278190712
+     },
+     {
+      "name": "OnCloseQuery",
+      "get": 4278190720,
+      "set": 4278190720
+     },
+     {
+      "name": "OnConstrainedResize",
+      "get": 4278190256,
+      "set": 4278190256
+     },
+     {
+      "name": "OnContextPopup",
+      "get": 4278190360,
+      "set": 4278190360
+     },
+     {
+      "name": "OnCreate",
+      "get": 4278190776,
+      "set": 4278190776
+     },
+     {
+      "name": "OnDblClick",
+      "get": 4278190352,
+      "set": 4278190352
+     },
+     {
+      "name": "OnDestroy",
+      "get": 4278190784,
+      "set": 4278190784
+     },
+     {
+      "name": "OnDeactivate",
+      "get": 4278190728,
+      "set": 4278190728
+     },
+     {
+      "name": "OnDockDrop",
+      "get": 4278190472,
+      "set": 4278190472
+     },
+     {
+      "name": "OnDockOver",
+      "get": 4278190480,
+      "set": 4278190480
+     },
+     {
+      "name": "OnDragDrop",
+      "get": 4278190288,
+      "set": 4278190288
+     },
+     {
+      "name": "OnDragOver",
+      "get": 4278190296,
+      "set": 4278190296
+     },
+     {
+      "name": "OnEndDock",
+      "get": 4278190320,
+      "set": 4278190320
+     },
+     {
+      "name": "OnGetSiteInfo",
+      "get": 4278190504,
+      "set": 4278190504
+     },
+     {
+      "name": "OnHide",
+      "get": 4278190744,
+      "set": 4278190744
+     },
+     {
+      "name": "OnHelp",
+      "get": 4278190736,
+      "set": 4278190736
+     },
+     {
+      "name": "OnKeyDown",
+      "get": 4278190512,
+      "set": 4278190512
+     },
+     {
+      "name": "OnKeyPress",
+      "get": 4278190520,
+      "set": 4278190520
+     },
+     {
+      "name": "OnKeyUp",
+      "get": 4278190528,
+      "set": 4278190528
+     },
+     {
+      "name": "OnMouseDown",
+      "get": 4278190264,
+      "set": 4278190264
+     },
+     {
+      "name": "OnMouseMove",
+      "get": 4278190272,
+      "set": 4278190272
+     },
+     {
+      "name": "OnMouseUp",
+      "get": 4278190280,
+      "set": 4278190280
+     },
+     {
+      "name": "OnMouseWheel",
+      "get": 4278190536,
+      "set": 4278190536
+     },
+     {
+      "name": "OnMouseWheelDown",
+      "get": 4278190544,
+      "set": 4278190544
+     },
+     {
+      "name": "OnMouseWheelUp",
+      "get": 4278190552,
+      "set": 4278190552
+     },
+     {
+      "name": "OnPaint",
+      "get": 4278190752,
+      "set": 4278190752
+     },
+     {
+      "name": "OnResize",
+      "get": 4278190304,
+      "set": 4278190304
+     },
+     {
+      "name": "OnShortCut",
+      "get": 4278190760,
+      "set": 4278190760
+     },
+     {
+      "name": "OnShow",
+      "get": 4278190768,
+      "set": 4278190768
+     },
+     {
+      "name": "OnStartDock",
+      "get": 4278190312,
+      "set": 4278190312
+     },
+     {
+      "name": "OnUnDock",
+      "get": 4278190560,
+      "set": 4278190560
+     }
+    ]
+   },
+   "slots": [
+    4371348,
+    4439172,
+    4257220,
+    4438316,
+    4438376,
+    4438644,
+    4343236,
+    4276556,
+    4440724,
+    4275756,
+    4454912,
+    4436968,
+    4370060,
+    4371396,
+    4371184,
+    4368732,
+    4439924,
+    4368084,
+    4340608,
+    4340612,
+    4440168,
+    4351652,
+    4340992,
+    4343616,
+    4440668,
+    4440360,
+    4343928,
+    4440788,
+    4351780,
+    4368168,
+    4368292,
+    4367144,
+    4368264,
+    4436460,
+    4442088,
+    4357508,
+    4445104,
+    4445956,
+    4445636,
+    4446212,
+    4357248,
+    4368584,
+    4447992,
+    4367748,
+    4453088,
+    4434912,
+    4435600,
+    4449524,
+    4438104,
+    4438220,
+    4454024,
+    4437420,
+    4452788,
+    4446672,
+    4453240,
+    4440664
+   ]
+  },
+  {
+   "vmt": 4429008,
+   "name": "TCustomDockForm",
+   "instance_size": 720,
+   "parent_vmt": 4425044,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4455572,
+     "id": 132
+    },
+    {
+     "address": 4455612,
+     "id": 161
+    },
+    {
+     "address": 4455764,
+     "id": 45100
+    },
+    {
+     "address": 4455852,
+     "id": 45122
+    },
+    {
+     "address": 4456080,
+     "id": 45113
+    },
+    {
+     "address": 4456104,
+     "id": 45067
+    },
+    {
+     "address": 4455188,
+     "id": 65484
+    },
+    {
+     "address": 4455420,
+     "id": 65475
+    },
+    {
+     "address": 4455528,
+     "id": 65473
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "Forms",
+    "prop_count": 12,
+    "props": [
+     {
+      "name": "PixelsPerInch",
+      "get": 4443844,
+      "set": 4443864
+     }
+    ]
+   },
+   "slots": [
+    4371348,
+    4439172,
+    4257220,
+    4455452,
+    4438376,
+    4438644,
+    4343236,
+    4276556,
+    4440724,
+    4275756,
+    4454912,
+    4455084,
+    4370060,
+    4371396,
+    4371184,
+    4368732,
+    4439924,
+    4368084,
+    4340608,
+    4340612,
+    4440168,
+    4351652,
+    4340992,
+    4343616,
+    4440668,
+    4440360,
+    4343928,
+    4440788,
+    4351780,
+    4368168,
+    4368292,
+    4367144,
+    4368264,
+    4436460,
+    4442088,
+    4357508,
+    4445104,
+    4445956,
+    4445636,
+    4446212,
+    4357248,
+    4368584,
+    4447992,
+    4367748,
+    4453088,
+    4434912,
+    4435600,
+    4449524,
+    4438104,
+    4438220,
+    4454024,
+    4437420,
+    4452788,
+    4446672,
+    4453240,
+    4440664
+   ]
+  },
+  {
+   "vmt": 4429460,
+   "name": "TMonitor",
+   "instance_size": 12,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": []
+  },
+  {
+   "vmt": 4429548,
+   "name": "TScreen",
+   "instance_size": 152,
+   "parent_vmt": 4252428,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Forms",
+    "prop_count": 2,
+    "props": []
+   },
+   "slots": [
+    4257448,
+    4275520,
+    4257220,
+    4275736,
+    4275428,
+    4275748,
+    4275996,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4456348
+   ]
+  },
+  {
+   "vmt": 4429764,
+   "name": "TApplication",
+   "instance_size": 272,
+   "parent_vmt": 4252428,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Forms",
+    "prop_count": 2,
+    "props": []
+   },
+   "slots": [
+    4257448,
+    4275520,
+    4257220,
+    4275736,
+    4275428,
+    4275748,
+    4275996,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4460328
+   ]
+  },
+  {
+   "vmt": 4470064,
+   "name": "TImage",
+   "instance_size": 320,
+   "parent_vmt": 4330412,
+   "methods": [],
+   "dynamic": [
+    {
+     "address": 4471548,
+     "id": 65500
+    },
+    {
+     "address": 4472080,
+     "id": 65485
+    }
+   ],
+   "fields": [],
+   "rtti": {
+    "unit": "ExtCtrls",
+    "prop_count": 38,
+    "props": [
+     {
+      "name": "Align",
+      "get": 4278190155,
+      "set": 4341260
+     },
+     {
+      "name": "Anchors",
+      "get": 4278190161,
+      "set": 4340812
+     },
+     {
+      "name": "AutoSize",
+      "get": 4278190156,
+      "set": 4343204
+     },
+     {
+      "name": "Center",
+      "get": 4278190393,
+      "set": 4472188
+     },
+     {
+      "name": "Constraints",
+      "get": 4278190180,
+      "set": 4278190180
+     },
+     {
+      "name": "DragCursor",
+      "get": 4278190186,
+      "set": 4278190186
+     },
+     {
+      "name": "DragKind",
+      "get": 4278190219,
+      "set": 4278190219
+     },
+     {
+      "name": "DragMode",
+      "get": 4278190157,
+      "set": 4261412952
+     },
+     {
+      "name": "Enabled",
+      "get": 4261412940,
+      "set": 4261412956
+     },
+     {
+      "name": "IncrementalDisplay",
+      "get": 4278190394,
+      "set": 4278190394
+     },
+     {
+      "name": "ParentShowHint",
+      "get": 4278190218,
+      "set": 4344140
+     },
+     {
+      "name": "Picture",
+      "get": 4278190376,
+      "set": 4472212
+     },
+     {
+      "name": "PopupMenu",
+      "get": 4278190188,
+      "set": 4343708
+     },
+     {
+      "name": "ShowHint",
+      "get": 4278190217,
+      "set": 4344104
+     },
+     {
+      "name": "Stretch",
+      "get": 4278190392,
+      "set": 4472228
+     },
+     {
+      "name": "Transparent",
+      "get": 4278190395,
+      "set": 4472252
+     },
+     {
+      "name": "Visible",
+      "get": 4278190151,
+      "set": 4343548
+     },
+     {
+      "name": "OnClick",
+      "get": 4278190344,
+      "set": 4278190344
+     },
+     {
+      "name": "OnContextPopup",
+      "get": 4278190360,
+      "set": 4278190360
+     },
+     {
+      "name": "OnDblClick",
+      "get": 4278190352,
+      "set": 4278190352
+     },
+     {
+      "name": "OnDragDrop",
+      "get": 4278190288,
+      "set": 4278190288
+     },
+     {
+      "name": "OnDragOver",
+      "get": 4278190296,
+      "set": 4278190296
+     },
+     {
+      "name": "OnEndDock",
+      "get": 4278190320,
+      "set": 4278190320
+     },
+     {
+      "name": "OnEndDrag",
+      "get": 4278190336,
+      "set": 4278190336
+     },
+     {
+      "name": "OnMouseDown",
+      "get": 4278190264,
+      "set": 4278190264
+     },
+     {
+      "name": "OnMouseMove",
+      "get": 4278190272,
+      "set": 4278190272
+     },
+     {
+      "name": "OnMouseUp",
+      "get": 4278190280,
+      "set": 4278190280
+     },
+     {
+      "name": "OnProgress",
+      "get": 4278190384,
+      "set": 4278190384
+     },
+     {
+      "name": "OnStartDock",
+      "get": 4278190312,
+      "set": 4278190312
+     },
+     {
+      "name": "OnStartDrag",
+      "get": 4278190328,
+      "set": 4278190328
+     }
+    ]
+   },
+   "slots": [
+    4351204,
+    4348476,
+    4257220,
+    4351148,
+    4341192,
+    4341044,
+    4343236,
+    4276556,
+    4275764,
+    4275756,
+    4276564,
+    4471352,
+    4347312,
+    4472556,
+    4347516,
+    4342492,
+    4342336,
+    4344540,
+    4340608,
+    4340612,
+    4351608,
+    4351652,
+    4340992,
+    4343616,
+    4343472,
+    4344244,
+    4343928,
+    4347980,
+    4351780,
+    4344988,
+    4345024,
+    4341408,
+    4345004,
+    4471736
+   ]
+  },
+  {
+   "vmt": 4472940,
+   "name": "TMessageForm",
+   "instance_size": 720,
+   "parent_vmt": 4425784,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {
+    "unit": "Dialogs",
+    "prop_count": 86,
+    "props": []
+   },
+   "slots": [
+    4371348,
+    4439172,
+    4257220,
+    4438316,
+    4438376,
+    4438644,
+    4343236,
+    4276556,
+    4440724,
+    4275756,
+    4454912,
+    4436968,
+    4370060,
+    4371396,
+    4371184,
+    4368732,
+    4439924,
+    4368084,
+    4340608,
+    4340612,
+    4440168,
+    4351652,
+    4340992,
+    4343616,
+    4440668,
+    4440360,
+    4343928,
+    4440788,
+    4351780,
+    4368168,
+    4368292,
+    4367144,
+    4368264,
+    4436460,
+    4442088,
+    4357508,
+    4445104,
+    4445956,
+    4445636,
+    4446212,
+    4357248,
+    4368584,
+    4447992,
+    4367748,
+    4453088,
+    4434912,
+    4435600,
+    4449524,
+    4438104,
+    4438220,
+    4454024,
+    4437420,
+    4452788,
+    4446672,
+    4453240,
+    4440664
+   ]
+  },
+  {
+   "vmt": 4475708,
+   "name": "TCustomIniFile",
+   "instance_size": 8,
+   "parent_vmt": 4198592,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4204780,
+    4204780,
+    4476052,
+    4476248,
+    4476340,
+    4477532,
+    4476384,
+    4476568,
+    4476752,
+    4476936,
+    4477120,
+    4477216,
+    4477312,
+    4477412,
+    4204780,
+    4204780,
+    4204780,
+    4204780,
+    4204780,
+    4204780
+   ]
+  },
+  {
+   "vmt": 4475900,
+   "name": "TIniFile",
+   "instance_size": 8,
+   "parent_vmt": 4475708,
+   "methods": [],
+   "dynamic": [],
+   "fields": [],
+   "rtti": {},
+   "slots": [
+    4477560,
+    4477656,
+    4476052,
+    4476248,
+    4476340,
+    4477532,
+    4476384,
+    4476568,
+    4476752,
+    4476936,
+    4477120,
+    4477216,
+    4477312,
+    4477412,
+    4478020,
+    4477764,
+    4478284,
+    4478576,
+    4478660,
+    4478708
+   ]
+  }
+ ]
+}

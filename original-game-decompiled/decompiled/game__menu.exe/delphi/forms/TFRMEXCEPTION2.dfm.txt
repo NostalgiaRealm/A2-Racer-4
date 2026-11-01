@@ -1,0 +1,137 @@
+object frmException2: TfrmException2
+  Left = 476
+  Top = 239
+  ActiveControl = radioService
+  BorderStyle = bsDialog
+  Caption = 'Fout'
+  ClientHeight = 356
+  ClientWidth = 436
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = True
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnKeyPress = FormKeyPress
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblError: TLabel
+    Left = 56
+    Top = 8
+    Width = 369
+    Height = 89
+    AutoSize = False
+    Caption = 'Er is een onverwachte fout opgetreden.'
+    WordWrap = True
+  end
+  object imgError: TImage
+    Left = 8
+    Top = 8
+    Width = 39
+    Height = 41
+    AutoSize = True
+    Picture.Data = {binary 2730 bytes 07544269746d61709e0a0000424d9e0a00000000000036040000280000002700}
+    Transparent = True
+  end
+  object lblMessage: TLabel
+    Left = 56
+    Top = 192
+    Width = 339
+    Height = 13
+    Caption = 'Foutmelding (Toets Ctrl+C om de melding naar het klembord te kopiëren)'
+    Visible = False
+  end
+  object pnlBottom: TPanel
+    Left = 0
+    Top = 316
+    Width = 436
+    Height = 40
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 0
+    object Bevel1: TBevel
+      Left = 0
+      Top = 0
+      Width = 436
+      Height = 40
+      Align = alClient
+      Shape = bsTopLine
+    end
+    object btnOk: TDaviButton
+      Left = 320
+      Top = 8
+      Width = 104
+      Height = 24
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBtnText
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      OnClick = btnOkClick
+      Kind = bkOK
+      Margin = 4
+    end
+  end
+  object memoMsg: TMemo
+    Left = 56
+    Top = 216
+    Width = 361
+    Height = 89
+    ReadOnly = True
+    TabOrder = 1
+    Visible = False
+  end
+  object radioService: TRadioButton
+    Left = 56
+    Top = 104
+    Width = 369
+    Height = 17
+    Caption = 'radioService'
+    Checked = True
+    TabOrder = 2
+    TabStop = True
+  end
+  object radioCloseApp: TRadioButton
+    Left = 56
+    Top = 128
+    Width = 369
+    Height = 17
+    Caption = 'radioCloseApp'
+    TabOrder = 3
+  end
+  object radioIgnore: TRadioButton
+    Left = 56
+    Top = 152
+    Width = 369
+    Height = 17
+    Caption = 'radioIgnore'
+    TabOrder = 4
+  end
+  object btnDetails: TDaviButton
+    Left = 56
+    Top = 184
+    Width = 104
+    Height = 24
+    Caption = '&Details >>'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBtnText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    OnClick = btnDetailsClick
+    Glyph.Data = {binary 442 bytes b6010000424db601000000000000760000002800000024000000100000000100}
+    Margin = 4
+    NumGlyphs = 2
+  end
+end

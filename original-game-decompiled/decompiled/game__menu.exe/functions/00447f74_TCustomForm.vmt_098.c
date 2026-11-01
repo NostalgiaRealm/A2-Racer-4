@@ -1,0 +1,83 @@
+
+/* ==== TCustomForm.vmt_098 @ 00447f74 ==== 
+ * signature: undefined TCustomForm.vmt_098(void)
+ * body: 00447f74-004480a5
+ * note: Name source: Delphi VMT slot
+ */
+
+/* Name source: Delphi VMT slot */
+
+void TCustomForm_vmt_098(int *param_1)
+
+{
+  LPARAM LVar1;
+  HWND pHVar2;
+  undefined1 *puVar3;
+  LONG LVar4;
+  HWND hWndInsertAfter;
+  int iVar5;
+  int iVar6;
+  UINT UVar7;
+  HMENU hMenu;
+  int cx;
+  WPARAM WVar8;
+  HINSTANCE hInstance;
+  int cy;
+  undefined4 *lpParam;
+  undefined4 uStack_10;
+  undefined4 uStack_c;
+  
+  TScrollingWinControl_vmt_098(param_1);
+  if (*PTR_DAT_004ab7d4 != '\0') {
+    if (*(char *)((int)param_1 + 0x211) == '\x03') {
+      LVar1 = 0;
+      WVar8 = 1;
+      UVar7 = 0x80;
+      pHVar2 = (HWND)FUN_004349e0(param_1);
+      SendMessageA(pHVar2,UVar7,WVar8,LVar1);
+    }
+    else {
+      LVar1 = FUN_0044888c((int)param_1);
+      WVar8 = 1;
+      UVar7 = 0x80;
+      pHVar2 = (HWND)FUN_004349e0(param_1);
+      SendMessageA(pHVar2,UVar7,WVar8,LVar1);
+    }
+  }
+  lpParam = &uStack_10;
+  if ((*(byte *)(param_1 + 8) & 0x10) == 0) {
+    if (*(char *)((int)param_1 + 0x217) == '\x02') {
+      uStack_c = 0xff00;
+      uStack_10 = 0;
+      if (param_1[0x90] != 0) {
+        uStack_10 = FUN_0043d6c8(param_1[0x90]);
+      }
+      hMenu = (HMENU)0x0;
+      hInstance = DAT_004ac4dc;
+      pHVar2 = (HWND)FUN_004349e0(param_1);
+      iVar5 = TForm_get_ClientHeight(param_1);
+      iVar6 = TForm_get_ClientWidth(param_1);
+      pHVar2 = CreateWindowExA(0x200,"MDICLIENT",(LPCSTR)0x0,0x56330001,0,0,iVar6,iVar5,pHVar2,hMenu
+                               ,hInstance,lpParam);
+      param_1[0x8f] = (int)pHVar2;
+      puVar3 = FUN_00444580();
+      param_1[0x98] = (int)puVar3;
+      LVar4 = GetWindowLongA((HWND)param_1[0x8f],-4);
+      param_1[0x97] = LVar4;
+      SetWindowLongA((HWND)param_1[0x8f],-4,param_1[0x98]);
+    }
+    else if (*(char *)((int)param_1 + 0x217) == '\x03') {
+      UVar7 = 0x13;
+      cy = 0;
+      cx = 0;
+      iVar6 = 0;
+      iVar5 = 0;
+      hWndInsertAfter = (HWND)0xffffffff;
+      pHVar2 = (HWND)FUN_004349e0(param_1);
+      SetWindowPos(pHVar2,hWndInsertAfter,iVar5,iVar6,cx,cy,UVar7);
+    }
+  }
+  return;
+}
+
+

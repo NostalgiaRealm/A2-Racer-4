@@ -1,0 +1,6 @@
+address,kind,name,comment,confidence,evidence
+00401250,function,WinMain,"Creates the MOTOR window and loops: menu.exe, then spel.dat when ExitCode is 0x28.",confirmed,"strings menu.exe, spel.dat, /FirstTime"
+004010c0,function,ReadMenuExitCode,Reads [General] ExitCode from Menu.ini.,confirmed,"strings Menu.ini, ExitCode"
+00401130,function,SpawnAndGetExit,"Runs a program synchronously, reports spawn errors, then reads the exit code.",confirmed,error strings
+00401020,function,BuildIniPath,Current directory + backslash + file name.,confirmed,code
+00401000,function,IniGetInt,GetPrivateProfileIntA wrapper.,confirmed,code

@@ -1,0 +1,16 @@
+
+/* ==== Unwind@0056d1a2 @ 0056d1a2 ==== 
+ * signature: undefined __stdcall Unwind@0056d1a2(void)
+ * body: 0056d1a2-0056d1a9
+ */
+
+void Unwind_0056d1a2(void)
+
+{
+  int unaff_EBP;
+  
+  FUN_004900b0(unaff_EBP + -0x7c);
+  return;
+}
+
+

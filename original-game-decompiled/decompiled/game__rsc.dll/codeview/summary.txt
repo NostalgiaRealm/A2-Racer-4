@@ -1,0 +1,24 @@
+chains: 19, records: 1655
+record types: [('S_UDT', 1316), ('S_BPREL32', 139), ('S_END', 52), ('S_LABEL32', 36), ('S_LDATA32', 24), ('S_GPROC32', 23), ('S_LPROC32', 23), ('S_OBJNAME', 18), ('S_COMPILE', 18), ('S_BLOCK32', 6)]
+chain file 0x1c034-0x1c290 records=32
+chain file 0x1d004-0x1e02c records=179
+chain file 0x1ec04-0x1f3b0 records=95
+chain file 0x1f804-0x1f910 records=10
+chain file 0x1fc04-0x1fd20 records=11
+chain file 0x20004-0x20110 records=10
+chain file 0x20404-0x20500 records=9
+chain file 0x20804-0x20fec records=97
+chain file 0x21404-0x21ce4 records=109
+chain file 0x22404-0x22d5c records=114
+chain file 0x23404-0x23ce0 records=109
+chain file 0x24404-0x24ce0 records=108
+chain file 0x25404-0x26170 records=163
+chain file 0x26c04-0x273f0 records=98
+chain file 0x27804-0x280bc records=108
+chain file 0x28404-0x28cd4 records=109
+chain file 0x29004-0x297c0 records=96
+chain file 0x29c04-0x2a414 records=100
+chain file 0x2a804-0x2b008 records=98
+
+Note: these records describe Microsoft CRT objects (object names under E:\8267\vc98\crtbld\...). Their code offsets do not
+match this image: only 4 of 46 procedure records land on a function start, and sizes differ. They were not used for naming.

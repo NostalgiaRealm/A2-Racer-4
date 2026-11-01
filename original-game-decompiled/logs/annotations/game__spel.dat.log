@@ -1,0 +1,81 @@
+rows 76 duplicates 0 malformed 0
+openjdk version "25.0.4.1" 2026-08-18
+OpenJDK Runtime Environment (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1)
+OpenJDK 64-Bit Server VM (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1, mixed mode)
+INFO  Using log config file: jar:file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (775 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (1514 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/scripts/ghidra
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/analysis-projects/game__spel.dat__annotated/analysis (HeadlessAnalyzer)  
+INFO  Opening project: /home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/analysis-projects/game__spel.dat__annotated/analysis (HeadlessProject)  
+INFO  REPORT: Processing project file: /spel.dat (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ApplyAnnotations.java '/home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/decompiled/game__spel.dat/annotated/annotations_applied.csv'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/scripts/ghidra/ApplyAnnotations.java (HeadlessAnalyzer)  
+INFO  ApplyAnnotations.java> ANNOTATIONS functions=76 globals=0 comments=0 missing=0 rejected=0 (GhidraScript)  
+INFO  REPORT: Execute script: ExportModule.java '/home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/decompiled/game__spel.dat/annotated' '1' '3'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/scripts/ghidra/ExportModule.java (HeadlessAnalyzer)  
+INFO  ExportModule.java> exported 1000/13762 (GhidraScript)  
+WARN  Decompiling 00432545, pcode error at 00432563: Unable to resolve constructor at 00432563 (DecompileCallback)  
+WARN  Decompiling 00434c02, pcode error at 00434c04: Unable to resolve constructor at 00434c04 (DecompileCallback)  
+WARN  Decompiling 00447d8e, pcode error at e92c7e3e: Could not follow disassembly flow into non-existing memory at e92c7e3e (DecompileCallback)  
+WARN  Decompiling 00447d8e, pcode error at 64ac7e39: Could not follow disassembly flow into non-existing memory at 64ac7e39 (DecompileCallback)  
+INFO  ExportModule.java> exported 2000/13762 (GhidraScript)  
+INFO  ExportModule.java> exported 3000/13762 (GhidraScript)  
+INFO  ExportModule.java> exported 4000/13762 (GhidraScript)  
+WARN  Decompiling 004cc9de, pcode error at db004cc8: Could not follow disassembly flow into non-existing memory at db004cc8 (DecompileCallback)  
+WARN  Decompiling 004cdca9, pcode error at 004cdcad: Unable to resolve constructor at 004cdcad (DecompileCallback)  
+WARN  Decompiling 004cdb59, pcode error at 004cdba5: Unable to resolve constructor at 004cdba5 (DecompileCallback)  
+WARN  Decompiling 004cf0f2, pcode error at 004cf0f4: Unable to resolve constructor at 004cf0f4 (DecompileCallback)  
+INFO  ExportModule.java> exported 5000/13762 (GhidraScript)  
+INFO  ExportModule.java> exported 6000/13762 (GhidraScript)  
+INFO  ExportModule.java> exported 7000/13762 (GhidraScript)  
+INFO  ExportModule.java> exported 8000/13762 (GhidraScript)  
+WARN  Decompiling 0053c711, pcode error at 0053c715: Unable to resolve constructor at 0053c715 (DecompileCallback)  
+WARN  Decompiling 005582a9, pcode error at 90005583: Could not follow disassembly flow into non-existing memory at 90005583 (DecompileCallback)  
+WARN  Decompiling 00558351, pcode error at 0055837a: Unable to resolve constructor at 0055837a (DecompileCallback)  
+WARN  Decompiling 00558351, pcode error at f9d8d1e9: Could not follow disassembly flow into non-existing memory at f9d8d1e9 (DecompileCallback)  
+WARN  Decompiling 0055b589, pcode error at 900055b6: Could not follow disassembly flow into non-existing memory at 900055b6 (DecompileCallback)  
+WARN  Decompiling 0055b631, pcode error at 0055b65a: Unable to resolve constructor at 0055b65a (DecompileCallback)  
+INFO  ExportModule.java> exported 9000/13762 (GhidraScript)  
+INFO  ExportModule.java> exported 10000/13762 (GhidraScript)  
+INFO  ExportModule.java> exported 11000/13762 (GhidraScript)  
+INFO  ExportModule.java> exported 12000/13762 (GhidraScript)  
+INFO  ExportModule.java> exported 13000/13762 (GhidraScript)  
+INFO  ExportModule.java> EXPORT COMPLETE functions=13762 decompiled=13760 assembly_only=2 out=/home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/decompiled/game__spel.dat/annotated (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /spel.dat (HeadlessAnalyzer)  

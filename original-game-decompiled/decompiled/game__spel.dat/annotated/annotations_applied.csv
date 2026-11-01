@@ -1,0 +1,77 @@
+address,kind,name,comment,confidence,evidence
+00403750,function,IsRacerBraking,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to IsRacerBraking function'
+004038a0,function,HandleGasBreak,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to HandleGasBreak function'
+00403c70,function,HandleController,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to HandleController function'
+00403cd0,function,HandleAICar,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to HandleAICar function'
+00404080,function,IsRacerNear,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to IsRacerNear function'
+004041d0,function,MayRacerBash,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to MayRacerBash function'
+0040429f,function,IsRacerBehind,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to IsRacerBehind function'
+00404356,function,RacerStopped,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to RacerStopped function'
+004043dc,function,RacerCloseAndStopped,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to RacerCloseAndStopped funct'
+0040452f,function,ArrestReady,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to ArrestReady function'
+0040476a,function,CheckPlayerClose,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to CheckPlayerClose function'
+00404820,function,CheckRacerDirection,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to CheckRacerDirection functi'
+00404870,function,CanContinueChase,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to CanContinueChase function'
+00404a2b,function,ObjectStopped,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to ObjectStopped function'
+00404ae3,function,TargetIsGhostDriving,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to TargetIsGhostDriving funct'
+00404b61,function,TargetInReverse,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to TargetInReverse function'
+00404c90,function,ObjectStuck,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to ObjectStuck function'
+00404ce0,function,NoLongerGhost,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to NoLongerGhost function'
+00404d60,function,RacerStraightBehind,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to RacerStraightBehind functi'
+00404e16,function,RacerAhead,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to RacerAhead function'
+00404eb0,function,BreakTimeElapsed,Name appears in this function's own error string.,confirmed,string '(%s):%d Illegal index (%d) in FSM passed to BreakTimeElapsed function'
+004380f0,function,init_temp_camera,Name appears in this function's own error string.,confirmed,string '(init_temp_camera) illegal camera index(%d) max. (%d)\n'
+004381f0,function,init_ai_cockpit_camera,Name appears in this function's own error string.,confirmed,string '(init_ai_cockpit_camera) illegal camera index(%d) max. (%d)\n'
+00438290,function,init_topview_camera,Name appears in this function's own error string.,confirmed,string '(init_topview_camera) illegal camera index(%d) max. (%d)\n'
+00438410,function,change_active_camera,Name appears in this function's own error string.,confirmed,string '(change_active_camera) illegal camera index(%d) max. (%d)\n'
+00440cb0,function,draw_2d_item,Name appears in this function's own error string.,confirmed,string '(draw_2d_item) Frame(%d) is not in the anim (%d)'
+00440fa9,function,draw_2d_translucent_item,Name appears in this function's own error string.,confirmed,string '(draw_2d_translucent_item) Frame(%d) is not in the anim (%d)'
+004454c0,function,init_moving_sky,Name appears in this function's own error string.,confirmed,string '(init_moving_sky) %s(%d) : Invalid screen size'
+00447db0,function,load_palette_info,Name appears in this function's own error string.,confirmed,string '(load_palette_info) %s(%d) : Invalid number of arguments for palets'
+00448cd0,function,cfg_init_files,"Registers RASER.INI, GAME.INI and CfgFiles.INI.",confirmed,strings
+0044a230,function,load_racer_info,Name appears in this function's own error string.,confirmed,string '(load_racer_info) %s(%d) : Invalid number of arguments for racer %d'
+0044a690,function,load_track_info,Name appears in this function's own error string.,confirmed,string '(load_track_info) %s(%d) : Invalid number of arguments for track %d'
+0044acb0,function,load_etappe_info,Name appears in this function's own error string.,confirmed,string '(load_etappe_info) %s(%d) : Invalid etappe %d'
+0044ad40,function,load_music_info,Name appears in this function's own error string.,confirmed,string '(load_music_info) %s(%d) : No valid ini settings for music %d'
+0044bd10,function,set_game_display,Name appears in this function's own error string.,confirmed,string '(set_game_display) %s(%d) : Invalid resolution GAME supports only 320x'
+0044cb80,function,handle_game,Per-frame game update in the main loop.,confirmed,caller log 'Calling handle_game'
+0044cf60,function,start_game,Called after init_main.,confirmed,caller log 'Calling start_game'
+0044df10,function,winmain,Name appears in this function's own error string.,confirmed,string '%s(%d) - (winmain) - Illegal renderfocus.\n'
+0044e180,function,handle_framecount_timing,Per-frame timing.,confirmed,caller log 'Calling handle_framecount_timing'
+0044e340,function,init_player_car,Name appears in this function's own error string.,confirmed,string '(init_player_car) %s(%d) : Illegal start chunk %d with position %d'
+00456c00,function,trigger_find_start_position,Name appears in this function's own error string.,confirmed,string '(trigger_find_start_position) unable to find finish trigger in map'
+00458020,function,my_handle_win_msg,Window message pump; non-zero leaves the main loop.,confirmed,caller log 'Calling my_handle_win_msg'
+004580e0,function,init_main,"Startup order: script engine, settings, language, 2D, input, 3D, game, timers.",confirmed,string 'init_main' completed; log strings
+00458210,function,exit_main,Shutdown sequence.,confirmed,caller log 'Calling exit_main'; log strings
+00458270,function,WinMain,"Program entry after CRT startup: init, main loop, exit. Log strings name the steps.",confirmed,"strings 'init_main', 'handle_game', 'exit_main'"
+004641d0,function,pth_load,Reads etappe%d.pth. Version must be -1; at most 40 paths.,confirmed,code and strings
+00475b50,function,script_init,"Registers classes D3DVECTOR, D3DCOLOR, CPlayer, CBonus and loads bonus.dso.",confirmed,"strings 'bonus.dso', 'D3DVECTOR'"
+00477df0,function,script_fire_OnPickup,Builds OnPickup_<name> and calls it.,confirmed,string 'OnPickup_%s'
+00478ac0,function,script_fire_OnFramecall,Builds OnFramecall_<name> and calls it.,confirmed,string 'OnFramecall_%s'
+004a6b10,function,rceng_load_etappe,Name appears in this function's own error string.,confirmed,string '(rceng_load_etappe) engine not initialised'
+004aa9d0,function,rd_load_dmp,Reads the .dmp records.,confirmed,caller passes extension dmp
+004ab6d0,function,rd_read_chunk_pmp,One .pmp chunk record.,confirmed,code
+004aba30,function,rd_read_chunk_rmp,"One .rmp chunk: road, land, extra and rail planes.",confirmed,error strings 'Too many road planes' and others
+004ae490,function,rd_load_etappe_files,"Loads .cmp, .dmp, .pmp with .rmp, then .omp.",confirmed,extension strings pushed in this order
+004ae570,function,rd_load_chunks,Reads .pmp and .rmp together; chunk counts must match.,confirmed,error string about chunk count
+004aead0,function,rd_load_omp,Reads the .omp object records.,confirmed,caller passes extension omp
+004af520,function,calc_start_and_end_chunk,Name appears in this function's own error string.,confirmed,string '(calc_start_and_end_chunk) illegal start chunk: %d'
+004b31a0,function,rd_read_plane,One plane: 4 vertices and 6 indices.,confirmed,code
+004b35f0,function,rd_load_cmp,Reads the .cmp records.,confirmed,caller passes extension cmp
+004be590,function,mesh_load,Loads a .d3d mesh.,confirmed,"strings 'LOADING MESH', Mesh.cpp"
+004c3b60,function,set_ini_filename,Name appears in this function's own error string.,confirmed,string '(set_ini_filename) %s(%d) : filename has incorrect lenght.'
+004c3c30,function,write_ini_string_setting,Name appears in this function's own error string.,confirmed,"string '(write_ini_string_setting) %s(%d) : No ini file set, use set_ini_filen'"
+004c3c70,function,write_ini_value_setting,Name appears in this function's own error string.,confirmed,"string '(write_ini_value_setting) %s(%d) : No ini file set, use set_ini_filena'"
+004c3cd0,function,read_ini_value_setting,Name appears in this function's own error string.,confirmed,"string '(read_ini_value_setting) %s(%d) : No ini file set, use set_ini_filenam'"
+004c3d10,function,read_ini_string_setting,Name appears in this function's own error string.,confirmed,"string '(read_ini_string_setting) %s(%d) : No ini file set, use set_ini_filena'"
+004c3d60,function,get_ini_arguments_online,Name appears in this function's own error string.,confirmed,string '(get_ini_arguments_online) %s(%d) : to many arguments on a line (max. '
+004c4150,function,Fatal,"Formats a message, shows MessageBoxExA, calls ExitProcess(1). Never returns.",confirmed,code of the function
+004c4400,function,hardware,Name appears in this function's own error string.,confirmed,string '(hardware) flipping of visible surfaces is not supported'
+004c5e90,function,rc_init,Reads the resource index of rcs.img.,confirmed,Fileio.cpp; caller passes rcs.img
+004c62c0,function,rc_fopen,"Opens a file, inside the resource archive when listed there.",confirmed,Fileio.cpp strings
+004c65b0,function,this,Name appears in this function's own error string.,confirmed,string 'invalid parameters passed to this function'
+004d4040,function,dso_read_item,Item factory by tag byte.,confirmed,tag dispatch to 0x4dc6f8 and 0x4dca70
+004d8a80,function,dso_load_module,"Reads version (must be 0x1B), time and the five item lists.",confirmed,code compares version with 0x1b
+004ddb10,function,dso_read_code,u16 count then instructions.,confirmed,code
+004e2d10,function,dso_read_operand,"Operand factory, tags 0-5.",confirmed,table 0x4e2f74
+004e39d0,function,dso_read_instruction,"Instruction factory, tags 0-6.",confirmed,table 0x4e3c38

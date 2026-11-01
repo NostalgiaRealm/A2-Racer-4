@@ -1,0 +1,15 @@
+
+/* ==== FUN_005745bc @ 005745bc ==== 
+ * signature: undefined __cdecl FUN_005745bc(PEXCEPTION_RECORD param_1, PVOID param_2, undefined4 param_3, undefined4 param_4)
+ * body: 005745bc-005745c5
+ */
+
+void __cdecl
+FUN_005745bc(PEXCEPTION_RECORD param_1,PVOID param_2,undefined4 param_3,undefined4 param_4)
+
+{
+  FUN_00557d9b(param_1,param_2,param_3,param_4);
+  return;
+}
+
+

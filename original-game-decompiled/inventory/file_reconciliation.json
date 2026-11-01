@@ -1,0 +1,37 @@
+{
+ "install": {
+  "fingerprint_files": 134,
+  "copied_files": 134,
+  "missing": [],
+  "hash_mismatch": [],
+  "extra": []
+ },
+ "input_install_now": {
+  "files": 134,
+  "changed_content": [],
+  "added": [],
+  "mtime_changed": []
+ },
+ "input_iso_now": {
+  "sha256_before": "da412f5c7d277a21a36022a7f70c96fde481dd6a1abd857616d516b6e469e7f1",
+  "sha256_now": "da412f5c7d277a21a36022a7f70c96fde481dd6a1abd857616d516b6e469e7f1",
+  "unchanged": true
+ },
+ "disc": {
+  "iso_records": 159,
+  "extracted_files": 159,
+  "missing": [],
+  "mismatched": [],
+  "unreferenced_nonzero_bytes": 0,
+  "bytes_past_volume": 4096
+ },
+ "install_log": {
+  "logged_file_operations": 147,
+  "not_collected": [
+   {
+    "logged": "C:\\windows\\system32\\OLEPRO32.dll",
+    "status": "not copied"
+   }
+  ]
+ }
+}

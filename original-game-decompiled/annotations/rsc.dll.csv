@@ -1,0 +1,14 @@
+address,kind,name,comment,confidence,evidence
+10001470,function,xvga_src_fseek_impl,"Seek, relative to the current member when the handle is the archive.",confirmed,export thunk jumps here; code read
+100013f0,function,xvga_fileio_set_check_sequence_impl,Sets a 0/1 flag; 1 makes open bypass the archive and use loose files.,confirmed,export thunk jumps here; code read
+100017c0,function,xvga_src_fopen_impl,"Opens a name: searches the index, else plain fopen.",confirmed,export thunk jumps here; code read
+10001b50,function,xvga_exit_fileio_impl,Frees the index and closes the archive.,confirmed,export thunk jumps here; code read
+10001c90,function,xvga_rc_filepos_impl,Offset of member N.,confirmed,export thunk jumps here; code read
+100016a0,function,xvga_src_filelength_impl,"File length, or member size for the archive.",confirmed,export thunk jumps here; code read
+10001090,function,xvga_init_fileio_impl,"Reads IND (u16 count, 24-byte entries) and opens IMG. Sizes come from offset differences.",confirmed,export thunk jumps here; code read
+10001a30,function,xvga_file_exist_impl,"Checks the index, else tries fopen.",confirmed,export thunk jumps here; code read
+10001d10,function,xvga_get_filehandle_impl,OS handle of a stream.,confirmed,export thunk jumps here; code read
+10001cd0,function,xvga_rc_filelength_impl,Size of member N.,confirmed,export thunk jumps here; code read
+10001c30,function,xvga_rc_filename_impl,Copies the name of member N.,confirmed,export thunk jumps here; code read
+10001940,function,xvga_src_fclose_impl,Closes unless the handle is the archive.,confirmed,export thunk jumps here; code read
+10001c00,function,xvga_rc_num_files_impl,Member count.,confirmed,export thunk jumps here; code read

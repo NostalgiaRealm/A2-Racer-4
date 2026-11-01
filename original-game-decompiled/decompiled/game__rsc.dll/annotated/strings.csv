@@ -1,0 +1,1500 @@
+address,length,type,value,referenced_from_functions
+1001b4f0,12,string,Saturday,
+1001b4fc,8,string,Friday,
+1001b504,12,string,Thursday,
+1001b510,12,string,Wednesday,
+1001b51c,8,string,Tuesday,
+1001b524,8,string,Monday,
+1001b52c,8,string,Sunday,
+1001b554,12,string,new_p == 0,
+1001b560,12,string,setnewh.cpp,
+1001b6bf,29,string,x Complete Object Locator',
+1001b6dc,32,string, Class Hierarchy Descriptor',
+1001b6fc,20,string, Base Class Array',
+1001b710,28,string, Base Class Descriptor at (,
+1001b72c,20,string, Type Descriptor',
+1001b740,32,string,`placement delete[] closure',
+1001b760,28,string,`placement delete closure',
+1001b77c,16,string,`omni callsig',
+1001b78c,12,string, delete[],
+1001b7a0,36,string,`local vftable constructor closure',
+1001b7c4,16,string,`local vftable',
+1001b7e0,16,string,`udt returning',
+1001b7f0,28,string,`copy constructor closure',
+1001b80c,40,string,`eh vector vbase constructor iterator',
+1001b834,32,string,`eh vector destructor iterator',
+1001b854,36,string,`eh vector constructor iterator',
+1001b878,28,string,`virtual displacement map,
+1001b894,36,string,`vector vbase constructor iterator',
+1001b8b8,32,string,`vector destructor iterator',
+1001b8d8,32,string,`vector constructor iterator',
+1001b8f8,32,string,`scalar deleting destructor',
+1001b918,32,string,`default constructor closure',
+1001b938,32,string,`vector deleting destructor',
+1001b958,20,string,`vbase destructor',
+1001b96c,12,string,`string',
+1001b978,24,string,`local static guard',
+1001b9a4,12,string,`vbtable',
+1001b9b0,10,string,`vftable',
+1001ba20,9,string,operator,
+1001ba40,8,string, delete,
+1001ba50,12,string,__restrict,
+1001ba64,12,string,__com3call,
+1001ba70,12,string,__fastcall,
+1001ba7c,12,string,__thiscall,
+1001ba88,12,string,__stdcall,
+1001ba94,12,string,__pascal,
+1001baa0,8,string,__cdecl,
+1001baa8,12,string,__based(,
+1001bac0,24,string,`anonymous namespace',
+1001bae0,20,string,`template-parameter,
+1001bb08,12,string,public: ,
+1001bb14,12,string,protected: ,
+1001bb20,12,string,private: ,
+1001bb2c,12,string,virtual ,
+1001bb38,8,string,static ,
+1001bb40,48,string,`template static data member destructor helper',
+1001bb70,52,string,`template static data member constructor helper',
+1001bba4,33,string,`local static destructor helper',
+1001bbcc,12,string,`adjustor{,
+1001bbd8,12,string,`vtordisp{,
+1001bbf8,12,string,volatile,
+1001bc18,12,string, volatile,
+1001bc24,8,string,const,
+1001bc2c,8,string,signed ,
+1001bc34,8,string,UNKNOWN,
+1001bc44,12,string,__int128,
+1001bc50,8,string,__int64,
+1001bc58,8,string,__int32,
+1001bc60,8,string,__int16,
+1001bc78,12,string,unsigned ,
+1001bc84,8,string,double,
+1001bc8c,8,string,long ,
+1001bc94,8,string,float,
+1001bca8,8,string,short,
+1001bcb8,16,string,`unknown ecsu',
+1001bcc8,8,string,union ,
+1001bcd0,8,string,struct ,
+1001bcd8,8,string,class ,
+1001bce0,8,string,enum ,
+1001bcf0,8,string,short ,
+1001bcf8,8,string,char ,
+1001bd00,8,string,const ,
+1001bd08,10,string,volatile ,
+1001be33,17,string,xruntime error ,
+1001be48,16,string,"TLOSS error
+",
+1001be58,16,string,"SING error
+",
+1001be68,16,string,"DOMAIN error
+",
+1001be78,40,string,"R6028
+- unable to initialize heap
+",
+1001bea0,56,string,"R6027
+- not enough space for lowio initialization
+",
+1001bed8,56,string,"R6026
+- not enough space for stdio initialization
+",
+1001bf10,40,string,"R6025
+- pure virtual function call
+",
+1001bf38,56,string,"R6024
+- not enough space for _onexit/atexit table
+",
+1001bf70,44,string,"R6019
+- unable to open console device
+",
+1001bf9c,36,string,"R6018
+- unexpected heap error
+",
+1001bfc0,48,string,"R6017
+- unexpected multithread lock error
+",
+1001bff0,20,string,"R6016
+- not eno",
+1001c024,16,string,_store_winword,
+1001c1e9,7,string,format,
+1001c221,7,string,count,
+1001c25d,7,string,repeat,
+1001c270,12,string,	specifier,
+1001c320,12,string,"
+strftime.c",
+1001d00c,62,string,;E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\getqloc.objJ,
+1001d0c3,13,string,pchLanguage,
+1001d0de,14,string,"
+pchCountry",
+1001d0fa,14,string,"
+iLcidState",
+1001d117,13,string,iPrimaryLen,
+1001d133,17,string,bAbbrevLanguage,
+1001d153,17,string,bAbbrevCountry,
+1001d173,13,string,lcidLanguage,
+1001d18f,13,string,lcidCountry,
+1001d1b5,7,string,WCHAR,
+1001d209,7,string,LPINT,
+1001d219,23,string,ACL_INFORMATION_CLASS,
+1001d26d,7,string,wint_t,
+1001d27d,7,string,PLONG,
+1001d28d,7,string,PUCHAR,
+1001d2ad,7,string,PDWORD,
+1001d2cd,23,string,GET_FILEEX_INFO_LEVELS,
+1001d2ed,7,string,LPLONG,
+1001d30d,7,string,LANGID,
+1001d31d,11,string,COLORREF,
+1001d330,16,string,"MENUTEMPLATEA",
+1001d349,23,string,EXCEPTION_DISPOSITION,
+1001d368,16,string,"MENUTEMPLATEW",
+1001d380,12,string,	DWORDLONG,
+1001d395,9,string,CALTYPE&,
+1001d3a5,31,string,SECURITY_IMPERSONATION_LEVEL,
+1001d3cd,7,string,CALID,
+1001d3f1,7,string,PULONG,
+1001d401,23,string,PSECURITY_INFORMATION,
+1001d440,12,string,	ULONGLONG,
+1001d454,16,string,"PACCESS_TOKEN",
+1001d46d,7,string,PFLOAT,
+1001d498,16,string,"LCSGAMUTMATCH",
+1001d4b1,11,string,wctype_t,
+1001d4e5,23,string,PSECURITY_DESCRIPTOR,
+1001d515,7,string,HANDLE,
+1001d525,11,string,LONGLONG,
+1001d549,7,string,UCHAR,
+1001d559,7,string,HLOCAL,
+1001d569,7,string,SHORT,
+1001d5a9,7,string,DWORD,
+1001d5b9,7,string,PUINT,
+1001d5d9,11,string,UINT_PTR,
+1001d5ec,16,string,"PSID_NAME_USE",
+1001d605,23,string,SECURITY_INFORMATION,
+1001d65d,15,string,QUERYHANDLER,
+1001d675,31,string,PSECURITY_DESCRIPTOR_CONTROL,
+1001d6ac,12,string,	LCSCSTYPE,
+1001d6e1,7,string,HFILE,
+1001d6f1,7,string,REGSAM,
+1001d721,7,string,ULONG,
+1001d731,31,string,SECURITY_CONTEXT_TRACKING_MODE,
+1001d769,7,string,USHORT,
+1001d779,7,string,FLOAT,
+1001d799,19,string,WIN_TRUST_SUBJECT,
+1001d7d5,15,string,LATENCY_TIME,
+1001d80d,7,string,LPARAM,
+1001d81d,7,string,WPARAM,
+1001d83c,12,string,"
+TOKEN_TYPE",
+1001d870,12,string,"
+KSPIN_LOCK",
+1001d885,7,string,LCTYPE,
+1001d8ad,9,string,va_list>,
+1001d8dc,24,string,__get_qualified_locale,
+1001d929,11,string,lpOutStr,
+1001d940,12,string,	iCodePage,
+1001d977,17,string,"TranslateName",
+1001d9bd,11,string,ppchName,
+1001da24,24,string,GetLcidFromLangCountry,
+1001da68,20,string,LangCountryEnumProc,
+1001da89,15,string,lpLcidString,
+1001daec,20,string,GetLcidFromLanguage,
+1001db49,15,string,lpLcidString,
+1001dbac,20,string,GetLcidFromCountry,
+1001dbec,16,string,CountryEnumProc,
+1001dc09,15,string,lpLcidString,
+1001dc6c,20,string,GetLcidFromDefault,
+1001dcac,16,string,ProcessCodePage,
+1001dcc8,16,string,"lpCodePageStr",
+1001dce4,12,string,"
+chCodePage",
+1001dd1c,20,string,TestDefaultCountry,
+1001dd61,7,string,langid,
+1001dd94,20,string,TestDefaultLanguage,
+1001ddc9,15,string,bTestPrimary,
+1001de30,16,string,IsThisWindowsNT,
+1001de4c,16,string,"osVersionInfo",
+1001de88,20,string,crtGetLocaleInfoA,
+1001debd,7,string,lctype,
+1001ded1,7,string,lpdata,
+1001df18,12,string,	pchResult,
+1001df64,20,string,LcidFromHexString,
+1001dfdf,17,string,"GetPrimaryLen",
+1001ec0c,64,string,<E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\nlsdata3.obj,
+1001ecb1,7,string,WCHAR,
+1001ed05,7,string,LPINT,
+1001ed15,23,string,ACL_INFORMATION_CLASS,
+1001ed69,7,string,wint_t,
+1001ed79,7,string,PLONG,
+1001ed89,7,string,PUCHAR,
+1001eda9,7,string,PDWORD,
+1001edc9,23,string,GET_FILEEX_INFO_LEVELS,
+1001ede9,7,string,LPLONG,
+1001ee09,7,string,LANGID,
+1001ee19,11,string,COLORREF,
+1001ee2c,16,string,"MENUTEMPLATEA",
+1001ee45,23,string,EXCEPTION_DISPOSITION,
+1001ee64,16,string,"MENUTEMPLATEW",
+1001ee7c,12,string,	DWORDLONG,
+1001ee91,9,string,CALTYPE&,
+1001eea1,31,string,SECURITY_IMPERSONATION_LEVEL,
+1001eec9,7,string,CALID,
+1001eeed,7,string,PULONG,
+1001eefd,23,string,PSECURITY_INFORMATION,
+1001ef3c,12,string,	ULONGLONG,
+1001ef50,16,string,"PACCESS_TOKEN",
+1001ef69,7,string,PFLOAT,
+1001ef94,16,string,"LCSGAMUTMATCH",
+1001efad,11,string,wctype_t,
+1001efe1,23,string,PSECURITY_DESCRIPTOR,
+1001f011,7,string,HANDLE,
+1001f021,11,string,LONGLONG,
+1001f045,7,string,UCHAR,
+1001f055,7,string,HLOCAL,
+1001f065,7,string,SHORT,
+1001f0a5,7,string,DWORD,
+1001f0b5,7,string,PUINT,
+1001f0d5,11,string,UINT_PTR,
+1001f0e8,16,string,"PSID_NAME_USE",
+1001f101,23,string,SECURITY_INFORMATION,
+1001f159,15,string,QUERYHANDLER,
+1001f171,31,string,PSECURITY_DESCRIPTOR_CONTROL,
+1001f1a8,12,string,	LCSCSTYPE,
+1001f1dd,7,string,HFILE,
+1001f1ed,7,string,REGSAM,
+1001f21d,7,string,ULONG,
+1001f22d,31,string,SECURITY_CONTEXT_TRACKING_MODE,
+1001f265,7,string,USHORT,
+1001f275,7,string,FLOAT,
+1001f295,19,string,WIN_TRUST_SUBJECT,
+1001f2d1,15,string,LATENCY_TIME,
+1001f309,7,string,LPARAM,
+1001f319,7,string,WPARAM,
+1001f338,12,string,"
+TOKEN_TYPE",
+1001f36c,12,string,"
+KSPIN_LOCK",
+1001f381,7,string,LCTYPE,
+1001f80d,33,string,build\intel\xmt_obj\strpbrk.obj6,
+1001f834,50,string,/Microsoft (R) Macro Assembler Version 6.13.7299.,
+1001f8a1,7,string,string,
+1001f8f0,8,string,dstnext,
+1001f904,8,string,dstdone,
+1001f935,19,string,.\Intel\STRSPN.ASM,
+1001fc0d,33,string,build\intel\xmt_obj\strncmp.obj6,
+1001fc34,50,string,/Microsoft (R) Macro Assembler Version 6.13.7299.,
+1001fca1,7,string,first,
+1001fcc9,7,string,count,
+1001fd00,8,string,lastbig,
+1001fd14,8,string,toend,
+1001fd45,19,string,intel\strncmp.asm,
+1002000d,33,string,build\intel\xmt_obj\strcspn.obj6,
+10020034,50,string,/Microsoft (R) Macro Assembler Version 6.13.7299.,
+100200a1,7,string,string,
+100200f0,8,string,dstnext,
+10020104,8,string,dstdone,
+10020135,19,string,.\Intel\STRSPN.ASM,
+1002040d,31,string,build\intel\xmt_obj\strcmp.obj,
+10020434,50,string,/Microsoft (R) Macro Assembler Version 6.13.7299.,
+100204c8,8,string,donene,
+100204db,13,string,	dopartial,
+100204f4,8,string,doword,
+10020525,19,string,intel\strcmp.asm,
+1002080c,64,string,<E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\initcoll.obj,
+100208b1,7,string,WCHAR,
+10020905,7,string,LPINT,
+10020915,23,string,ACL_INFORMATION_CLASS,
+10020969,7,string,wint_t,
+10020979,7,string,PLONG,
+10020989,7,string,PUCHAR,
+100209a9,7,string,PDWORD,
+100209c9,23,string,GET_FILEEX_INFO_LEVELS,
+100209e9,7,string,LPLONG,
+10020a09,7,string,LANGID,
+10020a19,11,string,COLORREF,
+10020a2c,16,string,"MENUTEMPLATEA",
+10020a45,23,string,EXCEPTION_DISPOSITION,
+10020a64,16,string,"MENUTEMPLATEW",
+10020a7c,12,string,	DWORDLONG,
+10020a91,9,string,CALTYPE&,
+10020aa1,31,string,SECURITY_IMPERSONATION_LEVEL,
+10020ac9,7,string,CALID,
+10020aed,7,string,PULONG,
+10020afd,23,string,PSECURITY_INFORMATION,
+10020b3c,12,string,	ULONGLONG,
+10020b50,16,string,"PACCESS_TOKEN",
+10020b69,7,string,PFLOAT,
+10020b94,16,string,"LCSGAMUTMATCH",
+10020bad,11,string,wctype_t,
+10020be1,23,string,PSECURITY_DESCRIPTOR,
+10020c11,7,string,HANDLE,
+10020c21,11,string,LONGLONG,
+10020c45,7,string,UCHAR,
+10020c55,7,string,HLOCAL,
+10020c65,7,string,SHORT,
+10020ca5,7,string,DWORD,
+10020cb5,7,string,PUINT,
+10020cd5,11,string,UINT_PTR,
+10020ce8,16,string,"PSID_NAME_USE",
+10020d01,23,string,SECURITY_INFORMATION,
+10020d59,15,string,QUERYHANDLER,
+10020d71,31,string,PSECURITY_DESCRIPTOR_CONTROL,
+10020da8,12,string,	LCSCSTYPE,
+10020ddd,7,string,HFILE,
+10020ded,7,string,REGSAM,
+10020e1d,7,string,ULONG,
+10020e2d,31,string,SECURITY_CONTEXT_TRACKING_MODE,
+10020e65,7,string,USHORT,
+10020e75,7,string,FLOAT,
+10020e95,19,string,WIN_TRUST_SUBJECT,
+10020ed1,15,string,LATENCY_TIME,
+10020f09,7,string,LPARAM,
+10020f19,7,string,WPARAM,
+10020f38,12,string,"
+TOKEN_TYPE",
+10020f6c,12,string,"
+KSPIN_LOCK",
+10020f81,7,string,LCTYPE,
+10020fa9,9,string,va_list6,
+10020fd8,16,string,__init_collate,
+10021010,12,string,"
+initcoll.c",
+1002140c,64,string,<E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\initctyp.obj,
+100214b1,7,string,WCHAR,
+10021505,7,string,LPINT,
+10021515,23,string,ACL_INFORMATION_CLASS,
+10021569,7,string,wint_t,
+10021579,7,string,PLONG,
+10021589,7,string,PUCHAR,
+100215a9,7,string,PDWORD,
+100215c9,23,string,GET_FILEEX_INFO_LEVELS,
+100215e9,7,string,LPLONG,
+10021609,7,string,LANGID,
+10021619,11,string,COLORREF,
+1002162c,16,string,"MENUTEMPLATEA",
+10021645,23,string,EXCEPTION_DISPOSITION,
+10021664,16,string,"MENUTEMPLATEW",
+1002167c,12,string,	DWORDLONG,
+10021691,9,string,CALTYPE&,
+100216a1,31,string,SECURITY_IMPERSONATION_LEVEL,
+100216c9,7,string,CALID,
+100216d9,7,string,_HFILE,
+100216fd,7,string,PULONG,
+1002170d,23,string,PSECURITY_INFORMATION,
+1002174c,12,string,	ULONGLONG,
+10021760,16,string,"PACCESS_TOKEN",
+10021779,7,string,PFLOAT,
+100217a4,16,string,"LCSGAMUTMATCH",
+100217bd,11,string,wctype_t,
+100217f1,23,string,PSECURITY_DESCRIPTOR,
+10021821,7,string,HANDLE,
+10021831,11,string,LONGLONG,
+10021855,7,string,UCHAR,
+10021865,7,string,HLOCAL,
+10021875,7,string,SHORT,
+100218b5,7,string,DWORD,
+100218c5,7,string,PUINT,
+100218e5,11,string,UINT_PTR,
+100218f8,16,string,"PSID_NAME_USE",
+10021911,23,string,SECURITY_INFORMATION,
+10021969,15,string,QUERYHANDLER,
+10021981,31,string,PSECURITY_DESCRIPTOR_CONTROL,
+100219b8,12,string,	LCSCSTYPE,
+100219ed,7,string,HFILE,
+100219fd,7,string,REGSAM,
+10021a2d,7,string,ULONG,
+10021a3d,31,string,SECURITY_CONTEXT_TRACKING_MODE,
+10021a75,7,string,USHORT,
+10021a85,7,string,FLOAT,
+10021aa5,19,string,WIN_TRUST_SUBJECT,
+10021ae1,15,string,LATENCY_TIME,
+10021b19,7,string,LPARAM,
+10021b29,7,string,WPARAM,
+10021b48,12,string,"
+TOKEN_TYPE",
+10021b7c,12,string,"
+KSPIN_LOCK",
+10021b91,7,string,LCTYPE,
+10021bb9,9,string,va_list2,
+10021bff,17,string,"error_cleanup",
+10021c1c,12,string,	newctype1,
+10021cd5,11,string,lpCPInfo,
+10021d08,12,string,"
+initctyp.c",
+1002240c,62,string,;E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\initmon.objJ,
+100224a3,13,string,__lconv_intl,
+100224c9,7,string,WCHAR,
+1002251d,7,string,LPINT,
+1002252d,23,string,ACL_INFORMATION_CLASS,
+10022581,7,string,wint_t,
+10022591,7,string,PLONG,
+100225a1,7,string,PUCHAR,
+100225c1,7,string,PDWORD,
+100225e1,23,string,GET_FILEEX_INFO_LEVELS,
+10022601,7,string,LPLONG,
+10022621,7,string,LANGID,
+10022631,11,string,COLORREF,
+10022644,16,string,"MENUTEMPLATEA",
+1002265d,23,string,EXCEPTION_DISPOSITION,
+1002267c,16,string,"MENUTEMPLATEW",
+10022694,12,string,	DWORDLONG,
+100226a9,9,string,CALTYPE&,
+100226b9,31,string,SECURITY_IMPERSONATION_LEVEL,
+100226e1,7,string,CALID,
+100226f1,7,string,_HFILE,
+10022715,7,string,PULONG,
+10022725,23,string,PSECURITY_INFORMATION,
+10022764,12,string,	ULONGLONG,
+10022778,16,string,"PACCESS_TOKEN",
+10022791,7,string,PFLOAT,
+100227bc,16,string,"LCSGAMUTMATCH",
+100227d5,11,string,wctype_t,
+10022809,23,string,PSECURITY_DESCRIPTOR,
+10022839,7,string,HANDLE,
+10022849,11,string,LONGLONG,
+1002286d,7,string,UCHAR,
+1002287d,7,string,HLOCAL,
+1002288d,7,string,SHORT,
+100228cd,7,string,DWORD,
+100228dd,7,string,PUINT,
+100228fd,11,string,UINT_PTR,
+10022910,16,string,"PSID_NAME_USE",
+10022929,23,string,SECURITY_INFORMATION,
+10022981,15,string,QUERYHANDLER,
+10022999,31,string,PSECURITY_DESCRIPTOR_CONTROL,
+100229d0,12,string,	LCSCSTYPE,
+10022a05,7,string,HFILE,
+10022a15,7,string,REGSAM,
+10022a45,7,string,ULONG,
+10022a55,31,string,SECURITY_CONTEXT_TRACKING_MODE,
+10022a8d,7,string,USHORT,
+10022a9d,7,string,FLOAT,
+10022abd,19,string,WIN_TRUST_SUBJECT,
+10022af9,15,string,LATENCY_TIME,
+10022b31,7,string,LPARAM,
+10022b41,7,string,WPARAM,
+10022b60,12,string,"
+TOKEN_TYPE",
+10022b94,12,string,"
+KSPIN_LOCK",
+10022ba9,7,string,LCTYPE,
+10022bd1,9,string,va_list6,
+10022c00,16,string,__init_monetary,
+10022c4b,17,string,"_get_lc_lconv",
+10022cd5,11,string,grouping,
+10022d38,16,string,_free_lc_lconv,
+10022d98,12,string,	initmon.c,
+1002340c,62,string,;E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\initnum.objJ,
+100234ad,7,string,WCHAR,
+10023501,7,string,LPINT,
+10023511,23,string,ACL_INFORMATION_CLASS,
+10023565,7,string,wint_t,
+10023575,7,string,PLONG,
+10023585,7,string,PUCHAR,
+100235a5,7,string,PDWORD,
+100235c5,23,string,GET_FILEEX_INFO_LEVELS,
+100235e5,7,string,LPLONG,
+10023605,7,string,LANGID,
+10023615,11,string,COLORREF,
+10023628,16,string,"MENUTEMPLATEA",
+10023641,23,string,EXCEPTION_DISPOSITION,
+10023660,16,string,"MENUTEMPLATEW",
+10023678,12,string,	DWORDLONG,
+1002368d,9,string,CALTYPE&,
+1002369d,31,string,SECURITY_IMPERSONATION_LEVEL,
+100236c5,7,string,CALID,
+100236d5,7,string,_HFILE,
+100236f9,7,string,PULONG,
+10023709,23,string,PSECURITY_INFORMATION,
+10023748,12,string,	ULONGLONG,
+1002375c,16,string,"PACCESS_TOKEN",
+10023775,7,string,PFLOAT,
+100237a0,16,string,"LCSGAMUTMATCH",
+100237b9,11,string,wctype_t,
+100237ed,23,string,PSECURITY_DESCRIPTOR,
+1002381d,7,string,HANDLE,
+1002382d,11,string,LONGLONG,
+10023851,7,string,UCHAR,
+10023861,7,string,HLOCAL,
+10023871,7,string,SHORT,
+100238b1,7,string,DWORD,
+100238c1,7,string,PUINT,
+100238e1,11,string,UINT_PTR,
+100238f4,16,string,"PSID_NAME_USE",
+1002390d,23,string,SECURITY_INFORMATION,
+10023965,15,string,QUERYHANDLER,
+1002397d,31,string,PSECURITY_DESCRIPTOR_CONTROL,
+100239b4,12,string,	LCSCSTYPE,
+100239e9,7,string,HFILE,
+100239f9,7,string,REGSAM,
+10023a29,7,string,ULONG,
+10023a39,31,string,SECURITY_CONTEXT_TRACKING_MODE,
+10023a71,7,string,USHORT,
+10023a81,7,string,FLOAT,
+10023aa1,19,string,WIN_TRUST_SUBJECT,
+10023add,15,string,LATENCY_TIME,
+10023b15,7,string,LPARAM,
+10023b25,7,string,WPARAM,
+10023b44,12,string,"
+TOKEN_TYPE",
+10023b78,12,string,"
+KSPIN_LOCK",
+10023b8d,7,string,LCTYPE,
+10023bb5,9,string,va_list6,
+10023be4,16,string,__init_numeric,
+10023c03,9,string,dec_pnt,
+10023c1b,9,string,grping,
+10023ca5,11,string,grouping,
+10023d10,12,string,	initnum.c,
+1002440c,64,string,<E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\inittime.obj,
+100244b1,7,string,WCHAR,
+10024505,7,string,LPINT,
+10024515,23,string,ACL_INFORMATION_CLASS,
+10024569,7,string,wint_t,
+10024579,7,string,PLONG,
+10024589,7,string,PUCHAR,
+100245a9,7,string,PDWORD,
+100245c9,23,string,GET_FILEEX_INFO_LEVELS,
+100245e9,7,string,LPLONG,
+10024609,7,string,LANGID,
+10024619,11,string,COLORREF,
+1002462c,16,string,"MENUTEMPLATEA",
+10024645,23,string,EXCEPTION_DISPOSITION,
+10024664,16,string,"MENUTEMPLATEW",
+1002467c,12,string,	DWORDLONG,
+10024691,9,string,CALTYPE&,
+100246a1,31,string,SECURITY_IMPERSONATION_LEVEL,
+100246c9,7,string,CALID,
+100246d9,7,string,_HFILE,
+100246fd,7,string,PULONG,
+1002470d,23,string,PSECURITY_INFORMATION,
+1002474c,12,string,	ULONGLONG,
+10024760,16,string,"PACCESS_TOKEN",
+10024779,7,string,PFLOAT,
+100247a4,16,string,"LCSGAMUTMATCH",
+100247bd,11,string,wctype_t,
+100247f1,23,string,PSECURITY_DESCRIPTOR,
+10024821,7,string,HANDLE,
+10024831,11,string,LONGLONG,
+10024855,7,string,UCHAR,
+10024865,7,string,HLOCAL,
+10024875,7,string,SHORT,
+100248b5,7,string,DWORD,
+100248c5,7,string,PUINT,
+100248e5,11,string,UINT_PTR,
+100248f8,16,string,"PSID_NAME_USE",
+10024911,23,string,SECURITY_INFORMATION,
+10024969,15,string,QUERYHANDLER,
+10024981,31,string,PSECURITY_DESCRIPTOR_CONTROL,
+100249b8,12,string,	LCSCSTYPE,
+100249ed,7,string,HFILE,
+100249fd,7,string,REGSAM,
+10024a2d,7,string,ULONG,
+10024a3d,31,string,SECURITY_CONTEXT_TRACKING_MODE,
+10024a75,7,string,USHORT,
+10024a85,7,string,FLOAT,
+10024aa5,19,string,WIN_TRUST_SUBJECT,
+10024ae1,15,string,LATENCY_TIME,
+10024b19,7,string,LPARAM,
+10024b29,7,string,WPARAM,
+10024b48,12,string,"
+TOKEN_TYPE",
+10024b7c,12,string,"
+KSPIN_LOCK",
+10024b91,7,string,LCTYPE,
+10024bb9,9,string,va_list2,
+10024be8,12,string,__init_time,
+10024c85,7,string,langid,
+10024cb7,17,string,"_free_lc_time",
+10024d1c,12,string,"
+inittime.c",
+1002540c,64,string,<E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\setlocal.obj,
+100254a7,13,string,_clocalestr,
+100254cd,7,string,WCHAR,
+10025521,7,string,LPINT,
+10025531,23,string,ACL_INFORMATION_CLASS,
+10025585,7,string,wint_t,
+10025595,7,string,PLONG,
+100255a5,7,string,PUCHAR,
+100255c5,7,string,PDWORD,
+100255e5,23,string,GET_FILEEX_INFO_LEVELS,
+10025605,7,string,LPLONG,
+10025625,7,string,LANGID,
+10025635,11,string,COLORREF,
+10025648,16,string,"MENUTEMPLATEA",
+10025661,23,string,EXCEPTION_DISPOSITION,
+10025680,16,string,"MENUTEMPLATEW",
+10025698,12,string,	DWORDLONG,
+100256ad,9,string,CALTYPE&,
+100256bd,31,string,SECURITY_IMPERSONATION_LEVEL,
+100256e5,7,string,CALID,
+100256f5,7,string,_HFILE,
+10025719,7,string,PULONG,
+10025729,23,string,PSECURITY_INFORMATION,
+10025768,12,string,	ULONGLONG,
+1002577c,16,string,"PACCESS_TOKEN",
+10025795,7,string,PFLOAT,
+100257c0,16,string,"LCSGAMUTMATCH",
+100257d9,11,string,wctype_t,
+1002580d,23,string,PSECURITY_DESCRIPTOR,
+1002583d,7,string,HANDLE,
+1002584d,11,string,LONGLONG,
+10025871,7,string,UCHAR,
+10025881,7,string,HLOCAL,
+10025891,7,string,SHORT,
+100258d1,7,string,DWORD,
+100258e1,7,string,PUINT,
+10025901,11,string,UINT_PTR,
+10025914,16,string,"PSID_NAME_USE",
+1002592d,23,string,SECURITY_INFORMATION,
+10025985,15,string,QUERYHANDLER,
+1002599d,31,string,PSECURITY_DESCRIPTOR_CONTROL,
+100259d4,12,string,	LCSCSTYPE,
+10025a09,7,string,HFILE,
+10025a19,7,string,REGSAM,
+10025a49,7,string,ULONG,
+10025a59,31,string,SECURITY_CONTEXT_TRACKING_MODE,
+10025a91,7,string,USHORT,
+10025aa1,7,string,FLOAT,
+10025ac1,19,string,WIN_TRUST_SUBJECT,
+10025afd,15,string,LATENCY_TIME,
+10025b35,7,string,LPARAM,
+10025b45,7,string,WPARAM,
+10025b64,12,string,"
+TOKEN_TYPE",
+10025b98,12,string,"
+KSPIN_LOCK",
+10025bad,7,string,LCTYPE,
+10025bd5,9,string,va_list2,
+10025c03,13,string,	setlocale,
+10025c1c,12,string,	_category,
+10025c49,7,string,retval,
+10025c91,7,string,lctemp,
+10025cc8,12,string,"
+fLocaleSet",
+10025d50,20,string,_setlocale_set_cat,
+10025d71,11,string,category,
+10025d89,7,string,locale,
+10025d9d,7,string,idtemp,
+10025db1,7,string,cptemp,
+10025dc5,7,string,lctemp,
+10025df1,7,string,oldid,
+10025e04,12,string,	oldlocale,
+10025e2c,12,string,	oldhandle,
+10025e64,20,string,_setlocale_get_all,
+10025ec7,17,string,"_expandlocale",
+10025ef9,7,string,output,
+10025f2d,11,string,category,
+10025f47,9,string,cachecp,
+10025f5f,9,string,cacheid,
+10025f77,9,string,cacheout,
+10025f8f,9,string,cachein,
+10025fbd,7,string,names,
+10026041,7,string,outstr,
+10026075,7,string,substr,
+100260c1,7,string,names,
+100260d5,7,string,locale,
+10026151,7,string,locale,
+10026165,7,string,names,
+100261dc,12,string,"
+setlocal.c",
+10026c0c,60,string,:E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\crt0fp.obj,
+10026cad,7,string,WCHAR,
+10026d01,7,string,LPINT,
+10026d11,23,string,ACL_INFORMATION_CLASS,
+10026d65,7,string,wint_t,
+10026d75,7,string,PLONG,
+10026d85,7,string,PUCHAR,
+10026da5,7,string,PDWORD,
+10026dc5,23,string,GET_FILEEX_INFO_LEVELS,
+10026de5,7,string,LPLONG,
+10026e05,7,string,LANGID,
+10026e15,11,string,COLORREF,
+10026e28,16,string,"MENUTEMPLATEA",
+10026e41,23,string,EXCEPTION_DISPOSITION,
+10026e60,16,string,"MENUTEMPLATEW",
+10026e78,12,string,	DWORDLONG,
+10026e8d,9,string,CALTYPE&,
+10026e9d,31,string,SECURITY_IMPERSONATION_LEVEL,
+10026ec5,7,string,CALID,
+10026ee9,7,string,PULONG,
+10026ef9,23,string,PSECURITY_INFORMATION,
+10026f38,12,string,	ULONGLONG,
+10026f4c,16,string,"PACCESS_TOKEN",
+10026f65,7,string,PFLOAT,
+10026f90,16,string,"LCSGAMUTMATCH",
+10026fa9,11,string,wctype_t,
+10026fdd,23,string,PSECURITY_DESCRIPTOR,
+1002700d,7,string,HANDLE,
+1002701d,11,string,LONGLONG,
+10027051,7,string,UCHAR,
+10027061,7,string,HLOCAL,
+10027071,7,string,SHORT,
+100270b1,7,string,DWORD,
+100270c1,7,string,PUINT,
+100270e1,11,string,UINT_PTR,
+100270f4,16,string,"PSID_NAME_USE",
+1002710d,23,string,SECURITY_INFORMATION,
+10027165,15,string,QUERYHANDLER,
+1002717d,31,string,PSECURITY_DESCRIPTOR_CONTROL,
+100271b4,12,string,	LCSCSTYPE,
+100271e9,7,string,HFILE,
+100271f9,7,string,REGSAM,
+10027229,7,string,ULONG,
+10027239,31,string,SECURITY_CONTEXT_TRACKING_MODE,
+10027271,7,string,USHORT,
+10027281,7,string,FLOAT,
+100272a1,19,string,WIN_TRUST_SUBJECT,
+100272dd,15,string,LATENCY_TIME,
+10027315,7,string,LPARAM,
+10027325,7,string,WPARAM,
+10027344,12,string,"
+TOKEN_TYPE",
+10027378,12,string,"
+KSPIN_LOCK",
+1002738d,7,string,LCTYPE,
+100273b5,9,string,va_list.,
+100273e4,8,string,_fptrap,
+1002780c,62,string,;E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\setmode.objJ,
+100278ad,7,string,WCHAR,
+10027901,7,string,LPINT,
+10027911,23,string,ACL_INFORMATION_CLASS,
+10027965,7,string,wint_t,
+10027975,7,string,PLONG,
+10027985,7,string,PUCHAR,
+100279a5,7,string,PDWORD,
+100279c5,23,string,GET_FILEEX_INFO_LEVELS,
+100279e5,7,string,LPLONG,
+10027a05,7,string,LANGID,
+10027a15,11,string,COLORREF,
+10027a28,16,string,"MENUTEMPLATEA",
+10027a41,23,string,EXCEPTION_DISPOSITION,
+10027a60,16,string,"MENUTEMPLATEW",
+10027a78,12,string,	DWORDLONG,
+10027a8d,9,string,CALTYPE&,
+10027a9d,31,string,SECURITY_IMPERSONATION_LEVEL,
+10027ac5,7,string,CALID,
+10027ae9,7,string,PULONG,
+10027af9,23,string,PSECURITY_INFORMATION,
+10027b38,12,string,	ULONGLONG,
+10027b4c,16,string,"PACCESS_TOKEN",
+10027b65,7,string,PFLOAT,
+10027b90,16,string,"LCSGAMUTMATCH",
+10027ba9,11,string,wctype_t,
+10027bdd,23,string,PSECURITY_DESCRIPTOR,
+10027c0d,7,string,HANDLE,
+10027c1d,11,string,_fsize_t,
+10027c41,11,string,LONGLONG,
+10027c65,7,string,UCHAR,
+10027c75,7,string,HLOCAL,
+10027c95,7,string,SHORT,
+10027cd5,7,string,DWORD,
+10027ce5,7,string,PUINT,
+10027d05,11,string,UINT_PTR,
+10027d18,16,string,"PSID_NAME_USE",
+10027d31,23,string,SECURITY_INFORMATION,
+10027d89,15,string,QUERYHANDLER,
+10027da1,31,string,PSECURITY_DESCRIPTOR_CONTROL,
+10027dd8,12,string,	LCSCSTYPE,
+10027e0d,7,string,HFILE,
+10027e1d,7,string,REGSAM,
+10027e4d,7,string,ULONG,
+10027e5d,31,string,SECURITY_CONTEXT_TRACKING_MODE,
+10027e95,7,string,USHORT,
+10027ea5,7,string,FLOAT,
+10027ec5,19,string,WIN_TRUST_SUBJECT,
+10027f01,15,string,LATENCY_TIME,
+10027f39,7,string,LPARAM,
+10027f49,7,string,WPARAM,
+10027f68,12,string,"
+TOKEN_TYPE",
+10027f9c,12,string,"
+KSPIN_LOCK",
+10027fb1,7,string,LCTYPE,
+10027fd9,9,string,va_list.,
+10028041,7,string,retval,
+10028074,12,string,_setmode_lk,
+100280ec,12,string,	setmode.c,
+1002840c,60,string,:E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\wctomb.obj,
+100284ad,7,string,WCHAR,
+10028501,7,string,LPINT,
+10028511,23,string,ACL_INFORMATION_CLASS,
+10028565,7,string,wint_t,
+10028575,7,string,PLONG,
+10028585,7,string,PUCHAR,
+100285a5,7,string,PDWORD,
+100285c5,23,string,GET_FILEEX_INFO_LEVELS,
+100285e5,7,string,LPLONG,
+10028605,7,string,LANGID,
+10028615,11,string,COLORREF,
+10028628,16,string,"MENUTEMPLATEA",
+10028641,23,string,EXCEPTION_DISPOSITION,
+10028660,16,string,"MENUTEMPLATEW",
+10028678,12,string,	DWORDLONG,
+1002868d,9,string,CALTYPE&,
+1002869d,31,string,SECURITY_IMPERSONATION_LEVEL,
+100286c5,7,string,CALID,
+100286e9,7,string,PULONG,
+100286f9,23,string,PSECURITY_INFORMATION,
+10028738,12,string,	ULONGLONG,
+1002874c,16,string,"PACCESS_TOKEN",
+10028765,7,string,PFLOAT,
+10028790,16,string,"LCSGAMUTMATCH",
+100287a9,11,string,wctype_t,
+100287dd,23,string,PSECURITY_DESCRIPTOR,
+1002880d,7,string,HANDLE,
+1002881d,11,string,LONGLONG,
+10028841,7,string,UCHAR,
+10028851,7,string,HLOCAL,
+10028861,7,string,SHORT,
+100288a1,7,string,DWORD,
+100288b1,7,string,PUINT,
+100288d1,11,string,UINT_PTR,
+100288e4,16,string,"PSID_NAME_USE",
+100288fd,23,string,SECURITY_INFORMATION,
+10028955,15,string,QUERYHANDLER,
+1002896d,31,string,PSECURITY_DESCRIPTOR_CONTROL,
+100289a4,12,string,	LCSCSTYPE,
+100289d9,7,string,HFILE,
+100289e9,7,string,REGSAM,
+10028a19,7,string,ULONG,
+10028a29,31,string,SECURITY_CONTEXT_TRACKING_MODE,
+10028a61,7,string,USHORT,
+10028a71,7,string,FLOAT,
+10028a91,19,string,WIN_TRUST_SUBJECT,
+10028acd,15,string,LATENCY_TIME,
+10028b05,7,string,LPARAM,
+10028b15,7,string,WPARAM,
+10028b34,12,string,"
+TOKEN_TYPE",
+10028b68,12,string,"
+KSPIN_LOCK",
+10028b7d,7,string,LCTYPE,
+10028ba5,9,string,va_list.,
+10028bf9,7,string,wchar,
+10028c0d,7,string,retval,
+10028c85,7,string,wchar,
+10028d05,11,string,wctomb.c,
+1002900c,64,string,<E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\cmiscdat.obj,
+100290b1,7,string,WCHAR,
+10029105,7,string,LPINT,
+10029115,23,string,ACL_INFORMATION_CLASS,
+10029169,7,string,wint_t,
+10029179,7,string,PLONG,
+10029189,7,string,PUCHAR,
+100291a9,7,string,PDWORD,
+100291c9,23,string,GET_FILEEX_INFO_LEVELS,
+100291e9,7,string,LPLONG,
+10029209,7,string,LANGID,
+10029219,11,string,COLORREF,
+1002922c,16,string,"MENUTEMPLATEA",
+10029245,23,string,EXCEPTION_DISPOSITION,
+10029264,16,string,"MENUTEMPLATEW",
+1002927c,12,string,	DWORDLONG,
+10029291,9,string,CALTYPE&,
+100292a1,31,string,SECURITY_IMPERSONATION_LEVEL,
+100292c9,7,string,CALID,
+100292ed,7,string,PULONG,
+100292fd,23,string,PSECURITY_INFORMATION,
+1002933c,12,string,	ULONGLONG,
+10029350,16,string,"PACCESS_TOKEN",
+10029369,7,string,PFLOAT,
+10029394,16,string,"LCSGAMUTMATCH",
+100293ad,11,string,wctype_t,
+100293e1,23,string,PSECURITY_DESCRIPTOR,
+10029411,7,string,HANDLE,
+10029421,11,string,LONGLONG,
+10029455,7,string,UCHAR,
+10029465,7,string,HLOCAL,
+10029475,7,string,SHORT,
+100294b5,7,string,DWORD,
+100294c5,7,string,PUINT,
+100294e5,11,string,UINT_PTR,
+100294f8,16,string,"PSID_NAME_USE",
+10029511,23,string,SECURITY_INFORMATION,
+10029569,15,string,QUERYHANDLER,
+10029581,31,string,PSECURITY_DESCRIPTOR_CONTROL,
+100295b8,12,string,	LCSCSTYPE,
+100295ed,7,string,HFILE,
+100295fd,7,string,REGSAM,
+1002962d,7,string,ULONG,
+1002963d,31,string,SECURITY_CONTEXT_TRACKING_MODE,
+10029675,7,string,USHORT,
+10029685,7,string,FLOAT,
+100296a5,19,string,WIN_TRUST_SUBJECT,
+100296e1,15,string,LATENCY_TIME,
+10029719,7,string,LPARAM,
+10029729,7,string,WPARAM,
+10029748,12,string,"
+TOKEN_TYPE",
+1002977c,12,string,"
+KSPIN_LOCK",
+10029791,7,string,LCTYPE,
+10029c0c,60,string,:E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\isatty.obj,
+10029cad,7,string,WCHAR,
+10029d01,7,string,LPINT,
+10029d11,23,string,ACL_INFORMATION_CLASS,
+10029d65,7,string,wint_t,
+10029d75,7,string,PLONG,
+10029d85,7,string,PUCHAR,
+10029da5,7,string,PDWORD,
+10029dc5,23,string,GET_FILEEX_INFO_LEVELS,
+10029de5,7,string,LPLONG,
+10029e05,7,string,LANGID,
+10029e15,11,string,COLORREF,
+10029e28,16,string,"MENUTEMPLATEA",
+10029e41,23,string,EXCEPTION_DISPOSITION,
+10029e60,16,string,"MENUTEMPLATEW",
+10029e78,12,string,	DWORDLONG,
+10029e8d,9,string,CALTYPE&,
+10029e9d,31,string,SECURITY_IMPERSONATION_LEVEL,
+10029ec5,7,string,CALID,
+10029ee9,7,string,PULONG,
+10029ef9,23,string,PSECURITY_INFORMATION,
+10029f38,12,string,	ULONGLONG,
+10029f4c,16,string,"PACCESS_TOKEN",
+10029f65,7,string,PFLOAT,
+10029f90,16,string,"LCSGAMUTMATCH",
+10029fa9,11,string,wctype_t,
+10029fdd,23,string,PSECURITY_DESCRIPTOR,
+1002a00d,7,string,HANDLE,
+1002a01d,11,string,_fsize_t,
+1002a031,11,string,LONGLONG,
+1002a065,7,string,UCHAR,
+1002a075,7,string,HLOCAL,
+1002a085,7,string,SHORT,
+1002a0c5,7,string,DWORD,
+1002a0d5,7,string,PUINT,
+1002a0f5,11,string,UINT_PTR,
+1002a108,16,string,"PSID_NAME_USE",
+1002a121,23,string,SECURITY_INFORMATION,
+1002a179,15,string,QUERYHANDLER,
+1002a191,31,string,PSECURITY_DESCRIPTOR_CONTROL,
+1002a1c8,12,string,	LCSCSTYPE,
+1002a1fd,7,string,HFILE,
+1002a20d,7,string,REGSAM,
+1002a23d,7,string,ULONG,
+1002a24d,31,string,SECURITY_CONTEXT_TRACKING_MODE,
+1002a285,7,string,USHORT,
+1002a295,7,string,FLOAT,
+1002a2b5,19,string,WIN_TRUST_SUBJECT,
+1002a2f1,15,string,LATENCY_TIME,
+1002a329,7,string,LPARAM,
+1002a339,7,string,WPARAM,
+1002a358,12,string,"
+TOKEN_TYPE",
+1002a38c,12,string,"
+KSPIN_LOCK",
+1002a3a1,7,string,LCTYPE,
+1002a3c9,9,string,va_list.,
+1002a3f8,8,string,_isatty,
+1002a439,11,string,isatty.c,
+1002a80c,60,string,9E:\8267\vc98\crtbld\crt\src\build\intel\xmt_obj\a_map.obj,
+1002a8ad,7,string,WCHAR,
+1002a901,7,string,LPINT,
+1002a911,23,string,ACL_INFORMATION_CLASS,
+1002a965,7,string,wint_t,
+1002a975,7,string,PLONG,
+1002a985,7,string,PUCHAR,
+1002a9a5,7,string,PDWORD,
+1002a9c5,23,string,GET_FILEEX_INFO_LEVELS,
+1002a9e5,7,string,LPLONG,
+1002aa05,7,string,LANGID,
+1002aa15,11,string,COLORREF,
+1002aa28,16,string,"MENUTEMPLATEA",
+1002aa41,23,string,EXCEPTION_DISPOSITION,
+1002aa60,16,string,"MENUTEMPLATEW",
+1002aa78,12,string,	DWORDLONG,
+1002aa8d,9,string,CALTYPE&,
+1002aa9d,31,string,SECURITY_IMPERSONATION_LEVEL,
+1002aac5,7,string,CALID,
+1002aad5,7,string,_HFILE,
+1002aaf9,7,string,PULONG,
+1002ab09,23,string,PSECURITY_INFORMATION,
+1002ab48,12,string,	ULONGLONG,
+1002ab5c,16,string,"PACCESS_TOKEN",
+1002ab75,7,string,PFLOAT,
+1002aba0,16,string,"LCSGAMUTMATCH",
+1002abb9,11,string,wctype_t,
+1002abed,23,string,PSECURITY_DESCRIPTOR,
+1002ac1d,7,string,HANDLE,
+1002ac2d,11,string,LONGLONG,
+1002ac61,7,string,UCHAR,
+1002ac71,7,string,HLOCAL,
+1002ac81,7,string,SHORT,
+1002acc1,7,string,DWORD,
+1002acd1,7,string,PUINT,
+1002acf1,11,string,UINT_PTR,
+1002ad04,16,string,"PSID_NAME_USE",
+1002ad1d,23,string,SECURITY_INFORMATION,
+1002ad75,15,string,QUERYHANDLER,
+1002ad8d,31,string,PSECURITY_DESCRIPTOR_CONTROL,
+1002adc4,12,string,	LCSCSTYPE,
+1002adf9,7,string,HFILE,
+1002ae09,7,string,REGSAM,
+1002ae39,7,string,ULONG,
+1002ae49,31,string,SECURITY_CONTEXT_TRACKING_MODE,
+1002ae81,7,string,USHORT,
+1002ae91,7,string,FLOAT,
+1002aeb1,19,string,WIN_TRUST_SUBJECT,
+1002aeed,15,string,LATENCY_TIME,
+1002af25,7,string,LPARAM,
+1002af35,7,string,WPARAM,
+1002af54,12,string,"
+TOKEN_TYPE",
+1002af88,12,string,"
+KSPIN_LOCK",
+1002af9d,7,string,LCTYPE,
+1002afc5,9,string,va_list:,
+1002c01c,13,string,Tekst in box,10001090;100013f0;10001470;100016a0;10001940;10001b50
+1002c02c,6,string,Title,10001090;100013f0;10001470;100016a0;10001940;10001b50
+1002c038,9,string,fclose.c,10001d70;10001e00
+1002c044,15,string,stream != NULL,10001d70;10002320;100057b0;10006b70
+1002c054,12,string,str != NULL,10001e00;10002390;10005b00;10006510;10006be0;1000baf0;1000cc80
+1002c060,18,string,*mode != _T('\0'),100021c0
+1002c074,13,string,mode != NULL,100021c0;10006510
+1002c084,18,string,*file != _T('\0'),100021c0
+1002c098,8,string,fopen.c,100021c0
+1002c0a0,13,string,file != NULL,100021c0
+1002c0b0,14,string,i386\chkesp.c,100022e0
+1002c0c4,220,string,The value of ESP was not properly saved across a function call.  This is usually a result of calling a function declared with one calling convention with a function pointer declared with a different calling convention. ,100022e0
+1002c1a0,8,string,fseek.c,10002320;10002390
+1002c1a8,10,string,osfinfo.c,100024c0
+1002c1b4,8,string,_file.c,10002d10
+1002c1bc,17,string,Assertion Failed,1002fcdc
+1002c1d0,6,string,Error,1002fcd8
+1002c1d8,8,string,Warning,1002fcd4
+1002c1e0,12,string,%s(%d) : %s,10003050
+1002c1f4,18,string,Assertion failed!,10003050
+1002c208,19,string,Assertion failed: ,10003050
+1002c21c,43,string,_CrtDbgReport: String too long or IO Error,10003050;100033e0
+1002c248,50,string,"Second Chance Assertion Failed: File %s, Line %d
+",10003050
+1002c27c,10,string,wsprintfA,10003050
+1002c288,11,string,user32.dll,10003050;10009170
+1002c294,35,string,Microsoft Visual C++ Debug Library,100033e0
+1002c2b8,83,string,"Debug %s!
+
+Program: %s%s%s%s%s%s%s%s%s%s%s
+
+(Press Retry to debug the application)",100033e0
+1002c30c,10,string,"
+Module: ",100033e0
+1002c318,8,string,"
+File: ",100033e0
+1002c320,8,string,"
+Line: ",100033e0
+1002c32c,13,string,Expression: ,100033e0
+1002c33c,115,string,"
+
+For information on how your program can cause an assertion
+failure, see the Visual C++ documentation on asserts.",100033e0
+1002c3b4,23,string,<program name unknown>,100033e0;10008350
+1002c3cc,9,string,dbgrpt.c,100033e0
+1002c3d8,22,string,szUserMessage != NULL,100033e0
+1002c3f0,7,string,Client,1002fd00
+1002c3f8,7,string,Ignore,1002fcfc
+1002c404,7,string,Normal,1002fcf4
+1002c414,50,string,"Error: memory allocation: bad memory block type.
+",100037e0;10003be0
+1002c448,36,string,"Invalid allocation size: %u bytes.
+",100037e0
+1002c470,33,string,"Client hook allocation failure.
+",100037e0
+1002c494,53,string,"Client hook allocation failure at file %hs line %d.
+",100037e0
+1002c4cc,10,string,dbgheap.c,100037e0;10003be0;100041d0;100045e0;10004760
+1002c4d8,18,string,_CrtCheckMemory(),100037e0;10003be0;100041d0;100045e0
+1002c4ec,26,string,_pFirstBlock == pOldBlock,10003be0
+1002c508,25,string,_pLastBlock == pOldBlock,10003be0
+1002c524,50,string,fRealloc || (!fRealloc && pNewBlock == pOldBlock),10003be0
+1002c558,58,string,_BLOCK_TYPE(pOldBlock->nBlockUse)==_BLOCK_TYPE(nBlockUse),10003be0
+1002c594,69,string,pOldBlock->nLine == IGNORE_LINE && pOldBlock->lRequest == IGNORE_REQ,10003be0
+1002c5dc,34,string,_CrtIsValidHeapPointer(pUserData),10003be0;100041d0;100045e0
+1002c600,45,string,"Allocation too large or negative: %u bytes.
+",10003be0
+1002c630,36,string,"Client hook re-allocation failure.
+",10003be0
+1002c654,56,string,"Client hook re-allocation failure at file %hs line %d.
+",10003be0
+1002c68c,22,string,_pFirstBlock == pHead,100041d0
+1002c6a4,21,string,_pLastBlock == pHead,100041d0
+1002c6bc,30,string,pHead->nBlockUse == nBlockUse,100041d0;100045e0
+1002c6dc,61,string,pHead->nLine == IGNORE_LINE && pHead->lRequest == IGNORE_REQ,100041d0
+1002c71c,42,string,"DAMAGE: after %hs block (#%d) at 0x%08X.
+",100041d0;100048b0
+1002c748,43,string,"DAMAGE: before %hs block (#%d) at 0x%08X.
+",100041d0;100048b0
+1002c774,39,string,_BLOCK_TYPE_IS_VALID(pHead->nBlockUse),100041d0;100045e0;10004760
+1002c79c,27,string,"Client hook free failure.
+",100041d0
+1002c7b8,58,string,"memory check error at 0x%08X = 0x%02X, should be 0x%02X.
+",10004820
+1002c7f4,41,string,"%hs located at 0x%08X is %u bytes long.
+",100048b0
+1002c820,32,string,"%hs allocated at file %hs(%d).
+",100048b0
+1002c840,41,string,"DAMAGE: on top of Free block at 0x%08X.
+",100048b0
+1002c86c,8,string,DAMAGED,100048b0
+1002c874,43,string,"_heapchk fails with unknown return value!
+",100048b0
+1002c8a0,34,string,"_heapchk fails with _HEAPBADPTR.
+",100048b0
+1002c8c4,34,string,"_heapchk fails with _HEAPBADEND.
+",100048b0
+1002c8e8,35,string,"_heapchk fails with _HEAPBADNODE.
+",100048b0
+1002c90c,36,string,"_heapchk fails with _HEAPBADBEGIN.
+",100048b0
+1002c930,35,string,"Bad memory block found at 0x%08X.
+",10004eb0
+1002c954,40,string,"_CrtMemCheckPoint: NULL state pointer.
+",10004eb0
+1002c97c,40,string,"_CrtMemDifference: NULL state pointer.
+",10005020
+1002c9a4,23,string,"Object dump complete.
+",10005150
+1002c9bc,49,string,"crt block at 0x%08X, subtype %x, %u bytes long.
+",10005150
+1002c9f0,40,string,"normal block at 0x%08X, %u bytes long.
+",10005150
+1002ca18,52,string,"client block at 0x%08X, subtype %x, %u bytes long.
+",10005150
+1002ca4c,7,string,{%ld} ,10005150
+1002ca54,11,string,%hs(%d) : ,10005150
+1002ca60,20,string,#File Error#(%d) : ,10005150
+1002ca74,20,string,"Dumping objects ->
+",10005150
+1002ca88,16,string," Data: <%s> %s
+",10005410
+1002ca98,6,string,%.2X ,10005410
+1002caa0,24,string,"Detected memory leaks!
+",10005530
+1002cab8,31,string,"Total allocations: %ld bytes.
+",100055b0
+1002cad8,33,string,"Largest number used: %ld bytes.
+",100055b0
+1002cafc,30,string,"%ld bytes in %ld %hs Blocks.
+",100055b0
+1002cb1c,11,string,_freebuf.c,100057b0
+1002cb28,10,string,_filbuf.c,10005b00
+1002cb34,8,string,_open.c,10006510
+1002cb3c,17,string,filename != NULL,10006510
+1002cb50,9,string,stream.c,100068a0
+1002cb5c,8,string,ftell.c,10006b70;10006be0
+1002cb64,9,string,ioinit.c,10006f40
+1002cb70,8,string,mlock.c,100073f0
+1002cb78,11,string,tidtable.c,100076d0;100077b0
+1002cb84,10,string,stdenvp.c,10007980
+1002cb90,10,string,stdargv.c,10007ad0
+1002cb9c,8,string,a_env.c,10007fe0
+1002cba4,16,string,runtime error ,
+1002cbb8,16,string,"TLOSS error
+",
+1002cbc8,16,string,"SING error
+",
+1002cbd8,16,string,"DOMAIN error
+",
+1002cbe8,40,string,"R6028
+- unable to initialize heap
+",
+1002cc10,56,string,"R6027
+- not enough space for lowio initialization
+",
+1002cc48,56,string,"R6026
+- not enough space for stdio initialization
+",
+1002cc80,40,string,"R6025
+- pure virtual function call
+",
+1002cca8,56,string,"R6024
+- not enough space for _onexit/atexit table
+",
+1002cce0,44,string,"R6019
+- unable to open console device
+",
+1002cd0c,36,string,"R6018
+- unexpected heap error
+",
+1002cd30,48,string,"R6017
+- unexpected multithread lock error
+",
+1002cd60,44,string,"R6016
+- not enough space for thread data
+",
+1002cd8c,36,string,"
+abnormal program termination
+",
+1002cdb0,44,string,"R6009
+- not enough space for environment
+",
+1002cddc,44,string,"R6008
+- not enough space for arguments
+",
+1002ce08,37,string,"R6002
+- floating point not loaded
+",1002ff6c
+1002ce30,37,string,Microsoft Visual C++ Runtime Library,10008350
+1002ce58,26,string,"Runtime Error!
+
+Program: ",10008350
+1002ce74,15,string,format != NULL,100089b0;10008ab0;1000b540
+1002ce84,10,string,sprintf.c,100089b0;1000b540
+1002ce90,15,string,string != NULL,100089b0;10008ab0;1000b540
+1002cea0,11,string,vsprintf.c,10008ab0
+1002ceac,9,string,winsig.c,10008be0
+1002ceb8,19,string,GetLastActivePopup,10009170
+1002cecc,16,string,GetActiveWindow,10009170
+1002cedc,12,string,MessageBoxA,10009170
+1002cee8,10,string,_getbuf.c,1000baf0
+1002cef4,64,string,"(""inconsistent IOB fields"", stream->_ptr - stream->_base >= 0)",1000cc80
+1002cf34,10,string,_flsbuf.c,1000cc80
+1002cfa0,10,unicode,ull),1000cf00
+1002cfb4,9,string,output.c,1000cf00
+1002cfc0,15,string,ch != _T('\0'),1000cf00
+1002cfe4,9,string,chsize.c,1000e320
+1002cff0,10,string,size >= 0,1000e320
+1002d018,8,string,LC_TIME,10030524
+1002d020,11,string,LC_NUMERIC,10030518
+1002d02c,12,string,LC_MONETARY,1003050c
+1002d038,9,string,LC_CTYPE,1000ed40;1000f2d0;10030500
+1002d044,11,string,LC_COLLATE,1000ed40;1000f2d0;100304f4
+1002d050,8,string,LC_ALL,
+1002d060,11,string,setlocal.c,1000f130;1000f2d0
+1002d07c,11,string,inittime.c,1000f790
+1002d088,10,string,initnum.c,10010110
+1002d094,10,string,initmon.c,10010440
+1002d0a0,11,string,initctyp.c,100108a0
+1002d0ac,12,string,Paraguay,
+1002d0c0,8,string,Chile,
+1002d0c8,8,string,Ecuador,
+1002d0d0,12,string,Argentina,
+1002d0e4,12,string,Colombia,
+1002d0f0,12,string,Venezuela,
+1002d0fc,20,string,Dominican Republic,
+1002d110,16,string,South Africa,
+1002d120,8,string,Panama,
+1002d128,12,string,Luxembourg,
+1002d134,12,string,Costa Rica,
+1002d140,12,string,Switzerland,
+1002d14c,12,string,Guatemala,
+1002d158,8,string,Canada,
+1002d160,24,string,Spanish - Modern Sort,
+1002d178,12,string,Australia,
+1002d184,8,string,English,
+1002d18c,8,string,Austria,
+1002d194,8,string,German,
+1002d19c,8,string,Belgium,
+1002d1a4,8,string,Mexico,
+1002d1ac,8,string,Spanish,
+1002d1b4,8,string,Basque,
+1002d1bc,8,string,Sweden,
+1002d1c4,8,string,Swedish,
+1002d1cc,8,string,Iceland,
+1002d1d4,12,string,Icelandic,
+1002d1e0,8,string,France,
+1002d1e8,8,string,French,
+1002d1f0,8,string,Finland,
+1002d1f8,8,string,Finnish,
+1002d200,6,string,Spain,10030544
+1002d208,27,string,Spanish - Traditional Sort,1003053c
+1002d224,16,string,united-states,
+1002d234,16,string,united-kingdom,
+1002d244,20,string,trinidad & tobago,
+1002d258,12,string,south-korea,
+1002d264,16,string,south-africa,
+1002d274,12,string,south korea,
+1002d280,16,string,south africa,
+1002d298,12,string,puerto-rico,
+1002d2a4,12,string,pr-china,
+1002d2b0,12,string,pr china,
+1002d2c0,12,string,new-zealand,
+1002d2cc,12,string,hong-kong,
+1002d2d8,8,string,holland,
+1002d2e0,16,string,great britain,
+1002d2f0,8,string,england,
+1002d300,8,string,china,
+1002d308,8,string,britain,
+1002d310,8,string,america,100309e8
+1002d324,8,string,swiss,
+1002d32c,16,string,swedish-finland,
+1002d33c,20,string,spanish-venezuela,
+1002d350,16,string,spanish-uruguay,
+1002d360,20,string,spanish-puerto rico,
+1002d374,16,string,spanish-peru,
+1002d384,20,string,spanish-paraguay,
+1002d398,16,string,spanish-panama,
+1002d3a8,20,string,spanish-nicaragua,
+1002d3bc,16,string,spanish-modern,
+1002d3cc,16,string,spanish-mexican,
+1002d3dc,20,string,spanish-honduras,
+1002d3f0,20,string,spanish-guatemala,
+1002d404,20,string,spanish-el salvador,
+1002d418,16,string,spanish-ecuador,
+1002d428,28,string,spanish-dominican republic,
+1002d444,20,string,spanish-costa rica,
+1002d458,20,string,spanish-colombia,
+1002d46c,16,string,spanish-chile,
+1002d47c,16,string,spanish-bolivia,
+1002d48c,20,string,spanish-argentina,
+1002d4a0,24,string,portuguese-brazilian,
+1002d4b8,20,string,norwegian-nynorsk,
+1002d4cc,20,string,norwegian-bokmal,
+1002d4e0,12,string,norwegian,
+1002d4ec,16,string,italian-swiss,
+1002d4fc,16,string,irish-english,
+1002d50c,16,string,german-swiss,
+1002d51c,20,string,german-luxembourg,
+1002d530,20,string,german-lichtenstein,
+1002d544,16,string,german-austrian,
+1002d554,16,string,french-swiss,
+1002d564,20,string,french-luxembourg,
+1002d578,16,string,french-canadian,
+1002d588,16,string,french-belgian,
+1002d598,12,string,english-usa,
+1002d5a4,12,string,english-us,
+1002d5b0,12,string,english-uk,
+1002d5bc,28,string,english-trinidad y tobago,
+1002d5d8,24,string,english-south africa,
+1002d5f0,12,string,english-nz,
+1002d5fc,16,string,english-jamaica,
+1002d60c,12,string,english-ire,
+1002d618,20,string,english-caribbean,
+1002d62c,12,string,english-can,
+1002d638,16,string,english-belize,
+1002d648,12,string,english-aus,
+1002d654,20,string,english-american,
+1002d668,16,string,dutch-belgian,
+1002d678,20,string,chinese-traditional,
+1002d68c,20,string,chinese-singapore,
+1002d6a0,20,string,chinese-simplified,
+1002d6b4,20,string,chinese-hongkong,
+1002d6c8,8,string,chinese,
+1002d6d8,12,string,canadian,
+1002d6e4,8,string,belgian,
+1002d6ec,12,string,australian,
+1002d6f8,20,string,american-english,
+1002d70c,20,string,american english,
+1002d720,9,string,american,10030aa0
+1002d734,8,string,H:mm:ss,10011da0;10030d58
+1002d73c,20,string,"dddd, MMMM dd, yyyy",10011da0;10030d54
+1002d750,7,string,M/d/yy,10011da0;10030d50
+1002d760,9,string,December,10030d44
+1002d76c,9,string,November,10030d40
+1002d778,8,string,October,10030d3c
+1002d780,10,string,September,10030d38
+1002d78c,7,string,August,10030d34
+1002d7a4,6,string,April,10030d24
+1002d7ac,6,string,March,10030d20
+1002d7b4,9,string,February,10030d1c
+1002d7c0,8,string,January,10030d18
+1002d7f8,9,string,Saturday,10030ce4
+1002d804,7,string,Friday,10030ce0
+1002d80c,9,string,Thursday,10030cdc
+1002d818,10,string,Wednesday,10030cd8
+1002d824,8,string,Tuesday,10030cd4
+1002d82c,7,string,Monday,10030cd0
+1002d834,7,string,Sunday,10030ccc
+1002d85c,6,string,am/pm,10012a90
+1002d864,11,string,inithelp.c,10012fb0
+1002d888,24,string,SunMonTueWedThuFriSat,
+1002d8a0,40,string,JanFebMarAprMayJunJulAugSepOctNovDec,
+1002d8c8,8,string,tzset.c,10013950
+1002d8f4,11,string,wtombenv.c,100148f0
+1002d900,8,string,a_cmp.c,100149a0
+1002d908,61,string,cchCount1==0 && cchCount2==1 || cchCount1==1 && cchCount2==0,100149a0
+1002d960,9,string,setenv.c,10014df0;10015150
+1002e02a,8,TerminatedCString,Rsc.dll,1002df8c
+1002e032,17,TerminatedCString,xvga_exit_fileio,1002dfdc
+1002e043,16,TerminatedCString,xvga_file_exist,1002dfe0
+1002e053,31,TerminatedCString,xvga_fileio_set_check_sequence,1002dfe4
+1002e072,20,TerminatedCString,xvga_get_filehandle,1002dfe8
+1002e086,17,TerminatedCString,xvga_init_fileio,1002dfec
+1002e097,19,TerminatedCString,xvga_rc_filelength,1002dff0
+1002e0aa,17,TerminatedCString,xvga_rc_filename,1002dff4
+1002e0bb,16,TerminatedCString,xvga_rc_filepos,1002dff8
+1002e0cb,18,TerminatedCString,xvga_rc_num_files,1002dffc
+1002e0dd,16,TerminatedCString,xvga_src_fclose,1002e000
+1002e0ed,20,TerminatedCString,xvga_src_filelength,1002e004
+1002e101,15,TerminatedCString,xvga_src_fopen,1002e008
+1002e110,15,TerminatedCString,xvga_src_fseek,1002e00c
+100333d6,11,TerminatedCString,LocalAlloc,
+100333e4,10,TerminatedCString,LocalFree,
+100333ee,13,TerminatedCString,KERNEL32.dll,
+100333fe,12,TerminatedCString,MessageBoxA,
+1003340a,11,TerminatedCString,USER32.dll,
+10033418,21,TerminatedCString,LeaveCriticalSection,
+10033430,21,TerminatedCString,EnterCriticalSection,
+10033448,26,TerminatedCString,InitializeCriticalSection,
+10033464,13,TerminatedCString,SetStdHandle,
+10033474,13,TerminatedCString,GetLastError,
+10033484,12,TerminatedCString,GetFileType,
+10033492,16,TerminatedCString,GetCommandLineA,
+100334a4,11,TerminatedCString,GetVersion,
+100334b2,11,TerminatedCString,DebugBreak,
+100334c0,13,TerminatedCString,GetStdHandle,
+100334d0,10,TerminatedCString,WriteFile,
+100334dc,21,TerminatedCString,InterlockedDecrement,
+100334f4,19,TerminatedCString,OutputDebugStringA,
+1003350a,15,TerminatedCString,GetProcAddress,
+1003351c,13,TerminatedCString,LoadLibraryA,
+1003352c,21,TerminatedCString,InterlockedIncrement,
+10033544,19,TerminatedCString,GetModuleFileNameA,
+1003355a,14,TerminatedCString,IsBadWritePtr,
+1003356a,13,TerminatedCString,IsBadReadPtr,
+1003357a,13,TerminatedCString,HeapValidate,
+1003358a,12,TerminatedCString,CloseHandle,
+10033598,9,TerminatedCString,ReadFile,
+100335a4,15,TerminatedCString,SetFilePointer,
+100335b6,15,TerminatedCString,SetHandleCount,
+100335c8,16,TerminatedCString,GetStartupInfoA,
+100335da,22,TerminatedCString,DeleteCriticalSection,
+100335f2,12,TerminatedCString,ExitProcess,
+10033600,14,TerminatedCString,FatalAppExitA,
+10033610,17,TerminatedCString,TerminateProcess,
+10033624,18,TerminatedCString,GetCurrentProcess,
+10033638,19,TerminatedCString,GetCurrentThreadId,
+1003364e,12,TerminatedCString,TlsSetValue,
+1003365c,9,TerminatedCString,TlsAlloc,
+10033668,8,TerminatedCString,TlsFree,
+10033672,13,TerminatedCString,SetLastError,
+10033682,12,TerminatedCString,TlsGetValue,
+10033690,17,TerminatedCString,GetCurrentThread,
+100336a4,24,TerminatedCString,FreeEnvironmentStringsA,
+100336be,24,TerminatedCString,FreeEnvironmentStringsW,
+100336d8,20,TerminatedCString,WideCharToMultiByte,
+100336ee,22,TerminatedCString,GetEnvironmentStrings,
+10033706,23,TerminatedCString,GetEnvironmentStringsW,
+10033720,12,TerminatedCString,HeapDestroy,
+1003372e,11,TerminatedCString,HeapCreate,
+1003373c,9,TerminatedCString,HeapFree,
+10033748,12,TerminatedCString,VirtualFree,
+10033756,22,TerminatedCString,SetConsoleCtrlHandler,
+1003376e,10,TerminatedCString,HeapAlloc,
+1003377a,12,TerminatedCString,HeapReAlloc,
+10033788,13,TerminatedCString,VirtualAlloc,
+10033798,17,TerminatedCString,FlushFileBuffers,
+100337ac,12,TerminatedCString,CreateFileA,
+100337ba,25,TerminatedCString,UnhandledExceptionFilter,
+100337d6,10,TerminatedCString,GetCPInfo,
+100337e2,7,TerminatedCString,GetACP,
+100337ec,9,TerminatedCString,GetOEMCP,
+100337f8,20,TerminatedCString,MultiByteToWideChar,
+1003380e,15,TerminatedCString,GetStringTypeA,
+10033820,15,TerminatedCString,GetStringTypeW,
+10033832,13,TerminatedCString,SetEndOfFile,
+10033842,13,TerminatedCString,LCMapStringA,
+10033852,13,TerminatedCString,LCMapStringW,
+10033862,10,TerminatedCString,RtlUnwind,
+1003386e,6,TerminatedCString,Sleep,
+10033876,14,TerminatedCString,IsValidLocale,
+10033886,16,TerminatedCString,IsValidCodePage,
+10033898,15,TerminatedCString,GetLocaleInfoA,
+100338aa,19,TerminatedCString,EnumSystemLocalesA,
+100338c0,19,TerminatedCString,GetUserDefaultLCID,
+100338d6,14,TerminatedCString,GetVersionExA,
+100338e6,23,TerminatedCString,GetTimeZoneInformation,
+10033900,15,TerminatedCString,GetLocaleInfoW,
+10033912,15,TerminatedCString,CompareStringA,
+10033924,15,TerminatedCString,CompareStringW,
+10033936,24,TerminatedCString,SetEnvironmentVariableA,
+ffdff1ac,36,uchar[36],,
+ffdffc00,522,wchar16[261],,

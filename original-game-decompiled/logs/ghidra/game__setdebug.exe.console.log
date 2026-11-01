@@ -1,0 +1,184 @@
+openjdk version "25.0.4.1" 2026-08-18
+OpenJDK Runtime Environment (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1)
+OpenJDK 64-Bit Server VM (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1, mixed mode)
+INFO  Using log config file: jar:file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (823 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2531 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/scripts/ghidra
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/analysis-projects/game__setdebug.exe/analysis (HeadlessAnalyzer)  
+INFO  Creating project: /home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/analysis-projects/game__setdebug.exe/analysis (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/analysis-projects/game__setdebug.exe/analysis (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/original/install/setdebug.exe (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:32:default:borlanddelphi (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (ProgramLoader)  
+INFO  TLS callbacks at 44b010 (TLSDirectory)  
+INFO  Additional info:
+Loading file:///home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/original/install/setdebug.exe?MD5=57a0cecb2806a2bc07edd4a58ce0e435...
+------------------------------------------------
+
+Searching 7 paths for library ADVAPI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library COMCTL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library GDI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library KERNEL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library OLE32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library OLEAUT32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library USER32.DLL...
+Library not found.
+------------------------------------------------
+
+Applying /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/symbols/win32/oleaut32.exports
+Linking the External Programs of 'setdebug.exe' to imported libraries...
+  [KERNEL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [OLEAUT32.DLL] -> not found in project
+  [GDI32.DLL] -> not found in project
+  [OLE32.DLL] -> not found in project
+  [COMCTL32.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ConfigureAnalysis.java 'deep'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/scripts/ghidra/ConfigureAnalysis.java (HeadlessAnalyzer)  
+INFO  ConfigureAnalysis.java> CONFIGURED analysis mode=deep (GhidraScript)  
+INFO  ANALYZING all memory and code: file:///home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/original/install/setdebug.exe (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+INFO  hit non-returning function, restarting decompiler switch analyzer later (DecompilerSwitchAnalyzer)  
+WARN  Decompiling 00408407: Unable to read bytes at ram:40e8c031 (DecompileCallback)  
+INFO  Packed database cache: /var/tmp/rick-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+WARN  Decompiling 00408407: Unable to read bytes at ram:40e8c031 (DecompileCallback)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.294 secs
+    Apply Data Archives                        0.617 secs
+    Call Convention ID                         0.007 secs
+    Call-Fixup Installer                       0.040 secs
+    Create Address Tables                      0.056 secs
+    Create Address Tables - One Time           0.328 secs
+    Create Function                            0.454 secs
+    Data Reference                             0.420 secs
+    Decompiler Parameter ID                    2.662 secs
+    Decompiler Switch Analysis                 4.023 secs
+    Decompiler Switch Analysis - One Time      0.579 secs
+    Demangler GNU                              0.010 secs
+    Demangler Microsoft                        0.009 secs
+    Disassemble                                0.756 secs
+    Disassemble Entry Points                   0.390 secs
+    Embedded Media                             0.014 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.302 secs
+    Function Start Search                      0.024 secs
+    Function Start Search After Code           0.034 secs
+    Non-Returning Functions - Discovered       0.179 secs
+    Non-Returning Functions - Known            0.004 secs
+    PDB Universal                              0.001 secs
+    Reference                                  0.707 secs
+    Scalar Operand References                  0.610 secs
+    Shared Return Calls                        0.178 secs
+    Stack                                      1.542 secs
+    Subroutine References                      0.586 secs
+    Subroutine References - One Time           0.000 secs
+    WindowsResourceReference                   0.597 secs
+    X86 Function Callee Purge                  0.237 secs
+    x86 Constant Reference Analyzer            2.145 secs
+-----------------------------------------------------
+     Total Time   17 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/original/install/setdebug.exe (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: RecoverGaps.java '/home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/decompiled/game__setdebug.exe' '0' '/home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/decompiled/game__setdebug.exe/delphi/delphi_seeds.tsv'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/scripts/ghidra/RecoverGaps.java (HeadlessAnalyzer)  
+INFO  RecoverGaps.java> RECOVERGAPS prepass removed_padding=0 switch_parents_fixed=0 unreachable_regions=0 (GhidraScript)  
+INFO  RecoverGaps.java> RECOVERGAPS seeds=699 orphan=862 prologue=5 fragment=0 (GhidraScript)  
+INFO  REPORT: Execute script: ExportModule.java '/home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/decompiled/game__setdebug.exe' '1' '3'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/scripts/ghidra/ExportModule.java (HeadlessAnalyzer)  
+WARN  Decompiling 00408407: Unable to read bytes at ram:40e8c031 (DecompileCallback)  
+INFO  ExportModule.java> exported 1000/3532 (GhidraScript)  
+INFO  ExportModule.java> exported 2000/3532 (GhidraScript)  
+INFO  ExportModule.java> exported 3000/3532 (GhidraScript)  
+INFO  ExportModule.java> EXPORT COMPLETE functions=3532 decompiled=3532 assembly_only=0 out=/home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/decompiled/game__setdebug.exe (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/original/install/setdebug.exe (HeadlessAnalyzer)  
+INFO  -----------------------------------------------------
+    Call Convention ID                         0.005 secs
+    Call-Fixup Installer                       0.010 secs
+    Create Function                            0.014 secs
+    Data Reference                             0.003 secs
+    Decompiler Parameter ID                    1.911 secs
+    Decompiler Switch Analysis                 0.224 secs
+    Function Start Search After Code           0.002 secs
+    Non-Returning Functions - Discovered       0.009 secs
+    Reference                                  0.021 secs
+    Scalar Operand References                  0.025 secs
+    Shared Return Calls                        0.055 secs
+    Stack                                      0.482 secs
+    Subroutine References                      0.017 secs
+    WindowsResourceReference                   0.237 secs
+    X86 Function Callee Purge                  0.135 secs
+    x86 Constant Reference Analyzer            0.196 secs
+-----------------------------------------------------
+     Total Time   3 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Post-analysis succeeded for file: file:///home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/original/install/setdebug.exe (HeadlessAnalyzer)  
+INFO  /setdebug.exe: file created (rick) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /setdebug.exe (analysis:/setdebug.exe) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

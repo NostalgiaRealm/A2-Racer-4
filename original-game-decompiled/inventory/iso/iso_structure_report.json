@@ -1,0 +1,131 @@
+{
+ "image": "V1.01 A2 Racer 4 - De politie slaat terug!.iso",
+ "image_size": 305600512,
+ "sectors_at_2048": 149219.0,
+ "sha256": "da412f5c7d277a21a36022a7f70c96fde481dd6a1abd857616d516b6e469e7f1",
+ "descriptors": [
+  {
+   "lba": 16,
+   "type": 1,
+   "version": 1,
+   "name": "Primary",
+   "system_id": "",
+   "volume_id": "A2RACER",
+   "volume_flags": 0,
+   "space_sectors": 149217,
+   "escape_sequences": "",
+   "set_size": 1,
+   "seq": 1,
+   "lb_size": 2048,
+   "path_table_size": 134,
+   "path_table_l": 30,
+   "path_table_l_opt": 0,
+   "volume_set_id": "",
+   "publisher_id": "",
+   "preparer_id": "",
+   "application_id": "NERO BURNING ROM",
+   "copyright_file": "",
+   "abstract_file": "",
+   "biblio_file": "",
+   "created": "2003121711270000\u0004",
+   "modified": "2003121711270000\u0004",
+   "expires": "0000000000000000\u0000",
+   "effective": "0000000000000000\u0000",
+   "file_structure_version": 1,
+   "app_use_nonzero_bytes": 0
+  },
+  {
+   "lba": 17,
+   "type": 2,
+   "version": 1,
+   "name": "Supplementary",
+   "system_id": "\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000\u0000",
+   "volume_id": "A2RACER\u0000       \u0000",
+   "volume_flags": 0,
+   "space_sectors": 149217,
+   "escape_sequences": "252f45",
+   "set_size": 1,
+   "seq": 1,
+   "lb_size": 2048,
+   "path_table_size": 202,
+   "path_table_l": 44,
+   "path_table_l_opt": 0,
+   "volume_set_id": "\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000\u0000",
+   "publisher_id": "\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000\u0000",
+   "preparer_id": "\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000\u0000",
+   "application_id": "\u0000N\u0000e\u0000r\u0000o\u0000 \u0000B\u0000u\u0000r\u0000n\u0000i\u0000n\u0000g\u0000 \u0000R\u0000O\u0000M\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000\u0000",
+   "copyright_file": "\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000",
+   "abstract_file": "\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000",
+   "biblio_file": "\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000",
+   "created": "2003121711270000\u0004",
+   "modified": "2003121711270000\u0004",
+   "expires": "0000000000000000\u0000",
+   "effective": "0000000000000000\u0000",
+   "file_structure_version": 1,
+   "app_use_nonzero_bytes": 0
+  },
+  {
+   "lba": 18,
+   "type": 255,
+   "version": 1,
+   "name": "Terminator"
+  }
+ ],
+ "system_area_nonzero_bytes": 0,
+ "raw_sector_sync_at_start": false,
+ "udf_vrs": [],
+ "primary_files": 159,
+ "primary_dirs": 9,
+ "joliet_files": 159,
+ "joliet_dirs": 9,
+ "primary_hidden_or_special": [
+  {
+   "path": "A2RACER4.GID",
+   "flags": 1
+  },
+  {
+   "path": "DATA/MENUDATA/MENU.GID",
+   "flags": 1
+  }
+ ],
+ "joliet_hidden_or_special": [
+  {
+   "path": "A2Racer4.GID",
+   "flags": 1
+  },
+  {
+   "path": "Data/MenuData/Menu.GID",
+   "flags": 1
+  }
+ ],
+ "rock_ridge_or_susp_records": 0,
+ "xa_records": 0,
+ "ext_attr_records": 0,
+ "interleaved_records": 0,
+ "files_only_in_joliet": [],
+ "files_only_in_primary": [],
+ "pvd_path_table_entries": 9,
+ "joliet_path_table_entries": 9,
+ "path_table_dirs_not_in_tree": [],
+ "tree_dirs_not_in_path_table": [],
+ "allocation_overlaps": [],
+ "files_beyond_image_end": [],
+ "unreferenced_gaps": [
+  {
+   "lba_start": 149062,
+   "sectors": 157,
+   "byte_offset": 305278976,
+   "bytes": 321536,
+   "nonzero_bytes": 0,
+   "sha256": "fd99947c9351dd948f38e93937db921e9d49b6e94f3ac4a82e763bafc1bdcea7"
+  }
+ ],
+ "unreferenced_nonzero_total": 0,
+ "volume_space_bytes": 305596416,
+ "image_bytes_past_volume_space": 4096,
+ "tail_nonzero_bytes": 0,
+ "file_slack_nonzero": [],
+ "cd001_outside_main_vds": [],
+ "extracted_tree": "joliet",
+ "extracted_files": 159
+}

@@ -1,0 +1,58 @@
+object frmInternetDlg: TfrmInternetDlg
+  Left = 278
+  Top = 246
+  ActiveControl = btnCancel.WrapperbtnCancel
+  Caption = 'frmInternetDlg'
+  ClientHeight = 257
+  ClientWidth = 526
+  OldCreateOrder = True
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnHelp: TGDIButton
+    Left = 374
+    Top = 12
+  end
+  object btnClose: TGDIButton
+    Left = 449
+    Top = 12
+  end
+  object btnOk1: TGDIButton
+    Left = 405
+    Top = 187
+    Width = 100
+    Height = 50
+    Definition = Data.gdfBtnYesDlg
+  end
+  object btnCancel: TGDIButton
+    Left = 328
+    Top = 187
+    Width = 100
+    Height = 50
+    Cancel = False
+    Default = False
+    ModalResult = 2
+    Definition = Data.gdfBtnNoDlg
+    MouseCheckDelay = 60
+    TabOrder = 3
+    TabStop = True
+    Caption = 'btnCancel'
+  end
+  object lblInternet1: TLabel
+    Left = 51
+    Top = 72
+    Width = 409
+    Height = 76
+    AutoSize = False
+    Caption = 'lblInternet1'
+    Transparent = True
+    WordWrap = True
+  end
+  object lblInternet2: TLabel
+    Left = 51
+    Top = 155
+    Width = 52
+    Height = 13
+    Caption = 'lblInternet2'
+    Transparent = True
+  end
+end

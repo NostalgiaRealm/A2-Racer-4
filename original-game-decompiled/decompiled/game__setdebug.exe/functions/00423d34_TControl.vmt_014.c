@@ -1,0 +1,39 @@
+
+/* ==== TControl.vmt_014 @ 00423d34 ==== 
+ * signature: undefined __register TControl.vmt_014(int * param_1, int * param_2)
+ * body: 00423d34-00423dc4
+ * note: Name source: Delphi VMT slot
+ */
+
+/* Name source: Delphi VMT slot */
+
+void TControl_vmt_014(int *param_1,int *param_2)
+
+{
+  int *piVar1;
+  undefined4 uVar2;
+  uint extraout_ECX;
+  uint extraout_ECX_00;
+  uint uVar3;
+  
+  *(ushort *)(param_1 + 0x11) = *(ushort *)(param_1 + 0x11) | 8;
+  piVar1 = (int *)param_2[0xb];
+  uVar2 = FUN_00402e8c(piVar1,(int)&PTR_TWinControl_vmt_000_00420fa8);
+  uVar3 = extraout_ECX;
+  if ((char)uVar2 != '\0') {
+    (**(code **)(*param_1 + 0x60))(param_1,piVar1);
+    uVar3 = extraout_ECX_00;
+  }
+  TComponent_vmt_014(param_1,param_2,uVar3);
+  *(ushort *)(param_1 + 0x11) = *(ushort *)(param_1 + 0x11) & 0xfff7;
+  if (param_1[9] != 0) {
+    FUN_00425780((int)param_1,0xb009,0,0);
+    FUN_00425780((int)param_1,0xb008,0,0);
+    FUN_00425780((int)param_1,0xb023,0,0);
+    FUN_00425780((int)param_1,0xb035,0,0);
+    FUN_00425780((int)param_1,0xb03d,0,0);
+  }
+  return;
+}
+
+

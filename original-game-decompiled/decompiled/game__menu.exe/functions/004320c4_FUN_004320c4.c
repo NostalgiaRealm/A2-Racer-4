@@ -1,0 +1,44 @@
+
+/* ==== FUN_004320c4 @ 004320c4 ==== 
+ * signature: undefined4 __register FUN_004320c4(int param_1, undefined4 param_2, undefined4 param_3, char param_4)
+ * body: 004320c4-00432156
+ */
+
+undefined4 FUN_004320c4(int param_1,undefined4 param_2,undefined4 param_3,char param_4)
+
+{
+  char cVar1;
+  int *piVar2;
+  undefined4 extraout_ECX;
+  undefined4 extraout_ECX_00;
+  undefined4 extraout_EDX;
+  undefined4 extraout_EDX_00;
+  int iVar3;
+  undefined1 *puVar4;
+  
+  if (((param_4 != '\0') && (*(int *)(param_1 + 0x180) != 0)) &&
+     (iVar3 = *(int *)(*(int *)(param_1 + 0x180) + 8) + -1, -1 < iVar3)) {
+    do {
+      puVar4 = &stack0xfffffffc;
+      piVar2 = (int *)FUN_004102b0(*(undefined4 **)(param_1 + 0x180),iVar3);
+      cVar1 = FUN_0043200c(piVar2,extraout_EDX,extraout_ECX,(int)puVar4);
+      if (cVar1 != '\0') break;
+      iVar3 = iVar3 + -1;
+    } while (iVar3 != -1);
+  }
+  if ((*(int *)(param_1 + 0x134) != 0) &&
+     (iVar3 = *(int *)(*(int *)(param_1 + 0x134) + 8) + -1, -1 < iVar3)) {
+    do {
+      puVar4 = &stack0xfffffffc;
+      piVar2 = (int *)FUN_004102b0(*(undefined4 **)(param_1 + 0x134),iVar3);
+      cVar1 = FUN_0043200c(piVar2,extraout_EDX_00,extraout_ECX_00,(int)puVar4);
+      if (cVar1 != '\0') {
+        return 0;
+      }
+      iVar3 = iVar3 + -1;
+    } while (iVar3 != -1);
+  }
+  return 0;
+}
+
+

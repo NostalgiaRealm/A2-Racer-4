@@ -1,0 +1,36 @@
+object frmHighScoreDlg: TfrmHighScoreDlg
+  Left = 323
+  Top = 280
+  ActiveControl = btnOk1.WrapperbtnOk1
+  Caption = 'frmHighScoreDlg'
+  ClientHeight = 301
+  ClientWidth = 459
+  OldCreateOrder = True
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnHelp: TGDIButton
+    Left = 362
+    TabOrder = 2
+    Visible = False
+  end
+  object btnClose: TGDIButton
+    Left = 437
+    TabOrder = 3
+    Visible = False
+  end
+  object btnOk1: TGDIButton
+    Left = 385
+    Top = 217
+  end
+  object txtName: TEdit
+    Left = 176
+    Top = 121
+    Width = 160
+    Height = 21
+    BorderStyle = bsNone
+    Color = 36546
+    MaxLength = 12
+    TabOrder = 1
+    OnKeyDown = txtNameKeyDown
+  end
+end

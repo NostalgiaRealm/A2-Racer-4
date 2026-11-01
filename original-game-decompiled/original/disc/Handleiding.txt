@@ -1,0 +1,17 @@
+Om het bestand "Handleiding.pdf" te kunnen lezen dient u te beschikken over het programma "Adobe Reader".
+
+U vindt dit programma op deze CD in de directory "Adobe Acrobat".
+Deze versie is geschikt voor Windows 95 en hoger.
+
+(NB: mogelijk bevat deze versie van "Adobe Reader" niet alle features die u in de nieuwste versie zult aantreffen op www.adobe.com)
+
+Instructies om "Adobe Reader" te installeren van deze CD.
+
+1.) ga naar de directory "Adobe Acrobat"
+2.) dubbelclick op het programma "rp505nld.exe"
+3.) volg de instructies op het scherm.
+
+(NB: mogelijk moet u de PC herstarten na de installatie)
+
+Hierna kunt u het bestand "Handleiding.pdf" bekijken.
+

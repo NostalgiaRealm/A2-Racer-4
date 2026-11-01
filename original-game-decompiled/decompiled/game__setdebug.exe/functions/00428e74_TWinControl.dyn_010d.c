@@ -1,0 +1,18 @@
+
+/* ==== TWinControl.dyn_010d @ 00428e74 ==== 
+ * signature: undefined TWinControl.dyn_010d(void)
+ * body: 00428e74-00428e86
+ * note: Name source: Delphi dynamic method table
+ */
+
+/* Name source: Delphi dynamic method table */
+
+void TWinControl_dyn_010d(int *param_1)
+
+{
+  *(undefined1 *)((int)param_1 + 0x1e9) = 1;
+  (**(code **)(*param_1 + -0x10))();
+  return;
+}
+
+

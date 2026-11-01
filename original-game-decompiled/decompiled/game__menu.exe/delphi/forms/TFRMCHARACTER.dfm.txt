@@ -1,0 +1,138 @@
+object frmCharacter: TfrmCharacter
+  Left = 191
+  ActiveControl = btnNextChar.WrapperbtnNextChar
+  Caption = 'frmCharacter'
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblTextBlock: TLabel
+    Left = 38
+    Top = 174
+    Width = 326
+    Height = 152
+    AutoSize = False
+    Caption = 'lblTextBlock'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+    WordWrap = True
+  end
+  object btnNextChar: TGDIButton
+    Left = 185
+    Top = 515
+    Width = 100
+    Height = 50
+    Cancel = False
+    Default = False
+    ModalResult = 0
+    Definition = Data.gdfBtnNextItem
+    MouseCheckDelay = 60
+    TabOrder = 5
+    Caption = 'btnMain'
+    OnClick = btnNextCharClick
+  end
+  object btnPrevChar: TGDIButton
+    Left = 108
+    Top = 515
+    Width = 100
+    Height = 50
+    Cancel = False
+    Default = False
+    ModalResult = 0
+    Definition = Data.gdfBtnPreviousItem
+    MouseCheckDelay = 60
+    TabOrder = 1
+    Caption = 'btnMain'
+    OnClick = btnPrevCharClick
+  end
+  object btnPrevious: TGDIButton
+    TabOrder = 4
+  end
+  object imgItem: TGDIGraphic
+    Left = 388
+    Top = 123
+  end
+  object imgItemName: TGDIGraphic
+    Left = 82
+    Top = 91
+    Width = 100
+    Height = 50
+    LinkedGraphic.Storage = SL_EXTERNAL
+    LinkedGraphic.GraphicName = ''
+    TransparentColor = clBlack
+    Transparent = False
+    TransparentMode = tmAuto
+    Translucent = True
+    TranslucencyFactor = 255
+  end
+  object lblAncInd00: TLabel
+    Left = 152
+    Top = 392
+    Width = 56
+    Height = 13
+    Caption = 'lblAncInd00'
+    Transparent = True
+  end
+  object lblAncInd10: TLabel
+    Left = 152
+    Top = 416
+    Width = 56
+    Height = 13
+    Caption = 'lblAncInd10'
+    Transparent = True
+  end
+  object lblAncInd01: TLabel
+    Left = 248
+    Top = 392
+    Width = 71
+    Height = 13
+    Caption = 'lblAnchorInd00'
+    Transparent = True
+  end
+  object lblAncTrackInd00: TLabel
+    Left = 152
+    Top = 480
+    Width = 71
+    Height = 13
+    Caption = 'lblAnchorInd00'
+    Transparent = True
+  end
+  object lblAncTrackInd01: TLabel
+    Left = 232
+    Top = 480
+    Width = 71
+    Height = 13
+    Caption = 'lblAnchorInd00'
+    Transparent = True
+  end
+  object imgCar: TImage
+    Left = 450
+    Top = 0
+    Width = 105
+    Height = 4
+    OnDblClick = imgCarClick
+  end
+  object lbl1: TLabel
+    Left = 40
+    Top = 232
+    Width = 12
+    Height = 82
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clAqua
+    Font.Height = -67
+    Font.Name = 'Impact'
+    Font.Style = []
+    ParentFont = False
+    Visible = False
+  end
+  object timSelection: TTimer
+    Enabled = False
+    Interval = 2000
+    OnTimer = timSelectionTimer
+    Left = 432
+    Top = 24
+  end
+end

@@ -1,0 +1,27 @@
+
+/* ==== FUN_00413250 @ 00413250 ==== 
+ * signature: undefined __stdcall FUN_00413250(void)
+ * body: 00413250-004133a1
+ */
+
+void FUN_00413250(void)
+
+{
+  FUN_0040d5d0(0x5cdde0,0,0x18,10,1,FUN_00405500);
+  FUN_0040d5d0(0x5cdde0,1,10,0x18,1,BreakTimeElapsed);
+  FUN_0040d5d0(0x5cdde0,2,0x18,0x12,1,FUN_004053a0);
+  FUN_0040d5d0(0x5cdde0,3,0x12,0x18,0,FUN_004053a0);
+  FUN_0040d5d0(0x5cdde0,4,0x18,0xf,1,FUN_00405430);
+  FUN_0040d5d0(0x5cdde0,5,0x19,8,1,FUN_00405480);
+  FUN_0040d5d0(0x5cdde0,6,0x18,0xf,1,FUN_00405590);
+  FUN_0040d5d0(0x5cdde0,7,0xf,0x19,1,FUN_00404ea0);
+  FUN_0040d5d0(0x5cdde0,8,0x18,0x1b,1,FUN_00405610);
+  FUN_0040d5d0(0x5cdde0,9,10,0x1b,1,FUN_00405610);
+  FUN_0040d5d0(0x5cdde0,10,0x12,0x1b,1,FUN_00405610);
+  FUN_0040d5d0(0x5cdde0,0xb,0x19,0x1b,1,FUN_00405610);
+  FUN_0040d5d0(0x5cdde0,0xc,0x1a,0x1b,1,FUN_00405610);
+  FUN_0040d5d0(0x5cdde0,0xd,0xf,0x1b,1,FUN_00405610);
+  return;
+}
+
+

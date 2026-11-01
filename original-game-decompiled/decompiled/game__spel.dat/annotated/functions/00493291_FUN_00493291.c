@@ -1,0 +1,90 @@
+
+/* ==== FUN_00493291 @ 00493291 ==== 
+ * signature: undefined1 * __stdcall FUN_00493291(undefined1 * param_1, undefined4 param_2)
+ * body: 00493291-0049329f
+ */
+
+undefined1 * FUN_00493291(undefined1 *param_1,undefined4 param_2)
+
+{
+  char cVar1;
+  int iVar2;
+  char *pcVar3;
+  uint uVar4;
+  uint uVar5;
+  CHAR *pCVar6;
+  CHAR *pCVar7;
+  CHAR aCStack_50 [16];
+  CHAR aCStack_40 [64];
+  
+  FUN_004489a0(&DAT_006fa558,(byte *)s_GAME_INI_005ad0e4,(byte *)s_Game_Settings_005ad0d4);
+  iVar2 = FUN_00448c90(&DAT_006fa558,(byte *)s_Game_Settings_005ad0f0);
+  pcVar3 = *(char **)(iVar2 + 4);
+  if (pcVar3 == (char *)0x0) {
+    pcVar3 = "";
+  }
+  set_ini_filename(pcVar3);
+  wsprintfA(aCStack_50,&DAT_005ad100,param_2);
+  read_ini_string_setting(s_Portraits_005ace70,aCStack_50,aCStack_40,0x3f);
+  iVar2 = -1;
+  pcVar3 = aCStack_40;
+  do {
+    if (iVar2 == 0) break;
+    iVar2 = iVar2 + -1;
+    cVar1 = *pcVar3;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar1 != '\0');
+  if (iVar2 == -2) {
+                    /* WARNING: Subroutine does not return */
+    Fatal((byte *)s__s___d__Element_name_for_car__d_n_005ad13c);
+  }
+  uVar4 = 0xffffffff;
+  pcVar3 = aCStack_40;
+  do {
+    if (uVar4 == 0) break;
+    uVar4 = uVar4 - 1;
+    cVar1 = *pcVar3;
+    pcVar3 = pcVar3 + 1;
+  } while (cVar1 != '\0');
+  *(undefined4 *)(param_1 + 4) = 0;
+  uVar4 = ~uVar4 - 1;
+  *param_1 = (undefined1)param_2;
+  *(undefined4 *)(param_1 + 8) = 0;
+  *(undefined4 *)(param_1 + 0xc) = 0;
+  if (0xfffffffd < uVar4) {
+    FUN_0054b1b4();
+  }
+  iVar2 = *(int *)(param_1 + 4);
+  if (((iVar2 == 0) || (cVar1 = *(char *)(iVar2 + -1), cVar1 == '\0')) || (cVar1 == -1)) {
+    if (uVar4 == 0) {
+      FUN_004028f0(param_1,'\x01');
+      return param_1;
+    }
+    if ((*(uint *)(param_1 + 0xc) < 0x20) && (uVar4 <= *(uint *)(param_1 + 0xc))) goto LAB_004933d8;
+    FUN_004028f0(param_1,'\x01');
+  }
+  else if (uVar4 == 0) {
+    *(char *)(iVar2 + -1) = cVar1 + -1;
+    FUN_004028f0(param_1,'\0');
+    return param_1;
+  }
+  FUN_00402b20(uVar4);
+LAB_004933d8:
+  pCVar6 = aCStack_40;
+  pCVar7 = *(CHAR **)(param_1 + 4);
+  for (uVar5 = uVar4 >> 2; uVar5 != 0; uVar5 = uVar5 - 1) {
+    *(undefined4 *)pCVar7 = *(undefined4 *)pCVar6;
+    pCVar6 = pCVar6 + 4;
+    pCVar7 = pCVar7 + 4;
+  }
+  for (uVar5 = uVar4 & 3; uVar5 != 0; uVar5 = uVar5 - 1) {
+    *pCVar7 = *pCVar6;
+    pCVar6 = pCVar6 + 1;
+    pCVar7 = pCVar7 + 1;
+  }
+  *(uint *)(param_1 + 8) = uVar4;
+  *(undefined1 *)(*(int *)(param_1 + 4) + uVar4) = 0;
+  return param_1;
+}
+
+

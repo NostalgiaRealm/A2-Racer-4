@@ -1,0 +1,66 @@
+object frmSliderSettings: TfrmSliderSettings
+  Left = 276
+  Top = 257
+  ActiveControl = btnClose.WrapperbtnClose
+  Caption = ''
+  ClientHeight = 268
+  ClientWidth = 554
+  OldCreateOrder = True
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnHelp: TGDIButton
+    Left = 382
+    Top = 12
+  end
+  object btnClose: TGDIButton
+    Left = 457
+    Top = 12
+  end
+  object btnCancel: TGDIButton
+    Left = 336
+    Top = 203
+    Width = 80
+    Height = 75
+    Cancel = False
+    Default = False
+    ModalResult = 2
+    Definition = Data.gdfBtnCancelDlg
+    MouseCheckDelay = 60
+    TabOrder = 3
+    TabStop = True
+    Caption = 'btnCancel'
+  end
+  object btnOk1: TGDIButton
+    Left = 413
+    Top = 203
+  end
+  object lblText: TLabel
+    Left = 56
+    Top = 80
+    Width = 161
+    Height = 73
+    AutoSize = False
+    Caption = 'lblText'
+    Transparent = True
+    WordWrap = True
+  end
+  object sldrSensitivity: TDaviGraphicSlider
+    Left = 46
+    Top = 193
+    Width = 182
+    Height = 15
+    BackImage.Data = {binary 8278 bytes 52200000424d52200000000000003600000028000000b60000000f0000000100}
+    Definition = Data.defSlider
+    DelayTime = 250
+    LargeStep = 5
+    MarginHorz = 0
+    MarginVert = 0
+    Min = 0
+    Max = 100
+    Position = 0
+    RepeatTime = 50
+    TabOrder = 4
+    Text = 'sldrSensitivity'
+  end
+end

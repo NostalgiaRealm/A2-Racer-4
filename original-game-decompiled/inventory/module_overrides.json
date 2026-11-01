@@ -1,0 +1,7 @@
+{
+  "game__rsc.dll": {
+    "noncode": ["1001569b", "1002bfff"],
+    "noncode_name": ".text_noncode",
+    "reason": "From 0x1001569b to the end of .text: INT3 filler, CRT string data and CodeView debug records (see decompiled/game__rsc.dll/codeview/). No call or data reference from real code enters it, and every decompiler failure of the first run was inside it. The CodeView records are NOT used for naming: only 4 of 46 procedure records land on a function start in this image and sizes differ, so their offsets belong to Microsoft's CRT build, not to this DLL."
+  }
+}

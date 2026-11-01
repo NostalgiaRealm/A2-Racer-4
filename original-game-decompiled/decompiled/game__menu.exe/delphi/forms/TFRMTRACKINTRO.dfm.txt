@@ -1,0 +1,24 @@
+object frmTrackIntro: TfrmTrackIntro
+  Left = 167
+  Top = 141
+  ActiveControl = nil
+  Caption = 'frmTrackIntro'
+  PixelsPerInch = 96
+  TextHeight = 13
+  object imgBackGround: TImage
+    OnClick = imgBackGroundClick
+  end
+  object btnHelp: TGDIButton
+    Visible = False
+  end
+  object btnClose: TGDIButton
+    Visible = False
+  end
+  object timClose: TTimer
+    Enabled = False
+    Interval = 3500
+    OnTimer = timCloseTimer
+    Left = 264
+    Top = 104
+  end
+end

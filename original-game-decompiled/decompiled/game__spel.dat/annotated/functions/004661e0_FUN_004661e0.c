@@ -1,0 +1,17 @@
+
+/* ==== FUN_004661e0 @ 004661e0 ==== 
+ * signature: undefined __stdcall FUN_004661e0(void)
+ * body: 004661e0-004661f8;00466200-0046620b
+ */
+
+void FUN_004661e0(void)
+
+{
+  if ((DAT_00750060 & 1) == 0) {
+    DAT_00750060 = DAT_00750060 | 1;
+  }
+  FUN_005584e0(0x4d1400);
+  return;
+}
+
+

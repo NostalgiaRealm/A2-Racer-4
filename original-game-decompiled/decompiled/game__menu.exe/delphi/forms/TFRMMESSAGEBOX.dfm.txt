@@ -1,0 +1,12 @@
+object frmMessageBox: TfrmMessageBox
+  ActiveControl = nil
+  Caption = 'frmMessageBox'
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnHelp: TGDIButton
+    Visible = False
+  end
+  object btnClose: TGDIButton
+    Visible = False
+  end
+end

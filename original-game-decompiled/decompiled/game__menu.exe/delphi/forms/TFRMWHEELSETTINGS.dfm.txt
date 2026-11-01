@@ -1,0 +1,8 @@
+object frmWheelSettings: TfrmWheelSettings
+  Left = 305
+  Top = 252
+  ActiveControl = btnOk1.WrapperbtnOk1
+  OnShow = GDIFormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+end

@@ -1,0 +1,37 @@
+image_size = 305600512
+sectors_at_2048 = 149219.0
+sha256 = da412f5c7d277a21a36022a7f70c96fde481dd6a1abd857616d516b6e469e7f1
+system_area_nonzero_bytes = 0
+raw_sector_sync_at_start = False
+udf_vrs = []
+primary_files = 159
+primary_dirs = 9
+joliet_files = 159
+joliet_dirs = 9
+rock_ridge_or_susp_records = 0
+xa_records = 0
+ext_attr_records = 0
+interleaved_records = 0
+files_only_in_joliet = []
+files_only_in_primary = []
+pvd_path_table_entries = 9
+joliet_path_table_entries = 9
+path_table_dirs_not_in_tree = []
+tree_dirs_not_in_path_table = []
+allocation_overlaps = []
+files_beyond_image_end = []
+unreferenced_nonzero_total = 0
+volume_space_bytes = 305596416
+image_bytes_past_volume_space = 4096
+tail_nonzero_bytes = 0
+file_slack_nonzero = []
+cd001_outside_main_vds = []
+extracted_files = 159
+extracted_tree = joliet
+descriptors:
+  {'lba': 16, 'type': 1, 'version': 1, 'name': 'Primary', 'volume_id': 'A2RACER', 'space_sectors': 149217, 'set_size': 1, 'seq': 1, 'lb_size': 2048, 'path_table_size': 134, 'path_table_l': 30, 'application_id': 'NERO BURNING ROM', 'created': '2003121711270000\x04', 'modified': '2003121711270000\x04', 'expires': '0000000000000000\x00', 'effective': '0000000000000000\x00', 'file_structure_version': 1}
+  {'lba': 17, 'type': 2, 'version': 1, 'name': 'Supplementary', 'system_id': '\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\x00', 'volume_id': 'A2RACER\x00       \x00', 'space_sectors': 149217, 'escape_sequences': '252f45', 'set_size': 1, 'seq': 1, 'lb_size': 2048, 'path_table_size': 202, 'path_table_l': 44, 'volume_set_id': '\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\x00', 'publisher_id': '\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\x00', 'preparer_id': '\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\x00', 'application_id': '\x00N\x00e\x00r\x00o\x00 \x00B\x00u\x00r\x00n\x00i\x00n\x00g\x00 \x00R\x00O\x00M\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00\x00', 'copyright_file': '\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00', 'abstract_file': '\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00', 'biblio_file': '\x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00 \x00', 'created': '2003121711270000\x04', 'modified': '2003121711270000\x04', 'expires': '0000000000000000\x00', 'effective': '0000000000000000\x00', 'file_structure_version': 1}
+  {'lba': 18, 'type': 255, 'version': 1, 'name': 'Terminator'}
+flagged primary: [{'path': 'A2RACER4.GID', 'flags': 1}, {'path': 'DATA/MENUDATA/MENU.GID', 'flags': 1}]
+flagged joliet: [{'path': 'A2Racer4.GID', 'flags': 1}, {'path': 'Data/MenuData/Menu.GID', 'flags': 1}]
+gaps: [{'lba_start': 149062, 'sectors': 157, 'byte_offset': 305278976, 'bytes': 321536, 'nonzero_bytes': 0}]

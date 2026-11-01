@@ -1,0 +1,39 @@
+
+/* ==== FUN_0053b620 @ 0053b620 ==== 
+ * signature: undefined __thiscall FUN_0053b620(void * this, int param_1)
+ * body: 0053b620-0053b69e
+ */
+
+void __thiscall FUN_0053b620(void *this,int param_1)
+
+{
+  if (*(int *)(param_1 + 0x7c) != 0) {
+    *(undefined4 *)(*(int *)(param_1 + 0x7c) + 0x80) = *(undefined4 *)(param_1 + 0x80);
+  }
+  if (*(int *)(param_1 + 0x80) == 0) {
+    *(undefined4 *)((int)this + 0xc) = *(undefined4 *)(param_1 + 0x7c);
+  }
+  else {
+    *(undefined4 *)(*(int *)(param_1 + 0x80) + 0x7c) = *(undefined4 *)(param_1 + 0x7c);
+  }
+  if (*(int *)(param_1 + 0x20) != 0) {
+    *(undefined4 *)(*(int *)(param_1 + 0x20) + 0xc) = *(undefined4 *)(param_1 + 0x24);
+  }
+  if (*(int *)(param_1 + 0x24) == 0) {
+    *(undefined4 *)(*(int *)(param_1 + 0x28) + 0x24) = *(undefined4 *)(param_1 + 0x20);
+  }
+  else {
+    *(undefined4 *)(*(int *)(param_1 + 0x24) + 8) = *(undefined4 *)(param_1 + 0x20);
+  }
+  if (*(int *)(param_1 + 0x3c) != 0) {
+    *(undefined4 *)(*(int *)(param_1 + 0x3c) + 0xc) = *(undefined4 *)(param_1 + 0x40);
+  }
+  if (*(int *)(param_1 + 0x40) != 0) {
+    *(undefined4 *)(*(int *)(param_1 + 0x40) + 8) = *(undefined4 *)(param_1 + 0x3c);
+    return;
+  }
+  *(undefined4 *)(*(int *)(param_1 + 0x44) + 0x24) = *(undefined4 *)(param_1 + 0x3c);
+  return;
+}
+
+

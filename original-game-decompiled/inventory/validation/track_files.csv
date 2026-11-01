@@ -1,0 +1,55 @@
+file,size,consumed,status,info
+etappe0.cmp,14236,14236,exact,{'records': 593}
+etappe0.dmp,52240,52240,exact,{'records': 1451}
+etappe0.omp,70520,70520,exact,{'records': 1037}
+etappe0.pmp,19796,19796,exact,{'chunks': 363}
+etappe0.rmp,886740,886740,exact,"{'version': -1, 'header_value': 6980, 'chunks': 363, 'list_entries': 7341}"
+etappe0.pth,456,456,exact,"{'paths': 8, 'points': 16}"
+etappe1.cmp,12052,12052,exact,{'records': 502}
+etappe1.dmp,79852,79852,exact,{'records': 2218}
+etappe1.omp,41892,41892,exact,{'records': 616}
+etappe1.pmp,27108,27108,exact,{'chunks': 507}
+etappe1.rmp,1341204,1341204,exact,"{'version': -1, 'header_value': 10987, 'chunks': 507, 'list_entries': 11109}"
+etappe1.pth,1272,1272,exact,"{'paths': 22, 'points': 46}"
+etappe2.cmp,20596,20596,exact,{'records': 858}
+etappe2.dmp,48496,48496,exact,{'records': 1347}
+etappe2.omp,42708,42708,exact,{'records': 628}
+etappe2.pmp,21624,21624,exact,{'chunks': 400}
+etappe2.rmp,1035652,1035652,exact,"{'version': -1, 'header_value': 7866, 'chunks': 400, 'list_entries': 8577}"
+etappe2.pth,176,176,exact,"{'paths': 3, 'points': 6}"
+etappe3.cmp,20068,20068,exact,{'records': 836}
+etappe3.dmp,80860,80860,exact,{'records': 2246}
+etappe3.omp,67392,67392,exact,{'records': 991}
+etappe3.pmp,32972,32972,exact,{'chunks': 645}
+etappe3.rmp,1905972,1905972,exact,"{'version': -1, 'header_value': 15650, 'chunks': 645, 'list_entries': 15797}"
+etappe3.pth,1208,1208,exact,"{'paths': 20, 'points': 45}"
+etappe4.cmp,26860,26860,exact,{'records': 1119}
+etappe4.dmp,100444,100444,exact,{'records': 2790}
+etappe4.omp,69024,69024,exact,{'records': 1015}
+etappe4.pmp,35928,35928,exact,{'chunks': 634}
+etappe4.rmp,1874476,1874476,exact,"{'version': -1, 'header_value': 14926, 'chunks': 634, 'list_entries': 15536}"
+etappe4.pth,1880,1880,exact,"{'paths': 26, 'points': 78}"
+etappe5.cmp,16804,16804,exact,{'records': 700}
+etappe5.dmp,43384,43384,exact,{'records': 1205}
+etappe5.omp,22308,22308,exact,{'records': 328}
+etappe5.pmp,18056,18056,exact,{'chunks': 326}
+etappe5.rmp,798428,798428,exact,"{'version': -1, 'header_value': 6451, 'chunks': 326, 'list_entries': 6610}"
+etappe5.pth,8,8,exact,"{'paths': 0, 'points': 0}"
+etappe6.cmp,20212,20212,exact,{'records': 842}
+etappe6.dmp,40288,40288,exact,{'records': 1119}
+etappe6.omp,39852,39716,size mismatch,{'records': 584}
+etappe6.pmp,18536,18536,exact,{'chunks': 334}
+etappe6.rmp,885196,885196,exact,"{'version': -1, 'header_value': 7259, 'chunks': 334, 'list_entries': 7332}"
+etappe6.pth,664,440,size mismatch,"{'paths': 2, 'points': 24}"
+etappe7.cmp,29476,29476,exact,{'records': 1228}
+etappe7.dmp,67036,67036,exact,{'records': 1862}
+etappe7.omp,25232,25232,exact,{'records': 371}
+etappe7.pmp,27628,27628,exact,{'chunks': 477}
+etappe7.rmp,1260804,1260804,exact,"{'version': -1, 'header_value': 10169, 'chunks': 477, 'list_entries': 10443}"
+etappe7.pth,112,112,exact,"{'paths': 1, 'points': 5}"
+etappe8.cmp,27580,27580,exact,{'records': 1149}
+etappe8.dmp,118552,118552,exact,{'records': 3293}
+etappe8.omp,52364,52364,exact,{'records': 770}
+etappe8.pmp,37196,37196,exact,{'chunks': 607}
+etappe8.rmp,2207404,2207404,exact,"{'version': -1, 'header_value': 16801, 'chunks': 607, 'list_entries': 18314}"
+etappe8.pth,624,624,exact,"{'paths': 11, 'points': 22}"

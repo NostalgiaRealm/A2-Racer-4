@@ -1,0 +1,232 @@
+20:40:31 batch start: 238 modules, ceiling 9.0 GB, at most 3 jobs
+20:40:31 game__A2Racer4.exe                                                0s skip
+20:40:32 game__setdebug.exe                                                0s skip
+20:40:33 game__menu.exe                                                    0s skip
+20:40:33 davilex__SERVICE.CPL                                              0s skip
+20:40:34 davilex__autorun.exe                                              0s skip
+20:40:34 installer__wise-internal_stream_003_0001b9b0.exe                  0s skip
+20:40:35 installer__wise-internal_stream_006_0001fecd.exe                  0s skip
+20:40:35 installer__wise-internal_stream_005_0001f016.exe                  0s skip
+20:40:36 installer__W32INST_PATH                                           0s skip
+20:40:36 installer__wise-internal_stream_002_000150dd.exe                  0s skip
+20:40:37 installer__wise-internal_stream_002_00018686.exe                  0s skip
+20:40:37 installer__UnWise.exe                                             0s skip
+20:40:38 installer__wise-internal_stream_001_0000451a.exe                  0s skip
+20:40:38 installer__UNINST32.EXE                                           0s skip
+20:40:39 installer__wise-internal_stream_001_00004a47.exe                  0s skip
+20:40:39 installer__setup.EXE                                              0s skip
+20:40:40 netmanage__NMSCKN.DLL                                             0s skip
+20:40:40 netmanage__NMORENU.DLL                                            0s skip
+20:40:41 netmanage__httpct.ocx                                             0s skip
+20:40:41 netmanage__NMOCOD.DLL                                             0s skip
+20:40:42 ms-redist__W95INF32.DLL                                           0s skip
+20:40:42 ms-redist__prebind.exe                                            0s skip
+20:40:43 ms-redist__INETWH32.DLL                                           0s skip
+20:40:43 ms-redist__ADVPACK.DLL                                            0s skip
+20:40:44 ms-redist__OLEPRO32.dll                                           0s skip
+20:40:44 ms-redist__RICHED20.DLL                                           0s skip
+20:40:45 ms-redist__COMCTRL_EXE                                            0s skip
+20:40:45 ms-redist__comc95.dll                                             0s skip
+20:40:46 ms-redist__comcnt.dll                                             0s skip
+20:40:46 msagent__agt0409.dll                                              0s skip
+20:40:47 msagent__AgtCtl15.tlb                                             0s skip
+20:40:47 msagent__AgentPsh.dll                                             0s skip
+20:40:48 msagent__AgentAnm.dll                                             0s skip
+20:40:48 msagent__mslwvtts.dll                                             0s skip
+20:40:49 msagent__AgentSR.dll                                              0s skip
+20:40:49 msagent__AgentDp2.dll                                             0s skip
+20:40:50 msagent__AgentMPx.dll                                             0s skip
+20:40:50 msagent__AgentDpv.dll                                             0s skip
+20:40:51 msagent__ADVPACK.DLL                                              0s skip
+20:40:51 msagent__AgentCtl.dll                                             0s skip
+20:40:52 msagent__AgentSvr.exe                                             0s skip
+20:40:52 msagent__MSagent.exe                                              0s skip
+20:40:53 dxmedia__cab00_W95INF32.DLL                                       0s skip
+20:40:53 dxmedia__cab03_quartz.vxd                                         0s skip
+20:40:54 dxmedia__cab03_vidx16.dll                                         0s skip
+20:40:54 dxmedia__cab03_mciqtz.drv                                         0s skip
+20:40:55 dxmedia__cab02_atl.nt                                             0s skip
+20:40:55 dxmedia__cab02_atl.9x                                             0s skip
+20:40:56 dxmedia__cab02_comcat.dll                                         0s skip
+20:40:56 dxmedia__cab07_ddraw16.dll                                        0s skip
+20:40:57 dxmedia__cab00_cfgmgr32.dll                                       0s skip
+20:40:57 dxmedia__cab02_olepro32.dll                                       0s skip
+20:40:58 dxmedia__cab07_ddhelp.exe                                         0s skip
+20:40:58 dxmedia__cab07_d3dxof.dll                                         0s skip
+20:40:59 dxmedia__cab11_lmrtrend.dll                                       0s skip
+20:40:59 dxmedia__cab08_ddrawex.dll                                        0s skip
+20:41:00 dxmedia__cab03_mciqtz32.dll                                       0s skip
+20:41:00 dxmedia__cab07_dsound.vxd                                         0s skip
+20:41:01 dxmedia__cab05_Actmovie.exe                                       0s skip
+20:41:01 dxmedia__cab03_devenum.dll                                        0s skip
+20:41:02 dxmedia__cab07_d3drgbf.dll                                        0s skip
+20:41:02 dxmedia__cab05_Unam4ie.exe                                        0s skip
+20:41:03 dxmedia__cab03_mpg2splt.ax                                        0s skip
+20:41:03 dxmedia__cab03_amstream.dll                                       0s skip
+20:41:04 dxmedia__cab07_d3dim.dll                                          0s skip
+20:41:04 dxmedia__cab07_d3drg16f.dll                                       0s skip
+20:41:05 dxmedia__cab04_unregmp2.exe                                       0s skip
+20:41:05 dxmedia__cab05_Mplayer2.exe                                       0s skip
+20:41:06 dxmedia__cab07_dsound.dll                                         0s skip
+20:41:07 dxmedia__cab09_ir41_qc.dll                                        0s skip
+20:41:07 dxmedia__cab09_ivfsrc.ax                                          0s skip
+20:41:08 dxmedia__cab10_tm20dec.ax                                         0s skip
+20:41:08 dxmedia__cab03_qcap.dll                                           0s skip
+20:41:09 dxmedia__cab11_lmrt.dll                                           0s skip
+20:41:09 dxmedia__cab06_dxtrans.dll                                        0s skip
+20:41:10 dxmedia__cab07_ddraw.dll                                          0s skip
+20:41:10 dxmedia__cab09_ir50_qcx.dll                                       0s skip
+20:41:11 dxmedia__cab06_dxtmsft3.dll                                       0s skip
+20:41:11 dxmedia__cab07_d3drm.dll                                          0s skip
+20:41:12 dxmedia__cab01_urlmon.dll                                         0s skip
+20:41:12 dxmedia__cab03_qcut.dll                                           0s skip
+20:41:13 dxmedia__cab09_ir50_qc.dll                                        0s skip
+20:41:13 dxmedia__cab09_iac25_32.ax                                        0s skip
+20:41:14 dxmedia__cab03_qdv.dll                                            0s skip
+20:41:14 dxmedia__cab06_dxtmsft.dll                                        0s skip
+20:41:15 dxmedia__cab05_strmdll.dll                                        0s skip
+20:41:15 dxmedia__cab03_qdvd.dll                                           0s skip
+20:41:16 dxmedia__cab02_msvcrt.dll                                         0s skip
+20:41:16 dxmedia__cab01_wininet.dll                                        0s skip
+20:41:17 dxmedia__cab00_setupapi.dll                                       0s skip
+20:41:17 dxmedia__cab09_ir41_qcx.dll                                       0s skip
+20:41:18 dxmedia__cab05_Dxmasf.dll                                         0s skip
+20:41:18 dxmedia__cab02_oleaut32.dll                                       0s skip
+20:41:19 dxmedia__cab05_Msdxm.ocx                                          0s skip
+20:41:19 dxmedia__cab09_ir50_32.dll                                        0s skip
+20:41:20 dxmedia__cab03_quartz.dll                                         0s skip
+20:41:20 dxmedia__cab09_ir41_32.ax                                         0s skip
+20:41:21 directx__dxapi.sys                                                0s skip
+20:41:22 directx__dxmigr.dll                                               0s skip
+20:41:22 directx__msjstick.drv                                             0s skip
+20:41:23 directx__hidgame.sys                                              0s skip
+20:41:23 directx__gameenum.sys                                             0s skip
+20:41:24 directx__dinput.vxd                                               0s skip
+20:41:24 directx__dmusic16.dll                                             0s skip
+20:41:25 directx__mtrr.vxd                                                 0s skip
+20:41:25 directx__msanalog.nec                                             0s skip
+20:41:26 directx__msanalog.vxd                                             0s skip
+20:41:26 directx__joyhid.vxd                                               0s skip
+20:41:27 directx__dmusic32.dll                                             0s skip
+20:41:27 directx__vmcpd.nec                                                0s skip
+20:41:28 directx__vmcpd.x86                                                0s skip
+20:41:28 directx__dmloader.dll                                             0s skip
+20:41:29 directx__dpwsock.dll                                              0s skip
+20:41:29 directx__ddrawex.dll                                              0s skip
+20:41:30 directx__pid.dll                                                  0s skip
+20:41:30 directx__dmband.dll                                               0s skip
+20:41:31 directx__ddraw16.dll                                              0s skip
+20:41:31 directx__dplaysvr.exe                                             0s skip
+20:41:32 directx__vjoyd.w95                                                0s skip
+20:41:32 directx__ddraw.vxd                                                0s skip
+20:41:33 directx__vjoyd.vxd                                                0s skip
+20:41:33 directx__vjoyd.nec                                                0s skip
+20:41:34 directx__ddhelp.exe                                               0s skip
+20:41:34 directx__dplay.dll                                                0s skip
+20:41:35 directx__dsetup.dll                                               0s skip
+20:41:35 directx__vjoyd.n98                                                0s skip
+20:41:36 directx__dpserial.dll                                             0s skip
+20:41:36 directx__CFGMGR32.DLL                                             0s skip
+20:41:37 directx__dmcompos.dll                                             0s skip
+20:41:37 directx__dmsynth.dll                                              0s skip
+20:41:38 directx__dsound.vxd                                               0s skip
+20:41:38 directx__dpwsockx.dll                                             0s skip
+20:41:39 directx__dmusic.dll                                               0s skip
+20:41:39 directx__dpmodemx.dll                                             0s skip
+20:41:40 directx__dmstyle.dll                                              0s skip
+20:41:40 directx__gchand.dll                                               0s skip
+20:41:41 directx__dmime.dll                                                0s skip
+20:41:41 directx__d3dpmesh.dll                                             0s skip
+20:41:42 directx__d3dxof.dll                                               0s skip
+20:41:42 directx__d3dref.dll                                               0s skip
+20:41:43 directx__dsetup32.dll                                             0s skip
+20:41:43 directx__dplayx.dll                                               0s skip
+20:41:44 directx__msvcrt.dll                                               0s skip
+20:41:44 directx__dxsetup.exe                                              0s skip
+20:41:45 directx__DXSETUP.exe                                              0s skip
+20:41:45 directx__setupapi.dll                                             0s skip
+20:41:46 directx__ddraw.dll                                                0s skip
+20:41:46 directx__joy.cpl                                                  0s skip
+20:41:55 dxmedia__DXMEDIA.exe                                             35s ok 148 functions, 0 assembly-only
+20:42:57 directx__gcdef.dll                                               61s ok 825 functions, 0 assembly-only
+20:44:14 directx__dx7vb.dll                                               74s ok 2083 functions, 1 assembly-only
+20:45:04 directx__dinput.dll                                              49s ok 676 functions, 4 assembly-only
+20:45:21 directx__dsound.dll                                             215s ok 2885 functions, 2 assembly-only
+20:47:00 directx__dxdiag.exe                                             114s ok 406 functions, 1 assembly-only
+20:47:03 directx__d3drm.dll                                              101s ok 2388 functions, 4 assembly-only
+20:47:10 acrobat__W95INF16.DLL                                             9s ok 29 functions, 0 assembly-only
+20:47:22 acrobat__user1_Language_Independent_Intel_32_Files_ShFolder.Exe__embedded-cabs_cab_00_at_0000e994.cab__cab_W95INF32.DLL     10s ok 17 functions, 0 assembly-only
+20:47:34 acrobat__INST32I.EX___blast_BOOT16.EXE                           10s ok 61 functions, 0 assembly-only
+20:47:44 acrobat__Reader_Browser_nppdf32.NLD                               7s ok 0 functions, 0 assembly-only
+20:47:53 acrobat__Reader_plug_ins_Ewh32.nld                                6s ok 0 functions, 0 assembly-only
+20:47:59 acrobat__Reader_plug_ins_IA32.NLD                                 7s ok 0 functions, 0 assembly-only
+20:48:03 directx__d3dramp.dll                                             58s ok 5063 functions, 0 assembly-only
+20:48:08 acrobat__Reader_plug_ins_Infusium.NLD                             6s ok 0 functions, 0 assembly-only
+20:48:15 acrobat__SVG_Files_SVGRSRC.DLL                                    6s ok 0 functions, 0 assembly-only
+20:48:22 acrobat__user1_Dutch_Intel_32_Files__Isuser.dll                   6s ok 0 functions, 0 assembly-only
+20:48:27 acrobat__Reader_ActiveX_Pdf.nld                                   5s ok 0 functions, 0 assembly-only
+20:48:34 acrobat__Reader_plug_ins_Reflow.NLD                               5s ok 0 functions, 0 assembly-only
+20:48:40 acrobat__Reader_plug_ins_Wha.nld                                  5s ok 0 functions, 0 assembly-only
+20:48:47 acrobat__Reader_WHA_Library.NLD                                   5s ok 0 functions, 0 assembly-only
+20:48:57 acrobat__user1_Language_Independent_Intel_32_Files_ShFolder.Exe__embedded-cabs_cab_00_at_0000e994.cab__cab_shfolder.dll      9s ok 47 functions, 0 assembly-only
+20:49:03 acrobat__Reader_plug_ins_Hls.nld                                  6s ok 0 functions, 0 assembly-only
+20:49:34 acrobat__Reader_plug_ins_Movie_QT2.dll                           30s ok 193 functions, 0 assembly-only
+20:49:39 acrobat__Reader_plug_ins_MSAA.NLD                                 5s ok 0 functions, 0 assembly-only
+20:50:30 acrobat__wise-internal_stream_004_0001bc7a.exe                   49s ok 152 functions, 0 assembly-only
+20:50:30 directx__d3dim.dll                                              145s ok 2523 functions, 3 assembly-only
+20:50:45 acrobat__ISDel.exe                                               12s ok 79 functions, 0 assembly-only
+20:50:51 acrobat__Reader_plug_ins_EScript.NLD                              5s ok 0 functions, 0 assembly-only
+20:50:57 acrobat__Reader_plug_ins_Weblink.NLD                              5s ok 0 functions, 0 assembly-only
+20:51:04 acrobat__Reader_plug_ins_Movie_Movie.NLD                          5s ok 0 functions, 0 assembly-only
+20:51:14 acrobat__Reader_plug_ins_Movie_QT3.dll                            9s ok 109 functions, 0 assembly-only
+20:51:43 acrobat__Setup.dll                                               28s ok 133 functions, 0 assembly-only
+20:51:54 acrobat__Reader_plug_ins_Movie_QT4.dll                            9s ok 110 functions, 0 assembly-only
+20:52:04 acrobat__Reader_ActiveX_AcroIEHelper.ocx                         10s ok 114 functions, 0 assembly-only
+20:52:33 acrobat__INST32I.EX___blast_WUTL95i.DLL                          26s ok 157 functions, 0 assembly-only
+20:52:51 directx__d3dim700.dll                                           138s ok 2708 functions, 3 assembly-only
+20:53:08 acrobat__user1_Language_Independent_Intel_32_Files_BrwsrPI.dll     15s ok 232 functions, 0 assembly-only
+20:53:08 acrobat__INST32I.EX___blast_zdata.dll                            34s ok 207 functions, 1 assembly-only
+20:53:20 acrobat__Reader_plug_ins_hls.api                                 11s ok 117 functions, 0 assembly-only
+20:53:27 acrobat__Reader_plug_ins_Search.NLD                               6s ok 0 functions, 0 assembly-only
+20:53:34 acrobat__Reader_plug_ins_WebBuy.NLD                               6s ok 0 functions, 0 assembly-only
+20:53:40 acrobat__Reader_plug_ins_AcroFill.NLD                             5s ok 0 functions, 0 assembly-only
+20:53:44 acrobat__Reader_ACROFX32.DLL                                     35s ok 264 functions, 0 assembly-only
+20:53:59 acrobat__Reader_plug_ins_EWH32.api                               14s ok 333 functions, 0 assembly-only
+20:53:59 acrobat__Reader_plug_ins_WHA.api                                 18s ok 513 functions, 0 assembly-only
+20:54:16 acrobat__Reader_Uninstall_Uninst.dll                             15s ok 305 functions, 0 assembly-only
+20:54:17 acrobat__Setup.exe                                               17s ok 330 functions, 0 assembly-only
+20:54:32 acrobat__Reader_OPP.dll                                          16s ok 473 functions, 0 assembly-only
+20:54:57 acrobat__user1_Language_Independent_OS_Independent_Files_Permission.dll     22s ok 803 functions, 0 assembly-only
+20:55:18 acrobat__Reader_Browser_nppdf32.dll                              19s ok 438 functions, 0 assembly-only
+20:55:36 acrobat__Reader_plug_ins_weblink.api                             15s ok 420 functions, 0 assembly-only
+20:55:48 acrobat__user1_Language_Independent_Intel_32_Files_ShFolder.Exe     12s ok 159 functions, 0 assembly-only
+20:56:20 acrobat__user1_Language_Independent_Intel_32_Files_IccTest.dll     30s ok 937 functions, 0 assembly-only
+20:56:26 acrobat__sys1_Dutch_Intel_32_Files__IsRes.Dll                     6s ok 1 functions, 0 assembly-only
+20:56:58 acrobat__Reader_Bib.dll                                          32s ok 1678 functions, 0 assembly-only
+20:57:30 acrobat__Reader_WHA_Library.dll                                  31s ok 1844 functions, 0 assembly-only
+20:57:56 acrobat__Reader_plug_ins_MSAA.api                                23s ok 658 functions, 0 assembly-only
+20:58:14 acrobat__user1_Language_Independent_Intel_32_Files_ShFolder.Exe__embedded-cabs_cab_00_at_0000e994.cab__cab_ADVPACK.DLL    235s ok 276 functions, 1 assembly-only
+20:58:35 acrobat__Reader_plug_ins_search.api                              19s ok 946 functions, 0 assembly-only
+20:58:35 acrobat__Reader_SPPlugins_ExpressViews.apl                       38s ok 1722 functions, 0 assembly-only
+20:59:00 acrobat__Reader_plug_ins_reflow.api                              22s ok 447 functions, 0 assembly-only
+20:59:23 acrobat__Reader_plug_ins_Movie_Movie.api                         45s ok 1606 functions, 1 assembly-only
+20:59:40 acrobat__Reader_plug_ins_Infusium.api                            37s ok 2461 functions, 0 assembly-only
+21:00:10 acrobat__Reader_msvcrt.dll                                       46s ok 1409 functions, 0 assembly-only
+21:00:14 acrobat__SVG_Files_NPSVGVw.dll                                   31s ok 1790 functions, 0 assembly-only
+21:00:51 acrobat__sys1_Dutch_Intel_32_Files_IsUninst.exe                  40s ok 753 functions, 0 assembly-only
+21:01:27 acrobat__Reader_ActiveX_pdf.ocx                                  70s ok 3056 functions, 0 assembly-only
+21:01:32 acrobat__Reader_AceLite.dll                                      39s ok 2660 functions, 0 assembly-only
+21:02:05 acrobat__Reader_msvcp60.dll                                      35s ok 3458 functions, 0 assembly-only
+21:02:47 acrobat__SVG_Files_SVGControl.dll                                41s ok 3758 functions, 0 assembly-only
+21:03:08 acrobat__Reader_plug_ins_Webbuy.api                              94s ok 3064 functions, 0 assembly-only
+21:03:16 acrobat__rp505nld.exe                                            26s ok 366 functions, 0 assembly-only
+21:04:04 acrobat__INST32I.EX___blast_INSTALL.EXE                          57s ok 2510 functions, 0 assembly-only
+21:06:24 acrobat__Reader_oleaut32.dll                                    139s ok 3051 functions, 4 assembly-only
+21:07:53 acrobat__Reader_plug_ins_EScript.api                             86s ok 3174 functions, 1 assembly-only
+21:08:38 acrobat__Reader_plug_ins_AcroFill.api                            44s ok 2955 functions, 1 assembly-only
+21:14:12 acrobat__Reader_vdk150.dll                                      332s ok 4814 functions, 6 assembly-only
+21:15:23 acrobat__Reader_SPPlugins_ADMPlugin.apl                          69s ok 7888 functions, 0 assembly-only
+22:11:55 game__rsc.dll                                                  5483s ok 679 functions, 72 assembly-only
+22:11:56 game__spel.dat                                                    0s skip
+22:11:56 davilex__SERVICE.EXE                                              0s skip
+22:11:57 installer__Setup.exe                                              0s skip

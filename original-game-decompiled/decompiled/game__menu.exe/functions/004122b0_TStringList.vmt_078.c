@@ -1,0 +1,41 @@
+
+/* ==== TStringList.vmt_078 @ 004122b0 ==== 
+ * signature: undefined1 __register TStringList.vmt_078(int param_1, undefined * param_2, uint * param_3)
+ * body: 004122b0-00412314
+ * note: Name source: Delphi VMT slot
+ */
+
+/* Name source: Delphi VMT slot */
+
+undefined1 TStringList_vmt_078(int param_1,undefined *param_2,uint *param_3)
+
+{
+  int iVar1;
+  uint uVar2;
+  uint uVar3;
+  int iVar4;
+  undefined1 local_14;
+  
+  local_14 = 0;
+  uVar3 = 0;
+  iVar4 = *(int *)(param_1 + 0x10) + -1;
+  if (-1 < iVar4) {
+    do {
+      uVar2 = iVar4 + uVar3 >> 1;
+      iVar1 = FUN_00408364(*(undefined **)(*(int *)(param_1 + 0xc) + uVar2 * 8),param_2);
+      if (iVar1 < 0) {
+        uVar3 = uVar2 + 1;
+      }
+      else {
+        iVar4 = uVar2 - 1;
+        if ((iVar1 == 0) && (local_14 = 1, *(char *)(param_1 + 0x19) != '\x01')) {
+          uVar3 = uVar2;
+        }
+      }
+    } while ((int)uVar3 <= iVar4);
+  }
+  *param_3 = uVar3;
+  return local_14;
+}
+
+

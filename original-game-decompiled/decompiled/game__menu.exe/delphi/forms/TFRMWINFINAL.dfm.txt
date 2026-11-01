@@ -1,0 +1,87 @@
+object frmWinFinal: TfrmWinFinal
+  Left = 212
+  Top = 112
+  ActiveControl = btnNext.WrapperbtnNext
+  Caption = 'frmWinFinal'
+  ClientHeight = 579
+  PixelsPerInch = 96
+  TextHeight = 13
+  object imgBackGround: TImage
+    Height = 579
+  end
+  object lblTextBlock: TLabel
+    Left = 48
+    Top = 200
+    Width = 311
+    Height = 150
+    AutoSize = False
+    Caption = 'lblTextBlock'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+    WordWrap = True
+  end
+  object btnHelp: TGDIButton
+    TabOrder = 4
+  end
+  object imgItem: TGDIGraphic
+    Left = 440
+    Top = 104
+    Visible = False
+  end
+  object btnNext: TGDIButton
+    Default = True
+    TabOrder = 0
+  end
+  object lblAncTopLeft: TLabel
+    Left = 472
+    Top = 80
+    Width = 66
+    Height = 13
+    Caption = 'lblAncTopLeft'
+    Visible = False
+  end
+  object lblAncBottomRight: TLabel
+    Left = 704
+    Top = 368
+    Width = 87
+    Height = 13
+    Caption = 'lblAncBottomRight'
+    Visible = False
+  end
+  object medWinner: TMediaPlayer
+    Left = 520
+    Top = 400
+    Width = 253
+    Height = 30
+    Display = pnlMovie
+    Visible = False
+    TabOrder = 2
+    OnNotify = medWinnerNotify
+  end
+  object pnlMovie: TPanel
+    Left = 464
+    Top = 112
+    Width = 308
+    Height = 233
+    BevelOuter = bvNone
+    Color = clBlack
+    TabOrder = 3
+  end
+  object timSample1: TTimer
+    Enabled = False
+    OnTimer = timSample1Timer
+    Left = 136
+    Top = 72
+  end
+  object timSample2: TTimer
+    Enabled = False
+    OnTimer = timSample2Timer
+    Left = 216
+    Top = 72
+  end
+end

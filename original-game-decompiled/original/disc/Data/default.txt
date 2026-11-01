@@ -1,0 +1,128 @@
+LANGNAME=Nederlands (Standaard)
+
+De cd-rom kan niet worden gevonden.
+
+Het bestand kan niet worden gevonden.
+
+U heeft niet de juiste Windows-versie.
+
+Er is een fout-opsporingsprogramma gevonden.
+
+Plaats de juiste cd-rom in de cd-romspeler en klik op 'OK' om het nogmaals te proberen.
+
+Plaats de juiste cd-rom in de cd-romspeler, klik op 'OK' en start het programma opnieuw op.
+
+Verwijder het debugprogramma en probeer het opnieuw.
+
+Dit product wordt niet door deze Windows-versie ondersteund.
+
+Dit product wordt niet door Windows NT ondersteund.
+
+Meldt u aan met administratierechten en probeer het opnieuw.
+
+De toegang is geweigerd
+
+
+
+LANGNAME=Spanish (Traditional Sort)
+
+No se encuentra el CD-ROM
+
+No se encuentra el archivo
+
+Versión de Windows incorrecta
+
+Se ha detectado un depurador
+
+Por favor, introduzca el CD-ROM correcto y seleccione 'Aceptar' para volver a intentarlo
+
+Por favor, introduzca el CD-ROM correcto, seleccione 'Aceptar' y vuelva a iniciar la aplicación
+
+Descargue el depurador e intente otra vez
+
+Win32s no admite este producto
+
+Windows NT no admite este producto
+
+Entre en el sistema con los privilegios de administrador e inténtelo de nuevo
+
+Acceso denegado
+
+
+LANGNAME=German (Standard)
+
+Die CD-ROM kann nicht gefunden werden
+
+Die Datei kann nicht gefunden werden
+
+Falsche Version von Windows
+
+Ein Debugger wurde entdeckt
+
+Legen Sie die korrekte CD-ROM ein, und klicken Sie auf 'OK', um es erneut zu versuchen
+
+Legen Sie die korrekte CD-ROM ein, klicken Sie auf 'OK', und starten Sie die Anwendung neu
+
+Entfernen Sie den Debugger, und versuchen Sie es erneut
+
+Dieses Produkt bietet keine Unterstützung für Win32s
+
+Dieses Produkt bietet keine Unterstützung für Windows NT
+
+Loggen Sie sich bitte mit den Administratorrechten ein und versuchen Sie es erneut
+
+Kein Zugriff
+
+
+LANGNAME=English (United States)
+
+Cannot locate the CD-ROM
+
+Cannot find file
+
+Incorrect version of Windows
+
+A debugger has been detected
+
+Please insert the correct CD-ROM and select 'OK' to retry
+
+Please insert the correct CD-ROM, select 'OK' and restart application
+
+Unload the debugger and try again
+
+Sorry, this product is not supported on Win32s
+
+Sorry, this product is not supported on Windows NT
+
+Please login with administrator privileges and try again
+
+Access Denied
+
+
+
+LANGNAME=French (Standard)
+
+Le CD-ROM est introuvable
+
+Fichier introuvable
+
+Version incorrecte de Windows
+
+Un débogueur a été détecté
+
+Veuillez insérer le CD-ROM approprié et sélectionnez 'OK' pour réessayer
+
+SVeuillez insérez le CD-ROM approprié, puis cliquez sur 'OK' et redémarrez l'application
+
+Déchargez le débogeur et réessayez
+
+Désolé, ce produit n'est pas pris en charge par Win32s
+
+Désolé, ce produit n'est pas pris en charge par Windows NT
+
+Veuillez ouvrir une session avec les privilèges du gestionnaire et réessayez
+
+Accès refusé
+
+
+

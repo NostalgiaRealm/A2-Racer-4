@@ -1,0 +1,24 @@
+/home/rick/Documents/Rebuilds/A2 Racer 4/original-game-decompiled/original/disc/service/Setup.exe streams 23 consumed-to 0x1b5b96 file-size 0x1b5b96 trailing 0
+0x37d1 10858 WiseScript.bin
+0x451a 122480 _unnamed/stream_001_0000451a.exe
+0x150dd 26000 _unnamed/stream_002_000150dd.exe
+0x17fdc 5607 _unnamed/stream_003_00017fdc.exe
+0x18e93 2560 _unnamed/stream_004_00018e93.exe
+0x190ef 412 _unnamed/stream_005_000190ef.bin
+0x19209 6656 TEMP/W32INST_PATH_
+0x19db8 121074 _unnamed/stream_007_00019db8.bin
+0x284d2 121074 _unnamed/stream_008_000284d2.bin
+0x36bec 16573 _unnamed/stream_009_00036bec.bin
+0x3856a 16571 _unnamed/stream_010_0003856a.bin
+0x39c0f 1853440 SERVICE_DIR/SERVICE.EXE
+0xff82d 35328 SYS32/INETWH32.DLL
+0x1038b5 299280 SYS32/RICHED20.DLL
+0x12f65e 208151 SERVICE_DIR/SERVICE.HLP
+0x13b1b5 2971 SERVICE_DIR/SERVICE.CNT
+0x13b65b 23177 SERVICE_DIR/SERVICE.GID
+0x13c3cf 61952 SYS32/SERVICE.CPL
+0x1447ee 437528 COMCTRL_EXE
+0x1a48f4 149504 SHARED_DIR/UNINST32.EXE
+0x1b25c6 5506 SHARED_DIR/UNINST32.INI
+0x1b2ce6 15349 _unnamed/stream_021_001b2ce6.bin
+0x1b4517 15352 _unnamed/stream_022_001b4517.bin

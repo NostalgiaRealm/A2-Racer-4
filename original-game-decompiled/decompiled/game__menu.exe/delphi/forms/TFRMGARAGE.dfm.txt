@@ -1,0 +1,303 @@
+object frmGarage: TfrmGarage
+  Left = 206
+  Top = 29
+  ActiveControl = btnNextTU.WrapperbtnNextTU
+  Caption = 'frmGarage'
+  ClientHeight = 638
+  ClientWidth = 810
+  PixelsPerInch = 96
+  TextHeight = 13
+  object imgBackGround: TImage
+    Width = 810
+    Height = 638
+  end
+  object lblTextBlock: TLabel
+    Left = 45
+    Top = 275
+    Width = 298
+    Height = 80
+    AutoSize = False
+    Caption = 'lblTextBlock'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+    WordWrap = True
+  end
+  object lblPoints: TLabel
+    Left = 179
+    Top = 477
+    Width = 113
+    Height = 29
+    Caption = 'lblTuneUp'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object lblPrice: TLabel
+    Left = 45
+    Top = 237
+    Width = 239
+    Height = 26
+    AutoSize = False
+    Caption = 'lblTextBlock'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+    WordWrap = True
+  end
+  object btnHelp: TGDIButton
+    TabOrder = 3
+  end
+  object btnBuyTuneUp: TGDIButton
+    Left = 139
+    Top = 515
+    Width = 100
+    Height = 50
+    Cancel = False
+    Default = False
+    ModalResult = 0
+    Definition = gdfBtnBuyTU
+    MouseCheckDelay = 60
+    TabOrder = 2
+    TabStop = True
+    Caption = 'btnBuyTuneUp'
+    OnClick = btnBuyTuneUpClick
+  end
+  object btnPrevious: TGDIButton
+    TabOrder = 5
+  end
+  object btnClose: TGDIButton
+    TabOrder = 6
+  end
+  object imgItem: TGDIGraphic
+    Left = 429
+    Top = 99
+  end
+  object btnNextTU: TGDIButton
+    Left = 250
+    Top = 515
+    Width = 100
+    Height = 50
+    Cancel = False
+    Default = False
+    ModalResult = 0
+    Definition = gdfBtnNext3
+    MouseCheckDelay = 60
+    TabOrder = 4
+    TabStop = True
+    Caption = 'btnBuyTuneUp'
+    OnClick = btnNextTUClick
+  end
+  object btnPrevTU: TGDIButton
+    Left = 37
+    Top = 515
+    Width = 100
+    Height = 50
+    Cancel = False
+    Default = False
+    ModalResult = 0
+    Definition = gdfBtnPrevious3
+    MouseCheckDelay = 60
+    TabOrder = 1
+    TabStop = True
+    Caption = 'btnBuyTuneUp'
+    OnClick = btnPrevTUClick
+  end
+  object btnNext: TGDIButton
+    TabOrder = 0
+  end
+  object imgItemName: TGDIGraphic
+    Left = 82
+    Top = 91
+    Width = 100
+    Height = 50
+    LinkedGraphic.Storage = SL_EXTERNAL
+    LinkedGraphic.GraphicName = ''
+    TransparentColor = clBlack
+    Transparent = False
+    TransparentMode = tmAuto
+    Translucent = True
+    TranslucencyFactor = 255
+  end
+  object lblAncInd00: TLabel
+    Left = 152
+    Top = 392
+    Width = 56
+    Height = 13
+    Caption = 'lblAncInd00'
+    Transparent = True
+  end
+  object lblAncInd01: TLabel
+    Left = 248
+    Top = 392
+    Width = 71
+    Height = 13
+    Caption = 'lblAnchorInd00'
+    Transparent = True
+  end
+  object lblAncInd10: TLabel
+    Left = 152
+    Top = 416
+    Width = 56
+    Height = 13
+    Caption = 'lblAncInd10'
+    Transparent = True
+  end
+  object lblStaticInfo: TLabel
+    Left = 45
+    Top = 176
+    Width = 298
+    Height = 50
+    AutoSize = False
+    Caption = 'lblTextBlock'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+    WordWrap = True
+  end
+  object gdfBtnBuyTU: TGDIButtonDefinition
+    UpLink.Storage = SL_EXTERNAL
+    UpLink.GraphicName = ''
+    DownLink.Storage = SL_EXTERNAL
+    DownLink.GraphicName = ''
+    FocusedLink.Storage = SL_EXTERNAL
+    FocusedLink.GraphicName = ''
+    HoveredLink.Storage = SL_EXTERNAL
+    HoveredLink.GraphicName = ''
+    DisabledLink.Storage = SL_EXTERNAL
+    DisabledLink.GraphicName = ''
+    HintLink.Storage = SL_EXTERNAL
+    HintLink.GraphicName = ''
+    ClickRegionLink.Storage = SL_EXTERNAL
+    ClickRegionLink.GraphicName = ''
+    Width = 100
+    Height = 50
+    CaptionRect.Left = 0
+    CaptionRect.Top = 0
+    CaptionRect.Right = 0
+    CaptionRect.Bottom = 0
+    WordWrap = False
+    Layout = tlCenter
+    Alignment = taCenter
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    HintFont.Charset = DEFAULT_CHARSET
+    HintFont.Color = clWindowText
+    HintFont.Height = -11
+    HintFont.Name = 'MS Sans Serif'
+    HintFont.Style = []
+    Transparent = False
+    TransparentMode = tmAuto
+    TransparentColor = clBlack
+    Translucent = True
+    TranslucencyFactor = 255
+    OnButtonStateChange = gdfBtnPrevious3ButtonStateChange
+    Left = 176
+    Top = 584
+  end
+  object gdfBtnPrevious3: TGDIButtonDefinition
+    UpLink.Storage = SL_EXTERNAL
+    UpLink.GraphicName = ''
+    DownLink.Storage = SL_EXTERNAL
+    DownLink.GraphicName = ''
+    FocusedLink.Storage = SL_EXTERNAL
+    FocusedLink.GraphicName = ''
+    HoveredLink.Storage = SL_EXTERNAL
+    HoveredLink.GraphicName = ''
+    DisabledLink.Storage = SL_EXTERNAL
+    DisabledLink.GraphicName = ''
+    HintLink.Storage = SL_EXTERNAL
+    HintLink.GraphicName = ''
+    ClickRegionLink.Storage = SL_EXTERNAL
+    ClickRegionLink.GraphicName = ''
+    Width = 100
+    Height = 50
+    CaptionRect.Left = 0
+    CaptionRect.Top = 0
+    CaptionRect.Right = 0
+    CaptionRect.Bottom = 0
+    WordWrap = False
+    Layout = tlCenter
+    Alignment = taCenter
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    HintFont.Charset = DEFAULT_CHARSET
+    HintFont.Color = clWindowText
+    HintFont.Height = -11
+    HintFont.Name = 'MS Sans Serif'
+    HintFont.Style = []
+    Transparent = False
+    TransparentMode = tmAuto
+    TransparentColor = clBlack
+    Translucent = True
+    TranslucencyFactor = 255
+    OnButtonStateChange = gdfBtnPrevious3ButtonStateChange
+    Left = 96
+    Top = 584
+  end
+  object gdfBtnNext3: TGDIButtonDefinition
+    UpLink.Storage = SL_EXTERNAL
+    UpLink.GraphicName = ''
+    DownLink.Storage = SL_EXTERNAL
+    DownLink.GraphicName = ''
+    FocusedLink.Storage = SL_EXTERNAL
+    FocusedLink.GraphicName = ''
+    HoveredLink.Storage = SL_EXTERNAL
+    HoveredLink.GraphicName = ''
+    DisabledLink.Storage = SL_EXTERNAL
+    DisabledLink.GraphicName = ''
+    HintLink.Storage = SL_EXTERNAL
+    HintLink.GraphicName = ''
+    ClickRegionLink.Storage = SL_EXTERNAL
+    ClickRegionLink.GraphicName = ''
+    Width = 100
+    Height = 50
+    CaptionRect.Left = 0
+    CaptionRect.Top = 0
+    CaptionRect.Right = 0
+    CaptionRect.Bottom = 0
+    WordWrap = False
+    Layout = tlCenter
+    Alignment = taCenter
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    HintFont.Charset = DEFAULT_CHARSET
+    HintFont.Color = clWindowText
+    HintFont.Height = -11
+    HintFont.Name = 'MS Sans Serif'
+    HintFont.Style = []
+    Transparent = False
+    TransparentMode = tmAuto
+    TransparentColor = clBlack
+    Translucent = True
+    TranslucencyFactor = 255
+    OnButtonStateChange = gdfBtnPrevious3ButtonStateChange
+    Left = 248
+    Top = 584
+  end
+end

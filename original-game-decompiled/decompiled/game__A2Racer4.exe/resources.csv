@@ -1,0 +1,3 @@
+type,name,lang,size,file,note
+ICON,1,1043,2216,resources/ICON/ICON_1_1043.ico.raw,
+GROUP_ICON,101,1043,20,resources/GROUP_ICON/GROUP_ICON_101_1043.bin,

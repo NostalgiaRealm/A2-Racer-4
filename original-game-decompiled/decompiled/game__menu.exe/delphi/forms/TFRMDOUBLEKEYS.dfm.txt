@@ -1,0 +1,31 @@
+object frmDoubleKeys: TfrmDoubleKeys
+  ActiveControl = btnOk1.WrapperbtnOk1
+  Caption = 'frmDoubleKeys'
+  ClientHeight = 241
+  ClientWidth = 493
+  OldCreateOrder = True
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnHelp: TGDIButton
+    Left = 362
+    Visible = False
+  end
+  object btnClose: TGDIButton
+    Left = 437
+    Visible = False
+  end
+  object btnOk1: TGDIButton
+    Left = 380
+    Top = 187
+  end
+  object lblDouble: TLabel
+    Left = 69
+    Top = 97
+    Width = 385
+    Height = 73
+    AutoSize = False
+    Caption = 'lblDouble'
+    Transparent = True
+    WordWrap = True
+  end
+end

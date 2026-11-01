@@ -1,0 +1,15 @@
+address,name
+10001014,xvga_exit_fileio
+10001028,xvga_file_exist
+1000100a,xvga_fileio_set_check_sequence
+1000102d,xvga_get_filehandle
+10001023,xvga_init_fileio
+10001032,xvga_rc_filelength
+10001037,xvga_rc_filename
+10001019,xvga_rc_filepos
+10001041,xvga_rc_num_files
+1000103c,xvga_src_fclose
+1000101e,xvga_src_filelength
+1000100f,xvga_src_fopen
+10001005,xvga_src_fseek
+10002bd0,entry

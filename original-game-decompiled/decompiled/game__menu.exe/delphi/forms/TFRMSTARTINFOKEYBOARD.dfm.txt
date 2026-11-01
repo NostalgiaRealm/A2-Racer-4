@@ -1,0 +1,103 @@
+object frmStartInfoKeyBoard: TfrmStartInfoKeyBoard
+  Left = 264
+  Top = 61
+  ActiveControl = chkStartInfo.WrapperchkStartInfo
+  Caption = 'frmStartInfoKey'
+  ClientHeight = 473
+  ClientWidth = 555
+  PixelsPerInch = 96
+  TextHeight = 13
+  object chkStartInfo: TGDICheckBox
+    Left = 19
+    Top = 375
+  end
+  object btnCancel: TGDIButton
+    Left = 336
+    Top = 435
+  end
+  object btnHelp: TGDIButton
+    Left = 382
+    Top = 13
+  end
+  object btnClose: TGDIButton
+    Left = 457
+    Top = 13
+  end
+  object btnOk1: TGDIButton
+    Left = 413
+    Top = 435
+  end
+  object lblClickArea: TLabel
+    Top = 393
+  end
+  object lblSetGas: TLabel
+    Left = 249
+    Top = 116
+    Width = 48
+    Height = 20
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'lblSetGas'
+    Transparent = True
+  end
+  object lblSetLeft: TLabel
+    Left = 140
+    Top = 184
+    Width = 48
+    Height = 19
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'lblSetGas'
+    Transparent = True
+  end
+  object lblSetBrake: TLabel
+    Left = 249
+    Top = 184
+    Width = 48
+    Height = 19
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'lblSetGas'
+    Transparent = True
+  end
+  object lblSetRight: TLabel
+    Left = 362
+    Top = 184
+    Width = 48
+    Height = 19
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'lblSetGas'
+    Transparent = True
+  end
+  object lblSetTurbo: TLabel
+    Left = 139
+    Top = 309
+    Width = 48
+    Height = 19
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'lblSetGas'
+    Transparent = True
+  end
+  object lblSetParkingBrake: TLabel
+    Left = 250
+    Top = 309
+    Width = 48
+    Height = 19
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'lblSetGas'
+    Transparent = True
+  end
+  object lblSetHorn: TLabel
+    Left = 362
+    Top = 308
+    Width = 48
+    Height = 19
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'lblSetGas'
+    Transparent = True
+  end
+end

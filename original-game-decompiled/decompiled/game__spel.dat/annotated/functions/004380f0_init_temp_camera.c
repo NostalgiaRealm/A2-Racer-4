@@ -1,0 +1,31 @@
+
+/* ==== init_temp_camera @ 004380f0 ==== 
+ * signature: undefined __cdecl init_temp_camera(int param_1)
+ * body: 004380f0-0043810d;00438111-004381e8
+ * note: ANALYST: Name appears in this function's own error string. [confidence: confirmed] [evidence: string '(init_temp_camera) illegal camera index(%d) max. (%d)\n']
+ * unreachable code after a no-return call, not in this C (see unreachable_after_noreturn.csv, disassembly.asm): 0043810e-00438110
+ */
+
+/* ANALYST: Name appears in this function's own error string. [confidence: confirmed] [evidence:
+   string '(init_temp_camera) illegal camera index(%d) max. (%d)\n'] */
+
+void __cdecl init_temp_camera(int param_1)
+
+{
+  int iVar1;
+  
+  if ((-1 < param_1) && (param_1 < 0xb)) {
+    iVar1 = FUN_004b0a60();
+    (&DAT_006c3518)[param_1] = iVar1;
+    FUN_004b1190((void *)(DAT_00719b50 + iVar1 * 0x178),
+                 *(undefined4 *)(DAT_005d3318 * 0xf0 + 0x24 + DAT_00715e50),0,0x41f00000,0xc2b40000)
+    ;
+    FUN_004b1290((void *)(DAT_00719b50 + (&DAT_006c3518)[param_1] * 0x178),
+                 *(undefined4 *)(DAT_005d3318 * 0xf0 + 0x24 + DAT_00715e50),0,0,0);
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  Fatal((byte *)s__init_temp_camera__illegal_camer_00599b90);
+}
+
+

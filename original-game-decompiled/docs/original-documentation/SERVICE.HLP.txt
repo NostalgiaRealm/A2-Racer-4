@@ -1,0 +1,3774 @@
+; Text extracted from SERVICE.HLP by winhelp_to_text.py. Formatting, hotspots and pictures omitted.
+; WinHelp version 1.33, flags 0, internal files: |CF0, |CONTEXT, |CTXOMAP, |FONT, |KWBTREE, |KWDATA, |KWMAP, |SYSTEM, |TOPIC, |TTLBTREE, |bm0, |bm1, |bm10, |bm11, |bm12, |bm13, |bm14, |bm15, |bm16, |bm17, |bm18, |bm19, |bm2, |bm20, |bm21, |bm22, |bm23, |bm24, |bm25, |bm26, |bm27, |bm28, |bm29, |bm3, |bm30, |bm31, |bm4, |bm5, |bm6, |bm7, |bm8, |bm9
+
+
+===== TOPIC 1: Welkom =====
+
+
+Welkom 
+
+
+
+
+Waarschijnlijk kent u het motto van Davilex: Geniaal in gemak! Davilex vindt het belangrijk om producten af te leveren die toegankelijk zijn voor een groot publiek. Davilex besteedt dan ook veel aandacht aan het gebruikersgemak van haar programma
+’
+s en levert bij ieder programma een handleiding en een zeer uitgebreid helpbestand. 
+
+Om de gebruikers nog meer van dienst te zijn, wordt bij vrijwel ieder Davilex-programma Davilex Service meegeleverd. Als u via de normale weg geen oplossing vindt voor een probleem, biedt dit programma wellicht de oplossing! U kunt in Davilex Service gebruik maken van een handige 
+
+probleemoplosser
+
+ die u langs de mogelijkheden van het programma leidt. Of u kunt zelf direct een 
+
+onderwerp uit het programma
+
+ raadplegen… U ziet, gebruikersvriendelijkheid staat bij Davilex voorop.
+
+
+
+
+===== TOPIC 2: Welke documentatie kan ik raadplegen? =====
+
+
+Welke documentatie kan ik raadplegen?
+
+
+
+
+Weet u niet meer precies hoe u een bepaalde functie uitvoert, dan kunt u eerst proberen een antwoord te vinden in de volgende documentatie:
+
+
+
+
+
+Handleiding 
+
+ 
+
+
+Helpbestand 
+
+ 
+
+
+Leesmij-bestand 
+
+ 
+
+
+Veelgestelde vragen op Internet 
+
+ 
+
+
+
+Heeft de documentatie geen antwoord opgeleverd? Dan kunt u via de 
+
+Probleemoplosser
+
+ uw vraag of probleem met betrekking tot het programma richten aan het Service Center. U krijgt dan zo snel mogelijk een reactie.
+
+
+
+
+===== TOPIC 3: Helpbestand =====
+
+
+Helpbestand 
+
+
+
+
+Het helpbestand van uw Davilex-product bevat uitgebreide informatie over alle functies en onderdelen van het programma. Hoe u deze helpfunctie het best gebruikt, leest u in het onderdeel 
+
+Help gebruiken
+
+  
+
+
+
+Zie ook:
+
+
+
+
+Handleiding 
+
+ 
+
+
+Leesmij-bestand 
+
+ 
+
+
+Veelgestelde vragen op Internet 
+
+ 
+
+
+
+
+===== TOPIC 4: Handleiding =====
+
+
+Handleiding 
+
+
+
+
+In de meegeleverde handleiding van uw Davilex-programma worden de belangrijkste kenmerken en mogelijkheden van het programma uitgelegd. Aan de hand van praktijkvoorbeelden kunt u lezen hoe u een bepaalde handeling het eenvoudigst kunt uitvoeren.
+
+
+
+
+Zie ook:
+
+
+
+
+Helpbestand 
+
+ 
+
+
+Leesmij-bestand 
+
+ 
+
+
+Veelgestelde vragen op Internet 
+
+ 
+
+
+
+
+===== TOPIC 5: Leesmij-bestand =====
+
+
+Leesmij-bestand 
+
+
+
+
+In het bestand LEESMIJ.HLP staat informatie die op het laatste moment ter beschikking kwam, zoals bijvoorbeeld de oplossingen voor mogelijke problemen. Ook aanpassingen van het programma die niet meer in de handleiding konden worden verwerkt, staan hierin verwerkt. 
+
+U vindt het Leesmij-bestand in Davilex Service in het hoofdvenster van Davilex Service, nadat u in de keuzelijst een programma heeft gekozen, bijvoorbeeld Davi-Tuin. 
+
+
+
+
+U opent het bestand door te dubbelklikken op het pictogram 
+Leesmij 
+in het venster. 
+
+
+
+
+U kunt het leesmij-bestand ook bekijken zonder Davilex Service te starten. U gaat hiervoor in het 
+Start
+-menu naar de programmagroep van uw Davilex-programma en kiest daar de optie 
+Leesmij
+.
+
+
+
+
+Zie ook:
+
+
+
+
+Handleiding 
+
+ 
+
+
+Helpbestand 
+
+ 
+
+
+Veelgestelde vragen op Internet 
+
+ 
+
+
+
+
+===== TOPIC 6: Veelgestelde vragen op Internet =====
+
+
+Veelgestelde vragen op Internet 
+
+
+
+
+Davilex Online is de Internet-informatiedienst van Davilex Software. Davilex Online bevat altijd de laatste informatie over Davilex softwarepakketten. Daarnaast vindt u er de antwoorden op vaak gestelde vragen van gebruikers over de diverse programma
+’
+s.
+
+Als u op de homepage van Davilex Online het onderdeel 
+Service Center 
+selecteert, vindt u een overzicht van vragen die vaak aan ons Service Center gesteld worden. Als u over een Internetaansluiting beschikt, is het daarom aan te raden deze veelgestelde vragen door te lezen. Wellicht staat uw vraag er ook tussen.
+
+
+
+
+Heeft u problemen met stuurprogramma
+’
+s, dan kunt u ook terecht op Davilex Online. Op deze pagina vindt u links naar de leveranciers die u aan de goede stuurprogramma
+’
+s kunnen helpen. 
+
+
+
+
+Let op
+: het Service Center van Davilex kan u 
+niet
+ aan de juiste stuurprogramma
+’
+s helpen. Deze kunt u wel ophalen op de Internetpagina's van de desbetreffende leveranciers. 
+
+
+
+Start:
+
+
+
+
+
+
+Davilex Online
+
+ 
+
+
+
+
+Zie ook:
+
+
+
+
+Handleiding 
+
+ 
+
+
+Helpbestand 
+
+ 
+
+
+Leesmij-bestand 
+
+ 
+
+
+
+
+===== TOPIC 7: Help gebruiken =====
+
+
+Help gebruiken
+
+
+
+
+Davilex Service biedt u verschillende manieren om erachter te komen hoe het programma werkt: via dit helpbestand, via de functietoets 
+F1
+ en via Davilex Online. Elk van deze bronnen heeft zijn eigen functie: zo kunt u via Davilex Online gerichte vragen aan het Service Center stellen en fungeert het helpbestand als online naslagdocumentatie. 
+
+
+
+
+Zie verder:
+
+
+
+
+Functietoets F1
+
+ 
+
+
+Davilex Online
+
+ 
+
+
+Online Helpbestand
+
+ 
+
+
+
+
+===== TOPIC 8: Functietoets F1 =====
+
+
+Functietoets F1
+
+
+
+
+Als u met de muis op de 
+Help
+-knop klikt of de functietoets 
+F1
+ op uw toetsenbord kiest, dan verschijnt een helptekst over het onderdeel, venster of tabblad dat u op dat moment actief heeft.
+
+
+
+
+U vindt altijd snel een helptekst bij een menuoptie van Davilex Service door met de cursor de menuoptie te selecteren en vervolgens op de 
+F1
+-toets te drukken.
+
+
+
+
+U kunt natuurlijk ook gewoon met de menuoptie 
+Help
+ð
+Help-onderwerpen
+ de inhoudsopgave van het helpbestand oproepen. Van hieruit zoekt u dan verder naar het onderwerp waarover u meer wilt weten.
+
+
+
+Zie ook:
+
+
+
+
+Online helpbestand
+
+ 
+
+
+
+Zie verder:
+
+
+
+
+Kopjes in helpbestand
+
+ 
+
+
+Zoeken in helpbestand
+
+ 
+
+
+
+
+
+===== TOPIC 9: Online Helpbestand =====
+
+
+Online helpbestand
+
+
+
+
+De helpteksten van een helpbestand zijn gekoppeld aan de functies van Davilex Service en een Davilex-programma. De teksten bevatten afzonderlijke beschrijvingen van een functie. 
+
+Als u over een bepaald onderdeel iets wilt weten, is het aan te raden dit onderdeel in het programma te selecteren en op 
+
+F1
+
+ of de helpknop te drukken. Dit is verreweg de eenvoudigste manier. Wilt u meer weten over een bepaald onderwerp, maar weet u niet waar u het in het programma kunt vinden? Kies dan het menu 
+Help
+ð
+Help-onderwerpen
+ 
+en wandel door de inhoudsopgave van het helpbestand.
+
+
+
+
+
+De helpteksten van dit helpbestand verduidelijken gedetailleerd wat de rol is van de verschillende onderdelen van het programma. Zij dienen als naslagwerk bij het programma en kunnen bij vragen of problemen afzonderlijk worden geraadpleegd.
+
+
+
+
+Zie ook:
+
+
+
+
+Functietoets F1
+
+
+
+
+Help gebruiken
+
+ 
+
+
+
+
+===== TOPIC 10: Davilex Online =====
+
+
+Davilex Online
+
+
+
+Davilex Online is de Internet-informatiedienst van Davilex Software. Als u over toegang tot Internet beschikt, dan kunt u deze informatiedienst gratis raadplegen. Met de optie 
+Help
+ð
+Davilex op Internet
+ 
+laadt u direct de homepage of servicepagina van de Davilex Online-site in uw web browser.
+
+Kiest u voor de optie
+ 
+Help
+ð
+Davilex op Internet
+ð
+Davilex Online
+, 
+dan start u de homepage van Davilex Online, van waaruit u allerlei informatie over Davilex en de Davilex-producten kunt oproepen. Wilt u een overzicht van de meestgestelde vragen aan het Service Center, kies dan de optie 
+Help
+ð
+Davilex op Internet
+ð
+Davilex Service Center 
+of selecteer de optie 
+Service Center 
+uit het linkerframe van de homepage.
+
+
+
+Heeft u problemen met stuurprogramma
+’
+s, dan kunt u ook terecht op Davilex Online. Op deze pagina vindt u links naar de leveranciers die u aan de goede stuurprogramma
+’
+s kunnen helpen. 
+
+
+
+Let op
+: het Service Center van Davilex kan u 
+niet
+ aan de juiste stuurprogramma
+’
+s helpen. Deze kunt u wel ophalen op de Internetpagina's van de desbetreffende leveranciers. 
+
+
+
+Start: 
+
+
+
+
+Davilex Online
+
+ 
+
+
+
+
+===== TOPIC 11: Paarse kopjes in het helpbestand =====
+
+
+Paarse kopjes in het helpbestand
+
+
+
+
+In de helpteksten van Davilex Service vindt u soms één of meer paarse kopjes. Deze kopjes zijn alleen aanwezig als er teksten of passages in het helpbestand zijn, die gerelateerde en nuttige informatie bevatten. Ook ziet u ze als er bijvoorbeeld een homepage op het Internet gestart kan worden.
+
+
+
+Zie ook/Zie verder:
+
+
+
+Onder dit kopje staan verwijzingen naar andere helpteksten met soortgelijke informatie. Als u met de muis op zo
+’
+n verwijzing klikt, dan opent u een nieuwe helptekst in het Davilex Service-helpvenster. 
+
+
+
+Start:
+
+
+
+Door met de muis onder het kopje 
+Start:
+ te klikken, kunt u vanuit de helptekst direct online informatie via Internet, programma
+’
+s of bestanden oproepen.
+
+
+
+Kies:
+
+
+
+Met behulp van de verwijzingen onder dit kopje, kunt u 
+binnen
+ een helptekst snel naar de paragraaf springen waarover u meer wilt lezen. Deze optie vindt u alleen in uitgebreide helpteksten.
+
+
+
+
+===== TOPIC 12: Zoeken in helpbestand =====
+
+
+Zoeken in helpbestand
+
+
+
+
+In Davilex Service zijn er verschillende manieren om te zoeken in het helpbestand, te weten zoeken via de inhoudsopgave, zoeken via de index, en uitgebreid zoeken. Deze manieren vindt u op de tabbladen (tabs) die verschijnen nadat u het helpbestand heeft opgeroepen via de menuoptie 
+Help
+ð
+Help-onderwerpen
+.
+
+Bent u op zoek naar informatie over een specifiek begrip of programma-onderdeel, dan zijn dit de methoden om snel informatie te krijgen. 
+
+
+
+
+Globaal zoeken
+
+
+
+Zoeken via Inhoud-tab
+
+ 
+
+Hierbij zoekt u aan de hand van de titels die de teksten van het helpbestand dragen.
+
+
+
+
+Gewoon zoeken
+
+
+
+Zoeken via Index-tab
+
+ 
+
+Hierbij zoekt u aan de hand van de teksttitels en trefwoorden.
+
+
+
+
+Uitgebreid zoeken
+
+
+
+Uitgebreid zoeken
+
+ 
+
+Hierbij kunt u zoeken op alle woorden die voorkomen in de teksten van het helpbestand.
+
+
+
+Gebruikt u een Engelstalige versie van Windows, dan heten de tabbladen in het helpbestand anders. Het tabblad 
+Inhoud 
+heet 
+Contents 
+en het tabblad 
+Zoeken 
+heet 
+Find
+.
+
+
+
+
+===== TOPIC 13: Zoeken via Index-tab =====
+
+
+Zoeken via Index-tab
+
+
+
+
+Om de zoekfunctie van het helpbestand te activeren, klikt u op het menu 
+Help
+ð
+Help-onderwerpen
+. 
+Het hulpvenster verschijnt met daarin een tabblad met de index van het helpbestand. 
+
+U kunt hier op twee manieren zoeken:
+
+
+
+
+§
+
+Typ het onderwerp waarover u meer informatie wilt, in het lege veld. Zodra u begint te typen, ziet u de keuzelijst onder het veld veranderen: het trefwoord dat het meest overeenkomt met wat u intypt, wordt gemarkeerd. Klik vervolgens op de knop 
+Weergeven
+ om de tekst op te roepen.
+
+
+
+§
+
+Klik in de keuzelijst zodat er een onderwerp gemarkeerd wordt. Vervolgens gebruikt u de pijltjestoetsen op uw toetsenbord om door de lijst te 
+‘
+bladeren
+’
+.
+
+
+
+Zie ook:
+
+
+
+
+Zoeken via Inhoud-tab
+
+ 
+
+
+Uitgebreid zoeken
+
+ 
+
+
+
+
+===== TOPIC 14: Zoeken via Inhoud-tab =====
+
+
+Zoeken via Inhoud-tab
+
+
+
+
+Naast het zoeken via de index en via de 
+Zoeken
+-tab (om uitgebreid te zoeken) kunt u de inhoudsopgave gebruiken. Het tabblad met deze inhoudsopgave roept u op via de menuoptie 
+Help
+ð
+Help-onderwerpen
+. 
+
+
+U zoekt als volgt:
+
+
+
+1.
+Open de 
+Inhoud
+-tab.
+
+
+
+2.
+Blader met de muis of pijltjestoetsen door de onderwerpen.
+
+
+
+3.
+Dubbelklik op het onderwerp dat u wilt bekijken of druk op 
+<Enter>
+.
+
+
+
+De helptekst verschijnt nu in beeld.
+
+
+
+Zie ook:
+
+
+
+
+Zoeken via Index-tab
+
+ 
+
+
+Uitgebreid zoeken
+
+ 
+
+
+
+
+===== TOPIC 15: Uitgebreid zoeken =====
+
+
+Uitgebreid zoeken
+
+
+
+Naast het gewoon zoeken via de index en via de inhoudsopgave, kunt u gebruik maken van de uitgebreide zoekfunctie die u op de 
+Zoeken
+-tab vindt. Het grote verschil met de index is dat in de index alleen de titels van de onderwerpen en synoniemen daarvan staan vermeld. In de lijst op de 
+Zoeken
+-tab staan alle woorden vermeld die in de teksten van het helpbestand voorkomen. Deze lijst met woorden maakt u aan zodra u voor de eerste keer de 
+Zoeken
+-tab oproept.
+
+
+
+Werkwijze
+
+
+
+1.
+Volg de instructies van de Zoek Installatie Wizard om de woordenlijst te genereren.
+
+
+
+2.
+Geef via de knop 
+Opties
+ aan op welke manier gezocht moet worden.
+
+
+
+3.
+Typ het onderwerp in waarover u meer wilt weten. Het door u ingetypte woord wordt overal in de tekst gezocht. Alle vindplaatsen van dat woord worden vervolgens getoond. Als er meerdere vindplaatsen zijn gevonden, selecteert u de tekst waarvan u denkt dat daar de gezochte informatie in staat.
+
+
+
+4.
+Klik vervolgens op 
+Weergeven
+ om de helptekst op het scherm te krijgen.
+
+
+
+Zie ook:
+
+
+
+
+Zoeken via Inhoud-tab
+
+
+
+
+Zoeken via Index-tab
+
+ 
+
+
+
+
+===== TOPIC 16: Sneltoetsen =====
+
+
+Sneltoetsen
+
+
+
+
+Naast het aanklikken met de muis, kunt u in Davilex Service ook een aantal handige sneltoetsen gebruiken. Met name de gevorderde gebruiker zal hier baat bij hebben.
+
+
+
+
+De volgende sneltoetsen kunt u gebruiken in:
+
+
+
+
+Vensters
+
+
+
+Esc
+
+
+Venster sluiten
+
+
+
+Enter
+
+
+
+OK
+
+
+
+
+F1
+
+
+Help
+
+
+
+Alt-F4
+
+
+
+Programma sluiten
+
+
+
+
+Del
+
+
+Verwijderen
+
+
+
+Ctrl-P
+
+
+Afdrukken
+
+
+
+Invoervelden
+
+
+
+Alt-Pijltje Neer
+
+
+Lijstje neerklappen
+
+
+
+Tab
+
+
+
+Volgende invoerveld
+
+
+
+
+Shift-Tab
+
+
+Vorige invoerveld
+
+
+
+F5
+
+
+
+Vernieuwen
+
+
+
+
+Ctrl-C
+
+
+
+Kopiëren naar klembord
+
+
+
+
+Ctrl-X
+
+
+Knippen
+
+
+
+Ctrl-V
+
+
+
+Plakken
+
+
+
+Wizards
+
+
+
+PgUp
+
+
+Vorige
+
+
+
+PgDn
+
+
+
+Volgende
+
+
+
+Bovendien kunt u ook op uw rechtermuisknop klikken, als u op een onderdeel staat. U krijgt dan een menu met opties, waarmee u een aantal acties snel kunt uitvoeren.
+
+
+
+
+===== TOPIC 17: Hoe doe ik? =====
+
+
+Hoe doe ik?
+
+
+
+
+In Davilex Service zijn een aantal onderdelen opgenomen die het gebruik van een Davilex-product kunnen vergemakkelijken. U kunt een uitleg krijgen bij de volgende acties:
+
+
+
+
+
+Probleemoplosser gebruiken
+
+
+
+
+Nieuwste update downloaden
+
+                    
+
+
+Contact opnemen met het Service Center
+
+ 
+
+
+Technische informatie
+
+ 
+
+
+Service Centerrapport maken
+
+ 
+
+
+Service Centerrapport verzenden
+
+ 
+
+
+Adreswijziging verzenden
+
+         
+
+
+Abonneren op Davilex E-Nieuws
+
+ 
+
+
+Abonnement op E-Nieuws opzeggen
+
+ 
+
+
+Online Shop
+
+                                              
+
+
+
+
+Programma verwijderen
+
+
+
+
+Service Centerrapport bekijken
+
+
+
+
+Gedownloade update installeren
+
+ 
+
+
+
+
+===== TOPIC 18: Online Shop =====
+
+
+Online Shop
+
+
+
+
+
+Als u beschikt over een Internetaansluiting, dan kunt u eenvoudig thuis uw favoriete Davilex-product bestellen. Hiervoor klikt u op het pictogram 
+Online Shop
+. Davilex Service maakt vervolgens verbinding met Internet. U komt direct op de pagina van Online Shop terecht. 
+
+U vindt hier een overzicht van producten die u via Internet kunt bestellen. U bestelt een product als volgt:
+
+
+
+1.
+Kies eerst het product of de producten die u wilt bestellen. Klik op 
+;
+
+
+
+2.
+Vul uw naam- en adresgegevens in. 
+
+
+
+Let op
+: vergeet niet uw e-mailadres in te vullen. Een kopie van uw bestelformulier wordt via e-mail naar u verzonden. Wilt u uw bestelling op uw bedrijf ontvangen, geef dan het adres op van het bedrijf waar u werkt. 
+
+
+
+3.
+Klik weer op 
+.
+
+
+
+4.
+Geef in het volgende venster aan hoe u wilt betalen. U kunt hier kiezen voor een aflevering onder rembours of voor een eenmalige incasso via uw bank- of girorekening. Klik na uw keuze op 
+.
+
+
+
+5.
+Controleer tenslotte uw bestelformulier en klik op 
+. Uw bestelling wordt zo snel mogelijk bij u afgeleverd.
+
+
+
+
+===== TOPIC 19: Probleemoplosser gebruiken =====
+
+
+Probleemoplosser gebruiken
+
+
+
+
+U kunt alle onderdelen van Davilex Service apart openen en sluiten om een probleem op te lossen, maar u kunt ook de hulp inroepen van de Probleemoplossende Wizard. Deze wizard begeleidt u stap voor stap door de bronnen waarin u de oplossing van uw probleem mogelijkerwijs kunt vinden. Rechtsboven in het venster kunt u zien waar u zich in de wizard bevindt. Dit wordt aangegeven door de voortgangsbalk, die langzaam van kleur verandert. 
+
+
+
+De wizard zal een aantal stappen volgen om uw probleem op te lossen. Hieronder zullen de stappen kort worden omschreven. Klik steeds op 
+Volgende
+ om door te gaan naar de volgende stap. Heeft u het probleem tussentijds opgelost, dan kunt u met 
+Annuleren 
+de wizard verlaten.
+
+
+
+
+De stappen in de Probleemoplosser:
+
+
+
+§
+
+Stap 1: Inleiding
+: hierin geeft u aan met welk programma  u een probleem heeft. Heeft u in het hoofdvenster al een programma geselecteerd, dan verschijnt dit programma automatisch in het scherm. Bovendien geeft u in deze stap aan of u over een Internetaansluiting beschikt. Kiest u een 
+
+ander programma
+
+, dan in de keuzelijst staat aangegeven, dan zal er een venster verschijnen, waarin u de naam van het programma kunt typen.
+
+
+
+§
+
+Stap 2: 
+
+Documentatie raadplegen
+
+  : in deze stap wordt u geadviseerd om eerst het helpbestand, de handleiding, het leesmij-bestand en de Service Centerpagina op Internet van het gekozen programma te raadplegen.
+
+
+
+§
+
+Stap 3: 
+
+Online update
+
+ : in deze stap kunt u de nieuwste update van het gekozen programma  downloaden.
+
+
+
+§
+
+Stap 4: 
+
+Contact opnemen met het Service Center
+
+ : hier geeft u aan hoe u contact wilt opnemen met het Service Center, bijvoorbeeld per mail of per fax. 
+
+
+
+§
+
+Stap 5: 
+
+Probleemomschrijving
+
+ 
+: hier heeft u de ruimte om uw probleem zo kort en duidelijk mogelijk te omschrijven.
+
+
+
+§
+
+Stap 6: 
+
+Technische informatie
+
+ : in deze stap staat aangegeven over welke onderdelen van uw computer technische informatie wordt verzameld. Wijzig deze instellingen echter alleen op verzoek van het Service Center.
+
+
+
+§
+
+Stap 7: 
+
+Persoonlijke gegevens
+
+ 
+: in deze stap moet u uw persoonlijke gegevens zo uitgebreid mogelijk invullen. Op deze manier is het voor de medewerkers van het Service Center mogelijk om uw probleem zo snel mogelijk te behandelen.
+
+
+
+§
+
+Stap 8: 
+
+Service Centerrapport 
+
+ 
+: in de laatste stap van de wizard ziet u het complete rapport voor het Service Center. Via de knoppen kunt u kiezen hoe u het rapport naar Davilex verzendt.
+
+
+
+
+===== TOPIC 20: Nieuwste update downloaden =====
+
+
+Nieuwste update downloaden
+
+
+
+Soms is het mogelijk dat een probleem in een programma al door ons is opgemerkt. Vaak wordt er dan een update uitgebracht, waarin dit probleem is verholpen. 
+
+Als u over een Internetaansluiting beschikt, kunt u zo
+’
+n update eenvoudig van het Internet op uw harde schijf kopiëren (downloaden) en installeren. U kunt dan verder werken met de nieuwste versie van het programma. U kunt de update op twee manieren verkrijgen:
+
+
+
+
+1.
+Via de probleemoplosser
+
+
+
+Als u niet direct weet wat het probleem is, dan kunt u de 
+
+Probleemoplosser
+
+ op het Internet laten zoeken naar een nieuwe update van het programma. Deze probleemoplossende wizard zal u stap voor stap proberen te helpen uw probleem op te lossen. In stap 3 van de Probleemoplosser wordt de Online Update Wizard geopend. Deze wizard controleert of u over een oude versie van het programma beschikt en biedt de mogelijkheid de update te downloaden.
+
+
+
+2.
+Rechtstreeks via het onderdeel Online Update
+
+
+
+U kunt ook direct controleren of er een nieuwe update van uw Davilex-programma is uitgebracht. U kiest hiervoor het onderdeel 
+Online Update
+ uit het hoofdvenster door er op te dubbelklikken.
+
+
+
+Zie verder:
+
+
+
+
+Online Update Wizard - Verbinding maken
+
+ 
+
+
+
+
+===== TOPIC 21: Contact opnemen met het Service Center =====
+
+
+Contact opnemen met het Service Center
+
+
+
+
+Als u via de beschikbare 
+
+helpbronnen
+
+ geen antwoord op uw vraag krijgt, dan kunt u zich tot het Service Center van Davilex richten. Probeer echter altijd eerst een oplossing te vinden via de aangeboden documentatie of via de 
+
+probleemoplosser
+
+ .
+
+Wordt uw probleem niet - of onvoldoende - behandeld in de handleiding, in de meegeleverde helpbestanden of bij Davilex Online, dan kunt u contact opnemen met het Service Center.
+
+
+
+
+Voordat u contact opneemt met het Service Center, verzoeken wij u om een zogenaamde 
+
+schijfcontrole
+
+ uit te voeren. Hiermee controleert u de harde schijf op mogelijke problemen. Soms is het uitvoeren van een schijfcontrole al voldoende om het probleem op te lossen.
+
+
+
+
+Als u contact moet opnemen met het Service Center, zorg er dan voor dat u een uitdraai van het 
+
+rapport voor het Service Center
+
+ bij de hand heeft. Daarnaast vraagt het Service Center u naar uw klantnummer. Dit nummer wordt gevormd door uw postcode en uw huisnummer, bijvoorbeeld 3512CC27. Als u deze gegevens bij de hand heeft, kan het Service Center u het snelst helpen!
+
+
+
+
+Let op: 
+maak altijd gebruik van Davilex Service voordat u contact opneemt met het Service Center. Problemen en klachten die niet met Davilex Service zijn gemeld, kunnen niet in behandeling worden genomen.
+
+
+
+
+===== TOPIC 22: Technische informatie =====
+
+
+Technische informatie
+
+
+
+
+Als u alle stappen van de 
+
+probleemoplosser
+
+ volgt, dan komt u vanzelf bij stap 6, te weten de technische informatie. In het venster 
+Technische informatie 
+kunt u een aantal onderdelen markeren. Van deze onderdelen wordt in het rapport voor het Service Center technische informatie verzameld. Dit doet Davilex Service automatisch. U hoeft dus zelf geen wijzigingen aan te  brengen. 
+
+Standaard is er een aantal onderdelen gemarkeerd, waarover informatie wordt verzameld. Als de medewerker van het Service Center niet genoeg heeft aan deze informatie, dan zal hij contact met u opnemen en u vragen één of meer onderdelen te markeren. Verander de instellingen dus alleen op verzoek van medewerker van het .
+
+
+
+
+===== TOPIC 23: Service Centerrapport maken =====
+
+
+Service Centerrapport maken
+
+
+
+
+Mocht u er niet in zijn geslaagd uw probleem via de meegeleverde helpbronnen, Davilex Online of een nieuwe update op te lossen, dan is het verstandig om een rapport voor het Service Center aan te maken. Dit rapport is noodzakelijk als u contact op wilt nemen met het Service Center.
+
+Via Davilex Service kunt u eenvoudig een rapport voor het Service Center maken. U start hiervoor de Probleemoplosser in het hoofdvenster. Loop door de eerste drie stappen heen met 
+, tot u bij stap 4 bent aangekomen. Hier maakt u uw rapport voor het Service Center.
+
+
+
+1.
+Allereerst geeft u aan hoe u contact wilt opnemen met het Service Center. U kunt kiezen of u via e-mail, via de post of per fax wilt worden benaderd. Als u over een Internetaansluiting beschikt, dan is het aanbevolen om contact op te nemen via e-mail. Heeft u geen Internetaansluiting, dan geldt de optie 
+‘
+per e-mail
+’
+ niet.
+
+
+
+2.
+Klik met de linkermuisknop op één van de keuzerondjes. Er verschijnt een zwarte stip in het gekozen keuzerondje. Klik op 
+ om verder te gaan.
+
+
+
+3.
+Typ nu in wat u wilde doen toen het probleem optrad. Geef vervolgens aan welke handelingen u verrichtte. Geef hierna een omschrijving van het probleem en vermeld eventueel de foutmelding die verscheen. Probeer dit zo kort, helder en eenvoudig mogelijk te doen. Klik op 
+ om naar de volgende stap te gaan.
+
+
+
+4.
+In deze stap ziet u een overzicht van de instellingen die in het rapport voor het Service Center zullen worden genoemd. 
+
+
+
+Verander alleen iets aan deze instellingen als een medewerker van het 
+Service Center 
+hierom heeft gevraagd!
+
+
+
+Klik weer op 
+ om door te gaan naar het volgende onderdeel.
+
+
+
+
+5.
+In deze stap van de wizard controleert u de gegevens die van u bij Davilex bekend zijn en vult u deze eventueel aan. Een aantal gegevens moet u verplicht invullen, te weten uw achternaam, uw huisnummer, uw postcode en het land waar u woont. Op deze manier kan uw klantnummer worden aangemaakt. Als u contact wilt opnemen via e-mail, moet u ook uw e-mailadres opgeven. Wilt u uw antwoord via de post, dan dient u uw volledige adres op te geven. Wilt u antwoord per fax, dan geeft u ook uw faxnummer op. Als u nu op 
+ klikt, dan wordt het rapport voor het Service Center aangemaakt en kunt u het via het beeldscherm bekijken.
+
+
+
+Zie ook:
+
+
+
+
+Probleemoplosser gebruiken
+
+ 
+
+
+Contact opnemen met het Service Center
+
+ 
+
+
+
+Zie verder:
+
+
+
+
+Service Centerrapport verzenden
+
+ 
+
+
+
+
+===== TOPIC 24: Rapport voor het Service Center verzenden =====
+
+
+Rapport voor het Service Center verzenden
+
+
+
+
+Als u een 
+
+rapport voor het Service Center
+
+ met de Probleemoplosser heeft aangemaakt, dan kunt u dit rapport vervolgens versturen naar het Service Center. U volgt hiervoor de stappen uit de Probleemoplosser, tot u bij de stap bent aangekomen, die 
+Communicatie
+ heet (stap 8).
+
+In het venster van stap 8 ziet u hoe het rapport voor het Service Center eruit komt te zien. Als u nog een fout ziet, klikt u net zolang op de knop 
+
+ 
+totdat u bij de stap van de wizard bent gekomen, waar u deze fout kunt herstellen. Verander de gegevens en ga met 
+
+ 
+weer terug naar stap 8. Het rapport voor het Service Center is nu klaar om verzonden te worden.
+
+
+
+
+Afhankelijk van de manier waarop u contact wilt opnemen met het Davilex Service Center, kunt u ervoor kiezen om het rapport via e-mail te verzenden, op te slaan op diskette of af te drukken.
+
+In het venster ziet u de volgende knoppen:
+
+
+
+
+
+
+
+
+
+Met deze knop verzendt u het rapport voor het Service Center per e-mail naar het Service Center. U kunt 
+
+Bijlagen toevoegen
+
+ , door op 
+ te drukken en de goede bijlage te selecteren. Als u op de knop 
+Verzenden 
+klikt, maakt Davilex Service automatisch een zip-bestand aan, zodat het bestand een kleinere omvang krijgt.
+
+
+
+
+
+
+
+
+
+Hiermee bewaart u het rapport voor het Service Center op diskette. Ook hier kunt u eventueel een bijlage toevoegen. 
+
+
+
+
+
+
+
+
+
+Klik op deze knop om het rapport op papier af te drukken. Vervolgens kunt u het rapport naar het Service Center sturen of faxen.
+
+
+
+Let op:
+ wilt u het rapport voor het Service Center via Internet verzenden en dit lukt niet in één keer? Het kan zijn dat Davilex Service geen goede verbinding kan maken. Probeer eerst verbinding te maken via uw mailprogramma. Probeer dan nogmaals het rapport te verzenden.
+
+
+
+Zie ook:
+
+
+
+
+Service Centerrapport maken
+
+ 
+
+
+Contact opnemen met het Service Center
+
+ 
+
+
+
+
+===== TOPIC 25: Adreswijziging verzenden =====
+
+
+Adreswijziging verzenden
+
+
+
+
+Als u zich als gebruiker van een Davilex-product bij ons registreert, geeft u uw adresgegevens aan ons door. Mocht u nu bijvoorbeeld verhuizen of een nieuw telefoonnummer krijgen, dan is het noodzakelijk om deze (adres)wijzigingen aan ons door te geven. Doet u dit niet, dan is het voor ons lastig om u goede service te blijven verlenen.
+
+Als u over een Internetaansluiting beschikt, kunt u een adreswijziging eenvoudig per e-mail aan ons doorgeven. Kies hiervoor het onderdeel 
+Adreswijziging 
+in het hoofdvenster van Davilex Service. 
+
+
+
+Heeft u geen Internetaansluiting, dan kunt u via het onderdeel 
+Adreswijziging 
+uw adreswijziging afdrukken om naar Davilex op te sturen.
+
+Om uw gegevens te wijzigen volgt u de volgende stappen:
+
+
+
+1.
+Vul uw volledige naam en eventueel uw firmanaam in.
+
+
+
+2.
+Vul uw oude adresgegevens in.
+
+
+
+3.
+Vul nu uw nieuwe adresgegevens in. 
+
+
+
+4.
+Controleer alle gegevens en klik op 
+  om de adreswijziging naar ons te e-mailen of op 
+ om de adreswijziging af te drukken.
+
+
+
+
+Een aantal velden moet u verplicht invullen, te weten:
+
+
+
+§
+
+Voorletter(s)
+
+
+
+§
+
+Achternaam
+
+
+
+§
+
+Straatnaam (oud)
+
+
+
+§
+
+Straatnaam (nieuw)
+
+
+
+§
+
+Huisnummer (nieuw)
+
+
+
+§
+
+Postcode (nieuw)
+
+
+
+§
+
+Plaats (nieuw)
+
+
+
+§
+
+Land (nieuw)
+
+
+
+
+Verstuurt u de adreswijziging per e-mail, dan dient u ook uw e-mailadres op te geven.
+
+
+
+
+===== TOPIC 26: Abonneren op Davilex E-Nieuws =====
+
+
+Abonneren op Davilex E-Nieuws
+
+
+
+
+Davilex E-Nieuws is een maandelijkse elektronische nieuwskrant. E-Nieuws houdt u via uw e-mailadres automatisch op de hoogte van Davilex softwareproducten en aanbiedingen. Het spreekt voor zich dat u alleen van deze service gebruik kan maken als u over een Internetaansluiting beschikt.
+
+U kunt eenvoudig een 
+gratis 
+abonnement nemen op Davilex E-Nieuws. U abonneert zich als volgt:
+
+
+
+
+1.
+Start het onderdeel 
+Davilex E-Nieuws 
+in het hoofdvenster van Davilex Service door op het onderdeel te dubbelklikken.
+
+
+
+2.
+Er verschijnt een venster waarin u via de eerste optie een abonnement kunt aanvragen.
+
+
+
+3.
+Klik met de muis op het eerste keuzerondje om aan te geven dat u een abonnement wilt nemen op E-Nieuws.
+
+
+
+4.
+Vul uw persoonlijke gegevens in en let er vooral op of u uw e-mailadres juist heeft ingevoerd.
+
+
+
+5.
+Geef eventueel aan in welk nieuws u vooral geïnteresseerd bent door deze onderwerpen met de muis aan te vinken in de selectievakjes.
+
+
+
+6.
+Klik op 
+ om uw aanvraag aan Davilex door te geven. Wilt u de aanvraag afbreken, klik dan op 
+.
+
+
+
+
+U ontvangt het laatst verschenen exemplaar van Davilex E-Nieuws zo snel mogelijk bij uw e-mailberichten.
+
+
+
+Zie ook:
+
+
+
+
+Abonnement op E-Nieuws opzeggen
+
+ 
+
+
+
+
+===== TOPIC 27: Abonnement op E-Nieuws opzeggen =====
+
+
+Abonnement op E-Nieuws opzeggen
+
+
+
+
+Wilt u uw 
+gratis 
+abonnement op Davilex E-Nieuws beëindigen, dan kunt u dit snel doen via Davilex Service. U opent hiervoor het onderdeel 
+Davilex E-Nieuws 
+in het hoofdvenster van Davilex Service. Ga hierna als volgt te werk:
+
+
+
+
+1.
+Open 
+Davilex E-Nieuws 
+in het hoofdvenster.
+
+
+
+2.
+Er verschijnt een venster waarin u via de tweede optie uw abonnement kunt opzeggen.
+
+
+
+3.
+Klik met de muis op het tweede selectierondje om aan te geven dat u uw E-Nieuws abonnement wilt opzeggen.
+
+
+
+4.
+Controleer uw persoonlijke gegevens en vul ze waar nodig aan.
+
+
+
+5.
+Klik op 
+ om uw Davilex E-Nieuws abonnement op te zeggen. Klik op 
+ als u uw abonnement niet wilt opzeggen.
+
+
+
+Uw naam wordt van de E-Nieuws mailinglist verwijderd. U zult geen exemplaren van Davilex E-Nieuws meer ontvangen. Wilt u toch weer een abonnement op E-Nieuws, dan kunt u dit weer aanvragen.
+
+
+
+Zie ook:
+
+
+
+
+Abonneren op Davilex E-Nieuws
+
+ 
+
+
+
+
+===== TOPIC 28: Programma verwijderen =====
+
+
+Programma verwijderen
+
+
+
+
+Bij de installatie van een Davilex-programma worden, naast het programma zelf, ook bestanden op de harde schijf gezet die door Windows gebruikt worden om het programma aan te sturen. Deze bestanden komen meestal in de mappen 
+c:\Program files
+ en 
+c:\windows\system
+ terecht.
+
+U kunt de bestanden zelf verwijderen in de Windows Verkenner, maar de kans is dan groot dat u een bestand vergeet te verwijderen of dat u een bestand weggooit dat ook door een ander  programma wordt gebruikt. Dit kan als gevolg hebben dat er onnodig veel ruimte op uw harde schijf wordt ingenomen door bestanden die niet meer gebruikt worden. Het is dus aan te raden om gebruik te maken van de speciale wizard die alle bestanden van het programma automatisch voor u verwijdert. U kunt zowel kiezen voor het 
+
+automatisch verwijderen van het programma
+
+ , als voor het 
+
+handmatig verwijderen van het programma
+
+ .
+
+
+
+Let op: 
+De gegevensbestanden die u in het programma heeft gemaakt, worden niet verwijderd. Als u een nieuwere versie van het programma installeert, kunt u deze bestanden gewoon weer oproepen in het programma.
+
+
+
+Let op
+: Als u een beginnende gebruiker van Windows bent, kunt u beter voor de optie 
+
+Automatisch verwijderen
+
+ kiezen. U weet dan zeker dat alle bestanden weggegooid worden.
+
+
+
+
+===== TOPIC 29: Automatisch verwijderen van een programma =====
+
+
+Automatisch verwijderen van een programma
+
+
+
+
+Met de  Verwijder Wizard kunt u een Davilex-product eenvoudig verwijderen. Voordat u het programma kunt verwijderen, moet u het eerst afsluiten. Daarna gaat u als volgt te werk:
+ 
+
+
+
+1.
+Activeer de Verwijder Wizard door op het pictogram te dubbelklikken. De wizard wordt hierdoor gestart.
+
+
+
+2.
+Geef aan dat u het programma automatisch wilt laten verwijderen door het keuzerondje voor deze optie aan te klikken, deze optie is overigens standaard al geselecteerd.
+
+
+
+3.
+Klik op 
+. Alle bestanden die alleen door het programma worden gebruikt, worden in één keer gemarkeerd. U komt nu direct in de laatste stap van de wizard terecht.
+
+
+
+4.
+Klik nu op 
+. Het programma wordt nu verwijderd.
+
+
+
+Zie ook: 
+
+
+
+
+Handmatig verwijderen van het programma
+
+ 
+
+
+
+
+
+===== TOPIC 30: Handmatig verwijderen van een programma =====
+
+
+Handmatig verwijderen van een programma
+
+
+
+
+Als u het Davilex-programma handmatig wilt verwijderen, dan kan dit met de Verwijder Wizard. In dat geval geeft u zelf aan welke bestanden verwijderd moeten worden. U kunt het programma op de volgende manier handmatig verwijderen:
+
+
+
+
+1.
+Start de Verwijder Wizard in Davilex Service.
+
+
+
+2.
+Kies de optie 
+Handmatig
+ door op het keuzerondje te klikken en klik op 
+. Er verschijnt een lijst met bestanden die in de map 
+Programmabestanden
+ staan.
+
+
+
+3.
+Klik op 
+ om de hele lijst in één keer te markeren. Wilt u maar een aantal bestanden verwijderen, dan klikt u alleen deze bestanden met de linkermuisknop aan.
+
+
+
+4.
+Klik op 
+.
+
+
+
+5.
+Herhaal stap 3 en 4 om:
+
+
+
+§
+
+de systeembestanden uit c:\windows\system te verwijderen;
+
+
+
+§
+
+de mappen uit 
+Programmabestanden
+ en uit het 
+Start
+-menu van Windows te verwijderen;
+
+
+
+§
+
+de programma-onderdelen uit het 
+
+configuratieregister
+
+ te verwijderen.
+
+
+
+6.
+Klik tenslotte op 
+ om alle geselecteerde bestanden en onderdelen van de harde schijf te verwijderen. Het programma komt nu niet meer voor op uw pc.
+
+
+
+Let op
+: Als u een beginnende gebruiker van Windows bent, kunt u beter voor de optie 
+
+Automatisch verwijderen
+
+ kiezen. U weet dan zeker dat de juiste bestanden en instellingen weggegooid worden.
+
+
+
+Zie ook:
+
+
+
+
+Automatisch verwijderen van een programma
+
+ 
+
+
+
+
+===== TOPIC 31: Rapport voor het Service Center bekijken =====
+
+
+Rapport voor het Service Center bekijken
+
+
+
+
+Als u een rapport voor het Service Center heeft gegenereerd met de 
+
+Probleemoplosser
+
+ , dan verschijnt er in het venster met 
+
+programma-specifieke pictogrammen
+
+ een pictogram met de naam 
+‘
+rapport voor het Service Center
+’
+. Als u op dit pictogram dubbelklikt, komt u in de laatste stap van de Probleemoplosser. 
+
+U ziet nu een scherm, waarin u het gegenereerde rapport kunt bekijken en versturen naar het Service Center. Hoe u dit doet kunt u lezen in: 
+
+Service Centerrapport verzenden
+
+ . Als u nog iets wilt wijzigen in het rapport voor het Service Center, kunt u met de knop 
+ terugbladeren door de stappen.
+
+
+
+
+Heeft u het rapport voor het Service Center niet meer nodig, dan kunt u het pictogram ook verwijderen. Kies hiervoor de optie 
+Bestand
+ð
+Verwijderen
+. 
+Zorg ervoor dat u het pictogram wel heeft geselecteerd.
+
+
+
+
+
+
+===== TOPIC 32: Gedownloade update installeren =====
+
+
+Gedownloade update installeren
+
+
+
+
+Als u na het downloaden de update van het programma niet direct wilt installeren, dan plaatst Davilex Service een pictogram in het venster met programmaspecifieke pictogrammen.
+
+Wilt u de update alsnog installeren, dan selecteert u het pictogram 
+Update 
+(bijvoorbeeld Update Davi-Music). Dubbelklik op het pictogram om de update te installeren. Volg voor de installatie de instructies op het scherm.
+Als de update is geïnstalleerd, kunt u het pictogram verwijderen door op 
+<del> 
+te drukken of de optie 
+Bestand
+ð
+Verwijderen 
+te kiezen. Zorg ervoor dat u het pictogram wel heeft geselecteerd.
+
+
+
+
+===== TOPIC 33: Probleemomschrijving =====
+
+
+Probleemomschrijving
+
+
+
+
+In deze stap van de wizard kunt u het probleem zo kort en duidelijk mogelijk omschrijven.
+
+
+Voorbeeld: 
+U wilt in Davi-Music een muziekverzameling openen, maar het programma loopt vast.
+
+
+ 
+‘
+Beschrijf wat u wilde doen
+’
+:
+
+Hier geeft u een beschrijving van datgene waar u mee bezig was toen het probleem optrad. In dit geval geeft u aan dat u een muziekverzameling wilde openen.
+
+
+‘
+Beschrijf indien mogelijk de handelingen die u verrichtte toen het probleem optrad
+’
+:
+
+
+
+Hier beschrijft u welke handelingen u uitvoerde voordat het probleem optrad. In dit geval geeft u aan dat u op 
+Bestand
+ð
+Openen
+ 
+klikte toen het programma vastliep.
+
+
+
+‘
+Geef een omschrijving van het probleem
+’
+:
+
+Hier beschrijft u welk probleem er precies is opgetreden. In dit geval vermeldt u dat het programma vastliep.
+
+
+‘
+Noteer een eventuele foutmelding, die door het programma gegeven werd.:
+
+Geeft het programma een foutmelding, nadat het probleem is opgetreden, dan vermeldt u dat hier letterlijk. In dit geval vermeldt u bijvoorbeeld : I/O Error…
+
+
+
+
+Hoe duidelijker u het probleem omschrijft, des te sneller kan het Service Center u een antwoord geven. Het is dus van belang dat u de vier vakjes zoveel mogelijk invult.
+
+
+
+
+===== TOPIC 34: Persoonlijke gegevens =====
+
+
+Persoonlijke gegevens
+
+
+
+
+In deze stap van de Probleemoplosser vult u zo nauwkeurig mogelijk uw persoonlijke gegevens in. 
+Het is belangrijk dat u de gegevens zo uitgebreid mogelijk invult. Op deze manier kan het Service Center u zo snel mogelijk helpen.
+
+Een aantal velden zijn verplicht, te weten:
+
+
+
+§
+
+Voorletters
+
+
+
+§
+
+Achternaam
+
+
+
+§
+
+Straatnaam
+
+
+
+§
+
+Huisnummer 
+
+
+
+§
+
+Postcode
+
+
+
+§
+
+Plaats
+
+
+
+§
+
+Land
+
+
+
+Afhankelijk van de manier waarop u contact wil opnemen met het Service Center, zijn ook verplicht:
+
+
+
+§
+
+Per e-mail: 
+
+
+e-mailadres
+
+
+
+§
+
+Per post  :
+ 
+
+straatnaam, plaats
+
+
+
+§
+
+Per fax:
+
+
+faxnummer
+
+
+
+
+===== TOPIC 35: Bijlagen toevoegen =====
+
+
+Bijlagen toevoegen
+
+
+
+
+U kunt bijlagen toevoegen aan het rapport voor het Service Center. Door op 
+ te klikken komt u in een venster waarin de geselecteerde bijlagen zijn opgenomen. Door op de knop 
+Toevoegen 
+te klikken kunt u de juiste bijlage uit de keuzelijst selecteren. 
+
+
+
+
+U kunt bijlagen ook selecteren door 
+<ctrl>
++
+<b>
+ in te drukken.
+
+
+
+
+In het venster 
+ leest u hoeveel bijlagen u heeft toegevoegd en wat de totale grootte van de bijlagen is. Als u het rapport voor het Service Center verstuurt naar het Service Center, worden de bijlagen automatisch meegestuurd.
+
+
+
+
+
+===== TOPIC 36: Online Update Wizard - Verbinding maken =====
+
+
+Online Update Wizard - Verbinding maken
+
+
+
+
+In stap 1 maakt Davilex Service contact met Davilex Online. Als er een verbinding is gemaakt, drukt u op 
+Volgende
+. Davilex Service controleert nu of er nieuwe updates beschikbaar zijn van de programma
+’
+s waarvan u als gebruiker bent geregistreerd bij Davilex. 
+
+
+
+Zie verder:
+
+
+
+
+Online Update Wizard - Geen nieuwe updates
+
+ 
+
+
+Online Update Wizard - Nieuwe updates
+
+ 
+
+
+
+
+===== TOPIC 37: Online Update Wizard - Geen nieuwe updates =====
+
+
+Online Update Wizard - Geen nieuwe updates
+
+
+
+
+Is er geen nieuwe update aanwezig, dan krijgt u een melding dat er geen nieuwe updates aanwezig zijn en kunt u de wizard sluiten. De Internetverbinding wordt dan verbroken.
+
+
+
+
+
+===== TOPIC 38: Online Update Wizard - Updates installeren =====
+
+
+Online Update Wizard - Updates installeren
+
+
+
+
+In de laatste stap van de wizard heeft u de mogelijkheid om de opgehaalde updates direct te installeren of de installatie uit te stellen tot een later moment. 
+
+Kiest u ervoor om een update direct te installeren, dan dubbelklikt u op het pictogram van de betreffende update. De Installatie Wizard van de update wordt gestart. Volg de instructies uit deze wizard om de installatie te voltooien. 
+
+U kunt er ook voor kiezen om de update op een later moment te installeren. Klik op 
+ om de installatie uit te stellen.
+
+
+
+
+Als u na het downloaden de update van het programma niet direct wilt installeren, dan plaatst Davilex Service een pictogram in het venster met programma-specifieke pictogrammen.
+
+Wilt u de update alsnog installeren, dan selecteert u de pictogram 
+Update 
+(bijvoorbeeld Update Davi-Music) uit het hoofdvenster voor specifieke programma
+’
+s. Dubbelklik op het pictogram om de update te installeren. Volg voor de installatie de instructies op het scherm.
+
+Als de update is geïnstalleerd, kunt u het pictogram verwijderen door op 
+<del> 
+te drukken of de optie 
+Bestand
+ð
+Verwijderen 
+te kiezen. Zorg ervoor dat u het pictogram wel heeft geselecteerd.
+
+
+
+
+===== TOPIC 39: Online Update Wizard - Nieuwe updates =====
+
+
+Online Update Wizard - Nieuwe updates
+
+
+
+
+Zijn er één of meerdere nieuwe updates beschikbaar, dan krijgt u een overzicht van de beschikbare updates. 
+U geeft nu aan welke updates u wilt downloaden door de keuzevakjes met de muis te markeren. Als u op 
+Volgende
+ klikt, worden de bestanden opgehaald en op de harde schijf geplaatst.
+
+Hierna gaat u door naar 
+
+Online Update - Stap 3
+
+ 
+
+
+
+
+Let op: 
+wilt u informatie over de veranderingen die in de update zijn opgenomen, dan klikt u op de knop 
+Info
+. Selecteert u eerst de update waarover u informatie wilt, door er met de muis op te klikken. 
+
+
+
+
+===== TOPIC 40: Een ander programma =====
+
+
+Een ander programma
+
+
+
+
+Staat het programma waarmee u problemen ondervindt niet in de keuzelijst, dan kunt u hier de naam van het programma intypen. Gebruik wel de volledige naam. Dus bijvoorbeeld Davi-Tuin 3D De Luxe (2.0.0) in plaats van Davi-Tuin 3D. U vindt de volledige naam met versie op de cd-rom.
+
+Klik op 
+OK
+ om weer terug te keren in de 
+
+Probleemoplosser
+
+.
+
+
+
+
+===== TOPIC 41: Configuratieregister =====
+
+
+Configuratieregister
+
+
+
+Het register is een verzamelplaats waarin alle configuratie-instellingen worden bijgehouden, die zich verspreid op de harde schijf van uw pc bevinden.
+
+
+
+
+
+===== TOPIC 42: Pictogram =====
+
+
+Pictogram
+
+
+
+Een pictogram is het plaatje dat boven een naam van een onderdeel staat. Zo geeft in het Serviceprogramma een wereldbol met computer het onderdeel 'Update' weer.
+
+
+
+
+
+
+
+===== TOPIC 43: Wat zie ik? =====
+
+
+Wat zie ik? 
+
+
+
+
+Wanneer u Davilex Service start, verschijnt er een venster waarin u een aantal (menu)opties tegenkomt. In dit helpbestand zijn de belangrijkste opties opgenomen en onderverdeeld in de volgende categorieën:
+
+
+
+
+
+Hoofdmenubalk
+
+ 
+
+
+Statusbalk en werkbalk
+
+ 
+
+
+Pictogrammen
+
+ 
+
+
+
+===== TOPIC 44: Hoofdmenubalk =====
+
+
+Hoofdmenubalk
+
+
+
+Op de menubalk kunt u een keuze maken uit de volgende menu
+’
+s:
+
+
+
+
+Menu Bestand
+
+ 
+
+
+Menu Beeld
+
+ 
+
+
+Menu Help
+
+ 
+
+
+
+
+===== TOPIC 45: Menu Bestand =====
+
+
+Menu Bestand
+
+
+
+
+
+Openen
+
+Als u de menu-optie 
+Bestand
+ð
+Openen 
+kiest, kunt u een geselecteerd item openen.
+
+U kunt een onderdeel alleen openen als u een bepaald onderwerp met de muis of cursor heeft gemarkeerd. U gaat bijvoorbeeld met de muis naar de Probleemoplosser en klikt één keer op de titel. Als u nu de optie 
+Openen 
+kiest, opent u de Probleemoplosser. 
+
+
+
+
+Tip
+: U kunt een onderdeel ook openen door op de titel of het pictogram te dubbelklikken.
+
+
+
+
+
+Verwijderen
+
+Als u voor de optie 
+Bestand
+ð
+Verwijderen 
+kiest, dan kunt u een geselecteerd item verwijderen. 
+
+U kunt niet alle onderdelen zomaar verwijderen; alleen 
+
+Service Centerrapporten
+
+ en 
+
+updates
+
+ kunnen verwijderd worden. Alle andere onderdelen zijn standaard met Davilex Service meegeleverd en kunnen daarom niet verwijderd worden.
+
+
+
+
+Tip
+:U kunt de optie 
+Verwijderen 
+alleen gebruiken, als deze actief is. Heeft u een onderdeel geselecteerd dat niet verwijderd mag worden, dan is de optie 
+Verwijderen 
+lichtgrijs en dus niet actief.
+
+
+
+
+
+
+Printerinstellingen
+
+Als u de menu-optie 
+Bestand
+ð
+Printerinstellingen 
+heeft gekozen, kunt u de printerinstellingen van Windows veranderen. Het dialoogvenster 
+
+Printerinstellingen
+
+ verschijnt. Hierin kunt u de printer, het papierformaat en de afdrukrichting instellen. 
+
+
+
+Mailserver-instellingen
+
+
+
+In sommige gevallen kan het voorkomen dat uw Internetprovider niet kan werken met de mailserver van Davilex. U kunt uw rapport of adreswijziging dan niet per e-mail naar Davilex sturen. Is dit het geval, neem dan 
+
+contact op met het Service Center
+
+. Zij geven u de juiste instelling, die u bij deze optie kunt invullen.
+
+
+
+Afdrukken
+
+Wilt u een 
+
+rapport voor het Service Center
+
+ afdrukken, dan kiest u voor de optie 
+Bestand
+ð
+Afdrukken
+. 
+ 
+U ziet nu een dialoogvenster waarin u onder andere het aantal exemplaren, de printer en de gewenste 
+
+
+
+pagina(
+‘
+s) kunt selecteren.
+
+
+
+
+Tip
+:Niet alle onderdelen kunnen afgedrukt worden. Heeft u een onderdeel geselecteerd dat niet afgedrukt kan worden, dan is de optie 
+Afdrukken 
+lichtgrijs. Dit betekent dat het onderdeel niet actief is.
+
+
+
+
+
+Afsluiten
+
+
+Als u met Davilex Service wilt stoppen, dan kiest u de optie 
+Bestand
+ð
+Afsluiten
+. Als u eventueel nieuwe onderdelen heeft toegevoegd, of onderdelen heeft verwijderd, dan slaat Davilex Service deze veranderingen op tijdens het afsluiten. 
+
+
+
+
+===== TOPIC 46: Menu Beeld =====
+
+
+Menu Beeld
+
+
+
+
+Statusbalk
+
+
+Als u Davilex Service start, zal standaard de 
+
+statusbalk
+
+ onderin het venster verschijnen. Wilt u deze statusbalk niet in beeld hebben, dan kiest u voor de optie 
+Beeld
+ð
+Statusbalk
+. H
+et vinkje 
+ voor 
+‘
+Statusbalk
+’
+ verdwijnt daardoor en de statusbalk is uit beeld verdwenen. Wilt u de statusbalk weer in het venster, dan herhaalt u deze actie. Het vinkje komt nu weer voor 
+‘
+Statusbalk
+’
+ te staan en de statusbalk staat weer onderin het venster.
+
+
+
+
+
+Grote pictogrammen/Lijst/Details
+
+
+Via deze opties kunt u de weergave van de onderdelen bepalen. Kiest u voor de optie 
+Beeld
+ð
+Grote pictogrammen
+,
+ 
+dan verschijnen de onderdelen als 
+
+pictogram
+
+ in het venster. Wilt u liever een lijst waarin de onderdelen zijn opgesomd, dan kiest u voor de optie 
+Beeld
+ð
+Lijst
+. Wilt u ook de details van de onderdelen uit het programma standaard in beeld, dan kiest u de optie 
+Beeld
+ð
+Details
+.
+
+
+
+
+
+Vernieuwen
+
+
+Heeft u een onderdeel toegevoegd of verwijderd, dan kan het voorkomen dat de wijzigingen niet direct zichtbaar zijn. Wilt u de wijzigingen verwerken in de lijst met onderdelen, dan kiest u voor de optie 
+Beeld
+ð
+Vernieuwen
+. De lijst wordt opgefrist en de veranderingen zijn zichtbaar.
+
+
+
+Zie ook: 
+ 
+
+
+
+
+Pictogrammen
+
+
+
+
+Statusbalk en werkbalk
+
+ 
+
+
+
+
+===== TOPIC 47: Menu: Help =====
+
+
+Menu Help
+
+
+
+
+
+Help-onderwerpen
+
+
+Als u algemene informatie wilt over het gebruik of de onderdelen van Davilex Service, dan kunt u via de optie 
+Help
+ð
+Help-onderwerpen 
+de inhoudsopgave van het helpbestand oproepen. Hieruit kunt u het gewenste help-onderwerp selecteren en bekijken.
+
+
+Davilex op Internet
+
+
+Wilt u tijdens het gebruik van Davilex Service een uitstapje maken naar de homepage van Davilex, dan klikt u op de optie 
+Help
+ð
+Davilex op Internet
+ð
+Davilex Online
+. Het programma start Internet op en gaat direct naar de homepage van Davilex Software.
+
+
+
+
+
+De homepage bevat algemene informatie over Davilex. Vanaf deze pagina kunt u allerlei andere informatie oproepen, bijvoorbeeld over het productaanbod van Davilex Software, nieuwsberichten over de activiteiten van Davilex Software, updates en bestelinformatie.
+
+
+Als u tijdens het gebruik van Davilex Service het Online Service Center van Davilex wilt raadplegen, dan kiest u voor de optie 
+Help
+ð
+Davilex op Internet
+ð
+Davilex Service Center
+. Het programma 
+‘
+kijkt
+’
+ welk Davilex-programma u in de werkbalk heeft gekozen en start met de servicepagina van het betreffende programma. Heeft u bijvoorbeeld als specifiek programma Davi-Adres opgegeven, dan start het programma op de Online Service Center-pagina van Davi-Adres.
+
+
+
+
+De servicesectie van Davilex Online bevat een overzicht van antwoorden op vragen van gebruikers van Davilex-producten . Raadpleeg eerst dit overzicht als u een vraag heeft over een programma, voordat u 
+
+contact opneemt met het Service Center van Davilex 
+
+ .
+
+
+
+
+Info
+
+
+
+
+
+Als u de menu-optie 
+Help
+ð
+Info 
+kiest, krijgt u informatie over:
+
+
+
+
+§
+
+Versienummer en -datum van het programma.
+
+
+
+§
+
+Het vrije geheugen en het percentage systeemhulpbronnen dat beschikbaar is.
+
+
+
+Zie ook: 
+
+
+
+
+
+
+Davilex Online
+
+ 
+
+
+
+
+===== TOPIC 48: Statusbalk en werkbalk =====
+
+
+Statusbalk en werkbalk
+
+
+
+
+In het hoofdvenster van Davilex Service ziet u een 
+
+werkbalk
+
+ en een 
+
+statusbalk
+
+ . Deze balken kunnen het werken met Davilex Service eenvoudiger maken.
+
+
+De werkbalk
+ 
+
+
+
+
+Met de keuzelijst in de werkbalk kunt u aangeven of u onderdelen wilt gebruiken die voor ieder programma gelden (optie 
+Algemeen
+) of dat u programmaspecifieke onderdelen wilt gebruiken (bijvoorbeeld Wonen DeLuxe). Kiest u voor de optie 
+Algemeen
+, dan ziet u in het hoofdvenster een weergave van alle algemeen geldende functies, zoals 
+
+Adreswijziging
+
+ en 
+
+Davilex E-Nieuws
+
+ . 
+
+
+
+
+Heeft u een probleem met een specifiek programma, dan is het handiger om direct het betreffende programma uit de keuzelijst te selecteren. U heeft dan direct de beschikking over de help-documentatie die over dat programma beschikbaar is. Daarnaast kunt u direct aan de slag met de goede probleemoplosser.
+
+
+
+
+Let op
+: Davilex Service zoekt automatisch naar alle geïnstalleerde Davilex-programma
+’
+s. In de keuzelijst verschijnen dan ook alle Davi-programma
+’
+s die op de harde schijf van uw computer staan.
+
+
+
+
+Naast de keuzelijst staan er nog andere knoppen op de werkbalk. Met 
+ toont u de onderdelen van het hoofdvenster als grote pictogrammen, 
+ gebruikt u als u de onderdelen als een lijst wilt zien en 
+ laat u een korte omschrijving van de onderdelen zien. 
+
+
+De statusbalk
+
+
+
+
+
+De statusbalk ziet u onderin het venster. Als u nog geen onderdeel uit het scherm heeft geselecteerd, is deze balk leeg. Heeft u wel een onderdeel geselecteerd, dan verschijnt er een toelichting bij het onderdeel in de statusbalk. In de afbeelding hierboven ziet u bijvoorbeeld de naam van het bestand dat in Music Manager is geopend. 
+
+
+
+Let op
+: Als u de optie 
+Statusbalk 
+uit het menu 
+Beeld
+ð
+Statusbalk 
+op niet-actief heeft staan (er staat geen vinkje voor de optie), dan zal deze informatie niet worden weergegeven.
+
+
+
+Zie ook: 
+
+
+
+
+
+
+Menu Beeld
+
+ 
+
+
+
+
+===== TOPIC 49: Pictogrammen =====
+
+
+Pictogrammen
+
+
+
+
+In het hoofdvenster van Davilex Service vindt u een overzicht van functies die in het programma zijn opgenomen. Deze functies zijn standaard weergegeven in grote pictogrammen. Wilt u een andere weergave, dan kunt u kiezen voor een weergave als lijst of een weergave in details. 
+
+Davilex Service heeft twee verschillende vensters, te weten een venster met 
+
+algemene pictogrammen
+
+ en een venster met 
+
+pictogrammen voor een specifiek Davilex-programma
+
+.
+
+
+
+
+
+
+
+Met de keuzelijst in de 
+
+werkbalk
+
+ kunt u aangeven of u onderdelen wilt gebruiken die voor ieder programma gelden (optie Algemeen) of dat u programmaspecifieke onderdelen wilt gebruiken (bijvoorbeeld Cursus Word (1.0.0). 
+
+
+
+Zie ook: 
+
+
+
+
+
+
+Menu Beeld
+
+ 
+
+
+
+Statusbalk en werkbalk
+
+ 
+
+
+
+
+===== TOPIC 50: Algemene pictogrammen =====
+
+
+Algemene pictogrammen
+
+
+
+
+Als u in de werkbalk de optie 
+Algemeen 
+selecteert uit de keuzelijst, dan verschijnt het hoofdvenster met pictogrammen voor algemene functies. Standaard start het serviceprogramma overigens ook met deze pictogrammen.
+
+In het hoofdvenster 
+‘
+Algemeen
+’
+ staan de volgende onderdelen:
+
+
+
+
+
+
+
+
+Via deze handige Probleemoplossende Wizard kunt u stap voor stap een probleem oplossen.
+
+
+
+
+
+
+
+Met deze optie gaat u direct naar de Davilex-site op Internet. 
+
+
+
+
+
+
+
+Via dit pictogram kunt u rechtstreeks naar de algemene servicepagina op de Davilex homepage.
+
+
+
+
+
+
+
+
+Met deze optie opent u de Update Wizard. Hiermee kunt u kijken of er nieuwere versies van het programma bestaan.
+
+
+
+
+
+
+
+
+Via deze optie kunt u eenvoudig uw adreswijziging aan Davilex doorgeven.
+
+
+
+
+
+
+
+Door deze optie te kiezen, kunt u zich abonneren op E-Nieuws of uw abonnement opzeggen.
+
+
+
+
+
+
+
+
+
+Met deze optie kunt u Davilex-producten aanschaffen via Internet.
+
+
+
+
+===== TOPIC 51: Pictogrammen voor een specifiek programma =====
+
+
+Pictogrammen voor een specifiek programma
+
+
+
+
+
+
+
+Als u uit de keuzelijst van de werkbalk een specifiek programma selecteert, dan verschijnen er in het hoofdvenster pictogrammen met programmaspecifieke onderdelen. 
+
+De volgende onderdelen zijn beschikbaar:
+
+
+
+
+
+
+
+
+Hiermee opent u de handige Wizard, waarmee u een specifiek probleem binnen het programma kunt oplossen.
+
+
+
+
+
+
+
+
+Als u op dit onderdeel klikt, opent u het helpbestand van uw Davilex-programma.
+
+
+
+
+
+
+
+Met dit onderdeel opent u het leesmij-bestand van het programma.
+
+
+
+
+
+
+
+Via deze optie komt u direct op de Internet-pagina van Davilex met de meestgestelde vragen over het programma.
+
+
+
+
+
+
+
+
+Met deze optie opent u de Update Wizard van het betreffende programma, waarmee u de nieuwste update kunt downloaden.
+
+
+
+
+
+
+
+
+Met deze optie activeert u de Verwijder Wizard en kunt u het programma van de harde schijf van uw computer verwijderen.
+
+
+
+
+===== TOPIC 52: Printerinstellingen =====
+
+
+Printerinstellingen
+
+
+
+Printer
+
+
+
+
+Bovenaan ziet u welke printer op dit moment de standaardprinter is. Wilt u een andere printer(definitie) gebruiken, dan kunt u dit hier aangeven. Kies uit de lijst met beschikbare printerdefinities de printer die u wilt gebruiken.
+
+
+
+
+Oriëntatie
+
+
+
+
+Linksonderaan kunt u de afdrukrichting (oriëntatie) aangeven. U kunt aangeven of u rechtop (portret) of dwars (landschap) op het papier wilt afdrukken.
+
+
+
+
+Papierformaat
+
+
+
+
+Rechtsonderaan kunt u aangeven welk papierformaat u wilt gebruiken. Beschikt uw printer over meerdere invoermagazijnen, vergeet dan niet het juiste papiermagazijn aan te geven. U bevestigt de printerinstellingen met de knop 
+OK
+.
+
+
+
+
+
+Afhankelijk van uw printer zijn er extra instellingen voor de printer mogelijk. Hiervoor klikt u op de knop 
+Opties
+. De mogelijkheden die u heeft, zijn afhankelijk van de printer die u heeft geselecteerd.
+
+
+
+
+===== TOPIC 53: Veelvoorkomende problemen =====
+
+
+Veelvoorkomende problemen
+
+
+
+
+Op het Service Center komen regelmatig vragen binnen met betrekking tot het onderhoud van de computer. 
+
+Deze vragen hebben betrekking op:
+
+
+Computer in goede conditie houden
+
+ 
+
+
+Landinstelling wijzigen
+
+ 
+
+
+Grafische kaart instellen
+
+ 
+
+
+stuurprogrammaproblemen
+
+ 
+
+
+
+
+
+===== TOPIC 54: Computer in goede conditie houden =====
+
+
+Computer in goede conditie houden
+
+
+
+
+Soms is het nodig dat u een aantal handelingen uitvoert om de conditie van uw computer te verbeteren. Het kan voorkomen dat er bestanden op de harde schijf staan, die niet meer gebruikt worden.
+
+Het is nodig om de conditie te verbeteren als:
+
+
+
+§
+
+Een programma vastloopt tijdens het afdrukken.
+
+
+
+§
+
+Er regelmatig algemene beschermingsfouten worden gemeld.
+
+
+
+§
+
+Een programma langzamer werkt dan u gewend bent.
+
+
+
+§
+
+Er regelmatig foutmeldingen verschijnen bij het lezen van de harde schijf (I/O error during read).
+
+
+
+§
+
+Er meldingen verschijnen over beschadigde bestanden.
+
+
+
+§
+
+Er een melding verschijnt over het niet kunnen openen van een bestand.
+
+
+
+Krijgt u één van de bovenstaande meldingen, dan kunt u het volgende doen:
+
+
+
+
+Tijdelijke bestanden verwijderen
+
+ 
+
+
+
+
+Harde schijf controleren met Scandisk
+
+ 
+
+
+
+
+Harde schijf defragmenteren
+
+ 
+
+
+
+
+Het aantal bestanden in CONFIG.SYS veranderen
+
+ 
+
+
+
+Tip: 
+Het is aan te raden om de helpteksten van bovenstaande onderwerpen af te drukken, voordat u deze dingen gaat uitvoeren op uw computer.
+
+
+
+
+===== TOPIC 55: Tijdelijke bestanden verwijderen =====
+
+
+Tijdelijke bestanden verwijderen
+
+
+
+
+Tijdens het gebruik van uw computer kan er ongewild vervuiling optreden van de harde schijf. Daarom is het aan te bevelen om regelmatig de tijdelijke bestanden van uw computer te verwijderen. U doet dit als volgt:
+
+
+
+
+1.
+Ga naar 
+Start
+ð
+Afsluiten
+ 
+en kies de optie 
+‘
+Opstarten in MS-DOS modus
+’
+.
+
+
+
+
+2.
+
+Typ in: SET 
+¿
+.
+
+
+
+
+3.
+
+Er verschijnt een lijst met instellingen van uw pc. In deze instellingen leest u in welke map de tijdelijke bestanden worden bewaard, bijvoorbeeld in C:\WINDOWS\TEMP.
+
+
+
+
+4.
+
+Ga naar de goede map. U doet dit door het commando CD met daarachter de goede map in te typen. Bijvoorbeeld: CD \WINDOWS\TEMP 
+¿
+.
+
+
+
+
+5.
+
+Verwijder alle overbodige tijdelijke bestanden met het commando: DEL *.tmp 
+¿
+.
+
+
+
+
+6.
+
+Herhaal stap 4 en 5 als er meerdere mappen met tijdelijke bestanden bestaan.
+
+
+
+
+7.
+
+Keer terug naar Windows 95 door het volgende commando in te typen: EXIT 
+¿
+.
+
+
+
+
+De tijdelijke bestanden zijn nu verwijderd.
+
+
+
+
+===== TOPIC 56: Harde schijf controleren met Scandisk =====
+
+
+Harde schijf controleren met Scandisk
+
+
+
+
+Beschadiging van uw harde schijf kan optreden als uw computer regelmatig vastloopt of niet goed wordt afgesloten. U kunt u harde schijf controleren op fouten door het programma Scandisk te gebruiken. Dit doet u als volgt:
+
+
+
+
+1.
+Kies de optie 
+Start
+ð
+Uitvoeren
+.
+ 
+
+
+
+
+2.
+
+Typ in de opdrachtregel SCANDISK en klik op 
+OK
+.
+
+
+
+3.
+
+Selecteer de opties 
+‘
+Uitgebreid
+’
+ en 
+‘
+Fouten automatisch repareren
+’
+.
+
+
+
+4.
+
+Druk op 
+Beginnen
+ en volg de aanwijzingen van het programma.
+
+
+
+Alle overbodige bestanden worden op deze manier verwijderd.
+
+
+
+
+===== TOPIC 57: Harde schijf defragmenteren =====
+
+
+Harde schijf defragmenteren
+
+
+
+
+Met het defragmenteren van uw harde schijf bereikt u dat de bestanden zoveel mogelijk bij elkaar worden geplaatst, waardoor extra ruimte op uw harde schijf kan ontstaan en u snellere toegang tot bestanden kunt krijgen.
+
+U defragmenteert de harde schijf als volgt:
+
+
+
+
+1.
+Kies de optie 
+Start
+ð
+Uitvoeren
+.
+
+
+
+
+2.
+
+Typ in de opdrachtregel DEFRAG en klik op 
+OK
+. Het programma kan aangeven dat het defragmenteren niet nodig is, omdat slecht een klein gedeelte van de harde schijf gefragmenteerd is. Het is echter wel aan te raden om de defragmentatie uit te voeren, zeker als u de harde schijf niet regelmatig defragmenteert.  
+
+
+
+
+Let op
+: als uw computer over meerdere harde schijven beschikt, zult u DEFRAG voor elke harde schijf apart moeten uitvoeren. Dit kan enige tijd in beslag nemen, afhankelijk van de grootte van de harde schijf.
+
+
+
+
+===== TOPIC 58: Het aantal bestanden in CONFIG.SYS veranderen =====
+
+
+Het aantal bestanden in CONFIG.SYS veranderen
+
+
+
+
+U kunt problemen hebben met het werken met Davilex-producten, omdat het aantal bestanden dat u in het bestand CONFIG.SYS heeft gedeclareerd, niet voldoende is. 
+
+U kunt het aantal bestanden in CONFIG.SYS als volgt aanpassen:
+
+
+Voor Windows 3.x:
+
+
+
+1.
+Sluit Windows af.
+
+
+
+2.
+
+Typ het volgende commando in achter de C:\-prompt: EDIT C:\CONFIG.SYS 
+¿
+.
+
+
+
+
+3.
+Wijzig de regel FILES=XX in FILES=80.
+
+
+
+4.
+Kies de optie 
+Bestand
+ð
+Opslaan
+ en sluit het programma vervolgens af.
+
+
+
+
+5.
+
+Start de computer opnieuw op.
+
+
+
+
+Voor Windows 95:
+
+
+
+1.
+Ga naar 
+Start
+ð
+Uitvoeren
+.
+
+
+
+
+2.
+
+Typ SYSEDIT in de uitvoerregel en klik op 
+OK
+.
+
+
+
+
+3.
+
+Er worden nu een aantal vensters geopend. Het eerste venster, te weten 
+‘
+AUTOEXEC.BAT
+’
+ kunt u afsluiten.
+
+
+
+
+4.
+
+In het venster 
+‘
+CONFIG.SYS
+’
+ wijzigt u de regel FILES=XX in FILES=80.
+
+
+
+
+5.
+
+Kies de optie 
+Bestand
+ð
+Opslaan
+ en sluit het venster af.
+
+
+
+
+6.
+
+Start de computer opnieuw op.
+
+
+
+
+
+===== TOPIC 59: Landinstelling wijzigen =====
+
+
+Landinstelling wijzigen
+
+
+
+
+Bij sommige programma
+’
+s kunnen er problemen ontstaan, omdat de landinstelling niet juist is. 
+
+U moet de landinstelling wijzigen als:
+
+
+
+§
+
+Een jaartal in slechts twee cijfers wordt weergegeven.
+
+
+
+§
+
+De datum of tijd niet correct wordt weergegeven.
+
+
+
+§
+
+Punten of komma
+’
+s in bedragen of getallen niet goed worden weergegeven.
+
+
+
+Voor de Davilex-producten geldt een standaard landinstelling. U kunt de juiste landinstellingen als volgt instellen:
+
+
+
+1.
+Ga via 
+Start 
+ð
+Instellingen
+ naar het Configuratiescherm en dubbelklik op het pictogram 
+Landinstellingen
+.
+2.
+Selecteer het tabblad 
+Landinstellingen
+ en stel het land in op "Nederlands (Standaard)".
+3.
+Kies vervolgens voor het tabblad 
+Datum
+ en stel de stijl Korte datumnotatie in en als notatie "dd-mm-jjjj".
+4.
+Als Datumscheidingsteken stelt u "-" in.
+5.
+Op het tabblad 
+Getal
+ stelt u als Decimaalsymbool een komma in en als Cijfergroeperingssymbool een punt.
+
+
+
+6.
+Selecteer het tabblad 
+Valuta
+ en stel hier dezelfde waarden in als op het tabblad 
+Getal
+.
+7.
+Klik nu op de knop 
+Toepassen
+ gevold door 
+OK
+.
+
+
+
+Tip: 
+Het is aan te raden om de helpteksten van bovenstaande onderwerpen af te drukken, voordat u deze dingen gaat uitvoeren op uw computer.
+
+
+
+
+===== TOPIC 60: Grafische kaart instellen =====
+
+
+Grafische kaart instellen
+
+
+
+
+Bij sommige Davilex-producten kunt u problemen ondervinden als u de grafische kaart van de computer niet goed heeft ingesteld. 
+
+U moet de grafische kaart opnieuw instellen als:
+
+
+
+§
+
+De knoppen in het programma niet goed zichtbaar zijn.
+
+
+
+§
+
+Het besturingsprogramma van de grafische kaart foutmeldingen geeft.
+
+
+
+§
+
+De weergave van programma
+’
+s na installatie van een Davilex-product niet meer correct is.
+
+
+
+Om dit probleem op te lossen kunt u de 
+
+grafische kaart instellen op Standaard SVGA
+
+ .
+
+
+
+Tip
+: Het is aan te raden om de helpteksten van bovenstaande onderwerpen af te drukken, voordat u deze dingen gaat uitvoeren op uw computer.
+
+
+
+
+===== TOPIC 61: Grafische kaart instellen op Standaard SVGA =====
+
+
+Grafische kaart instellen op Standaard SVGA
+
+
+
+
+Zorg ervoor dat u de installatiediskettes of cd-rom van Windows 95 bij de hand te heeft, voordat u de instellingen van uw grafische kaart gaat veranderen.
+
+U verandert de instellingen als volgt:
+
+
+
+
+1.
+Ga naar 
+Start
+ð
+Instellingen
+ð
+Configuratiescherm
+ð
+Beeldscherm
+ . 
+
+
+
+2.
+Het venster Eigenschappen voor Beeldscherm verschijnt. 
+
+
+
+3.
+Klik op het tabblad Instellingen en dubbelklik op 
+Beeldschermtype wijzigen
+. Het venster Beeldschermtype wijzigen verschijnt. 
+
+
+
+4.
+Klik op 
+Wijzigen
+ bij Adaptertype. Het venster Apparaat selecteren wordt nu geopend.
+
+
+
+5.
+Klik eerst op het keuzerondje voor 
+“
+Alle apparaten weergeven
+”
+ zodat de hele lijst, met alle apparaten, in het linkergedeelte verschijnt. 
+
+
+
+§
+
+Vul bij 
+“
+Fabrikanten
+”
+ in: 
+“
+Standaardbeeldscherm
+”
+.
+
+
+
+§
+
+Vul bij 
+“
+Modellen
+”
+ in: 
+“
+Super VGA
+”
+.
+
+
+
+6.
+Klik op 
+OK
+ en kies vervolgens 
+voor Wijzigen Beeldschermtype
+. Kies ook hier weer voor 
+“
+Alle apparaten weergeven
+”
+ en vul in het venster de volgende gegevens in:
+
+
+
+§
+
+
+
+“
+Fabrikanten
+”
+: 
+“
+Standaard monitortypen
+”
+ 
+
+
+
+§
+
+
+
+“
+Modellen
+”
+: 
+“
+Super VGA 800x600
+”
+  (of indien uw monitor dit ondersteunt: 
+“
+1024x768
+”
+) 
+
+
+
+7.
+Stel op het tabblad Instellingen (Stap 3) het 
+“
+Kleurenpalet
+”
+ in op 256 kleuren en 
+“
+Tekengrootte
+”
+ op klein lettertype.
+
+
+
+8.
+Klik op 
+OK
+. Windows 95 vraagt nu of de computer opnieuw opgestart moet worden om de wijzigingen toe te passen. Beantwoord deze vraag met 
+Ja
+.
+
+
+
+
+===== TOPIC 62: Problemen met stuurprogramma's =====
+
+
+Problemen met stuurprogramma's
+
+
+
+
+Als u problemen heeft met stuurprogramma
+’
+s die los staan van het Davilex-programma, dan kan het Service Center u hier helaas niet mee helpen. U kunt wel de internetpagina van Davilex Online bekijken. Hierop vindt u de (internet)adressen van de leveranciers van stuurprogramma
+’
+s. U kunt hier (meestal gratis) de laatste stuurprogramma
+’
+s downloaden of bestellen.
+
+
+
+
+===== TOPIC 63:  =====

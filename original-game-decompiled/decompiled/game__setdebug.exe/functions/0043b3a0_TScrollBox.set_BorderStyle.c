@@ -1,0 +1,20 @@
+
+/* ==== TScrollBox.set_BorderStyle @ 0043b3a0 ==== 
+ * signature: undefined TScrollBox.set_BorderStyle(void)
+ * body: 0043b3a0-0043b3b3
+ * note: Name source: Delphi RTTI property accessor
+ */
+
+/* Name source: Delphi RTTI property accessor */
+
+void TScrollBox_set_BorderStyle(int param_1,char param_2)
+
+{
+  if (param_2 != *(char *)(param_1 + 0x208)) {
+    *(char *)(param_1 + 0x208) = param_2;
+    FUN_00427e64(param_1);
+  }
+  return;
+}
+
+

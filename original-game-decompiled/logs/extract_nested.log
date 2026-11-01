@@ -1,0 +1,27 @@
+[carve-MSCF] original/disc/Adobe Acrobat/rp505nld.exe -> extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs (1 files) rc=0 1 cabinet(s)
+[cabextract] original/disc/DXSetup/DirectX.cab -> extracted/disc_DXSetup_DirectX.cab__cab (105 files) rc=0 
+[carve-MSCF] original/disc/MSagent/MSagent.exe -> extracted/disc_MSagent_MSagent.exe__embedded-cabs (1 files) rc=0 1 cabinet(s)
+[carve-MSCF] original/disc/dxmedia/DXMEDIA.exe -> extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs (12 files) rc=0 12 cabinet(s)
+[cabextract] extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_00_at_0002c6a0.cab -> extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_00_at_0002c6a0.cab__cab (4 files) rc=0 
+[cabextract] extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_01_at_00051a08.cab -> extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_01_at_00051a08.cab__cab (3 files) rc=0 
+[cabextract] extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_02_at_00091330.cab -> extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_02_at_00091330.cab__cab (7 files) rc=0 
+[cabextract] extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_03_at_000fd240.cab -> extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_03_at_000fd240.cab__cab (14 files) rc=0 
+[cabextract] extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_04_at_00240f90.cab -> extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_04_at_00240f90.cab__cab (2 files) rc=0 
+[cabextract] extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_05_at_00249170.cab -> extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_05_at_00249170.cab__cab (15 files) rc=0 
+[cabextract] extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_06_at_002f70b0.cab -> extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_06_at_002f70b0.cab__cab (5 files) rc=0 
+[cabextract] extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_07_at_00334d58.cab -> extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_07_at_00334d58.cab__cab (11 files) rc=0 
+[cabextract] extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_08_at_00390358.cab -> extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_08_at_00390358.cab__cab (2 files) rc=0 
+[cabextract] extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_09_at_00393758.cab -> extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_09_at_00393758.cab__cab (9 files) rc=0 
+[cabextract] extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_10_at_00455038.cab -> extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_10_at_00455038.cab__cab (2 files) rc=0 
+[cabextract] extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_11_at_004638a8.cab -> extracted/disc_dxmedia_DXMEDIA.exe__embedded-cabs/cab_11_at_004638a8.cab__cab (3 files) rc=0 
+[cabextract] extracted/disc_MSagent_MSagent.exe__embedded-cabs/cab_00_at_00010660.cab -> extracted/disc_MSagent_MSagent.exe__embedded-cabs/cab_00_at_00010660.cab__cab (18 files) rc=0 
+[cabextract] extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs/cab_00_at_00020528.cab -> extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs/cab_00_at_00020528.cab__cab (154 files) rc=0 
+[unshield] extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs/cab_00_at_00020528.cab__cab/_sys1.cab -> extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs/cab_00_at_00020528.cab__cab/_sys1.cab__installshield (4 files) rc=0 
+[unshield] extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs/cab_00_at_00020528.cab__cab/_user1.cab -> extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs/cab_00_at_00020528.cab__cab/_user1.cab__installshield (10 files) rc=0 
+[unshield] extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs/cab_00_at_00020528.cab__cab/data1.cab -> extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs/cab_00_at_00020528.cab__cab/data1.cab__installshield (5 files) rc=0 
+[7z-zip] extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs/cab_00_at_00020528.cab__cab/SVG Files/SVGViewer.zip -> extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs/cab_00_at_00020528.cab__cab/SVG Files/SVGViewer.zip__zip (245 files) rc=0 
+[carve-MSCF] extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs/cab_00_at_00020528.cab__cab/_user1.cab__installshield/Language_Independent_Intel_32_Files/ShFolder.Exe -> extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs/cab_00_at_00020528.cab__cab/_user1.cab__installshield/Language_Independent_Intel_32_Files/ShFolder.Exe__embedded-cabs (1 files) rc=0 1 cabinet(s)
+[cabextract] extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs/cab_00_at_00020528.cab__cab/_user1.cab__installshield/Language_Independent_Intel_32_Files/ShFolder.Exe__embedded-cabs/cab_00_at_0000e994.cab -> extracted/disc_Adobe_Acrobat_rp505nld.exe__embedded-cabs/cab_00_at_00020528.cab__cab/_user1.cab__installshield/Language_Independent_Intel_32_Files/ShFolder.Exe__embedded-cabs/cab_00_at_0000e994.cab__cab (5 files) rc=0 
+[carve-MSCF] extracted/disc-setup.EXE__wise/COMCTRL_EXE -> extracted/disc-setup.EXE__wise/COMCTRL_EXE__embedded-cabs (1 files) rc=0 1 cabinet(s)
+[cabextract] extracted/disc-setup.EXE__wise/COMCTRL_EXE__embedded-cabs/cab_00_at_00010698.cab -> extracted/disc-setup.EXE__wise/COMCTRL_EXE__embedded-cabs/cab_00_at_00010698.cab__cab (7 files) rc=0 
+containers opened: 26

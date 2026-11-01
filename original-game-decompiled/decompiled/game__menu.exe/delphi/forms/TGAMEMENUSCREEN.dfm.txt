@@ -1,0 +1,72 @@
+object GameMenuScreen: TGameMenuScreen
+  Left = 150
+  Top = 204
+  ActiveControl = btnHelp.WrapperbtnHelp
+  BorderStyle = bsNone
+  ClientHeight = 472
+  ClientWidth = 792
+  Color = clRed
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWhite
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = True
+  Scaled = False
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object imgBackGround: TImage
+    Left = 0
+    Top = 0
+    Width = 792
+    Height = 472
+    Align = alClient
+  end
+  object btnHelp: TGDIButton
+    Left = 609
+    Top = 7
+    Width = 100
+    Height = 41
+    Cancel = False
+    Default = False
+    ModalResult = 0
+    Definition = Data.gdfBtnHelp
+    MouseCheckDelay = 60
+    TabOrder = 0
+    TabStop = True
+    Caption = 'btnHelp'
+    OnClick = btnHelpClick
+  end
+  object btnClose: TGDIButton
+    Left = 685
+    Top = 7
+    Width = 102
+    Height = 41
+    Cancel = True
+    Default = False
+    ModalResult = 0
+    Definition = Data.gdfBtnClose
+    MouseCheckDelay = 60
+    TabOrder = 1
+    TabStop = True
+    Caption = 'btnClose'
+    OnClick = btnCloseClick
+  end
+  object imgItem: TGDIGraphic
+    Left = 456
+    Top = 96
+    Width = 100
+    Height = 50
+    LinkedGraphic.Storage = SL_EXTERNAL
+    LinkedGraphic.GraphicName = ''
+    TransparentColor = clBlack
+    Transparent = False
+    TransparentMode = tmAuto
+    Translucent = True
+    TranslucencyFactor = 255
+  end
+end

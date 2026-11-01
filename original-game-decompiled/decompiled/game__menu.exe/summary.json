@@ -1,0 +1,23 @@
+{
+ "program": "menu.exe",
+ "language": "x86:LE:32:default",
+ "compiler_spec": "borlanddelphi",
+ "image_base": "00400000",
+ "ghidra_version": "12.1.4",
+ "functions": 7250,
+ "decompiled": 7249,
+ "assembly_only": 1,
+ "retried": 1,
+ "decompiled_with_fallback_style": 0,
+ "strings": 2697,
+ "instructions": 169572,
+ "executable_bytes": 689152,
+ "executable_bytes_without_instructions": 201288,
+ "gap_padding_bytes": 1083,
+ "gap_defined_data_bytes": 951,
+ "gap_ambiguous_bytes": 125989,
+ "instruction_bytes_outside_functions": 0,
+ "unreachable_after_noreturn_regions": 0,
+ "unreachable_after_noreturn_bytes": 0,
+ "error_bookmarks": 15
+}

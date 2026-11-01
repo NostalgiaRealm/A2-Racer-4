@@ -1,0 +1,63 @@
+object frmStartInfo: TfrmStartInfo
+  Left = 268
+  Top = 178
+  ActiveControl = chkStartInfo.WrapperchkStartInfo
+  Caption = 'frmStartInfo'
+  ClientHeight = 380
+  ClientWidth = 383
+  OldCreateOrder = True
+  PixelsPerInch = 96
+  TextHeight = 13
+  object chkStartInfo: TGDICheckBox
+    Left = 17
+    Top = 287
+    Width = 40
+    Height = 40
+    Checked = False
+    Definition = Data.gdfCheckBox
+    TabOrder = 2
+    MouseCheckDelay = 60
+  end
+  object btnCancel: TGDIButton
+    Left = 127
+    Top = 338
+    Width = 80
+    Height = 75
+    Cancel = True
+    Default = False
+    ModalResult = 2
+    Definition = Data.gdfBtnCancelDlg
+    MouseCheckDelay = 60
+    TabOrder = 1
+    TabStop = True
+    Caption = 'btnCancel'
+  end
+  object btnHelp: TGDIButton
+    Left = 266
+    Top = 24
+    TabOrder = 3
+    Visible = False
+  end
+  object btnClose: TGDIButton
+    Left = 208
+    Top = 24
+    TabOrder = 4
+    Visible = False
+  end
+  object btnOk1: TGDIButton
+    Left = 204
+    Top = 338
+    ModalResult = 0
+    TabOrder = 0
+    OnClick = btnOkClick
+  end
+  object lblClickArea: TLabel
+    Left = 56
+    Top = 296
+    Width = 161
+    Height = 36
+    AutoSize = False
+    Transparent = True
+    OnClick = lblClickAreaClick
+  end
+end

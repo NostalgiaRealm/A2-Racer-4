@@ -1,0 +1,53 @@
+:Base Leesmij.hlp
+:Title Leesmij A2 Racer
+1 Algemeen
+2 Algemeen=Algemeen
+2 Welkom bij de leesmij.hlp=Welkom_bij_de_leesmij.hlp
+2 Credits A2 Racer=Credits_A2_Racer
+1 Problemen en veelgestelde vragen
+2 Veelvoorkomende problemen
+3 Waarom werkt de besturing van mijn gamepad niet (goed)?=Waarom_werkt_de_besturing_van_mijn_gamepad_niet_(goed)?
+3 Waarom werkt de besturing van mijn stuur niet (goed)?=Waarom_werkt_de_besturing_van_mijn_stuur_niet_(goed)?
+3 Waarom start het programma niet goed op na installatie?=Waarom_start_het_programma_niet_goed_op_na_installatie?
+3 Waarom ontmoet ik tijdens het spel zo weinig andere verkeersdeelnemers?=Waarom_ontmoet_ik_tijdens_het_spel_zo_weinig_andere_verkeersdeelnemers?
+2 Foutmeldingen
+3 "Kan de A2 Racer cd-rom niet vinden"=Kan_de_A2_Racer_cd-rom_niet_vinden
+3 "Het is niet gelukt om de beeldscherminstellingen aan te passen"=De_foutmelding_het_is_niet_gelukt_om_de_beeldscherminstellingen_aan_te_passen
+3 Error - ...Blt_surf_2_surf blitting error (operation not supported)=Error_-_...Blt_surf_2_surf_blitting_error_(_operation_not_supported)
+3 Error-...could not create surface (application out of free memory)=Error_could_not_create_surface_application_out_of_free_memory_
+2 Weergave
+3 Mogelijke problemen
+4 Flikkerend beeld tijdens het spel=Flikkerend_beeld
+4 Een schokkerig of zwart beeld tijdens het spel=Waarom_heb_ik_schokkerig_of_zwart_beeld_tijdens_het_spel?
+4 De weergave tijdens het spel is te donker=De_weergave_tijdens_het_spel_is_te_donker
+4 Textures zijn niet transparant=Textures_zijn_niet_transparant
+4 Problemen met 3D-kaart=3D_kaarten
+3 Mogelijke oorzaken en oplossingen
+4 Jouw systeem voldoet niet aan de minimale systeemeisen=Jouw_systeem_voldoet_niet_aan_systeemeisen
+4 Er zijn andere programma's onder Windows actief=Er_zijn_andere_programma_s_onder_Windows_actief_
+4 Beeldschermresolutie is niet correct=Beeldschermresolutie_is_niet_correct
+4 Hardware-acceleratie is niet correct=Hardware_acceleratie_is_niet_correct
+4 Schermbeveiliging staat nog aan=Schermbeveiliging_staat_nog_aan
+4 Monitor is verkeerd ingesteld=Monitor_is_verkeerd_ingesteld
+4 Videosettings staan verkeerd=Videosettings_staan_verkeerd
+4 Wijzigen van de beeldvernieuwingsfrequentie=Wijzigen_van_de_beeldvernieuwingsfrequentie
+4 Nagaan welke versie videokaartstuurprogramma's er zijn geïnstalleerd=Welke_versie_videokaart_stuurprogramma's_zijn_er_geïnstalleerd?
+2 Geluid
+3 Hoe kan ik problemen met geluid oplossen?=Hoe_kan_ik_problemen_met_geluid_oplossen?
+3 Waarom werkt het geluid onder Windows niet meer na installatie van DirectX?=Waarom_werkt_het_geluid_onder_Windows_niet_meer_na_installatie_van_DirectX?
+2 DirectX
+3 Waarom heb ik na installatie van DirectX geen beeld meer in Windows?=Waarom_heb_ik_na_installatie_van_DirectX_geen_beeld_meer_in_Windows?
+3 Waarom werkt na installatie van DirectX het geluid onder Windows niet meer?=Waarom_werkt_na_installatie_van_DirectX_het_geluid_onder_Window_niet_meer_
+3 Nieuwe DirectX drivers installeren=Nieuwe_DirectX_drivers_installeren
+3 Update voor DirectX 7.0=Update_voor_DirectX_7.0
+1 Systeemtips
+2 Systeemtips - Inleiding=Systeemtips_-_Inleiding
+2 Tijdelijke bestanden van de computer verwijderen=Tijdelijke_bestanden_van_de_computer_verwijderen
+2 Speciale PowerVR instellingen=Speciale_PowerVR_instellingen
+2 Harde schijf op fouten scannen m.b.v. het programma Scandisk=Harde_schijf_op_fouten_scannen_m.b.v._het_programma_Scandisk
+2 Harde schijf defragmenteren=Harde_schijf_defragmenteren
+1 Service
+2 Wat moet ik doen bij problemen met het programma?=Service
+1 Laatste A2 Racer-nieuws
+2 Updates en extra's=Updates_en_extra's
+2 Update voor DirectX 7.0=Update_voor_DirectX_7.0

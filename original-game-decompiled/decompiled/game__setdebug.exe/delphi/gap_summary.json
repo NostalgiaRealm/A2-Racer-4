@@ -1,0 +1,10 @@
+{
+ "regions": 2115,
+ "bytes_by_class": {
+  "delphi-class-metadata": 40073,
+  "unknown": 12919,
+  "pointer-table": 1794,
+  "text-like": 2905,
+  "delphi-long-string-constant": 416
+ }
+}

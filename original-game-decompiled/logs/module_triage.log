@@ -1,0 +1,14 @@
+0 installer__wise-internal_stream_001_0000451a.exe
+50 acrobat__Reader_plug_ins_EScript.NLD
+100 acrobat__SVG_Files_SVGViewer.zip__zip_com_adobe_svg_JDocumentType.class
+150 acrobat__SVG_Files_SVGViewer.zip__zip_org_w3c_dom_Element.class
+200 acrobat__SVG_Files_SVGViewer.zip__zip_org_w3c_dom_svg_SVGColorProfileRule.class
+250 acrobat__SVG_Files_SVGViewer.zip__zip_org_w3c_dom_svg_SVGGlyphElement.class
+300 acrobat__SVG_Files_SVGViewer.zip__zip_org_w3c_dom_svg_SVGRectElement.class
+350 dxmedia__cab03_qcut.dll
+400 directx__dinput.dll
+450 msagent__AgentPsh.dll
+groups {'installer': 12, 'ms-redist': 9, 'acrobat': 318, 'dxmedia': 57, 'directx': 61, 'msagent': 13, 'davilex': 3, 'game': 6, 'netmanage': 4}
+packers {'ms-redist__COMCTRL_EXE': 'Installer: SQX Archive Installer 2002; SFX: Microsoft Cabinet(4.72.3110.0)', 'acrobat__ISDel.exe': 'Installer: InstallShield(5.51.138.0)', 'acrobat__Setup.dll': 'Installer: InstallShield(5.50.134.0)', 'acrobat__sys1_Dutch_Intel_32_Files__IsRes.Dll': 'Installer: InstallShield(5.50.131.0)', 'acrobat__sys1_Dutch_Intel_32_Files_IsUninst.exe': 'Installer: InstallShield(5.51.138.0)', 'acrobat__user1_Language_Independent_Intel_32_Files_ShFolder.Exe': 'Installer: SQX Archive Installer 2002; SFX: Microsoft Cabinet(5.50.4027.300)', 'acrobat__Setup.exe': 'Installer: InstallShield(5.52.164.0)', 'acrobat__rp505nld.exe': 'Installer: InstallShield(2.02.001)', 'msagent__MSagent.exe': 'Installer: SQX Archive Installer 2002; SFX: Microsoft Cabinet(4.71.1015.0)', 'installer__setup.EXE': 'Installer: Wise Installer'}
+high entropy {}
+resource-only 22

@@ -1,0 +1,135 @@
+object frmCurrentChar: TfrmCurrentChar
+  ActiveControl = btnChooseChar.WrapperbtnChooseChar
+  Caption = 'frmCurrentChar'
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnChooseChar: TGDIButton
+    Left = 112
+    Top = 515
+    Width = 100
+    Height = 50
+    Cancel = False
+    Default = False
+    ModalResult = 0
+    Definition = gdfBtnChoose
+    MouseCheckDelay = 60
+    TabOrder = 4
+    Caption = 'btnChooseChar'
+    OnClick = btnChooseCharClick
+  end
+  object btnPrevious: TGDIButton
+    TabOrder = 3
+  end
+  object btnNext: TGDIButton
+    TabOrder = 1
+  end
+  object btnClose: TGDIButton
+    TabOrder = 2
+  end
+  object lblTextBlock: TLabel
+    Left = 40
+    Top = 177
+    Width = 321
+    Height = 176
+    AutoSize = False
+    Caption = 'lblTextBlock'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+    WordWrap = True
+  end
+  object imgItem: TGDIGraphic
+    Left = 388
+    Top = 123
+  end
+  object imgItemName: TGDIGraphic
+    Left = 49
+    Top = 91
+    Width = 100
+    Height = 50
+    LinkedGraphic.Storage = SL_EXTERNAL
+    LinkedGraphic.GraphicName = ''
+    TransparentColor = clBlack
+    Transparent = False
+    TransparentMode = tmAuto
+    Translucent = True
+    TranslucencyFactor = 255
+  end
+  object lblAncTrackInd00: TLabel
+    Left = 152
+    Top = 480
+    Width = 71
+    Height = 13
+    Caption = 'lblAnchorInd00'
+    Transparent = True
+  end
+  object lblAncTrackInd01: TLabel
+    Left = 232
+    Top = 480
+    Width = 71
+    Height = 13
+    Caption = 'lblAnchorInd00'
+    Transparent = True
+  end
+  object lblPoints: TLabel
+    Left = 136
+    Top = 383
+    Width = 70
+    Height = 24
+    Caption = 'lblPoints'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object gdfBtnChoose: TGDIButtonDefinition
+    UpLink.Storage = SL_EXTERNAL
+    UpLink.GraphicName = ''
+    DownLink.Storage = SL_EXTERNAL
+    DownLink.GraphicName = ''
+    FocusedLink.Storage = SL_EXTERNAL
+    FocusedLink.GraphicName = ''
+    HoveredLink.Storage = SL_EXTERNAL
+    HoveredLink.GraphicName = ''
+    DisabledLink.Storage = SL_EXTERNAL
+    DisabledLink.GraphicName = ''
+    HintLink.Storage = SL_EXTERNAL
+    HintLink.GraphicName = ''
+    ClickRegionLink.Storage = SL_EXTERNAL
+    ClickRegionLink.GraphicName = ''
+    Width = 100
+    Height = 50
+    CaptionRect.Left = 0
+    CaptionRect.Top = 0
+    CaptionRect.Right = 0
+    CaptionRect.Bottom = 0
+    WordWrap = False
+    Layout = tlCenter
+    Alignment = taCenter
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    HintFont.Charset = DEFAULT_CHARSET
+    HintFont.Color = clWindowText
+    HintFont.Height = -11
+    HintFont.Name = 'MS Sans Serif'
+    HintFont.Style = []
+    Transparent = False
+    TransparentMode = tmAuto
+    TransparentColor = clBlack
+    Translucent = True
+    TranslucencyFactor = 255
+    OnButtonStateChange = gdfBtnChooseButtonStateChange
+    Left = 328
+    Top = 512
+  end
+end

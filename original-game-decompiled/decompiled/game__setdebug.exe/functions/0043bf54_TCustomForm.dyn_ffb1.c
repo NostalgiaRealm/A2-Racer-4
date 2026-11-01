@@ -1,0 +1,19 @@
+
+/* ==== TCustomForm.dyn_ffb1 @ 0043bf54 ==== 
+ * signature: undefined TCustomForm.dyn_ffb1(void)
+ * body: 0043bf54-0043bf70
+ * note: Name source: Delphi dynamic method table
+ */
+
+/* Name source: Delphi dynamic method table */
+
+void TCustomForm_dyn_ffb1(int param_1)
+
+{
+  if (*(short *)(param_1 + 0x2b2) != 0) {
+    (**(code **)(param_1 + 0x2b0))(*(undefined4 *)(param_1 + 0x2b4),param_1);
+  }
+  return;
+}
+
+

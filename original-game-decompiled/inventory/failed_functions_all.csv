@@ -1,0 +1,4 @@
+module,address,name,body_bytes,error
+game__menu.exe,0045af10,FUN_0045af10,24,Low-level Error: Cannot properly adjust input varnodes
+game__spel.dat,004960f5,FUN_004960f5,3,Low-level Error: Cannot properly adjust input varnodes
+game__spel.dat,00559982,FUN_00559982,467,Low-level Error: Overlapping input varnodes

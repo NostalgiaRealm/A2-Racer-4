@@ -1,0 +1,148 @@
+address,length,type,value,referenced_from_functions
+00406182,12,unicode,null),00401992
+00406191,6,string,null),00401992
+00406198,16,string,runtime error ,
+004061ac,16,string,"TLOSS error
+",
+004061bc,16,string,"SING error
+",
+004061cc,16,string,"DOMAIN error
+",
+004061dc,40,string,"R6028
+- unable to initialize heap
+",
+00406204,56,string,"R6027
+- not enough space for lowio initialization
+",
+0040623c,56,string,"R6026
+- not enough space for stdio initialization
+",
+00406274,40,string,"R6025
+- pure virtual function call
+",
+0040629c,56,string,"R6024
+- not enough space for _onexit/atexit table
+",
+004062d4,44,string,"R6019
+- unable to open console device
+",
+00406300,36,string,"R6018
+- unexpected heap error
+",
+00406324,48,string,"R6017
+- unexpected multithread lock error
+",
+00406354,44,string,"R6016
+- not enough space for thread data
+",
+00406380,36,string,"
+abnormal program termination
+",
+004063a4,44,string,"R6009
+- not enough space for environment
+",00402ba1;004072dc
+004063d0,44,string,"R6008
+- not enough space for arguments
+",
+004063fc,40,string,"R6002
+- floating point not loaded
+",
+00406424,37,string,Microsoft Visual C++ Runtime Library,00402ba1
+00406450,26,string,"Runtime Error!
+
+Program: ",00402ba1
+00406470,23,string,<program name unknown>,00402ba1
+00406488,19,string,GetLastActivePopup,0040437e
+0040649c,16,string,GetActiveWindow,0040437e
+004064ac,12,string,MessageBoxA,0040437e
+004064b8,11,string,user32.dll,0040437e
+00406682,22,TerminatedCString,GetPrivateProfileIntA,
+00406698,13,TerminatedCString,KERNEL32.dll,
+004066a8,12,TerminatedCString,MessageBoxA,
+004066b6,17,TerminatedCString,DispatchMessageA,
+004066ca,17,TerminatedCString,TranslateMessage,
+004066de,13,TerminatedCString,PeekMessageA,
+004066ee,13,TerminatedCString,SendMessageA,
+004066fe,11,TerminatedCString,ShowWindow,
+0040670c,16,TerminatedCString,CreateWindowExA,
+0040671e,17,TerminatedCString,GetSystemMetrics,
+00406732,17,TerminatedCString,RegisterClassExA,
+00406746,10,TerminatedCString,LoadIconA,
+00406752,12,TerminatedCString,LoadCursorA,
+00406760,14,TerminatedCString,DestroyWindow,
+00406770,10,TerminatedCString,SetCursor,
+0040677c,15,TerminatedCString,DefWindowProcA,
+0040678e,9,TerminatedCString,EndPaint,
+0040679a,11,TerminatedCString,BeginPaint,
+004067a8,16,TerminatedCString,PostQuitMessage,
+004067b8,11,TerminatedCString,USER32.dll,
+004067c6,15,TerminatedCString,GetStockObject,
+004067d6,10,TerminatedCString,GDI32.dll,
+004067e2,12,TerminatedCString,ExitProcess,
+004067f0,17,TerminatedCString,TerminateProcess,
+00406804,18,TerminatedCString,GetCurrentProcess,
+00406818,17,TerminatedCString,GetModuleHandleA,
+0040682c,16,TerminatedCString,GetStartupInfoA,
+0040683e,16,TerminatedCString,GetCommandLineA,
+00406850,11,TerminatedCString,GetVersion,
+0040685e,25,TerminatedCString,UnhandledExceptionFilter,
+0040687a,19,TerminatedCString,GetModuleFileNameA,
+00406890,24,TerminatedCString,FreeEnvironmentStringsA,
+004068aa,24,TerminatedCString,FreeEnvironmentStringsW,
+004068c4,20,TerminatedCString,WideCharToMultiByte,
+004068da,22,TerminatedCString,GetEnvironmentStrings,
+004068f2,23,TerminatedCString,GetEnvironmentStringsW,
+0040690c,15,TerminatedCString,SetHandleCount,
+0040691e,13,TerminatedCString,GetStdHandle,
+0040692e,12,TerminatedCString,GetFileType,
+0040693c,12,TerminatedCString,HeapDestroy,
+0040694a,11,TerminatedCString,HeapCreate,
+00406958,12,TerminatedCString,VirtualFree,
+00406966,9,TerminatedCString,HeapFree,
+00406972,10,TerminatedCString,RtlUnwind,
+0040697e,10,TerminatedCString,WriteFile,
+0040698a,13,TerminatedCString,GetLastError,
+0040699a,15,TerminatedCString,SetFilePointer,
+004069ac,10,TerminatedCString,GetCPInfo,
+004069b8,7,TerminatedCString,GetACP,
+004069c2,9,TerminatedCString,GetOEMCP,
+004069ce,10,TerminatedCString,HeapAlloc,
+004069da,13,TerminatedCString,VirtualAlloc,
+004069ea,12,TerminatedCString,HeapReAlloc,
+004069f8,15,TerminatedCString,GetProcAddress,
+00406a0a,13,TerminatedCString,LoadLibraryA,
+00406a1a,13,TerminatedCString,SetStdHandle,
+00406a2a,20,TerminatedCString,MultiByteToWideChar,
+00406a40,13,TerminatedCString,LCMapStringA,
+00406a50,13,TerminatedCString,LCMapStringW,
+00406a60,15,TerminatedCString,GetStringTypeA,
+00406a72,15,TerminatedCString,GetStringTypeW,
+00406a84,17,TerminatedCString,FlushFileBuffers,
+00406a98,12,TerminatedCString,CloseHandle,
+00406aa6,21,TerminatedCString,GetCurrentDirectoryA,
+00406abe,17,TerminatedCString,GetFullPathNameA,
+00406ad2,14,TerminatedCString,GetDriveTypeA,
+00406ae2,19,TerminatedCString,GetFileAttributesA,
+00406af8,19,TerminatedCString,GetExitCodeProcess,
+00406b0e,20,TerminatedCString,WaitForSingleObject,
+00406b24,15,TerminatedCString,CreateProcessA,
+00407034,6,string,MOTOR,004010c0;00401130;00401250
+0040703c,75,string,"%s (%d) No value specified for menu exit!
+Filename:%s, header:%s, field:%s",004010c0
+00407088,23,string,C:\Work\Motor\main.cpp,004010c0
+004070a0,8,string,General,004010c0
+004070a8,9,string,ExitCode,004010c0
+004070b4,9,string,Menu.ini,004010c0
+004070c0,54,string,Not enough memory is available to execute new process,00401130
+004070f8,71,string,Specified file is not executable or has invalid executable-file format,00401130
+00407140,26,string,File or path is not found,00401130
+0040715c,25,string,mode argument is invalid,00401130
+00407178,33,string,Argument list exceeds 1024 bytes,00401130
+0040719c,9,string,/Default,00401250
+004071a8,9,string,spel.dat,00401250
+004071b4,9,string,menu.exe,00401250
+004071c0,11,string,/FirstTime,00401250
+004071cc,34,string,WinMain(): RegisterClass() failed,00401250
+004071f0,17,string,Err! -7 CCWINMAP,00401250
+ffdff1ac,36,uchar[36],,
+ffdffc00,522,wchar16[261],,

@@ -1,0 +1,23 @@
+{
+ "program": "setdebug.exe",
+ "language": "x86:LE:32:default",
+ "compiler_spec": "borlanddelphi",
+ "image_base": "00400000",
+ "ghidra_version": "12.1.4",
+ "functions": 3532,
+ "decompiled": 3532,
+ "assembly_only": 0,
+ "retried": 0,
+ "decompiled_with_fallback_style": 0,
+ "strings": 923,
+ "instructions": 82040,
+ "executable_bytes": 281600,
+ "executable_bytes_without_instructions": 59248,
+ "gap_padding_bytes": 622,
+ "gap_defined_data_bytes": 519,
+ "gap_ambiguous_bytes": 40502,
+ "instruction_bytes_outside_functions": 0,
+ "unreachable_after_noreturn_regions": 0,
+ "unreachable_after_noreturn_bytes": 0,
+ "error_bookmarks": 5
+}

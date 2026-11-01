@@ -1,0 +1,38 @@
+
+/* ==== FUN_004d4468 @ 004d4468 ==== 
+ * signature: int * __stdcall FUN_004d4468(void)
+ * body: 004d4468-004d446d
+ */
+
+int * FUN_004d4468(void)
+
+{
+  int *piVar1;
+  bool bVar2;
+  char cVar3;
+  int iVar4;
+  int unaff_EBP;
+  
+  piVar1 = *(int **)(unaff_EBP + -0x18);
+  *(undefined4 *)(unaff_EBP + -4) = 0;
+  if (*(int *)(unaff_EBP + -0x14) != 0) {
+    FUN_0054c6db();
+  }
+  *(undefined4 *)(unaff_EBP + -4) = 0xffffffff;
+  cVar3 = FUN_0054eb4d();
+  if ((cVar3 == '\0') &&
+     (iVar4 = *(int *)(*piVar1 + 4), (*(byte *)(iVar4 + 0xc + (int)piVar1) & 2) != 0)) {
+    bVar2 = false;
+    if (((*(byte *)((int)piVar1 + iVar4 + 4) & 6) == 0) &&
+       (iVar4 = (**(code **)(**(int **)((int)piVar1 + iVar4 + 0x28) + 0x2c))(), iVar4 == -1)) {
+      bVar2 = true;
+    }
+    if (bVar2) {
+      FUN_0054c6db();
+    }
+  }
+  ExceptionList = *(void **)(unaff_EBP + -0xc);
+  return piVar1;
+}
+
+

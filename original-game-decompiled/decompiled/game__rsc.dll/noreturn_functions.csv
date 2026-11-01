@@ -1,0 +1,4 @@
+address,name,body_bytes,external,has_ret_instruction,caller_count
+10001000,"__break",1,false,false,3
+10007530,"__exit",21,false,true,4
+1001549c,"KERNEL32.DLL::ExitProcess",6,false,false,0

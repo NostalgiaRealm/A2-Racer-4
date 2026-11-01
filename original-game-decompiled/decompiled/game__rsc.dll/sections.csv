@@ -1,0 +1,9 @@
+name,start,end,size,read,write,execute,initialized
+Headers,10000000,10000fff,4096,true,false,false,true
+.text,10001000,1001569a,83611,true,false,true,true
+.text_noncode,1001569b,1002bfff,92517,true,false,false,true
+.rdata,1002c000,1002efff,12288,true,false,false,true
+.data,1002f000,10032f77,16248,true,true,false,true
+.idata,10033000,10033fff,4096,true,true,false,true
+.reloc,10034000,10035fff,8192,true,false,false,true
+tdb,ffdff000,ffdfffff,4096,true,true,false,true

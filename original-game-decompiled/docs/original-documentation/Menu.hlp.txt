@@ -1,0 +1,2804 @@
+; Text extracted from Menu.hlp by winhelp_to_text.py. Formatting, hotspots and pictures omitted.
+; WinHelp version 1.33, flags 0, internal files: EHELP.XML, |CONTEXT, |CTXOMAP, |FONT, |KWBTREE, |KWDATA, |KWMAP, |SYSTEM, |TOPIC, |TTLBTREE, |VIOLA, |bm0, |bm1, |bm10, |bm11, |bm12, |bm13, |bm14, |bm15, |bm16, |bm17, |bm18, |bm19, |bm2, |bm20, |bm21, |bm22, |bm23, |bm24, |bm25, |bm26, |bm27, |bm28, |bm29, |bm3, |bm30, |bm31, |bm32, |bm33, |bm34, |bm35, |bm36, |bm37, |bm38, |bm39, |bm4, |bm40, |bm41, |bm42, |bm5, |bm6, |bm7, |bm8, |bm9
+
+
+===== TOPIC 1: Het Hoofdmenu =====
+
+
+
+ Het Hoofdmenu
+
+
+
+
+In het 
+Hoofdmenu
+ kun je een keuze maken uit twee speelmogelijkheden: 
+
+
+
+
+
+
+
+
+
+
+de 
+Tour 
+of de 
+Quick Race
+. 
+
+
+
+
+
+
+Verder zie je de knoppen: 
+Opties, Speler
+ en
+ Internet. 
+
+
+
+ Klik je op 
+Einde
+ dan beëindig je 
+A2Racer
+ en ga je terug naar Windows.
+
+
+
+
+===== TOPIC 2: Welkom =====
+
+
+
+ Welkom
+
+
+
+
+Het is weer zover. Het 
+
+Raceteam
+
+ heeft ervoor gezorgd dat de illegale A2 Raceclub weer van start gaat. En ook jij hoort tot het selecte groepje coureurs dat in Europa gaat racen. 
+
+Er loert echter gevaar! De politie heeft namelijk de A2 racers vogelvrij verklaard. Je zult onder grote druk topprestaties moeten leveren om deze A2 race te winnen. 
+
+Veel succes! 
+
+
+
+
+
+===== TOPIC 3: Het Raceteam =====
+
+
+
+ Het Raceteam
+
+
+
+
+PRODUCT DEVELOPMENT MANAGER
+
+Rudolf Wolterbeek-Muller
+
+
+PROJECT LEIDING
+
+Igor Frid
+
+
+PRODUCT ONTWERP
+
+Byron Tik
+
+
+TECHNISCH ONTWERP
+
+Jeroen Krebbers
+
+
+GRAFISCH ONTWERP
+
+André van Rooijen
+
+
+PROGRAMMERING
+
+Cameron Rabelink
+Frits Broekhuis
+Jasja Glasbeek
+Jelle van der Beek
+Jeroen Krebbers
+Marcel Egtberts
+Mark van der Gugten
+
+
+REDACTIE
+
+Nineke van Lieren
+
+
+GRAFISCHE VORMGEVING
+
+
+
+Arne Goossens
+Bone Buddrus 
+Dirk Dobbert
+Gijs de Jong
+Hidde van Dijk 
+Jack Hageraats
+Kent Kuné
+Marcel du Long
+Marco Kachel
+Pepijn Rijnders
+Ralf Schmäing
+Sven Faltus
+
+
+MUZIEK EN GELUID
+
+Mike van Dalm
+Nico Verrips
+
+
+KWALITEITSCONTROLE
+
+Didier Pippel
+
+Francois Rademakers
+
+Jan Molenaar
+
+
+PRODUCT MANAGER
+
+Ellen van Meerendonk
+
+
+
+Speciale dank aan:
+
+Michael Scholz
+
+
+
+
+===== TOPIC 4: Tour =====
+
+
+
+ Tour
+
+
+
+
+
+ 
+
+In de 
+Tour
+ strijd je samen met andere hippe leden van de illegale A2 Raceclub om de prijzenpot én de eeuwige roem! De 
+Tour
+ is onderverdeeld in negen verschillende etappes. De race begint in Scheveningen en zal uiteindelijk in Berlijn eindigen. 
+
+
+
+De A2 Race-organisatie zal zijn keuze voor de daartussen liggende etappes laten afhangen van de al dan niet aanwezige politiedreiging.
+
+
+
+
+
+ 
+
+
+Heb je in de 
+Tour
+ één karakter uitgespeeld én ben je als eerste geëindigd, dan mag je als bonusprijs in de 
+Quick Race
+ gaan racen in de megasterke Humvee van D.T. Harry!
+
+
+
+
+
+
+
+
+
+
+
+===== TOPIC 5: Quick Race =====
+
+
+
+ Quick Race
+
+
+
+
+
+
+
+
+In de 
+Quick Race
+ kun je zelf een auto en etappe uitkiezen en tegen vier andere racers rijden om de snelste tijd. 
+Je kunt de 
+Quick Race
+ natuurlijk ook gebruiken om een etappe te oefenen of één van de beschikbare auto
+’
+s uit te proberen.
+
+
+
+
+
+
+Heb je in de 
+Tour
+ één karakter uitgespeeld én ben je als eerste geëindigd, dan mag je als bonusprijs in de 
+Quick Race
+ gaan racen in de megasterke auto van D.T. Harry!
+
+
+
+
+
+
+
+
+
+
+===== TOPIC 6: Opties =====
+
+
+
+ Opties
+
+
+
+
+ 
+Klik je op 
+Opties
+, dan ga je naar het 
+Opties
+-menu. In dit menu kun je de besturing, de weergave en het geluid van het spel naar jouw voorkeuren instellen. Loop voordat je het spel begint alle instellingen na.
+
+
+
+
+===== TOPIC 7: Internet =====
+
+
+
+ Internet
+
+
+
+
+
+
+Via de 
+Internet
+-knop ga je naar de officiële A2 Race-site.
+
+
+
+
+Klik hierop voor de laatste info en updates. 
+Bovendien kun je hier extra karakter met auto of een extra track downloaden.
+
+
+
+
+===== TOPIC 8: Speler =====
+
+
+
+ Speler
+
+
+
+
+ Klik je op 
+Speler
+, dan ga je naar de 
+Spelersmenu
+. In dit menu kun je een nieuwe speler aanmaken, een speler verwijderen of een speler uitkiezen om het spel mee te spelen. 
+
+
+
+Let op!
+ A2 Racer bewaart automatisch de huidige spelergegevens. Iedere keer als je het spel herstart, ga je verder met het laatst gespeelde spel. 
+
+
+
+
+===== TOPIC 9: Moeilijkheid =====
+
+
+
+ 
+Moeilijkheid
+
+
+
+
+
+Je kunt hier de moeilijkheidsgraad instellen. Je kunt kiezen uit: 
+
+
+
+
+ 
+ 
+
+
+
+
+makkelijk
+
+
+
+
+
+
+ 
+
+
+
+
+
+normaal
+ (standaard ingesteld)
+
+
+
+
+ 
+
+
+
+
+moeilijk
+ 
+
+
+
+
+Door op één van de drie knoppen te klikken, selecteer je de moeilijkheidsgraad en ga je verder naar het 
+Karakter-menu
+.
+
+
+ Klik je op 
+Einde
+ dan kun je terug naar het 
+Hoofdmenu
+ of het spel beëindigen.
+
+
+
+
+
+===== TOPIC 10: Huidig Karakter =====
+
+
+
+ Huidig Karakter
+
+
+
+
+In dit scherm zie je :
+
+
+
+·
+
+het karakterprofiel van jouw huidige karakter,
+
+
+
+·
+
+het budget van jouw huidige karakter,
+
+
+
+·
+
+de tot dan toe gereden etappes van jouw huidige karakter.
+
+
+
+
+
+ 
+
+
+Is het naar je zin? Dan kun je met dit karakter verder rijden, door op 
+Verder
+ te klikken. 
+
+
+
+
+
+
+ 
+
+
+Wil je liever een ander karakter, klik dan op 
+Ander
+ 
+karakter
+.
+
+
+
+
+===== TOPIC 11: Verder met huidig karakter =====
+
+
+
+ Verder met huidig karakter
+
+
+
+
+
+
+
+
+
+Als je verder wilt spelen met jouw huidige karakter, klik dan op 
+Verder
+. 
+Je gaat dan verder, waar je gebleven bent. 
+
+
+
+
+
+
+===== TOPIC 12: Ander karakter =====
+
+
+
+ Ander karakter
+
+
+
+
+Wil je met een ander karakter spelen?
+
+
+
+
+
+
+ 
+
+
+Klik op 
+Ander
+ 
+Karakter
+. Je gaat dan naar het Karaktersmenu, waar je een ander karakter kunt kiezen.
+
+
+
+
+
+Let op! Als je een ander karakter kiest, ga je spelen met de gereden etappes en verdiende geld van dat andere karakter.
+
+
+
+
+
+===== TOPIC 13: Invloed moeilijkheidsgraad =====
+
+
+
+ Invloed moeilijkheidsgraad
+
+
+
+De keuze van de moeilijkheidsgraad heeft invloed op:
+
+
+
+·
+
+de sterkte van de tegenstanders,
+
+
+
+·
+
+de kwalificatie-eisen die worden gesteld om mee te mogen doen aan de volgende etappe,
+
+
+
+·
+
+de maximumsnelheid van de auto
+’
+s tijdens de races. 
+
+
+
+
+===== TOPIC 14: Karaktersmenu =====
+
+
+
+ Karaktersmenu
+
+
+
+
+In het 
+Karakters
+-menu kies je het karakter uit waarmee je het spel wilt gaan spelen. Ieder karakter heeft een andere auto.
+
+
+
+
+
+
+
+
+
+Wil je weten wat voor type het karakter is? Lees en beluister dan het 
+Karakterprofiel
+ waarin het karakter wordt beschreven. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+De eigenschappen van het karakter vormen samen met de eigenschappen van de auto, het rijgedrag. Je kunt het rijgedrag aflezen aan de vier 
+Eigenschapsbalken
+.
+
+
+
+
+Ook zie je in dit menu welke 
+etappes
+ je tot nu toe met dit karakter hebt 
+gereden
+. 
+
+
+
+
+
+===== TOPIC 15: Rijgedrag =====
+
+
+
+ Rijgedrag
+
+
+
+
+Het rijgedrag wordt bepaald door vier rij-eigenschappen. Deze zie je weergegeven in de eigenschappenbalken. 
+
+
+ 
+Deze zijn:
+ Snelheid
+,
+ Acceleratie
+,
+ Wegligging 
+en
+ Remmen. 
+
+
+Het aantal verlichte lampjes naast een eigenschap geeft aan hoe goed het karakter deze eigenschappen beheerst. Dus: hoe meer verlichte lampjes, hoe beter een karakter een eigenschap beheerst. Dit wordt in grote mate beïnvloed door de auto waarin het karakter rijdt. 
+
+
+
+
+===== TOPIC 16: Karakter kiezen =====
+
+
+
+ 
+Karakter kiezen
+
+
+
+Je ziet het eerste karakter in een plaatje. 
+
+
+
+
+
+ 
+
+
+In het 
+Karakterprofiel
+ lees je meer over dit karakter.
+
+
+
+
+
+
+
+ 
+
+
+
+Door op de knoppen 
+Vorige
+ of 
+Volgende 
+te klikken, kun je de informatie over vijf verschillende karakters bekijken en beluisteren. 
+
+
+
+
+
+Ieder karakter heeft een andere auto. De keuze voor een karakter bepaalt dus tevens de auto waarmee je tijdens het spel gaat rijden. Bovendien zijn de karaktereigenschappen van invloed op het rij-eigenschappen.
+
+
+
+
+
+ 
+
+
+Klik je op 
+Verder
+, dan speel je het spel met het karakter wat je in beeld hebt.
+
+
+
+
+
+
+ 
+
+
+
+Klik je op 
+Terug
+, dan ga je terug naar het menu 
+Moeilijkheid
+.
+
+
+
+
+
+
+
+ 
+
+
+
+Klik je op 
+Einde
+, dan ga je terug naar het 
+Hoofdmenu
+.
+
+
+
+
+
+
+===== TOPIC 17: Etappemenu =====
+
+
+
+ Etappemenu
+ 
+
+
+
+
+Hier geeft Miss Mariah Honeybunny informatie over de komende etappe. 
+
+
+
+
+
+
+
+
+
+Ze schetst het type etappe. Ze geeft aan, op welke plek je tenminste moet eindigen om je voor de volgende etappe te kwalificeren (de zogenaamde kwalificatie-eis).
+
+
+
+Ook zie je de snelste rondetijd en de naam van de speler die deze tijd heeft neergezet.
+
+
+
+
+
+===== TOPIC 18: De etappe kiezen =====
+
+
+
+ 
+De etappe kiezen
+
+
+
+
+ 
+ 
+
+
+
+Door op de knoppen 
+Vorige
+ en 
+Volgende
+ te klikken, kun je de verschillende etappes bekijken.
+
+
+
+
+
+
+
+ 
+
+
+Klik je op 
+Verder
+, dan ga je de etappe rijden die op dat moment in beeld is.
+
+
+
+
+
+
+
+ 
+
+
+Klik je op 
+Einde
+, dan ga je terug naar het 
+Hoofdmenu
+.
+
+
+
+
+
+
+
+===== TOPIC 19: Type etappe =====
+
+
+
+ Type etappe
+
+
+
+De etappes verschillen natuurlijk wat betreft bochten, terrein, hoogteverschillen, aanwezige obstakels enzovoort. 
+
+Er is nog een onderscheid: de etappe kan een 
+Race
+ zijn of een 
+Achtervolging
+.
+
+Bij de 
+Race
+ is het de bedoeling om je tegenstanders eruit te rijden en als eerste te eindigen. 
+
+
+
+Bij de 
+Achtervolging 
+is jouw enige belang om binnen een bepaalde tijd uit de handen van de politie te blijven en een checkpoint te passeren.
+
+
+
+
+===== TOPIC 20: Kwalificatie-eis =====
+
+
+
+ Kwalificatie-eis
+
+
+
+
+Bij de race-etappes moet je aan de 
+kwalificatie-eis
+ voldoen, om door te gaan naar de volgende etappe. De 
+kwalificatie-eis
+ is de plek waarop je tenminste moet eindigen. Deze is afhankelijk van de 
+moeilijkheidsgraad
+, die je hebt gekozen.
+
+
+
+Heb je na de gereden etappe niet aan de 
+kwalificatie-eis 
+voldaan, dan begin je de etappe weer opnieuw.
+
+
+
+
+Bij de achtervolgingsettappes kwalificeer je jezelf voor de volgende etappe, door binnen de gegeven tijd uit de handen van D. T. Harry en zijn politiemakkers te blijven. 
+
+
+
+
+===== TOPIC 21: Garage =====
+
+
+
+ 
+Garage
+
+
+
+
+Hier moet je zijn wanneer je een tune-up wilt kopen. De tune-ups zijn onontbeerlijk om een topprestatie neer te zetten. Maar door intensief gebruik gaan ze helaas maar één ronde mee. Ze zullen dus na één etappe alweer vervangen moeten worden. Je betaalt met de Euro
+’
+s die je onderweg hebt opgepikt. 
+
+
+
+
+
+ 
+
+
+Onder 
+Rijgedrag
+ zie je welk effect de tune-up heeft op het rijgedrag en eigenschappen.
+Bij je 
+Budget
+ staat vermeld hoeveel Euro
+’
+s je op dit moment hebt. 
+
+
+
+
+  
+
+
+
+
+
+Klik op 
+Verder
+ om verder te gaan.
+
+
+
+
+
+
+
+ 
+
+
+
+Klik je op 
+Terug
+, dan ga je terug naar het 
+Etappe
+-menu
+
+
+
+
+
+
+
+ 
+
+
+
+Klik je op 
+Einde
+, dan ga je terug naar het 
+Hoofdmenu
+.
+
+
+
+
+
+
+===== TOPIC 22: Tune-ups =====
+
+
+
+ Tune-ups
+
+
+
+
+Je kunt kiezen uit de volgende tune-ups:
+
+
+
+
+
+
+ 
+
+
+Motor afstellen: 
+hiermee verbeter je de acceleratie en verhoog je de maximumsnelheid van jouw auto.  
+
+
+
+
+
+
+
+ 
+
+
+ABS-olie
+: zorgt ervoor dat de remmen extra remkracht krijgen.
+
+
+
+
+
+
+ 
+
+
+Banden wisselen
+: zo
+’
+n setje nieuwe racebanden onder je auto zorgt voor een betere wegligging.
+
+
+
+
+
+
+
+ 
+
+
+Versnellingsbak afstellen: 
+ als je de versnellingsbak laat afstellen, zal je maximumsnelheid veel hoger worden. 
+
+
+
+
+
+
+ 
+
+
+Turbo-olie: 
+heb je nodig om tijdens het spel de 
+‘
+turbo
+’
+ te kunnen activeren. Met de turbo kun je tijdelijk de maximumsnelheid van je auto flink verhogen. Aan de eigenschappenmeter zie je hoeveel turbo-olie je nog in voorraad hebt.
+
+
+
+
+
+===== TOPIC 23: Tune-up kopen =====
+
+
+
+ Tune-up kopen
+
+
+
+
+
+
+
+
+Bekijk met de knoppen 
+Vorige
+ en 
+Volgende
+ welke tune-up je wilt hebben.
+
+
+
+Heb je de tune-up van jouw keuze gevonden? Klik dan op de knop 
+Kopen
+. 
+
+Let op! Jouw budget moet natuurlijk wel voldoende zijn!
+
+Heb je een bepaalde tune-up gekocht, dan wordt deze grijs in het menu. Dit betekent dat deze tune-up voor deze etappe niet meer beschikbaar is.  Je kunt per race wel meerdere tune-ups kopen.
+
+
+
+
+
+===== TOPIC 24: Resultaten =====
+
+
+
+ 
+Resultaten
+ 
+
+
+
+
+Hier zie je de uitslag van de etappe en de rondetijden van de racers. Jouw karakter is omrand.
+
+
+
+
+
+
+
+
+
+Klik op 
+Verder
+ om verder te gaan.
+
+
+
+
+===== TOPIC 25: Debriefing door Mariah Honeybunny =====
+
+
+
+ 
+Debriefing door Mariah 
+Honeybunny
+
+
+
+
+Hier geeft Mariah Honeybunny commentaar op de afgelopen etappe.
+
+Heb je aan je kwalificatie-eis voldaan, dan ga je nu naar de volgende etappe.
+Heb je niet aan de kwalificatie-eis voldaan, dan begin je deze etappe weer opnieuw. 
+
+
+
+
+
+
+
+
+
+Klik op 
+Verder
+ om verder te gaan.
+
+
+
+
+===== TOPIC 26: Quick Race-menu =====
+
+
+
+ 
+Quick Race-
+menu
+
+
+
+
+
+Hier kun je de etappe en het karakter uitzoeken. Bij elk karakter hoort een bepaalde auto. Door het karakter te kiezen, selecteer je de auto.
+
+
+
+
+
+ 
+
+
+Klik op 
+Verder
+ om het spel te starten met het karakter dat in beeld is.
+
+
+
+
+
+
+
+ 
+
+
+
+Klik op 
+Terug 
+om terug te gaan naar het menu 
+Moeilijkheid.
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+Klik op 
+Einde
+ om terug te gaan naar het 
+Hoofdmenu.
+
+
+
+
+
+
+
+===== TOPIC 27: Karakter kiezen (Quick Race) =====
+
+
+
+ Karakter kiezen (Quick Race)
+
+
+
+
+
+ 
+
+
+
+Klik onder het overzicht van de karakters op 
+Vorige
+ of 
+Volgende
+ om de verschillende karakters te bekijken.
+
+
+
+
+
+
+
+ 
+
+
+
+In het scherm 
+Rijgedrag
+ lees je af hoe goed dit karakter de verschillende eigenschappen (
+Acceleratie
+, 
+Snelheid
+, 
+Remmen 
+en 
+Wegligging
+) beheerst.
+
+
+
+
+
+ 
+
+Klik je op 
+Verder
+, dan start je het spel met het karakter dat in beeld is.
+
+
+
+
+
+
+
+===== TOPIC 28: Etappe kiezen (Quick Race) =====
+
+
+
+ Etappe kiezen (Quick Race)
+
+
+
+
+
+ 
+
+
+
+Klik onder het overzicht van de etappes op 
+Vorige
+ of 
+Volgende
+ om de verschillende etappes te bekijken.
+
+
+
+
+
+
+Ook vind je meer informatie over de geselecteerde etappe.
+
+
+
+
+
+
+ 
+
+
+Klik je op 
+Verder
+, dan start je de etappe die in beeld is.
+
+
+
+
+
+===== TOPIC 29: Extra karakter ontgrendelen =====
+
+
+
+ Extra karakter ontgrendelen
+
+
+
+
+Als je met één karakter de 
+Tour 
+hebt uitgespeeld, wordt er een extra karakter (D.T. Harry) vrijgegeven. 
+
+
+
+
+
+
+ 
+
+
+
+Hier kun je mee racen in de 
+
+Quick Race
+.
+
+
+
+
+===== TOPIC 30: Tracks of karakter downloaden =====
+
+
+
+ Tracks of karakter downloaden
+
+
+
+
+
+ 
+
+
+
+Om een extra track of karakter plus auto te downloaden, moet je op 
+Einde
+ klikken. 
+
+
+
+
+
+
+
+Klik vervolgens op 
+Hoofdmenu
+.
+
+
+
+
+
+ 
+
+
+
+Klik in het 
+Hoofdmenu
+ op de 
+Internet-
+knop. Je gaat dan vanzelf naar de A2 Racer-site.
+
+
+
+
+
+===== TOPIC 31: Weergave: problemen =====
+
+
+
+ 
+Weergave: problemen
+
+
+
+
+Heb je problemen met het opstarten van een etappe of met de weergave tijdens het racen, dan kun je deze hier mogelijk oplossen.
+
+
+
+Probleem: bij het opstarten van een etappe krijg je de foutmelding 
+‘
+FILTERING* error setting light state
+’
+. 
+
+
+
+Je kunt dit mogelijk oplossen door het volgende te doen:
+
+
+
+1.
+Zet de optie 
+‘
+Bilineaire filtering aan (alleen 3D-kaart)
+’
+ uit door met je muis op het afgevinkte vakje voor deze regel te klikken. Het vinkje zal nu verdwijnen.
+
+
+
+2.
+Klik vervolgens op 
+OK.
+
+
+
+
+
+
+Probleem: tijdens het spelen van een spel zijn er weergaveproblemen met transparante effecten als zwarte autoramen, remlichten en wolkjes.
+
+Je kunt dit mogelijk oplossen door het volgende te doen:
+
+
+
+1.
+Zet de optie 
+‘
+Transparante effecten aan (alleen 3D-kaart)
+’
+ uit, door met je muis op het afgevinkte hokje voor deze regel te klikken. Het vinkje zal nu verdwijnen.
+
+
+
+2.
+Klik vervolgens op 
+OK. 
+
+
+
+
+
+Probleem: het beeld flikkert tijdens het rijden van een etappe.
+
+Je kunt dit mogelijk oplossen door het volgende te doen:
+
+
+
+1.
+Zet de optie 
+‘
+Verversingssnelheid synchroniseren op beeldscherm
+’
+ door met je muis op het vakje voor deze regel te klikken. Er zal nu een vinkje verschijnen.
+
+
+
+2.
+Klik vervolgens op 
+OK. 
+
+
+
+
+
+
+Probleem
+: 
+spel is traag, of je krijgt bij het opstarten van de etappe de foutmelding 
+‘
+unhandled exception
+’
+.
+
+Je kunt dit mogelijk oplossen door het volgende te doen:
+
+
+
+1.
+Zet de optie 
+‘
+Rendergeheugen afgehandeld door grafische kaart
+’
+ aan door met je muis op het vakje voor deze regel te klikken. Er zal nu een vinkje verschijnen.
+
+
+
+2.
+Klik vervolgens op 
+OK. 
+
+
+
+
+Wil je de wijzigingen toch niet doorvoeren, klik dan op 
+Annuleren
+. Je keert dan terug naar het 
+Opties
+-menu en speelt onder de oude instellingen verder.
+
+
+
+
+===== TOPIC 32: Weergave: algemeen =====
+
+
+
+ 
+Weergave: algemeen
+
+
+
+
+
+Hier kun je de geavanceerde instellingen van je videokaart opgeven:
+
+
+
+
+·
+
+‘
+Helderheid instellen (alleen 3D-kaart)
+’
+: door op één van deze twee knoppen te drukken, kun je het beeld donkerder of lichter maken. 
+
+
+
+·
+
+‘
+Grafische kaart instellen
+’
+: wanneer je meer dan één videokaart in je computer hebt, dan kun je de extra videokaart hier instellen. 
+
+
+
+Dit doe je op de volgende manier:
+
+
+
+1.
+Klik op het pijltje
+ 
+naast het eerste venster. Je krijgt nu een overzicht van de mogelijke instellingen: 
+Standaard
+,
+ Automatisch
+ en verder alle 
+videostuurprogramma
+’
+s
+ die voorkomen op jouw systeem.
+
+
+
+2.
+Selecteer één van de instellingen, door er met je muis op te klikken.
+
+
+
+3.
+In het tweede venster verschijnt nu een lijst met beschikbare resoluties.
+
+
+
+4.
+Selecteer de resolutie van jouw voorkeur door er met je muis op te klikken.
+
+
+
+5.
+Klik op 
+OK
+ om deze instellingen te gebruiken. 
+
+
+
+6.
+Je keert nu automatisch terug naar het 
+Opties
+-menu.
+
+
+
+Wil je de wijzigingen toch niet doorvoeren, klik dan op 
+Annuleren
+. Je keert dan terug naar het 
+Opties
+-menu.
+
+
+
+
+===== TOPIC 33: Toetsenbord instellen =====
+
+
+
+ 
+Toetsenbord instellen
+
+
+
+
+
+
+ 
+Klik op 
+Instellen
+.
+
+Je komt dan in het scherm waar je de toetsen kan instellen. 
+
+
+
+De standaardinstellingen van de toetsen zijn:
+
+
+
+Gasgeven:
+
+Pijltje Omhoog
+
+Remmen: 
+
+Pijltje Omlaag
+
+Links:
+
+
+Pijltje Links
+
+Rechts:
+
+
+Pijltje Rechts
+
+Handrem:
+
+
+Alt
+
+Claxon:
+
+
+Spatie
+
+Turbo: 
+
+
+Ctrl
+
+Camera:
+ 
+
+1 - 4
+
+
+
+Reset:
+
+Enter
+
+Dashboard aan/uit
+
+5
+
+
+Door met je muis op één van deze standaardtoetsen te klikken, selecteer je deze toets en kun je een ander toets intypen. 
+
+
+Let op
+: de camera, reset-knop en dashboard-knop zijn 
+niet
+ instelbaar.
+
+
+
+
+
+
+ 
+
+
+
+Is alles naar wens ingesteld, klik dan op 
+OK
+. Je gaat dan terug naar het 
+Opties
+-menu.
+
+
+
+
+
+
+
+ 
+
+
+
+Wil je toch weer de standaardinstellingen (zie boven) terug? Klik dan op 
+Standaard.
+ 
+
+
+
+
+
+
+ 
+
+
+
+Klik op 
+Annuleren,
+ als je de wijzigingen toch niet wilt doorvoeren. Je gaat dan terug naar het 
+Opties
+-menu en speelt dan verder onder de oude instellingen.
+
+
+
+
+
+
+===== TOPIC 34: Stuur instellen =====
+
+
+
+ 
+Stuur instellen
+
+
+
+
+
+
+
+ Klik op 
+Instellen
+.
+
+Je komt dan in het scherm waar je de gevoeligheid van een stuur naar jouw wensen kan instellen.
+
+Klik met je muis op het blokje in de schuifbalk en beweeg hem naar links om je stuur minder gevoelig te maken, of naar rechts om je stuur gevoeliger te maken. 
+
+
+
+
+
+
+ 
+
+
+
+Klik op 
+OK
+ om deze instellingen te gebruiken. Je keert nu automatisch terug naar het 
+Opties
+-menu.
+
+
+
+
+
+
+
+ 
+
+
+
+Klik op 
+Annuleren,
+ als je de wijzigingen toch niet wilt doorvoeren. Je gaat dan terug naar het 
+Opties
+-menu en speelt dan verder onder de oude instellingen.
+
+
+
+
+
+
+===== TOPIC 35: Joystick instellen =====
+
+
+
+ 
+Joystick instellen
+
+
+
+
+
+
+ Klik op 
+Instellen
+.
+
+Je komt dan in het scherm waar je de gevoeligheid van een joystick naar jouw wensen kan instellen.
+
+Klik met je muis op het blokje in de schuifbalk en beweeg hem naar links om je stuur minder gevoelig te maken, of naar rechts om je joystick gevoeliger te maken.
+
+
+
+
+
+
+ 
+
+
+
+Klik op 
+OK
+ om deze instellingen te gebruiken. Je keert nu automatisch terug naar het 
+Opties
+-menu.
+
+
+
+
+
+
+
+ 
+
+
+
+Klik op 
+Annuleren,
+ als je de wijzigingen toch niet wilt doorvoeren. Je gaat dan terug naar het 
+Opties
+-menu en speelt dan verder onder de oude instellingen.
+
+
+
+
+
+
+===== TOPIC 36: Speler =====
+
+
+
+ 
+Speler
+
+
+
+
+
+Hier zie je een lijst met namen van spelers die eerder zijn aangemaakt. Selecteer een naam uit de lijst door er met je muis op te klikken.
+
+
+
+
+
+
+
+
+Klik vervolgens op 
+OK
+ om met deze speler het spel te gaan spelen.
+
+
+
+
+Verder kun je in dit menu nieuwe spelers aanmaken of spelers van de lijst verwijderen:
+
+
+
+
+
+
+
+
+Klik je op 
+Annuleren
+, dan ga je terug naar het 
+Hoofdmenu
+.
+
+
+
+
+===== TOPIC 37: Nieuwe speler aanmaken =====
+
+
+
+ Nieuwe speler aanmaken
+
+
+
+
+
+
+
+
+Klik op de knop 
+Nieuwe speler
+. Typ een naam in.
+
+
+
+Klik op de knop 
+OK,
+ om dit te bevestigen. 
+ 
+
+
+
+
+===== TOPIC 38: Speler verwijderen =====
+
+
+
+ 
+Speler verwijderen
+
+
+
+
+Klik eerst op de speler die je wilt verwijderen. 
+
+
+
+
+
+
+ 
+
+Klik daarna op de knop 
+Verwijderen
+. 
+
+
+
+
+
+Er wordt nu gevraagd of je deze speler echt wilt verwijderen. 
+
+
+
+
+
+
+
+
+Klik op 
+OK
+ om het verwijderen definitief te maken.
+
+
+
+
+ 
+
+Klik op 
+Annuleren 
+om terug te gaan naar het 
+Spelermenu
+.
+
+
+
+
+===== TOPIC 39: Opties-menu =====
+
+
+
+ 
+Opties-
+menu
+
+
+
+
+
+In het 
+Opties
+-menu kun je de verschillende instellingen binnen het spel bekijken en, indien nodig, wijzigen. De instellingen zijn: 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Besturing
+
+
+
+
+
+
+
+
+ 
+
+
+
+Weergave
+
+
+
+
+
+
+ 
+
+
+
+Geluid
+
+
+
+
+
+
+Bij 
+Besturing
+ zie je welk soort besturing je op dit moment hebt geselecteerd. Er zijn vier soorten besturing: 
+
+
+
+
+Toetsenbord
+
+
+
+
+
+Joystick
+
+
+
+
+Gamepad
+
+
+
+
+Stuur
+
+
+
+
+
+
+Je kunt het soort besturing veranderen door op het lampje links naast de besturing van jouw voorkeur te klikken. Deze staat nu 
+‘
+aan
+’
+.
+
+Je kunt een toetsenbord, joystick en stuur ook naar eigen wensen instellen. 
+
+
+
+
+
+
+ 
+
+
+Dit doe je door eerst op de besturing van je keuze en daarna op de knop 
+Instellen
+ te klikken. Je gaat dan automatisch naar het volgende menu.
+
+
+
+
+
+ 
+
+
+Klik op 
+OK
+ om verder te gaan. 
+
+
+
+
+
+ 
+
+
+Klik op 
+Annuleren
+ om terug te gaan naar het 
+Hoofdmenu
+.
+
+
+
+
+===== TOPIC 40: Weergave instellen =====
+
+
+
+ Weergave instellen
+
+
+
+
+
+ 
+
+
+
+
+
+Heb je een videokaart met 3D-acceleratie, vink dan de 
+3D-kaart 
+aan. 
+
+
+
+
+
+Standaard staat de weergave ingesteld op 
+Normaal
+.
+
+
+
+
+
+
+ 
+
+
+
+
+
+Door te klikken op de knop 
+Geavanceerd
+, ga je naar het menu 
+‘
+Beeldscherminstellingen
+’
+. 
+
+
+
+
+Hier kun je de geavanceerde instellingen van je videokaart opgeven (tabblad 
+
+Algemeen
+
+) of proberen weergaveproblemen op te lossen (tabblad 
+
+Problemen
+
+).
+
+
+
+
+
+===== TOPIC 41: Geluid instellen =====
+
+
+
+ Geluid instellen
+
+
+
+
+Hier kun je het volume van de 
+Muziek
+, 
+Stemmen
+ en 
+Geluidseffecten
+ harder of zachter zetten. Dit doe je door met je muis op het blokje in de schuifbalk te klikken en deze naar links (zachter) of rechts (harder) te bewegen.
+
+
+
+
+===== TOPIC 42: Startinfo =====
+
+
+
+ Startinfo
+
+
+
+Hier zie je de instellingen van de toetsen waarmee je in het spel je auto bestuurt. Je kunt dit scherm uitzetten door in het 
+Opties
+-menu het vakje voor de tekst 
+‘
+Dit scherm niet meer tonen
+’
+ af te vinken.
+
+
+
+  De standaardinstellingen van de toetsen zijn:
+
+
+
+Gasgeven:
+
+Pijltje Omhoog
+
+Remmen: 
+
+Pijltje Omlaag
+
+Links:
+
+
+Pijltje Links
+
+Rechts:
+
+
+Pijltje Rechts
+
+Handrem:
+
+
+Alt
+
+Claxon:
+
+
+Spatie
+
+Turbo: 
+
+
+Ctrl
+
+Camera:
+ 
+
+1 - 4
+
+
+
+Dashboard aan/uit
+
+5
+
+Reset:
+
+Enter
+
+
+
+ 
+Klik op 
+OK 
+om verder te gaan en met de race te beginnen.
+
+
+
+
+
+
+
+===== TOPIC 43: Spelregels =====
+
+
+
+ Spelregels 
+
+
+
+Je kunt kiezen tussen twee spelmogelijkheden:
+
+
+
+
+
+
+ 
+
+
+
+
+
+·
+
+de 
+Tour
+ 
+
+
+·
+
+Quick Race
+
+
+
+
+
+
+
+
+Tour
+
+In de 
+Tour
+ strijd je samen met andere hippe leden van de illegale A2 Raceclub om de prijzenpot én de eeuwige roem! De 
+Tour
+ is onderverdeeld in negen verschillende etappes. De race begint in Scheveningen en zal uiteindelijk in Berlijn eindigen. De A2 Race-organisatie zal zijn keuze voor de daartussen liggende etappes laten afhangen van de al dan niet aanwezige politiedreiging.
+
+De tour kent twee verschillende soorten etappes: 
+
+
+
+-
+
+de 
+Race
+, hierbij
+ 
+is het de bedoeling om je tegenstanders eruit te rijden en als eerste te eindigen.
+
+
+
+
+-
+
+de 
+Achtervolging
+, hierbij moet je binnen een bepaalde tijd uit de handen van de politie blijven en een checkpoint passeren.
+
+
+
+
+Bij de race-etappes moet je aan de 
+kwalificatie-eis
+ voldoen, om door te gaan naar de volgende etappe. De 
+kwalificatie-eis
+ is de plek waarop je tenminste moet eindigen. Deze is afhankelijk van de 
+moeilijkheidsgraad
+, die je hebt gekozen.
+
+
+
+Ben je te laag geëindigd en heb je niet aan de 
+kwalificatie-eis 
+voldaan, dan begin je de etappe weer opnieuw.
+
+
+
+Bij de achtervolgingsettappes kwalificeer je jezelf voor de volgende etappe, door binnen de aangegeven tijd uit de handen van D. T. Harry en zijn politiemakkers te blijven. 
+
+
+Quick Race
+
+In de 
+Quick Race
+ kun je zelf een auto en etappe uitkiezen en tegen vier andere racers rijden om de snelste tijd. Je kunt de 
+Quick Race
+ natuurlijk ook gebruiken om een etappe te oefenen of één van de beschikbare auto
+’
+s uit te proberen.
+
+
+
+
+
+Bonus
+
+Heb je in de 
+Tour
+ één karakter uitgespeeld én ben je als eerste geëindigd, dan mag je als bonusprijs in de 
+Quick Race
+ gaan racen in:
+
+
+
+
+
+ 
+
+
+
+de megasterke auto van D.T. Harry!
+
+
+
+
+
+
+
+
+===== TOPIC 44: Instellingen =====
+
+
+
+ Instellingen
+
+
+
+Speler
+
+De naam waarmee je gaat spelen, kun je instellen in het 
+Spelermenu
+. Daar zie je een lijst met namen van spelers die eerder zijn aangemaakt. Selecteer een naam uit de lijst door er met je muis op te klikken en klik vervolgens op 
+OK
+ om met deze speler het spel te gaan spelen. 
+Je kunt in dit menu nieuwe spelers aanmaken of spelers van de lijst verwijderen.
+
+
+
+
+
+
+
+
+
+
+
+Klik op de knop 
+Nieuwe speler
+ om een speler aan te maken. 
+Typ een naam in.
+
+
+
+
+
+
+Klik op de knop 
+OK,
+ om dit te bevestigen.
+
+
+
+
+Om een speler te verwijderen, klik op de speler die je wilt verwijderen. 
+
+
+
+
+
+
+
+Klik daarna op de knop 
+Verwijderen
+. 
+
+
+
+
+
+
+
+Er wordt nu gevraagd of je deze speler echt wilt verwijderen.
+ 
+
+
+
+
+
+
+Klik op 
+OK
+ om het verwijderen definitief te maken.
+
+
+
+
+
+
+
+De andere instellingen binnen het spel kun je in het 
+Opties
+-menu bekijken en, indien nodig, wijzigen. De instellingen zijn: 
+Besturing, Weergave, Geluid.
+
+
+
+Besturing
+ 
+Bij besturing zie je welk soort besturing je op dit moment hebt geselecteerd. Er zijn vier soorten besturing: 
+
+- Toetsenbord 
+- Gamepad 
+- Joystick 
+- Stuur
+
+Je kunt het soort besturing veranderen door op het lampje links naast de besturing van jouw voorkeur te klikken. Deze staat nu 
+‘
+aan
+’
+.
+
+
+
+Je kunt de 
+
+besturing
+
+ ook naar eigen wensen instellen. 
+
+
+
+Weergave 
+
+
+
+
+
+ 
+
+
+Heb je een videokaart met 3D-acceleratie, vink dan de 
+3D-kaart 
+aan. 
+
+
+
+
+
+Standaard staat de weergave ingesteld op 
+Normaal
+.
+
+
+
+
+
+
+ 
+
+
+
+Door te klikken op de knop 
+Geavanceerd
+, ga je naar het menu   
+‘
+Beeldscherminstellingen
+’
+. 
+
+
+
+Hier kun je de geavanceerde instellingen van je videokaart opgeven (tabblad 
+
+Algemeen
+
+) of proberen weergaveproblemen op te lossen (tabblad 
+
+Problemen
+
+).
+
+
+
+
+Geluid 
+
+
+
+Je kunt het volume van de 
+Muziek
+, 
+Stemmen
+ en 
+Geluidseffecten
+ harder of zachter zetten. Dit doe je door met je muis op het blokje in de schuifbalk te klikken en deze naar links (zachter) of rechts (harder) te bewegen.
+
+
+
+
+===== TOPIC 45: Besturing instellen =====
+
+
+
+ Besturing instellen
+
+
+
+Toetsenbord
+
+
+
+
+ 
+Klik in het 
+Opties
+menu op 
+Instellen
+.
+
+Je komt dan in het scherm waar je de toetsen kan instellen. 
+
+
+
+De standaardinstellingen van de toetsen zijn:
+
+
+
+Gasgeven:
+
+Pijltje Omhoog
+
+Remmen: 
+
+Pijltje Omlaag
+
+Links:
+
+
+Pijltje Links
+
+Rechts:
+
+
+Pijltje Rechts
+
+Handrem:
+
+
+Alt
+
+Claxon:
+
+
+Spatie
+
+Turbo: 
+
+
+Ctrl
+
+Camera:
+ 
+
+1 - 4
+
+
+
+Reset:
+
+Enter
+
+Dashboard aan/uit
+
+5
+
+
+Door met je muis op één van deze standaardtoetsen te klikken, selecteer je deze toets en kun je een ander toets intypen. 
+
+Let op
+: de camera, reset-knop en dashboard-knop zijn 
+niet
+ instelbaar.
+
+Klik op 
+OK
+, als alles naar wens is ingesteld.
+Klik op 
+Standaard, 
+als
+ 
+je toch weer de standaardinstellingen (zie boven) terugwilt? 
+Klik op 
+Annuleren,
+ als je de wijzigingen toch niet wilt doorvoeren.
+
+
+
+
+Stuur instellen
+
+
+ 
+Klik in het 
+Opties
+menu op 
+Instellen
+.
+
+Je komt dan in het scherm waar je de gevoeligheid van een stuur naar jouw wensen kan instellen.
+Klik met je muis op het blokje in de schuifbalk en beweeg hem naar links om je stuur minder gevoelig te maken, of naar rechts om je stuur gevoeliger te maken. 
+
+Klik op 
+OK
+ om deze instellingen te gebruiken. Klik op 
+Annuleren,
+ als je de wijzigingen toch niet wilt doorvoeren.
+
+
+
+
+Joystick
+
+
+
+
+ 
+Klik in het 
+Opties
+menu op 
+Instellen
+.
+
+Je komt dan in het scherm waar je de gevoeligheid van een joystick naar jouw wensen kan instellen.
+Klik met je muis op het blokje in de schuifbalk en beweeg hem naar links om je stuur minder gevoelig te maken, of naar rechts om je joystick gevoeliger te maken.
+
+Klik op 
+OK
+ om deze instellingen te gebruiken. Klik op 
+Annuleren,
+ als je de wijzigingen toch niet wilt doorvoeren.
+
+
+
+
+===== TOPIC 46: Internet? =====
+
+
+
+ Internet?
+
+
+
+Als je hier op 
+OK
+ klikt, wordt jouw Internetbrowser opgestart. Je gaat dan automatisch naar de A2 Racer-site.
+
+
+
+
+
+
+
+===== TOPIC 47: Nieuwe speler =====
+
+
+
+ Nieuwe speler
+
+
+
+Als je een nieuwe speler aanmaakt, begin je helemaal opnieuw. Je begint dan weer met een budget van nul Euro!
+
+
+
+
+
+
+
+===== TOPIC 48: Echt speler verwijderen? =====
+
+
+
+ Echt speler verwijderen?
+
+
+
+Als je een speler verwijdert, haal je definitief al zijn gegevens weg. Je verwijdert dus ook: budget, gereden etappes, rondetijden e.d.
+
+
+
+
+
+
+
+===== TOPIC 49: Winnaar A2 Race =====
+
+
+
+ Winnaar A2 Race
+
+
+
+Gefeliciteerd, jij bent de winnaar! Je hebt Harry van je afgeschud en iedereen eruit gereden! 
+
+Als bonusprijs wordt nu de auto van D.T. Harry ontgrendeld.  Je kunt nu in deze ontzettend ruige auto
+ 
+gaan racen in de Quick Race!
+
+
+
+
+
+
+===== TOPIC 50: Algemene onderwerpen =====
+
+
+
+ Algemene onderwerpen
+
+
+
+
+
+
+Spelregels
+
+ 
+
+
+
+Instellingen
+
+ 
+
+
+
+Besturing instellen
+
+ 
+
+
+
+Internet
+
+ 
+
+
+
+
+===== TOPIC 51:  =====
+
+
+
+===== TOPIC 52:  =====

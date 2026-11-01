@@ -1,0 +1,2451 @@
+address	name	method
+00402af0	TStrings.vmt_00c	Delphi VMT slot
+00402f2c	TObject.NewInstance	Delphi VMT standard slot
+00402f40	TObject.FreeInstance	Delphi VMT standard slot
+00402f8c	TObject.Destroy	Delphi VMT standard slot
+004031c0	TObject.SafeCallException	Delphi VMT standard slot
+004031c8	TObject.DefaultHandler	Delphi VMT standard slot
+004031cc	TObject.AfterConstruction	Delphi VMT standard slot
+004031d0	TObject.BeforeDestruction	Delphi VMT standard slot
+004031d4	TObject.Dispatch	Delphi VMT standard slot
+004058cc	TInterfacedObject.AfterConstruction	Delphi VMT standard slot
+004058d8	TInterfacedObject.BeforeDestruction	Delphi VMT standard slot
+004058e8	TInterfacedObject.NewInstance	Delphi VMT standard slot
+00406384	unit_001_finalization	Delphi unit init table
+004063ec	unit_001_initialization	Delphi unit init table
+00406620	unit_000_finalization	Delphi unit init table
+00406650	unit_000_initialization	Delphi unit init table
+00407240	unit_002_finalization	Delphi unit init table
+00407270	unit_002_initialization	Delphi unit init table
+00407278	unit_004_finalization	Delphi unit init table
+004072a8	unit_004_initialization	Delphi unit init table
+00407570	unit_007_finalization	Delphi unit init table
+004075a0	unit_007_initialization	Delphi unit init table
+0040b7ac	EHeapException.FreeInstance	Delphi VMT standard slot
+0040c87c	TMultiReadExclusiveWriteSynchronizer.Destroy	Delphi VMT standard slot
+0040d594	unit_008_finalization	Delphi unit init table
+0040d6d4	unit_008_initialization	Delphi unit init table
+0040d9f8	unit_005_finalization	Delphi unit init table
+0040da28	unit_005_initialization	Delphi unit init table
+0040ddf0	unit_009_finalization	Delphi unit init table
+0040de20	unit_009_initialization	Delphi unit init table
+0040e364	unit_010_finalization	Delphi unit init table
+0040e3b4	unit_010_initialization	Delphi unit init table
+004100e4	TList.Destroy	Delphi VMT standard slot
+00410138	TList.vmt_008	Delphi VMT slot
+004101b4	TList.vmt_00c	Delphi VMT slot
+004102d8	TList.vmt_000	Delphi VMT slot
+004105f4	TList.vmt_004	Delphi VMT slot
+0041064c	TThreadList.Destroy	Delphi VMT standard slot
+004107c0	TBits.Destroy	Delphi VMT standard slot
+00410974	TPersistent.Destroy	Delphi VMT standard slot
+004109a0	TPersistent.vmt_008	Delphi VMT slot
+00410a84	TPersistent.vmt_000	Delphi VMT slot
+00410a8c	TPersistent.vmt_004	Delphi VMT slot
+00410a90	TPersistent.dyn_fffe	Delphi dynamic method table
+00410b40	TPersistent.dyn_ffff	Delphi dynamic method table
+00410b44	TCollectionItem.vmt_018	Delphi VMT slot
+00410b7c	TCollectionItem.Destroy	Delphi VMT standard slot
+00410be8	TCollectionItem.vmt_00c	Delphi VMT slot
+00410c10	TCollectionItem.dyn_fffe	Delphi dynamic method table
+00410cc4	TCollectionItem.dyn_ffff	Delphi dynamic method table
+00410cf0	TCollectionItem.vmt_014	Delphi VMT slot
+00410cf8	TCollectionItem.vmt_010	Delphi VMT slot
+00410d68	TCollection.Destroy	Delphi VMT standard slot
+00410db8	TCollection.vmt_008	Delphi VMT slot
+00410e50	TCollection.vmt_014	Delphi VMT slot
+00410ecc	TCollection.vmt_018	Delphi VMT slot
+00410ed8	TCollection.dyn_fffd	Delphi dynamic method table
+00410edc	TCollection.dyn_fffc	Delphi dynamic method table
+00410ee8	TCollection.dyn_fffb	Delphi dynamic method table
+00410f24	TCollection.dyn_fffe	Delphi dynamic method table
+0041128c	TCollection.vmt_00c	Delphi VMT slot
+00411290	TCollection.vmt_010	Delphi VMT slot
+00411294	TStrings.Destroy	Delphi VMT standard slot
+004112c4	TStrings.vmt_034	Delphi VMT slot
+004112e8	TStrings.vmt_038	Delphi VMT slot
+0041130c	TStrings.vmt_03c	Delphi VMT slot
+004113c4	TStrings.vmt_008	Delphi VMT slot
+004114a4	TStrings.vmt_004	Delphi VMT slot
+00411640	TStrings.vmt_048	Delphi VMT slot
+00411728	TStrings.vmt_010	Delphi VMT slot
+0041177c	TStrings.vmt_018	Delphi VMT slot
+00411780	TStrings.vmt_04c	Delphi VMT slot
+004117d4	TStrings.vmt_01c	Delphi VMT slot
+00411948	TStrings.vmt_050	Delphi VMT slot
+00411af0	TStrings.vmt_058	Delphi VMT slot
+00411b44	TStrings.vmt_05c	Delphi VMT slot
+00411bf0	TStrings.vmt_060	Delphi VMT slot
+00411ca0	TStrings.vmt_020	Delphi VMT slot
+00411cd0	TStrings.vmt_024	Delphi VMT slot
+00411d84	TStrings.vmt_064	Delphi VMT slot
+00411ddc	TStrings.vmt_068	Delphi VMT slot
+00411e38	TStrings.vmt_028	Delphi VMT slot
+00411e70	TStrings.vmt_06c	Delphi VMT slot
+00411ec0	TStrings.vmt_02c	Delphi VMT slot
+00411f80	TStrings.vmt_030	Delphi VMT slot
+004120ac	TStringList.Destroy	Delphi VMT standard slot
+00412108	TStringList.vmt_034	Delphi VMT slot
+00412160	TStringList.vmt_070	Delphi VMT slot
+0041217c	TStringList.vmt_074	Delphi VMT slot
+00412198	TStringList.vmt_040	Delphi VMT slot
+004121d0	TStringList.vmt_044	Delphi VMT slot
+00412234	TStringList.vmt_048	Delphi VMT slot
+004122b0	TStringList.vmt_078	Delphi VMT slot
+00412318	TStringList.vmt_00c	Delphi VMT slot
+0041234c	TStringList.vmt_010	Delphi VMT slot
+00412350	TStringList.vmt_014	Delphi VMT slot
+00412354	TStringList.vmt_018	Delphi VMT slot
+004123b0	TStringList.vmt_050	Delphi VMT slot
+004123e8	TStringList.vmt_054	Delphi VMT slot
+00412498	TStringList.vmt_020	Delphi VMT slot
+004124f0	TStringList.vmt_024	Delphi VMT slot
+004125c0	TStringList.vmt_028	Delphi VMT slot
+004125f8	TStringList.vmt_030	Delphi VMT slot
+00412620	TStringList.vmt_07c	Delphi VMT slot
+00412630	TStringList.vmt_080	Delphi VMT slot
+004126b4	TStream.vmt_000	Delphi VMT slot
+00412860	THandleStream.vmt_004	Delphi VMT slot
+00412870	THandleStream.vmt_008	Delphi VMT slot
+00412880	THandleStream.vmt_00c	Delphi VMT slot
+0041288c	THandleStream.vmt_000	Delphi VMT slot
+00412964	TFileStream.Destroy	Delphi VMT standard slot
+00412994	TCustomMemoryStream.vmt_004	Delphi VMT slot
+004129cc	TCustomMemoryStream.vmt_00c	Delphi VMT slot
+004129f0	TMemoryStream.Destroy	Delphi VMT standard slot
+00412a5c	TMemoryStream.vmt_000	Delphi VMT slot
+00412a88	TMemoryStream.vmt_010	Delphi VMT slot
+00412b0c	TMemoryStream.vmt_008	Delphi VMT slot
+00412c90	TResourceStream.Destroy	Delphi VMT standard slot
+00412cc8	TResourceStream.vmt_008	Delphi VMT slot
+00412d28	TFiler.Destroy	Delphi VMT standard slot
+00412d50	TFiler.vmt_000	Delphi VMT slot
+004132e4	TReader.Destroy	Delphi VMT standard slot
+00413344	TReader.vmt_004	Delphi VMT slot
+00413378	TReader.vmt_008	Delphi VMT slot
+00413468	TReader.vmt_010	Delphi VMT slot
+00413488	TReader.vmt_018	Delphi VMT slot
+00413690	TReader.vmt_00c	Delphi VMT slot
+004141a4	TReader.vmt_024	Delphi VMT slot
+0041527c	TReader.vmt_014	Delphi VMT slot
+00415334	TReader.vmt_020	Delphi VMT slot
+0041534c	TReader.vmt_01c	Delphi VMT slot
+0041556c	TComponent.vmt_02c	Delphi VMT slot
+004155b8	TComponent.Destroy	Delphi VMT standard slot
+00415640	TComponent.BeforeDestruction	Delphi VMT standard slot
+00415898	TComponent.vmt_010	Delphi VMT slot
+004158f4	TComponent.vmt_004	Delphi VMT slot
+0041597c	TComponent.dyn_fff2	Delphi dynamic method table
+00415980	TComponent.dyn_fffd	Delphi dynamic method table
+00415988	TComponent.dyn_fffc	Delphi dynamic method table
+0041598c	TComponent.dyn_fffb	Delphi dynamic method table
+00415990	TComponent.dyn_fffe	Delphi dynamic method table
+004159a4	TComponent.dyn_ffff	Delphi dynamic method table
+004159a8	TComponent.dyn_fffa	Delphi dynamic method table
+004159ac	TComponent.dyn_fff3	Delphi dynamic method table
+004159b0	TComponent.dyn_fff9	Delphi dynamic method table
+004159b4	TComponent.dyn_fff8	Delphi dynamic method table
+004159c0	TComponent.dyn_fff7	Delphi dynamic method table
+004159cc	TComponent.vmt_00c	Delphi VMT slot
+004159d8	TComponent.vmt_014	Delphi VMT slot
+004159e0	TComponent.vmt_024	Delphi VMT slot
+004159e8	TComponent.vmt_020	Delphi VMT slot
+00415a68	TComponent.dyn_fff6	Delphi dynamic method table
+00415a7c	TComponent.dyn_fff5	Delphi dynamic method table
+00415ad0	TComponent.vmt_018	Delphi VMT slot
+00415c98	TComponent.dyn_fff4	Delphi dynamic method table
+00415cc0	TComponent.dyn_fff1	Delphi dynamic method table
+00415ce8	TComponent.SafeCallException	Delphi VMT standard slot
+00415d00	TComponent.vmt_01c	Delphi VMT slot
+00415d08	TComponent.vmt_028	Delphi VMT slot
+00415d48	TBasicActionLink.vmt_014	Delphi VMT slot
+00415d8c	TBasicActionLink.vmt_000	Delphi VMT slot
+00415d90	TBasicActionLink.Destroy	Delphi VMT standard slot
+00415dc4	TBasicActionLink.vmt_004	Delphi VMT slot
+00415ddc	TBasicActionLink.vmt_018	Delphi VMT slot
+00415dec	TBasicActionLink.vmt_00c	Delphi VMT slot
+00415e18	TBasicActionLink.vmt_008	Delphi VMT slot
+00415e1c	TBasicActionLink.vmt_010	Delphi VMT slot
+00415e24	TBasicActionLink.vmt_01c	Delphi VMT slot
+00415e30	TBasicAction.vmt_02c	Delphi VMT slot
+00415e74	TBasicAction.Destroy	Delphi VMT standard slot
+00415ec0	TBasicAction.vmt_038	Delphi VMT slot
+00415ec4	TBasicAction.vmt_040	Delphi VMT slot
+00415ec8	TBasicAction.vmt_03c	Delphi VMT slot
+00415ecc	TBasicAction.dyn_fff0	Delphi dynamic method table
+00415ee8	TBasicAction.vmt_044	Delphi VMT slot
+00415f04	TBasicAction.vmt_034	Delphi VMT slot
+00415f58	TBasicAction.vmt_030	Delphi VMT slot
+00416000	TStreamAdapter.Destroy	Delphi VMT standard slot
+00416038	TStreamAdapter.vmt_000	Delphi VMT slot
+004160a0	TStreamAdapter.vmt_004	Delphi VMT slot
+00416108	TStreamAdapter.vmt_008	Delphi VMT slot
+00416180	TStreamAdapter.vmt_00c	Delphi VMT slot
+004161e4	TStreamAdapter.vmt_010	Delphi VMT slot
+004163cc	TStreamAdapter.vmt_014	Delphi VMT slot
+004163d8	TStreamAdapter.vmt_018	Delphi VMT slot
+004163e4	TStreamAdapter.vmt_01c	Delphi VMT slot
+004163f0	TStreamAdapter.vmt_020	Delphi VMT slot
+004163fc	TStreamAdapter.vmt_024	Delphi VMT slot
+0041647c	TStreamAdapter.vmt_028	Delphi VMT slot
+00416508	unit_011_finalization	Delphi unit init table
+004165c0	unit_011_initialization	Delphi unit init table
+00417630	TResourceManager.Destroy	Delphi VMT standard slot
+00417d84	TGraphicsObject.dyn_fffd	Delphi dynamic method table
+00418094	TFont.Destroy	Delphi VMT standard slot
+004180bc	TFont.dyn_fffd	Delphi dynamic method table
+004180d8	TFont.vmt_008	Delphi VMT slot
+00418214	TFont.set_Color	Delphi RTTI property accessor
+004183f4	TFont.get_Height	Delphi RTTI property accessor
+004183fc	TFont.set_Height	Delphi RTTI property accessor
+00418424	TFont.get_Name	Delphi RTTI property accessor
+0041843c	TFont.set_Name	Delphi RTTI property accessor
+00418498	TFont.get_Size	Delphi RTTI property accessor
+004184b4	TFont.set_Size	Delphi RTTI property accessor
+004184d4	TFont.get_Style	Delphi RTTI property accessor
+004184e0	TFont.set_Style	Delphi RTTI property accessor
+0041850c	TFont.get_Pitch	Delphi RTTI property accessor
+00418514	TFont.set_Pitch	Delphi RTTI property accessor
+0041853c	TFont.get_Charset	Delphi RTTI property accessor
+00418544	TFont.set_Charset	Delphi RTTI property accessor
+004185b0	TPen.Destroy	Delphi VMT standard slot
+004185d8	TPen.vmt_008	Delphi VMT slot
+004186f8	TPen.get_Color	Delphi RTTI property accessor
+00418700	TPen.set_Color	Delphi RTTI property accessor
+004187c0	TPen.set_Mode	Delphi RTTI property accessor
+004187d4	TPen.get_Style	Delphi RTTI property accessor
+004187dc	TPen.set_Style	Delphi RTTI property accessor
+00418804	TPen.get_Width	Delphi RTTI property accessor
+0041880c	TPen.set_Width	Delphi RTTI property accessor
+00418878	TBrush.Destroy	Delphi VMT standard slot
+004188a0	TBrush.vmt_008	Delphi VMT slot
+004189dc	TBrush.get_Color	Delphi RTTI property accessor
+004189e4	TBrush.set_Color	Delphi RTTI property accessor
+00418af8	TBrush.get_Style	Delphi RTTI property accessor
+00418b00	TBrush.set_Style	Delphi RTTI property accessor
+00418bf8	TCanvas.Destroy	Delphi VMT standard slot
+004193f8	TCanvas.set_Font	Delphi RTTI property accessor
+00419408	TCanvas.set_Pen	Delphi RTTI property accessor
+00419414	TCanvas.set_Brush	Delphi RTTI property accessor
+00419554	TCanvas.vmt_014	Delphi VMT slot
+00419620	TCanvas.vmt_010	Delphi VMT slot
+00419634	TCanvas.vmt_00c	Delphi VMT slot
+0041aa50	TGraphic.vmt_00c	Delphi VMT slot
+0041aa88	TGraphic.vmt_010	Delphi VMT slot
+0041aaf8	TGraphic.vmt_004	Delphi VMT slot
+0041ab44	TGraphic.vmt_018	Delphi VMT slot
+0041ac88	TGraphic.vmt_024	Delphi VMT slot
+0041ac8c	TGraphic.vmt_028	Delphi VMT slot
+0041ac90	TGraphic.vmt_048	Delphi VMT slot
+0041ace4	TGraphic.dyn_fffd	Delphi dynamic method table
+0041ad0c	TGraphic.vmt_030	Delphi VMT slot
+0041ad18	TGraphic.vmt_04c	Delphi VMT slot
+0041ad70	TGraphic.vmt_038	Delphi VMT slot
+0041ad74	TGraphic.vmt_03c	Delphi VMT slot
+0041ad84	TGraphic.vmt_044	Delphi VMT slot
+0041af60	TFileFormatsList.Destroy	Delphi VMT standard slot
+0041b1fc	TClipboardFormats.Destroy	Delphi VMT standard slot
+0041b394	TPicture.Destroy	Delphi VMT standard slot
+0041b3c4	TPicture.vmt_000	Delphi VMT slot
+0041b65c	TPicture.vmt_008	Delphi VMT slot
+0041b724	TPicture.dyn_fffd	Delphi dynamic method table
+0041b748	TPicture.dyn_fffc	Delphi dynamic method table
+0041b960	TPicture.vmt_004	Delphi VMT slot
+0041b9dc	TMetafileImage.Destroy	Delphi VMT standard slot
+0041ba18	TMetafileImage.vmt_000	Delphi VMT slot
+0041bd04	TMetafileCanvas.Destroy	Delphi VMT standard slot
+0041bd50	TMetafile.vmt_00c	Delphi VMT slot
+0041bd98	TMetafile.Destroy	Delphi VMT standard slot
+0041bdc8	TMetafile.vmt_008	Delphi VMT slot
+0041be5c	TMetafile.vmt_014	Delphi VMT slot
+0041bfd8	TMetafile.vmt_01c	Delphi VMT slot
+0041bff0	TMetafile.vmt_020	Delphi VMT slot
+0041c084	TMetafile.vmt_024	Delphi VMT slot
+0041c110	TMetafile.vmt_02c	Delphi VMT slot
+0041c174	TMetafile.vmt_050	Delphi VMT slot
+0041c1f0	TMetafile.vmt_030	Delphi VMT slot
+0041c4ac	TMetafile.vmt_04c	Delphi VMT slot
+0041c538	TMetafile.vmt_054	Delphi VMT slot
+0041c5e4	TMetafile.vmt_034	Delphi VMT slot
+0041c6d0	TMetafile.vmt_03c	Delphi VMT slot
+0041c6d4	TMetafile.vmt_040	Delphi VMT slot
+0041c82c	TMetafile.vmt_044	Delphi VMT slot
+0041ca84	TMetafile.vmt_058	Delphi VMT slot
+0041cb08	TMetafile.vmt_05c	Delphi VMT slot
+0041cd58	TBitmapCanvas.Destroy	Delphi VMT standard slot
+0041ce24	TBitmapCanvas.vmt_014	Delphi VMT slot
+0041cf34	TBitmapImage.Destroy	Delphi VMT standard slot
+0041cf90	TBitmapImage.vmt_000	Delphi VMT slot
+0041d9b0	TBitmap.vmt_00c	Delphi VMT slot
+0041da18	TBitmap.Destroy	Delphi VMT standard slot
+0041da54	TBitmap.vmt_008	Delphi VMT slot
+0041dc28	TBitmap.vmt_010	Delphi VMT slot
+0041dc50	TBitmap.vmt_014	Delphi VMT slot
+0041df04	TBitmap.vmt_01c	Delphi VMT slot
+0041df5c	TBitmap.vmt_060	Delphi VMT slot
+0041dfac	TBitmap.vmt_020	Delphi VMT slot
+0041dfbc	TBitmap.vmt_064	Delphi VMT slot
+0041dfec	TBitmap.vmt_024	Delphi VMT slot
+0041e048	TBitmap.vmt_02c	Delphi VMT slot
+0041e2dc	TBitmap.vmt_058	Delphi VMT slot
+0041e360	TBitmap.vmt_050	Delphi VMT slot
+0041e4e4	TBitmap.vmt_030	Delphi VMT slot
+0041eb50	TBitmap.vmt_068	Delphi VMT slot
+0041ec88	TBitmap.vmt_034	Delphi VMT slot
+0041ed5c	TBitmap.vmt_038	Delphi VMT slot
+0041eeac	TBitmap.vmt_040	Delphi VMT slot
+0041ef00	TBitmap.vmt_044	Delphi VMT slot
+0041f1fc	TBitmap.vmt_054	Delphi VMT slot
+0041f204	TBitmap.vmt_05c	Delphi VMT slot
+0041f2a4	TIconImage.Destroy	Delphi VMT standard slot
+0041f2d4	TIconImage.vmt_000	Delphi VMT slot
+0041f2ec	TIcon.vmt_00c	Delphi VMT slot
+0041f340	TIcon.Destroy	Delphi VMT standard slot
+0041f370	TIcon.vmt_008	Delphi VMT slot
+0041f3d0	TIcon.vmt_014	Delphi VMT slot
+0041f410	TIcon.vmt_01c	Delphi VMT slot
+0041f43c	TIcon.vmt_020	Delphi VMT slot
+0041f450	TIcon.vmt_02c	Delphi VMT slot
+0041f590	TIcon.vmt_050	Delphi VMT slot
+0041f6d4	TIcon.vmt_034	Delphi VMT slot
+0041f6ec	TIcon.vmt_03c	Delphi VMT slot
+0041f6f0	TIcon.vmt_040	Delphi VMT slot
+0041f708	TIcon.vmt_054	Delphi VMT slot
+0041f734	TIcon.vmt_058	Delphi VMT slot
+0041f748	TIcon.vmt_05c	Delphi VMT slot
+0041f8e0	TPatternManager.Destroy	Delphi VMT standard slot
+0041fb88	unit_012_finalization	Delphi unit init table
+0041fc5c	unit_012_initialization	Delphi unit init table
+0041ff5c	TObjectList.vmt_004	Delphi VMT slot
+00420050	TComponentListNexus.vmt_010	Delphi VMT slot
+00420088	TComponentList.Destroy	Delphi VMT standard slot
+004200dc	TComponentList.vmt_004	Delphi VMT slot
+00420198	TOrderedList.Destroy	Delphi VMT standard slot
+004201c8	TOrderedList.vmt_008	Delphi VMT slot
+004201dc	TOrderedList.vmt_004	Delphi VMT slot
+004201fc	TStack.vmt_000	Delphi VMT slot
+00420208	unit_015_finalization	Delphi unit init table
+00420238	unit_015_initialization	Delphi unit init table
+004203a0	unit_006_finalization	Delphi unit init table
+004203d0	unit_006_initialization	Delphi unit init table
+00420b2c	unit_003_finalization	Delphi unit init table
+00420b5c	unit_003_initialization	Delphi unit init table
+00420b6c	unit_014_finalization	Delphi unit init table
+00420b9c	unit_014_initialization	Delphi unit init table
+00420cbc	unit_025_finalization	Delphi unit init table
+00420cec	unit_025_initialization	Delphi unit init table
+00420cf4	unit_023_finalization	Delphi unit init table
+00420d24	unit_023_initialization	Delphi unit init table
+00420d2c	unit_024_finalization	Delphi unit init table
+00420d68	unit_024_initialization	Delphi unit init table
+00421050	unit_022_finalization	Delphi unit init table
+00421080	unit_022_initialization	Delphi unit init table
+00425a94	TCustomGroupBox.vmt_02c	Delphi VMT slot
+00425af0	TCustomGroupBox.vmt_084	Delphi VMT slot
+00425b4c	TCustomGroupBox.vmt_090	Delphi VMT slot
+00425b5c	TCustomGroupBox.vmt_0b4	Delphi VMT slot
+00425d6c	TCustomGroupBox.dyn_b006	Delphi dynamic method table
+00425dec	TCustomGroupBox.dyn_b012	Delphi dynamic method table
+00425e00	TCustomGroupBox.dyn_b010	Delphi dynamic method table
+00425e1c	TCustomGroupBox.dyn_0005	Delphi dynamic method table
+00425e30	TCustomLabel.vmt_02c	Delphi VMT slot
+00425e9c	TCustomLabel.vmt_088	Delphi VMT slot
+00425eb0	TCustomLabel.dyn_ffcc	Delphi dynamic method table
+00426020	TCustomLabel.vmt_084	Delphi VMT slot
+00426124	TCustomLabel.vmt_00c	Delphi VMT slot
+0042613c	TCustomLabel.dyn_ffcd	Delphi dynamic method table
+00426208	TLabel.set_Alignment	Delphi RTTI property accessor
+0042621c	TCustomLabel.vmt_08c	Delphi VMT slot
+00426238	TLabel.get_Transparent	Delphi RTTI property accessor
+00426244	TLabel.set_FocusControl	Delphi RTTI property accessor
+00426258	TLabel.set_ShowAccelChar	Delphi RTTI property accessor
+0042626c	TLabel.set_Transparent	Delphi RTTI property accessor
+004262ac	TLabel.set_Layout	Delphi RTTI property accessor
+004262c0	TLabel.set_WordWrap	Delphi RTTI property accessor
+004262e8	TCustomLabel.vmt_010	Delphi VMT slot
+00426318	TCustomLabel.dyn_b012	Delphi dynamic method table
+00426330	TCustomLabel.dyn_b00e	Delphi dynamic method table
+0042634c	TCustomLabel.dyn_b006	Delphi dynamic method table
+004263e8	TCustomEdit.vmt_02c	Delphi VMT slot
+00426490	TCustomEdit.vmt_0b4	Delphi VMT slot
+004264b0	TEdit.set_AutoSize	Delphi RTTI property accessor
+004264c4	TEdit.set_BorderStyle	Delphi RTTI property accessor
+004264e8	TEdit.set_CharCase	Delphi RTTI property accessor
+004264fc	TEdit.set_HideSelection	Delphi RTTI property accessor
+00426510	TEdit.set_MaxLength	Delphi RTTI property accessor
+00426540	TEdit.set_OEMConvert	Delphi RTTI property accessor
+004265c4	TEdit.set_PasswordChar	Delphi RTTI property accessor
+0042664c	TEdit.set_ReadOnly	Delphi RTTI property accessor
+00426688	TCustomEdit.vmt_0bc	Delphi VMT slot
+004266ac	TCustomEdit.vmt_0c8	Delphi VMT slot
+004266cc	TCustomEdit.vmt_0b8	Delphi VMT slot
+004266fc	TCustomEdit.vmt_0c4	Delphi VMT slot
+00426760	TCustomEdit.vmt_0cc	Delphi VMT slot
+00426798	TCustomEdit.vmt_0d0	Delphi VMT slot
+00426834	TCustomEdit.vmt_0c0	Delphi VMT slot
+004268d0	TCustomEdit.vmt_090	Delphi VMT slot
+0042698c	TCustomEdit.vmt_094	Delphi VMT slot
+004269fc	TCustomEdit.vmt_098	Delphi VMT slot
+00426aa0	TCustomEdit.vmt_0a0	Delphi VMT slot
+00426ba0	TCustomEdit.dyn_ffb6	Delphi dynamic method table
+00426bc4	TCustomEdit.DefaultHandler	Delphi VMT standard slot
+00426bfc	TCustomEdit.dyn_0030	Delphi dynamic method table
+00426c3c	TCustomEdit.dyn_b010	Delphi dynamic method table
+00426c70	TCustomEdit.dyn_b00e	Delphi dynamic method table
+00426c98	TCustomEdit.dyn_bd11	Delphi dynamic method table
+00426cb8	TCustomEdit.dyn_b01a	Delphi dynamic method table
+00426cf4	TCustomEdit.dyn_b012	Delphi dynamic method table
+00426d2c	TMemoStrings.vmt_014	Delphi VMT slot
+00426d90	TMemoStrings.vmt_00c	Delphi VMT slot
+00426dd4	TMemoStrings.vmt_020	Delphi VMT slot
+00426e48	TMemoStrings.vmt_054	Delphi VMT slot
+00426f54	TMemoStrings.vmt_044	Delphi VMT slot
+00426fe4	TMemoStrings.vmt_040	Delphi VMT slot
+00426ff4	TMemoStrings.vmt_030	Delphi VMT slot
+00427044	TMemoStrings.vmt_01c	Delphi VMT slot
+00427058	TMemoStrings.vmt_02c	Delphi VMT slot
+0042712c	TCustomMemo.vmt_02c	Delphi VMT slot
+004271b0	TCustomMemo.Destroy	Delphi VMT standard slot
+004271e0	TCustomMemo.vmt_090	Delphi VMT slot
+00427244	TCustomMemo.vmt_094	Delphi VMT slot
+00427318	TCustomMemo.vmt_0d4	Delphi VMT slot
+00427374	TCustomMemo.dyn_ffcf	Delphi dynamic method table
+0042737c	TCustomMemo.vmt_00c	Delphi VMT slot
+00427394	TMemo.set_Alignment	Delphi RTTI property accessor
+004273a8	TMemo.set_Lines	Delphi RTTI property accessor
+004273b8	TMemo.set_ScrollBars	Delphi RTTI property accessor
+004273cc	TMemo.set_WordWrap	Delphi RTTI property accessor
+004273e0	TCustomMemo.dyn_0087	Delphi dynamic method table
+00427414	TCustomMemo.dyn_0082	Delphi dynamic method table
+0042741c	TCustomMemo.dyn_ffbe	Delphi dynamic method table
+00427440	TComboBoxStrings.vmt_014	Delphi VMT slot
+0042745c	TComboBoxStrings.vmt_00c	Delphi VMT slot
+004274a0	TComboBoxStrings.vmt_018	Delphi VMT slot
+00427518	TComboBoxStrings.vmt_024	Delphi VMT slot
+0042753c	TComboBoxStrings.vmt_034	Delphi VMT slot
+004275c0	TComboBoxStrings.vmt_054	Delphi VMT slot
+00427640	TComboBoxStrings.vmt_044	Delphi VMT slot
+00427660	TComboBoxStrings.vmt_040	Delphi VMT slot
+004276d0	TComboBoxStrings.vmt_030	Delphi VMT slot
+00427704	TComboBoxStrings.vmt_050	Delphi VMT slot
+0042772c	TCustomComboBox.vmt_02c	Delphi VMT slot
+00427828	TCustomComboBox.Destroy	Delphi VMT standard slot
+00427950	TComboBox.set_MaxLength	Delphi RTTI property accessor
+00427990	TComboBox.set_Sorted	Delphi RTTI property accessor
+004279a4	TCustomComboBox.vmt_0c4	Delphi VMT slot
+004279e4	TComboBox.get_ItemHeight	Delphi RTTI property accessor
+00427a08	TComboBox.set_ItemHeight	Delphi RTTI property accessor
+00427a18	TComboBox.set_Items	Delphi RTTI property accessor
+00427a28	TCustomComboBox.vmt_090	Delphi VMT slot
+00427a8c	TCustomComboBox.vmt_098	Delphi VMT slot
+00427bf0	TCustomComboBox.vmt_0a0	Delphi VMT slot
+00427c3c	TCustomComboBox.dyn_0001	Delphi dynamic method table
+00427c60	TCustomComboBox.dyn_0014	Delphi dynamic method table
+00427cb4	TCustomComboBox.dyn_002b	Delphi dynamic method table
+00427cbc	TCustomComboBox.dyn_002c	Delphi dynamic method table
+00427cc4	TCustomComboBox.dyn_002d	Delphi dynamic method table
+00427ccc	TCustomComboBox.dyn_0087	Delphi dynamic method table
+00427cf0	TCustomComboBox.dyn_b004	Delphi dynamic method table
+00427d04	TCustomComboBox.dyn_b010	Delphi dynamic method table
+00427d28	TCustomComboBox.dyn_b009	Delphi dynamic method table
+00427e6c	TCustomComboBox.vmt_0bc	Delphi VMT slot
+00427e74	TCustomComboBox.vmt_0b4	Delphi VMT slot
+00428150	TCustomComboBox.vmt_06c	Delphi VMT slot
+00428358	TCustomComboBox.dyn_bd11	Delphi dynamic method table
+004284a4	TCustomComboBox.dyn_ffb6	Delphi dynamic method table
+004284c8	TCustomComboBox.vmt_0b8	Delphi VMT slot
+00428580	TCustomComboBox.dyn_ffb5	Delphi dynamic method table
+004285a0	TCustomComboBox.vmt_0c0	Delphi VMT slot
+004285c0	TCustomComboBox.dyn_bc2b	Delphi dynamic method table
+00428690	TCustomComboBox.dyn_bc2c	Delphi dynamic method table
+004286c0	TCustomComboBox.dyn_0201	Delphi dynamic method table
+00428738	TCustomComboBox.dyn_ffb9	Delphi dynamic method table
+0042876c	TButtonActionLink.vmt_000	Delphi VMT slot
+00428790	TButtonActionLink.vmt_024	Delphi VMT slot
+004287c8	TButtonActionLink.vmt_044	Delphi VMT slot
+0042882c	TButtonControl.vmt_02c	Delphi VMT slot
+00428880	TButtonControl.dyn_fff0	Delphi dynamic method table
+004288c8	TButtonControl.dyn_ffde	Delphi dynamic method table
+004288d0	TButtonControl.vmt_0b4	Delphi VMT slot
+004288f4	TButtonControl.vmt_0b8	Delphi VMT slot
+004288f8	TButtonControl.vmt_06c	Delphi VMT slot
+00428970	TButton.vmt_02c	Delphi VMT slot
+004289d4	TButton.dyn_ffec	Delphi dynamic method table
+004289f8	TButton.dyn_ffce	Delphi dynamic method table
+004289fc	TButton.vmt_0bc	Delphi VMT slot
+00428a50	TButton.set_Default	Delphi RTTI property accessor
+00428a84	TButton.vmt_090	Delphi VMT slot
+00428ac0	TButton.vmt_098	Delphi VMT slot
+00428ad8	TButton.dyn_bd11	Delphi dynamic method table
+00428aec	TButton.dyn_b005	Delphi dynamic method table
+00428b5c	TButton.dyn_b006	Delphi dynamic method table
+00428be0	TButton.dyn_b007	Delphi dynamic method table
+00428c34	TButton.dyn_0014	Delphi dynamic method table
+00428c3c	TCustomCheckBox.vmt_02c	Delphi VMT slot
+00428ca8	TCustomCheckBox.dyn_ffcf	Delphi dynamic method table
+00428cd4	TCustomCheckBox.vmt_0bc	Delphi VMT slot
+00428d14	TCustomCheckBox.dyn_ffec	Delphi dynamic method table
+00428d28	TCustomCheckBox.vmt_0b4	Delphi VMT slot
+00428d34	TCheckBox.set_Alignment	Delphi RTTI property accessor
+00428d48	TCustomCheckBox.vmt_0b8	Delphi VMT slot
+00428d5c	TCheckBox.set_State	Delphi RTTI property accessor
+00428dac	TCustomCheckBox.vmt_090	Delphi VMT slot
+00428e08	TCustomCheckBox.vmt_098	Delphi VMT slot
+00428e34	TCustomCheckBox.dyn_0005	Delphi dynamic method table
+00428e48	TCustomCheckBox.dyn_b010	Delphi dynamic method table
+00428e50	TCustomCheckBox.dyn_b006	Delphi dynamic method table
+00428eec	TCustomCheckBox.dyn_bd11	Delphi dynamic method table
+00428efc	TRadioButton.vmt_02c	Delphi VMT slot
+00428f5c	TRadioButton.vmt_0b4	Delphi VMT slot
+00428f64	TRadioButton.dyn_ffcf	Delphi dynamic method table
+00428f90	TRadioButton.set_Alignment	Delphi RTTI property accessor
+0042900c	TRadioButton.vmt_0b8	Delphi VMT slot
+00429094	TRadioButton.vmt_090	Delphi VMT slot
+004290ec	TRadioButton.vmt_098	Delphi VMT slot
+00429118	TRadioButton.dyn_b010	Delphi dynamic method table
+00429120	TRadioButton.dyn_b006	Delphi dynamic method table
+004291a4	TRadioButton.dyn_bd11	Delphi dynamic method table
+004291d8	unit_019_finalization	Delphi unit init table
+00429208	unit_019_initialization	Delphi unit init table
+00429620	TClipboard.vmt_000	Delphi VMT slot
+00429790	TClipboard.vmt_008	Delphi VMT slot
+004297fc	unit_020_finalization	Delphi unit init table
+00429838	unit_020_initialization	Delphi unit init table
+00429978	THintAction.vmt_02c	Delphi VMT slot
+004299b4	unit_021_finalization	Delphi unit init table
+004299e4	unit_021_initialization	Delphi unit init table
+0042bd60	TSiteList.vmt_008	Delphi VMT slot
+0042bdf8	TDragObject.vmt_00c	Delphi VMT slot
+0042be50	TDragObject.vmt_000	Delphi VMT slot
+0042be58	TDragObject.vmt_010	Delphi VMT slot
+0042bf84	TDragObject.vmt_008	Delphi VMT slot
+0042bf88	TDragObject.vmt_004	Delphi VMT slot
+0042bfa0	TDragObject.vmt_014	Delphi VMT slot
+0042bfa4	TDragObject.vmt_018	Delphi VMT slot
+0042bfac	TDragObject.vmt_01c	Delphi VMT slot
+0042bfb0	TBaseDragControlObject.vmt_024	Delphi VMT slot
+0042bfd4	TBaseDragControlObject.vmt_00c	Delphi VMT slot
+0042c000	TBaseDragControlObject.vmt_020	Delphi VMT slot
+0042c024	TBaseDragControlObject.vmt_000	Delphi VMT slot
+0042c058	TDragControlObject.vmt_004	Delphi VMT slot
+0042c070	TDragControlObject.vmt_008	Delphi VMT slot
+0042c07c	TDragControlObject.vmt_014	Delphi VMT slot
+0042c09c	TDragControlObject.vmt_01c	Delphi VMT slot
+0042c0bc	TDragDockObject.vmt_024	Delphi VMT slot
+0042c120	TDragDockObject.Destroy	Delphi VMT standard slot
+0042c150	TDragDockObject.vmt_00c	Delphi VMT slot
+0042c1b4	TDragDockObject.vmt_020	Delphi VMT slot
+0042c1f8	TDragDockObject.vmt_028	Delphi VMT slot
+0042c278	TDragDockObject.vmt_02c	Delphi VMT slot
+0042c28c	TDragDockObject.vmt_030	Delphi VMT slot
+0042c2a0	TDragDockObject.vmt_004	Delphi VMT slot
+0042c2ac	TDragDockObject.vmt_034	Delphi VMT slot
+0042d3c0	TControlCanvas.Destroy	Delphi VMT standard slot
+0042d3ec	TControlCanvas.vmt_014	Delphi VMT slot
+0042d50c	TSizeConstraints.vmt_00c	Delphi VMT slot
+0042d548	TSizeConstraints.vmt_000	Delphi VMT slot
+0042d594	TSizeConstraints.set_MaxHeight	Delphi RTTI property accessor
+0042d63c	TSizeConstraints.dyn_fffd	Delphi dynamic method table
+0042d650	TControlActionLink.vmt_000	Delphi VMT slot
+0042d66c	TControlActionLink.vmt_060	Delphi VMT slot
+0042d754	TControlActionLink.vmt_020	Delphi VMT slot
+0042d7c8	TControlActionLink.vmt_028	Delphi VMT slot
+0042d7fc	TControlActionLink.vmt_030	Delphi VMT slot
+0042d830	TControlActionLink.vmt_03c	Delphi VMT slot
+0042d860	TControlActionLink.vmt_008	Delphi VMT slot
+0042d888	TControlActionLink.vmt_040	Delphi VMT slot
+0042d8a8	TControlActionLink.vmt_048	Delphi VMT slot
+0042d8c8	TControlActionLink.vmt_050	Delphi VMT slot
+0042d8ec	TControlActionLink.vmt_05c	Delphi VMT slot
+0042d90c	TControlActionLink.vmt_010	Delphi VMT slot
+0042d938	TControl.vmt_02c	Delphi VMT slot
+0042da08	TControl.Destroy	Delphi VMT standard slot
+0042dac0	TControl.vmt_048	Delphi VMT slot
+0042dac4	TControl.vmt_04c	Delphi VMT slot
+0042dac8	TControl.dyn_ffdc	Delphi dynamic method table
+0042dacc	TControl.dyn_fff2	Delphi dynamic method table
+0042dad4	TControl.dyn_fff3	Delphi dynamic method table
+0042dad8	TControl.dyn_fff9	Delphi dynamic method table
+0042db00	TControl.dyn_ffd6	Delphi dynamic method table
+0042db7c	TButton.get_Action	Delphi RTTI property accessor
+0042db8c	TGroupBox.set_Anchors	Delphi RTTI property accessor
+0042dbac	TButton.set_Action	Delphi RTTI property accessor
+0042dc40	TControl.vmt_058	Delphi VMT slot
+0042dc44	TControl.dyn_ffd5	Delphi dynamic method table
+0042dc54	TControl.dyn_ffd4	Delphi dynamic method table
+0042dc74	TControl.vmt_014	Delphi VMT slot
+0042dd08	TControl.vmt_010	Delphi VMT slot
+0042dd4c	TGroupBox.set_Align	Delphi RTTI property accessor
+0042dde0	TControl.vmt_07c	Delphi VMT slot
+0042df54	TControl.set_Left	Delphi RTTI property accessor
+0042df74	TControl.set_Top	Delphi RTTI property accessor
+0042df98	TControl.set_Width	Delphi RTTI property accessor
+0042dfb8	TControl.set_Height	Delphi RTTI property accessor
+0042dfd8	TControl.dyn_ffd1	Delphi dynamic method table
+0042e0e4	TControl.dyn_ffe6	Delphi dynamic method table
+0042e180	TControl.vmt_040	Delphi VMT slot
+0042e198	TForm.get_ClientWidth	Delphi RTTI property accessor
+0042e1dc	TForm.get_ClientHeight	Delphi RTTI property accessor
+0042e21c	TControl.vmt_03c	Delphi VMT slot
+0042e3b0	TControl.dyn_ffed	Delphi dynamic method table
+0042e4f4	TScrollBox.set_AutoSize	Delphi RTTI property accessor
+0042e514	TControl.vmt_018	Delphi VMT slot
+0042e600	TControl.vmt_060	Delphi VMT slot
+0042e64c	TGroupBox.set_Visible	Delphi RTTI property accessor
+0042e690	TControl.vmt_05c	Delphi VMT slot
+0042e6ec	TGroupBox.set_PopupMenu	Delphi RTTI property accessor
+0042e734	TGroupBox.get_Caption	Delphi RTTI property accessor
+0042e764	TGroupBox.set_Caption	Delphi RTTI property accessor
+0042e7c8	TControl.vmt_068	Delphi VMT slot
+0042e820	TGroupBox.set_Font	Delphi RTTI property accessor
+0042e858	TGroupBox.set_ParentFont	Delphi RTTI property accessor
+0042e878	TGroupBox.set_ShowHint	Delphi RTTI property accessor
+0042e89c	TGroupBox.set_ParentShowHint	Delphi RTTI property accessor
+0042e8c0	TGroupBox.set_Color	Delphi RTTI property accessor
+0042e8e4	TGroupBox.set_ParentColor	Delphi RTTI property accessor
+0042e904	TControl.vmt_064	Delphi VMT slot
+0042e924	TControl.set_Cursor	Delphi RTTI property accessor
+0042ea18	TControl.dyn_ffd3	Delphi dynamic method table
+0042ea3c	TControl.vmt_044	Delphi VMT slot
+0042ebfc	TControl.vmt_074	Delphi VMT slot
+0042ec44	TControl.vmt_080	Delphi VMT slot
+0042ec60	TControl.vmt_078	Delphi VMT slot
+0042ed58	TControl.dyn_ffcf	Delphi dynamic method table
+0042ed74	TControl.dyn_ffce	Delphi dynamic method table
+0042eda8	TControl.dyn_ffee	Delphi dynamic method table
+0042ee84	TControl.dyn_ffe4	Delphi dynamic method table
+0042ee94	TControl.dyn_ffe3	Delphi dynamic method table
+0042eed0	TControl.dyn_ffd0	Delphi dynamic method table
+0042eefc	TControl.dyn_ffe1	Delphi dynamic method table
+0042ef1c	TControl.dyn_ffe2	Delphi dynamic method table
+0042ef48	TControl.dyn_ffd7	Delphi dynamic method table
+0042f018	TControl.dyn_ffe9	Delphi dynamic method table
+0042f02c	TControl.dyn_ffe7	Delphi dynamic method table
+0042f058	TControl.dyn_ffe5	Delphi dynamic method table
+0042f078	TControl.dyn_ffea	Delphi dynamic method table
+0042f1a8	TControl.dyn_ffe0	Delphi dynamic method table
+0042f1b8	TControl.dyn_ffdf	Delphi dynamic method table
+0042f54c	TControl.vmt_034	Delphi VMT slot
+0042f550	TControl.vmt_030	Delphi VMT slot
+0042f61c	TControl.vmt_038	Delphi VMT slot
+0042f7e8	TControl.dyn_ffd2	Delphi dynamic method table
+0042f7ec	TControl.vmt_06c	Delphi VMT slot
+0042f904	TControl.DefaultHandler	Delphi VMT standard slot
+0042f9dc	TControl.vmt_004	Delphi VMT slot
+0042fa2c	TControl.dyn_ffec	Delphi dynamic method table
+0042fa98	TControl.dyn_ffeb	Delphi dynamic method table
+0042fab8	TControl.dyn_ffda	Delphi dynamic method table
+0042fb34	TControl.dyn_0201	Delphi dynamic method table
+0042fb80	TControl.dyn_00a1	Delphi dynamic method table
+0042fb9c	TControl.dyn_0203	Delphi dynamic method table
+0042fbf0	TControl.dyn_ffdb	Delphi dynamic method table
+0042fc90	TControl.dyn_0204	Delphi dynamic method table
+0042fcb8	TControl.dyn_0206	Delphi dynamic method table
+0042fce0	TControl.dyn_0207	Delphi dynamic method table
+0042fd08	TControl.dyn_0209	Delphi dynamic method table
+0042fd30	TControl.dyn_ffd9	Delphi dynamic method table
+0042fd60	TControl.dyn_0200	Delphi dynamic method table
+0042fd9c	TControl.dyn_ffd8	Delphi dynamic method table
+0042fe10	TControl.dyn_0202	Delphi dynamic method table
+0042fe88	TControl.dyn_0205	Delphi dynamic method table
+0042fea8	TControl.dyn_0208	Delphi dynamic method table
+0042fec8	TControl.dyn_001f	Delphi dynamic method table
+0042ff08	TControl.dyn_0047	Delphi dynamic method table
+0042ffb8	TControl.dyn_b00b	Delphi dynamic method table
+0042ffe0	TControl.dyn_b00c	Delphi dynamic method table
+0042ffe8	TControl.dyn_b00e	Delphi dynamic method table
+0042fff0	TControl.dyn_b00d	Delphi dynamic method table
+0042fff8	TControl.dyn_b009	Delphi dynamic method table
+00430028	TControl.dyn_b03d	Delphi dynamic method table
+00430048	TControl.dyn_b03c	Delphi dynamic method table
+00430060	TControl.dyn_b023	Delphi dynamic method table
+00430088	TControl.dyn_b008	Delphi dynamic method table
+004300b8	TControl.dyn_b035	Delphi dynamic method table
+004300d8	TControl.dyn_b00a	Delphi dynamic method table
+004300e0	TControl.dyn_b013	Delphi dynamic method table
+004300f8	TControl.dyn_b014	Delphi dynamic method table
+00430110	TControl.dyn_b01c	Delphi dynamic method table
+0043022c	TControl.dyn_b03a	Delphi dynamic method table
+0043028c	TControl.dyn_fff0	Delphi dynamic method table
+004303a4	TControl.dyn_ffde	Delphi dynamic method table
+0043044c	TControl.vmt_00c	Delphi VMT slot
+00430484	TControl.vmt_000	Delphi VMT slot
+00430568	TControl.dyn_ffdd	Delphi dynamic method table
+00430618	TControl.vmt_050	Delphi VMT slot
+00430644	TControl.vmt_054	Delphi VMT slot
+0043064c	TControl.dyn_ffef	Delphi dynamic method table
+004306c4	TControl.vmt_070	Delphi VMT slot
+004306d4	TControl.dyn_b030	Delphi dynamic method table
+00430700	TControl.dyn_007b	Delphi dynamic method table
+00430814	TControl.dyn_ffe8	Delphi dynamic method table
+00430848	TWinControlActionLink.vmt_000	Delphi VMT slot
+0043086c	TWinControlActionLink.vmt_02c	Delphi VMT slot
+004308a0	TWinControlActionLink.vmt_04c	Delphi VMT slot
+004308c0	TWinControl.vmt_02c	Delphi VMT slot
+004309dc	TWinControl.Destroy	Delphi VMT standard slot
+00430b84	TWinControl.vmt_014	Delphi VMT slot
+00430bfc	TWinControl.vmt_084	Delphi VMT slot
+004311a4	TWinControl.vmt_088	Delphi VMT slot
+00431354	TWinControl.dyn_ffc7	Delphi dynamic method table
+00431428	TWinControl.dyn_ffba	Delphi dynamic method table
+00431918	TWinControl.vmt_090	Delphi VMT slot
+00431a44	TWinControl.vmt_098	Delphi VMT slot
+00431bdc	TWinControl.vmt_094	Delphi VMT slot
+00431c20	TWinControl.vmt_0a0	Delphi VMT slot
+00431c78	TWinControl.vmt_09c	Delphi VMT slot
+00431d24	TWinControl.vmt_08c	Delphi VMT slot
+00431e1c	TWinControl.dyn_b033	Delphi dynamic method table
+004321ec	TWinControl.vmt_06c	Delphi VMT slot
+004323cc	TWinControl.DefaultHandler	Delphi VMT standard slot
+0043262c	TWinControl.vmt_0a8	Delphi VMT slot
+004329d8	TWinControl.dyn_000f	Delphi dynamic method table
+00432b38	TWinControl.dyn_0111	Delphi dynamic method table
+00432b58	TWinControl.dyn_004e	Delphi dynamic method table
+00432b7c	TWinControl.dyn_0015	Delphi dynamic method table
+00432b98	TWinControl.dyn_001a	Delphi dynamic method table
+00432bac	TWinControl.dyn_001d	Delphi dynamic method table
+00432bbc	TWinControl.dyn_001e	Delphi dynamic method table
+00432bcc	TWinControl.dyn_0114	Delphi dynamic method table
+00432bec	TWinControl.dyn_0115	Delphi dynamic method table
+00432c0c	TWinControl.dyn_0039	Delphi dynamic method table
+00432c30	TWinControl.dyn_002d	Delphi dynamic method table
+00432c54	TWinControl.dyn_002b	Delphi dynamic method table
+00432c78	TWinControl.dyn_002c	Delphi dynamic method table
+00432c9c	TWinControl.dyn_0014	Delphi dynamic method table
+00432ce8	TWinControl.dyn_0047	Delphi dynamic method table
+00432da8	TWinControl.dyn_0046	Delphi dynamic method table
+00432df8	TWinControl.dyn_0005	Delphi dynamic method table
+00432e2c	TWinControl.dyn_0003	Delphi dynamic method table
+00432e40	TWinControl.dyn_0020	Delphi dynamic method table
+00432f40	TWinControl.dyn_0007	Delphi dynamic method table
+00432f54	TWinControl.dyn_0008	Delphi dynamic method table
+00432f68	TWinControl.dyn_010d	Delphi dynamic method table
+00432f7c	TWinControl.dyn_010e	Delphi dynamic method table
+00433114	TWinControl.dyn_ffcc	Delphi dynamic method table
+0043311c	TWinControl.dyn_ffc3	Delphi dynamic method table
+00433120	TWinControl.dyn_ffc9	Delphi dynamic method table
+00433140	TWinControl.dyn_ffc8	Delphi dynamic method table
+00433160	TWinControl.dyn_ffbb	Delphi dynamic method table
+004331b0	TWinControl.dyn_ffca	Delphi dynamic method table
+004331e4	TWinControl.dyn_ffcb	Delphi dynamic method table
+00433224	TWinControl.dyn_ffc2	Delphi dynamic method table
+0043327c	TWinControl.dyn_ffbd	Delphi dynamic method table
+004332d8	TWinControl.dyn_ffc1	Delphi dynamic method table
+00433370	TWinControl.dyn_ffcd	Delphi dynamic method table
+004333dc	TGroupBox.set_DockSite	Delphi RTTI property accessor
+00433490	TWinControl.dyn_b038	Delphi dynamic method table
+00433580	TWinControl.dyn_b039	Delphi dynamic method table
+004335a8	TWinControl.dyn_b03a	Delphi dynamic method table
+0043362c	TWinControl.dyn_ffc0	Delphi dynamic method table
+004336bc	TWinControl.dyn_0100	Delphi dynamic method table
+004336dc	TWinControl.dyn_0104	Delphi dynamic method table
+004336fc	TWinControl.dyn_ffbf	Delphi dynamic method table
+0043378c	TWinControl.dyn_0101	Delphi dynamic method table
+004337ac	TWinControl.dyn_0105	Delphi dynamic method table
+004337cc	TWinControl.dyn_ffbe	Delphi dynamic method table
+00433858	TWinControl.dyn_0102	Delphi dynamic method table
+00433878	TWinControl.dyn_b043	Delphi dynamic method table
+004338d4	TWinControl.dyn_020a	Delphi dynamic method table
+0043392c	TWinControl.dyn_ffb7	Delphi dynamic method table
+00433970	TWinControl.dyn_ffc6	Delphi dynamic method table
+00433a34	TWinControl.dyn_ffc5	Delphi dynamic method table
+00433a80	TWinControl.dyn_ffc4	Delphi dynamic method table
+00433b7c	TWinControl.dyn_0112	Delphi dynamic method table
+00433c24	TWinControl.dyn_002f	Delphi dynamic method table
+00433c44	TWinControl.dyn_0210	Delphi dynamic method table
+00433c78	TWinControl.dyn_002e	Delphi dynamic method table
+00433c98	TWinControl.dyn_0002	Delphi dynamic method table
+00433ccc	TWinControl.dyn_0082	Delphi dynamic method table
+00433ce8	TWinControl.dyn_0084	Delphi dynamic method table
+00433d0c	TWinControl.dyn_ffd6	Delphi dynamic method table
+00433d70	TWinControl.dyn_030f	Delphi dynamic method table
+00433d94	TWinControl.dyn_0311	Delphi dynamic method table
+00433db4	TWinControl.dyn_b022	Delphi dynamic method table
+00433dcc	TWinControl.dyn_b03c	Delphi dynamic method table
+00433e04	TWinControl.dyn_b01a	Delphi dynamic method table
+00433e74	TWinControl.dyn_b01b	Delphi dynamic method table
+00433e80	TWinControl.dyn_b01c	Delphi dynamic method table
+00433ea0	TWinControl.dyn_b037	Delphi dynamic method table
+00433eb4	TWinControl.dyn_b02e	Delphi dynamic method table
+00433ec8	TWinControl.dyn_b005	Delphi dynamic method table
+00433ed0	TWinControl.dyn_b006	Delphi dynamic method table
+00433ed8	TWinControl.dyn_b007	Delphi dynamic method table
+00433ee0	TWinControl.dyn_b00b	Delphi dynamic method table
+00433f10	TWinControl.dyn_b019	Delphi dynamic method table
+00433f38	TWinControl.dyn_b00c	Delphi dynamic method table
+00433f80	TWinControl.dyn_b00d	Delphi dynamic method table
+00433fa8	TWinControl.dyn_b00e	Delphi dynamic method table
+00433fe4	TWinControl.dyn_b00f	Delphi dynamic method table
+00434024	TWinControl.dyn_b03b	Delphi dynamic method table
+00434054	TWinControl.dyn_b010	Delphi dynamic method table
+00434094	TWinControl.dyn_b011	Delphi dynamic method table
+004340d4	TWinControl.dyn_b024	Delphi dynamic method table
+004340dc	TWinControl.dyn_b025	Delphi dynamic method table
+004340e4	TWinControl.dyn_b026	Delphi dynamic method table
+004340ec	TWinControl.dyn_b027	Delphi dynamic method table
+004340f4	TWinControl.dyn_b02f	Delphi dynamic method table
+00434150	TWinControl.dyn_b02c	Delphi dynamic method table
+00434164	TWinControl.dyn_b035	Delphi dynamic method table
+00434214	TWinControl.dyn_bd00	Delphi dynamic method table
+004342ec	TWinControl.dyn_bd01	Delphi dynamic method table
+00434340	TWinControl.dyn_bd02	Delphi dynamic method table
+0043438c	TWinControl.dyn_bd04	Delphi dynamic method table
+004343e8	TWinControl.dyn_bd06	Delphi dynamic method table
+0043441c	TWinControl.vmt_07c	Delphi VMT slot
+00434540	TWinControl.dyn_ffed	Delphi dynamic method table
+00434678	TWinControl.vmt_0ac	Delphi VMT slot
+00434768	TWinControl.dyn_ffd3	Delphi dynamic method table
+004347c8	TWinControl.vmt_044	Delphi VMT slot
+00434854	TWinControl.vmt_074	Delphi VMT slot
+00434864	TWinControl.dyn_b034	Delphi dynamic method table
+004348b4	TWinControl.vmt_080	Delphi VMT slot
+004348d0	TWinControl.vmt_078	Delphi VMT slot
+00434920	TWinControl.dyn_ffbc	Delphi dynamic method table
+00434960	TWinControl.vmt_0b0	Delphi VMT slot
+00434998	TWinControl.dyn_ffb9	Delphi dynamic method table
+004349f4	TWinControl.vmt_0a4	Delphi VMT slot
+00434a88	TWinControl.vmt_03c	Delphi VMT slot
+00434aa8	TWinControl.vmt_040	Delphi VMT slot
+00434ac0	TWinControl.dyn_ffef	Delphi dynamic method table
+00434b00	TForm.set_BorderWidth	Delphi RTTI property accessor
+00434b20	TGroupBox.set_Ctl3D	Delphi RTTI property accessor
+00434b50	TGroupBox.set_ParentCtl3D	Delphi RTTI property accessor
+00434b74	TGroupBox.get_TabOrder	Delphi RTTI property accessor
+00434bf4	TGroupBox.set_TabOrder	Delphi RTTI property accessor
+00434c0c	TGroupBox.set_TabStop	Delphi RTTI property accessor
+00434c6c	TForm.set_UseDockManager	Delphi RTTI property accessor
+00434da0	TWinControl.dyn_ffb8	Delphi dynamic method table
+00434f74	TWinControl.dyn_fffd	Delphi dynamic method table
+00434fbc	TWinControl.dyn_fffa	Delphi dynamic method table
+00434ffc	TWinControl.vmt_030	Delphi VMT slot
+00435460	TWinControl.vmt_038	Delphi VMT slot
+0043549c	TWinControl.dyn_fff0	Delphi dynamic method table
+004354dc	TWinControl.dyn_ffde	Delphi dynamic method table
+00435504	TWinControl.vmt_000	Delphi VMT slot
+00435534	TWinControl.vmt_034	Delphi VMT slot
+004356f8	TWinControl.dyn_0083	Delphi dynamic method table
+00435788	TWinControl.dyn_0085	Delphi dynamic method table
+00435a10	TWinControl.dyn_007b	Delphi dynamic method table
+00435a7c	TGraphicControl.vmt_02c	Delphi VMT slot
+00435ad8	TGraphicControl.Destroy	Delphi VMT standard slot
+00435b18	TGraphicControl.dyn_000f	Delphi dynamic method table
+00435bc0	TGraphicControl.vmt_084	Delphi VMT slot
+00435bc4	THintWindow.vmt_02c	Delphi VMT slot
+00435c2c	THintWindow.vmt_090	Delphi VMT slot
+00435c68	THintWindow.dyn_0084	Delphi dynamic method table
+00435c70	THintWindow.dyn_0085	Delphi dynamic method table
+00435cf0	THintWindow.vmt_0b4	Delphi VMT slot
+00435d8c	THintWindow.vmt_0c4	Delphi VMT slot
+00435df8	THintWindow.dyn_b012	Delphi dynamic method table
+00435e90	THintWindow.vmt_0b8	Delphi VMT slot
+00435fac	THintWindow.vmt_0bc	Delphi VMT slot
+00435fd8	THintWindow.vmt_0c0	Delphi VMT slot
+00436074	TDragImageList.vmt_034	Delphi VMT slot
+004361b8	TDragImageList.vmt_038	Delphi VMT slot
+00436388	TCustomControl.vmt_02c	Delphi VMT slot
+004363e4	TCustomControl.Destroy	Delphi VMT standard slot
+00436414	TCustomControl.dyn_000f	Delphi dynamic method table
+00436434	TCustomControl.vmt_0a8	Delphi VMT slot
+004364e0	TCustomControl.vmt_0b4	Delphi VMT slot
+00436990	TDockTree.vmt_024	Delphi VMT slot
+00436af8	TDockTree.Destroy	Delphi VMT standard slot
+00436b44	TDockTree.vmt_000	Delphi VMT slot
+00436cbc	TDockTree.vmt_004	Delphi VMT slot
+00436ccc	TDockTree.vmt_008	Delphi VMT slot
+00437444	TDockTree.vmt_00c	Delphi VMT slot
+0043772c	TDockTree.vmt_010	Delphi VMT slot
+00437808	TDockTree.vmt_028	Delphi VMT slot
+0043796c	TDockTree.vmt_014	Delphi VMT slot
+00437b78	TDockTree.vmt_018	Delphi VMT slot
+00437e18	TDockTree.vmt_020	Delphi VMT slot
+00438054	TDockTree.vmt_01c	Delphi VMT slot
+00438b14	TMouse.Destroy	Delphi VMT standard slot
+00439140	unit_017_finalization	Delphi unit init table
+00439194	unit_017_initialization	Delphi unit init table
+0043959c	TContainedAction.Destroy	Delphi VMT standard slot
+004395ec	TContainedAction.dyn_fff3	Delphi dynamic method table
+004395fc	TContainedAction.dyn_fff2	Delphi dynamic method table
+0043960c	TContainedAction.vmt_014	Delphi VMT slot
+00439688	TContainedAction.set_Category	Delphi RTTI property accessor
+004396dc	TContainedAction.dyn_fff9	Delphi dynamic method table
+00439708	TContainedAction.dyn_fff0	Delphi dynamic method table
+00439760	TContainedAction.vmt_044	Delphi VMT slot
+004397b8	TCustomActionList.vmt_02c	Delphi VMT slot
+00439820	TCustomActionList.Destroy	Delphi VMT standard slot
+00439870	TCustomActionList.dyn_fffd	Delphi dynamic method table
+004398b8	TCustomActionList.dyn_fffa	Delphi dynamic method table
+00439928	TCustomActionList.vmt_010	Delphi VMT slot
+004399ac	TCustomActionList.vmt_030	Delphi VMT slot
+00439a74	TCustomActionList.dyn_fff4	Delphi dynamic method table
+00439a94	TCustomActionList.dyn_fff1	Delphi dynamic method table
+00439ab4	TActionLink.vmt_020	Delphi VMT slot
+00439ac8	TActionLink.vmt_024	Delphi VMT slot
+00439adc	TActionLink.vmt_028	Delphi VMT slot
+00439af0	TActionLink.vmt_02c	Delphi VMT slot
+00439b04	TActionLink.vmt_030	Delphi VMT slot
+00439b18	TActionLink.vmt_034	Delphi VMT slot
+00439b2c	TActionLink.vmt_038	Delphi VMT slot
+00439b40	TActionLink.vmt_03c	Delphi VMT slot
+00439b54	TActionLink.vmt_040	Delphi VMT slot
+00439b58	TActionLink.vmt_044	Delphi VMT slot
+00439b5c	TActionLink.vmt_048	Delphi VMT slot
+00439b60	TActionLink.vmt_04c	Delphi VMT slot
+00439b64	TActionLink.vmt_050	Delphi VMT slot
+00439b68	TActionLink.vmt_054	Delphi VMT slot
+00439b6c	TActionLink.vmt_058	Delphi VMT slot
+00439b70	TActionLink.vmt_05c	Delphi VMT slot
+00439b74	TCustomAction.vmt_02c	Delphi VMT slot
+00439bbc	TCustomAction.Destroy	Delphi VMT standard slot
+00439bf4	TCustomAction.vmt_000	Delphi VMT slot
+00439de0	THintAction.set_Hint	Delphi RTTI property accessor
+00439f54	TCustomAction.vmt_018	Delphi VMT slot
+00439fa0	TCustomAction.dyn_ffef	Delphi dynamic method table
+00439fc0	TCustomAction.dyn_fff0	Delphi dynamic method table
+00439fe4	unit_018_finalization	Delphi unit init table
+0043a014	unit_018_initialization	Delphi unit init table
+0043a220	TCustomImageList.vmt_02c	Delphi VMT slot
+0043a2c0	TCustomImageList.Destroy	Delphi VMT standard slot
+0043a32c	TCustomImageList.vmt_034	Delphi VMT slot
+0043a4f4	TImageList.set_Width	Delphi RTTI property accessor
+0043a538	TImageList.set_Height	Delphi RTTI property accessor
+0043ac00	TImageList.set_BkColor	Delphi RTTI property accessor
+0043ac38	TImageList.get_BkColor	Delphi RTTI property accessor
+0043ac60	TCustomImageList.vmt_030	Delphi VMT slot
+0043b03c	TCustomImageList.vmt_008	Delphi VMT slot
+0043b0fc	TCustomImageList.vmt_000	Delphi VMT slot
+0043b224	TImageList.set_DrawingStyle	Delphi RTTI property accessor
+0043b240	TCustomImageList.vmt_038	Delphi VMT slot
+0043b250	TCustomImageList.dyn_fff0	Delphi dynamic method table
+0043b484	TCustomImageList.vmt_004	Delphi VMT slot
+0043b918	TChangeLink.Destroy	Delphi VMT standard slot
+0043b94c	TChangeLink.dyn_ffff	Delphi dynamic method table
+0043b964	unit_013_finalization	Delphi unit init table
+0043b994	unit_013_initialization	Delphi unit init table
+0043cdec	TMenuActionLink.vmt_000	Delphi VMT slot
+0043ce08	TMenuActionLink.vmt_020	Delphi VMT slot
+0043ce40	TMenuActionLink.vmt_024	Delphi VMT slot
+0043ce70	TMenuActionLink.vmt_028	Delphi VMT slot
+0043cea0	TMenuActionLink.vmt_02c	Delphi VMT slot
+0043ced0	TMenuActionLink.vmt_030	Delphi VMT slot
+0043cf04	TMenuActionLink.vmt_034	Delphi VMT slot
+0043cf34	TMenuActionLink.vmt_038	Delphi VMT slot
+0043cf68	TMenuActionLink.vmt_03c	Delphi VMT slot
+0043cf98	TMenuActionLink.vmt_008	Delphi VMT slot
+0043cfc0	TMenuActionLink.vmt_040	Delphi VMT slot
+0043cfe0	TMenuActionLink.vmt_044	Delphi VMT slot
+0043d000	TMenuActionLink.vmt_048	Delphi VMT slot
+0043d020	TMenuActionLink.vmt_04c	Delphi VMT slot
+0043d03c	TMenuActionLink.vmt_050	Delphi VMT slot
+0043d060	TMenuActionLink.vmt_054	Delphi VMT slot
+0043d080	TMenuActionLink.vmt_058	Delphi VMT slot
+0043d0a0	TMenuActionLink.vmt_05c	Delphi VMT slot
+0043d0c0	TMenuActionLink.vmt_010	Delphi VMT slot
+0043d0ec	TMenuItem.vmt_02c	Delphi VMT slot
+0043d168	TMenuItem.Destroy	Delphi VMT standard slot
+0043d5a8	TMenuItem.vmt_00c	Delphi VMT slot
+0043d714	TMenuItem.vmt_004	Delphi VMT slot
+0043d96c	TMenuItem.vmt_034	Delphi VMT slot
+0043ead8	TMenuItem.vmt_030	Delphi VMT slot
+0043ee6c	TMenuItem.dyn_fff2	Delphi dynamic method table
+0043ee70	TMenuItem.set_Break	Delphi RTTI property accessor
+0043ee80	TMenuItem.set_Caption	Delphi RTTI property accessor
+0043eef0	TMenuItem.set_Checked	Delphi RTTI property accessor
+0043ef44	TMenuItem.set_Enabled	Delphi RTTI property accessor
+0043efbc	TMenuItem.set_GroupIndex	Delphi RTTI property accessor
+0043f000	TMenuItem.get_Action	Delphi RTTI property accessor
+0043f010	TMenuItem.dyn_ffef	Delphi dynamic method table
+0043f04c	TMenuItem.set_ShortCut	Delphi RTTI property accessor
+0043f060	TMenuItem.set_Visible	Delphi RTTI property accessor
+0043f070	TMenuItem.set_ImageIndex	Delphi RTTI property accessor
+0043f0e0	TMenuItem.dyn_fffd	Delphi dynamic method table
+0043f118	TMenuItem.dyn_fffa	Delphi dynamic method table
+0043f138	TMenuItem.set_Default	Delphi RTTI property accessor
+0043f194	TMenuItem.vmt_03c	Delphi VMT slot
+0043f2c4	TMenuItem.vmt_040	Delphi VMT slot
+0043f390	TMenuItem.vmt_038	Delphi VMT slot
+0043f424	TMenuItem.get_Bitmap	Delphi RTTI property accessor
+0043f44c	TMenuItem.set_Action	Delphi RTTI property accessor
+0043f4bc	TMenuItem.set_Bitmap	Delphi RTTI property accessor
+0043f51c	TMenuItem.dyn_fff3	Delphi dynamic method table
+0043f530	TMenuItem.dyn_fff9	Delphi dynamic method table
+0043f594	TMenuItem.set_RadioItem	Delphi RTTI property accessor
+0043f5c0	TMenuItem.dyn_fff0	Delphi dynamic method table
+0043f7f0	TMenuItem.vmt_000	Delphi VMT slot
+0043f868	TMenuItem.vmt_010	Delphi VMT slot
+0043f89c	TMenuItem.set_SubMenuImages	Delphi RTTI property accessor
+0043ffd0	TMenuItem.set_AutoHotkeys	Delphi RTTI property accessor
+00440140	TMenuItem.set_AutoLineReduction	Delphi RTTI property accessor
+004401a8	TMenu.vmt_02c	Delphi VMT slot
+00440240	TMenu.Destroy	Delphi VMT standard slot
+00440278	TMenu.dyn_fffd	Delphi dynamic method table
+00440294	TMenu.vmt_034	Delphi VMT slot
+004402a0	TMenu.dyn_fffa	Delphi dynamic method table
+00440634	TMenu.dyn_fff0	Delphi dynamic method table
+004408d8	TMainMenu.set_OwnerDraw	Delphi RTTI property accessor
+0044099c	TMenu.vmt_030	Delphi VMT slot
+004409b4	TMenu.vmt_00c	Delphi VMT slot
+004409cc	TMenu.vmt_038	Delphi VMT slot
+00440a14	TMainMenu.set_Images	Delphi RTTI property accessor
+00440a50	TMenu.vmt_010	Delphi VMT slot
+00440df8	TMainMenu.set_BiDiMode	Delphi RTTI property accessor
+00440e0c	TMainMenu.set_ParentBiDiMode	Delphi RTTI property accessor
+00440e70	TMainMenu.get_AutoHotkeys	Delphi RTTI property accessor
+00440e80	TMainMenu.set_AutoHotkeys	Delphi RTTI property accessor
+00440e90	TMainMenu.get_AutoLineReduction	Delphi RTTI property accessor
+00440ea0	TMainMenu.set_AutoLineReduction	Delphi RTTI property accessor
+00440eb0	TMainMenu.set_AutoMerge	Delphi RTTI property accessor
+00440ed0	TMainMenu.vmt_038	Delphi VMT slot
+00440f8c	TMainMenu.vmt_034	Delphi VMT slot
+004410a4	TPopupList.vmt_010	Delphi VMT slot
+00441624	TPopupMenu.vmt_02c	Delphi VMT slot
+00441698	TPopupMenu.Destroy	Delphi VMT standard slot
+004416cc	TPopupMenu.vmt_03c	Delphi VMT slot
+004416e0	TPopupMenu.get_HelpContext	Delphi RTTI property accessor
+004416e8	TPopupMenu.set_HelpContext	Delphi RTTI property accessor
+00441784	TPopupMenu.vmt_040	Delphi VMT slot
+00441b60	unit_016_finalization	Delphi unit init table
+00441bd0	unit_016_initialization	Delphi unit init table
+0044499c	TControlScrollBar.vmt_008	Delphi VMT slot
+0044507c	TControlScrollBar.set_ButtonSize	Delphi RTTI property accessor
+004450c0	TControlScrollBar.set_Color	Delphi RTTI property accessor
+004450dc	TControlScrollBar.set_ParentColor	Delphi RTTI property accessor
+004450f4	TControlScrollBar.set_Position	Delphi RTTI property accessor
+004451b8	TControlScrollBar.set_Size	Delphi RTTI property accessor
+004451fc	TControlScrollBar.set_Style	Delphi RTTI property accessor
+00445214	TControlScrollBar.set_ThumbSize	Delphi RTTI property accessor
+00445244	TControlScrollBar.set_Range	Delphi RTTI property accessor
+00445264	TControlScrollBar.set_Visible	Delphi RTTI property accessor
+00445490	TScrollingWinControl.vmt_02c	Delphi VMT slot
+004454f8	TScrollingWinControl.Destroy	Delphi VMT standard slot
+00445534	TScrollingWinControl.vmt_090	Delphi VMT slot
+00445544	TScrollingWinControl.vmt_098	Delphi VMT slot
+00445570	TScrollingWinControl.vmt_088	Delphi VMT slot
+00445590	TScrollingWinControl.vmt_0b4	Delphi VMT slot
+004455b0	TScrollingWinControl.dyn_ffc7	Delphi dynamic method table
+004456ec	TScrollBox.set_AutoScroll	Delphi RTTI property accessor
+00445728	TScrollingWinControl.set_HorzScrollBar	Delphi RTTI property accessor
+00445738	TScrollingWinControl.set_VertScrollBar	Delphi RTTI property accessor
+00445840	TScrollingWinControl.vmt_0b8	Delphi VMT slot
+00445a50	TScrollingWinControl.dyn_ffed	Delphi dynamic method table
+00445a74	TScrollingWinControl.vmt_0bc	Delphi VMT slot
+00445a78	TScrollingWinControl.dyn_0005	Delphi dynamic method table
+00445b54	TScrollingWinControl.dyn_0114	Delphi dynamic method table
+00445b78	TScrollingWinControl.dyn_0115	Delphi dynamic method table
+00445b9c	TScrollingWinControl.vmt_084	Delphi VMT slot
+00445c10	TScrollingWinControl.dyn_b03c	Delphi dynamic method table
+00445ca0	TScrollBox.vmt_02c	Delphi VMT slot
+00445d00	TScrollBox.vmt_090	Delphi VMT slot
+00445d50	TScrollBox.set_BorderStyle	Delphi RTTI property accessor
+00445d64	TScrollBox.dyn_0084	Delphi dynamic method table
+00445d6c	TScrollBox.dyn_b010	Delphi dynamic method table
+00445d98	TCustomForm.vmt_02c	Delphi VMT slot
+00445f24	TCustomForm.AfterConstruction	Delphi VMT standard slot
+00445f5c	TCustomForm.vmt_0cc	Delphi VMT slot
+004460bc	TCustomForm.BeforeDestruction	Delphi VMT standard slot
+00446124	TCustomForm.Destroy	Delphi VMT standard slot
+00446208	TCustomForm.vmt_0c0	Delphi VMT slot
+0044627c	TCustomForm.vmt_0c4	Delphi VMT slot
+004462dc	TCustomForm.vmt_00c	Delphi VMT slot
+00446318	TCustomForm.vmt_010	Delphi VMT slot
+00446424	TCustomForm.vmt_014	Delphi VMT slot
+00446634	TCustomForm.vmt_004	Delphi VMT slot
+00446778	TCustomForm.dyn_ffee	Delphi dynamic method table
+0044677c	TCustomForm.dyn_ffed	Delphi dynamic method table
+004468c4	TCustomForm.dyn_ffb3	Delphi dynamic method table
+004468e4	TCustomForm.dyn_ffb2	Delphi dynamic method table
+00446904	TCustomForm.dyn_ffb1	Delphi dynamic method table
+00446924	TCustomForm.vmt_040	Delphi VMT slot
+004469ac	TCustomForm.dyn_fffd	Delphi dynamic method table
+00446a18	TCustomForm.vmt_050	Delphi VMT slot
+00446a44	TCustomForm.dyn_fffa	Delphi dynamic method table
+00446ad8	TCustomForm.vmt_064	Delphi VMT slot
+00446b00	TForm.set_ClientWidth	Delphi RTTI property accessor
+00446b30	TForm.set_ClientHeight	Delphi RTTI property accessor
+00446b60	TForm.set_Visible	Delphi RTTI property accessor
+00446ba4	TCustomForm.dyn_ffd2	Delphi dynamic method table
+00446c08	TCustomForm.vmt_0dc	Delphi VMT slot
+00446c0c	TCustomForm.vmt_060	Delphi VMT slot
+00446c44	TCustomForm.vmt_020	Delphi VMT slot
+00446c84	TCustomForm.vmt_06c	Delphi VMT slot
+00447198	TCustomForm.vmt_088	Delphi VMT slot
+004471d4	TCustomForm.dyn_b03c	Delphi dynamic method table
+0044726c	TCustomForm.dyn_b03d	Delphi dynamic method table
+004472f4	TForm.set_BorderIcons	Delphi RTTI property accessor
+00447320	TForm.set_BorderStyle	Delphi RTTI property accessor
+00447358	TCustomForm.dyn_ffd1	Delphi dynamic method table
+004473a0	TCustomForm.dyn_ffe6	Delphi dynamic method table
+0044752c	TForm.set_Icon	Delphi RTTI property accessor
+00447568	TForm.set_FormStyle	Delphi RTTI property accessor
+00447664	TForm.set_ObjectMenuItem	Delphi RTTI property accessor
+00447688	TForm.set_WindowMenu	Delphi RTTI property accessor
+004476b0	TForm.set_Menu	Delphi RTTI property accessor
+00447874	TForm.get_PixelsPerInch	Delphi RTTI property accessor
+00447888	TForm.set_PixelsPerInch	Delphi RTTI property accessor
+004478bc	TForm.set_Position	Delphi RTTI property accessor
+004478d8	TForm.get_Scaled	Delphi RTTI property accessor
+004478e4	TForm.set_Scaled	Delphi RTTI property accessor
+00447914	TCustomForm.dyn_b00d	Delphi dynamic method table
+00447950	TCustomForm.dyn_b010	Delphi dynamic method table
+00447998	TCustomForm.dyn_b00e	Delphi dynamic method table
+004479b8	TCustomForm.dyn_b015	Delphi dynamic method table
+004479d4	TForm.set_WindowState	Delphi RTTI property accessor
+00447d60	TCustomForm.vmt_090	Delphi VMT slot
+00447f74	TCustomForm.vmt_098	Delphi VMT slot
+004480b4	TCustomForm.vmt_094	Delphi VMT slot
+004481b4	TCustomForm.vmt_09c	Delphi VMT slot
+004481f8	TCustomForm.DefaultHandler	Delphi VMT standard slot
+0044825c	TForm.set_ActiveControl	Delphi RTTI property accessor
+00448380	TCustomForm.vmt_0d4	Delphi VMT slot
+00448610	TCustomForm.dyn_ffb5	Delphi dynamic method table
+0044880c	TCustomForm.dyn_ffb6	Delphi dynamic method table
+0044883c	TCustomForm.dyn_ffb4	Delphi dynamic method table
+0044886c	TCustomForm.dyn_ffb0	Delphi dynamic method table
+004488a8	TCustomForm.vmt_0a8	Delphi VMT slot
+00448960	TCustomForm.dyn_ffd6	Delphi dynamic method table
+00448a0c	TCustomForm.dyn_000f	Delphi dynamic method table
+00448a8c	TCustomForm.dyn_0027	Delphi dynamic method table
+00448aec	TCustomForm.dyn_0014	Delphi dynamic method table
+00448b24	TCustomForm.dyn_0037	Delphi dynamic method table
+00448c34	TCustomForm.dyn_0081	Delphi dynamic method table
+00448c68	TCustomForm.dyn_00a1	Delphi dynamic method table
+00448cf8	TCustomForm.dyn_0002	Delphi dynamic method table
+00448d58	TCustomForm.dyn_0111	Delphi dynamic method table
+00448d8c	TCustomForm.dyn_0117	Delphi dynamic method table
+00448da4	TCustomForm.dyn_0120	Delphi dynamic method table
+00448ddc	TCustomForm.dyn_011f	Delphi dynamic method table
+00448e84	TCustomForm.dyn_0006	Delphi dynamic method table
+00448ea4	TCustomForm.vmt_0bc	Delphi VMT slot
+00448edc	TCustomForm.dyn_0010	Delphi dynamic method table
+00448ee4	TCustomForm.dyn_0011	Delphi dynamic method table
+00448f10	TCustomForm.dyn_b017	Delphi dynamic method table
+00448f68	TCustomForm.dyn_0112	Delphi dynamic method table
+00448ff4	TCustomForm.dyn_0018	Delphi dynamic method table
+0044908c	TCustomForm.dyn_0222	Delphi dynamic method table
+004490e4	TCustomForm.dyn_0028	Delphi dynamic method table
+00449110	TCustomForm.dyn_0211	Delphi dynamic method table
+0044916c	TCustomForm.dyn_0053	Delphi dynamic method table
+00449270	TCustomForm.dyn_0024	Delphi dynamic method table
+004492e4	TCustomForm.dyn_0046	Delphi dynamic method table
+0044937c	TCustomForm.dyn_b000	Delphi dynamic method table
+0044939c	TCustomForm.dyn_b001	Delphi dynamic method table
+004493bc	TCustomForm.dyn_b005	Delphi dynamic method table
+00449458	TCustomForm.dyn_b019	Delphi dynamic method table
+004499d4	TCustomForm.dyn_b01d	Delphi dynamic method table
+004499f4	TCustomForm.dyn_b021	Delphi dynamic method table
+004499fc	TCustomForm.dyn_b012	Delphi dynamic method table
+00449a4c	TCustomForm.dyn_b029	Delphi dynamic method table
+00449a54	TCustomForm.dyn_b008	Delphi dynamic method table
+00449b64	TCustomForm.vmt_0d0	Delphi VMT slot
+00449c90	TCustomForm.vmt_0b0	Delphi VMT slot
+00449d28	TCustomForm.vmt_0d8	Delphi VMT slot
+0044a038	TCustomForm.vmt_0c8	Delphi VMT slot
+0044a0a0	TCustomForm.dyn_ffd5	Delphi dynamic method table
+0044a0bc	TCustomForm.dyn_001a	Delphi dynamic method table
+0044a18c	TCustomForm.dyn_b040	Delphi dynamic method table
+0044a28c	TCustomForm.dyn_b03f	Delphi dynamic method table
+0044a334	TCustomForm.dyn_ffaf	Delphi dynamic method table
+0044a3b0	TCustomForm.vmt_028	Delphi VMT slot
+0044a424	TCustomForm.dyn_ffb7	Delphi dynamic method table
+0044a45c	TCustomDockForm.vmt_02c	Delphi VMT slot
+0044a4c4	TCustomDockForm.dyn_ffcc	Delphi dynamic method table
+0044a5ac	TCustomDockForm.dyn_ffc3	Delphi dynamic method table
+0044a5cc	TCustomDockForm.vmt_00c	Delphi VMT slot
+0044a618	TCustomDockForm.dyn_ffc1	Delphi dynamic method table
+0044a644	TCustomDockForm.dyn_0084	Delphi dynamic method table
+0044a66c	TCustomDockForm.dyn_00a1	Delphi dynamic method table
+0044a704	TCustomDockForm.dyn_b02c	Delphi dynamic method table
+0044a75c	TCustomDockForm.dyn_b042	Delphi dynamic method table
+0044a840	TCustomDockForm.dyn_b039	Delphi dynamic method table
+0044a858	TCustomDockForm.dyn_b00b	Delphi dynamic method table
+0044a894	TDataModule.vmt_02c	Delphi VMT slot
+0044a9d8	TDataModule.AfterConstruction	Delphi VMT standard slot
+0044a9e4	TDataModule.vmt_038	Delphi VMT slot
+0044aa2c	TDataModule.BeforeDestruction	Delphi VMT standard slot
+0044aa5c	TDataModule.Destroy	Delphi VMT standard slot
+0044aaf0	TDataModule.vmt_030	Delphi VMT slot
+0044ab48	TDataModule.vmt_034	Delphi VMT slot
+0044ac58	TDataModule.vmt_004	Delphi VMT slot
+0044ad6c	TDataModule.dyn_fffd	Delphi dynamic method table
+0044add8	TDataModule.vmt_014	Delphi VMT slot
+0044af24	TScreen.vmt_02c	Delphi VMT slot
+0044b04c	TScreen.Destroy	Delphi VMT standard slot
+0044bec8	TApplication.vmt_02c	Delphi VMT slot
+0044c060	TApplication.Destroy	Delphi VMT standard slot
+0044e4ac	unit_026_finalization	Delphi unit init table
+0044e500	unit_026_initialization	Delphi unit init table
+0044e520	unit_027_finalization	Delphi unit init table
+0044e550	unit_027_initialization	Delphi unit init table
+0044e558	unit_028_finalization	Delphi unit init table
+0044e588	unit_028_initialization	Delphi unit init table
+0044fa0c	TImage.vmt_02c	Delphi VMT slot
+0044faa0	TImage.Destroy	Delphi VMT standard slot
+0044fad0	TImage.dyn_ffdc	Delphi dynamic method table
+0044fb8c	TImage.vmt_084	Delphi VMT slot
+0044fce4	TImage.dyn_ffcd	Delphi dynamic method table
+0044fe50	TImage.set_Center	Delphi RTTI property accessor
+0044fe68	TImage.set_Picture	Delphi RTTI property accessor
+0044fe78	TImage.set_Stretch	Delphi RTTI property accessor
+0044fe90	TImage.set_Transparent	Delphi RTTI property accessor
+0044ffc0	TImage.vmt_034	Delphi VMT slot
+00450028	TBevel.vmt_02c	Delphi VMT slot
+00450094	TBevel.set_Style	Delphi RTTI property accessor
+004500a8	TBevel.set_Shape	Delphi RTTI property accessor
+004501ec	TBevel.vmt_084	Delphi VMT slot
+00450474	TTimer.vmt_02c	Delphi VMT slot
+004504c4	TTimer.Destroy	Delphi VMT standard slot
+004505fc	TTimer.set_Enabled	Delphi RTTI property accessor
+0045060c	TTimer.set_Interval	Delphi RTTI property accessor
+0045061c	TTimer.set_OnTimer	Delphi RTTI property accessor
+00450634	TTimer.dyn_fff0	Delphi dynamic method table
+00450648	TCustomPanel.vmt_02c	Delphi VMT slot
+004506e0	TCustomPanel.vmt_090	Delphi VMT slot
+00450734	TCustomPanel.dyn_b03b	Delphi dynamic method table
+00450748	TCustomPanel.dyn_b012	Delphi dynamic method table
+00450750	TCustomPanel.dyn_b010	Delphi dynamic method table
+0045077c	TCustomPanel.dyn_b032	Delphi dynamic method table
+00450790	TCustomPanel.dyn_0047	Delphi dynamic method table
+004508c8	TCustomPanel.vmt_0b4	Delphi VMT slot
+00450a2c	TPanel.set_Alignment	Delphi RTTI property accessor
+00450a38	TPanel.set_BevelInner	Delphi RTTI property accessor
+00450a54	TPanel.set_BevelOuter	Delphi RTTI property accessor
+00450a70	TPanel.set_BevelWidth	Delphi RTTI property accessor
+00450a8c	TPanel.set_BorderWidth	Delphi RTTI property accessor
+00450aa8	TPanel.set_BorderStyle	Delphi RTTI property accessor
+00450abc	TCustomPanel.dyn_ffcf	Delphi dynamic method table
+00450ac4	TCustomPanel.vmt_084	Delphi VMT slot
+00450b1c	TCustomPanel.dyn_b038	Delphi dynamic method table
+00450c54	TCustomPanel.vmt_034	Delphi VMT slot
+00450c80	unit_029_finalization	Delphi unit init table
+00450cb0	unit_029_initialization	Delphi unit init table
+00450cc0	unit_033_finalization	Delphi unit init table
+00450cf0	unit_033_initialization	Delphi unit init table
+00450cf8	unit_032_finalization	Delphi unit init table
+00450d28	unit_032_initialization	Delphi unit init table
+00450d30	unit_031_finalization	Delphi unit init table
+00450d60	unit_031_initialization	Delphi unit init table
+00450d68	unit_030_finalization	Delphi unit init table
+00450d98	unit_030_initialization	Delphi unit init table
+00450da0	unit_034_finalization	Delphi unit init table
+00450dd0	unit_034_initialization	Delphi unit init table
+00450dd8	unit_035_finalization	Delphi unit init table
+00450e08	unit_035_initialization	Delphi unit init table
+00450e10	unit_036_finalization	Delphi unit init table
+00450e40	unit_036_initialization	Delphi unit init table
+004518fc	unit_037_finalization	Delphi unit init table
+00451958	unit_037_initialization	Delphi unit init table
+004519f8	TObjectList.vmt_008	Delphi VMT slot
+00451a4c	TObjectList.Destroy	Delphi VMT standard slot
+00451ab4	TObjectList.vmt_00c	Delphi VMT slot
+00451ae0	TObjectList.vmt_010	Delphi VMT slot
+00451b18	TObjectList.vmt_014	Delphi VMT slot
+00451b3c	TObjectList.vmt_018	Delphi VMT slot
+00451b5c	TObjectList.vmt_01c	Delphi VMT slot
+00451bb4	TObjectList.vmt_000	Delphi VMT slot
+00451bcc	TObjectList.vmt_020	Delphi VMT slot
+00451bdc	TObjectList.vmt_024	Delphi VMT slot
+00451bec	TObjectList.vmt_028	Delphi VMT slot
+00451c0c	TObjectList.vmt_004	Delphi VMT slot
+00451c1c	unit_038_finalization	Delphi unit init table
+00451c4c	unit_038_initialization	Delphi unit init table
+00451d40	TStStringResource.vmt_000	Delphi VMT slot
+00451d90	TStStringResource.Destroy	Delphi VMT standard slot
+004521e4	unit_039_finalization	Delphi unit init table
+0045221c	unit_039_initialization	Delphi unit init table
+00452268	unit_040_finalization	Delphi unit init table
+004522a0	unit_040_initialization	Delphi unit init table
+00452320	unit_041_finalization	Delphi unit init table
+00452378	unit_041_initialization	Delphi unit init table
+0045238c	unit_042_finalization	Delphi unit init table
+004523bc	unit_042_initialization	Delphi unit init table
+004523c4	unit_045_finalization	Delphi unit init table
+004523f4	unit_045_initialization	Delphi unit init table
+00452a08	unit_047_finalization	Delphi unit init table
+00452a38	unit_047_initialization	Delphi unit init table
+00452bb4	TFinalizationInfo.vmt_000	Delphi VMT slot
+00452c20	TFinalizationList.Destroy	Delphi VMT standard slot
+00453288	unit_052_finalization	Delphi unit init table
+004532b8	unit_052_initialization	Delphi unit init table
+004532c0	unit_043_finalization	Delphi unit init table
+004532fc	unit_043_initialization	Delphi unit init table
+00453334	unit_044_finalization	Delphi unit init table
+00453364	unit_044_initialization	Delphi unit init table
+0045378c	unit_046_finalization	Delphi unit init table
+004537d4	unit_046_initialization	Delphi unit init table
+004537dc	unit_048_finalization	Delphi unit init table
+0045380c	unit_048_initialization	Delphi unit init table
+0045382c	unit_049_finalization	Delphi unit init table
+0045385c	unit_049_initialization	Delphi unit init table
+00453ac4	unit_050_finalization	Delphi unit init table
+00453af4	unit_050_initialization	Delphi unit init table
+00453c14	TDaviObject.Destroy	Delphi VMT standard slot
+00453e94	EDavilex.vmt_000	Delphi VMT slot
+00453eb8	unit_051_finalization	Delphi unit init table
+00453ee8	unit_051_initialization	Delphi unit init table
+00453f18	unit_053_finalization	Delphi unit init table
+00453f48	unit_053_initialization	Delphi unit init table
+00454030	TDaviWave.vmt_02c	Delphi VMT slot
+00454078	TDaviWave.Destroy	Delphi VMT standard slot
+004540a8	TDaviWave.set_Filename	Delphi RTTI property accessor
+00454120	TDaviWave.vmt_004	Delphi VMT slot
+004543fc	unit_054_finalization	Delphi unit init table
+0045442c	unit_054_initialization	Delphi unit init table
+0045445c	unit_055_finalization	Delphi unit init table
+0045448c	unit_055_initialization	Delphi unit init table
+00454494	unit_056_finalization	Delphi unit init table
+004544c4	unit_056_initialization	Delphi unit init table
+004544cc	unit_057_finalization	Delphi unit init table
+004544fc	unit_057_initialization	Delphi unit init table
+004549c0	unit_058_finalization	Delphi unit init table
+004549f0	unit_058_initialization	Delphi unit init table
+00454e34	TPaletteItem.Destroy	Delphi VMT standard slot
+00454ed0	TPaletteManager.Destroy	Delphi VMT standard slot
+00455e34	TDIBSharedImage.Destroy	Delphi VMT standard slot
+00455ec0	TDIBSharedImage.vmt_000	Delphi VMT slot
+00455fa4	TDIB.vmt_00c	Delphi VMT slot
+00455fec	TDIB.Destroy	Delphi VMT standard slot
+004562c0	TDIB.vmt_008	Delphi VMT slot
+004563b8	TDIB.vmt_014	Delphi VMT slot
+00456900	TDIB.vmt_01c	Delphi VMT slot
+00456908	TDIB.vmt_020	Delphi VMT slot
+0045690c	TDIB.vmt_024	Delphi VMT slot
+00456a3c	TDIB.vmt_02c	Delphi VMT slot
+00456b70	TDIB.vmt_004	Delphi VMT slot
+00456c78	TGlobalMemoryStream.Destroy	Delphi VMT standard slot
+00456cb8	TDIB.vmt_058	Delphi VMT slot
+00456d0c	TDIB.vmt_050	Delphi VMT slot
+00456dc4	TDIB.vmt_030	Delphi VMT slot
+00456e3c	TDIB.vmt_05c	Delphi VMT slot
+00456ee4	TDIB.vmt_054	Delphi VMT slot
+00456f4c	TDIB.vmt_044	Delphi VMT slot
+00456f9c	TDIB.vmt_034	Delphi VMT slot
+00456ff4	TDIB.vmt_040	Delphi VMT slot
+00457138	TDIB.vmt_038	Delphi VMT slot
+00457308	unit_059_finalization	Delphi unit init table
+0045735c	unit_059_initialization	Delphi unit init table
+004574c4	TDaviAVILoader.vmt_018	Delphi VMT slot
+00457524	TDaviAVILoader.Destroy	Delphi VMT standard slot
+00457590	TDaviAVILoader.vmt_00c	Delphi VMT slot
+004579a0	TDaviAVILoader.vmt_010	Delphi VMT slot
+004579f8	TDaviAVILoader.vmt_01c	Delphi VMT slot
+00457b98	unit_060_finalization	Delphi unit init table
+00457bc8	unit_060_initialization	Delphi unit init table
+00457de0	TCustomIniFile.vmt_008	Delphi VMT slot
+00457ea4	TCustomIniFile.vmt_00c	Delphi VMT slot
+00457f00	TCustomIniFile.vmt_010	Delphi VMT slot
+00457f2c	TCustomIniFile.vmt_018	Delphi VMT slot
+00457fe4	TCustomIniFile.vmt_01c	Delphi VMT slot
+0045809c	TCustomIniFile.vmt_020	Delphi VMT slot
+00458154	TCustomIniFile.vmt_024	Delphi VMT slot
+0045820c	TCustomIniFile.vmt_028	Delphi VMT slot
+0045826c	TCustomIniFile.vmt_02c	Delphi VMT slot
+004582cc	TCustomIniFile.vmt_030	Delphi VMT slot
+00458330	TCustomIniFile.vmt_034	Delphi VMT slot
+004583a8	TCustomIniFile.vmt_014	Delphi VMT slot
+00458434	TIniFile.vmt_000	Delphi VMT slot
+00458494	TIniFile.vmt_004	Delphi VMT slot
+00458500	TIniFile.vmt_03c	Delphi VMT slot
+00458600	TIniFile.vmt_038	Delphi VMT slot
+00458708	TIniFile.vmt_040	Delphi VMT slot
+0045882c	TIniFile.vmt_044	Delphi VMT slot
+00458880	TIniFile.vmt_048	Delphi VMT slot
+004588b0	TIniFile.vmt_04c	Delphi VMT slot
+004588cc	unit_061_finalization	Delphi unit init table
+00458914	unit_061_initialization	Delphi unit init table
+00458c14	TTarga.vmt_050	Delphi VMT slot
+0045913c	TTarga.vmt_054	Delphi VMT slot
+00459448	unit_062_finalization	Delphi unit init table
+00459488	unit_062_initialization	Delphi unit init table
+00459584	TDaviDADLoader.vmt_018	Delphi VMT slot
+004595d4	TDaviDADLoader.Destroy	Delphi VMT standard slot
+004599bc	TDaviDADLoader.vmt_00c	Delphi VMT slot
+00459f10	TDaviDADLoader.vmt_010	Delphi VMT slot
+00459f2c	TDaviDADLoader.vmt_01c	Delphi VMT slot
+0045a074	unit_063_finalization	Delphi unit init table
+0045a0a4	unit_063_initialization	Delphi unit init table
+0045a420	TDaviLoopProperties.vmt_00c	Delphi VMT slot
+0045a45c	TDaviLoopProperties.Destroy	Delphi VMT standard slot
+0045a4b0	TDaviLoopProperties.vmt_010	Delphi VMT slot
+0045a4fc	TDaviLoopProperties.vmt_014	Delphi VMT slot
+0045a548	TDaviLoopProperties.vmt_008	Delphi VMT slot
+0045a598	TDaviAnimationProperties.vmt_00c	Delphi VMT slot
+0045a5e0	TDaviAnimationProperties.Destroy	Delphi VMT standard slot
+0045a640	TDaviAnimationProperties.vmt_010	Delphi VMT slot
+0045a694	TDaviAnimationProperties.vmt_014	Delphi VMT slot
+0045a6e8	TDaviAnimationProperties.vmt_008	Delphi VMT slot
+0045a744	TDaviAnimationLoader.vmt_014	Delphi VMT slot
+0045a78c	TDaviAnimationLoader.vmt_018	Delphi VMT slot
+0045a7e4	TDaviAnimationLoader.Destroy	Delphi VMT standard slot
+0045a898	TDaviAnimationLoaderFactory.vmt_000	Delphi VMT slot
+0045a8e8	TDaviAnimationLoaderFactory.Destroy	Delphi VMT standard slot
+0045acf8	TDaviAnimationLoaderItem.Destroy	Delphi VMT standard slot
+0045ad54	unit_064_finalization	Delphi unit init table
+0045ad84	unit_064_initialization	Delphi unit init table
+0045af48	TDaviTimer.vmt_02c	Delphi VMT slot
+0045af98	TDaviTimer.Destroy	Delphi VMT standard slot
+0045aff8	TDaviTimer.vmt_030	Delphi VMT slot
+0045b05c	TDaviTimer.set_Enabled	Delphi RTTI property accessor
+0045b070	TDaviTimer.set_Interval	Delphi RTTI property accessor
+0045b084	TDaviTimer.set_OnTimer	Delphi RTTI property accessor
+0045b0e4	TDaviSharedTimer.vmt_000	Delphi VMT slot
+0045b130	TDaviSharedTimer.Destroy	Delphi VMT standard slot
+0045b67c	unit_065_finalization	Delphi unit init table
+0045b6ac	unit_065_initialization	Delphi unit init table
+0045b8c0	TGlobalMemoryStream.Destroy	Delphi VMT standard slot
+0045b900	TDaviAnimation.vmt_00c	Delphi VMT slot
+0045b960	TDaviAnimation.Destroy	Delphi VMT standard slot
+0045ba0c	TDaviAnimation.vmt_008	Delphi VMT slot
+0045bb90	TDaviAnimation.vmt_070	Delphi VMT slot
+0045bce8	TDaviAnimation.vmt_01c	Delphi VMT slot
+0045bcf4	TDaviAnimation.vmt_02c	Delphi VMT slot
+0045bcfc	TDaviAnimation.vmt_020	Delphi VMT slot
+0045bd04	TDaviAnimation.vmt_040	Delphi VMT slot
+0045bd1c	TDaviAnimation.vmt_034	Delphi VMT slot
+0045bd34	TDaviAnimation.vmt_03c	Delphi VMT slot
+0045bd48	TDaviAnimation.vmt_084	Delphi VMT slot
+0045bd5c	TDaviAnimation.vmt_088	Delphi VMT slot
+0045bd70	TDaviAnimation.vmt_08c	Delphi VMT slot
+0045be14	TDaviAnimation.vmt_074	Delphi VMT slot
+0045be2c	TDaviAnimation.vmt_078	Delphi VMT slot
+0045bfa8	TDaviAnimation.vmt_07c	Delphi VMT slot
+0045c0e8	TDaviAnimation.vmt_060	Delphi VMT slot
+0045c178	TDaviAnimation.vmt_064	Delphi VMT slot
+0045c190	TDaviAnimation.vmt_068	Delphi VMT slot
+0045c1a8	TDaviAnimation.vmt_06c	Delphi VMT slot
+0045c1c0	TDaviAnimation.vmt_080	Delphi VMT slot
+0045c1d8	TDaviAnimation.vmt_048	Delphi VMT slot
+0045c378	TDaviAnimation.vmt_04c	Delphi VMT slot
+0045c480	TDaviAnimation.vmt_050	Delphi VMT slot
+0045c50c	TDaviAnimation.vmt_058	Delphi VMT slot
+0045c67c	TDaviAnimation.vmt_054	Delphi VMT slot
+0045c6e4	TDaviAnimation.vmt_05c	Delphi VMT slot
+0045c860	TDaviAnimation.vmt_014	Delphi VMT slot
+0045c8b8	unit_066_finalization	Delphi unit init table
+0045c8f8	unit_066_initialization	Delphi unit init table
+0045cb0c	TDaviLinkedGraphic.vmt_014	Delphi VMT slot
+0045cb70	TDaviLinkedGraphic.Destroy	Delphi VMT standard slot
+0045ce44	TDaviLinkedGraphic.vmt_00c	Delphi VMT slot
+0045ce5c	TDaviLinkedGraphic.vmt_010	Delphi VMT slot
+0045ce74	TDaviLinkedGraphic.set_Filename	Delphi RTTI property accessor
+0045d054	TDaviLinkedGraphic.vmt_008	Delphi VMT slot
+0045d3c8	TDaviLinkedGraphic.vmt_004	Delphi VMT slot
+0045d4c8	unit_067_finalization	Delphi unit init table
+0045d4f8	unit_067_initialization	Delphi unit init table
+0045da90	TDaviGraphicDef.vmt_02c	Delphi VMT slot
+0045db60	TDaviGraphicDef.Destroy	Delphi VMT standard slot
+0045dbdc	TDaviGraphicDef.get_UpLink	Delphi RTTI property accessor
+0045dd34	TDaviGraphicDef.set_UpLink	Delphi RTTI property accessor
+0045e00c	TDaviGraphicDef.set_HintFont	Delphi RTTI property accessor
+0045e02c	TDaviGraphicDef.set_Transparent	Delphi RTTI property accessor
+0045e044	TDaviGraphicDef.set_TransparentColor	Delphi RTTI property accessor
+0045e05c	TDaviGraphicDef.set_TransparentMode	Delphi RTTI property accessor
+0045e074	TDaviGraphicDef.set_Width	Delphi RTTI property accessor
+0045e08c	TDaviGraphicDef.set_Height	Delphi RTTI property accessor
+0045e0a4	unit_068_finalization	Delphi unit init table
+0045e0d4	unit_068_initialization	Delphi unit init table
+0045e0dc	unit_069_finalization	Delphi unit init table
+0045e10c	unit_069_initialization	Delphi unit init table
+0045e3c0	TDataObject.vmt_004	Delphi VMT slot
+0045e408	TDataObject.Destroy	Delphi VMT standard slot
+0045e444	TDataObject.vmt_00c	Delphi VMT slot
+0045e524	TDataList.vmt_018	Delphi VMT slot
+0045e574	TDataList.Destroy	Delphi VMT standard slot
+0045e5b4	TDataList.vmt_00c	Delphi VMT slot
+0045e738	TDataList.vmt_010	Delphi VMT slot
+0045e788	TDataList.vmt_014	Delphi VMT slot
+0045e8a8	TIntegerList.vmt_004	Delphi VMT slot
+0045e8f0	TIntegerList.Destroy	Delphi VMT standard slot
+0045e924	TIntegerList.vmt_00c	Delphi VMT slot
+0045ea64	TIntegerList.vmt_010	Delphi VMT slot
+0045eab8	TIntegerList.vmt_014	Delphi VMT slot
+0045eb30	TBooleanList.vmt_004	Delphi VMT slot
+0045eb78	TBooleanList.Destroy	Delphi VMT standard slot
+0045ebac	TBooleanList.vmt_00c	Delphi VMT slot
+0045ecec	TBooleanList.vmt_010	Delphi VMT slot
+0045ed40	TBooleanList.vmt_014	Delphi VMT slot
+0045edb8	TDataObject.vmt_014	Delphi VMT slot
+0045edbc	TDataObject.vmt_010	Delphi VMT slot
+0045edc0	TDataObject.vmt_008	Delphi VMT slot
+0045f118	TDataList.vmt_008	Delphi VMT slot
+0045f1d8	TDataList.vmt_000	Delphi VMT slot
+0045f1e4	TIntegerList.vmt_000	Delphi VMT slot
+0045f2a8	TBooleanList.vmt_000	Delphi VMT slot
+0045f38c	unit_070_finalization	Delphi unit init table
+0045f3bc	unit_070_initialization	Delphi unit init table
+0045f3c4	unit_071_finalization	Delphi unit init table
+0045f3f4	unit_071_initialization	Delphi unit init table
+0045ff68	unit_072_finalization	Delphi unit init table
+0045ffbc	unit_072_initialization	Delphi unit init table
+0046037c	TSafeIniFile.vmt_008	Delphi VMT slot
+004603ac	TSafeIniFile.vmt_000	Delphi VMT slot
+004605f4	unit_073_finalization	Delphi unit init table
+00460624	unit_073_initialization	Delphi unit init table
+004606cc	TGameCharacter.vmt_000	Delphi VMT slot
+004609bc	unit_075_finalization	Delphi unit init table
+004609ec	unit_075_initialization	Delphi unit init table
+00460a44	unit_076_finalization	Delphi unit init table
+00460a74	unit_076_initialization	Delphi unit init table
+0046183c	unit_077_finalization	Delphi unit init table
+00461888	unit_077_initialization	Delphi unit init table
+0046189c	unit_078_finalization	Delphi unit init table
+004618cc	unit_078_initialization	Delphi unit init table
+004618d4	unit_079_finalization	Delphi unit init table
+00461918	unit_079_initialization	Delphi unit init table
+00461be8	TTrack.vmt_000	Delphi VMT slot
+00462078	unit_080_finalization	Delphi unit init table
+004620a8	unit_080_initialization	Delphi unit init table
+00462130	TTuneUp.vmt_000	Delphi VMT slot
+00462368	unit_125_finalization	Delphi unit init table
+00462398	unit_125_initialization	Delphi unit init table
+00462504	TRace.Destroy	Delphi VMT standard slot
+00462550	TRace.vmt_000	Delphi VMT slot
+0046284c	TRace.vmt_01c	Delphi VMT slot
+00462acc	unit_126_finalization	Delphi unit init table
+00462afc	unit_126_initialization	Delphi unit init table
+00462b7c	TTourRace.vmt_000	Delphi VMT slot
+00462b88	TTourRace.vmt_018	Delphi VMT slot
+00462bb4	unit_181_finalization	Delphi unit init table
+00462be4	unit_181_initialization	Delphi unit init table
+00462c78	unit_186_finalization	Delphi unit init table
+00462ca8	unit_186_initialization	Delphi unit init table
+00462ce8	unit_106_finalization	Delphi unit init table
+00462d18	unit_106_initialization	Delphi unit init table
+004632b0	TResourceManager.Destroy	Delphi VMT standard slot
+00463710	unit_107_finalization	Delphi unit init table
+00463740	unit_107_initialization	Delphi unit init table
+00463ba0	TCustomGDIGraphic.vmt_02c	Delphi VMT slot
+00463c44	TCustomGDIGraphic.Destroy	Delphi VMT standard slot
+00463d6c	TCustomGDIGraphic.vmt_084	Delphi VMT slot
+00463f2c	TCustomGDIGraphic.vmt_07c	Delphi VMT slot
+00463f9c	TCustomGDIGraphic.vmt_074	Delphi VMT slot
+00463fb0	TCustomGDIGraphic.vmt_088	Delphi VMT slot
+00463fcc	TCustomGDIGraphic.vmt_08c	Delphi VMT slot
+00463fec	TCustomGDIGraphic.vmt_090	Delphi VMT slot
+0046400c	TCustomGDIGraphic.vmt_094	Delphi VMT slot
+0046402c	TCustomGDIGraphic.vmt_098	Delphi VMT slot
+0046404c	TCustomGDIGraphic.vmt_09c	Delphi VMT slot
+00464074	TCustomGDIGraphic.vmt_0a0	Delphi VMT slot
+00464080	TCustomGDIGraphic.vmt_0a4	Delphi VMT slot
+004640bc	TCustomGDIGraphic.vmt_0a8	Delphi VMT slot
+004640c8	unit_104_finalization	Delphi unit init table
+004640f8	unit_104_initialization	Delphi unit init table
+00464528	TCustomApplicationEvents.vmt_02c	Delphi VMT slot
+004646c0	TMultiCaster.vmt_02c	Delphi VMT slot
+00464800	TMultiCaster.Destroy	Delphi VMT standard slot
+00464f50	unit_101_finalization	Delphi unit init table
+00464f80	unit_101_initialization	Delphi unit init table
+0046514c	TWinControlWrapper.vmt_02c	Delphi VMT slot
+004651ec	TWinControlWrapper.Destroy	Delphi VMT standard slot
+0046528c	TWinControlWrapper.vmt_018	Delphi VMT slot
+0046530c	TWinControlWrapper.vmt_0ac	Delphi VMT slot
+00465338	TWinControlWrapper.dyn_b01a	Delphi dynamic method table
+00465360	TWinControlWrapper.dyn_b01b	Delphi dynamic method table
+00465388	TWinControlWrapper.dyn_b00a	Delphi dynamic method table
+004653ac	TWinControlWrapper.dyn_b013	Delphi dynamic method table
+004653cc	TWinControlWrapper.dyn_b014	Delphi dynamic method table
+004653ec	TWinControlWrapper.dyn_b00c	Delphi dynamic method table
+0046542c	TWinControlWrapper.dyn_b00b	Delphi dynamic method table
+00465464	TWinControlWrapper.dyn_b012	Delphi dynamic method table
+00465484	TWinControlWrapper.dyn_b00e	Delphi dynamic method table
+0046549c	TWinControlWrapper.vmt_08c	Delphi VMT slot
+004654c0	TWinControlWrapper.vmt_090	Delphi VMT slot
+004654e4	TWinControlWrapper.vmt_094	Delphi VMT slot
+00465634	TWinControlWrapper.vmt_0b0	Delphi VMT slot
+00465660	TGDIButton.get_TabOrder	Delphi RTTI property accessor
+0046568c	TGDIButton.get_TabStop	Delphi RTTI property accessor
+004656bc	TWinControlWrapper.vmt_098	Delphi VMT slot
+004656e8	TWinControlWrapper.vmt_09c	Delphi VMT slot
+0046570c	TWinControlWrapper.vmt_0a0	Delphi VMT slot
+00465738	TWinControlWrapper.vmt_0a4	Delphi VMT slot
+0046575c	TWinControlWrapper.vmt_0a8	Delphi VMT slot
+00465780	TWinControlWrapper.vmt_060	Delphi VMT slot
+004657c4	TWinControlWrapper.vmt_0b4	Delphi VMT slot
+004657e8	TGDIButton.set_TabOrder	Delphi RTTI property accessor
+00465810	TGDIButton.set_TabStop	Delphi RTTI property accessor
+00465838	TWinControlWrapper.vmt_088	Delphi VMT slot
+004659d0	TWinControlWrapper.dyn_0102	Delphi dynamic method table
+004659f4	TWinControlWrapper.dyn_0100	Delphi dynamic method table
+00465a18	TWinControlWrapper.dyn_0101	Delphi dynamic method table
+00465a3c	TWinControlWrapper.dyn_0008	Delphi dynamic method table
+00465a54	TWinControlWrapper.dyn_0007	Delphi dynamic method table
+00465a6c	TWinControlWrapper.vmt_06c	Delphi VMT slot
+00465aa4	unit_100_finalization	Delphi unit init table
+00465ad4	unit_100_initialization	Delphi unit init table
+00465c7c	unit_095_finalization	Delphi unit init table
+00465cac	unit_095_initialization	Delphi unit init table
+00465f28	TGDIHintWindow.Destroy	Delphi VMT standard slot
+00465f8c	TGDIHintWindow.dyn_0085	Delphi dynamic method table
+00465f94	TGDIHintWindow.dyn_b012	Delphi dynamic method table
+00465fb8	TGDIHintWindow.vmt_0b4	Delphi VMT slot
+0046616c	TGDIHintWindow.vmt_0b8	Delphi VMT slot
+004661bc	TGDIHintWindow.vmt_0bc	Delphi VMT slot
+00466204	TGDIHintWindow.vmt_0c0	Delphi VMT slot
+00466244	TGDIHintWindow.vmt_0c4	Delphi VMT slot
+00466284	TGDIHint.vmt_02c	Delphi VMT slot
+00466438	TGDIHint.dyn_b012	Delphi dynamic method table
+004664e0	TGDIHint.vmt_084	Delphi VMT slot
+00466b88	unit_102_finalization	Delphi unit init table
+00466bb8	unit_102_initialization	Delphi unit init table
+00467844	TCaptionRect.vmt_00c	Delphi VMT slot
+00467850	TCaptionRect.vmt_010	Delphi VMT slot
+0046785c	TCaptionRect.vmt_014	Delphi VMT slot
+00467860	TCaptionRect.vmt_018	Delphi VMT slot
+00467864	TCaptionRect.vmt_01c	Delphi VMT slot
+00467868	TCaptionRect.vmt_020	Delphi VMT slot
+0046786c	TCaptionRect.vmt_024	Delphi VMT slot
+004678a4	TCaptionRect.vmt_028	Delphi VMT slot
+004678dc	TCaptionRect.vmt_02c	Delphi VMT slot
+004678f0	TCaptionRect.vmt_030	Delphi VMT slot
+00467904	TCaptionRect.vmt_034	Delphi VMT slot
+00467918	TCaptionRect.vmt_038	Delphi VMT slot
+00467944	TGDICustomButtonDefinition.vmt_02c	Delphi VMT slot
+00467a88	TGDICustomButtonDefinition.Destroy	Delphi VMT standard slot
+00467bc0	TGDIButtonDefinition.get_UpLink	Delphi RTTI property accessor
+00467d10	TGDIButtonDefinition.set_UpLink	Delphi RTTI property accessor
+00467dd8	TGDICustomButtonDefinition.vmt_030	Delphi VMT slot
+00467dec	TGDICustomButtonDefinition.vmt_034	Delphi VMT slot
+00467e08	TGDICustomButtonDefinition.vmt_038	Delphi VMT slot
+00467e24	TGDICustomButtonDefinition.vmt_03c	Delphi VMT slot
+00467fc0	TGDIButtonDefinition.set_Font	Delphi RTTI property accessor
+00467fe4	TGDIButtonDefinition.set_HintFont	Delphi RTTI property accessor
+00468008	TGDIButtonDefinition.set_Transparent	Delphi RTTI property accessor
+00468024	TGDIButtonDefinition.set_TransparentColor	Delphi RTTI property accessor
+00468040	TGDIButtonDefinition.set_TransparentMode	Delphi RTTI property accessor
+0046805c	TGDIButtonDefinition.set_Translucent	Delphi RTTI property accessor
+00468078	TGDIButtonDefinition.set_TranslucencyFactor	Delphi RTTI property accessor
+0046809c	TGDIButtonDefinition.set_Width	Delphi RTTI property accessor
+004680c4	TGDIButtonDefinition.set_Height	Delphi RTTI property accessor
+004680ec	TCustomGDIButton.vmt_02c	Delphi VMT slot
+004681e0	TCustomGDIButton.Destroy	Delphi VMT standard slot
+0046824c	TCustomGDIButton.vmt_0b8	Delphi VMT slot
+00468250	TCustomGDIButton.vmt_0bc	Delphi VMT slot
+00468254	TCustomGDIButton.vmt_0c0	Delphi VMT slot
+00468344	TCustomGDIButton.dyn_ffec	Delphi dynamic method table
+00468380	TCustomGDIButton.dyn_b006	Delphi dynamic method table
+00468418	TCustomGDIButton.dyn_b005	Delphi dynamic method table
+0046848c	TCustomGDIButton.dyn_5400	Delphi dynamic method table
+0046849c	TCustomGDIButton.dyn_5401	Delphi dynamic method table
+004684cc	TCustomGDIButton.dyn_5402	Delphi dynamic method table
+004684dc	TCustomGDIButton.dyn_5403	Delphi dynamic method table
+0046852c	TCustomGDIButton.dyn_5404	Delphi dynamic method table
+00468568	TCustomGDIButton.dyn_5405	Delphi dynamic method table
+004685ac	TCustomGDIButton.vmt_094	Delphi VMT slot
+00468694	TCustomGDIButton.vmt_0c4	Delphi VMT slot
+004686cc	TCustomGDIButton.vmt_098	Delphi VMT slot
+00468734	TCustomGDIButton.vmt_0a0	Delphi VMT slot
+0046877c	TCustomGDIButton.vmt_0c8	Delphi VMT slot
+004687f4	TCustomGDIButton.dyn_ffda	Delphi dynamic method table
+00468834	TCustomGDIButton.vmt_0a4	Delphi VMT slot
+0046887c	TCustomGDIButton.vmt_0a8	Delphi VMT slot
+004688b8	TCustomGDIButton.dyn_ffd8	Delphi dynamic method table
+00468914	TCustomGDIButton.vmt_084	Delphi VMT slot
+00468cac	TCustomGDIButton.vmt_07c	Delphi VMT slot
+00468cfc	TCustomGDIButton.vmt_074	Delphi VMT slot
+00468d9c	TGDIButton.set_Definition	Delphi RTTI property accessor
+00468e08	TGDIButton.set_Cancel	Delphi RTTI property accessor
+00468e20	TGDIButton.set_Default	Delphi RTTI property accessor
+00468e38	TGDIButton.set_MouseCheckDelay	Delphi RTTI property accessor
+00468e60	unit_103_finalization	Delphi unit init table
+00468e90	unit_103_initialization	Delphi unit init table
+00469004	TDaviGraphicHintWindow.vmt_0bc	Delphi VMT slot
+004690e0	TDaviGraphicHintWindow.vmt_0c0	Delphi VMT slot
+00469234	TDaviGraphicHintWindow.vmt_0b4	Delphi VMT slot
+004692f4	TDaviGraphicHintWindow.dyn_0085	Delphi dynamic method table
+004692f8	unit_082_finalization	Delphi unit init table
+00469328	unit_082_initialization	Delphi unit init table
+00469764	TDaviGraphicButton.vmt_02c	Delphi VMT slot
+004697e8	TDaviGraphicButton.Destroy	Delphi VMT standard slot
+00469830	TDaviGraphicButton.set_Definition	Delphi RTTI property accessor
+00469898	TDaviGraphicButton.dyn_bc2b	Delphi dynamic method table
+004698b0	TDaviGraphicButton.dyn_b00c	Delphi dynamic method table
+004698c8	TDaviGraphicButton.dyn_b00e	Delphi dynamic method table
+004698e0	TDaviGraphicButton.dyn_bc2c	Delphi dynamic method table
+00469904	TDaviGraphicButton.dyn_b013	Delphi dynamic method table
+00469974	TDaviGraphicButton.dyn_b014	Delphi dynamic method table
+004699d8	TDaviGraphicButton.dyn_0203	Delphi dynamic method table
+004699f0	TDaviGraphicButton.vmt_090	Delphi VMT slot
+00469a44	TDaviGraphicButton.vmt_098	Delphi VMT slot
+00469ac4	TDaviGraphicButton.vmt_0c0	Delphi VMT slot
+00469c34	TDaviGraphicButton.vmt_0bc	Delphi VMT slot
+00469c3c	TDaviGraphicButton.dyn_4400	Delphi dynamic method table
+00469c48	TDaviGraphicButton.dyn_4401	Delphi dynamic method table
+00469c7c	TDaviGraphicButton.dyn_4403	Delphi dynamic method table
+00469c88	TDaviGraphicButton.dyn_4402	Delphi dynamic method table
+00469cd8	TDaviGraphicButton.dyn_0014	Delphi dynamic method table
+00469ce0	TDaviGraphicButton.set_DisabledFontColor	Delphi RTTI property accessor
+00469d00	TDaviGraphicButton.set_WordWrap	Delphi RTTI property accessor
+00469d20	TDaviGraphicButton.vmt_0c4	Delphi VMT slot
+00469d60	TDaviGraphicButton.vmt_0c8	Delphi VMT slot
+00469e00	TDaviGraphicButton.vmt_074	Delphi VMT slot
+00469e48	unit_083_finalization	Delphi unit init table
+00469e78	unit_083_initialization	Delphi unit init table
+0046a724	TDaviSliderNeedle.vmt_02c	Delphi VMT slot
+0046a7ec	TDaviSliderNeedle.Destroy	Delphi VMT standard slot
+0046a818	TDaviSliderNeedle.dyn_ffc0	Delphi dynamic method table
+0046a83c	TDaviSliderNeedle.dyn_ffda	Delphi dynamic method table
+0046a894	TDaviSliderNeedle.dyn_ffd9	Delphi dynamic method table
+0046a9e8	TDaviSliderNeedle.dyn_0087	Delphi dynamic method table
+0046aa04	TDaviGraphicSlider.vmt_02c	Delphi VMT slot
+0046aaf8	TDaviGraphicSlider.Destroy	Delphi VMT standard slot
+0046acfc	TDaviGraphicSlider.vmt_0b8	Delphi VMT slot
+0046ad20	TDaviGraphicSlider.dyn_ffc0	Delphi dynamic method table
+0046adc8	TDaviGraphicSlider.dyn_ffda	Delphi dynamic method table
+0046ae5c	TDaviGraphicSlider.dyn_ffd8	Delphi dynamic method table
+0046ae9c	TDaviGraphicSlider.vmt_0b4	Delphi VMT slot
+0046aeec	TDaviGraphicSlider.set_BackImage	Delphi RTTI property accessor
+0046af08	TDaviGraphicSlider.set_Definition	Delphi RTTI property accessor
+0046af24	TDaviGraphicSlider.set_LargeStep	Delphi RTTI property accessor
+0046af2c	TDaviGraphicSlider.set_MarginHorz	Delphi RTTI property accessor
+0046af3c	TDaviGraphicSlider.set_MarginVert	Delphi RTTI property accessor
+0046af4c	TDaviGraphicSlider.set_Max	Delphi RTTI property accessor
+0046af5c	TDaviGraphicSlider.set_Min	Delphi RTTI property accessor
+0046af6c	TDaviGraphicSlider.set_Position	Delphi RTTI property accessor
+0046afbc	TDaviGraphicSlider.dyn_0113	Delphi dynamic method table
+0046b0a0	TDaviGraphicSlider.dyn_0087	Delphi dynamic method table
+0046b0bc	unit_108_finalization	Delphi unit init table
+0046b0ec	unit_108_initialization	Delphi unit init table
+0046b0f4	unit_109_finalization	Delphi unit init table
+0046b124	unit_109_initialization	Delphi unit init table
+0046b288	unit_110_finalization	Delphi unit init table
+0046b2b8	unit_110_initialization	Delphi unit init table
+0046b4e0	TGDIForm.vmt_02c	Delphi VMT slot
+0046b564	TGDIForm.Destroy	Delphi VMT standard slot
+0046b5d8	TGDIForm.vmt_0e0	Delphi VMT slot
+0046b620	TGDIForm.set_RegionLink	Delphi RTTI property accessor
+0046b8ac	TGDIForm.set_Transparent	Delphi RTTI property accessor
+0046b8d4	TGDIForm.set_TransparentColor	Delphi RTTI property accessor
+0046b8fc	TGDIForm.dyn_0003	Delphi dynamic method table
+0046b91c	TGDIForm.dyn_0005	Delphi dynamic method table
+0046b93c	TGDIForm.dyn_0114	Delphi dynamic method table
+0046b95c	TGDIForm.dyn_0115	Delphi dynamic method table
+0046b97c	TGDIForm.dyn_ffb0	Delphi dynamic method table
+0046ba3c	unit_111_finalization	Delphi unit init table
+0046ba6c	unit_111_initialization	Delphi unit init table
+0046bef4	unit_105_finalization	Delphi unit init table
+0046bf38	unit_105_initialization	Delphi unit init table
+0046bf58	unit_085_finalization	Delphi unit init table
+0046bf88	unit_085_initialization	Delphi unit init table
+0046ce0c	unit_086_finalization	Delphi unit init table
+0046ce8c	unit_086_initialization	Delphi unit init table
+0046cf00	unit_087_finalization	Delphi unit init table
+0046cf30	unit_087_initialization	Delphi unit init table
+0046cf38	unit_088_finalization	Delphi unit init table
+0046cf68	unit_088_initialization	Delphi unit init table
+0046cf70	unit_089_finalization	Delphi unit init table
+0046cfa0	unit_089_initialization	Delphi unit init table
+0046d650	TCustomAdapter.Destroy	Delphi VMT standard slot
+0046d67c	TCustomAdapter.vmt_000	Delphi VMT slot
+0046d808	TFontAdapter.vmt_004	Delphi VMT slot
+0046d9d0	TFontAdapter.vmt_000	Delphi VMT slot
+0046dd7c	TPictureAdapter.vmt_004	Delphi VMT slot
+0046e050	TOleGraphic.vmt_008	Delphi VMT slot
+0046e084	TOleGraphic.vmt_010	Delphi VMT slot
+0046e088	TOleGraphic.vmt_014	Delphi VMT slot
+0046e198	TOleGraphic.vmt_01c	Delphi VMT slot
+0046e20c	TOleGraphic.vmt_020	Delphi VMT slot
+0046e274	TOleGraphic.vmt_024	Delphi VMT slot
+0046e290	TOleGraphic.vmt_028	Delphi VMT slot
+0046e2b0	TOleGraphic.vmt_02c	Delphi VMT slot
+0046e2f4	TOleGraphic.vmt_034	Delphi VMT slot
+0046e33c	TOleGraphic.vmt_038	Delphi VMT slot
+0046e35c	TOleGraphic.vmt_040	Delphi VMT slot
+0046e3a4	TOleGraphic.vmt_048	Delphi VMT slot
+0046e3a8	TOleGraphic.vmt_050	Delphi VMT slot
+0046e3f8	TOleGraphic.vmt_054	Delphi VMT slot
+0046e47c	TOleGraphic.vmt_058	Delphi VMT slot
+0046e4c8	TOleGraphic.vmt_05c	Delphi VMT slot
+0046e6b8	unit_090_finalization	Delphi unit init table
+0046e718	unit_090_initialization	Delphi unit init table
+0046f170	TOleControl.vmt_02c	Delphi VMT slot
+0046f3dc	TOleControl.Destroy	Delphi VMT standard slot
+0046f9fc	TOleControl.vmt_098	Delphi VMT slot
+0046faa0	TOleControl.DefaultHandler	Delphi VMT standard slot
+0046fb04	TOleControl.vmt_004	Delphi VMT slot
+0046fc14	TOleControl.vmt_09c	Delphi VMT slot
+0046fd24	TAgent.get_Connected	Delphi RTTI property accessor
+00470220	TOleControl.vmt_0b8	Delphi VMT slot
+00470224	TOleControl.dyn_ffd6	Delphi dynamic method table
+0047039c	TOleControl.vmt_07c	Delphi VMT slot
+0047047c	TOleControl.vmt_018	Delphi VMT slot
+00470530	TAgent.set_Connected	Delphi RTTI property accessor
+00470564	TOleControl.vmt_060	Delphi VMT slot
+00470af4	TOleControl.vmt_06c	Delphi VMT slot
+00470c9c	TOleControl.dyn_0014	Delphi dynamic method table
+00470cbc	TOleControl.dyn_000f	Delphi dynamic method table
+00470d2c	TOleControl.dyn_b02b	Delphi dynamic method table
+00470d88	TOleControl.dyn_b00d	Delphi dynamic method table
+00470e0c	TOleControl.dyn_b00c	Delphi dynamic method table
+00470e98	TOleControl.dyn_b00e	Delphi dynamic method table
+00470f98	TOleControl.dyn_b005	Delphi dynamic method table
+00471050	TOleControl.dyn_b029	Delphi dynamic method table
+004710a0	TOleControl.dyn_b02a	Delphi dynamic method table
+004710e8	TOleControl.vmt_028	Delphi VMT slot
+0047181c	TOleControl.vmt_0bc	Delphi VMT slot
+00471a34	TOleControl.vmt_0c0	Delphi VMT slot
+00471a58	unit_091_finalization	Delphi unit init table
+00471a88	unit_091_initialization	Delphi unit init table
+00472818	TAgent.vmt_0b4	Delphi VMT slot
+00472960	unit_092_finalization	Delphi unit init table
+00472990	unit_092_initialization	Delphi unit init table
+00472998	unit_093_finalization	Delphi unit init table
+004729c8	unit_093_initialization	Delphi unit init table
+00472b74	TDaviColors.vmt_00c	Delphi VMT slot
+00472d0c	TDaviColors.set_BtnFace	Delphi RTTI property accessor
+00472d1c	TDaviColors.set_BtnShadow	Delphi RTTI property accessor
+00472d2c	TDaviColors.set_BtnHighlight	Delphi RTTI property accessor
+00472d3c	TDaviColors.set_Btn3DLight	Delphi RTTI property accessor
+00472d4c	TDaviColors.set_Btn3DDkShadow	Delphi RTTI property accessor
+00472d5c	TDaviColors.set_BtnDisabledLight	Delphi RTTI property accessor
+00472d6c	TDaviColors.set_BtnDisabledShadow	Delphi RTTI property accessor
+00472d7c	TDaviColors.vmt_008	Delphi VMT slot
+00472f70	unit_094_finalization	Delphi unit init table
+00472fa0	unit_094_initialization	Delphi unit init table
+00474360	TGlyphList.Destroy	Delphi VMT standard slot
+00474480	TGlyphCache.Destroy	Delphi VMT standard slot
+004745d8	TButtonGlyph.Destroy	Delphi VMT standard slot
+00475318	TDaviSpeedButton.vmt_02c	Delphi VMT slot
+004753e8	TDaviSpeedButton.Destroy	Delphi VMT standard slot
+00475590	TDaviSpeedButton.vmt_084	Delphi VMT slot
+00475888	TDaviSpeedButton.dyn_fff0	Delphi dynamic method table
+0047594c	TDaviSpeedButton.vmt_00c	Delphi VMT slot
+00475978	TDaviSpeedButton.dyn_ffda	Delphi dynamic method table
+004759d0	TDaviSpeedButton.vmt_088	Delphi VMT slot
+004759f0	TDaviSpeedButton.vmt_08c	Delphi VMT slot
+00475a10	TDaviSpeedButton.dyn_ffd9	Delphi dynamic method table
+00475aa0	TDaviSpeedButton.dyn_ffd8	Delphi dynamic method table
+00475b8c	TDaviSpeedButton.dyn_ffec	Delphi dynamic method table
+00475b94	TDaviSpeedButton.dyn_ffdc	Delphi dynamic method table
+00475ba8	TDaviSpeedButton.get_Glyph	Delphi RTTI property accessor
+00475bb4	TDaviSpeedButton.set_Glyph	Delphi RTTI property accessor
+00475bd4	TDaviSpeedButton.get_NumGlyphs	Delphi RTTI property accessor
+00475be0	TDaviSpeedButton.set_NumGlyphs	Delphi RTTI property accessor
+00475c14	TDaviSpeedButton.set_ShowCaption	Delphi RTTI property accessor
+00475c3c	TDaviSpeedButton.set_Kind	Delphi RTTI property accessor
+00475d0c	TDaviSpeedButton.get_Kind	Delphi RTTI property accessor
+00475d64	TDaviSpeedButton.set_Down	Delphi RTTI property accessor
+00475dd0	TDaviSpeedButton.set_Flat	Delphi RTTI property accessor
+00475e0c	TDaviSpeedButton.set_GroupIndex	Delphi RTTI property accessor
+00475e20	TDaviSpeedButton.set_Layout	Delphi RTTI property accessor
+00475e34	TDaviSpeedButton.set_Margin	Delphi RTTI property accessor
+00475e50	TDaviSpeedButton.set_Spacing	Delphi RTTI property accessor
+00475e64	TDaviSpeedButton.set_AllowAllUp	Delphi RTTI property accessor
+00475e78	TDaviSpeedButton.set_DaviColors	Delphi RTTI property accessor
+00475e90	TDaviSpeedButton.dyn_0203	Delphi dynamic method table
+00475eb4	TDaviSpeedButton.dyn_b00c	Delphi dynamic method table
+00475ee4	TDaviSpeedButton.dyn_b018	Delphi dynamic method table
+00475f30	TDaviSpeedButton.dyn_b006	Delphi dynamic method table
+00475fb0	TDaviSpeedButton.dyn_b005	Delphi dynamic method table
+00476024	TDaviSpeedButton.dyn_b00e	Delphi dynamic method table
+0047602c	TDaviSpeedButton.dyn_b012	Delphi dynamic method table
+00476034	TDaviSpeedButton.dyn_b024	Delphi dynamic method table
+00476058	TDaviSpeedButton.dyn_b013	Delphi dynamic method table
+0047609c	TDaviSpeedButton.dyn_b014	Delphi dynamic method table
+004761f4	TDaviButton.vmt_02c	Delphi VMT slot
+004762ac	TDaviButton.vmt_098	Delphi VMT slot
+004762c8	TDaviButton.Destroy	Delphi VMT standard slot
+00476304	TDaviButton.vmt_08c	Delphi VMT slot
+00476330	TDaviButton.vmt_090	Delphi VMT slot
+00476340	TDaviButton.vmt_0bc	Delphi VMT slot
+00476354	TDaviButton.dyn_ffec	Delphi dynamic method table
+00476398	TDaviButton.dyn_bc2c	Delphi dynamic method table
+004763a8	TDaviButton.dyn_bc2b	Delphi dynamic method table
+0047666c	TDaviButton.dyn_b005	Delphi dynamic method table
+0047667c	TDaviButton.dyn_b00e	Delphi dynamic method table
+00476690	TDaviButton.dyn_b00c	Delphi dynamic method table
+004766a4	TDaviButton.dyn_0203	Delphi dynamic method table
+004766b8	TDaviButton.dyn_ffdc	Delphi dynamic method table
+004766cc	TDaviButton.set_Glyph	Delphi RTTI property accessor
+004766ec	TDaviButton.get_Glyph	Delphi RTTI property accessor
+00476714	TDaviButton.set_Style	Delphi RTTI property accessor
+00476728	TDaviButton.set_Kind	Delphi RTTI property accessor
+004768a4	TDaviButton.get_Kind	Delphi RTTI property accessor
+00476900	TDaviButton.set_Layout	Delphi RTTI property accessor
+00476914	TDaviButton.get_NumGlyphs	Delphi RTTI property accessor
+00476920	TDaviButton.set_NumGlyphs	Delphi RTTI property accessor
+0047694c	TDaviButton.set_Spacing	Delphi RTTI property accessor
+00476960	TDaviButton.set_Margin	Delphi RTTI property accessor
+00476998	unit_096_finalization	Delphi unit init table
+004769d0	unit_096_initialization	Delphi unit init table
+004771d0	TDaviCustomLinkLabel.vmt_02c	Delphi VMT slot
+00477278	TDaviCustomLinkLabel.Destroy	Delphi VMT standard slot
+004772b8	TDaviLinkLabel.set_HoverFont	Delphi RTTI property accessor
+004772cc	TDaviCustomLinkLabel.vmt_090	Delphi VMT slot
+004772f0	TDaviCustomLinkLabel.vmt_094	Delphi VMT slot
+004775bc	TDaviCustomLinkLabel.dyn_b013	Delphi dynamic method table
+004775ec	TDaviCustomLinkLabel.dyn_b014	Delphi dynamic method table
+00477618	unit_097_finalization	Delphi unit init table
+00477648	unit_097_initialization	Delphi unit init table
+004779ac	TBalloonForm.vmt_02c	Delphi VMT slot
+0047d480	TBalloonForm.get_BalloonCaption	Delphi RTTI property accessor
+0047d6fc	TBalloonForm.set_BalloonCaption	Delphi RTTI property accessor
+0047d838	TBalloonForm.set_BalloonPosition	Delphi RTTI property accessor
+0047d850	TBalloonForm.set_BalloonStyle	Delphi RTTI property accessor
+0047d868	TBalloonForm.set_FrameColor	Delphi RTTI property accessor
+0047d880	TBalloonForm.set_HideOnClick	Delphi RTTI property accessor
+0047d898	TBalloonForm.FormClose	Delphi published method table
+0047d89c	TBalloonForm.FormDeactivate	Delphi published method table
+0047d8b0	TBalloonForm.FormPaint	Delphi published method table
+0047d9b0	TBalloonForm.btnCloseClick	Delphi published method table
+0047d9d8	TBalloonForm.WMEnable	Delphi published method table
+0047da0c	TBalloonForm.WMReable	Delphi published method table
+0047da24	unit_098_finalization	Delphi unit init table
+0047da54	unit_098_initialization	Delphi unit init table
+0047dd8c	TDaviAgent.Destroy	Delphi VMT standard slot
+0047e5ec	unit_099_finalization	Delphi unit init table
+0047e61c	unit_099_initialization	Delphi unit init table
+0047e778	TDaviEmbeddedFont.vmt_02c	Delphi VMT slot
+0047e7e0	TDaviEmbeddedFont.Destroy	Delphi VMT standard slot
+0047e828	TDaviEmbeddedFont.set_TrueType	Delphi RTTI property accessor
+0047e900	TDaviEmbeddedFont.set_FaceName	Delphi RTTI property accessor
+0047e94c	TDaviEmbeddedFont.vmt_004	Delphi VMT slot
+0047eca8	unit_187_finalization	Delphi unit init table
+0047ecd8	unit_187_initialization	Delphi unit init table
+0047efb8	TData.DataCreate	Delphi published method table
+0047f4ac	TData.DataDestroy	Delphi published method table
+0047f7d4	TData.gdfRadioBtnButtonStateChange	Delphi published method table
+0047f7ec	TData.BtnStateChange	Delphi published method table
+0047f804	TData.CombinedBtnStateChange	Delphi published method table
+00480aac	unit_188_finalization	Delphi unit init table
+00480adc	unit_188_initialization	Delphi unit init table
+00481b44	unit_115_finalization	Delphi unit init table
+00481b74	unit_115_initialization	Delphi unit init table
+00481ce4	TDaviSoundBuffer.Destroy	Delphi VMT standard slot
+00481e54	TSoundManager.Destroy	Delphi VMT standard slot
+00482ac0	unit_116_finalization	Delphi unit init table
+00482af0	unit_116_initialization	Delphi unit init table
+00482df0	unit_112_finalization	Delphi unit init table
+00482e20	unit_112_initialization	Delphi unit init table
+00482e28	unit_137_finalization	Delphi unit init table
+00482e58	unit_137_initialization	Delphi unit init table
+00482e60	unit_136_finalization	Delphi unit init table
+00482e90	unit_136_initialization	Delphi unit init table
+00482ed8	unit_138_finalization	Delphi unit init table
+00482f08	unit_138_initialization	Delphi unit init table
+00484290	TTabStrings.vmt_040	Delphi VMT slot
+00484300	TTabStrings.vmt_044	Delphi VMT slot
+0048439c	TTabStrings.vmt_00c	Delphi VMT slot
+00484494	TTabStrings.vmt_014	Delphi VMT slot
+004844b0	TTabStrings.vmt_018	Delphi VMT slot
+00484550	TTabStrings.vmt_020	Delphi VMT slot
+00484630	TTabStrings.vmt_024	Delphi VMT slot
+004846d0	TTabStrings.vmt_054	Delphi VMT slot
+004847b0	TTabStrings.vmt_030	Delphi VMT slot
+004847f4	TCustomTabControl.vmt_02c	Delphi VMT slot
+004848b4	TCustomTabControl.Destroy	Delphi VMT standard slot
+00484908	TCustomTabControl.dyn_ffb6	Delphi dynamic method table
+00484930	TCustomTabControl.vmt_0b4	Delphi VMT slot
+00484934	TCustomTabControl.dyn_ffb5	Delphi dynamic method table
+00484954	TCustomTabControl.vmt_090	Delphi VMT slot
+00484a58	TCustomTabControl.vmt_098	Delphi VMT slot
+00484adc	TCustomTabControl.vmt_0b8	Delphi VMT slot
+00484b44	TCustomTabControl.vmt_0bc	Delphi VMT slot
+00484b88	TCustomTabControl.vmt_00c	Delphi VMT slot
+00484ba4	TPageControl.set_HotTrack	Delphi RTTI property accessor
+00484bb8	TCustomTabControl.vmt_010	Delphi VMT slot
+00484be8	TPageControl.set_Images	Delphi RTTI property accessor
+00484d08	TPageControl.set_MultiLine	Delphi RTTI property accessor
+00484d28	TPageControl.set_OwnerDraw	Delphi RTTI property accessor
+00484d3c	TPageControl.set_RaggedRight	Delphi RTTI property accessor
+00484d58	TPageControl.set_ScrollOpposite	Delphi RTTI property accessor
+00484d78	TPageControl.set_Style	Delphi RTTI property accessor
+00484dec	TPageControl.set_TabHeight	Delphi RTTI property accessor
+00484eb8	TPageControl.set_TabPosition	Delphi RTTI property accessor
+00484f50	TPageControl.set_TabWidth	Delphi RTTI property accessor
+00485178	TCustomTabControl.dyn_bc2b	Delphi dynamic method table
+0048526c	TCustomTabControl.dyn_0002	Delphi dynamic method table
+004852fc	TCustomTabControl.dyn_0055	Delphi dynamic method table
+00485320	TCustomTabControl.dyn_0005	Delphi dynamic method table
+00485340	TCustomTabControl.dyn_b00e	Delphi dynamic method table
+00485368	TCustomTabControl.dyn_b024	Delphi dynamic method table
+00485390	TCustomTabControl.dyn_b028	Delphi dynamic method table
+0048539c	TCustomTabControl.dyn_bc4e	Delphi dynamic method table
+004853e0	TCustomTabControl.dyn_b006	Delphi dynamic method table
+004854bc	TCustomTabControl.vmt_084	Delphi VMT slot
+004854f0	TTabSheet.vmt_02c	Delphi VMT slot
+00485554	TTabSheet.Destroy	Delphi VMT standard slot
+004855a0	TTabSheet.dyn_ffb6	Delphi dynamic method table
+004855c0	TTabSheet.dyn_ffb5	Delphi dynamic method table
+004855e0	TTabSheet.get_PageIndex	Delphi RTTI property accessor
+0048564c	TTabSheet.vmt_090	Delphi VMT slot
+0048565c	TTabSheet.vmt_014	Delphi VMT slot
+00485690	TTabSheet.set_ImageIndex	Delphi RTTI property accessor
+004856ec	TTabSheet.set_PageIndex	Delphi RTTI property accessor
+004857c4	TTabSheet.set_TabVisible	Delphi RTTI property accessor
+004857f8	TTabSheet.dyn_b012	Delphi dynamic method table
+00485810	TTabSheet.dyn_b019	Delphi dynamic method table
+004858b8	TTabSheet.set_Highlighted	Delphi RTTI property accessor
+004858f8	TPageControl.vmt_02c	Delphi VMT slot
+0048594c	TPageControl.Destroy	Delphi VMT standard slot
+004859ec	TPageControl.vmt_00c	Delphi VMT slot
+00485a00	TPageControl.vmt_0b4	Delphi VMT slot
+00485a1c	TPageControl.dyn_ffb5	Delphi dynamic method table
+00485bb4	TPageControl.dyn_ffcc	Delphi dynamic method table
+00485bcc	TPageControl.dyn_ffcb	Delphi dynamic method table
+00485c24	TPageControl.dyn_ffc3	Delphi dynamic method table
+00485cdc	TPageControl.dyn_fffd	Delphi dynamic method table
+00485d1c	TPageControl.vmt_0bc	Delphi VMT slot
+00485e0c	TPageControl.dyn_ffc1	Delphi dynamic method table
+00485f9c	TPageControl.set_ActivePage	Delphi RTTI property accessor
+00485fe4	TPageControl.dyn_fffa	Delphi dynamic method table
+00485ff0	TPageControl.vmt_0ac	Delphi VMT slot
+00486084	TPageControl.vmt_0c0	Delphi VMT slot
+004860bc	TPageControl.dyn_b01c	Delphi dynamic method table
+00486118	TPageControl.dyn_b005	Delphi dynamic method table
+00486184	TPageControl.dyn_b038	Delphi dynamic method table
+004862cc	TPageControl.dyn_b042	Delphi dynamic method table
+0048639c	TPageControl.dyn_b039	Delphi dynamic method table
+00486458	TPageControl.dyn_0201	Delphi dynamic method table
+0048649c	TPageControl.dyn_0203	Delphi dynamic method table
+004864f0	TConversion.vmt_000	Delphi VMT slot
+00486504	TConversion.vmt_004	Delphi VMT slot
+00486518	unit_139_finalization	Delphi unit init table
+00486590	unit_139_initialization	Delphi unit init table
+00486ef4	unit_189_finalization	Delphi unit init table
+00486f48	unit_189_initialization	Delphi unit init table
+00487200	unit_123_finalization	Delphi unit init table
+00487270	unit_123_initialization	Delphi unit init table
+00487534	unit_140_finalization	Delphi unit init table
+00487564	unit_140_initialization	Delphi unit init table
+00487d30	TfrmDisplaySettings.FormCreate	Delphi published method table
+00487e08	TfrmDisplaySettings.FormDestroy	Delphi published method table
+00487f14	TfrmDisplaySettings.FormShow	Delphi published method table
+00488050	TfrmDisplaySettings.btnOkClick	Delphi published method table
+0048805c	TfrmDisplaySettings.lblBrightnessLightClick	Delphi published method table
+00488074	TfrmDisplaySettings.lblBrightnessDarkClick	Delphi published method table
+0048808c	TfrmDisplaySettings.lblBilinearFilteringClick	Delphi published method table
+004880b8	TfrmDisplaySettings.lblAlphaBlendingClick	Delphi published method table
+004880e4	TfrmDisplaySettings.lblRenderToVideoMemoryClick	Delphi published method table
+00488110	TfrmDisplaySettings.lblWaitVblClick	Delphi published method table
+004882f4	TfrmDisplaySettings.cboDriverChange	Delphi published method table
+00488b60	TfrmDisplaySettings.btnHelpStdClick	Delphi published method table
+00488ba0	TfrmDisplaySettings.lblMipmappingClick	Delphi published method table
+00488ce4	unit_141_finalization	Delphi unit init table
+00488d14	unit_141_initialization	Delphi unit init table
+00488f2c	TfrmCoolDialog.vmt_02c	Delphi VMT slot
+00488ff0	TfrmCoolDialog.GDIFormShow	Delphi published method table
+00489194	TfrmCoolDialog.vmt_0e4	Delphi VMT slot
+004891e0	TfrmCoolDialog.btnHelpClick	Delphi published method table
+0048937c	TfrmCoolDialog.GDIFormClose	Delphi published method table
+004893a0	TfrmCoolDialog.ShowWinHelp	Delphi published method table
+00489554	unit_114_finalization	Delphi unit init table
+00489584	unit_114_initialization	Delphi unit init table
+0048a144	unit_113_finalization	Delphi unit init table
+0048a174	unit_113_initialization	Delphi unit init table
+0048a25c	TGameIni.vmt_004	Delphi VMT slot
+0048a2bc	TGameIni.Destroy	Delphi VMT standard slot
+0048a6c4	TGameIni.vmt_000	Delphi VMT slot
+0048a934	TOtherRacer.vmt_000	Delphi VMT slot
+0048a984	unit_167_finalization	Delphi unit init table
+0048a9b4	unit_167_initialization	Delphi unit init table
+0048aa2c	TSaveGame.vmt_004	Delphi VMT slot
+0048ab58	TSaveGame.Destroy	Delphi VMT standard slot
+0048ac58	TSaveGame.vmt_00c	Delphi VMT slot
+0048ad68	TSaveGame.vmt_014	Delphi VMT slot
+0048ae64	TSaveGame.vmt_010	Delphi VMT slot
+0048b200	TSaveGame.vmt_000	Delphi VMT slot
+0048c6c0	unit_185_finalization	Delphi unit init table
+0048c6f0	unit_185_initialization	Delphi unit init table
+0048c7ac	TSaveGameHeader.vmt_000	Delphi VMT slot
+0048c970	TSaveGameHeader.vmt_014	Delphi VMT slot
+0048ca44	TSaveGameHeader.vmt_010	Delphi VMT slot
+0048cbf0	unit_152_finalization	Delphi unit init table
+0048cc20	unit_152_initialization	Delphi unit init table
+0048cd78	TQRState.vmt_000	Delphi VMT slot
+0048cdb4	TQRState.vmt_014	Delphi VMT slot
+0048ce90	TQRState.vmt_010	Delphi VMT slot
+0048cf6c	TRaceState.vmt_000	Delphi VMT slot
+0048cfc0	TRaceState.vmt_014	Delphi VMT slot
+0048d0a0	TRaceState.vmt_010	Delphi VMT slot
+0048d31c	TTourState.vmt_004	Delphi VMT slot
+0048d468	TTourState.Destroy	Delphi VMT standard slot
+0048d564	TTourState.vmt_014	Delphi VMT slot
+0048d678	TTourState.vmt_010	Delphi VMT slot
+0048d78c	TTourState.vmt_000	Delphi VMT slot
+0048d7c4	unit_127_finalization	Delphi unit init table
+0048d7f4	unit_127_initialization	Delphi unit init table
+0048d86c	TCharResult.vmt_000	Delphi VMT slot
+0048da18	TCharResult.vmt_014	Delphi VMT slot
+0048db2c	TCharResult.vmt_010	Delphi VMT slot
+0048dd30	unit_184_finalization	Delphi unit init table
+0048dd60	unit_184_initialization	Delphi unit init table
+0048dde8	TStatic.vmt_00c	Delphi VMT slot
+0048ddf4	TStatic.vmt_004	Delphi VMT slot
+0048df74	TStatic.Destroy	Delphi VMT standard slot
+0048e0ac	TStatic.vmt_000	Delphi VMT slot
+0048e6f4	unit_183_finalization	Delphi unit init table
+0048e724	unit_183_initialization	Delphi unit init table
+0048e8c4	unit_182_finalization	Delphi unit init table
+0048e8f4	unit_182_initialization	Delphi unit init table
+0048e988	TQuickRace.vmt_000	Delphi VMT slot
+0048e9cc	TQuickRace.vmt_018	Delphi VMT slot
+0048e9f8	TQuickRace.vmt_01c	Delphi VMT slot
+0048ec08	unit_132_finalization	Delphi unit init table
+0048ec38	unit_132_initialization	Delphi unit init table
+0048ed3c	TMenuIni.vmt_004	Delphi VMT slot
+0048ed84	TMenuIni.Destroy	Delphi VMT standard slot
+0048edec	TMenuIni.vmt_018	Delphi VMT slot
+0048f168	TMenuIni.vmt_01c	Delphi VMT slot
+0048f3d4	TMenuIni.vmt_000	Delphi VMT slot
+0048f464	unit_180_finalization	Delphi unit init table
+0048f494	unit_180_initialization	Delphi unit init table
+0048f534	unit_081_finalization	Delphi unit init table
+0048f56c	unit_081_initialization	Delphi unit init table
+0048f7d0	TSingletonForm.vmt_02c	Delphi VMT slot
+0048f850	TSingletonForm.Destroy	Delphi VMT standard slot
+0048f8ec	unit_191_finalization	Delphi unit init table
+0048f91c	unit_191_initialization	Delphi unit init table
+0048f924	unit_084_finalization	Delphi unit init table
+0048f954	unit_084_initialization	Delphi unit init table
+0048febc	TCustomGDICheckBox.vmt_02c	Delphi VMT slot
+0048ff10	TCustomGDICheckBox.dyn_ffec	Delphi dynamic method table
+0048ff2c	TCustomGDICheckBox.vmt_0cc	Delphi VMT slot
+0048ff50	TCustomGDICheckBox.vmt_0b8	Delphi VMT slot
+0048ff58	TCustomGDICheckBox.vmt_0bc	Delphi VMT slot
+0048ff78	TCustomGDICheckBox.vmt_0c0	Delphi VMT slot
+0048ffd8	unit_117_finalization	Delphi unit init table
+00490008	unit_117_initialization	Delphi unit init table
+0049057c	TCustomGDIRadioButton.vmt_0cc	Delphi VMT slot
+004905a0	TCustomGDIRadioButton.vmt_0bc	Delphi VMT slot
+00490654	TCustomGDIRadioButton.vmt_0c0	Delphi VMT slot
+004906b4	unit_118_finalization	Delphi unit init table
+004906e4	unit_118_initialization	Delphi unit init table
+004908b4	TBaseFormOneWay.btnNextClick	Delphi published method table
+0049098c	TBaseFormOneWay.FormShow	Delphi published method table
+004909ac	unit_119_finalization	Delphi unit init table
+004909dc	unit_119_initialization	Delphi unit init table
+004909fc	unit_120_finalization	Delphi unit init table
+00490a44	unit_120_initialization	Delphi unit init table
+004911a4	unit_121_finalization	Delphi unit init table
+004911f4	unit_121_initialization	Delphi unit init table
+004913c0	TBaseFormTwoWay.btnPreviousClick	Delphi published method table
+0049149c	unit_122_finalization	Delphi unit init table
+004914cc	unit_122_initialization	Delphi unit init table
+00491648	TStatusIndicator.Destroy	Delphi VMT standard slot
+00491908	unit_124_finalization	Delphi unit init table
+00491938	unit_124_initialization	Delphi unit init table
+00491d7c	TfrmKeySettings.dyn_0087	Delphi dynamic method table
+00491d84	TfrmKeySettings.btnClick	Delphi published method table
+00491e64	TfrmKeySettings.FormKeyDown	Delphi published method table
+00491ef8	TfrmKeySettings.txtKeyExit	Delphi published method table
+00491f10	TfrmKeySettings.GDIFormShow	Delphi published method table
+00491f28	TfrmKeySettings.btnOkClick	Delphi published method table
+004921c4	TfrmKeySettings.FormCreate	Delphi published method table
+00492644	TfrmKeySettings.btnDefaultsClick	Delphi published method table
+00492674	unit_146_finalization	Delphi unit init table
+004926a4	unit_146_initialization	Delphi unit init table
+004926ac	unit_147_finalization	Delphi unit init table
+004926dc	unit_147_initialization	Delphi unit init table
+004926e4	unit_148_finalization	Delphi unit init table
+00492714	unit_148_initialization	Delphi unit init table
+00492910	TfrmSliderSettings.FormShow	Delphi published method table
+00492920	TfrmSliderSettings.btnOkClick	Delphi published method table
+00492940	unit_149_finalization	Delphi unit init table
+00492970	unit_149_initialization	Delphi unit init table
+00492b00	TfrmWheelSettings.vmt_0e8	Delphi VMT slot
+00492b1c	TfrmWheelSettings.vmt_0ec	Delphi VMT slot
+00492b34	unit_150_finalization	Delphi unit init table
+00492b64	unit_150_initialization	Delphi unit init table
+00492cfc	TfrmJoyStickSettings.vmt_0e8	Delphi VMT slot
+00492d18	TfrmJoyStickSettings.vmt_0ec	Delphi VMT slot
+00492d30	unit_151_finalization	Delphi unit init table
+00492d60	unit_151_initialization	Delphi unit init table
+00492fcc	TStoredGame.Destroy	Delphi VMT standard slot
+00493000	TStoredGame.vmt_000	Delphi VMT slot
+0049304c	unit_153_finalization	Delphi unit init table
+0049307c	unit_153_initialization	Delphi unit init table
+004943bc	TfrmPlayer.btn1Click	Delphi published method table
+004944fc	TfrmPlayer.btnDeletePlayerClick	Delphi published method table
+00494658	TfrmPlayer.GDIFormCreate	Delphi published method table
+004946b8	TfrmPlayer.GDIFormShow	Delphi published method table
+00494808	TfrmPlayer.gdfBtnDeletePlayerButtonStateChange	Delphi published method table
+00494824	unit_154_finalization	Delphi unit init table
+00494854	unit_154_initialization	Delphi unit init table
+00494a14	TfrmDoubleKeys.vmt_0e4	Delphi VMT slot
+00494a90	TfrmDoubleKeys.GDIFormShow	Delphi published method table
+00494b20	unit_155_finalization	Delphi unit init table
+00494b50	unit_155_initialization	Delphi unit init table
+00494d24	TfrmNewPlayer.GDIFormShow	Delphi published method table
+00494d44	TfrmNewPlayer.txtNameKeyDown	Delphi published method table
+00494d5c	unit_156_finalization	Delphi unit init table
+00494d8c	unit_156_initialization	Delphi unit init table
+00494f50	TfrmHighScoreDlg.GDIFormShow	Delphi published method table
+00494fb0	TfrmHighScoreDlg.txtNameKeyDown	Delphi published method table
+00494fc8	unit_157_finalization	Delphi unit init table
+00494ff8	unit_157_initialization	Delphi unit init table
+00495688	TfrmOptions.lblStartInfoOnClick	Delphi published method table
+004956b4	TfrmOptions.btnCancelClick	Delphi published method table
+00495808	TfrmOptions.btnOkClick	Delphi published method table
+0049591c	TfrmOptions.optVideoLowClick	Delphi published method table
+00495954	TfrmOptions.optVideoMediumClick	Delphi published method table
+0049598c	TfrmOptions.optVideoHighClick	Delphi published method table
+004959c4	TfrmOptions.chkVideo3dClick	Delphi published method table
+00495a2c	TfrmOptions.btnVideoAdvancedClick	Delphi published method table
+00495b78	TfrmOptions.lblKeyboardClick	Delphi published method table
+00495b90	TfrmOptions.lblJoypadClick	Delphi published method table
+00495ba8	TfrmOptions.lblJoystickClick	Delphi published method table
+00495bc0	TfrmOptions.lblWheelClick	Delphi published method table
+00495bd8	TfrmOptions.lblVideo3dClick	Delphi published method table
+00495bf0	TfrmOptions.lblVideoLowClick	Delphi published method table
+00495c18	TfrmOptions.lblVideoMediumClick	Delphi published method table
+00495c40	TfrmOptions.lblVideoHighClick	Delphi published method table
+00495c68	TfrmOptions.sldrMusicChange	Delphi published method table
+00495cc8	TfrmOptions.sldrSoundChange	Delphi published method table
+00495d1c	TfrmOptions.sldrVoiceChange	Delphi published method table
+00496480	TfrmOptions.optKeyboardClick	Delphi published method table
+004964c8	TfrmOptions.optJoypadClick	Delphi published method table
+00496510	TfrmOptions.optJoystickClick	Delphi published method table
+00496558	TfrmOptions.optWheelClick	Delphi published method table
+004965a0	TfrmOptions.btnControlsClick	Delphi published method table
+004967fc	TfrmOptions.GDIFormCreate	Delphi published method table
+004969c4	TfrmOptions.GDIFormDestroy	Delphi published method table
+00496a8c	TfrmOptions.GDIFormShow	Delphi published method table
+00496b78	TfrmOptions.lblClickAreaClick	Delphi published method table
+00496b90	unit_142_finalization	Delphi unit init table
+00496bc0	unit_142_initialization	Delphi unit init table
+00496d98	TfrmDeletePlayer.vmt_0e4	Delphi VMT slot
+00496e14	TfrmDeletePlayer.GDIFormShow	Delphi published method table
+00496ea4	unit_158_finalization	Delphi unit init table
+00496ed4	unit_158_initialization	Delphi unit init table
+0049705c	TfrmNoMoney.GDIFormShow	Delphi published method table
+00497084	unit_159_finalization	Delphi unit init table
+004970b4	unit_159_initialization	Delphi unit init table
+00497260	TfrmCDRequest.GDIFormShow	Delphi published method table
+0049729c	unit_160_finalization	Delphi unit init table
+004972cc	unit_160_initialization	Delphi unit init table
+004974a8	TfrmInternetDlg.vmt_0e4	Delphi VMT slot
+004974d4	TfrmInternetDlg.GDIFormShow	Delphi published method table
+004974fc	unit_161_finalization	Delphi unit init table
+0049752c	unit_161_initialization	Delphi unit init table
+00497534	unit_162_finalization	Delphi unit init table
+00497564	unit_162_initialization	Delphi unit init table
+0049756c	unit_163_finalization	Delphi unit init table
+0049759c	unit_163_initialization	Delphi unit init table
+004977a0	TfrmStartInfo.GDIFormShow	Delphi published method table
+004977e0	TfrmStartInfo.btnOkClick	Delphi published method table
+00497818	TfrmStartInfo.vmt_0e4	Delphi VMT slot
+004978d0	TfrmStartInfo.lblClickAreaClick	Delphi published method table
+004978e8	unit_164_finalization	Delphi unit init table
+00497918	unit_164_initialization	Delphi unit init table
+004980d4	TfrmStartInfoKeyBoard.GDIFormShow	Delphi published method table
+004980f4	unit_165_finalization	Delphi unit init table
+00498124	unit_165_initialization	Delphi unit init table
+00498a20	unit_166_finalization	Delphi unit init table
+00498a50	unit_166_initialization	Delphi unit init table
+00498d8c	TfrmGarage.FormCreate	Delphi published method table
+004990a0	TfrmGarage.FormShow	Delphi published method table
+004991ac	TfrmGarage.vmt_0fc	Delphi VMT slot
+004991f4	TfrmGarage.btnBuyTuneUpClick	Delphi published method table
+00499524	TfrmGarage.vmt_100	Delphi VMT slot
+004995b0	TfrmGarage.btnNextTUClick	Delphi published method table
+00499650	TfrmGarage.FormDestroy	Delphi published method table
+004998cc	TfrmGarage.btnPrevTUClick	Delphi published method table
+004998fc	TfrmGarage.gdfBtnPrevious3ButtonStateChange	Delphi published method table
+00499918	unit_128_finalization	Delphi unit init table
+00499948	unit_128_initialization	Delphi unit init table
+00499c7c	TfrmTrack.vmt_0fc	Delphi VMT slot
+00499d54	TfrmTrack.vmt_100	Delphi VMT slot
+00499f28	TfrmTrack.btnPrevTrackClick	Delphi published method table
+00499f54	TfrmTrack.btnNextTrackClick	Delphi published method table
+0049a168	TfrmTrack.FormShow	Delphi published method table
+0049a458	TfrmTrack.timCyclerTimer	Delphi published method table
+0049a5c0	TfrmTrack.tmrSoundTimer	Delphi published method table
+0049a78c	unit_129_finalization	Delphi unit init table
+0049a7bc	unit_129_initialization	Delphi unit init table
+0049aac4	TfrmCharacter.vmt_0fc	Delphi VMT slot
+0049abbc	TfrmCharacter.btnPrevCharClick	Delphi published method table
+0049ac04	TfrmCharacter.btnNextCharClick	Delphi published method table
+0049adec	TfrmCharacter.vmt_100	Delphi VMT slot
+0049ae00	TfrmCharacter.FormShow	Delphi published method table
+0049af0c	TfrmCharacter.FormDestroy	Delphi published method table
+0049b18c	TfrmCharacter.timSelectionTimer	Delphi published method table
+0049b1b4	TfrmCharacter.imgCarClick	Delphi published method table
+0049b204	unit_130_finalization	Delphi unit init table
+0049b234	unit_130_initialization	Delphi unit init table
+0049b4d4	TfrmCurrentChar.vmt_0fc	Delphi VMT slot
+0049b4e8	TfrmCurrentChar.btnChooseCharClick	Delphi published method table
+0049b4fc	TfrmCurrentChar.FormShow	Delphi published method table
+0049b61c	TfrmCurrentChar.vmt_100	Delphi VMT slot
+0049b704	TfrmCurrentChar.FormCreate	Delphi published method table
+0049b734	TfrmCurrentChar.gdfBtnChooseButtonStateChange	Delphi published method table
+0049b750	unit_131_finalization	Delphi unit init table
+0049b780	unit_131_initialization	Delphi unit init table
+0049b964	TfrmUnlock.GDIFormShow	Delphi published method table
+0049b98c	unit_133_finalization	Delphi unit init table
+0049b9bc	unit_133_initialization	Delphi unit init table
+0049bd5c	TfrmQuickRace.FormCreate	Delphi published method table
+0049bd98	TfrmQuickRace.FormDestroy	Delphi published method table
+0049bdec	TfrmQuickRace.FormShow	Delphi published method table
+0049bf04	TfrmQuickRace.vmt_100	Delphi VMT slot
+0049bf18	TfrmQuickRace.vmt_0fc	Delphi VMT slot
+0049bf7c	TfrmQuickRace.btnPrevTrack1Click	Delphi published method table
+0049c088	TfrmQuickRace.btnNextTrack1Click	Delphi published method table
+0049c40c	TfrmQuickRace.btnNextCharClick	Delphi published method table
+0049c468	TfrmQuickRace.btnPrevCharClick	Delphi published method table
+0049cbec	TfrmQuickRace.timCyclerTimer	Delphi published method table
+0049cbf8	TfrmQuickRace.btnCloseClick	Delphi published method table
+0049cc1c	unit_134_finalization	Delphi unit init table
+0049cc4c	unit_134_initialization	Delphi unit init table
+0049cf00	TfrmDifficulty.FormShow	Delphi published method table
+0049d124	TfrmDifficulty.vmt_0fc	Delphi VMT slot
+0049d2a0	TfrmDifficulty.vmt_100	Delphi VMT slot
+0049d2b4	TfrmDifficulty.vmt_0e4	Delphi VMT slot
+0049d304	TfrmDifficulty.FormCreate	Delphi published method table
+0049d374	TfrmDifficulty.optEasyClick	Delphi published method table
+0049d3ac	TfrmDifficulty.optMediumClick	Delphi published method table
+0049d3e4	TfrmDifficulty.optHardClick	Delphi published method table
+0049d41c	TfrmDifficulty.gdfBtnHardButtonStateChange	Delphi published method table
+0049d438	unit_135_finalization	Delphi unit init table
+0049d468	unit_135_initialization	Delphi unit init table
+0049d888	TfrmMainScreen.btnOptionsClick	Delphi published method table
+0049d894	TfrmMainScreen.FormShow	Delphi published method table
+0049d9fc	TfrmMainScreen.btnPlayerClick	Delphi published method table
+0049da14	TfrmMainScreen.btnInternetClick	Delphi published method table
+0049da44	TfrmMainScreen.vmt_0fc	Delphi VMT slot
+0049db5c	TfrmMainScreen.FormCreate	Delphi published method table
+0049dc20	TfrmMainScreen.btnCloseClick	Delphi published method table
+0049dcc4	TfrmMainScreen.Money3001Click	Delphi published method table
+0049dce8	TfrmMainScreen.Allcharslasttrack1Click	Delphi published method table
+0049dd28	TfrmMainScreen.Unlocksupercop1Click	Delphi published method table
+0049dd40	TfrmMainScreen.optQuickRaceClick	Delphi published method table
+0049dd74	TfrmMainScreen.optTourClick	Delphi published method table
+0049dda8	TfrmMainScreen.gdfBtnQRButtonStateChange	Delphi published method table
+0049ddc4	TfrmMainScreen.gdfBtnInternetButtonStateChange	Delphi published method table
+0049dde0	unit_143_finalization	Delphi unit init table
+0049de10	unit_143_initialization	Delphi unit init table
+0049e078	TfrmCloseDlg.btnOk1Click	Delphi published method table
+0049e0ac	TfrmCloseDlg.GDIFormShow	Delphi published method table
+0049e0fc	TfrmCloseDlg.gdfBigRadioBtnMainButtonStateChange	Delphi published method table
+0049e118	unit_144_finalization	Delphi unit init table
+0049e148	unit_144_initialization	Delphi unit init table
+0049e394	TGameMenuScreen.FormCreate	Delphi published method table
+0049e590	TGameMenuScreen.FormDestroy	Delphi published method table
+0049e660	TGameMenuScreen.FormShow	Delphi published method table
+0049e678	TGameMenuScreen.btnHelpClick	Delphi published method table
+0049e81c	TGameMenuScreen.vmt_0e8	Delphi VMT slot
+0049e868	TGameMenuScreen.vmt_0ec	Delphi VMT slot
+0049e8a8	TGameMenuScreen.vmt_0f0	Delphi VMT slot
+0049e8c4	TGameMenuScreen.vmt_0f4	Delphi VMT slot
+0049e9bc	TGameMenuScreen.btnCloseClick	Delphi published method table
+0049eab0	TGameMenuScreen.vmt_0f8	Delphi VMT slot
+0049eab4	TGameMenuScreen.vmt_0e4	Delphi VMT slot
+0049ecb4	TGameMenuScreen.FormClose	Delphi published method table
+0049ecd8	unit_145_finalization	Delphi unit init table
+0049ed08	unit_145_initialization	Delphi unit init table
+0049f29c	unit_168_finalization	Delphi unit init table
+0049f2cc	unit_168_initialization	Delphi unit init table
+0049f4f8	TfrmLoseNormal.vmt_0fc	Delphi VMT slot
+0049f50c	TfrmLoseNormal.FormShow	Delphi published method table
+0049f6fc	TfrmLoseNormal.timSampleTimer	Delphi published method table
+0049f740	unit_169_finalization	Delphi unit init table
+0049f770	unit_169_initialization	Delphi unit init table
+0049f958	TfrmTrackIntro.imgBackGroundClick	Delphi published method table
+0049fa34	TfrmTrackIntro.FormShow	Delphi published method table
+0049fb28	TfrmTrackIntro.timCloseTimer	Delphi published method table
+0049fc00	unit_170_finalization	Delphi unit init table
+0049fc30	unit_170_initialization	Delphi unit init table
+0049fe54	TfrmQualify.vmt_0fc	Delphi VMT slot
+0049fe68	TfrmQualify.FormShow	Delphi published method table
+0049ff90	TfrmQualify.timSampleTimer	Delphi published method table
+0049ffd4	unit_171_finalization	Delphi unit init table
+004a0004	unit_171_initialization	Delphi unit init table
+004a0218	TfrmWinNormal.FormShow	Delphi published method table
+004a02f0	TfrmWinNormal.vmt_0fc	Delphi VMT slot
+004a03b0	TfrmWinNormal.timSampleTimer	Delphi published method table
+004a03f4	unit_172_finalization	Delphi unit init table
+004a0424	unit_172_initialization	Delphi unit init table
+004a0624	TfrmResults.FormShow	Delphi published method table
+004a0a20	TfrmResults.vmt_0fc	Delphi VMT slot
+004a0b5c	TfrmResults.vmt_0e4	Delphi VMT slot
+004a0bb0	unit_173_finalization	Delphi unit init table
+004a0be0	unit_173_initialization	Delphi unit init table
+004a0db4	TfrmWinChase.vmt_0fc	Delphi VMT slot
+004a0dc8	TfrmWinChase.FormShow	Delphi published method table
+004a0e88	unit_174_finalization	Delphi unit init table
+004a0eb8	unit_174_initialization	Delphi unit init table
+004a1094	TfrmLoseChase.vmt_0fc	Delphi VMT slot
+004a10a8	TfrmLoseChase.FormShow	Delphi published method table
+004a1168	unit_175_finalization	Delphi unit init table
+004a1198	unit_175_initialization	Delphi unit init table
+004a1928	TMediaPlayer.vmt_02c	Delphi VMT slot
+004a1a18	TMediaPlayer.Destroy	Delphi VMT standard slot
+004a1a68	TMediaPlayer.vmt_00c	Delphi VMT slot
+004a1c34	TMediaPlayer.set_AutoEnable	Delphi RTTI property accessor
+004a1c5c	TMediaPlayer.set_EnabledButtons	Delphi RTTI property accessor
+004a1cd4	TMediaPlayer.set_ColoredButtons	Delphi RTTI property accessor
+004a1d18	TMediaPlayer.set_VisibleButtons	Delphi RTTI property accessor
+004a1dd8	TMediaPlayer.dyn_0005	Delphi dynamic method table
+004a2160	TMediaPlayer.vmt_0b4	Delphi VMT slot
+004a21d4	TMediaPlayer.dyn_ffb6	Delphi dynamic method table
+004a24e4	TMediaPlayer.dyn_0201	Delphi dynamic method table
+004a24f4	TMediaPlayer.dyn_0203	Delphi dynamic method table
+004a2504	TMediaPlayer.dyn_0200	Delphi dynamic method table
+004a2640	TMediaPlayer.dyn_0202	Delphi dynamic method table
+004a26c4	TMediaPlayer.dyn_0007	Delphi dynamic method table
+004a26d0	TMediaPlayer.dyn_0008	Delphi dynamic method table
+004a26dc	TMediaPlayer.dyn_0087	Delphi dynamic method table
+004a26e4	TMediaPlayer.dyn_ffc0	Delphi dynamic method table
+004a27c0	TMediaPlayer.dyn_03b9	Delphi dynamic method table
+004a2888	TMediaPlayer.dyn_ffb5	Delphi dynamic method table
+004a28a8	TMediaPlayer.dyn_ffb4	Delphi dynamic method table
+004a28c8	TMediaPlayer.dyn_ffb3	Delphi dynamic method table
+004a28e8	TMediaPlayer.dyn_fff7	Delphi dynamic method table
+004a36d4	TMediaPlayer.set_DeviceType	Delphi RTTI property accessor
+004a3720	TMediaPlayer.set_Display	Delphi RTTI property accessor
+004a37a8	TMediaPlayer.vmt_010	Delphi VMT slot
+004a3c74	unit_176_finalization	Delphi unit init table
+004a3ca4	unit_176_initialization	Delphi unit init table
+004a3f44	TfrmWinFinal.FormShow	Delphi published method table
+004a4214	TfrmWinFinal.medWinnerNotify	Delphi published method table
+004a42e8	TfrmWinFinal.vmt_0fc	Delphi VMT slot
+004a4444	TfrmWinFinal.timSample1Timer	Delphi published method table
+004a455c	TfrmWinFinal.timSample2Timer	Delphi published method table
+004a4594	TfrmWinFinal.FormCreate	Delphi published method table
+004a45b4	TfrmWinFinal.FormShowScreen	Delphi published method table
+004a4634	unit_177_finalization	Delphi unit init table
+004a4664	unit_177_initialization	Delphi unit init table
+004a4928	TfrmIntro.FormShow	Delphi published method table
+004a49f4	TfrmIntro.MenuIntroNotify	Delphi published method table
+004a4a6c	TfrmIntro.dyn_0400	Delphi dynamic method table
+004a4a78	TfrmIntro.FormKeyDown	Delphi published method table
+004a4ad8	TfrmIntro.FormMouseDown	Delphi published method table
+004a4b30	unit_178_finalization	Delphi unit init table
+004a4b60	unit_178_initialization	Delphi unit init table
+004a4d20	TfrmMain.FormCreate	Delphi published method table
+004a4e2c	TfrmMain.FormDestroy	Delphi published method table
+004a4f14	TfrmMain.FormShow	Delphi published method table
+004a4fe8	TfrmMain.FormActivate	Delphi published method table
+004a5f8c	unit_179_finalization	Delphi unit init table
+004a5fbc	unit_179_initialization	Delphi unit init table
+004a60a4	TSettings.vmt_004	Delphi VMT slot
+004a61a0	TSettings.Destroy	Delphi VMT standard slot
+004a628c	TSettings.vmt_00c	Delphi VMT slot
+004a63f4	TSettings.vmt_014	Delphi VMT slot
+004a6574	TSettings.vmt_010	Delphi VMT slot
+004a66f0	TSettings.vmt_000	Delphi VMT slot
+004a688c	TControls.vmt_00c	Delphi VMT slot
+004a6964	TControls.vmt_000	Delphi VMT slot
+004a6cf4	TControls.vmt_014	Delphi VMT slot
+004a6d70	TControls.vmt_010	Delphi VMT slot
+004a7188	unit_074_finalization	Delphi unit init table
+004a71b8	unit_074_initialization	Delphi unit init table
+004a732c	TCaptionForm.vmt_02c	Delphi VMT slot
+004a7378	TCaptionForm.vmt_0e0	Delphi VMT slot
+004a737c	TCaptionForm.vmt_00c	Delphi VMT slot
+004a7388	unit_190_finalization	Delphi unit init table
+004a73b8	unit_190_initialization	Delphi unit init table
+004a74e4	unit_192_finalization	Delphi unit init table
+004a7514	unit_192_initialization	Delphi unit init table
+004a7f9c	TfrmException2.btnCopyClick	Delphi published method table
+004a7fc4	TfrmException2.FormCloseQuery	Delphi published method table
+004a7fd0	TfrmException2.FormClose	Delphi published method table
+004a7fe4	TfrmException2.btnQuitClick	Delphi published method table
+004a7ff0	TfrmException2.btnOkClick	Delphi published method table
+004a8040	TfrmException2.btnDetailsClick	Delphi published method table
+004a8080	TfrmException2.FormCreate	Delphi published method table
+004a808c	TfrmException2.FormKeyPress	Delphi published method table
+004a80c4	TfrmException2.FormShow	Delphi published method table
+004a80f0	unit_193_finalization	Delphi unit init table
+004a8120	unit_193_initialization	Delphi unit init table
+004a8460	TDaviExceptionLogger.Destroy	Delphi VMT standard slot
+004a8ac0	unit_194_finalization	Delphi unit init table
+004a8afc	unit_194_initialization	Delphi unit init table
+004a8b20	unit_195_finalization	Delphi unit init table

@@ -1,0 +1,14 @@
+
+/* ==== FUN_0049cf50 @ 0049cf50 ==== 
+ * signature: undefined __thiscall FUN_0049cf50(void * this, undefined4 param_1)
+ * body: 0049cf50-0049cf59
+ */
+
+void __thiscall FUN_0049cf50(void *this,undefined4 param_1)
+
+{
+  *(undefined4 *)((int)this + 4) = param_1;
+  return;
+}
+
+

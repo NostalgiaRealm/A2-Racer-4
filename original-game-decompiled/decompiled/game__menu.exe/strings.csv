@@ -1,0 +1,2772 @@
+address,length,type,value,referenced_from_functions
+0040116c,8,string,System,
+0040117a,10,string,IUnknown,
+00401198,8,string,System,
+004011c5,7,string,System,
+00402e98,28,string,SOFTWARE\Borland\Delphi\RTL,00402e00
+00402eb4,13,string,FPUMaskValue,00402e00
+00403bfb,39,string,"Portions Copyright (c) 1983,99 Borland",
+0040547c,13,string,kernel32.dll,004052f8
+0040548c,17,string,GetLongPathNameA,004052f8
+0040565c,25,string,Software\Borland\Locales,004054a0
+00405678,32,string,Software\Borland\Delphi\Locales,004054a0
+004071e4,17,string,Magellan MSWHEEL,00407148
+004071f8,7,string,MouseZ,00407148
+00407200,16,string,MSWHEEL_ROLLMSG,00407148
+00407210,21,string,MSH_WHEELSUPPORT_MSG,00407148
+00407228,21,string,MSH_SCROLL_LINES_MSG,00407148
+00407bc5,19,string,EInvalidPointer |@,
+0040a3cc,6,string,AM/PM,00409c7c
+0040c648,7,string,m/d/yy,0040c35c
+0040c658,13,string,"mmmm d, yyyy",0040c35c
+0040c6a0,6,string, AMPM,0040c35c
+0040c6b0,6,string,AMPM ,0040c35c
+0040c6cc,7,string,:mm:ss,0040c35c
+0040c7f0,13,string,kernel32.dll,0040c7b8
+0040c800,20,string,GetDiskFreeSpaceExA,0040c7b8
+0040d778,8,string,ActiveX,
+0040d7ae,8,string,ActiveX,
+0040d7be,14,string,tagEXCEPINFO ,
+0040d812,8,string,ActiveX,
+0040d842,8,string,ActiveX,
+0040d87f,9,string,ActiveX,
+0040d8b5,8,string,ActiveX,
+0040d8e7,9,string,ActiveX,
+0040d91e,8,string,ActiveX,
+0040d958,8,string,ActiveX,
+0040d988,8,string,ActiveX,
+0040de30,6,string,False,004aa30c
+0040e4c2,13,string,TNotifyEvent,
+0040ebc0,8,string,Classes,
+0040ec74,8,string,Classes,
+0040ed3c,8,string,Classes,
+0040ed73,9,string,Classes,
+0040ee6d,8,string,Classes,
+0040ef94,8,string,Classes,
+0040f4f3,9,string,Classes,
+0040f7a1,8,string,Classes,
+00410cbc,7,string,%s[%d],00410c10
+004114e8,8,string,Strings,004114a4
+00412f28,6,string,Owner,00412e68
+004140b0,6,string,False,00413fe4
+00414a54,6,string,%s_%d,004149ec
+004169f0,9,string,Graphics,
+00416a27,9,string,Graphics,
+00416ae7,11,string,Charset4fA,
+00416b29,10,string,HeightLgA,
+00416e8a,15,string,TProgressEvent,
+00416ea3,8,string,TObject,
+00416eb2,15,string,TProgressStage,
+00416fc2,12,string,TGraphicHoA,
+00416fd5,9,string,Graphics,
+0041706a,12,string,"TPicture,pA",
+0041707d,9,string,Graphics,
+004170ed,16,string,TMetafileCanvas,
+0041711c,9,string,Graphics,
+004172a5,14,string,	TMetafile4rA,
+004172ba,10,string,Graphics,
+00417430,9,string,Graphics,
+00417562,10,string,Graphics,
+00417a04,8,string,clBlack,
+00417a14,12,string,clMaroon,
+00417a28,8,string,clGreen,
+00417a38,8,string,clOlive,
+00417a58,12,string,clPurple,
+00417a6c,8,string,clTeal,
+00417a7c,8,string,clGray,
+00417a8c,12,string,clSilver,
+00417aa0,8,string,clRed,
+00417ab0,8,string,clLime,
+00417ac0,12,string,clYellow,
+00417ad4,8,string,clBlue,
+00417ae4,12,string,clFuchsia,
+00417b08,8,string,clWhite,
+00417b18,12,string,clScrollBar,
+00417b2c,16,string,clBackground,
+00417b44,16,string,clActiveCaption,
+00417b5c,20,string,clInactiveCaption,
+00417b78,8,string,clMenu,
+00417b88,12,string,clWindow,
+00417b9c,16,string,clWindowFrame,
+00417bb4,12,string,clMenuText,
+00417bc8,16,string,clWindowText,
+00417be0,16,string,clCaptionText,
+00417bf8,16,string,clActiveBorder,
+00417c10,20,string,clInactiveBorder,
+00417c2c,16,string,clAppWorkSpace,
+00417c44,12,string,clHighlight,
+00417c58,16,string,clHighlightText,
+00417c70,12,string,clBtnFace,
+00417c84,12,string,clBtnShadow,
+00417c98,12,string,clGrayText,
+00417cac,12,string,clBtnText,
+00417cc0,24,string,clInactiveCaptionText,
+00417ce0,16,string,clBtnHighlight,
+00417cf8,16,string,cl3DDkShadow,
+00417d10,12,string,cl3DLight,
+00417d24,12,string,clInfoText,
+00417d38,12,string,clInfoBk,
+00417d4c,8,string,clNone,
+00417dc0,16,string,ANSI_CHARSET,
+00417dd8,16,string,DEFAULT_CHARSET,
+00417df0,16,string,SYMBOL_CHARSET,
+00417e08,12,string,MAC_CHARSET,
+00417e1c,20,string,SHIFTJIS_CHARSET,
+00417e38,16,string,HANGEUL_CHARSET,
+00417e50,16,string,JOHAB_CHARSET,
+00417e68,16,string,GB2312_CHARSET,
+00417e80,20,string,CHINESEBIG5_CHARSET,
+00417e9c,16,string,GREEK_CHARSET,
+00417eb4,16,string,TURKISH_CHARSET,
+00417ecc,16,string,HEBREW_CHARSET,
+00417ee4,16,string,ARABIC_CHARSET,
+00417efc,16,string,BALTIC_CHARSET,
+00417f14,16,string,RUSSIAN_CHARSET,
+00417f2c,16,string,THAI_CHARSET,
+00417f44,20,string,EASTEUROPE_CHARSET,
+00417f60,12,string,OEM_CHARSET,
+004183c8,8,string,Default,00418228
+0041cbea,10,string,Graphics,
+0042000d,21,string,TComponentListNexus$,
+00420280,13,string,comctl32.dll,00420248
+00420290,21,string,InitCommonControlsEx,00420248
+004204b0,16,string,GetMonitorInfoA,004203d8
+00420534,17,string,GetSystemMetrics,004204c0
+004205c8,16,string,MonitorFromRect,00420548
+0042065c,18,string,MonitorFromWindow,004205d8
+004206f4,17,string,MonitorFromPoint,00420670
+004207c8,16,string,GetMonitorInfoA,00420708
+004207d8,8,string,DISPLAY,00420708
+004208a0,16,string,GetMonitorInfoW,004207e0
+004208b0,8,string,DISPLAY,004207e0
+00420978,15,string,GetMonitorInfo,004208b8
+00420988,8,string,DISPLAY,004208b8
+00420aac,20,string,EnumDisplayMonitors,00420990
+00420b20,11,string,USER32.DLL,00420ac0
+00420f30,13,string,comctl32.dll,00420dcc
+00420f40,17,string,InitializeFlatSB,00420dcc
+00420f54,19,string,UninitializeFlatSB,00420dcc
+00420f68,21,string,FlatSB_GetScrollProp,00420dcc
+00420f80,21,string,FlatSB_SetScrollProp,00420dcc
+00420f98,23,string,FlatSB_EnableScrollBar,00420dcc
+00420fb0,21,string,FlatSB_ShowScrollBar,00420dcc
+00420fc8,22,string,FlatSB_GetScrollRange,00420dcc
+00420fe0,21,string,FlatSB_GetScrollInfo,00420dcc
+00420ff8,20,string,FlatSB_GetScrollPos,00420dcc
+0042100c,20,string,FlatSB_SetScrollPos,00420dcc
+00421020,21,string,FlatSB_SetScrollInfo,00420dcc
+00421038,22,string,FlatSB_SetScrollRange,00420dcc
+004211e0,9,string,StdCtrls,
+00421316,10,string,StdCtrls),
+004213a0,11,string,Caption4fA,
+004213e2,12,string,Constraints,
+00421493,9,string,DragMode,
+004214f7,15,string,ParentBiDiMode,
+00421520,12,string,ParentColor,
+00421546,12,string,ParentCtl3D,
+0042156b,12,string,"
+ParentFont",
+004215b9,11,string,	PopupMenu,
+00421601,9,string,TabOrder,
+00421624,8,string,TabStop,
+00421a45,9,string,StdCtrls,
+00421bb4,8,string,Anchors,
+00421c1c,11,string,Caption4fA,
+00421ccc,9,string,DragMode,
+00421d57,15,string,ParentBiDiMode,
+00421d80,12,string,ParentColor,
+00421da5,12,string,"
+ParentFont",
+00421df3,11,string,	PopupMenu,
+00421e17,15,string,"ShowAccelChar",
+00421e89,7,string,Layout,
+00421eaa,8,string,Visible,
+00422225,15,string,"TCustomEdit4""B",
+00422236,15,string,TCustomEdit$!B,
+004223db,8,string,Anchors,
+004223fc,12,string,"
+AutoSelect",
+00422445,12,string,BiDiModeH!D,
+0042248e,12,string,CharCase4fA,
+004224d1,12,string,Constraints,
+0042255f,9,string,DragMode,
+0042262e,11,string,	MaxLength,
+00422652,12,string,"
+OEMConvert",
+00422678,15,string,ParentBiDiMode,
+004226a1,12,string,ParentColor,
+004226c7,12,string,ParentCtl3D,
+004226ec,12,string,"
+ParentFont",
+00422761,11,string,	PopupMenu,
+00422786,9,string,ReadOnly,
+004227cc,9,string,TabOrder,
+00422c62,15,string,TCustomMemo\+B,
+00422c78,9,string,StdCtrls,
+00422e51,12,string,BiDiModeH!D,
+00422e74,15,string,BorderStyle4fA,
+00422eba,12,string,Constraints,
+00422f48,9,string,DragMode,
+00423037,11,string,	MaxLength,
+0042305b,12,string,"
+OEMConvert",
+00423081,15,string,ParentBiDiMode,
+004230aa,12,string,ParentColor,
+004230d0,12,string,ParentCtl3D,
+004230f5,12,string,"
+ParentFont",
+00423143,11,string,	PopupMenu,
+0042318a,12,string,"
+ScrollBars",
+004231d3,9,string,TabOrder,
+004231f6,8,string,TabStop,
+00423218,8,string,Visible,
+0042323a,12,string,WantReturns,
+00423260,9,string,WantTabs,
+0042358e,15,string,TDrawItemEvent,
+004235a8,12,string,TWinControl,
+004235c9,6,string,TRect,
+004235ee,18,string,TMeasureItemEvent,
+0042360b,12,string,TWinControl,
+00423805,11,string,TabStopX8B,
+00423931,14,string,	TComboBoxX8B,
+00423946,10,string,StdCtrls/,
+004239ad,12,string,BiDiMode4fA,
+004239f0,12,string,Constraints,
+00423aa0,15,string,"DropDownCount",
+00423b72,11,string,	MaxLength,
+00423b97,15,string,ParentBiDiMode,
+00423bc0,12,string,ParentColor,
+00423be6,12,string,ParentCtl3D,
+00423c0b,12,string,"
+ParentFont",
+00423c59,11,string,	PopupMenu,
+00423c7e,9,string,ShowHint,
+00423cc2,9,string,TabOrder,
+004241eb,9,string,StdCtrls,
+0042433e,11,string,TButtonDBB,
+004243b8,9,string,BiDiMode,
+0042441e,12,string,Constraints,
+004244ae,9,string,DragMode,
+00424512,12,string,ModalResult,
+00424538,15,string,ParentBiDiMode,
+00424560,12,string,"
+ParentFont",
+004245ae,11,string,	PopupMenu,
+004245f6,9,string,TabOrder,
+00424619,8,string,TabStop,
+00424bb3,7,string,Action,
+00424bd3,11,string,	Alignment,
+00424c63,8,string,Caption,
+00424c85,11,string,Checked4fA,
+00424cc7,12,string,Constraints,
+00424d55,9,string,DragMode,
+00424db9,15,string,ParentBiDiMode,
+00424de2,12,string,ParentColor,
+00424e08,12,string,ParentCtl3D,
+00424e2d,12,string,"
+ParentFont",
+00424e7b,11,string,	PopupMenu,
+00424ee3,9,string,TabOrder,
+00424f06,8,string,TabStop,
+004252c5,10,string,StdCtrls),
+004252ea,7,string,Action,
+00425374,8,string,Caption,
+00425396,11,string,Checked4fA,
+004253d8,12,string,Constraints,
+00425466,9,string,DragMode,
+004254ca,15,string,ParentBiDiMode,
+004254f3,12,string,ParentColor,
+00425519,12,string,ParentCtl3D,
+0042553e,12,string,"
+ParentFont",
+0042558c,11,string,	PopupMenu,
+004255d4,9,string,TabOrder,
+004255f7,8,string,TabStop,
+0042598d,9,string,StdCtrls,
+00425a89,9,string,StdCtrls,
+00427a80,9,string,COMBOBOX,00427a28
+00428ab8,7,string,BUTTON,00428a84
+00428e00,7,string,BUTTON,00428dac
+004290e4,7,string,BUTTON,00429094
+0042986c,15,string,Delphi Picture,00429838
+0042987c,17,string,Delphi Component,00429838
+00429cff,9,string,Controls,
+0042a002,12,string,TMouseEvent,
+0042a018,8,string,TObject,
+0042a028,13,string,TMouseButton,
+0042a03c,12,string,TShiftState,
+0042a04b,8,string,Integer,
+0042a066,16,string,TMouseMoveEvent,
+0042a080,8,string,TObject,
+0042a08f,12,string,TShiftState,
+0042a09e,8,string,Integer,
+0042a0b5,11,string,	TKeyEvent,
+0042a0f6,15,string,TKeyPressEvent,
+0042a126,15,string,TDragOverEvent,
+0042a14f,8,string,TObject,
+0042a15a,8,string,Integer,
+0042a165,8,string,Integer,
+0042a196,15,string,TDragDropEvent,
+0042a1bf,8,string,TObject,
+0042a1ca,8,string,Integer,
+0042a1e2,16,string,TStartDragEvent,
+0042a221,15,string,"TEndDragEvent",
+0042a24a,8,string,TObject,
+0042a255,8,string,Integer,
+0042a26e,15,string,TDockDropEvent,
+0042a297,16,string,TDragDockObject,
+0042a2aa,8,string,Integer,
+0042a2c2,15,string,TDockOverEvent,
+0042a2eb,16,string,TDragDockObject,
+0042a2fe,8,string,Integer,
+0042a309,8,string,Integer,
+0042a33a,13,string,TUnDockEvent,
+0042a396,16,string,TStartDockEvent,
+0042a3da,18,string,TGetSiteInfoEvent,
+0042a452,16,string,TCanResizeEvent,
+0042a4ae,24,string,TConstrainedResizeEvent,
+0042a52a,17,string,TMouseWheelEvent,
+0042a545,8,string,TObject,
+0042a554,12,string,TShiftState,
+0042a59e,23,string,TMouseWheelUpDownEvent,
+0042a5bf,8,string,TObject,
+0042a602,19,string,TContextPopupEvent,
+0042abb4,9,string,Controls,
+0042b0d0,9,string,Controls,
+0042b217,9,string,Controls,
+0042b374,9,string,Controls,
+0042b437,9,string,Controls,
+0042b4f3,10,string,"Controls
+",
+0042b517,15,string,"
+BlendColor4fA",
+0042b5c8,11,string,	ImageType,
+0042b60e,9,string,OnChange,
+0042b998,12,string,crDefault,
+0042b9ac,8,string,crArrow,
+0042b9bc,8,string,crCross,
+0042b9cc,8,string,crIBeam,
+0042b9dc,12,string,crSizeNESW,
+0042b9f0,12,string,crSizeNS,
+0042ba04,12,string,crSizeNWSE,
+0042ba18,12,string,crSizeWE,
+0042ba2c,12,string,crUpArrow,
+0042ba40,12,string,crHourGlass,
+0042ba54,8,string,crDrag,
+0042ba64,12,string,crNoDrop,
+0042ba78,12,string,crHSplit,
+0042ba8c,12,string,crVSplit,
+0042baa0,12,string,crMultiDrag,
+0042bab4,12,string,crSQLWait,
+0042bad8,12,string,crAppStart,
+0042baec,8,string,crHelp,
+0042bafc,12,string,crHandPoint,004aa7a4
+0042bb10,12,string,crSizeAll,
+0042bb24,8,string,crSize,
+0042d74c,8,string,%s (%s),0042d66c
+0042fa20,10,string,IsControl,0042f9dc
+00438dc0,7,string,USER32,00438c4c
+00438dc8,16,string,WINNLSEnableIME,00438c4c
+00438dd8,10,string,IMM32.DLL,00438c4c
+00438de4,14,string,ImmGetContext,00438c4c
+00438df4,18,string,ImmReleaseContext,00438c4c
+00438e08,23,string,ImmGetConversionStatus,00438c4c
+00438e20,23,string,ImmSetConversionStatus,00438c4c
+00438e38,17,string,ImmSetOpenStatus,00438c4c
+00438e4c,24,string,ImmSetCompositionWindow,00438c4c
+00438e64,23,string,ImmSetCompositionFontA,00438c4c
+00438e7c,25,string,ImmGetCompositionStringA,00438c4c
+00438e98,9,string,ImmIsIME,00438c4c
+00438ea4,13,string,ImmNotifyIME,00438c4c
+00439120,11,string,Delphi%.8X,00439034
+0043912c,19,string,ControlOfs%.8X%.8X,00439034
+004392e2,13,string,TActionEvent,
+004393e6,10,string,ActnList,
+004394da,10,string,ActnList,
+0043a1d5,8,string,ImgList,
+0043b4d4,7,string,Bitmap,0043b484
+0043ba32,17,string,TMenuChangeEvent,
+0043ba56,17,string,Source	TMenuItem,
+0043ba7e,19,string,TMenuDrawItemEvent,
+0043babb,6,string,TRect,
+0043bada,27,string,TAdvancedMenuDrawItemEvent,
+0043bb1f,6,string,TRect,
+0043bb42,22,string,TMenuMeasureItemEvent,
+0043be8c,8,string,Caption,
+0043becf,15,string,"SubMenuImages",
+0043bef8,8,string,Default,
+0043bfa5,12,string,"
+ImageIndex",
+0043bfef,9,string,ShortCut,
+0043c2a2,18,string,AutoLineReduction,
+0043c315,7,string,Images,
+0043c335,11,string,	OwnerDraw,
+0043c53b,7,string,"Menus",
+0043c5a7,18,string,AutoLineReduction,
+0043c660,15,string,"MenuAnimation",
+0043c688,11,string,	OwnerDraw,
+0043c804,37,string,1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ,0043fb34;004aa844
+0043d748,13,string,ShortCutText,0043d714
+00441d3b,15,string,"
+ButtonSize4fA",
+00441da5,7,string,Margin,
+00441e0f,6,string,Range,
+00441e8e,11,string,	ThumbSize,
+00441eb3,9,string,Tracking,
+004422ed,8,string,Anchors,
+0044230e,12,string,"
+AutoScroll",
+00442357,12,string,BiDiModeH!D,
+004423a0,12,string,Constraints,
+00442431,9,string,DragMode,
+00442454,11,string,Enabled4fA,
+00442476,6,string,Color,
+004424d5,15,string,ParentBiDiMode,
+004424fe,12,string,ParentColor,
+00442524,12,string,ParentCtl3D,
+00442549,12,string,"
+ParentFont",
+00442597,11,string,	PopupMenu,
+004425df,9,string,TabOrder,
+00442602,8,string,TabStop,
+00442c02,12,string,TCloseEvent,
+00442c28,16,string,"TCloseAction8,D",
+00442c3a,17,string,TCloseQueryEvent,
+00442c76,15,string,TShortCutEvent,
+0044315d,8,string,Anchors,
+0044317e,12,string,"
+AutoScroll",
+004432a5,15,string,ClientWidth4fA,
+004432eb,12,string,Constraints,
+00443331,18,string,UseDockManagerL+D,
+0044335a,15,string,DefaultMonitor,
+004433c9,9,string,DragMode,
+004433ec,8,string,Enabled,
+004434b9,18,string,"HorzScrollBarLuA",
+0044356e,15,string,ObjectMenuItem,
+0044362e,12,string,"
+PrintScale",
+00443654,7,string,Scaled,
+00443697,15,string,"VertScrollBar",
+00443b87,12,string,"OnResizep,D",
+00443d9a,19,string,TCustomDockForml<D,
+00443e86,15,string,TDataModule0>D,
+00444029,12,string,	THintInfo@,
+00444049,15,string,"TMessageEvent",
+0044407e,16,string,TExceptionEvent,
+004440b1,12,string,"
+TIdleEvent",
+004440e2,15,string,TShowHintEvent,
+004441ea,16,string,TApplicationtAD,
+0044462c,13,string,TPUtilWindow,0044463c;004aa974
+004466a4,14,string,PixelsPerInch,00446634
+004466bc,11,string,TextHeight,00446634
+004466d0,19,string,IgnoreFontProperty,00446634
+004480a8,10,string,MDICLIENT,00447f74
+0044ad20,7,string,Height,0044ac58
+0044ad30,17,string,HorizontalOffset,0044ac58
+0044ad4c,15,string,VerticalOffset,0044ac58
+0044ad64,6,string,Width,0044ac58
+0044b524,55,string,System\CurrentControlSet\Control\Keyboard Layouts\%.8x,0044b368
+0044b55c,12,string,layout text,0044b368
+0044beb8,13,string,TApplication,0044c140;004aaa60
+0044c054,9,string,MAINICON,0044bec8
+0044cc54,13,string,vcltest3.dll,0044c5dc
+0044cc64,19,string,RegisterAutomation,0044c5dc
+0044e6d8,8,string,Anchors,
+0044e6fa,9,string,AutoSize,
+0044e7ac,9,string,DragMode,
+0044e7cf,8,string,Enabled,
+0044e7f1,19,string,IncrementalDisplay,
+0044e81e,18,string,ParentShowHintdpA,
+0044e868,11,string,	PopupMenu,
+0044e88d,9,string,ShowHint,
+0044e8b0,8,string,Stretch,
+0044e8d2,12,string,Transparent,
+0044ecd6,12,string,Constraints,
+0044ed25,6,string,Shape,
+0044ed68,6,string,Style,
+0044f001,9,string,ExtCtrls,
+0044f198,8,string,Anchors,
+0044f26f,15,string,BorderWidthH!D,
+0044f2bb,11,string,Caption4fA,
+0044f2fd,12,string,Constraints,
+0044f343,15,string,UseDockManager,
+0044f3d7,9,string,DragMode,
+0044f3fa,8,string,Enabled,
+0044f461,7,string,Locked,
+0044f482,15,string,ParentBiDiMode,
+0044f4ab,12,string,ParentColor,
+0044f4d1,12,string,ParentCtl3D,
+0044f4f6,12,string,"
+ParentFont",
+0044f544,11,string,	PopupMenu,
+0044f58c,9,string,TabOrder,
+0044f5af,8,string,TabStop,
+00450ffd,8,string,Dialogs,
+004510c4,7,string,Cancel,004aaab8
+004510d4,6,string,Abort,004aaabc
+004510e4,6,string,Retry,004aaac0
+004510f4,7,string,Ignore,004aaac4
+00451110,8,string,NoToAll,004aaacc
+00451120,9,string,YesToAll,004aaad0
+00451694,6,string,Image,0045113c
+004516a4,8,string,Message,0045113c
+0045180c,13,string,commdlg_help,004517a8
+0045181c,20,string,commdlg_FindReplace,004517a8
+00451830,19,string,WndProcPtr%.8X%.8X,004517a8
+0045224c,16,string,STSRMGR_STRINGS,0045221c
+004522d0,25,string,SYSTOOLS_STRINGS_ENGLISH,004522a0
+004522f0,34,unicode,0123456789ABCDEF,00452374
+00452474,31,string,C:\DelphiLib5\DaviMessages.pas,004523fc
+0045249c,39,string,DaviMsgToWindows:  Unhandled case-part,004523fc
+0045253c,31,string,C:\DelphiLib5\DaviMessages.pas,004524c4
+00452564,42,string,DaviMsgBtnToWindows:  Unhandled case-part,004524c4
+00452668,25,string,WindowsToDaviMsgResult: ,00452598
+0045268c,41,string,Not enough memory to create message box.,00452598
+004526c0,31,string,C:\DelphiLib5\DaviMessages.pas,00452598
+004526e8,45,string,WindowsToDaviMsgResult:  Unhandled case-part,00452598
+004528a4,31,string,C:\DelphiLib5\DaviMessages.pas,00452718
+004528cc,48,string,DaviDefaultBtnToWindows: Invalid default button,00452718
+00452904,46,string,DaviDefaultBtnToWindows:  Unhandled case-part,00452718
+00452d00,8,string,Destroy,00452c20
+00452d10,50,string,: Use class procedure Finalize instead of Destroy,00452c20
+00452d4c,27,string,C:\DelphiLib5\Finalize.pas,00452c20
+00452e5c,36,string,Error during freeing all instances.,
+00452e88,12,string,.Finalize: ,
+004530a4,21,string,AddFinalizeProcedure,00452e94
+004530c4,138,string,": Finalization procedure (%p) should be registered.
+This address can be used to find the procedure.
+(Delphi 5 Search-menu Find error)
+",00452e94
+00453158,27,string,C:\DelphiLib5\Finalize.pas,00452e94
+0045317c,152,string,": Finalization procedure (%p) is already added to finalizationlist.
+This address can be used to find the procedure.
+(Delphi Search-menu Find error)
+",00452e94
+004533b0,6,string,array,004aab4c
+004533d8,6,string,begin,004aab58
+004533f8,6,string,class,004aab60
+00453408,6,string,const,004aab64
+00453418,12,string,constructor,004aab68
+0045342c,11,string,destructor,004aab6c
+00453440,14,string,dispinterface,004aab70
+00453470,7,string,downto,004aab7c
+0045349c,7,string,except,004aab88
+004534ac,8,string,exports,004aab8c
+004534cc,13,string,finalization,004aab94
+004534e4,8,string,finally,004aab98
+00453500,9,string,function,004aaba0
+00453530,15,string,implementation,004aabac
+00453554,10,string,inherited,004aabb4
+00453568,15,string,initialization,004aabb8
+00453580,7,string,inline,004aabbc
+00453590,10,string,interface,004aabc0
+004535b0,6,string,label,004aabc8
+004535c0,8,string,library,004aabcc
+004535f4,7,string,object,004aabdc
+00453628,7,string,packed,004aabec
+00453638,10,string,procedure,004aabf0
+0045364c,8,string,program,004aabf4
+0045365c,9,string,property,004aabf8
+00453670,6,string,raise,004aabfc
+00453680,7,string,record,004aac00
+00453690,7,string,repeat,004aac04
+004536a0,15,string,resourcestring,004aac08
+004536dc,7,string,string,004aac18
+004536fc,10,string,threadvar,004aac20
+00453748,6,string,until,004aac34
+00453774,6,string,while,004aac40
+00453a84,8,string,method,
+00453ab8,12,string,procedure,
+00453d04,8,string,Destroy,
+00454158,12,string,WavFileData,00454120
+004542dc,33,string,d:\entertainmentlib\DaviWave.pas,00454194
+00454308,26,string,Geen geldig wave bestand.,00454194
+00454980,33,string,d:\entertainmentlib\DIBUtils.pas,00454850
+004549ac,18,string,Assertion failure,00454850
+00456874,28,string,d:\entertainmentlib\DIB.pas,00456800
+00456898,103,string,"DIB does not yet have an image/canvas.
+Either assign an image to the DIB or call it's SetSize method.",00456800
+004573a0,26,string,Device Independent Bitmap,0045735c
+0045749a,18,string,TDaviAVILoaderdtE,
+004574b2,15,string,"DaviAVILoader",
+004578e0,6,string,.Open,00457590
+004578fc,25,string,AVIFileOpen Error on %s.,00457590
+00457920,38,string,d:\entertainmentlib\DaviAVILoader.pas,00457590
+00457950,30,string,AVIFileGetStream Error in %s.,00457590
+00457978,40,string,No decompressor found for AVI file: %s.,00457590
+00457b30,10,string,.GetFrame,004579f8
+00457b50,22,string,AVI Frame index error,004579f8
+00457b70,38,string,d:\entertainmentlib\DaviAVILoader.pas,004579f8
+004589fb,6,string,Targa,
+0045904c,16,string,.LoadFromStream,00458c14
+00459070,30,string,Targa can not be color mapped,00458c14
+00459098,30,string,d:\entertainmentlib\Targa.pas,00458c14
+004590c0,37,string,Only TrueColor Targa's are supported,00458c14
+004590f0,30,string,Not a 24 or 32 bit Targa file,00458c14
+00459118,35,string,Targa image doesn't fit in the DIB,00458c14
+0045939c,14,string,.SaveToStream,0045913c
+004593c0,43,string,Only 24 or 32 bit Targa files can be saved,0045913c
+004593f4,30,string,d:\entertainmentlib\Targa.pas,0045913c
+0045941c,43,string,Targa destination image is larger than DIB,0045913c
+004594b8,17,string,Truevision Targa,00459488
+00459572,15,string,"DaviDADLoader",
+0045979c,38,string,d:\entertainmentlib\DaviDADLoader.pas,004596b4
+004597cc,21,string, Unhandled case-part,004596b4
+00459da4,6,string,.Open,004599bc
+00459dc0,21,string," File ""%s"" not found",004599bc
+00459de0,38,string,d:\entertainmentlib\DaviDADLoader.pas,004599bc
+00459e10,11,string,FrameCount,004599bc
+00459e24,11,string,Properties,004599bc
+00459e38,16,string,FramesPerSecond,004599bc
+00459e50,11,string,FrameWidth,004599bc
+00459e64,12,string,FrameHeight,004599bc
+00459e78,8,string,HasLoop,004599bc
+00459e88,10,string,LoopCount,004599bc
+00459e9c,15,string,LoopStartIndex,004599bc
+00459eb4,13,string,LoopEndIndex,004599bc
+00459ecc,14,string,AnimationType,004599bc
+00459ee4,7,string,Frames,004599bc
+00459ef4,27,string,DAD File: Missing frame %d,004599bc
+0045a00c,10,string,.GetFrame,00459f2c
+0045a02c,22,string,DAD Frame index error,00459f2c
+0045a04c,38,string,d:\entertainmentlib\DaviDADLoader.pas,00459f2c
+0045a148,20,string,DaviAnimationLoader,
+0045a209,20,string,DaviAnimationLoader,
+0045a2d9,20,string,DaviAnimationLoader,
+0045a409,20,string,DaviAnimationLoader,
+0045aa84,23,string,.SelectAnimationLoader,0045a948
+0045aab0,21,string, Unhandled case-part,0045a948
+0045aad0,44,string,d:\entertainmentlib\DaviAnimationLoader.pas,0045a948
+0045ae75,8,string,OnTimer,
+0045b3fc,9,string,.OnTimer,0045b2d0
+0045b41c,20,string,No events in queue.,0045b2d0
+0045b438,34,string,d:\entertainmentlib\DaviTimer.pas,0045b2d0
+0045b5f4,13,string,.RemoveTimer,0045b504
+0045b618,53,string,Cannot remove timer because it is not a valid timer.,0045b504
+0045b658,34,string,d:\entertainmentlib\DaviTimer.pas,0045b504
+0045b7da,15,string,"DaviAnimation",
+0045bc7c,10,string,.GetFrame,0045bb90
+0045bc9c,27,string,Frame index out of bounds.,0045bb90
+0045bcc0,38,string,d:\entertainmentlib\DaviAnimation.pas,0045bb90
+0045beec,26,string,SafeDeleteAnimationLoader,0045be3c
+0045bf10,69,string,Could not delete because the application has already been finalized.,0045be3c
+0045bf60,70,string,Make sure everything has been freed before the application is closed.,0045be3c
+0045c078,15,string,.SetFrameIndex,0045bfa8
+0045c09c,27,string,Frame index out of bounds.,0045bfa8
+0045c0c0,38,string,d:\entertainmentlib\DaviAnimation.pas,0045bfa8
+0045c30c,14,string,.LoadFromFile,0045c1d8
+0045c330,21,string," File ""%s"" not found",0045c1d8
+0045c350,38,string,d:\entertainmentlib\DaviAnimation.pas,0045c1d8
+0045c428,11,string,SafeToFile,0045c378
+0045c43c,27,string,Unable to save to file %s.,0045c378
+0045c460,29,string,Function is not implemented.,0045c378
+0045c5fc,25,string,.LoadFromClipboardFormat,0045c50c
+0045c62c,29,string,Wrong clipboard data format.,0045c50c
+0045c654,38,string,d:\entertainmentlib\DaviAnimation.pas,0045c50c
+0045c958,17,string,Davilex DAD file,0045c8f8
+0045c980,17,string,Windows AVI file,0045c8f8
+0045cdcc,24,string,.PrepareGraphicFromType,0045cca0
+0045cdf8,21,string, Unhandled case-part,0045cca0
+0045ce18,42,string,d:\entertainmentlib\DaviLinkedGraphic.pas,0045cca0
+0045cff0,15,string,.SetFilename: ,0045ce74
+0045d008,21,string," File ""%s"" not found",0045ce74
+0045d028,42,string,d:\entertainmentlib\DaviLinkedGraphic.pas,0045ce74
+0045d124,42,string,d:\entertainmentlib\DaviLinkedGraphic.pas,0045d0d8
+0045d158,18,string,Assertion failure,0045d0d8
+0045d1a4,42,string,d:\entertainmentlib\DaviLinkedGraphic.pas,0045d16c
+0045d1d8,18,string,Assertion failure,0045d16c
+0045d2ac,42,string,d:\entertainmentlib\DaviLinkedGraphic.pas,0045d1ec
+0045d2e0,18,string,Assertion failure,0045d1ec
+0045d32c,42,string,d:\entertainmentlib\DaviLinkedGraphic.pas,0045d2f4
+0045d360,18,string,Assertion failure,0045d2f4
+0045d498,12,string,GraphicName,0045d3c8
+0045d526,8,string,TObject,
+0045d556,19,string,TButtonStateChange,
+0045d585,15,string,TButtonControl,
+0045d59f,18,string,TDaviGraphicState,
+0045d7ee,9,string,HintFont,
+0045d811,15,string,Transparent$sA,
+0045d837,19,string,TransparentMode4fA,
+0045d861,17,string,TransparentColor,
+0045dce8,46,string,d:\entertainmentlib\DaviGraphicDefinition.pas,0045dbdc
+0045dd20,18,string,Assertion failure,0045dbdc
+0045e4e0,32,string,.Assign: Incompatible classtype,0045e444
+0045e508,28,string,D:\aCop\source\BaseData.pas,0045e444
+0045e6f4,30,string,Index [%d] out of range. (%s),0045e640
+0045e71c,28,string,D:\aCop\source\BaseData.pas,0045e640
+0045e828,28,string,D:\aCop\source\BaseData.pas,0045e7e4
+0045e84c,18,string,Assertion failure,0045e7e4
+0045ea24,25,string,Index [%d] out of range.,0045e990
+0045ea48,28,string,D:\aCop\source\BaseData.pas,0045e990
+0045ecac,25,string,Index [%d] out of range.,0045ec18
+0045ecd0,28,string,D:\aCop\source\BaseData.pas,0045ec18
+0045ee5c,11,string,---Class: ,0045edc0
+0045ef00,10,string, %s = %s ,0045ee68
+0045ef98,10,string, %s = %d ,0045ef0c
+0045f02c,12,string,subobject: ,0045efa4
+0045f0fc,6,string,FALSE,0045f038
+0045f10c,10,string, %s = %s ,0045f038
+0045f1d0,7,string,-Item ,0045f118
+0045f374,7,string,TRUE  ,0045f2a8
+0045f384,8,string,FALSE  ,0045f2a8
+0045f4bc,27,string,D:\aCop\source\CoolBug.pas,0045f46c
+0045f4e0,24,string,Debugfilename not init.,0045f46c
+0045f634,41,string,----------------- new run --------------,0045f4f8
+0045f7cc,27,string,D:\aCop\source\CoolBug.pas,0045f668
+0045f7f0,41,string, Self = nil: WriteString (aStr : string),0045f668
+0045f824,14,string,%8d %s %2d %s,0045f668
+0045fb34,27,string,D:\aCop\source\CoolBug.pas,0045fa3c
+0045fb58,27,string, Self = nil: TDebug.InProc,0045fa3c
+0045fc30,27,string,D:\aCop\source\CoolBug.pas,0045fb90
+0045fc54,27,string, Self = nil: TDebug.InProc,0045fb90
+0045fcb4,27,string,D:\aCop\source\CoolBug.pas,0045fc70
+0045fcd8,22,string, Self = nil: ExitProc,0045fc70
+0045fd5c,27,string,D:\aCop\source\CoolBug.pas,0045fcf0
+0045fd80,23,string, Self = nil: ClearFile,0045fcf0
+0045ff50,24,string,Current date/time : ,
+004602d4,37,string,"""%s"", Section [%s] does not exist!!!",00460124
+00460304,34,string,"""%s"", Section [%s] does not exist",00460124
+00460330,21,string,"""%s"", does not exist",00460124
+00460350,43,string,"""%s"", [%s], Identifier ""%s"" does not exist",00460124
+004608ec,16,string,LoadFromIniFile,004606d0
+00460928,12,string,IndexInGame,004606d0
+00460948,12,string,winracetext,004606d0
+0046095c,11,string,LockedText,004606d0
+00460970,6,string,Story,004606d0
+00460980,6,string,Speed,004606d0
+00460990,7,string,Brakes,004606d0
+004609a0,7,string,Accell,004606d0
+004609b0,9,string,Handling,004606d0
+00460a22,8,string,DirectX,
+00460ab4,28,string,DDERR_ALREADYINITIALIZED,
+00460ad8,28,string,DDERR_CANNOTATTACHSURFACE,
+00460afc,28,string,DDERR_CANNOTDETACHSURFACE,
+00460b20,24,string,DDERR_CURRENTLYNOTAVAIL,
+00460b40,16,string,DDERR_EXCEPTION,
+00460b58,16,string,DDERR_GENERIC,
+00460b70,20,string,DDERR_HEIGHTALIGN,
+00460b8c,28,string,DDERR_INCOMPATIBLEPRIMARY,
+00460bb0,20,string,DDERR_INVALIDCAPS,
+00460bcc,24,string,DDERR_INVALIDCLIPLIST,
+00460bec,20,string,DDERR_INVALIDMODE,
+00460c08,20,string,DDERR_INVALIDOBJECT,
+00460c24,20,string,DDERR_INVALIDPARAMS,
+00460c40,28,string,DDERR_INVALIDPIXELFORMAT,
+00460c64,20,string,DDERR_INVALIDRECT,
+00460c80,24,string,DDERR_LOCKEDSURFACES,
+00460cb4,16,string,DDERR_NOALPHAHW,
+00460ccc,20,string,DDERR_NOCLIPLIST,
+00460ce8,20,string,DDERR_NOCOLORCONVHW,
+00460d04,28,string,DDERR_NOCOOPERATIVELEVELSET,
+00460d28,20,string,DDERR_NOCOLORKEY,
+00460d44,20,string,DDERR_NOCOLORKEYHW,
+00460d60,28,string,DDERR_NODIRECTDRAWSUPPORT,
+00460d84,24,string,DDERR_NOEXCLUSIVEMODE,
+00460da4,16,string,DDERR_NOFLIPHW,
+00460dbc,12,string,DDERR_NOGDI,
+00460dd0,20,string,DDERR_NOMIRRORHW,
+00460dec,16,string,DDERR_NOTFOUND,
+00460e04,20,string,DDERR_NOOVERLAYHW,
+00460e20,24,string,DDERR_OVERLAPPINGRECTS,
+00460e40,20,string,DDERR_NORASTEROPHW,
+00460e5c,20,string,DDERR_NOROTATIONHW,
+00460e78,20,string,DDERR_NOSTRETCHHW,
+00460e94,20,string,DDERR_NOT4BITCOLOR,
+00460eb0,24,string,DDERR_NOT4BITCOLORINDEX,
+00460ed0,20,string,DDERR_NOT8BITCOLOR,
+00460eec,20,string,DDERR_NOTEXTUREHW,
+00460f08,16,string,DDERR_NOVSYNCHW,
+00460f20,20,string,DDERR_NOZBUFFERHW,
+00460f3c,20,string,DDERR_NOZOVERLAYHW,
+00460f58,16,string,DDERR_OUTOFCAPS,
+00460f70,20,string,DDERR_OUTOFMEMORY,
+00460f8c,24,string,DDERR_OUTOFVIDEOMEMORY,
+00460fac,24,string,DDERR_OVERLAYCANTCLIP,
+00460fcc,36,string,DDERR_OVERLAYCOLORKEYONLYONEACTIVE,
+00460ff8,20,string,DDERR_PALETTEBUSY,
+00461014,24,string,DDERR_COLORKEYNOTSET,
+00461034,32,string,DDERR_SURFACEALREADYATTACHED,
+0046105c,32,string,DDERR_SURFACEALREADYDEPENDENT,
+00461084,20,string,DDERR_SURFACEBUSY,
+004610a0,24,string,DDERR_CANTLOCKSURFACE,
+004610c0,24,string,DDERR_SURFACEISOBSCURED,
+004610e0,20,string,DDERR_SURFACELOST,
+004610fc,28,string,DDERR_SURFACENOTATTACHED,
+00461120,20,string,DDERR_TOOBIGHEIGHT,
+0046113c,20,string,DDERR_TOOBIGSIZE,
+00461158,20,string,DDERR_TOOBIGWIDTH,
+00461174,20,string,DDERR_UNSUPPORTED,
+00461190,24,string,DDERR_UNSUPPORTEDFORMAT,
+004611b0,24,string,DDERR_UNSUPPORTEDMASK,
+004611d0,20,string,DDERR_INVALIDSTREAM,
+004611ec,32,string,DDERR_VERTICALBLANKINPROGRESS,
+00461214,24,string,DDERR_WASSTILLDRAWING,
+00461234,16,string,DDERR_XALIGN,
+0046124c,28,string,DDERR_INVALIDDIRECTDRAWGUID,
+00461270,32,string,DDERR_DIRECTDRAWALREADYCREATED,
+00461298,24,string,DDERR_NODIRECTDRAWHW,
+004612b8,36,string,DDERR_PRIMARYSURFACEALREADYEXISTS,
+004612e4,20,string,DDERR_NOEMULATION,
+00461300,24,string,DDERR_REGIONTOOSMALL,
+00461320,28,string,DDERR_CLIPPERISUSINGHWND,
+00461344,24,string,DDERR_NOCLIPPERATTACHED,
+00461364,16,string,DDERR_NOHWND,
+0046137c,24,string,DDERR_HWNDSUBCLASSED,
+0046139c,24,string,DDERR_HWNDALREADYSET,
+004613bc,24,string,DDERR_NOPALETTEATTACHED,
+004613dc,20,string,DDERR_NOPALETTEHW,
+004613f8,24,string,DDERR_BLTFASTCANTCLIP,
+00461418,16,string,DDERR_NOBLTHW,
+00461430,20,string,DDERR_NODDROPSHW,
+0046144c,24,string,DDERR_OVERLAYNOTVISIBLE,
+0046146c,20,string,DDERR_NOOVERLAYDEST,
+00461488,24,string,DDERR_INVALIDPOSITION,
+004614a8,28,string,DDERR_NOTAOVERLAYSURFACE,
+004614cc,32,string,DDERR_EXCLUSIVEMODEALREADYSET,
+004614f4,20,string,DDERR_NOTFLIPPABLE,
+00461510,20,string,DDERR_CANTDUPLICATE,
+0046152c,16,string,DDERR_NOTLOCKED,
+00461544,20,string,DDERR_CANTCREATEDC,
+00461560,12,string,DDERR_NODC,
+00461574,16,string,DDERR_WRONGMODE,
+0046158c,24,string,DDERR_IMPLICITLYCREATED,
+004615ac,20,string,DDERR_NOTPALETTIZED,
+004615c8,24,string,DDERR_UNSUPPORTEDMODE,
+004615e8,20,string,DDERR_NOMIPMAPHW,
+00461604,28,string,DDERR_INVALIDSURFACETYPE,
+00461628,20,string,DDERR_NOOPTIMIZEHW,
+00461644,16,string,DDERR_NOTLOADED,
+0046165c,20,string,DDERR_NOFOCUSWINDOW,
+00461678,24,string,DDERR_DCALREADYCREATED,
+00461698,24,string,DDERR_NONONLOCALVIDMEM,
+004616b8,20,string,DDERR_CANTPAGELOCK,
+004616d4,24,string,DDERR_CANTPAGEUNLOCK,
+004616f4,20,string,DDERR_NOTPAGELOCKED,
+00461710,16,string,DDERR_MOREDATA,
+00461728,16,string,DDERR_EXPIRED,
+00461740,24,string,DDERR_VIDEONOTACTIVE,
+00461760,32,string,DDERR_DEVICEDOESNTOWNSURFACE,
+00461788,24,string,DDERR_NOTINITIALIZED,
+00461a44,8,string,etappe,
+00461c58,6,string,FName,00461be8
+00461c68,20,string,ChaseTime [DE_EASY],00461be8
+00461f78,16,string,LoadFromIniFile,00461c8c
+00461f94,6,string,track,00461c8c
+00461fc0,6,string,story,00461c8c
+00461fe0,7,string,nrlaps,00461c8c
+00461ff0,8,string,british,00461c8c
+00462000,8,string,wintext,00461c8c
+00462010,12,string,QualifyText,00461c8c
+00462024,9,string,losetext,00461c8c
+00462038,12,string,indexingame,00461c8c
+0046204c,16,string,qualifyposition,00461c8c
+00462064,10,string,chasetime,00461c8c
+0046214c,7,string,FPrice,00462130
+00462334,8,string,TUNEUPS,00462154
+00462344,6,string,specs,00462154
+004624cc,28,string,D:\aCop\source\DataRace.pas,00462444
+004624f0,19,string,aTrackList  =  nil,00462444
+00462580,12,string,FCharIxList,00462550
+00462594,13,string,FTrackIxList,00462550
+004625ec,28,string,D:\aCop\source\DataRace.pas,004625a4
+00462610,14,string,illegal index,004625a4
+0046275c,16,string,.GetRaceIndex,
+00462778,52,string,GetRaceIndex : Track not found in Race. AbsIndex = ,
+004627b4,28,string,D:\aCop\source\DataRace.pas,
+00462818,28,string,D:\aCop\source\DataRace.pas,004627d0
+0046283c,14,string,illegal index,004627d0
+00462a78,12,string,LoadFromIni,0046284c
+00462a90,12,string,defaultchar,0046284c
+00462aa4,8,string,trackix,0046284c
+00462ab4,7,string,charix,0046284c
+00462ba8,9,string,TOURRACE,00462b88
+00462f08,10,string,GetBitmap,00462d80
+00462f20,15,string, aBitmap = nil,00462d80
+00462f38,35,string,D:\aCop\source\DataResourceMgr.pas,00462d80
+004630f0,7,string,GetWav,00462f5c
+00463104,13,string, aWave = nil,00462f5c
+0046311c,35,string,D:\aCop\source\DataResourceMgr.pas,00462f5c
+00463284,8,string,Create,
+0046337c,8,string,Destroy,004632b0
+00463564,9,string,GetTarga,004633dc
+0046357c,14,string, aTarga = nil,004633dc
+00463594,35,string,D:\aCop\source\DataResourceMgr.pas,004633dc
+00463680,32,string,failed: CreateHandleStream : ,
+00463875,12,string,"
+GDIGraphic",
+004639a3,13,string,"
+GDIGraphic",
+004639ee,18,string,"LinkedGraphic4fA",
+00463a17,17,string,TransparentColor,
+00463a42,15,string,Transparent$sA,
+00463a68,16,string,TransparentMode,
+00463ab8,19,string,TranslucencyFactor,
+00463ae5,8,string,Enabled,
+0046419e,28,string,TCustomApplicationEventsLAF,
+004641c1,9,string,AppEvnts,
+0046427f,10,string,"AppEvnts",
+0046431c,16,string,OnDeactivatex@D,
+00464438,15,string,"
+OnShowHintp,D",
+00464511,9,string,AppEvnts,
+00465137,18,string,WinControlWrapper,
+00465304,8,string,Wrapper,0046528c
+00465da2,9,string,TGDIHint,
+00465db4,16,string,"GDIHintWindow",
+00465f16,15,string,"GDIHintWindow",
+004660f0,13,string,.GetFormData,00465ffc
+00466114,40,string,Could not acquire the form for the Hint,00465ffc
+00466144,38,string,d:\entertainmentlib\GDIHintWindow.pas,00465ffc
+004663a4,8,string,.Create,00466284
+004663c0,70,string,"Object has wrong owner, it must be created by a TGDIHintWindow class.",00466284
+00466410,38,string,d:\entertainmentlib\GDIHintWindow.pas,00466284
+004667d0,38,string,d:\entertainmentlib\GDIHintWindow.pas,0046678c
+00466800,18,string,Assertion failure,0046678c
+00466b44,38,string,d:\entertainmentlib\GDIHintWindow.pas,00466a44
+00466b74,18,string,Assertion failure,00466a44
+00466d36,19,string,TButtonStateChange,
+00466d65,17,string,TCustomGDIButton,
+00466d81,16,string,TGDIButtonState,
+00466e7e,11,string,	GDIButton,
+0046709f,10,string,HeightXlF,
+004670c0,12,string,CaptionRect,
+0046716d,9,string,HintFont,
+00467190,15,string,Transparent$sA,
+004671b6,19,string,TransparentMode4fA,
+004671e0,17,string,TransparentColor,
+00467231,22,string,TranslucencyFactor0mF,
+00467404,12,string,	GDIButton,
+00467539,15,string,"
+TGDIButton\tF",
+00467575,7,string,Cancel,
+004675b8,15,string,ModalResult0oF,
+0046762d,9,string,TabOrder,
+00467672,8,string,Caption,
+00467694,8,string,Visible,
+00467cd0,34,string,d:\entertainmentlib\GDIButton.pas,00467bc0
+00467cfc,18,string,Assertion failure,00467bc0
+00468ff3,17,string,DaviGraphicHint,
+0046909c,40,string,d:\entertainmentlib\DaviGraphicHint.pas,00469004
+004690cc,18,string,Assertion failure,00469004
+004691f0,40,string,d:\entertainmentlib\DaviGraphicHint.pas,004690e0
+00469220,18,string,Assertion failure,004690e0
+004694f9,6,string,Align,
+0046953a,8,string,Caption,
+0046957d,15,string,"
+Definition4fA",
+004695a3,18,string,DisabledFontColor,
+004695f1,12,string,ModalResult,
+00469617,15,string,ParentShowHint,
+00469663,9,string,TabOrder,
+00469686,8,string,TabStop,
+004696a8,8,string,Visible,
+00469fe6,18,string,DaviGraphicSlider,
+0046a15b,19,string,DaviGraphicSlider*,
+0046a30b,7,string,Cursor,
+0046a439,11,string,	PopupMenu,
+0046a481,9,string,TabOrder,
+0046a7a4,42,string,d:\entertainmentlib\DaviGraphicSlider.pas,0046a724
+0046a7d8,18,string,Assertion failure,0046a724
+0046b27e,10,string,DaviForm,
+0046b458,12,string,"
+RegionLink",
+0046b47e,15,string,Transparent4fA,
+0046b4a4,17,string,TransparentColor,
+0046b7ec,32,string,d:\entertainmentlib\GDIForm.pas,0046b674
+0046b814,18,string,Assertion failure,0046b674
+0046bb24,31,string,D:\aCop\source\DirectSound.pas,0046ba74
+0046bbd0,26,string,CreateSoundBuffer failed.,0046bb44
+0046bce0,28,string,DirectSoundCreate failed.,
+0046bd04,28,string,SetCooperativeLevel failed.,
+0046bedc,23,string,Buffer locking failed.,0046bdc4
+0046c0c0,10,string,Apartment,004ab090
+0046c4a8,10,string,ole32.dll,0046c434
+0046c4b4,19,string,CoCreateInstanceEx,0046c434
+0046c4c8,15,string,CoInitializeEx,0046c434
+0046c4d8,22,string,CoAddRefServerProcess,0046c434
+0046c4f0,23,string,CoReleaseServerProcess,0046c434
+0046c508,21,string,CoResumeClassObjects,0046c434
+0046c520,22,string,CoSuspendClassObjects,0046c434
+0046e598,13,string,olepro32.dll,0046e514
+0046e5a8,23,string,OleCreatePropertyFrame,0046e514
+0046e5c0,22,string,OleCreateFontIndirect,0046e514
+0046e5d8,25,string,OleCreatePictureIndirect,0046e514
+0046e5f4,15,string,OleLoadPicture,0046e514
+0046ef64,9,string,OleCtrls,
+0046fb40,12,string,ControlData,0046fb04
+00471ab5,17,string,AgentObjects_TLB,
+00471aef,17,string,AgentObjects_TLB,
+00471b0a,20,string,TAgentActivateInput,
+00471b4e,22,string,TAgentDeactivateInput,
+00471b96,12,string,TAgentClick,
+00471bb5,23,string,"CharacterID
+WideString",
+00471bd4,9,string,Smallint,
+00471be4,9,string,Smallint,
+00471bf0,9,string,Smallint,
+00471c0a,15,string,TAgentDblClick,
+00471c2c,23,string,"CharacterID
+WideString",
+00471c4b,9,string,Smallint,
+00471c5b,9,string,Smallint,
+00471c67,9,string,Smallint,
+00471c82,16,string,TAgentDragStart,
+00471ca5,23,string,"CharacterID
+WideString",
+00471cc4,9,string,Smallint,
+00471cd4,9,string,Smallint,
+00471ce0,9,string,Smallint,
+00471cfa,19,string,TAgentDragComplete,
+00471d20,23,string,"CharacterID
+WideString",
+00471d3f,9,string,Smallint,
+00471d4f,9,string,Smallint,
+00471d5b,9,string,Smallint,
+00471d75,12,string,"
+TAgentShow",
+00471d94,23,string,"CharacterID
+WideString",
+00471dc1,12,string,"
+TAgentHide",
+00471de0,23,string,"CharacterID
+WideString",
+00471e0e,19,string,TAgentRequestStart,
+00471e4e,22,string,TAgentRequestComplete,
+00471e8e,15,string,TAgentBookmark,
+00471ea7,8,string,TObject,
+00471ec9,15,string,"TAgentCommand",
+00471f06,16,string,TAgentIdleStart,
+00471f46,19,string,TAgentIdleComplete,
+00471f89,12,string,"
+TAgentMove",
+00471fa8,23,string,"CharacterID
+WideString",
+00471fc2,9,string,Smallint,
+00471fce,9,string,Smallint,
+00471fed,12,string,"
+TAgentSize",
+0047200c,23,string,"CharacterID
+WideString",
+0047202a,9,string,Smallint,
+0047204a,18,string,TAgentBalloonShow,
+0047208e,18,string,TAgentBalloonHide,
+004720d2,19,string,TAgentHelpComplete,
+00472110,16,string,"Name
+WideString",
+00472136,18,string,TAgentListenStart,
+0047217a,21,string,TAgentListenComplete,
+004721a2,23,string,"CharacterID
+WideString",
+004721ce,29,string,TAgentDefaultCharacterChange,
+00472216,25,string,TAgentActiveClientChange,
+00472242,23,string,"CharacterID
+WideString",
+0047261d,11,string,	OnCommand,
+004726b2,10,string,OnSizeD G,
+00472723,18,string,OnHelpComplete0!G,
+0047274b,18,string,"OnListenStartt!G",
+00472a2d,15,string,TDaviColors<*G,
+00472a9c,14,string,	BtnShadow4fA,
+00472ac1,16,string,BtnHighlight4fA,
+00472b35,20,string,BtnDisabledLight4fA,
+00472c64,35,string,.Create: aControl must be assigned,00472b74
+00472c90,29,string,C:\DelphiLib5\DaviColors.pas,00472b74
+00472efc,31,string,.Assign: aSource not assigned.,00472d7c
+00472f24,29,string,C:\DelphiLib5\DaviColors.pas,00472d7c
+00472f4c,36,string,.Assign: aSource not a TDaviColors.,00472d7c
+0047362e,6,string,Align,
+00473672,12,string,"
+GroupIndex",
+004736b8,12,string,"
+DaviColors",
+004736de,8,string,Default,
+0047371f,8,string,Caption,
+00473741,8,string,Enabled,
+00473801,10,string,MarginP2G,
+00473821,11,string,	NumGlyphs,
+00473845,12,string,"
+ParentFont",
+0047386b,15,string,ParentShowHint,
+00473894,12,string,ShowCaption,
+004738dd,8,string,Spacing,
+004738ff,20,string,TransparentWhenFlat,
+00473bcc,6,string,Align,
+00473c0d,8,string,Caption,
+00473c2f,8,string,Default,
+00473cf4,15,string,ModalResultP2G,
+00473d19,11,string,	NumGlyphs,
+00473d3e,15,string,ParentShowHint,
+00473dcc,9,string,TabOrder,
+00473def,8,string,TabStop,
+00473e5c,6,string,DB_OK,004ab18c
+00473e64,13,string,DB_ANNULEREN,004ab190
+00473e74,8,string,DB_HELP,004ab194
+00473e7c,17,string,DB_ALLESMARKEREN,004ab198
+00473e90,17,string,DB_NIETSMARKEREN,004ab19c
+00473ea4,15,string,DB_LIJSTACTIES,004ab1a0
+00473eb4,22,string,DB_LIJSTEIGENSCHAPPEN,004ab1a4
+00473ecc,16,string,DB_LIJSTSLUITEN,004ab1a8
+00473edc,13,string,DB_LIJSTHELP,004ab1ac
+00473eec,18,string,DB_LIJSTTOEVOEGEN,004ab1b0
+00473f00,17,string,DB_LIJSTWIJZIGEN,004ab1b4
+00473f14,20,string,DB_LIJSTVERWIJDEREN,004ab1b8
+00473f28,9,string,DB_LINKS,004ab1bc
+00473f34,10,string,DB_RECHTS,004ab1c0
+00473f40,10,string,DB_VORIGE,004ab1c4
+00473f4c,12,string,DB_VOLGENDE,004ab1c8
+00473f58,10,string,DB_OPENEN,004ab1cc
+00473f64,11,string,DB_OPSLAAN,004ab1d0
+00473f70,23,string,DB_PRINTERINSTELLINGEN,004ab1d4
+00473f88,16,string,DB_REKENMACHINE,004ab1d8
+00473f98,12,string,DB_KALENDER,004ab1dc
+00473fa4,13,string,DB_DIRECTORY,004ab1e0
+00473fb4,8,string,DB_FONT,004ab1e4
+00473fbc,9,string,DB_KLEUR,004ab1e8
+00473fc8,13,string,DB_STANDAARD,004ab1ec
+00473fd8,10,string,DB_ZOEKEN,004ab1f0
+00473fe4,13,string,DB_AFDRUKKEN,004ab1f4
+00473ff4,11,string,DB_SLUITEN,004ab1f8
+00474000,19,string,DB_LIST_LARGEICONS,004ab1fc
+00474014,19,string,DB_LIST_SMALLICONS,004ab200
+00474028,13,string,DB_LIST_LIST,004ab204
+00474038,16,string,DB_LIST_DETAILS,004ab208
+00474048,17,string,DB_ZOEKEN_EERSTE,004ab20c
+0047405c,19,string,DB_ZOEKEN_VOLGENDE,004ab210
+00474070,17,string,DB_ZOEKEN_VORIGE,004ab214
+00474084,11,string,DB_KNIPPEN,004ab218
+00474090,12,string,DB_KOPIEREN,004ab21c
+0047409c,11,string,DB_PLAKKEN,004ab220
+004740a8,23,string,DB_LIJSTTOEVOEGEN_MENU,004ab224
+004740c0,14,string,DB_STATUS_NEG,004ab228
+004740d0,16,string,DB_STATUS_NEUTR,004ab22c
+004740e0,14,string,DB_STATUS_POS,004ab230
+004740f0,13,string,DB_VERVANGEN,004ab234
+00474100,19,string,DB_ALLES_VERVANGEN,004ab238
+0047424f,13,string,DaviButtons,
+00476afa,24,string,TDaviCustomLinkLabel8jG,
+00476b18,16,string,"DaviLinkLabel",
+00476c22,18,string,TDaviLinkLabeltkG,
+00476c3a,16,string,"DaviLinkLabel'",
+00476ca9,8,string,Anchors,
+00476d11,11,string,Caption4fA,
+00476dc1,9,string,DragMode,
+00476e4b,11,string,	HoverFont,
+00476e70,15,string,ParentBiDiMode,
+00476e99,12,string,ParentColor,
+00476ebe,12,string,"
+ParentFont",
+00476f0c,11,string,	PopupMenu,
+00476f30,15,string,"ShowAccelChar",
+00476f59,9,string,ShowHint,
+00476fa2,7,string,Layout,
+00476fc3,8,string,Visible,
+004778c1,18,string,BalloonCaptionPvG,
+004778ea,16,string,BalloonPosition,
+00477959,12,string,"
+FrameColor",
+00477aa0,14,string,MS Sans Serif,004779ac
+00477c44,41,string,Het maximaal aantal links: %d is bereikt,00477ab0
+00477c78,31,string,D:\aCop\source\FormBalloon.pas,00477ab0
+0047dd10,16,string,aCharacterName,
+0047dd28,32,string, Parameter '%s' cannot be empty,
+0047dd50,32,string,D:\aCop\source\DaviAgent.pas,
+0047dd78,20,string,aCharacterFileName,
+0047ebdc,8,string,Arial,
+0047ed8e,14,string,	MenuFont1T,
+0047edb0,13,string,gdfRadioBtn\,
+0047edd3,13,string,gdfBtnClosed,
+0047edf6,18,string,gdfBtnPreviousl,
+0047ee0a,14,string,	defSliderp,
+0047ee2d,19,string,gdfBtnCancelDlgx,
+0047ee43,13,string,gdfCheckBox|,
+0047ef47,24,string,CombinedBtnStateChange#,
+0047efae,10,string,MenuData,
+0047f39c,12,string,DataCreate,
+0047f3b4,8,string,Arial,
+0047f3c4,12,string,menu.ini,
+0047f3d8,12,string,game.ini,
+0047f3ec,12,string,raser.ini,
+0047f400,8,string,MenuRcs,
+0047f420,12,string,hunny.acs,
+0047f434,28,string,Failed to create MS-Agent.,
+0047f458,12,string,static.ini,
+0047f46c,8,string,Static:,
+0047f47c,20,string,MenuIni at startup:,
+0047f498,20,string,GameIni at startup:,
+0047f688,12,string,DataDestroy,
+0047f6a0,20,string,TData.DataDestroy,
+0047f6bc,12,string,menu.ini,
+0047f6d0,24,string,MenuIni after saving:,
+0047f7a8,12,string,debug.ini,
+0047f7bc,8,string,debug,
+0047f7cc,8,string,GENERAL,
+0047fa20,11,string,LoadPlayer,0047f840
+0047fa38,7,string,player,0047f840
+0047fa48,17,string,Unable to load: ,0047f840
+0047fb7c,11,string,SavePlayer,0047fa5c
+0047fb94,28,string,D:\aCop\source\MenuData.pas,0047fa5c
+0047fbb8,26,string, Player = nil: SavePlayer,0047fa5c
+0047fda0,16,string,CreateNewPlayer,0047fbd4
+0047fdbc,12,string,new player:,0047fbd4
+0047ff34,16,string,DeletePlayer,
+0047ff50,20,string,failed to delete ,
+00480020,7,string,DoExit,0047ff64
+00480300,16,string,FillRankResults,
+0048031c,16,string,GameIni = nil: ,
+00480334,28,string,D:\aCop\source\MenuData.pas,
+00480358,20,string,double racers : ,
+00480380,16,string,FPlayerPos : ,
+00480554,11,string,.PlayVoice,00480448
+0048056c,24,string,error during PlayVoice,
+004809b0,16,string,ReadDefGraphics,
+00480a38,8,string,nexts,
+00480a58,8,string,cance,
+00480a68,8,string,cross,
+00480a94,8,string,radio,
+00480aa4,8,string,check,
+00480c48,17,string,GetWavTimeFactor,00480b74
+00480c64,9,string,menu.ini,00480b74
+00480c78,14,string,WavTimeFactor,00480b74
+00480c90,11,string,PARAMETERS,00480b74
+00480d6c,28,string,ReadAvailableTextureMemory,
+00480d90,12,string,game.ini,
+00480da4,28,string,AVAILABLE_TEXTURE_MEMORY,
+00480dc8,12,string,GFX OPTIONS,
+00480ea8,18,string,ReadTextureMemory,00480dd4
+00480ec4,9,string,game.ini,00480dd4
+00480ed8,22,string,CUSTOM_TEXTURE_MEMORY,00480dd4
+00480ef8,12,string,GFX OPTIONS,00480dd4
+004811e4,9,string,SaveGame,00481178
+00481350,36,string,"%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d",
+004814ec,20,string,Version %d/%d/%d/%d,00481394
+00481928,19,string,ReadBtnDefGraphics,00481698
+00481adc,32,string,D:\aCop\source\MenuUtils.pas,
+00481b04,64,string,CopyBackGroundOntoPanel : aDestImg is not TImage or TGDIGraphic,
+00481e48,8,string,Create,
+00481f50,8,string,Destroy,00481e54
+00482094,16,string,StopSoundBuffer,00481f5c
+004820b0,32,string,Problem stopping soundbuffer,
+004821e0,12,string,StartMusic,
+0048238c,9,string,PlayWave,004821f0
+004823a4,7,string,; add=,004821f0
+004825a0,17,string,PlayWaveFromFile,004823ac
+004825d0,17,string,Unable to load: ,004823ac
+0048270c,12,string,LoadMusic,
+00482724,12,string,menumsc.wav,
+00482738,24,string,unable to load music : ,
+00482924,15,string,SetMusicVolume,00482830
+00482940,13,string,setting vol.,00482830
+004829f0,18,string,.StopCurrentSound,00482950
+00482d24,7,string,aAgent,00482af8
+00482d34,30,string, Parameter '%s' cannot be nil,00482af8
+00482d5c,28,string,D:\aCop\source\AgentIni.pas,00482af8
+00482d80,13,string,aIniFileName,00482af8
+00482d98,32,string, Parameter '%s' cannot be empty,00482af8
+00482dc0,6,string,Error,00482af8
+00482dd0,8,string,Caption,00482af8
+00482de0,13,string,BalloonItems,00482af8
+00482f16,18,string,TTabChangingEvent,
+00482fd1,15,string,"TDrawTabEvent",
+00482feb,18,string,TCustomTabControl,
+00483015,6,string,TRect,
+00483032,18,string,TTabGetImageEvent,
+0048304e,8,string,TObject,
+00483202,10,string,ComCtrls,
+00483326,14,string,	TTabSheet43H,
+00483335,14,string,	TTabSheetX2H,
+0048334a,10,string,ComCtrls ,
+004833b7,9,string,DragMode,
+0048341b,7,string,Height,
+004834cb,11,string,	PageIndex,
+004834ef,12,string,"
+ParentFont",
+0048353d,11,string,	PopupMenu,
+00483562,9,string,ShowHint,
+00483a04,12,string,Constraints,
+00483a95,9,string,DragMode,
+00483b1c,7,string,Images,
+00483b3c,11,string,	MultiLine,
+00483b60,11,string,	OwnerDraw,
+00483b85,15,string,ParentBiDiMode,
+00483bad,12,string,"
+ParentFont",
+00483bfb,11,string,	PopupMenu,
+00483c20,12,string,RaggedRight,
+00483c46,15,string,ScrollOpposite,
+00483cd6,12,string,TabOrderP/H,
+00483cf9,12,string,TabPosition,
+00483d41,9,string,TabWidth,
+00484245,15,string,TTabStringsTBH,
+0048426c,9,string,ComCtrls,
+00484a48,16,string,SysTabControl32,00484954
+0048659e,18,string,TDefaultValuesX,
+00486eb0,8,string,Caption,004865e4
+00486ed0,9,string,FontSize,004865e4
+00486ee4,10,string,FontColor,004865e4
+00487118,16,string,MenuCaps.ini,
+00487130,12,string,<No Value>,
+00487144,8,string,Caption,
+00487154,8,string,Default,
+00487184,12,string,FontSize,
+00487198,12,string,BtnFontSize,
+004871ac,12,string,FontColor,
+004871c0,16,string,BtnFontColor,
+004871d8,20,string,DisabledFontColor,
+004871f4,12,string,ColWidth,
+004873f0,9,string,menu.ini,00487270
+00487404,12,string,MenuStrings,00487270
+00487418,13,string,OrdinalWords,00487270
+00487430,15,string,OrdinalNumbers,00487270
+004874d4,36,string,D:\aCop\source\DisplayModeUtils.pas,00487478
+00487500,18,string,Assertion failure,00487478
+004877a0,17,string,lblAlphaBlending,
+004879c5,16,string,"optHighDetail",
+00487a1f,24,string,lblBrightnessDarkClick ,
+00487a5c,23,string,"lblAlphaBlendingClick""",
+00487b68,20,string,FormDisplaySettings,
+00487c54,19,string,AddDriverToStrings,00487bb0
+00487df8,12,string,FormCreate,
+00487f04,12,string,FormDestroy,
+00488040,12,string,FormShow,
+004884a4,16,string,cboDriverChange,
+004887b0,24,string,CopySettingsToControls,
+00488b1c,24,string,CopyControlsToSettings,
+00488b40,32,string,Resolution set to %d (%dx%dx%d),
+00488f1b,15,string,FormCoolDialog,
+00489184,12,string,GDIFormShow,00488ff0
+00489360,6,string,cmh07,004891e0
+00489370,10,string,agent.ini,004891e0
+00489530,10,string,agent.ini,004893a0
+00489544,13,string,BalloonItems,004893a0
+00489708,8,string,Create,
+0048971c,32,string,D:\aCop\source\DataBitmap.pas,
+00489744,28,string,aResourceManager  =  nil,
+00489968,18,string,GetBitmapFromFile,00489760
+00489988,15,string, aBitmap = nil,00489760
+004899a0,30,string,D:\aCop\source\DataBitmap.pas,00489760
+004899d8,17,string,Unable to load: ,00489760
+00489bb8,21,string,GetImgBitmapFromFile,004899ec
+00489bdc,12,string, Self = nil,004899ec
+00489bf0,30,string,D:\aCop\source\DataBitmap.pas,004899ec
+00489c18,14,string, aImage = nil,004899ec
+00489de4,20,string,GetImgTargaFromFile,00489c28
+00489e04,19,string, aGDIGraphic = nil,00489c28
+00489e20,30,string,D:\aCop\source\DataBitmap.pas,00489c28
+0048a0c0,17,string,GetTargaFromFile,00489eb8
+0048a0e0,13,string, Targa = nil,00489eb8
+0048a0f8,30,string,D:\aCop\source\DataBitmap.pas,00489eb8
+0048a130,17,string,Unable to load: ,00489eb8
+0048a5e0,16,string,DoLoadFromFile,
+0048a5fc,8,string,MONEY,
+0048a60c,8,string,PLAYER,
+0048a61c,16,string,TURBO_AMOUNT,
+0048a634,12,string,FINISHED,
+0048a648,12,string,Out_Of_Time,
+0048a65c,12,string,Total_Loss,
+0048a670,12,string,TRACKTIME,
+0048a694,8,string,_TIME,
+0048a6a4,8,string,RACERS,
+0048a740,14,string,FPlayerPoints,0048a6c4
+0048a758,16,string,FPlayerFinished,0048a6c4
+0048a770,11,string,FOutOfTime,0048a6c4
+0048a784,11,string,FTotalLoss,0048a6c4
+0048a798,17,string,FPlayerTrackTime,0048a6c4
+0048a7b4,16,string,FPlayerLapTimes,0048a6c4
+0048a7cc,16,string,FOtherRacerList,0048a6c4
+0048a920,16,string,LoadFromFile,
+0048a964,13,string,FCharacterIx,0048a934
+0048a97c,6,string,FTime,0048a934
+0048ab4c,7,string,Create,0048aa2c
+0048ac4c,8,string,Destroy,0048ab58
+0048ad08,7,string,Assign,0048ac58
+0048ad24,28,string,This method not implemented,0048ac58
+0048ad48,30,string,D:\aCop\source\DataPlayer.pas,0048ac58
+0048ae50,15,string,LoadFromStream,0048ad68
+0048af4c,13,string,SaveToStream,0048ae64
+0048b068,30,string,D:\aCop\source\DataPlayer.pas,0048af60
+0048b090,26,string, Self = nil: LoadFromFile,0048af60
+0048b0b8,13,string,LoadFromFile,0048af60
+0048b1a8,30,string,D:\aCop\source\DataPlayer.pas,0048b0c8
+0048b1d0,24,string, Self = nil: SaveToFile,0048b0c8
+0048b1f4,11,string,SaveToFile,0048b0c8
+0048b25c,8,string,FHeader,0048b200
+0048b26c,14,string,FTrackToDrive,0048b200
+0048b284,10,string,TourState,0048b200
+0048b298,8,string,QRState,0048b200
+0048b2a8,9,string,Settings,0048b200
+0048b500,23,string,WriteControlStuffToIni,0048b350
+0048b524,7,string,DEVICE,0048b350
+0048b534,6,string,INPUT,0048b350
+0048b554,6,string,RIGHT,0048b350
+0048b580,7,string,EXTRA1,0048b350
+0048b590,7,string,EXTRA2,0048b350
+0048b5a0,7,string,EXTRA3,0048b350
+0048b5b0,12,string,SENSITIVITY,0048b350
+0048b714,20,string,WriteQRStuffToIni,
+0048b734,8,string,MONEY,
+0048b744,8,string,PLAYER,
+0048b760,16,string,TURBO_AMOUNT,
+0048b778,8,string,MOTOR,
+0048b788,8,string,BANDEN,
+0048b7a4,16,string,VERSNELLINGSBAK,
+0048b7bc,12,string,POSITION,
+0048b96c,20,string,WriteVRStuffToIni,
+0048b98c,8,string,MONEY,
+0048b99c,8,string,PLAYER,
+0048b9b8,8,string,MOTOR,
+0048b9c8,8,string,BANDEN,
+0048b9e4,16,string,VERSNELLINGSBAK,
+0048b9fc,16,string,TURBO_AMOUNT,
+0048ba14,12,string,POSITION,
+0048bbe0,12,string,RESOLUTION,
+0048bbf4,8,string,PROGRAM,
+0048bc04,12,string,MUSICVOLUME,
+0048bc18,8,string,SOUND,
+0048bc28,12,string,SFXVOLUME,
+0048bc3c,16,string,POLICEVOLUME,
+0048bc54,8,string,index,
+0048bc64,8,string,directx,
+0048bc84,28,string,RASER.INI : [directx] guid=,
+0048bca8,20,string,not writing guid!,
+0048bcc4,12,string,resolution,
+0048bcd8,8,string,program,
+0048bce8,8,string,focus,
+0048bf44,24,string,WriteGeneralStuffToIni,
+0048bf68,8,string,ETAPPE,
+0048bf88,8,string,OPTIONS,
+0048bf98,12,string,OPPONENTS,
+0048bfac,8,string,BRITISH,
+0048bfbc,8,string,LEAGUE,
+0048bfcc,8,string,DAMAGE,
+0048bfdc,8,string,PLAYER,
+0048bfec,20,string,CHECKPOINT_SPEED,
+0048c008,8,string,gamma,
+0048c018,12,string,GFX OPTIONS,
+0048c02c,16,string,alpha_blending,
+0048c044,24,string,CUSTOM_TEXTURE_MEMORY,
+0048c074,8,string,filter,
+0048c1b8,24,string,ReadInstalledResolution,0048c07c
+0048c1dc,10,string,raser.ini,0048c07c
+0048c1f0,11,string,RESOLUTION,0048c07c
+0048c204,8,string,PROGRAM,0048c07c
+0048c3dc,16,string,CreateNewPlayer,0048c24c
+0048c5cc,12,string,WriteToInis,
+0048c5e4,12,string,game.ini,
+0048c5f8,12,string,raser.ini,
+0048c824,12,string,FTourCharIx,0048c7ac
+0048c95c,13,string,LoadFromFile,0048c83c
+0048ca30,15,string,LoadFromStream,0048c970
+0048cb84,13,string,SaveToStream,0048ca44
+0048cba0,33,string,: Owner of header (Player) = nil,0048ca44
+0048cbcc,36,string,D:\aCop\source\DataPlayerHeader.pas,0048ca44
+0048cda0,19,string,FShowedUnlockPopup,0048cd78
+0048ce7c,15,string,LoadFromStream,0048cdb4
+0048cf58,13,string,SaveToStream,0048ce90
+0048cf9c,13,string,FCharacterIx,0048cf6c
+0048cfb4,9,string,FTrackIx,0048cf6c
+0048d08c,15,string,LoadFromStream,0048cfc0
+0048d16c,13,string,SaveToStream,0048d0a0
+0048d23c,15,string,SetCharacterIx,0048d180
+0048d30c,11,string,SetTrackIx,0048d250
+0048d44c,7,string,Create,0048d31c
+0048d540,8,string,Destroy,0048d468
+0048d664,15,string,LoadFromStream,0048d564
+0048d778,13,string,SaveToStream,0048d678
+0048d7b4,16,string,FCharResultList,0048d78c
+0048d89c,8,string,FPoints,0048d86c
+0048d8ac,19,string,FNextUndrivenTrack,0048d86c
+0048db18,15,string,LoadFromStream,0048da18
+0048dc24,13,string,SaveToStream,0048db2c
+0048df68,7,string,Create,0048ddf4
+0048e0a0,8,string,Destroy,0048df74
+0048e0dc,11,string,FQuickRace,0048e0ac
+0048e0f0,11,string,FTrackList,0048e0ac
+0048e440,16,string,LoadFromIniFile,0048e148
+0048e45c,22,string,http//:www.davilex.nl,0048e148
+0048e47c,12,string,DownLoadURL,0048e148
+0048e490,8,string,GENERAL,0048e148
+0048e4a0,11,string,trackcount,0048e148
+0048e4b4,10,string,charcount,0048e148
+0048e4c8,11,string,difficulty,0048e148
+0048e4dc,15,string,CheckPointTime,0048e148
+0048e4f4,28,string,problem reading static.ini,
+0048e62c,32,string,D:\aCop\source\DataStatic.pas,
+0048e654,40,string, Self = nil: GetCharacterByGameIndex,
+0048e684,24,string,charby index not found ,
+0048e6bc,24,string,GetCharacterByGameIndex,
+0048e86c,16,string,LoadFromIniFile,0048e784
+0048e888,15,string,TurboOilAmount,0048e784
+0048e8a0,11,string,GAMEVALUES,0048e784
+0048e8b4,16,string,FirstPlaceBonus,0048e784
+0048e9b0,25,string,FDownloadCharIsAvailable,0048e988
+0048e9ec,10,string,QUICKRACE,0048e9cc
+0048eb68,12,string,DOWNLOADCAR,0048e9f8
+0048eb7c,16,string,DOWNLOADSECTION,0048e9f8
+0048eb94,15,string,DOWNLOADCHARIX,0048e9f8
+0048ebac,8,string,locked!,0048e9f8
+0048ebbc,15,string,LOCKEDCHARTEXT,0048e9f8
+0048ebd4,13,string,LOCKEDCHARIX,0048e9f8
+0048ebec,12,string,L0_ANIM.INI,0048e9f8
+0048ec00,6,string,Count,0048e9f8
+0048f098,15,string,DoLoadFromFile,0048edec
+0048f0b4,14,string,CURRENTPLAYER,0048edec
+0048f0cc,8,string,GENERAL,0048edec
+0048f0dc,10,string,PREVSTATE,0048edec
+0048f100,7,string,FORMAT,0048edec
+0048f110,9,string,INTROAVI,0048edec
+0048f124,11,string,/FIRSTTIME,0048edec
+0048f138,11,string,HIGHSCORES,0048edec
+0048f14c,10,string,<no name>,0048edec
+0048f34c,13,string,DoSaveToFile,0048f168
+0048f368,14,string,CURRENTPLAYER,0048f168
+0048f380,8,string,GENERAL,0048f168
+0048f390,10,string,PREVSTATE,0048f168
+0048f3a4,9,string,EXITCODE,0048f168
+0048f3b8,11,string,HIGHSCORES,0048f168
+0048f414,11,string,FFirstTime,0048f3d4
+0048f428,10,string,FPrevious,0048f3d4
+0048f43c,15,string,FCurrentPlayer,0048f3d4
+0048f6f2,15,string,"SingletonForm",
+0048fab7,13,string,GDICheckBox,
+0048fc35,11,string,Checked0oF,
+0048fcc1,8,string,Caption,
+0048fce3,8,string,Visible,
+0049014a,23,string,TCustomGDIRadioButton\,
+0049016a,15,string,GDIRadioButton,
+004902f3,11,string,Checked0oF,
+0049033a,9,string,TabOrder,
+0049037f,8,string,Caption,
+004903a1,8,string,Visible,
+004908a7,13,string,"
+FormOneWay",
+00490968,32,string,btnNextClick (TBaseFormOneWay),
+00490a64,6,string,.HTML,004ab54c
+00490a74,7,string,.SHTML,004ab550
+00490a84,6,string,.SHTM,004ab554
+00490df4,20,string,\shell\open\command,00490b4c
+00490e08,19,string,shell\open\command,00490b4c
+004913b3,13,string,"
+FormTwoWay",
+00491474,36,string,btnPreviousClick (TBaseFormOneWay),
+00491af6,12,string,btnDefaults,
+00491c68,16,string,FormKeySettings,
+004920b0,12,string,menu.ini,
+004920c4,8,string,count,
+004920d4,12,string,CONTROLKEYS,
+00492378,8,string,defau,
+00492875,16,string,sldrSensitivity,
+00492aea,18,string,FormWheelSettings,
+00492ce5,21,string,FormJoyStickSettings,
+00492f70,20,string,CreateAndReadHeader,00492dd8
+00492f90,17,string,Unable to load: ,00492dd8
+00492fac,30,string,D:\aCop\source\StoredGame.pas,00492dd8
+00493030,12,string,FFileNumber,00493000
+00493044,8,string,FHeader,00493000
+004931db,9,string,defEmpty,
+004932ba,13,string,GDIFormShow*,
+0049332a,12,string,"
+FormPlayer",
+004934f4,14,string,BuildFileList,00493338
+00493510,10,string,save*.rcr,00493338
+00493524,21,string,read savegameheader:,00493338
+00493544,7,string,adding,00493338
+0049364c,8,string,InitDlg,0049354c
+00493748,8,string,ExitDlg,00493658
+00493898,13,string,AddNewPlayer,00493754
+00493a80,12,string,BackupFiles,004938ac
+00493a98,9,string,SaveGame,004938ac
+00493ce4,13,string,ReplaceFiles,00493ac8
+00493d00,9,string,SaveGame,00493ac8
+00493e94,14,string,DeleteBackUps,00493d30
+00493eb0,9,string,SaveGame,00493d30
+004941a4,13,string,UpdateScreen,00493ed0
+004941c0,32,string,Data.MenuStuff.CurrentPlayer : ,00493ed0
+004941e8,11,string,flcount : ,00493ed0
+00494350,8,string,defChar,0049421c
+00494360,40,string,tried to access non-existent GraphDef: ,
+00494390,32,string,D:\aCop\source\FormPlayer.pas,
+004944ec,10,string,btn1Click,004943b8
+0049463c,24,string,btnDeletePlayerClick,
+004946a0,8,string,delet,
+00494800,8,string,defChar,
+00494a03,15,string,FormDoubleKeys,
+00494a34,9,string,popempty,00494a14
+00494d11,15,string,"FormNewPlayer",
+00494f3d,17,string,FormHighScoreDlg,
+00495151,20,string,wavIrritatingAsHell,
+00495624,13,string,"TfrmOptions
+",
+00495662,15,string,TfrmOptionsLPI,
+00495678,12,string,FormOptions,
+004957f4,16,string,btnCancelClick,
+0049590c,12,string,btnOkClick,
+00495948,12,string,OPT_LOWR,
+00495980,12,string,OPT_MIDR,
+004959b8,12,string,OPT_HIGR,
+00495b20,40,string,in btnVideoAdvancedClick. resolution: ,
+00495b50,40,string,out btnVideoAdvancedClick. resolution: ,
+0049605c,23,string,CopySettingsToControls,00495d6c
+00496080,40,string,in CopySettingsToControls. resolution: ,00495d6c
+004960b0,31,string,D:\aCop\source\FormOptions.pas,00495d6c
+004960d8,33,string,Unknown controler type specified,00495d6c
+00496400,24,string,CopyControlsToSettings,
+00496424,40,string,in CopyControlsToSettings. resolution: ,
+00496454,44,string,out CopyControlsToSettings. resolution: ,
+00496504,12,string,OPT_GPAD,
+00496594,12,string,OPT_WHEE,
+00496630,32,string,D:\aCop\source\FormOptions.pas,
+00496658,44,string,Unknown or invalid controler type selected,
+004967a0,9,string,OPT_LOWR,004966c8
+004967b4,9,string,OPT_MIDR,004966c8
+004967c8,9,string,OPT_HIGR,004966c8
+00496968,14,string,GDIFormCreate,004967fc
+00496984,6,string,advan,004967fc
+00496994,6,string,setti,004967fc
+004969a4,32,string,options GDIFormCreate. settings,004967fc
+00496a78,16,string,GDIFormDestroy,
+00496b58,12,string,opt_soun,
+00496d85,17,string,FormDeletePlayer,
+00496db8,9,string,popempty,00496d98
+00497025,15,string,TfrmNoMoney4pI,
+00497036,15,string,TfrmNoMoney(oI,
+0049704c,12,string,FormNoMoney,
+0049724d,15,string,"FormCDRequest",
+00497425,13,string,lblInternet1,
+0049747a,19,string,TfrmInternetDlg sI,
+00497494,16,string,FormInternetDlg,
+004974c8,9,string,popempty,004974a8
+004976f7,11,string,	btnCancel,
+0049778d,15,string,"FormStartInfo",
+00497888,9,string,POPSTRT0,00497818
+0049789c,9,string,POPSTRT2,00497818
+004978b0,9,string,POPSTRT1,00497818
+004978c4,9,string,POPSTRT3,00497818
+00497b12,25,string,TfrmStartInfoKeyBoardlyI,
+00497b32,22,string,FormStartInfoKeyBoard,
+00497c58,12,string,menu.ini,
+00497c6c,8,string,count,
+00497c7c,12,string,CONTROLKEYS,
+004981dc,17,string,ShowStartInfoDlg,0049812c
+0049829c,24,string,ShowWheelSettingsDlg,
+00498360,24,string,ShowJoystickSettingsDlg,
+00498400,20,string,ShowKeySettingsDlg,
+004984dc,17,string,ShowNewPlayerDlg,00498414
+004985c8,20,string,ShowHighScoreDlg,
+004986c0,14,string,ShowPlayerDlg,00498634
+00498748,16,string,ShowNoMoneyDlg,
+00498814,20,string,ShowDeletePlayerDlg,
+004988e4,18,string,ShowDoubleKeysDlg,00498828
+0049897c,15,string,ShowOptionsDlg,004988f8
+00498a10,16,string,ShowOptionsDlg,
+00498d11,16,string,btnPrevTUClick',
+00498d7e,12,string,"
+FormGarage",
+00499080,12,string,blind_up,
+00499094,12,string,redin_up,
+0049919c,12,string,FormShow,
+00499390,20,string,btnBuyTuneUpClick,
+0049945c,8,string,TUNEUP,
+00499598,6,string,CGR07,00499538
+004995a8,6,string,CBR07,00499538
+00499c6d,11,string,	FormTrack,
+00499d3c,24,string,setting tr to drive to ,00499c7c
+00499ee8,22,string,.SetCurrentTrackIndex,00499d68
+00499f0c,7,string,trname,00499d68
+0049a2f8,12,string,FormShow,
+0049a320,8,string,shadow,
+0049a58c,20,string,MaxAvailabeTrack,
+0049a5a8,24,string, : MaxAvailabeTrack = ,
+0049a780,12,string,indfocus,
+0049aab1,15,string,"FormCharacter",
+0049aba0,11,string,FlowToNext,0049aac4
+0049adb8,18,string,.SetCurrentCharIx,0049ac68
+0049add8,7,string,chara_,0049ac68
+0049b16c,9,string,butbigci,0049af5c
+0049b180,9,string,klrondje,0049af5c
+0049b44c,13,string,"
+FormCreate$",
+0049b4c0,16,string,FormCurrentChar,
+0049b5f8,7,string,chara_,0049b4fc
+0049b6f8,9,string,butbigci,0049b630
+0049b8f6,12,string,"
+FormUnlock",
+0049b954,16,string,ShowUnlockDlg,
+0049bc45,12,string,	timCycler	,
+0049bd49,15,string,"FormQuickRace",
+0049bef4,12,string,FormShow,
+0049c070,20,string,btnPrevTrackClick,
+0049c180,20,string,btnNextTrackClick,
+0049c388,24,string,SetCurrentTrackIndex,
+0049c3ac,8,string,trname,
+0049c668,20,string,SetCurrentCharIx,
+0049c740,8,string,unlock,
+0049c750,24,string,Data.Static.QuickRace,
+0049c854,20,string,FTrackAvailableList,
+0049ce81,14,string,"optHardClick""",
+0049ceef,15,string,FormDifficulty,
+0049d0b0,12,string,FormShow,
+0049d0c8,12,string,headtour,
+0049d0dc,12,string,headquic,
+0049d0f0,12,string,diffic00,
+0049d290,11,string,FlowToNext,0049d124
+0049d2f8,9,string,quickdif,0049d2b4
+0049d35c,8,string,norma,
+0049d3a0,12,string,diffic00,
+0049d6e3,16,string,"gdfBtnOptions",
+0049d7d6,14,string,optTourClick ,
+0049d7e9,27,string,gdfBtnQRButtonStateChange&,
+0049d877,15,string,FormMainScreen,
+0049d9cc,12,string,FormShow,
+0049d9e4,8,string,quick,
+0049db20,11,string,static.ini,0049da44
+0049db34,37,string,reloaded static after internet visit,0049da44
+0049dbe8,8,string,quick,
+0049dbf8,8,string,inter,
+0049dc08,8,string,optio,
+0049dd6c,8,string,quick,
+0049df66,15,string,"optMainScreen",
+0049dfcc,13,string,GDIFormShow*,
+0049e0e4,6,string,radhm,0049e0ac
+0049e0f4,6,string,radex,0049e0ac
+0049e388,9,string,BaseForm,
+0049e560,24,string,FormCreate (baseform),
+0049e584,12,string,currentc,
+0049e644,24,string,FormDestroy (baseform),
+0049e800,6,string,cmh07,0049e678
+0049e810,10,string,agent.ini,0049e678
+0049e9a0,22,string,ShowScreen (baseform),0049e8c4
+0049ea9c,16,string,btnCloseClick,
+0049ec90,10,string,agent.ini,0049eb00
+0049eca4,13,string,BalloonItems,0049eb00
+0049eebc,16,string,CheckIfBestLap,
+0049eed8,24,string,including RR_BESTLAP,
+0049efb4,20,string,CheckChaseQualify,
+0049efd4,24,string,including RR_QUALIFY,
+0049eff8,24,string,including RR_WINRACE,
+0049f0c8,20,string,Process1stPosition,
+0049f0e8,24,string,including RR_WINTRACK,
+0049f23c,16,string,ProcessQualify,
+0049f254,12,string,playerpos: ,
+0049f268,16,string,QualifyPos: ,
+0049f284,24,string,including RR_QUALIFY,
+0049f43f,11,string,	lblPoints,
+0049f4e7,15,string,FormLoseNormal,
+0049f6c0,9,string,FormShow,0049f50c
+0049f6d8,7,string,trname,0049f50c
+0049f6e8,7,string,los_ch,0049f50c
+0049f738,7,string,CDL07_,0049f6f8
+0049f947,15,string,FormTrackIntro,
+0049fa1c,20,string,imgBackGroundClick,
+0049fb08,12,string,FormShow,
+0049fbec,16,string,timCloseTimer,
+0049fda4,13,string,imgTrackName,
+0049ff5c,7,string,trname,0049fe68
+0049ff6c,7,string,win_ch,0049fe68
+0049ff7c,7,string,chara_,0049fe68
+0049ffcc,7,string,CDQ07_,0049ff8c
+004a0178,9,string,lblBonus,
+004a02cc,7,string,trname,004a0218
+004a02dc,7,string,win_ch,004a0218
+004a0594,12,string,lblTopImage,
+004a0614,12,string,FormResults,
+004a09c4,12,string,FormShow,
+004a09ec,8,string,focus,
+004a09fc,8,string,win_ch,
+004a0a0c,8,string,res_ch,
+004a0b4c,11,string,FlowToNext,004a0a20
+004a0ba4,9,string,QUICKRES,004a0b5c
+004a0da5,13,string,FormWinChase,
+004a0e5c,7,string,trname,004a0dc8
+004a0e6c,9,string,COPANGRY,004a0dc8
+004a0e80,7,string,CDW05_,004a0dc8
+004a1081,15,string,"FormLoseChase",
+004a113c,7,string,trname,004a10a8
+004a114c,9,string,cophappy,004a10a8
+004a1160,7,string,CDL05_,004a10a8
+004a12c5,11,string,	EMPNotify,
+004a12da,8,string,TObject,
+004a130d,15,string,"EMPPostNotify",
+004a1326,8,string,TObject,
+004a155d,15,string,ColoredButtons,
+004a1586,8,string,Enabled,
+004a15a8,15,string,EnabledButtons,
+004a15fa,8,string,Anchors,
+004a161b,12,string,"
+AutoEnable",
+004a1641,9,string,AutoOpen,
+004a16f6,9,string,FileName,
+004a1718,11,string,	Shareable,
+004a173d,8,string,Visible,
+004a175f,15,string,ParentShowHint,
+004a17cf,9,string,TabOrder,
+004a18c8,12,string,OnNotifyEN,
+004a18dc,7,string,MPPLAY,004a1a8c;004ab564
+004a18e4,8,string,MPPAUSE,004ab568
+004a18ec,7,string,MPSTOP,004ab56c
+004a18f4,7,string,MPNEXT,004ab570
+004a18fc,7,string,MPPREV,004ab574
+004a1904,7,string,MPSTEP,004ab578
+004a190c,7,string,MPBACK,004ab57c
+004a1914,9,string,MPRECORD,004ab580
+004a1920,8,string,MPEJECT,004ab584
+004a1bf4,6,string,%s_%s,004a1a8c
+004a2900,9,string,AVIVideo,004ab58c
+004a290c,8,string,CDAudio,004ab590
+004a2918,13,string,DigitalVideo,004ab598
+004a2928,8,string,MMMovie,004ab59c
+004a2930,6,string,Other,004ab5a0
+004a2938,8,string,Overlay,004ab5a4
+004a2940,8,string,Scanner,004ab5a8
+004a2948,10,string,Sequencer,004ab5ac
+004a2958,10,string,Videodisc,004ab5b4
+004a2964,10,string,WaveAudio,004ab5b8
+004a3e15,13,string,lblTextBlock,
+004a3f35,13,string,FormWinFinal,
+004a41cc,12,string,FormShow,
+004a4200,20,string,trying to play : ,
+004a42d4,16,string,medWinnerNotify,
+004a4434,11,string,FlowToNext,004a42e8
+004a4841,11,string,	FormIntro,
+004a4918,16,string,ShowIntroMovie,
+004a4cfd,9,string,MainForm,
+004a4d08,8,string,Progman,004ab5bc
+004a4d10,14,string,Shell_TrayWnd,004ab5c0
+004a4e20,12,string,FormCreate,
+004a4f04,12,string,FormDestroy,
+004a4fd8,12,string,FormShow,
+004a50bc,16,string,FormActivate,
+004a51e4,12,string,ShowIntro,
+004a51f8,20,string,intro not found : ,
+004a5214,28,string,now searching drives c to z,
+004a5238,36,string,final search: intro not found : ,
+004a53ac,12,string,GetPlayer,
+004a53c4,20,string,load player error,
+004a54c8,16,string,AskForNewPlayer,
+004a5608,20,string,FillRaceResultsQR,
+004a586c,20,string,FillRaceResultsTour,
+004a5890,20,string,currentcharresult:,
+004a5bc8,12,string,FlowTour,
+004a5d28,36,string,search on cd: intro not found - ,
+004a5f5c,8,string,StartUp,
+004a5f6c,32,string,illegal value of Previous : ,
+004a6194,7,string,Create,004a60a4
+004a6280,8,string,Destroy,004a61a0
+004a63e8,7,string,Assign,004a628c
+004a6560,15,string,LoadFromStream,004a63f4
+004a66d8,13,string,SaveToStream,004a6574
+004a67a8,13,string,FMusicVolume,004a66f0
+004a67c0,12,string,FResolution,004a66f0
+004a67d4,13,string,FRenderFocus,004a66f0
+004a67ec,13,string,FStartInfoOn,004a66f0
+004a6804,13,string,FGUIDChanged,004a66f0
+004a681c,7,string,FGamma,004a66f0
+004a682c,13,string,FDriverIndex,004a66f0
+004a6844,12,string,FMipmapping,004a66f0
+004a6858,9,string,FWaitVbl,004a66f0
+004a686c,12,string,FTextureMem,004a66f0
+004a6880,10,string,FControls,004a66f0
+004a69dc,6,string,FDown,004a6964
+004a69ec,6,string,FLeft,004a6964
+004a69fc,7,string,FRight,004a6964
+004a6a0c,16,string,FJoySensitivity,004a6964
+004a6a24,18,string,FWheelSensitivity,004a6964
+004a6af4,32,string,D:\aCop\source\DataSettings.pas,004a6a80
+004a6b1c,32,string,ill. index GetKeySettingByIndex,004a6a80
+004a6c3c,16,string,DEFAULTSETTINGS,004a6b3c
+004a6c74,6,string,Right,004a6b3c
+004a6c84,7,string,Extra1,004a6b3c
+004a6c94,7,string,Extra2,004a6b3c
+004a6ca4,7,string,Extra3,004a6b3c
+004a6cb4,12,string,ControlType,004a6b3c
+004a6cc8,15,string,JoySensitivity,004a6b3c
+004a6ce0,17,string,WheelSensitivity,004a6b3c
+004a6f68,11,string,DIFFICULTY,004a6de4
+004a6f7c,16,string,DEFAULTSETTINGS,004a6de4
+004a6f94,11,string,RESOLUTION,004a6de4
+004a6fa8,12,string,MUSICVOLUME,004a6de4
+004a6fbc,9,string,FXVOLUME,004a6de4
+004a6fd0,13,string,VOICESVOLUME,004a6de4
+004a6fe8,8,string,MUSICON,004a6de4
+004a7008,9,string,VOICESON,004a6de4
+004a701c,14,string,SHOWSTARTINFO,004a6de4
+004a7034,14,string,AlphaBlending,004a6de4
+004a704c,18,string,BiliniarFiltering,004a6de4
+004a7068,8,string,WaitVbl,004a6de4
+004a7078,11,string,Mipmapping,004a6de4
+004a708c,6,string,Gamma,004a6de4
+004a709c,12,string,RenderFocus,004a6de4
+004a70b0,12,string,DriverIndex,004a6de4
+004a7134,28,string,setting renderfocus to : ,
+004a731c,12,string,"
+CaptionFrm",
+004a74b8,25,string,TranslateMenuException: ,004a73c8
+004a74dc,7,string,%s: %s,004a73c8
+004a76f3,13,string,"
+btnDetails	",
+004a77da,18,string,TfrmException2huJ,
+004a77f3,15,string,FormException2,
+004a7a14,9,string,menu.ini,004a790c
+004a7a28,13,string,errorstrings,004a790c
+004a7ba8,12,string,SERVICE.EXE,004a7a48
+004a7bc4,52,string,"Error: could not start Davi-Service, returnvalue %d",004a7a48
+004a7c00,19,string,ExecuteDaviService,004a7a48
+004a843c,33,string,** Exception logging started ** ,004a8398
+004a84d8,39,string,**Destroy: Exception logging ended ** ,004a8460
+004a86dc,18,string,.HandleException:,004a859c
+004a8a50,9,string,yyyymmdd,004a887f
+004a8a70,9,string,hh:mm:ss,004a887f
+004a8a84,22,string,An error occurred in ,004a887f
+004a8aa4,27,string,GameMenuExceptionLogger : ,004a887f
+004a9310,14,string,\MenuTrac.log,004a9170
+004a9328,10,string,Race Menu,004a9170
+004a933c,11,string,/FIRSTTIME,004a9170
+004a9350,9,string,/DEFAULT,004a9170
+004aa034,30,string,Runtime error     at 00000000,00403b08
+004aa054,6,string,Error,00403b08
+004aa05c,17,string,0123456789ABCDEF,00403a84
+004aa383,17,string,"MS Sans Serif",00418228;0041f7d8
+004ae8c4,13,TerminatedCString,kernel32.dll,
+004ae8d4,19,TerminatedCString,GetCurrentThreadId,
+004ae8ea,22,TerminatedCString,DeleteCriticalSection,
+004ae902,21,TerminatedCString,LeaveCriticalSection,
+004ae91a,21,TerminatedCString,EnterCriticalSection,
+004ae932,26,TerminatedCString,InitializeCriticalSection,
+004ae94e,12,TerminatedCString,VirtualFree,
+004ae95c,13,TerminatedCString,VirtualAlloc,
+004ae96c,10,TerminatedCString,LocalFree,
+004ae978,11,TerminatedCString,LocalAlloc,
+004ae986,21,TerminatedCString,InterlockedDecrement,
+004ae99e,21,TerminatedCString,InterlockedIncrement,
+004ae9b6,13,TerminatedCString,VirtualQuery,
+004ae9c6,20,TerminatedCString,WideCharToMultiByte,
+004ae9dc,20,TerminatedCString,MultiByteToWideChar,
+004ae9f2,9,TerminatedCString,lstrlenA,
+004ae9fe,10,TerminatedCString,lstrcpynA,
+004aea0a,9,TerminatedCString,lstrcpyA,
+004aea16,15,TerminatedCString,LoadLibraryExA,
+004aea28,16,TerminatedCString,GetThreadLocale,
+004aea3a,16,TerminatedCString,GetStartupInfoA,
+004aea4c,15,TerminatedCString,GetProcAddress,
+004aea5e,17,TerminatedCString,GetModuleHandleA,
+004aea72,19,TerminatedCString,GetModuleFileNameA,
+004aea88,15,TerminatedCString,GetLocaleInfoA,
+004aea9a,13,TerminatedCString,GetLastError,
+004aeaaa,16,TerminatedCString,GetCommandLineA,
+004aeabc,12,TerminatedCString,FreeLibrary,
+004aeaca,15,TerminatedCString,FindFirstFileA,
+004aeadc,10,TerminatedCString,FindClose,
+004aeae8,12,TerminatedCString,ExitProcess,
+004aeaf6,10,TerminatedCString,WriteFile,
+004aeb02,25,TerminatedCString,UnhandledExceptionFilter,
+004aeb1e,15,TerminatedCString,SetFilePointer,
+004aeb30,13,TerminatedCString,SetEndOfFile,
+004aeb40,10,TerminatedCString,RtlUnwind,
+004aeb4c,9,TerminatedCString,ReadFile,
+004aeb58,15,TerminatedCString,RaiseException,
+004aeb6a,13,TerminatedCString,GetStdHandle,
+004aeb7a,12,TerminatedCString,GetFileSize,
+004aeb88,14,TerminatedCString,GetSystemTime,
+004aeb98,12,TerminatedCString,GetFileType,
+004aeba6,12,TerminatedCString,CreateFileA,
+004aebb4,12,TerminatedCString,CloseHandle,
+004aebc0,11,TerminatedCString,user32.dll,
+004aebce,16,TerminatedCString,GetKeyboardType,
+004aebe0,12,TerminatedCString,LoadStringA,
+004aebee,12,TerminatedCString,MessageBoxA,
+004aebfc,10,TerminatedCString,CharNextA,
+004aec06,13,TerminatedCString,advapi32.dll,
+004aec16,17,TerminatedCString,RegQueryValueExA,
+004aec2a,14,TerminatedCString,RegOpenKeyExA,
+004aec3a,12,TerminatedCString,RegCloseKey,
+004aec46,13,TerminatedCString,oleaut32.dll,
+004aec56,20,TerminatedCString,VariantChangeTypeEx,
+004aec6c,15,TerminatedCString,VariantCopyInd,
+004aec7e,13,TerminatedCString,VariantClear,
+004aec8e,13,TerminatedCString,SysStringLen,
+004aec9e,14,TerminatedCString,SysFreeString,
+004aecae,20,TerminatedCString,SysReAllocStringLen,
+004aecc4,18,TerminatedCString,SysAllocStringLen,
+004aecd6,13,TerminatedCString,kernel32.dll,
+004aece6,12,TerminatedCString,TlsSetValue,
+004aecf4,12,TerminatedCString,TlsGetValue,
+004aed02,11,TerminatedCString,LocalAlloc,
+004aed10,17,TerminatedCString,GetModuleHandleA,
+004aed24,19,TerminatedCString,GetModuleFileNameA,
+004aed38,13,TerminatedCString,advapi32.dll,
+004aed48,17,TerminatedCString,RegQueryValueExA,
+004aed5c,14,TerminatedCString,RegOpenKeyExA,
+004aed6c,12,TerminatedCString,RegCloseKey,
+004aed78,13,TerminatedCString,kernel32.dll,
+004aed88,9,TerminatedCString,lstrcpyA,
+004aed94,27,TerminatedCString,WritePrivateProfileStringA,
+004aedb2,10,TerminatedCString,WriteFile,
+004aedbe,20,TerminatedCString,WideCharToMultiByte,
+004aedd4,20,TerminatedCString,WaitForSingleObject,
+004aedea,13,TerminatedCString,VirtualQuery,
+004aedfa,13,TerminatedCString,VirtualAlloc,
+004aee0a,6,TerminatedCString,Sleep,
+004aee12,15,TerminatedCString,SizeofResource,
+004aee24,16,TerminatedCString,SetThreadLocale,
+004aee36,15,TerminatedCString,SetFilePointer,
+004aee48,19,TerminatedCString,SetFileAttributesA,
+004aee5e,9,TerminatedCString,SetEvent,
+004aee6a,13,TerminatedCString,SetErrorMode,
+004aee7a,13,TerminatedCString,SetEndOfFile,
+004aee8a,9,TerminatedCString,ReadFile,
+004aee96,20,TerminatedCString,MultiByteToWideChar,
+004aeeac,7,TerminatedCString,MulDiv,
+004aeeb6,10,TerminatedCString,MoveFileA,
+004aeec2,13,TerminatedCString,LockResource,
+004aeed2,13,TerminatedCString,LoadResource,
+004aeee2,13,TerminatedCString,LoadLibraryA,
+004aeef2,21,TerminatedCString,LeaveCriticalSection,
+004aef0a,26,TerminatedCString,InitializeCriticalSection,
+004aef26,13,TerminatedCString,GlobalUnlock,
+004aef36,11,TerminatedCString,GlobalSize,
+004aef44,14,TerminatedCString,GlobalReAlloc,
+004aef54,13,TerminatedCString,GlobalHandle,
+004aef64,11,TerminatedCString,GlobalLock,
+004aef72,11,TerminatedCString,GlobalFree,
+004aef80,17,TerminatedCString,GlobalDeleteAtom,
+004aef94,12,TerminatedCString,GlobalAlloc,
+004aefa2,15,TerminatedCString,GlobalAddAtomA,
+004aefb4,14,TerminatedCString,GetVersionExA,
+004aefc4,11,TerminatedCString,GetVersion,
+004aefd2,19,TerminatedCString,GetUserDefaultLCID,
+004aefe8,13,TerminatedCString,GetTickCount,
+004aeff8,16,TerminatedCString,GetThreadLocale,
+004af00a,14,TerminatedCString,GetSystemInfo,
+004af01a,15,TerminatedCString,GetProcAddress,
+004af02c,25,TerminatedCString,GetPrivateProfileStringA,
+004af048,17,TerminatedCString,GetModuleHandleA,
+004af05c,19,TerminatedCString,GetModuleFileNameA,
+004af072,15,TerminatedCString,GetLocaleInfoA,
+004af084,13,TerminatedCString,GetLocalTime,
+004af094,13,TerminatedCString,GetLastError,
+004af0a4,19,TerminatedCString,GetFileAttributesA,
+004af0ba,18,TerminatedCString,GetDiskFreeSpaceA,
+004af0ce,15,TerminatedCString,GetDateFormatA,
+004af0e0,19,TerminatedCString,GetCurrentThreadId,
+004af0f6,20,TerminatedCString,GetCurrentProcessId,
+004af10c,10,TerminatedCString,GetCPInfo,
+004af118,13,TerminatedCString,FreeResource,
+004af128,12,TerminatedCString,FreeLibrary,
+004af136,15,TerminatedCString,FormatMessageA,
+004af148,14,TerminatedCString,FindResourceA,
+004af158,14,TerminatedCString,FindNextFileA,
+004af168,15,TerminatedCString,FindFirstFileA,
+004af17a,10,TerminatedCString,FindClose,
+004af186,24,TerminatedCString,FileTimeToLocalFileTime,
+004af1a0,22,TerminatedCString,FileTimeToDosDateTime,
+004af1b8,18,TerminatedCString,EnumCalendarInfoA,
+004af1cc,21,TerminatedCString,EnterCriticalSection,
+004af1e4,12,TerminatedCString,DeleteFileA,
+004af1f2,22,TerminatedCString,DeleteCriticalSection,
+004af20a,13,TerminatedCString,CreateThread,
+004af21a,12,TerminatedCString,CreateFileA,
+004af228,13,TerminatedCString,CreateEventA,
+004af238,10,TerminatedCString,CopyFileA,
+004af244,15,TerminatedCString,CompareStringA,
+004af256,12,TerminatedCString,CloseHandle,
+004af262,12,TerminatedCString,version.dll,
+004af270,15,TerminatedCString,VerQueryValueA,
+004af282,24,TerminatedCString,GetFileVersionInfoSizeA,
+004af29c,20,TerminatedCString,GetFileVersionInfoA,
+004af2b0,10,TerminatedCString,gdi32.dll,
+004af2bc,16,TerminatedCString,UnrealizeObject,
+004af2ce,14,TerminatedCString,StretchDIBits,
+004af2de,11,TerminatedCString,StretchBlt,
+004af2ec,15,TerminatedCString,SetWindowOrgEx,
+004af2fe,19,TerminatedCString,SetWinMetaFileBits,
+004af314,17,TerminatedCString,SetViewportOrgEx,
+004af328,13,TerminatedCString,SetTextColor,
+004af338,18,TerminatedCString,SetStretchBltMode,
+004af34c,8,TerminatedCString,SetROP2,
+004af356,9,TerminatedCString,SetPixel,
+004af362,11,TerminatedCString,SetMapMode,
+004af370,19,TerminatedCString,SetEnhMetaFileBits,
+004af386,17,TerminatedCString,SetDIBColorTable,
+004af39a,14,TerminatedCString,SetBrushOrgEx,
+004af3aa,10,TerminatedCString,SetBkMode,
+004af3b6,11,TerminatedCString,SetBkColor,
+004af3c4,14,TerminatedCString,SelectPalette,
+004af3d4,13,TerminatedCString,SelectObject,
+004af3e4,7,TerminatedCString,SaveDC,
+004af3ee,10,TerminatedCString,RestoreDC,
+004af3fa,20,TerminatedCString,RemoveFontResourceA,
+004af410,10,TerminatedCString,Rectangle,
+004af41c,12,TerminatedCString,RectVisible,
+004af42a,15,TerminatedCString,RealizePalette,
+004af43c,9,TerminatedCString,Polyline,
+004af448,16,TerminatedCString,PlayEnhMetaFile,
+004af45a,7,TerminatedCString,PatBlt,
+004af464,9,TerminatedCString,MoveToEx,
+004af470,8,TerminatedCString,MaskBlt,
+004af47a,7,TerminatedCString,LineTo,
+004af484,7,TerminatedCString,LPtoDP,
+004af48e,18,TerminatedCString,IntersectClipRect,
+004af4a2,15,TerminatedCString,GetWindowOrgEx,
+004af4b4,19,TerminatedCString,GetWinMetaFileBits,
+004af4ca,16,TerminatedCString,GetTextMetricsA,
+004af4dc,20,TerminatedCString,GetTextExtentPointA,
+004af4f2,22,TerminatedCString,GetTextExtentPoint32A,
+004af50a,24,TerminatedCString,GetSystemPaletteEntries,
+004af524,15,TerminatedCString,GetStockObject,
+004af536,9,TerminatedCString,GetPixel,
+004af542,18,TerminatedCString,GetPaletteEntries,
+004af556,11,TerminatedCString,GetObjectA,
+004af564,29,TerminatedCString,GetEnhMetaFilePaletteEntries,
+004af584,21,TerminatedCString,GetEnhMetaFileHeader,
+004af59c,27,TerminatedCString,GetEnhMetaFileDescriptionA,
+004af5ba,19,TerminatedCString,GetEnhMetaFileBits,
+004af5d0,14,TerminatedCString,GetDeviceCaps,
+004af5e0,10,TerminatedCString,GetDIBits,
+004af5ec,17,TerminatedCString,GetDIBColorTable,
+004af600,11,TerminatedCString,GetDCOrgEx,
+004af60e,21,TerminatedCString,GetCurrentPositionEx,
+004af626,11,TerminatedCString,GetClipBox,
+004af634,14,TerminatedCString,GetBrushOrgEx,
+004af644,14,TerminatedCString,GetBitmapBits,
+004af654,9,TerminatedCString,GdiFlush,
+004af660,12,TerminatedCString,ExtTextOutA,
+004af66e,16,TerminatedCString,ExcludeClipRect,
+004af680,13,TerminatedCString,DeleteObject,
+004af690,18,TerminatedCString,DeleteEnhMetaFile,
+004af6a4,9,TerminatedCString,DeleteDC,
+004af6b0,17,TerminatedCString,CreateSolidBrush,
+004af6c4,28,TerminatedCString,CreateScalableFontResourceA,
+004af6e2,14,TerminatedCString,CreateRectRgn,
+004af6f2,17,TerminatedCString,CreatePolygonRgn,
+004af706,18,TerminatedCString,CreatePenIndirect,
+004af71a,14,TerminatedCString,CreatePalette,
+004af72a,22,TerminatedCString,CreateHalftonePalette,
+004af742,20,TerminatedCString,CreateFontIndirectA,
+004af758,12,TerminatedCString,CreateFontA,
+004af766,19,TerminatedCString,CreateEnhMetaFileA,
+004af77c,15,TerminatedCString,CreateDIBitmap,
+004af78e,17,TerminatedCString,CreateDIBSection,
+004af7a2,19,TerminatedCString,CreateCompatibleDC,
+004af7b8,23,TerminatedCString,CreateCompatibleBitmap,
+004af7d2,20,TerminatedCString,CreateBrushIndirect,
+004af7e8,13,TerminatedCString,CreateBitmap,
+004af7f8,17,TerminatedCString,CopyEnhMetaFileA,
+004af80c,11,TerminatedCString,CombineRgn,
+004af81a,17,TerminatedCString,CloseEnhMetaFile,
+004af82e,7,TerminatedCString,BitBlt,
+004af838,17,TerminatedCString,AddFontResourceA,
+004af84a,11,TerminatedCString,user32.dll,
+004af858,16,TerminatedCString,WindowFromPoint,
+004af86a,9,TerminatedCString,WinHelpA,
+004af876,12,TerminatedCString,WaitMessage,
+004af884,13,TerminatedCString,UpdateWindow,
+004af894,17,TerminatedCString,UnregisterClassA,
+004af8a8,20,TerminatedCString,UnhookWindowsHookEx,
+004af8be,17,TerminatedCString,TranslateMessage,
+004af8d2,21,TerminatedCString,TranslateMDISysAccel,
+004af8ea,15,TerminatedCString,TrackPopupMenu,
+004af8fc,22,TerminatedCString,SystemParametersInfoA,
+004af914,11,TerminatedCString,ShowWindow,
+004af922,14,TerminatedCString,ShowScrollBar,
+004af932,16,TerminatedCString,ShowOwnedPopups,
+004af944,11,TerminatedCString,ShowCursor,
+004af952,13,TerminatedCString,SetWindowRgn,
+004af962,18,TerminatedCString,SetWindowsHookExA,
+004af976,15,TerminatedCString,SetWindowTextA,
+004af988,13,TerminatedCString,SetWindowPos,
+004af998,19,TerminatedCString,SetWindowPlacement,
+004af9ae,15,TerminatedCString,SetWindowLongA,
+004af9c0,9,TerminatedCString,SetTimer,
+004af9cc,15,TerminatedCString,SetScrollRange,
+004af9de,13,TerminatedCString,SetScrollPos,
+004af9ee,14,TerminatedCString,SetScrollInfo,
+004af9fe,8,TerminatedCString,SetRect,
+004afa08,9,TerminatedCString,SetPropA,
+004afa14,17,TerminatedCString,SetMenuItemInfoA,
+004afa28,8,TerminatedCString,SetMenu,
+004afa32,20,TerminatedCString,SetForegroundWindow,
+004afa48,9,TerminatedCString,SetFocus,
+004afa54,10,TerminatedCString,SetCursor,
+004afa60,17,TerminatedCString,SetClipboardData,
+004afa74,14,TerminatedCString,SetClassLongA,
+004afa84,11,TerminatedCString,SetCapture,
+004afa92,16,TerminatedCString,SetActiveWindow,
+004afaa4,13,TerminatedCString,SendMessageA,
+004afab4,13,TerminatedCString,ScrollWindow,
+004afac4,15,TerminatedCString,ScreenToClient,
+004afad6,12,TerminatedCString,RemovePropA,
+004afae4,11,TerminatedCString,RemoveMenu,
+004afaf2,10,TerminatedCString,ReleaseDC,
+004afafe,15,TerminatedCString,ReleaseCapture,
+004afb10,23,TerminatedCString,RegisterWindowMessageA,
+004afb2a,25,TerminatedCString,RegisterClipboardFormatA,
+004afb46,15,TerminatedCString,RegisterClassA,
+004afb58,13,TerminatedCString,RedrawWindow,
+004afb68,9,TerminatedCString,PtInRect,
+004afb74,16,TerminatedCString,PostQuitMessage,
+004afb86,13,TerminatedCString,PostMessageA,
+004afb96,13,TerminatedCString,PeekMessageA,
+004afba6,14,TerminatedCString,OpenClipboard,
+004afbb6,11,TerminatedCString,OffsetRect,
+004afbc4,11,TerminatedCString,OemToCharA,
+004afbd2,12,TerminatedCString,MessageBoxA,
+004afbe0,12,TerminatedCString,MessageBeep,
+004afbee,16,TerminatedCString,MapWindowPoints,
+004afc00,15,TerminatedCString,MapVirtualKeyA,
+004afc12,12,TerminatedCString,LoadStringA,
+004afc20,20,TerminatedCString,LoadKeyboardLayoutA,
+004afc36,10,TerminatedCString,LoadIconA,
+004afc42,12,TerminatedCString,LoadCursorA,
+004afc50,12,TerminatedCString,LoadBitmapA,
+004afc5e,10,TerminatedCString,KillTimer,
+004afc6a,9,TerminatedCString,IsZoomed,
+004afc76,16,TerminatedCString,IsWindowVisible,
+004afc88,16,TerminatedCString,IsWindowEnabled,
+004afc9a,9,TerminatedCString,IsWindow,
+004afca6,12,TerminatedCString,IsRectEmpty,
+004afcb4,9,TerminatedCString,IsIconic,
+004afcc0,17,TerminatedCString,IsDialogMessageA,
+004afcd4,8,TerminatedCString,IsChild,
+004afcde,15,TerminatedCString,InvalidateRect,
+004afcf0,14,TerminatedCString,IntersectRect,
+004afd00,16,TerminatedCString,InsertMenuItemA,
+004afd12,12,TerminatedCString,InsertMenuA,
+004afd20,12,TerminatedCString,InflateRect,
+004afd2e,25,TerminatedCString,GetWindowThreadProcessId,
+004afd4a,15,TerminatedCString,GetWindowTextA,
+004afd5c,13,TerminatedCString,GetWindowRgn,
+004afd6c,14,TerminatedCString,GetWindowRect,
+004afd7c,19,TerminatedCString,GetWindowPlacement,
+004afd92,15,TerminatedCString,GetWindowLongA,
+004afda4,12,TerminatedCString,GetWindowDC,
+004afdb2,13,TerminatedCString,GetTopWindow,
+004afdc2,17,TerminatedCString,GetSystemMetrics,
+004afdd6,14,TerminatedCString,GetSystemMenu,
+004afde6,12,TerminatedCString,GetSysColor,
+004afdf4,11,TerminatedCString,GetSubMenu,
+004afe02,15,TerminatedCString,GetScrollRange,
+004afe14,13,TerminatedCString,GetScrollPos,
+004afe24,14,TerminatedCString,GetScrollInfo,
+004afe34,9,TerminatedCString,GetPropA,
+004afe40,10,TerminatedCString,GetParent,
+004afe4c,10,TerminatedCString,GetWindow,
+004afe58,15,TerminatedCString,GetMessageTime,
+004afe6a,15,TerminatedCString,GetMenuStringA,
+004afe7c,13,TerminatedCString,GetMenuState,
+004afe8c,17,TerminatedCString,GetMenuItemInfoA,
+004afea0,14,TerminatedCString,GetMenuItemID,
+004afeb0,17,TerminatedCString,GetMenuItemCount,
+004afec4,8,TerminatedCString,GetMenu,
+004afece,19,TerminatedCString,GetLastActivePopup,
+004afee4,17,TerminatedCString,GetKeyboardState,
+004afef8,22,TerminatedCString,GetKeyboardLayoutList,
+004aff10,18,TerminatedCString,GetKeyboardLayout,
+004aff24,12,TerminatedCString,GetKeyState,
+004aff32,16,TerminatedCString,GetKeyNameTextA,
+004aff44,12,TerminatedCString,GetIconInfo,
+004aff52,20,TerminatedCString,GetForegroundWindow,
+004aff68,9,TerminatedCString,GetFocus,
+004aff74,17,TerminatedCString,GetDesktopWindow,
+004aff88,8,TerminatedCString,GetDCEx,
+004aff92,6,TerminatedCString,GetDC,
+004aff9a,13,TerminatedCString,GetCursorPos,
+004affaa,10,TerminatedCString,GetCursor,
+004affb6,17,TerminatedCString,GetClipboardData,
+004affca,14,TerminatedCString,GetClientRect,
+004affda,14,TerminatedCString,GetClassInfoA,
+004affea,11,TerminatedCString,GetCapture,
+004afff8,16,TerminatedCString,GetActiveWindow,
+004b000a,10,TerminatedCString,FrameRect,
+004b0016,12,TerminatedCString,FindWindowA,
+004b0024,9,TerminatedCString,FillRect,
+004b0030,10,TerminatedCString,EqualRect,
+004b003c,12,TerminatedCString,EnumWindows,
+004b004a,18,TerminatedCString,EnumThreadWindows,
+004b005e,21,TerminatedCString,EnumDisplaySettingsA,
+004b0076,21,TerminatedCString,EnumClipboardFormats,
+004b008e,9,TerminatedCString,EndPaint,
+004b009a,13,TerminatedCString,EnableWindow,
+004b00aa,16,TerminatedCString,EnableScrollBar,
+004b00bc,15,TerminatedCString,EnableMenuItem,
+004b00ce,15,TerminatedCString,EmptyClipboard,
+004b00e0,10,TerminatedCString,DrawTextA,
+004b00ec,12,TerminatedCString,DrawMenuBar,
+004b00fa,11,TerminatedCString,DrawIconEx,
+004b0108,9,TerminatedCString,DrawIcon,
+004b0114,17,TerminatedCString,DrawFrameControl,
+004b0128,14,TerminatedCString,DrawFocusRect,
+004b0138,9,TerminatedCString,DrawEdge,
+004b0144,17,TerminatedCString,DispatchMessageA,
+004b0158,14,TerminatedCString,DestroyWindow,
+004b0168,12,TerminatedCString,DestroyMenu,
+004b0176,12,TerminatedCString,DestroyIcon,
+004b0184,14,TerminatedCString,DestroyCursor,
+004b0194,11,TerminatedCString,DeleteMenu,
+004b01a2,15,TerminatedCString,DefWindowProcA,
+004b01b4,17,TerminatedCString,DefMDIChildProcA,
+004b01c8,14,TerminatedCString,DefFrameProcA,
+004b01d8,16,TerminatedCString,CreateWindowExA,
+004b01ea,16,TerminatedCString,CreatePopupMenu,
+004b01fc,11,TerminatedCString,CreateMenu,
+004b020a,11,TerminatedCString,CreateIcon,
+004b0218,15,TerminatedCString,CloseClipboard,
+004b022a,15,TerminatedCString,ClientToScreen,
+004b023c,14,TerminatedCString,CheckMenuItem,
+004b024c,23,TerminatedCString,ChangeDisplaySettingsA,
+004b0266,16,TerminatedCString,CallWindowProcA,
+004b0278,15,TerminatedCString,CallNextHookEx,
+004b028a,11,TerminatedCString,BeginPaint,
+004b0298,15,TerminatedCString,CharLowerBuffA,
+004b02aa,11,TerminatedCString,CharLowerA,
+004b02b8,19,TerminatedCString,AdjustWindowRectEx,
+004b02ce,23,TerminatedCString,ActivateKeyboardLayout,
+004b02e6,10,TerminatedCString,ole32.dll,
+004b02f2,22,TerminatedCString,CreateStreamOnHGlobal,
+004b030a,14,TerminatedCString,IsAccelerator,
+004b031a,8,TerminatedCString,OleDraw,
+004b0324,21,TerminatedCString,OleSetMenuDescriptor,
+004b033c,17,TerminatedCString,CoCreateInstance,
+004b0350,17,TerminatedCString,CoGetClassObject,
+004b0364,15,TerminatedCString,CoUninitialize,
+004b0376,13,TerminatedCString,CoInitialize,
+004b0386,12,TerminatedCString,IsEqualGUID,
+004b0392,13,TerminatedCString,oleaut32.dll,
+004b03a2,13,TerminatedCString,GetErrorInfo,
+004b03b2,14,TerminatedCString,SysFreeString,
+004b03c0,13,TerminatedCString,comctl32.dll,
+004b03d0,22,TerminatedCString,ImageList_SetIconSize,
+004b03e8,22,TerminatedCString,ImageList_GetIconSize,
+004b0400,16,TerminatedCString,ImageList_Write,
+004b0412,15,TerminatedCString,ImageList_Read,
+004b0424,23,TerminatedCString,ImageList_GetDragImage,
+004b043e,25,TerminatedCString,ImageList_DragShowNolock,
+004b045a,29,TerminatedCString,ImageList_SetDragCursorImage,
+004b047a,19,TerminatedCString,ImageList_DragMove,
+004b0490,20,TerminatedCString,ImageList_DragLeave,
+004b04a6,20,TerminatedCString,ImageList_DragEnter,
+004b04bc,18,TerminatedCString,ImageList_EndDrag,
+004b04d0,20,TerminatedCString,ImageList_BeginDrag,
+004b04e6,17,TerminatedCString,ImageList_Remove,
+004b04fa,17,TerminatedCString,ImageList_DrawEx,
+004b050e,18,TerminatedCString,ImageList_Replace,
+004b0522,15,TerminatedCString,ImageList_Draw,
+004b0534,21,TerminatedCString,ImageList_GetBkColor,
+004b054c,21,TerminatedCString,ImageList_SetBkColor,
+004b0564,22,TerminatedCString,ImageList_ReplaceIcon,
+004b057c,14,TerminatedCString,ImageList_Add,
+004b058c,24,TerminatedCString,ImageList_GetImageCount,
+004b05a6,18,TerminatedCString,ImageList_Destroy,
+004b05ba,17,TerminatedCString,ImageList_Create,
+004b05ce,19,TerminatedCString,InitCommonControls,
+004b05e2,12,TerminatedCString,shell32.dll,
+004b05f0,14,TerminatedCString,ShellExecuteA,
+004b05fe,10,TerminatedCString,winmm.dll,
+004b060a,16,TerminatedCString,mciSendCommandA,
+004b061c,19,TerminatedCString,mciGetErrorStringA,
+004b0630,13,TerminatedCString,avifil32.dll,
+004b0640,14,TerminatedCString,AVIStreamInfo,
+004b0650,18,TerminatedCString,AVIStreamGetFrame,
+004b0664,22,TerminatedCString,AVIStreamGetFrameOpen,
+004b067c,17,TerminatedCString,AVIFileGetStream,
+004b0690,12,TerminatedCString,AVIFileExit,
+004b069e,12,TerminatedCString,AVIFileOpen,
+004b06ac,15,TerminatedCString,AVIFileRelease,
+004b06be,17,TerminatedCString,AVIStreamRelease,
+004b06d2,23,TerminatedCString,AVIStreamGetFrameClose,
+004b06ec,12,TerminatedCString,AVIFileInit,
+004b06f8,11,TerminatedCString,DSound.dll,
+004b0706,18,TerminatedCString,DirectSoundCreate,
+004b0718,10,TerminatedCString,DDraw.dll,
+004b0724,17,TerminatedCString,DirectDrawCreate,
+004b0738,21,TerminatedCString,DirectDrawEnumerateA,
+004b074e,8,TerminatedCString,RSC.DLL,
+004b0758,20,TerminatedCString,xvga_get_filehandle,
+004b076e,16,TerminatedCString,xvga_file_exist,
+004b0780,20,TerminatedCString,xvga_src_filelength,
+004b0796,16,TerminatedCString,xvga_src_fclose,
+004b07a8,15,TerminatedCString,xvga_src_fopen,
+004b07ba,17,TerminatedCString,xvga_exit_fileio,
+004b07ce,17,TerminatedCString,xvga_init_fileio,
+004cbb20,6,PascalUnicode,OK,
+004cbb26,20,PascalUnicode,Annuleren,
+004cbb3a,22,PascalUnicode,Af&drukken,
+004cbb50,32,PascalUnicode,Alles &Markeren,
+004cbb70,36,PascalUnicode,Alles &Demarkeren,
+004cbb94,16,PascalUnicode,&Acties,
+004cbba4,30,PascalUnicode,&Eigenschappen,
+004cbbc2,20,PascalUnicode,Help (F1),
+004cbbd6,36,PascalUnicode,Sluiten (Ctrl-F4),
+004cbbfa,20,PascalUnicode,Toevoegen,
+004cbc0e,24,PascalUnicode,Verwijderen,
+004cbc26,18,PascalUnicode,Wijzigen,
+004cbc38,14,PascalUnicode,Vorige,
+004cbc46,18,PascalUnicode,Volgende,
+004cbc58,36,PascalUnicode,Alles &Demarkeren,
+004cbc7c,14,PascalUnicode,Openen,
+004cbc8c,16,PascalUnicode,Opslaan,
+004cbc9c,42,PascalUnicode,Printer instellingen,
+004cbcc6,20,PascalUnicode,Standaard,
+004cbcda,14,PascalUnicode,Zoeken,
+004cbce8,2,PascalUnicode,,
+004cbcea,2,PascalUnicode,,
+004cbcec,2,PascalUnicode,,
+004cbcee,2,PascalUnicode,,
+004cbcf0,2,PascalUnicode,,
+004cbcf2,2,PascalUnicode,,
+004cbcf4,2,PascalUnicode,,
+004cbcf6,2,PascalUnicode,,
+004cbcf8,2,PascalUnicode,,
+004cbcfa,2,PascalUnicode,,
+004cbcfc,2,PascalUnicode,,
+004cbcfe,2,PascalUnicode,,
+004cbd00,32,PascalUnicode,servicenotfound,
+004cbd20,212,PascalUnicode,"%s heeft Davi-Service niet kunnen opstarten.
+Controleer of Davi-Service op uw computer is geïnstalleerd.",
+004cbdf4,108,PascalUnicode,Er is geen naam voor de logfile; check in de registry,
+004cbe60,150,PascalUnicode,"Er is een zware fout opgetreden, waarover geen bijzonderheden bekend zijn.",
+004cbef6,146,PascalUnicode,"Logfile ""%s"" is schrijfbeveiligd. De fout kan niet worden weggeschreven.",
+004cbf88,2,PascalUnicode,,
+004cbf8a,2,PascalUnicode,,
+004cbf8c,2,PascalUnicode,,
+004cbf8e,2,PascalUnicode,,
+004cbf90,2,PascalUnicode,,
+004cbf92,2,PascalUnicode,,
+004cbf94,2,PascalUnicode,,
+004cbf96,2,PascalUnicode,,
+004cbf98,2,PascalUnicode,,
+004cbf9a,2,PascalUnicode,,
+004cbf9c,2,PascalUnicode,,
+004cbfa8,66,PascalUnicode,Failed to delete tab at index %d,
+004cbfea,70,PascalUnicode,Failed to retrieve tab at index %d,
+004cc030,66,PascalUnicode,Failed to get object at index %d,
+004cc072,70,PascalUnicode,"Failed to set tab ""%s"" at index %d",
+004cc0b8,66,PascalUnicode,Failed to set object at index %d,
+004cc0fa,122,PascalUnicode,MultiLine must be True when TabPosition is tpLeft or tpRight,
+004cc174,140,PascalUnicode,%d is an invalid PageIndex value.  PageIndex must be between 0 and %d,
+004cc200,44,PascalUnicode,Onherkenbare exceptie,
+004cc22c,26,PascalUnicode,errormessage,
+004cc246,26,PascalUnicode,startservice,
+004cc260,12,PascalUnicode,close,
+004cc26c,14,PascalUnicode,ignore,
+004cc27a,450,PascalUnicode,"Er is een onverwachte fout opgetreden in %s.
+Controleer met Davi-Service of er een oplossing is voor dit probleem.
+Het is raadzaam om %s nu af te sluiten en opnieuw op te starten.
+
+Maak een keuze uit onderstaande opties.",
+004cc43c,98,PascalUnicode,Davi-Service &starten (%s zal worden afgesloten),
+004cc49e,28,PascalUnicode,%s &afsluiten,
+004cc4ba,78,PascalUnicode,De fout negeren en verder werken in %s,
+004cc528,40,PascalUnicode,Kleine pictogrammen,
+004cc550,12,PascalUnicode,Lijst,
+004cc55c,16,PascalUnicode,Details,
+004cc56c,40,PascalUnicode,Zoeken... (Ctrl+F3),
+004cc594,42,PascalUnicode,Volgende zoeken (F3),
+004cc5be,50,PascalUnicode,Vorige zoeken (Shift+F3),
+004cc5f0,34,PascalUnicode,Knippen (Ctrl+X),
+004cc612,34,PascalUnicode,Kopiëren Ctrl+C),
+004cc634,34,PascalUnicode,Plakken (Ctrl+V),
+004cc656,20,PascalUnicode,Toevoegen,
+004cc66a,44,PascalUnicode,Negatieve beoordeling,
+004cc696,42,PascalUnicode,Neutrale beoordeling,
+004cc6c0,44,PascalUnicode,Positieve beoordeling,
+004cc6ec,20,PascalUnicode,Vervangen,
+004cc700,32,PascalUnicode,Alles vervangen,
+004cc720,56,PascalUnicode,Failed to clear tab control,
+004cc778,30,PascalUnicode,Alles Markeren,
+004cc796,34,PascalUnicode,Alles Demarkeren,
+004cc7b8,14,PascalUnicode,Acties,
+004cc7c6,28,PascalUnicode,Eigenschappen,
+004cc7e2,10,PascalUnicode,Help,
+004cc7ec,16,PascalUnicode,Sluiten,
+004cc7fc,32,PascalUnicode,Toevoegen (Ins),
+004cc81c,28,PascalUnicode,Wijzigen (F2),
+004cc838,14,PascalUnicode,Vorige,
+004cc846,18,PascalUnicode,Volgende,
+004cc858,38,PascalUnicode,Openen... (Ctrl+O),
+004cc87e,34,PascalUnicode,Opslaan (Ctrl+S),
+004cc8a0,42,PascalUnicode,Printer instellingen,
+004cc8ca,20,PascalUnicode,Standaard,
+004cc8de,40,PascalUnicode,Zoeken... (Ctrl+F3),
+004cc906,38,PascalUnicode,Grote pictogrammen,
+004cc94c,24,PascalUnicode,Zoek eerste,
+004cc964,28,PascalUnicode,Zoek volgende,
+004cc980,24,PascalUnicode,Zoek vorige,
+004cc998,16,PascalUnicode,Knippen,
+004cc9a8,18,PascalUnicode,Kopiëren,
+004cc9ba,16,PascalUnicode,Plakken,
+004cc9ca,20,PascalUnicode,Toevoegen,
+004cc9de,18,PascalUnicode,Negatief,
+004cc9f0,18,PascalUnicode,Neutraal,
+004cca02,18,PascalUnicode,Positief,
+004cca14,16,PascalUnicode,Vervang,
+004cca24,28,PascalUnicode,Vervang alles,
+004cca40,6,PascalUnicode,OK,
+004cca46,36,PascalUnicode,Verwijderen (Del),
+004cca6a,44,PascalUnicode,Afdrukken... (Ctrl+P),
+004cca96,20,PascalUnicode,Annuleren,
+004ccacc,20,PascalUnicode,Annuleren,
+004ccae0,32,PascalUnicode,Alles &Markeren,
+004ccb00,36,PascalUnicode,Alles &Demarkeren,
+004ccb24,16,PascalUnicode,&Acties,
+004ccb34,30,PascalUnicode,&Eigenschappen,
+004ccb52,10,PascalUnicode,Help,
+004ccb5c,16,PascalUnicode,Sluiten,
+004ccb6c,20,PascalUnicode,Toevoegen,
+004ccb80,18,PascalUnicode,Wijzigen,
+004ccb92,14,PascalUnicode,Vorige,
+004ccba0,18,PascalUnicode,Volgende,
+004ccbb2,14,PascalUnicode,Openen,
+004ccbc0,16,PascalUnicode,Opslaan,
+004ccbd0,42,PascalUnicode,Printer instellingen,
+004ccbfa,20,PascalUnicode,Standaard,
+004ccc0e,14,PascalUnicode,Zoeken,
+004ccc3c,84,PascalUnicode,Niet genoeg geheugen om melding te tonen.,
+004ccc90,36,PascalUnicode,%s cannot be made,
+004cccb4,104,PascalUnicode,Index of the scanning line exceeded the range. (%d),
+004ccd1c,30,PascalUnicode,DIB is invalid,
+004ccd3a,50,PascalUnicode,Bitcount in invalid (%d),
+004ccd6c,46,PascalUnicode,PixelFormat in invalid,
+004ccd9a,30,PascalUnicode,OLE error %.8x,
+004ccdb8,94,PascalUnicode,Method '%s' not supported by automation object,
+004cce16,96,PascalUnicode,Variant does not reference an automation object,
+004cce76,60,PascalUnicode,OLE control activation failed,
+004cceb2,86,PascalUnicode,Could not obtain OLE control window handle,
+004ccf08,76,PascalUnicode,License information for %s is invalid,
+004ccf54,162,PascalUnicode,License information for %s not found. You cannot use this control in design mode,
+004ccff6,6,PascalUnicode,OK,
+004ccffc,24,PascalUnicode,Verwijderen,
+004cd014,22,PascalUnicode,Af&drukken,
+004cd04c,10,PascalUnicode,Alt+,
+004cd056,48,PascalUnicode,Unable to insert a line,
+004cd086,50,PascalUnicode,Invalid clipboard format,
+004cd0b8,66,PascalUnicode,Clipboard does not support Icons,
+004cd0fa,44,PascalUnicode,Cannot open clipboard,
+004cd126,54,PascalUnicode,Text exceeds memo capacity,
+004cd15c,44,PascalUnicode,Unable to write to %s,
+004cd188,48,PascalUnicode,Bits index out of range,
+004cd1b8,96,PascalUnicode,Menu '%s' is already being used by another form,
+004cd218,38,PascalUnicode,No MCI device open,
+004cd23e,38,PascalUnicode,Unknown error code,
+004cd264,64,PascalUnicode,Docked control must have a name,
+004cd2a4,76,PascalUnicode,Error removing control from dock tree,
+004cd2f0,46,PascalUnicode, - Dock zone not found,
+004cd31e,56,PascalUnicode, - Dock zone has no control,
+004cd356,76,PascalUnicode,List does not allow duplicates ($0%x),
+004cd3c4,8,PascalUnicode,Tab,
+004cd3cc,8,PascalUnicode,Esc,
+004cd3d4,12,PascalUnicode,Enter,
+004cd3e0,12,PascalUnicode,Space,
+004cd3ec,10,PascalUnicode,PgUp,
+004cd3f6,10,PascalUnicode,PgDn,
+004cd400,8,PascalUnicode,End,
+004cd408,10,PascalUnicode,Home,
+004cd412,10,PascalUnicode,Left,
+004cd41c,6,PascalUnicode,Up,
+004cd422,12,PascalUnicode,Right,
+004cd42e,10,PascalUnicode,Down,
+004cd438,8,PascalUnicode,Ins,
+004cd440,8,PascalUnicode,Del,
+004cd448,14,PascalUnicode,Shift+,
+004cd456,12,PascalUnicode,Ctrl+,
+004cd484,16,PascalUnicode,Warning,
+004cd494,12,PascalUnicode,Error,
+004cd4a0,24,PascalUnicode,Information,
+004cd4b8,16,PascalUnicode,Confirm,
+004cd4c8,10,PascalUnicode,&Yes,
+004cd4d2,8,PascalUnicode,&No,
+004cd4da,6,PascalUnicode,OK,
+004cd4e0,14,PascalUnicode,Cancel,
+004cd4ee,12,PascalUnicode,&Help,
+004cd4fa,14,PascalUnicode,&Abort,
+004cd508,14,PascalUnicode,&Retry,
+004cd516,16,PascalUnicode,&Ignore,
+004cd526,10,PascalUnicode,&All,
+004cd530,22,PascalUnicode,N&o to All,
+004cd546,24,PascalUnicode,Yes to &All,
+004cd55e,10,PascalUnicode,BkSp,
+004cd588,6,PascalUnicode,OK,
+004cd58e,14,PascalUnicode,Cancel,
+004cd59c,10,PascalUnicode,&Yes,
+004cd5a6,8,PascalUnicode,&No,
+004cd5ae,12,PascalUnicode,&Help,
+004cd5ba,14,PascalUnicode,&Close,
+004cd5c8,16,PascalUnicode,&Ignore,
+004cd5d8,14,PascalUnicode,&Retry,
+004cd5e6,12,PascalUnicode,Abort,
+004cd5f2,10,PascalUnicode,&All,
+004cd5fc,38,PascalUnicode,Cannot drag a form,
+004cd622,20,PascalUnicode,Metafiles,
+004cd636,38,PascalUnicode,Enhanced Metafiles,
+004cd65c,12,PascalUnicode,Icons,
+004cd668,16,PascalUnicode,Bitmaps,
+004cd678,46,PascalUnicode,Invalid property value,
+004cd6c8,74,PascalUnicode,Error creating window device context,
+004cd712,56,PascalUnicode,Error creating window class,
+004cd74a,88,PascalUnicode,Cannot focus a disabled or invisible window,
+004cd7a2,68,PascalUnicode,Control '%s' has no parent window,
+004cd7e6,60,PascalUnicode,Cannot hide an MDI Child Form,
+004cd822,84,PascalUnicode,Cannot change Visible in OnShow or OnHide,
+004cd876,70,PascalUnicode,Cannot make a visible window modal,
+004cd8bc,50,PascalUnicode,%s property out of range,
+004cd8ee,48,PascalUnicode,Menu index out of range,
+004cd91e,40,PascalUnicode,Menu inserted twice,
+004cd946,48,PascalUnicode,Sub-menu is not in menu,
+004cd976,56,PascalUnicode,Not enough timers available,
+004cd9ae,130,PascalUnicode,GroupIndex cannot be less than a previous menu item's GroupIndex,
+004cda30,108,PascalUnicode,Cannot create form. No MDI forms are currently active,
+004cda9c,98,PascalUnicode,Can only modify an image if it contains a bitmap,
+004cdafe,86,PascalUnicode,A control cannot have itself as its parent,
+004cdb74,50,PascalUnicode,Error reading %s%s%s: %s,
+004cdba6,56,PascalUnicode,Ancestor for '%s' not found,
+004cdbde,52,PascalUnicode,Bitmap image is not valid,
+004cdc12,48,PascalUnicode,Icon image is not valid,
+004cdc42,44,PascalUnicode,Metafile is not valid,
+004cdc6e,68,PascalUnicode,Cannot change the size of an icon,
+004cdcb2,66,PascalUnicode,Invalid operation on TOleGraphic,
+004cdcf4,58,PascalUnicode,Unsupported clipboard format,
+004cdd2e,48,PascalUnicode,Out of system resources,
+004cdd5e,60,PascalUnicode,Canvas does not allow drawing,
+004cdd9a,38,PascalUnicode,Invalid image size,
+004cddc0,36,PascalUnicode,Invalid ImageList,
+004cdde4,48,PascalUnicode,Unable to Replace Image,
+004cde14,48,PascalUnicode,Invalid ImageList Index,
+004cde44,84,PascalUnicode,Failed to read ImageList data from stream,
+004cde98,82,PascalUnicode,Failed to write ImageList data to stream,
+004cdf0c,44,PascalUnicode,Invalid stream format,
+004cdf38,44,PascalUnicode,Resource %s not found,
+004cdf64,60,PascalUnicode,List index out of bounds (%d),
+004cdfa0,66,PascalUnicode,List capacity out of bounds (%d),
+004cdfe2,60,PascalUnicode,List count out of bounds (%d),
+004ce01e,88,PascalUnicode,Operation not allowed on sorted string list,
+004ce076,76,PascalUnicode,String list does not allow duplicates,
+004ce0c2,98,PascalUnicode,Tab position incompatible with current tab style,
+004ce124,98,PascalUnicode,Tab style incompatible with current tab position,
+004ce186,72,PascalUnicode,A component named %s already exists,
+004ce1ce,74,PascalUnicode,''%s'' is not a valid component name,
+004ce218,64,PascalUnicode,A class named %s already exists,
+004ce258,46,PascalUnicode,Invalid property value,
+004ce286,44,PascalUnicode,Invalid property path,
+004ce2b2,48,PascalUnicode,Property does not exist,
+004ce2e2,44,PascalUnicode,Property is read-only,
+004ce330,8,PascalUnicode,Sat,
+004ce338,14,PascalUnicode,Sunday,
+004ce346,14,PascalUnicode,Monday,
+004ce354,16,PascalUnicode,Tuesday,
+004ce364,20,PascalUnicode,Wednesday,
+004ce378,18,PascalUnicode,Thursday,
+004ce38a,14,PascalUnicode,Friday,
+004ce398,18,PascalUnicode,Saturday,
+004ce3aa,54,PascalUnicode,Cannot assign a %s to a %s,
+004ce3e0,44,PascalUnicode,Cannot create file %s,
+004ce40c,40,PascalUnicode,Cannot open file %s,
+004ce434,36,PascalUnicode,Stream read error,
+004ce458,38,PascalUnicode,Stream write error,
+004ce47e,88,PascalUnicode,Out of memory while expanding memory stream,
+004ce4d6,86,PascalUnicode,Can't write to a read-only resource stream,
+004ce52c,38,PascalUnicode,Class %s not found,
+004ce574,12,PascalUnicode,March,
+004ce580,12,PascalUnicode,April,
+004ce58c,8,PascalUnicode,May,
+004ce594,10,PascalUnicode,June,
+004ce59e,10,PascalUnicode,July,
+004ce5a8,14,PascalUnicode,August,
+004ce5b6,20,PascalUnicode,September,
+004ce5ca,16,PascalUnicode,October,
+004ce5da,18,PascalUnicode,November,
+004ce5ec,18,PascalUnicode,December,
+004ce5fe,8,PascalUnicode,Sun,
+004ce606,8,PascalUnicode,Mon,
+004ce60e,8,PascalUnicode,Tue,
+004ce616,8,PascalUnicode,Wed,
+004ce61e,8,PascalUnicode,Thu,
+004ce626,8,PascalUnicode,Fri,
+004ce650,54,PascalUnicode,"Win32 Error.  Code: %d.
+%s",
+004ce686,56,PascalUnicode,A Win32 API function failed,
+004ce6be,8,PascalUnicode,Jan,
+004ce6c6,8,PascalUnicode,Feb,
+004ce6ce,8,PascalUnicode,Mar,
+004ce6d6,8,PascalUnicode,Apr,
+004ce6de,8,PascalUnicode,May,
+004ce6e6,8,PascalUnicode,Jun,
+004ce6ee,8,PascalUnicode,Jul,
+004ce6f6,8,PascalUnicode,Aug,
+004ce6fe,8,PascalUnicode,Sep,
+004ce706,8,PascalUnicode,Oct,
+004ce70e,8,PascalUnicode,Nov,
+004ce716,8,PascalUnicode,Dec,
+004ce71e,16,PascalUnicode,January,
+004ce72e,18,PascalUnicode,February,
+004ce760,56,PascalUnicode,No argument for format '%s',
+004ce798,64,PascalUnicode,Invalid variant type conversion,
+004ce7d8,52,PascalUnicode,Invalid variant operation,
+004ce80c,70,PascalUnicode,Variant method calls not supported,
+004ce852,10,PascalUnicode,Read,
+004ce85c,12,PascalUnicode,Write,
+004ce868,58,PascalUnicode,Error creating variant array,
+004ce8a2,48,PascalUnicode,Variant is not an array,
+004ce8d2,68,PascalUnicode,Variant array index out of bounds,
+004ce916,44,PascalUnicode,External exception %x,
+004ce942,34,PascalUnicode,Assertion failed,
+004ce964,48,PascalUnicode,Interface not supported,
+004ce994,58,PascalUnicode,Exception in safecall method,
+004ce9ce,34,PascalUnicode,"%s (%s, line %d)",
+004ce9f0,30,PascalUnicode,Abstract Error,
+004cea0e,128,PascalUnicode,Access violation at address %p in module '%s'. %s of address %p,
+004ceab0,34,PascalUnicode,Division by zero,
+004cead2,36,PascalUnicode,Range check error,
+004ceaf6,34,PascalUnicode,Integer overflow,
+004ceb18,66,PascalUnicode,Invalid floating point operation,
+004ceb5a,64,PascalUnicode,Floating point division by zero,
+004ceb9a,48,PascalUnicode,Floating point overflow,
+004cebca,50,PascalUnicode,Floating point underflow,
+004cebfc,52,PascalUnicode,Invalid pointer operation,
+004cec30,46,PascalUnicode,Invalid class typecast,
+004cec5e,98,PascalUnicode,Access violation at address %p. %s of address %p,
+004cecc0,30,PascalUnicode,Stack overflow,
+004cecde,28,PascalUnicode,Control-C hit,
+004cecfa,46,PascalUnicode,Privileged instruction,
+004ced28,76,PascalUnicode,"Exception %s in module %s at %p.
+%s%s",
+004ced74,36,PascalUnicode,Application Error,
+004ced98,100,PascalUnicode,Format '%s' invalid or incompatible with argument,
+004cee1c,68,PascalUnicode,'%s' is not a valid integer value,
+004cee60,82,PascalUnicode,'%s' is not a valid floating point value,
+004ceeb2,50,PascalUnicode,'%s' is not a valid date,
+004ceee4,50,PascalUnicode,'%s' is not a valid time,
+004cef16,68,PascalUnicode,'%s' is not a valid date and time,
+004cef5a,64,PascalUnicode,Invalid argument to time encode,
+004cef9a,64,PascalUnicode,Invalid argument to date encode,
+004cefda,28,PascalUnicode,Out of memory,
+004ceff6,26,PascalUnicode,I/O error %d,
+004cf010,30,PascalUnicode,File not found,
+004cf02e,34,PascalUnicode,Invalid filename,
+004cf050,40,PascalUnicode,Too many open files,
+004cf078,38,PascalUnicode,File access denied,
+004cf09e,48,PascalUnicode,Read beyond end of file,
+004cf0ce,20,PascalUnicode,Disk full,
+004cf0e2,44,PascalUnicode,Invalid numeric input,
+00520c66,30,TerminatedUnicode,StringFileInfo,
+00520c8a,18,TerminatedUnicode,041304E4,
+00520ca2,24,TerminatedUnicode,CompanyName,
+00520cbc,16,TerminatedUnicode,Davilex,
+00520cd2,32,TerminatedUnicode,FileDescription,
+00520cf4,20,TerminatedUnicode,Race Menu,
+00520d0e,24,TerminatedUnicode,FileVersion,
+00520d28,18,TerminatedUnicode,1.0.0.59,
+00520d42,26,TerminatedUnicode,InternalName,
+00520d5c,2,TerminatedUnicode,,
+00520d66,30,TerminatedUnicode,LegalCopyright,
+00520d84,2,TerminatedUnicode,,
+00520d8e,32,TerminatedUnicode,LegalTrademarks,
+00520db0,2,TerminatedUnicode,,
+00520dba,34,TerminatedUnicode,OriginalFilename,
+00520ddc,2,TerminatedUnicode,,
+00520de6,24,TerminatedUnicode,ProductName,
+00520e00,2,TerminatedUnicode,,
+00520e0a,30,TerminatedUnicode,ProductVersion,
+00520e28,16,TerminatedUnicode,1.0.0.0,
+00520e3e,24,TerminatedUnicode,VarFileInfo,
+00520e5e,24,TerminatedUnicode,Translation,

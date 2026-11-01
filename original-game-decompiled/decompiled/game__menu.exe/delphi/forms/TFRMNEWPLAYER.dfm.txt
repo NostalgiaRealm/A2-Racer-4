@@ -1,0 +1,53 @@
+object frmNewPlayer: TfrmNewPlayer
+  Left = 340
+  Top = 308
+  ActiveControl = btnCancel.WrapperbtnCancel
+  Caption = 'frmNewPlayer'
+  ClientHeight = 267
+  ClientWidth = 526
+  OldCreateOrder = True
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnHelp: TGDIButton
+    Left = 372
+    Top = 15
+    TabOrder = 2
+  end
+  object btnClose: TGDIButton
+    Left = 447
+    Top = 15
+    TabOrder = 3
+  end
+  object btnOk1: TGDIButton
+    Left = 405
+    Top = 188
+    Width = 100
+    Height = 50
+    Definition = Data.gdfBtnOkSingleDlg
+  end
+  object btnCancel: TGDIButton
+    Left = 328
+    Top = 188
+    Width = 80
+    Height = 75
+    Cancel = False
+    Default = False
+    ModalResult = 2
+    Definition = Data.gdfBtnCancelDlg
+    MouseCheckDelay = 60
+    TabOrder = 4
+    TabStop = True
+    Caption = 'btnCancel'
+  end
+  object txtName: TEdit
+    Left = 200
+    Top = 121
+    Width = 160
+    Height = 21
+    BorderStyle = bsNone
+    Color = 36546
+    MaxLength = 12
+    TabOrder = 1
+    OnKeyDown = txtNameKeyDown
+  end
+end

@@ -1,0 +1,869 @@
+// Generated reconstruction of bonus.dso, not original source. Built only from bonus.dsasm.
+// Model (inferred, checked by "stack left" below): MOV Rn pushes a value; a call consumes its args and @self.
+// Functions with an empty stack at the end: 190. With values left: 0.
+
+class D3DVECTOR {
+  double x;
+  double y;
+  double z;
+  extern Set(val);  // bound to game code
+}
+class D3DCOLOR {
+  int r;
+  int g;
+  int b;
+  int a;
+}
+class CPlayer {
+  int damage;
+  int turbo;
+  int money;
+  extern ChangeFOV(fov, sec);  // bound to game code
+  extern MakeInvulnerable(sec);  // bound to game code
+  extern FreezeRacers(sec);  // bound to game code
+  extern FastForward(sec, force);  // bound to game code
+}
+class CBonus {
+  int active;
+  double respawntime;
+  double fadeouttime;
+  double effectduration;
+  int shademode;
+  object color;
+  object scale;
+  object angle;
+  object anglespeed;
+  extern setcolor(r, g, b, a);  // bound to game code
+  extern CreateParticles(type, offset_x, offset_y, offset_z, speed_x, speed_y, speed_z);  // bound to game code
+  OnInit_pw_fastf_ANIM() {
+    @self.respawntime = 5.0;
+    @self.fadeouttime = 3.0;
+    @self.effectduration = 4.0;
+    @self.anglespeed.y = PerSecToPerFrame(600.0);
+    @self.shademode = 1;
+    return;
+  }
+  OnPickup_pw_fastf_ANIM() {
+    GetPlayer().ChangeFOV(0.6, 1.0);
+    GetPlayer().FastForward(@self.effectduration, 4000.0);
+    PlaySample('PW_FAST');
+    PrintText(57);
+    return;
+  }
+  OnFadeout_pw_fastf_ANIM() {
+    DoDefault_OnFadeout(@self);
+    return;
+  }
+  OnTurnoff_pw_fastf_ANIM() {
+    GetPlayer().ChangeFOV(0.375, 0.5);
+    return;
+  }
+  OnFramecall_pw_fastf_ANIM() {
+    s = (GetSin(0.5, 0.3) + 1.0);
+    @self.scale.x = s;
+    @self.scale.y = s;
+    @self.scale.z = s;
+    return;
+  }
+  OnInit_pw_stop_ANIM() {
+    @self.respawntime = 15.0;
+    @self.fadeouttime = 3.0;
+    @self.effectduration = 6.0;
+    @self.anglespeed.y = PerSecToPerFrame(600.0);
+    @self.shademode = 1;
+    return;
+  }
+  OnPickup_pw_stop_ANIM() {
+    GetPlayer().FreezeRacers(@self.effectduration);
+    PlaySample('PW_FREEZ');
+    PrintText(56);
+    return;
+  }
+  OnFadeout_pw_stop_ANIM() {
+    DoDefault_OnFadeout(@self);
+    return;
+  }
+  OnTurnoff_pw_stop_ANIM() {
+    return;
+  }
+  OnFramecall_pw_stop_ANIM() {
+    s = (GetSin(0.5, 0.3) + 1.0);
+    @self.scale.x = s;
+    @self.scale.y = s;
+    @self.scale.z = s;
+    return;
+  }
+  OnInit_pw_godm_ANIM() {
+    @self.respawntime = 5.0;
+    @self.fadeouttime = 3.0;
+    @self.effectduration = 20.0;
+    @self.anglespeed.y = PerSecToPerFrame(600.0);
+    @self.shademode = 1;
+    return;
+  }
+  OnPickup_pw_godm_ANIM() {
+    GetPlayer().MakeInvulnerable(@self.effectduration);
+    PlaySample('PW_INV');
+    PrintText(58);
+    return;
+  }
+  OnFadeout_pw_godm_ANIM() {
+    DoDefault_OnFadeout(@self);
+    return;
+  }
+  OnTurnoff_pw_godm_ANIM() {
+    return;
+  }
+  OnFramecall_pw_godm_ANIM() {
+    s = (GetSin(0.5, 0.3) + 1.0);
+    @self.scale.x = s;
+    @self.scale.y = s;
+    @self.scale.z = s;
+    return;
+  }
+  OnInit_pw_1pts_ANIM() {
+    @self.respawntime = -1.0;
+    @self.fadeouttime = 3.0;
+    @self.effectduration = 4.0;
+    @self.anglespeed.y = PerSecToPerFrame(600.0);
+    @self.shademode = 1;
+    return;
+  }
+  OnPickup_pw_1pts_ANIM() {
+    UPDATE<sub 1>(GetPlayer().money, 100);
+    PlaySample('PW_1PT');
+    PrintText(59);
+    return;
+  }
+  OnFadeout_pw_1pts_ANIM() {
+    DoDefault_OnFadeout(@self);
+    return;
+  }
+  OnTurnoff_pw_1pts_ANIM() {
+    return;
+  }
+  OnFramecall_pw_1pts_ANIM() {
+    s = (GetSin(0.5, 0.2) + 1.0);
+    @self.scale.x = s;
+    @self.scale.y = s;
+    @self.scale.z = s;
+    return;
+  }
+  OnInit_pw_10pts_ANIM() {
+    @self.respawntime = -1.0;
+    @self.fadeouttime = 3.0;
+    @self.effectduration = 4.0;
+    @self.anglespeed.y = PerSecToPerFrame(600.0);
+    @self.shademode = 1;
+    return;
+  }
+  OnPickup_pw_10pts_ANIM() {
+    UPDATE<sub 1>(GetPlayer().money, 1000);
+    PlaySample('PW_10PTS');
+    PrintText(61);
+    return;
+  }
+  OnFadeout_pw_10pts_ANIM() {
+    DoDefault_OnFadeout(@self);
+    return;
+  }
+  OnTurnoff_pw_10pts_ANIM() {
+    return;
+  }
+  OnFramecall_pw_10pts_ANIM() {
+    s = (GetSin(0.5, 0.3) + 1.0);
+    @self.scale.x = s;
+    @self.scale.y = s;
+    @self.scale.z = s;
+    return;
+  }
+  OnInit_pw_5pts_ANIM() {
+    @self.respawntime = -1.0;
+    @self.fadeouttime = 3.0;
+    @self.effectduration = 4.0;
+    @self.anglespeed.y = PerSecToPerFrame(600.0);
+    @self.shademode = 1;
+    return;
+  }
+  OnPickup_pw_5pts_ANIM() {
+    UPDATE<sub 1>(GetPlayer().money, 500);
+    PlaySample('PW_5PTS');
+    PrintText(60);
+    return;
+  }
+  OnFadeout_pw_5pts_ANIM() {
+    DoDefault_OnFadeout(@self);
+    return;
+  }
+  OnTurnoff_pw_5pts_ANIM() {
+    return;
+  }
+  OnFramecall_pw_5pts_ANIM() {
+    s = (GetSin(0.5, 0.3) + 1.0);
+    @self.scale.x = s;
+    @self.scale.y = s;
+    @self.scale.z = s;
+    return;
+  }
+  OnInit_pw_turbs_ANIM() {
+    @self.respawntime = 15.0;
+    @self.fadeouttime = 3.0;
+    @self.effectduration = 4.0;
+    @self.anglespeed.y = PerSecToPerFrame(600.0);
+    @self.shademode = 1;
+    return;
+  }
+  OnPickup_pw_turbs_ANIM() {
+    UPDATE<sub 1>(GetPlayer().turbo, 10);
+    PlaySample('PW_TURBS');
+    PrintText(64);
+    return;
+  }
+  OnFadeout_pw_turbs_ANIM() {
+    DoDefault_OnFadeout(@self);
+    return;
+  }
+  OnTurnoff_pw_turbs_ANIM() {
+    return;
+  }
+  OnFramecall_pw_turbs_ANIM() {
+    s = (GetSin(0.5, 0.3) + 1.0);
+    @self.scale.x = s;
+    @self.scale.y = s;
+    @self.scale.z = s;
+    return;
+  }
+  OnInit_pw_turbb_ANIM() {
+    @self.respawntime = 15.0;
+    @self.fadeouttime = 3.0;
+    @self.effectduration = 4.0;
+    @self.anglespeed.y = PerSecToPerFrame(600.0);
+    @self.shademode = 1;
+    return;
+  }
+  OnPickup_pw_turbb_ANIM() {
+    UPDATE<sub 1>(GetPlayer().turbo, 50);
+    PlaySample('PW_TURBB');
+    PrintText(65);
+    return;
+  }
+  OnFadeout_pw_turbb_ANIM() {
+    DoDefault_OnFadeout(@self);
+    return;
+  }
+  OnTurnoff_pw_turbb_ANIM() {
+    return;
+  }
+  OnFramecall_pw_turbb_ANIM() {
+    s = (GetSin(0.5, 0.3) + 1.0);
+    @self.scale.x = s;
+    @self.scale.y = s;
+    @self.scale.z = s;
+    return;
+  }
+  OnInit_pw_reps_ANIM() {
+    @self.respawntime = 15.0;
+    @self.fadeouttime = 3.0;
+    @self.effectduration = 4.0;
+    @self.anglespeed.y = PerSecToPerFrame(600.0);
+    @self.shademode = 1;
+    return;
+  }
+  OnPickup_pw_reps_ANIM() {
+    UPDATE<sub 3>(GetPlayer().damage, 100);
+    PlaySample('PW_REPS');
+    PrintText(62);
+    return;
+  }
+  OnFadeout_pw_reps_ANIM() {
+    DoDefault_OnFadeout(@self);
+    return;
+  }
+  OnTurnoff_pw_reps_ANIM() {
+    return;
+  }
+  OnFramecall_pw_reps_ANIM() {
+    s = (GetSin(0.5, 0.3) + 1.0);
+    @self.scale.x = s;
+    @self.scale.y = s;
+    @self.scale.z = s;
+    return;
+  }
+  OnInit_pw_repb_ANIM() {
+    @self.respawntime = 15.0;
+    @self.fadeouttime = 3.0;
+    @self.effectduration = 4.0;
+    @self.anglespeed.y = PerSecToPerFrame(600.0);
+    @self.shademode = 1;
+    return;
+  }
+  OnPickup_pw_repb_ANIM() {
+    UPDATE<sub 3>(GetPlayer().damage, 300);
+    PlaySample('PW_REPB');
+    PrintText(63);
+    return;
+  }
+  OnFadeout_pw_repb_ANIM() {
+    DoDefault_OnFadeout(@self);
+    return;
+  }
+  OnTurnoff_pw_repb_ANIM() {
+    return;
+  }
+  OnFramecall_pw_repb_ANIM() {
+    s = (GetSin(0.5, 0.3) + 1.0);
+    @self.scale.x = s;
+    @self.scale.y = s;
+    @self.scale.z = s;
+    return;
+  }
+}
+class CScriptedObject {
+  object color;
+  int shademode;
+  extern SetColor(r, g, b, a);  // bound to game code
+  extern InitPhysics(mass, friction, elasticity, unmovable);  // bound to game code
+  extern InitPhysics2(mass, friction, elasticity, masscenter_x, masscenter_y, masscenter_z);  // bound to game code
+  extern InitMultiObjectPhysics(mass, friction, elasticity, unmovable);  // bound to game code
+  extern InitPiledObjectPhysics(mass, friction, elasticity, unmovable);  // bound to game code
+  extern AddConstraint(unmovable, break_force, anchor_x, anchor_y, anchor_z);  // bound to game code
+  extern AddConstraintXAxis(unmovable, break_force, anchor_x, anchor_y, anchor_z);  // bound to game code
+  extern AddConstraintYAxis(unmovable, break_force, anchor_x, anchor_y, anchor_z);  // bound to game code
+  extern AddConstraintZAxis(unmovable, break_force, anchor_x, anchor_y, anchor_z);  // bound to game code
+  extern InitSound3D(name);  // bound to game code
+  extern PlaySound3D(loop_sample);  // bound to game code
+  extern DeleteSound3D();  // bound to game code
+  extern CreateParticles(type, offset_x, offset_y, offset_z, speed_x, speed_y, speed_z);  // bound to game code
+  extern OnInit_TestAnim();  // bound to game code
+  extern OnFramecall_TestAnim();  // bound to game code
+  extern OnCollision_TestAnim();  // bound to game code
+  extern OnRevive_TestAnim();  // bound to game code
+  extern OnSimulation_TestAnim();  // bound to game code
+  extern OnFreeze_TestAnim();  // bound to game code
+  OnInit_B_vuil1_ANIM() {
+    @self.InitMultiObjectPhysics(100.0, 1.0, 0.2, 0);
+    return;
+  }
+  OnFramecall_B_vuil1_ANIM() {
+    return;
+  }
+  OnCollision_B_vuil1_ANIM() {
+    return;
+  }
+  OnRevive_B_vuil1_ANIM() {
+    return;
+  }
+  OnSimulation_B_vuil1_ANIM() {
+    return;
+  }
+  OnFreeze_B_vuil1_ANIM() {
+    return;
+  }
+  OnInit_B_phon_ANIM() {
+    @self.InitMultiObjectPhysics(100.0, 1.0, 0.2, 0);
+    @self.InitSound3D('TELEFOON');
+    return;
+  }
+  OnFramecall_B_phon_ANIM() {
+    return;
+  }
+  OnCollision_B_phon_ANIM() {
+    return;
+  }
+  OnRevive_B_phon_ANIM() {
+    @self.PlaySound3D(0);
+    return;
+  }
+  OnSimulation_B_phon_ANIM() {
+    return;
+  }
+  OnFreeze_B_phon_ANIM() {
+    return;
+  }
+  OnInit_B_hek1_ANIM() {
+    @self.InitMultiObjectPhysics(100.0, 1.0, 0.2, 0);
+    return;
+  }
+  OnFramecall_B_hek1_ANIM() {
+    return;
+  }
+  OnCollision_B_hek1_ANIM() {
+    return;
+  }
+  OnRevive_B_hek1_ANIM() {
+    return;
+  }
+  OnSimulation_B_hek1_ANIM() {
+    return;
+  }
+  OnFreeze_B_hek1_ANIM() {
+    return;
+  }
+  OnInit_B_crat1_ANIM() {
+    @self.InitMultiObjectPhysics(250.0, 1.0, 0.2, 0);
+    @self.InitSound3D('KRATTEN');
+    return;
+  }
+  OnFramecall_B_crat1_ANIM() {
+    return;
+  }
+  OnCollision_B_crat1_ANIM() {
+    return;
+  }
+  OnRevive_B_crat1_ANIM() {
+    @self.PlaySound3D(0);
+    return;
+  }
+  OnSimulation_B_crat1_ANIM() {
+    return;
+  }
+  OnFreeze_B_crat1_ANIM() {
+    return;
+  }
+  extern OnInit_B_crat2_ANIM();  // bound to game code
+  extern OnFramecall_B_crat2_ANIM();  // bound to game code
+  extern OnCollision_B_crat2_ANIM();  // bound to game code
+  extern OnRevive_B_crat2_ANIM();  // bound to game code
+  extern OnSimulation_B_crat2_ANIM();  // bound to game code
+  extern OnFreeze_B_crat2_ANIM();  // bound to game code
+  extern OnInit_B_BUS1_ANIM();  // bound to game code
+  extern OnFramecall_B_BUS1_ANIM();  // bound to game code
+  extern OnCollision_B_BUS1_ANIM();  // bound to game code
+  extern OnRevive_B_BUS1_ANIM();  // bound to game code
+  extern OnSimulation_B_BUS1_ANIM();  // bound to game code
+  extern OnFreeze_B_BUS1_ANIM();  // bound to game code
+  OnInit_B_STEI1_ANIM() {
+    @self.InitMultiObjectPhysics(100.0, 1.0, 0.2, 0);
+    return;
+  }
+  OnFramecall_B_STEI1_ANIM() {
+    return;
+  }
+  OnCollision_B_STEI1_ANIM() {
+    return;
+  }
+  OnRevive_B_STEI1_ANIM() {
+    return;
+  }
+  OnSimulation_B_STEI1_ANIM() {
+    return;
+  }
+  OnFreeze_B_STEI1_ANIM() {
+    return;
+  }
+  extern OnInit_B_VENT1_ANIM();  // bound to game code
+  extern OnFramecall_B_VENT1_ANIM();  // bound to game code
+  extern OnCollision_B_VENT1_ANIM();  // bound to game code
+  extern OnRevive_B_VENT1_ANIM();  // bound to game code
+  extern OnSimulation_B_VENT1_ANIM();  // bound to game code
+  extern OnFreeze_B_VENT1_ANIM();  // bound to game code
+  OnInit_E0_STAT_ANIM() {
+    @self.InitMultiObjectPhysics(250.0, 1.0, 0.2, 0);
+    return;
+  }
+  OnFramecall_E0_STAT_ANIM() {
+    return;
+  }
+  OnCollision_E0_STAT_ANIM() {
+    return;
+  }
+  OnRevive_E0_STAT_ANIM() {
+    return;
+  }
+  OnSimulation_E0_STAT_ANIM() {
+    return;
+  }
+  OnFreeze_E0_STAT_ANIM() {
+    return;
+  }
+  OnInit_0_NAGW1_ANIM() {
+    @self.InitMultiObjectPhysics(50.0, 1.0, 0.2, 0);
+    return;
+  }
+  OnFramecall_0_NAGW1_ANIM() {
+    return;
+  }
+  OnCollision_0_NAGW1_ANIM() {
+    return;
+  }
+  OnRevive_0_NAGW1_ANIM() {
+    return;
+  }
+  OnSimulation_0_NAGW1_ANIM() {
+    return;
+  }
+  OnFreeze_0_NAGW1_ANIM() {
+    return;
+  }
+  OnInit_B_TOIL1_ANIM() {
+    @self.InitMultiObjectPhysics(100.0, 1.0, 0.2, 0);
+    return;
+  }
+  OnFramecall_B_TOIL1_ANIM() {
+    return;
+  }
+  OnCollision_B_TOIL1_ANIM() {
+    return;
+  }
+  OnRevive_B_TOIL1_ANIM() {
+    return;
+  }
+  OnSimulation_B_TOIL1_ANIM() {
+    return;
+  }
+  OnFreeze_B_TOIL1_ANIM() {
+    return;
+  }
+  OnInit_B_GRB1_ANIM() {
+    @self.InitMultiObjectPhysics(100.0, 1.0, 0.2, 0);
+    return;
+  }
+  OnFramecall_B_GRB1_ANIM() {
+    return;
+  }
+  OnCollision_B_GRB1_ANIM() {
+    return;
+  }
+  OnRevive_B_GRB1_ANIM() {
+    return;
+  }
+  OnSimulation_B_GRB1_ANIM() {
+    return;
+  }
+  OnFreeze_B_GRB1_ANIM() {
+    return;
+  }
+  extern OnInit_B_PIPE1_ANIM();  // bound to game code
+  extern OnFramecall_B_PIPE1_ANIM();  // bound to game code
+  extern OnCollision_B_PIPE1_ANIM();  // bound to game code
+  extern OnRevive_B_PIPE1_ANIM();  // bound to game code
+  extern OnSimulation_B_PIPE1_ANIM();  // bound to game code
+  extern OnFreeze_B_PIPE1_ANIM();  // bound to game code
+  extern OnInit_B_BEER1_ANIM();  // bound to game code
+  extern OnFramecall_B_BEER1_ANIM();  // bound to game code
+  extern OnCollision_B_BEER1_ANIM();  // bound to game code
+  extern OnRevive_B_BEER1_ANIM();  // bound to game code
+  extern OnSimulation_B_BEER1_ANIM();  // bound to game code
+  extern OnFreeze_B_BEER1_ANIM();  // bound to game code
+  OnInit_B_OIL1_ANIM() {
+    @self.InitMultiObjectPhysics(250.0, 1.0, 0.2, 0);
+    @self.InitSound3D('OLIEVATEN');
+    return;
+  }
+  OnFramecall_B_OIL1_ANIM() {
+    return;
+  }
+  OnCollision_B_OIL1_ANIM() {
+    return;
+  }
+  OnRevive_B_OIL1_ANIM() {
+    @self.PlaySound3D(0);
+    return;
+  }
+  OnSimulation_B_OIL1_ANIM() {
+    return;
+  }
+  OnFreeze_B_OIL1_ANIM() {
+    return;
+  }
+  OnInit_B_CONT1_ANIM() {
+    @self.InitPhysics(50.0, 0.0, 0.0, 0);
+    @self.AddConstraintYAxis(0, 0.0, 0.0, 0.0, 0.0);
+    return;
+  }
+  OnFramecall_B_CONT1_ANIM() {
+    return;
+  }
+  OnCollision_B_CONT1_ANIM() {
+    return;
+  }
+  OnRevive_B_CONT1_ANIM() {
+    return;
+  }
+  OnSimulation_B_CONT1_ANIM() {
+    return;
+  }
+  OnFreeze_B_CONT1_ANIM() {
+    return;
+  }
+  OnInit_B_HALT1_ANIM() {
+    @self.InitMultiObjectPhysics(250.0, 1.0, 0.2, 0);
+    @self.InitSound3D('BUSHALTE');
+    return;
+  }
+  OnFramecall_B_HALT1_ANIM() {
+    return;
+  }
+  OnCollision_B_HALT1_ANIM() {
+    return;
+  }
+  OnRevive_B_HALT1_ANIM() {
+    @self.PlaySound3D(0);
+    return;
+  }
+  OnSimulation_B_HALT1_ANIM() {
+    return;
+  }
+  OnFreeze_B_HALT1_ANIM() {
+    return;
+  }
+  OnInit_B_TRL2_ANIM() {
+    @self.InitMultiObjectPhysics(250.0, 1.0, 0.2, 0);
+    return;
+  }
+  OnFramecall_B_TRL2_ANIM() {
+    return;
+  }
+  OnCollision_B_TRL2_ANIM() {
+    return;
+  }
+  OnRevive_B_TRL2_ANIM() {
+    return;
+  }
+  OnSimulation_B_TRL2_ANIM() {
+    return;
+  }
+  OnFreeze_B_TRL2_ANIM() {
+    return;
+  }
+  OnInit_B_NPOL1_ANIM() {
+    @self.InitMultiObjectPhysics(250.0, 1.0, 0.2, 0);
+    return;
+  }
+  OnFramecall_B_NPOL1_ANIM() {
+    return;
+  }
+  OnCollision_B_NPOL1_ANIM() {
+    return;
+  }
+  OnRevive_B_NPOL1_ANIM() {
+    return;
+  }
+  OnSimulation_B_NPOL1_ANIM() {
+    return;
+  }
+  OnFreeze_B_NPOL1_ANIM() {
+    return;
+  }
+  OnInit_B_MARK1_ANIM() {
+    @self.InitMultiObjectPhysics(100.0, 1.0, 0.2, 0);
+    return;
+  }
+  OnFramecall_B_MARK1_ANIM() {
+    return;
+  }
+  OnCollision_B_MARK1_ANIM() {
+    return;
+  }
+  OnRevive_B_MARK1_ANIM() {
+    return;
+  }
+  OnSimulation_B_MARK1_ANIM() {
+    return;
+  }
+  OnFreeze_B_MARK1_ANIM() {
+    return;
+  }
+  OnInit_0_KIOSK_ANIM() {
+    @self.InitMultiObjectPhysics(250.0, 1.0, 0.2, 0);
+    return;
+  }
+  OnFramecall_0_KIOSK_ANIM() {
+    return;
+  }
+  OnCollision_0_KIOSK_ANIM() {
+    return;
+  }
+  OnRevive_0_KIOSK_ANIM() {
+    return;
+  }
+  OnSimulation_0_KIOSK_ANIM() {
+    return;
+  }
+  OnFreeze_0_KIOSK_ANIM() {
+    return;
+  }
+  extern OnInit_B_mbox1_ANIM();  // bound to game code
+  extern OnFramecall_B_mbox1_ANIM();  // bound to game code
+  extern OnCollision_B_mbox1_ANIM();  // bound to game code
+  extern OnRevive_B_mbox1_ANIM();  // bound to game code
+  extern OnSimulation_B_mbox1_ANIM();  // bound to game code
+  extern OnFreeze_B_mbox1_ANIM();  // bound to game code
+  extern OnInit_B_mbox2_ANIM();  // bound to game code
+  extern OnFramecall_B_mbox2_ANIM();  // bound to game code
+  extern OnCollision_B_mbox2_ANIM();  // bound to game code
+  extern OnRevive_B_mbox2_ANIM();  // bound to game code
+  extern OnSimulation_B_mbox2_ANIM();  // bound to game code
+  extern OnFreeze_B_mbox2_ANIM();  // bound to game code
+  extern OnInit_B_mbox3_ANIM();  // bound to game code
+  extern OnFramecall_B_mbox3_ANIM();  // bound to game code
+  extern OnCollision_B_mbox3_ANIM();  // bound to game code
+  extern OnRevive_B_mbox3_ANIM();  // bound to game code
+  extern OnSimulation_B_mbox3_ANIM();  // bound to game code
+  extern OnFreeze_B_mbox3_ANIM();  // bound to game code
+  OnInit_0_BUD1_ANIM() {
+    @self.InitMultiObjectPhysics(250.0, 1.0, 0.2, 0);
+    return;
+  }
+  OnFramecall_0_BUD1_ANIM() {
+    return;
+  }
+  OnCollision_0_BUD1_ANIM() {
+    return;
+  }
+  OnRevive_0_BUD1_ANIM() {
+    return;
+  }
+  OnSimulation_0_BUD1_ANIM() {
+    return;
+  }
+  OnFreeze_0_BUD1_ANIM() {
+    return;
+  }
+  OnInit_0_ORGL1_ANIM() {
+    @self.InitMultiObjectPhysics(250.0, 1.0, 0.2, 0);
+    @self.InitSound3D('DRAAIORGEL');
+    return;
+  }
+  OnFramecall_0_ORGL1_ANIM() {
+    @self.PlaySound3D(0);
+    return;
+  }
+  OnCollision_0_ORGL1_ANIM() {
+    return;
+  }
+  OnRevive_0_ORGL1_ANIM() {
+    @self.DeleteSound3D();
+    return;
+  }
+  OnSimulation_0_ORGL1_ANIM() {
+    return;
+  }
+  OnFreeze_0_ORGL1_ANIM() {
+    return;
+  }
+  OnInit_B_DPOL1_ANIM() {
+    @self.InitMultiObjectPhysics(250.0, 1.0, 0.2, 0);
+    return;
+  }
+  OnFramecall_B_DPOL1_ANIM() {
+    return;
+  }
+  OnCollision_B_DPOL1_ANIM() {
+    return;
+  }
+  OnRevive_B_DPOL1_ANIM() {
+    return;
+  }
+  OnSimulation_B_DPOL1_ANIM() {
+    return;
+  }
+  OnFreeze_B_DPOL1_ANIM() {
+    return;
+  }
+  OnInit_B_TRUCK1_ANIM() {
+    @self.InitMultiObjectPhysics(250.0, 1.0, 0.2, 1);
+    return;
+  }
+  OnFramecall_B_TRUCK1_ANIM() {
+    return;
+  }
+  OnCollision_B_TRUCK1_ANIM() {
+    return;
+  }
+  OnRevive_B_TRUCK1_ANIM() {
+    return;
+  }
+  OnSimulation_B_TRUCK1_ANIM() {
+    return;
+  }
+  OnFreeze_B_TRUCK1_ANIM() {
+    return;
+  }
+  OnInit_e2_boe2_ANIM() {
+    @self.InitMultiObjectPhysics(250.0, 1.0, 0.2, 1);
+    return;
+  }
+  OnFramecall_e2_boe2_ANIM() {
+    return;
+  }
+  OnCollision_e2_boe2_ANIM() {
+    return;
+  }
+  OnRevive_e2_boe2_ANIM() {
+    return;
+  }
+  OnSimulation_e2_boe2_ANIM() {
+    return;
+  }
+  OnFreeze_e2_boe2_ANIM() {
+    return;
+  }
+  OnInit_e2_box2_ANIM() {
+    @self.InitMultiObjectPhysics(250.0, 1.0, 0.2, 1);
+    return;
+  }
+  OnFramecall_e2_box2_ANIM() {
+    return;
+  }
+  OnCollision_e2_box2_ANIM() {
+    return;
+  }
+  OnRevive_e2_box2_ANIM() {
+    return;
+  }
+  OnSimulation_e2_box2_ANIM() {
+    return;
+  }
+  OnFreeze_e2_box2_ANIM() {
+    return;
+  }
+  OnInit_1_CONTR2_ANIM() {
+    @self.InitPhysics(400.0, 0.0, 0.0, 0);
+    @self.AddConstraint(1, 0.0, 0.0, 0.0, 0.0);
+    return;
+  }
+  OnFramecall_1_CONTR2_ANIM() {
+    return;
+  }
+  OnCollision_1_CONTR2_ANIM() {
+    return;
+  }
+  OnRevive_1_CONTR2_ANIM() {
+    return;
+  }
+  OnSimulation_1_CONTR2_ANIM() {
+    return;
+  }
+  OnFreeze_1_CONTR2_ANIM() {
+    return;
+  }
+}
+  extern rand();  // bound to game code
+  extern clock();  // bound to game code
+  extern kbhit();  // bound to game code
+  extern getch();  // bound to game code
+  extern time();  // bound to game code
+  extern srand(arg_0);  // bound to game code
+  extern RandPerc(arg_0);  // bound to game code
+  extern StrLeft(arg_0, arg_1);  // bound to game code
+  extern StrRight(arg_0, arg_1);  // bound to game code
+  extern StrMid(arg_0, arg_1, arg_2);  // bound to game code
+  extern StrFind(arg_0, arg_1);  // bound to game code
+  extern puts(arg_0);  // bound to game code
+  extern GetPlayer();  // bound to game code
+  extern GetSin(frequenty, amplitude);  // bound to game code
+  extern PlaySample(name);  // bound to game code
+  extern PrintText(index);  // bound to game code
+  extern PerSecToPerFrame(persec);  // bound to game code
+  DoDefault_OnFadeout() {
+    s = bonus.scale.x;
+    bonus.color.r = 0;
+    x = (0.6 * bonus.scale.s);
+    y = (0.6 * bonus.scale.s);
+    z = (0.6 * bonus.scale.s);
+    return;
+  }
+  @init() {
+    return;
+  }

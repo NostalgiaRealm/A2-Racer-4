@@ -1,0 +1,19 @@
+
+/* ==== USER32.DLL::DrawMenuBar @ 00406588 ==== 
+ * signature: BOOL __stdcall DrawMenuBar(HWND hWnd)
+ * body: 00406588-0040658d
+ * thunk to: USER32.DLL::DrawMenuBar
+ */
+
+BOOL __stdcall DrawMenuBar(HWND hWnd)
+
+{
+  BOOL BVar1;
+  
+                    /* WARNING: Could not recover jumptable at 0x00406588. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  BVar1 = DrawMenuBar(hWnd);
+  return BVar1;
+}
+
+

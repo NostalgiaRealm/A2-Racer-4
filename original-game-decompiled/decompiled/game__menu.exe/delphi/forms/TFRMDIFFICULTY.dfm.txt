@@ -1,0 +1,219 @@
+object frmDifficulty: TfrmDifficulty
+  Left = 212
+  Top = 93
+  ActiveControl = optHard.WrapperoptHard
+  Caption = 'frmDifficulty'
+  ClientHeight = 595
+  PixelsPerInch = 96
+  TextHeight = 13
+  object imgBackGround: TImage
+    Height = 595
+  end
+  object lblTextBlock: TLabel
+    Left = 49
+    Top = 158
+    Width = 303
+    Height = 121
+    AutoSize = False
+    Caption = 'lblTextBlock'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+    WordWrap = True
+  end
+  object btnHelp: TGDIButton
+    TabOrder = 4
+  end
+  object optEasy: TGDIRadioButton
+    Left = 46
+    Top = 320
+    Width = 100
+    Height = 50
+    Checked = False
+    Definition = gdfBtnEasy
+    TabOrder = 1
+    MouseCheckDelay = 60
+    OnClick = optEasyClick
+  end
+  object optMedium: TGDIRadioButton
+    Left = 46
+    Top = 375
+    Width = 100
+    Height = 50
+    Checked = False
+    Definition = gdfBtnMedium
+    TabOrder = 2
+    MouseCheckDelay = 60
+    OnClick = optMediumClick
+  end
+  object optHard: TGDIRadioButton
+    Left = 46
+    Top = 430
+    Width = 100
+    Height = 50
+    Checked = False
+    Definition = gdfBtnHard
+    TabOrder = 3
+    MouseCheckDelay = 60
+    OnClick = optHardClick
+  end
+  object btnPrevious: TGDIButton
+    TabOrder = 6
+  end
+  object btnClose: TGDIButton
+    TabOrder = 5
+  end
+  object imgItem: TGDIGraphic
+    Left = 387
+    Top = 114
+  end
+  object btnNext: TGDIButton
+    TabOrder = 0
+  end
+  object imgItemName: TGDIGraphic
+    Left = 75
+    Top = 91
+    Width = 100
+    Height = 50
+    LinkedGraphic.Storage = SL_EXTERNAL
+    LinkedGraphic.GraphicName = ''
+    TransparentColor = clBlack
+    Transparent = False
+    TransparentMode = tmAuto
+    Translucent = True
+    TranslucencyFactor = 255
+  end
+  object gdfBtnEasy: TGDIButtonDefinition
+    UpLink.Storage = SL_EXTERNAL
+    UpLink.GraphicName = ''
+    DownLink.Storage = SL_EXTERNAL
+    DownLink.GraphicName = ''
+    FocusedLink.Storage = SL_EXTERNAL
+    FocusedLink.GraphicName = ''
+    HoveredLink.Storage = SL_EXTERNAL
+    HoveredLink.GraphicName = ''
+    DisabledLink.Storage = SL_EXTERNAL
+    DisabledLink.GraphicName = ''
+    HintLink.Storage = SL_EXTERNAL
+    HintLink.GraphicName = ''
+    ClickRegionLink.Storage = SL_EXTERNAL
+    ClickRegionLink.GraphicName = ''
+    Width = 100
+    Height = 50
+    CaptionRect.Left = 0
+    CaptionRect.Top = 0
+    CaptionRect.Right = 0
+    CaptionRect.Bottom = 0
+    WordWrap = False
+    Layout = tlCenter
+    Alignment = taCenter
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    HintFont.Charset = DEFAULT_CHARSET
+    HintFont.Color = clWindowText
+    HintFont.Height = -11
+    HintFont.Name = 'MS Sans Serif'
+    HintFont.Style = []
+    Transparent = False
+    TransparentMode = tmAuto
+    TransparentColor = clBlack
+    Translucent = True
+    TranslucencyFactor = 255
+    OnButtonStateChange = gdfBtnHardButtonStateChange
+    Left = 288
+    Top = 384
+  end
+  object gdfBtnMedium: TGDIButtonDefinition
+    UpLink.Storage = SL_EXTERNAL
+    UpLink.GraphicName = ''
+    DownLink.Storage = SL_EXTERNAL
+    DownLink.GraphicName = ''
+    FocusedLink.Storage = SL_EXTERNAL
+    FocusedLink.GraphicName = ''
+    HoveredLink.Storage = SL_EXTERNAL
+    HoveredLink.GraphicName = ''
+    DisabledLink.Storage = SL_EXTERNAL
+    DisabledLink.GraphicName = ''
+    HintLink.Storage = SL_EXTERNAL
+    HintLink.GraphicName = ''
+    ClickRegionLink.Storage = SL_EXTERNAL
+    ClickRegionLink.GraphicName = ''
+    Width = 100
+    Height = 50
+    CaptionRect.Left = 0
+    CaptionRect.Top = 0
+    CaptionRect.Right = 0
+    CaptionRect.Bottom = 0
+    WordWrap = False
+    Layout = tlCenter
+    Alignment = taCenter
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    HintFont.Charset = DEFAULT_CHARSET
+    HintFont.Color = clWindowText
+    HintFont.Height = -11
+    HintFont.Name = 'MS Sans Serif'
+    HintFont.Style = []
+    Transparent = False
+    TransparentMode = tmAuto
+    TransparentColor = clBlack
+    Translucent = True
+    TranslucencyFactor = 255
+    OnButtonStateChange = gdfBtnHardButtonStateChange
+    Left = 184
+    Top = 384
+  end
+  object gdfBtnHard: TGDIButtonDefinition
+    UpLink.Storage = SL_EXTERNAL
+    UpLink.GraphicName = ''
+    DownLink.Storage = SL_EXTERNAL
+    DownLink.GraphicName = ''
+    FocusedLink.Storage = SL_EXTERNAL
+    FocusedLink.GraphicName = ''
+    HoveredLink.Storage = SL_EXTERNAL
+    HoveredLink.GraphicName = ''
+    DisabledLink.Storage = SL_EXTERNAL
+    DisabledLink.GraphicName = ''
+    HintLink.Storage = SL_EXTERNAL
+    HintLink.GraphicName = ''
+    ClickRegionLink.Storage = SL_EXTERNAL
+    ClickRegionLink.GraphicName = ''
+    Width = 100
+    Height = 50
+    CaptionRect.Left = 0
+    CaptionRect.Top = 0
+    CaptionRect.Right = 0
+    CaptionRect.Bottom = 0
+    WordWrap = False
+    Layout = tlCenter
+    Alignment = taCenter
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    HintFont.Charset = DEFAULT_CHARSET
+    HintFont.Color = clWindowText
+    HintFont.Height = -11
+    HintFont.Name = 'MS Sans Serif'
+    HintFont.Style = []
+    Transparent = False
+    TransparentMode = tmAuto
+    TransparentColor = clBlack
+    Translucent = True
+    TranslucencyFactor = 255
+    OnButtonStateChange = gdfBtnHardButtonStateChange
+    Left = 184
+    Top = 440
+  end
+end

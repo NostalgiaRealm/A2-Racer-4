@@ -1,0 +1,23 @@
+
+/* ==== FUN_00565370 @ 00565370 ==== 
+ * signature: int __cdecl FUN_00565370(char * param_1)
+ * body: 00565370-00565390
+ */
+
+int __cdecl FUN_00565370(char *param_1)
+
+{
+  char cVar1;
+  int iVar2;
+  
+  iVar2 = 0;
+  while( true ) {
+    cVar1 = *param_1;
+    param_1 = param_1 + 1;
+    if (((cVar1 < 'A') || ('Z' < cVar1)) && ((cVar1 < 'a' || ('z' < cVar1)))) break;
+    iVar2 = iVar2 + 1;
+  }
+  return iVar2;
+}
+
+

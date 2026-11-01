@@ -1,0 +1,65 @@
+object frmResults: TfrmResults
+  Left = 3
+  Top = 1
+  ActiveControl = btnHelp.WrapperbtnHelp
+  Caption = 'frmResults'
+  ClientHeight = 602
+  ClientWidth = 790
+  PixelsPerInch = 96
+  TextHeight = 13
+  object imgBackGround: TImage
+    Width = 790
+    Height = 602
+  end
+  object btnHelp: TGDIButton
+    TabOrder = 2
+  end
+  object imgFocus: TGDIGraphic
+    Left = 192
+    Top = 176
+    Width = 100
+    Height = 50
+    LinkedGraphic.Storage = SL_EXTERNAL
+    LinkedGraphic.GraphicName = ''
+    TransparentColor = clBlack
+    Transparent = False
+    TransparentMode = tmAuto
+    Translucent = True
+    TranslucencyFactor = 255
+  end
+  object lblTopImage: TLabel
+    Left = 168
+    Top = 176
+    Width = 58
+    Height = 13
+    Caption = 'lblTopImage'
+    Visible = False
+  end
+  object lbl2ndImage: TLabel
+    Left = 168
+    Top = 248
+    Width = 57
+    Height = 13
+    Caption = 'lbl2ndImage'
+    Visible = False
+  end
+  object lblFocus: TLabel
+    Left = 80
+    Top = 176
+    Width = 58
+    Height = 13
+    Caption = 'lblTopImage'
+    Visible = False
+  end
+  object lblTime: TLabel
+    Left = 304
+    Top = 176
+    Width = 58
+    Height = 13
+    Caption = 'lblTopImage'
+    Visible = False
+  end
+  object btnNext: TGDIButton
+    TabOrder = 0
+  end
+end

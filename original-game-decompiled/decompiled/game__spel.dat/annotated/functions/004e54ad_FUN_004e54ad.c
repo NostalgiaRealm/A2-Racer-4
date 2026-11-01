@@ -1,0 +1,26 @@
+
+/* ==== FUN_004e54ad @ 004e54ad ==== 
+ * signature: undefined __stdcall FUN_004e54ad(void)
+ * body: 004e54ad-004e54c7
+ */
+
+void FUN_004e54ad(void)
+
+{
+  undefined4 *this;
+  undefined4 unaff_EBX;
+  int unaff_EBP;
+  float10 in_ST0;
+  double in_stack_00000014;
+  
+  if (in_ST0 < (float10)in_stack_00000014) {
+    unaff_EBX = 0;
+  }
+  this = *(undefined4 **)(unaff_EBP + 8);
+  FUN_004e0d80(this,unaff_EBX);
+  *this = &PTR_FUN_005778c0;
+  FUN_004e5203();
+  return;
+}
+
+

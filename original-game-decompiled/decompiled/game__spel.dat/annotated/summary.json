@@ -1,0 +1,23 @@
+{
+ "program": "spel.dat",
+ "language": "x86:LE:32:default",
+ "compiler_spec": "windows",
+ "image_base": "00400000",
+ "ghidra_version": "12.1.4",
+ "functions": 13762,
+ "decompiled": 13760,
+ "assembly_only": 2,
+ "retried": 2,
+ "decompiled_with_fallback_style": 0,
+ "strings": 7217,
+ "instructions": 460686,
+ "executable_bytes": 1527808,
+ "executable_bytes_without_instructions": 71927,
+ "gap_padding_bytes": 58762,
+ "gap_defined_data_bytes": 1393,
+ "gap_ambiguous_bytes": 6617,
+ "instruction_bytes_outside_functions": 9259,
+ "unreachable_after_noreturn_regions": 1637,
+ "unreachable_after_noreturn_bytes": 8754,
+ "error_bookmarks": 73
+}

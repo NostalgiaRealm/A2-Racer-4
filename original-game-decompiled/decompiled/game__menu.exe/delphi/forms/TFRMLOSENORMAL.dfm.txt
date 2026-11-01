@@ -1,0 +1,77 @@
+object frmLoseNormal: TfrmLoseNormal
+  Left = 128
+  Top = 76
+  ActiveControl = btnNext.WrapperbtnNext
+  Caption = 'frmLoseNormal'
+  ClientHeight = 612
+  ClientWidth = 865
+  PixelsPerInch = 96
+  TextHeight = 13
+  object imgBackGround: TImage
+    Width = 865
+    Height = 612
+  end
+  object lblTextBlock: TLabel
+    Left = 48
+    Top = 160
+    Width = 313
+    Height = 345
+    AutoSize = False
+    Caption = 'lblTextBlock'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+    WordWrap = True
+  end
+  object lblPoints: TLabel
+    Left = 416
+    Top = 56
+    Width = 70
+    Height = 24
+    Caption = 'lblPoints'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+    Visible = False
+  end
+  object imgPosition: TImage
+    Left = 284
+    Top = 77
+    Width = 81
+    Height = 52
+    AutoSize = True
+  end
+  object btnNext: TGDIButton
+    TabOrder = 1
+  end
+  object btnClose: TGDIButton
+    TabOrder = 2
+  end
+  object imgTrackName: TGDIGraphic
+    Left = 97
+    Top = 83
+    Width = 100
+    Height = 50
+    LinkedGraphic.Storage = SL_EXTERNAL
+    LinkedGraphic.GraphicName = ''
+    TransparentColor = clBlack
+    Transparent = False
+    TransparentMode = tmAuto
+    Translucent = True
+    TranslucencyFactor = 255
+  end
+  object timSample: TTimer
+    Enabled = False
+    OnTimer = timSampleTimer
+    Left = 472
+    Top = 216
+  end
+end

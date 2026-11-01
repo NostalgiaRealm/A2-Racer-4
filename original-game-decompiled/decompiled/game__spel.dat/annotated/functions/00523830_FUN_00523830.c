@@ -1,0 +1,166 @@
+
+/* ==== FUN_00523830 @ 00523830 ==== 
+ * signature: undefined __stdcall FUN_00523830(void)
+ * body: 00523830-00523c62
+ */
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_00523830(void)
+
+{
+  undefined *puVar1;
+  
+  (&DAT_0074cde0)[DAT_0074d508] = 0x3f;
+  _DAT_0074cfa8 = s_renamed_vertex_statistics_005c0318;
+  _DAT_0074d232 = 0xffff;
+  DAT_0074d377 = 0;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x9c;
+  _DAT_0074d11c = s_renamed_vertices_shared_by_two_f_005c02f0;
+  _DAT_0074d2ec = 0xffff;
+  DAT_0074d3d4 = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x9b;
+  _DAT_0074d118 = s_renamed_vertices_in_a_pinched_fa_005c02cc;
+  _DAT_0074d2ea = 0xffff;
+  DAT_0074d3d3 = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x9a;
+  _DAT_0074d114 = s_renamed_vertices_shared_by_multi_005c02a0;
+  _DAT_0074d2e8 = 0xffff;
+  DAT_0074d3d2 = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x4b;
+  _DAT_0074cfd8 = s_rename_failures_due_to_duplicate_005c0274;
+  _DAT_0074d24a = 0xffff;
+  DAT_0074d383 = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x49;
+  _DAT_0074cfd0 = s_duplicate_ridges_detected_005c0258;
+  _DAT_0074d246 = 0xffff;
+  DAT_0074d381 = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x2c;
+  _DAT_0074cf5c = s_deleted_ridges_due_to_renamed_ve_005c0230;
+  _DAT_0074d20c = 0xffff;
+  DAT_0074d364 = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x44;
+  _DAT_0074cfbc = s_dropped_neighbors_due_to_renamed_005c0204;
+  _DAT_0074d23c = 0xffff;
+  DAT_0074d37c = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x43;
+  _DAT_0074cfb8 = s_degenerate_facets_due_to_dropped_005c01d8;
+  _DAT_0074d23a = 0xffff;
+  DAT_0074d37b = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x2b;
+  _DAT_0074cf58 = s_facets_deleted_because_of_no_nei_005c01ac;
+  _DAT_0074d20a = 0xffff;
+  DAT_0074d363 = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x98;
+  _DAT_0074d10c = s_vertices_removed_from_facets_due_005c017c;
+  _DAT_0074d2e4 = 0xffff;
+  DAT_0074d3d0 = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x99;
+  _DAT_0074d110 = s_deleted_005c0170;
+  _DAT_0074d2e6 = 0xffff;
+  DAT_0074d3d1 = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x5a;
+  _DAT_0074d014 = s_vertex_intersections_for_locatin_005c0138;
+  _DAT_0074d268 = 0xffff;
+  DAT_0074d392 = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x58;
+  _DAT_0074d00c = s_intersections_failed_to_find_a_r_005c0108;
+  _DAT_0074d264 = 0xffff;
+  DAT_0074d390 = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x57;
+  _DAT_0074d008 = s_intersections_found_redundant_ve_005c00e0;
+  _DAT_0074d262 = 0xffff;
+  DAT_0074d38f = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x5b;
+  _DAT_0074d018 = s_ave__number_found_per_vertex_005c00c0;
+  _DAT_0074d26a = 0x57;
+  DAT_0074d393 = 2;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x59;
+  _DAT_0074d010 = s_max__found_for_a_vertex_005c00a4;
+  _DAT_0074d266 = 0xffff;
+  DAT_0074d391 = 3;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0xb8;
+  _DAT_0074d18c = 0;
+  _DAT_0074d324 = 0xffff;
+  DAT_0074d3f0 = 1;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0xb9;
+  _DAT_0074d190 = s_ave__number_of_ridges_per_tested_005c0078;
+  _DAT_0074d326 = 0xb8;
+  DAT_0074d3f1 = 2;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0xba;
+  _DAT_0074d194 = s_max__number_of_ridges_per_tested_005c004c;
+  _DAT_0074d328 = 0xffff;
+  DAT_0074d3f2 = 3;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x41;
+  _DAT_0074cfb0 = s_memory_usage_statistics__in_byte_005c0028;
+  _DAT_0074d236 = 0xffff;
+  DAT_0074d379 = 0;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 99;
+  _DAT_0074d038 = s_for_facets_and_their_normals__ne_005bfff0;
+  _DAT_0074d27a = 0xffff;
+  DAT_0074d39b = 2;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x66;
+  _DAT_0074d044 = s_for_vertices_and_their_neighbor_s_005bffc8;
+  _DAT_0074d280 = 0xffff;
+  DAT_0074d39e = 2;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 100;
+  _DAT_0074d03c = s_for_input_points_and_outside_and_005bff98;
+  _DAT_0074d27c = 0xffff;
+  DAT_0074d39c = 2;
+  puVar1 = &DAT_0074cde1 + DAT_0074d508;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  *puVar1 = 0x65;
+  _DAT_0074d040 = s_for_ridges_and_their_vertex_sets_005bff74;
+  _DAT_0074d27e = 0xffff;
+  DAT_0074d508 = DAT_0074d508 + 1;
+  DAT_0074d39d = 2;
+  return;
+}
+
+

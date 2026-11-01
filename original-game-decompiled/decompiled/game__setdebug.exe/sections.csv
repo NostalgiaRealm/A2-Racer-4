@@ -1,0 +1,10 @@
+name,start,end,size,read,write,execute,initialized
+Headers,00400000,004003ff,1024,true,false,false,true
+CODE,00401000,00445bff,281600,true,false,true,true
+DATA,00446000,00446dff,3584,true,true,false,true
+BSS,00447000,00447854,2133,true,true,false,false
+.idata,00448000,00449fff,8192,true,true,false,true
+.tls,0044a000,0044a00f,16,true,true,false,false
+.rdata,0044b000,0044b1ff,512,true,false,false,true
+.reloc,0044c000,00450bff,19456,true,false,false,true
+.rsrc,00451000,00453dff,11776,true,false,false,true

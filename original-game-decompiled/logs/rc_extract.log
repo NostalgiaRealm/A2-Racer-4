@@ -1,0 +1,5 @@
+rcs.IMG entries 2787 unique offsets 2787 shared-offset entries 0 first offset 0 img size 114235152 bytes covered 114235152 max offset 114211007
+ extensions [('.d3d', 1971), ('.wav', 406), ('.pcx', 199), ('.tga', 173), ('.fnt', 31), ('', 7)]
+MenuRcs.IMG entries 577 unique offsets 577 shared-offset entries 0 first offset 0 img size 94400362 bytes covered 94400362 max offset 94071579
+ extensions [('.tga', 400), ('.wav', 89), ('.bmp', 66), ('', 22)]
+RC.IMG entries 186 first offset 2 img size 1259939

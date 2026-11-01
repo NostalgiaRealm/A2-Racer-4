@@ -1,0 +1,2 @@
+address,name,body_bytes,external,has_ret_instruction,caller_count
+00401570,"__exit",17,false,true,4

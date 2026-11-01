@@ -1,0 +1,3 @@
+region_start,region_end,bytes,parent_function,call_site,noreturn_target
+10002d0a,10002d0e,5,10002cd0,10002d04,"__exit"
+100074ca,100074cb,2,100074b0,100074c4,"KERNEL32.DLL::ExitProcess"

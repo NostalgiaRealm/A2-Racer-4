@@ -1,0 +1,183 @@
+id	lang	text
+65344	0	Menu '%s' is already being used by another form
+65345	0	Docked control must have a name
+65346	0	Error removing control from dock tree
+65347	0	 - Dock zone not found
+65348	0	 - Dock zone has no control
+65349	0	List does not allow duplicates ($0%x)
+65360	0	PgUp
+65361	0	PgDn
+65362	0	End
+65363	0	Home
+65364	0	Left
+65365	0	Up
+65366	0	Right
+65367	0	Down
+65368	0	Ins
+65369	0	Del
+65370	0	Shift+
+65371	0	Ctrl+
+65372	0	Alt+
+65373	0	Clipboard does not support Icons
+65374	0	Unable to write to %s
+65375	0	Bits index out of range
+65376	0	&Yes
+65377	0	&No
+65378	0	OK
+65379	0	Cancel
+65380	0	&Help
+65381	0	&Abort
+65382	0	&Retry
+65383	0	&Ignore
+65384	0	&All
+65385	0	N&o to All
+65386	0	Yes to &All
+65387	0	BkSp
+65388	0	Tab
+65389	0	Esc
+65390	0	Enter
+65391	0	Space
+65392	0	Cannot make a visible window modal
+65393	0	Menu index out of range
+65394	0	Menu inserted twice
+65395	0	Sub-menu is not in menu
+65396	0	GroupIndex cannot be less than a previous menu item's GroupIndex
+65397	0	Cannot create form. No MDI forms are currently active
+65398	0	A control cannot have itself as its parent
+65399	0	Cannot drag a form
+65400	0	Metafiles
+65401	0	Enhanced Metafiles
+65402	0	Icons
+65403	0	Bitmaps
+65404	0	Warning
+65405	0	Error
+65406	0	Information
+65407	0	Confirm
+65408	0	Metafile is not valid
+65409	0	Cannot change the size of an icon
+65410	0	Unsupported clipboard format
+65411	0	Out of system resources
+65412	0	Canvas does not allow drawing
+65413	0	Invalid image size
+65414	0	Invalid ImageList
+65415	0	Invalid ImageList Index
+65416	0	Failed to read ImageList data from stream
+65417	0	Failed to write ImageList data to stream
+65418	0	Error creating window device context
+65419	0	Error creating window class
+65420	0	Cannot focus a disabled or invisible window
+65421	0	Control '%s' has no parent window
+65422	0	Cannot hide an MDI Child Form
+65423	0	Cannot change Visible in OnShow or OnHide
+65424	0	List index out of bounds (%d)
+65425	0	List capacity out of bounds (%d)
+65426	0	List count out of bounds (%d)
+65427	0	Operation not allowed on sorted string list
+65428	0	String list does not allow duplicates
+65429	0	A component named %s already exists
+65430	0	''%s'' is not a valid component name
+65431	0	A class named %s already exists
+65432	0	Invalid property value
+65433	0	Invalid property path
+65434	0	Property does not exist
+65435	0	Property is read-only
+65436	0	Error reading %s%s%s: %s
+65437	0	Ancestor for '%s' not found
+65438	0	Bitmap image is not valid
+65439	0	Icon image is not valid
+65440	0	Monday
+65441	0	Tuesday
+65442	0	Wednesday
+65443	0	Thursday
+65444	0	Friday
+65445	0	Saturday
+65446	0	Cannot assign a %s to a %s
+65447	0	Cannot create file %s
+65448	0	Cannot open file %s
+65449	0	Stream read error
+65450	0	Stream write error
+65451	0	Out of memory while expanding memory stream
+65452	0	Can't write to a read-only resource stream
+65453	0	Class %s not found
+65454	0	Invalid stream format
+65455	0	Resource %s not found
+65456	0	May
+65457	0	June
+65458	0	July
+65459	0	August
+65460	0	September
+65461	0	October
+65462	0	November
+65463	0	December
+65464	0	Sun
+65465	0	Mon
+65466	0	Tue
+65467	0	Wed
+65468	0	Thu
+65469	0	Fri
+65470	0	Sat
+65471	0	Sunday
+65472	0	Jan
+65473	0	Feb
+65474	0	Mar
+65475	0	Apr
+65476	0	May
+65477	0	Jun
+65478	0	Jul
+65479	0	Aug
+65480	0	Sep
+65481	0	Oct
+65482	0	Nov
+65483	0	Dec
+65484	0	January
+65485	0	February
+65486	0	March
+65487	0	April
+65488	0	Invalid variant operation
+65489	0	Variant method calls not supported
+65490	0	Read
+65491	0	Write
+65492	0	Error creating variant array
+65493	0	Variant is not an array
+65494	0	Variant array index out of bounds
+65495	0	External exception %x
+65496	0	Assertion failed
+65497	0	Interface not supported
+65498	0	Exception in safecall method
+65499	0	%s (%s, line %d)
+65500	0	Abstract Error
+65501	0	Access violation at address %p in module '%s'. %s of address %p
+65502	0	Win32 Error.  Code: %d.\n%s
+65503	0	A Win32 API function failed
+65504	0	Integer overflow
+65505	0	Invalid floating point operation
+65506	0	Floating point division by zero
+65507	0	Floating point overflow
+65508	0	Floating point underflow
+65509	0	Invalid pointer operation
+65510	0	Invalid class typecast
+65511	0	Access violation at address %p. %s of address %p
+65512	0	Stack overflow
+65513	0	Control-C hit
+65514	0	Privileged instruction
+65515	0	Exception %s in module %s at %p.\n%s%s
+65516	0	Application Error
+65517	0	Format '%s' invalid or incompatible with argument
+65518	0	No argument for format '%s'
+65519	0	Invalid variant type conversion
+65520	0	'%s' is not a valid integer value
+65521	0	'%s' is not a valid floating point value
+65522	0	'%s' is not a valid date
+65523	0	'%s' is not a valid time
+65524	0	'%s' is not a valid date and time
+65525	0	Out of memory
+65526	0	I/O error %d
+65527	0	File not found
+65528	0	Invalid filename
+65529	0	Too many open files
+65530	0	File access denied
+65531	0	Read beyond end of file
+65532	0	Disk full
+65533	0	Invalid numeric input
+65534	0	Division by zero
+65535	0	Range check error

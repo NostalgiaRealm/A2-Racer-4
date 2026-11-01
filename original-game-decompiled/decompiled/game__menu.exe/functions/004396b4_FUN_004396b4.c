@@ -1,0 +1,24 @@
+
+/* ==== FUN_004396b4 @ 004396b4 ==== 
+ * signature: undefined __register FUN_004396b4(int param_1, int param_2)
+ * body: 004396b4-004396db
+ */
+
+void FUN_004396b4(int param_1,int param_2)
+
+{
+  int iVar1;
+  
+  iVar1 = *(int *)(param_1 + 0x4c);
+  if (param_2 != iVar1) {
+    if (iVar1 != 0) {
+      FUN_00439990(iVar1,param_1);
+    }
+    if (param_2 != 0) {
+      FUN_00439970(param_2,param_1);
+    }
+  }
+  return;
+}
+
+

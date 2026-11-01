@@ -1,0 +1,25 @@
+
+/* ==== unit_054_finalization @ 004543fc ==== 
+ * signature: undefined unit_054_finalization(void)
+ * body: 004543fc-00454420
+ * note: Name source: Delphi unit init table
+ */
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* Name source: Delphi unit init table */
+
+void unit_054_finalization(void)
+
+{
+  undefined4 uVar1;
+  undefined4 *in_FS_OFFSET;
+  undefined1 auStack_10 [12];
+  
+  uVar1 = *in_FS_OFFSET;
+  *in_FS_OFFSET = auStack_10;
+  _DAT_004ac8cc = _DAT_004ac8cc + 1;
+  *in_FS_OFFSET = uVar1;
+  return;
+}
+
+
