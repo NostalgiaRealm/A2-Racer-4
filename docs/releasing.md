@@ -38,6 +38,8 @@ GitHub takes them as release assets. GitLab takes them into the generic package 
 5. `node tools/package-release.mjs --sums`. Upload everything to both hosts, with the release notes. Publish.
 6. Check each host on its own: a fresh clone at the tag, the commit, the file list, every asset downloaded and compared with `SHA256SUMS.txt`, without being signed in.
 
+The tag is the release. Later commits on `main`, such as this document's, do not move it.
+
 ## Kinds of check
 
 Keep these apart in the notes. A later one does not stand in for an earlier one.
