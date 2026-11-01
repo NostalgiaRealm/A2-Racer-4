@@ -190,6 +190,17 @@ Package content and launch are separate checks, and neither is gameplay testing:
 | Source, from a fresh clone of the tag | `npm ci` restores `rcs.img`, `npm run recompile`, `npm run build` | `spel.wasm` and every file of `dist/` byte-identical to the working copy's |
 | Not run | Windows package on Windows, macOS packages. `npm run prepare:assets` from a fresh clone | Not started |
 
+### Live site
+
+Run on 2026-11-01 from this machine against <https://games.nostalgiarealm.com/a2racer4/>, on the build of tag `v1.0.0`. The server's files have the same tree hash as `dist/`. This covers the server and the build, from a desktop browser on the server's own network. It does not say how fast the game loads for a player elsewhere.
+
+| Check | Result |
+|---|---|
+| `tools/check-flow.mjs --url`, real clicks: intro, new player, Quick Race on Amsterdam, a whole race by the bot, results, back to the menu | Pass, 0 console errors or warnings. `TRACKTIME` 593233, laps 289450 and 303783, the same as locally. `evidence/live-flow/` |
+| A race opened directly, watched for 20 s | 317 responses, 142 by byte range, none outside the folder, no errors |
+| By `curl` | `/a2racer4` 301 to `/a2racer4/`. `rcs.img` answers ranges with 206. `spel.wasm` has `application/wasm`, gzip. A dotfile path gives 404 |
+| Other games on the host after the change | `redcatsuperkarts`, `kao`, `bookwormdutch`, `redcatspookkasteel` answer 200. Not played |
+
 ## Known discrepancies
 
 | Item | Against | Size | Status |

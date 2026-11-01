@@ -1,5 +1,7 @@
 # A2 Racer 4 – De politie slaat terug! in the browser
 
+**Play it: <https://games.nostalgiarealm.com/a2racer4/>**
+
 Version 1.0.0. [Changelog](CHANGELOG.md), [release notes](docs/releases/1.0.0.md). Downloads: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4/releases/latest), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4/-/releases). Repositories: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4).
 
 A port of the Dutch racing game from 2000 to WebGL and Three.js, built from the original game files. The race itself is the original code: `spel.dat` is recompiled from x86 to WebAssembly, so its physics, AI, rules and HUD logic run as shipped. The menu is rewritten by hand from the original forms and code. All artwork, music, speech and text are the originals, in Dutch.
@@ -211,6 +213,7 @@ The 8-bit path cannot run under Wine. `tools/reference-86box/` runs it on a thro
 |---|---|
 | [`CHANGELOG.md`](CHANGELOG.md), [`docs/releases/`](docs/releases/) | Versions, release notes |
 | [`docs/releasing.md`](docs/releasing.md) | What a release contains, what stays out, how to make one |
+| [`docs/hosting.md`](docs/hosting.md) | The live site: server, Nginx, how to update it |
 | [`docs/request.txt`](docs/request.txt) | The brief |
 | [`PLAN.md`](PLAN.md) | Milestones, progress, blockers, next actions |
 | [`docs/LLM_GUIDE.md`](docs/LLM_GUIDE.md) | Folder map, boundaries, entry points, debug routes, how to continue |

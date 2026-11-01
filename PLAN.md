@@ -30,6 +30,7 @@ Why not hand-translate the race: 677 KB of game code plus Ipion cannot be tested
 | 16 | The two installed updates: track 9 (Country etappe), car 7 (De Schaduw) | done: `original/updates/`, overlay in `tools/prepare-assets.py`, boot of all 10 etappes with all 8 cars, one launch through the menu. Not verified further, by the brief |
 | 17 | The 8-bit path, `3D kaart` off, at the owner's request | done: indexed pipeline in `source/render/d3d-renderer.js`, palette and 8-bit surfaces in `source/host/directx.js`, the menu's own rules. Compared with the original on an emulated Windows 98 machine, `tools/reference-86box/`, on Amsterdam. Whole race on the bot, `tools/check-software.mjs` |
 | 18 | Public release 1.0.0: repositories, desktop builds, decompile archive, checksums. [`docs/releasing.md`](docs/releasing.md) | done |
+| 19 | Live at <https://games.nostalgiarealm.com/a2racer4/>. [`docs/hosting.md`](docs/hosting.md) | done |
 
 ## Blockers
 

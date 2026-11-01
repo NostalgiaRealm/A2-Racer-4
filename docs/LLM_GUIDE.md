@@ -20,7 +20,7 @@ The architecture in short: `spel.dat`, the race, is recompiled from x86 to WebAs
 | 10 | [`research/`](research/) | Reverse-engineering notes per subsystem, Confirmed, Inferred, Unknown. A note with known errors says so at its top; the correction table is in `original-behavior.md`. For the 8-bit path `render-8bit.md` holds over the static `8bit-*.md` |
 | 11 | [`../original-game-decompiled/LLM_GUIDE.md`](../original-game-decompiled/LLM_GUIDE.md) | Finding a function, address, string, asset or file in the original |
 
-Releases: [`releasing.md`](releasing.md). The repository is `NostalgiaRealm/A2-Racer-4` on GitHub (`origin`) and `Nostalgia_Realm/A2-Racer-4` on GitLab (`gitlab`). `electron/` wraps `dist/` for the desktop builds, and `large-files/` holds `rcs.img` in pieces: `npm ci` restores it.
+Live site: <https://games.nostalgiarealm.com/a2racer4/>, updated with `tools/deploy-website.sh`: [`hosting.md`](hosting.md). Releases: [`releasing.md`](releasing.md). The repository is `NostalgiaRealm/A2-Racer-4` on GitHub (`origin`) and `Nostalgia_Realm/A2-Racer-4` on GitLab (`gitlab`). `electron/` wraps `dist/` for the desktop builds, and `large-files/` holds `rcs.img` in pieces: `npm ci` restores it.
 
 ## Folder map
 
