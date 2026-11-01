@@ -1,0 +1,414 @@
+# Output of tools/reference-wine/analyze.py on the raw samples
+
+## launches, original, 60 ticks/s
+launch60-01          key  -2.52 gas   0.03 before 32222 v1   6.65 v4  20.68 v7  27.74 v8  27.72 v10      - peak      - hit      - r98   6.58 states [(0.0, '32222'), (0.13, '11111')]
+launch60-02          key   0.00 gas   0.02 before 88888 v1   6.41 v4  19.12 v7  26.44 v8  27.71 v10  27.70 peak  27.79 hit  11.48 r98   7.45 states [(0.0, '88888'), (0.02, '11111'), (0.05, '21111')]
+launch60-03          key   0.37 gas   0.38 before 11111 v1   6.44 v4  17.37 v7  22.66 v8  23.73 v10  25.23 peak  26.14 hit      - r98      - states [(0.0, '11111'), (0.03, '22222')]
+launch60-04          key   0.52 gas   0.55 before 22222 v1   6.61 v4  20.65 v7  27.72 v8  27.71 v10  27.68 peak  27.78 hit  11.15 r98   6.03 states [(0.0, '22222'), (0.17, '11111')]
+launch60-05          key   0.62 gas   0.65 before 21111 v1   6.45 v4  18.61 v7  25.28 v8  26.72 v10  27.69 peak  27.78 hit  11.65 r98   8.40 states [(0.0, '21111'), (0.05, '12222')]
+launch60-06          key   0.90 gas   0.93 before 22222 v1   6.32 v4  17.31 v7  22.63 v8  23.71 v10  25.22 peak  26.09 hit      - r98      - states [(0.0, '22222')]
+launch60-07          key   1.22 gas   1.25 before 22222 v1   6.70 v4  20.71 v7  27.75 v8  27.74 v10  27.71 peak  27.78 hit  11.13 r98   6.02 states [(0.0, '22222'), (0.1, '11111')]
+launch60-08          key   1.52 gas   1.55 before 22222 v1   6.81 v4  20.78 v7  27.70 v8  27.73 v10  27.71 peak  27.80 hit  11.12 r98   6.00 states [(0.0, '22222'), (0.13, '11111')]
+launch60-09          key   1.72 gas   1.73 before 22222 v1   6.42 v4  17.36 v7  22.66 v8  23.73 v10  25.22 peak  26.15 hit      - r98      - states [(0.0, '22222')]
+launch60-10          key   1.90 gas   1.92 before 22222 v1   6.38 v4  19.10 v7  26.43 v8  27.73 v10  27.62 peak  27.79 hit  11.50 r98   7.45 states [(0.0, '22222'), (0.1, '21111')]
+launch60-11          key   2.10 gas   2.12 before 12222 v1   6.49 v4  19.16 v7  26.47 v8  27.76 v10  27.66 peak  27.77 hit  11.48 r98   7.43 states [(0.0, '12222'), (0.08, '21111')]
+launch60-12          key   2.37 gas   2.40 before 22222 v1   6.37 v4  17.34 v7  22.64 v8  23.72 v10  25.22 peak  26.12 hit      - r98      - states [(0.0, '22222')]
+launch60-13          key   2.72 gas   2.75 before 22222 v1   6.32 v4  17.32 v7  22.63 v8  23.71 v10  25.22 peak  26.13 hit      - r98      - states [(0.0, '22222')]
+launch60-14          key   3.15 gas   3.18 before 22222 v1   6.49 v4  19.12 v7  26.44 v8  27.77 v10  27.64 peak  27.77 hit  11.48 r98   7.47 states [(0.0, '22222'), (0.05, '21111')]
+launch60-15          key   3.40 gas   3.42 before 22222 v1   6.28 v4  17.29 v7  22.57 v8  23.70 v10  25.22 peak  26.13 hit      - r98      - states [(0.0, '22222')]
+launch60-16          key   3.77 gas   3.78 before 22222 v1   6.28 v4  17.29 v7  22.62 v8  23.70 v10  25.21 peak  26.14 hit      - r98      - states [(0.0, '22222')]
+repeat60-1           key   0.52 gas   0.53 before 22222 v1   6.39 v4  17.35 v7  22.65 v8  23.72 v10  25.22 peak  26.14 hit      - r98      - states [(0.0, '22222')]
+repeat60-2           key   0.52 gas   0.55 before 22222 v1   6.62 v4  20.65 v7  27.72 v8  27.76 v10  27.75 peak  27.77 hit  11.15 r98   6.02 states [(0.0, '22222'), (0.12, '11111')]
+repeat60-3           key   0.50 gas   0.53 before 22222 v1   6.34 v4  17.32 v7  22.64 v8  23.71 v10  25.22 peak  26.10 hit      - r98      - states [(0.0, '22222')]
+repeat60-4           key   0.50 gas   0.52 before 22222 v1   6.52 v4  20.59 v7  27.73 v8  27.74 v10  27.74 peak  27.78 hit  11.17 r98   6.05 states [(0.0, '22222'), (0.15, '11111')]
+repeat60-5           key   0.50 gas   0.53 before 11111 v1   6.52 v4  19.18 v7  26.48 v8  27.68 v10  27.66 peak  27.77 hit  11.48 r98   7.43 states [(0.0, '11111'), (0.07, '21111')]
+repeat60-6           key   0.50 gas   0.53 before 11111 v1   6.64 v4  20.67 v7  27.69 v8  27.72 v10  27.74 peak  27.80 hit  11.15 r98   6.03 states [(0.0, '11111')]
+
+## launches, port
+port-launch60-01     key  -2.55 gas   0.03 before 31111 v1   6.39 v4  17.35 v7  22.65 v8  23.72 v10      - peak      - hit      - r98      - states [(0.0, '22222')]
+port-launch60-02     key   0.00 gas   0.03 before 31111 v1   6.39 v4  17.35 v7  22.65 v8  23.72 v10  25.22 peak  26.15 hit      - r98      - states [(0.0, '22222')]
+port-launch60-03     key   0.35 gas   0.37 before 22222 v1   6.77 v4  20.75 v7  27.71 v8  27.74 v10  27.74 peak  27.77 hit  11.12 r98   6.00 states [(0, '22222'), (0.1, '11111')]
+port-launch60-04     key   0.50 gas   0.52 before 11111 v1   6.72 v4  20.71 v7  27.72 v8  27.72 v10  27.70 peak  27.79 hit  11.13 r98   6.02 states [(0.0, '11111')]
+port-launch60-05     key   0.60 gas   0.62 before 11111 v1   6.72 v4  20.72 v7  27.72 v8  27.72 v10  27.75 peak  27.79 hit  11.13 r98   6.02 states [(0.0, '11111')]
+port-launch60-06     key   0.90 gas   0.92 before 22222 v1   6.71 v4  20.77 v7  27.69 v8  27.73 v10  27.69 peak  27.79 hit  11.13 r98   6.00 states [(0.0, '22222'), (0.15, '11111')]
+port-launch60-07     key   1.20 gas   1.22 before 22222 v1   6.76 v4  20.74 v7  27.69 v8  27.72 v10  27.75 peak  27.77 hit  11.12 r98   6.02 states [(0.0, '22222'), (0.1, '11111')]
+port-launch60-08     key   1.50 gas   1.52 before 21111 v1   6.71 v4  20.71 v7  27.70 v8  27.71 v10  27.75 peak  27.78 hit  11.13 r98   6.00 states [(0.0, '21111'), (0.08, '11111')]
+port-launch60-09     key   1.70 gas   1.72 before 12222 v1   6.56 v4  18.67 v7  25.31 v8  26.78 v10  27.68 peak  27.77 hit  11.63 r98   8.35 states [(0.0, '12222')]
+port-launch60-10     key   1.90 gas   1.92 before 12222 v1   6.66 v4  19.22 v7  26.52 v8  27.67 v10  27.68 peak  27.79 hit  11.45 r98   7.42 states [(0.0, '12222'), (0.07, '21111')]
+port-launch60-11     key   2.10 gas   2.12 before 22222 v1   6.72 v4  20.71 v7  27.72 v8  27.73 v10  27.71 peak  27.79 hit  11.13 r98   6.02 states [(0.0, '22222'), (0.12, '11111')]
+port-launch60-12     key   2.35 gas   2.37 before 21111 v1   6.76 v4  20.74 v7  27.75 v8  27.76 v10  27.70 peak  27.77 hit  11.12 r98   6.02 states [(0, '21111'), (0.13, '11111')]
+port-launch60-13     key   2.70 gas   2.72 before 22222 v1   6.60 v4  20.63 v7  27.72 v8  27.71 v10  27.72 peak  27.78 hit  11.15 r98   6.03 states [(0.0, '22222'), (0.07, '11111')]
+port-launch60-14     key   3.15 gas   3.17 before 12222 v1   6.71 v4  20.71 v7  27.70 v8  27.74 v10  27.75 peak  27.79 hit  11.13 r98   6.02 states [(0.0, '12222'), (0.12, '11111')]
+port-launch60-15     key   3.40 gas   3.42 before 21111 v1   6.82 v4  20.78 v7  27.72 v8  27.73 v10  27.71 peak  27.80 hit  11.12 r98   6.00 states [(0.0, '21111'), (0.17, '11111')]
+port-launch60-16     key   3.75 gas   3.77 before 22222 v1   6.58 v4  19.21 v7  26.50 v8  27.65 v10  27.70 peak  27.78 hit  11.47 r98   7.43 states [(0.0, '22222'), (0.08, '21111')]
+
+## regimes, original against port (port-launch60 only; the sweep is in port-sweep.csv)
+original 22 launches, port 16 launches
+state  | n orig | n port | field | original mean (min..max) | port mean (min..max) | port vs original
+11111 7 11
+    v1          6.65 (6.52..6.81)      6.73 (6.60..6.82)   +1.15 %
+    v4         20.67 (20.59..20.78)     20.72 (20.63..20.78)   +0.25 %
+    v7         27.72 (27.69..27.75)     27.71 (27.69..27.75)   -0.04 %
+    v8         27.73 (27.71..27.76)     27.73 (27.71..27.76)   -0.01 %
+    v10        27.72 (27.68..27.75)     27.73 (27.69..27.75)   +0.01 %
+    peak       27.79 (27.77..27.80)     27.78 (27.77..27.80)   -0.01 %
+    final2s    27.73 (27.72..27.73)     27.72 (27.72..27.73)   -0.01 %
+    reach98     6.10 (6.00..6.58)      6.01 (6.00..6.03)   -1.51 %
+    hit        11.14 (11.12..11.17)     11.13 (11.12..11.15)   -0.14 %
+    s1          7.60 (7.55..7.73)      7.64 (7.55..7.70)   +0.54 %
+    s4         21.26 (21.23..21.30)     21.31 (21.22..21.38)   +0.25 %
+    s8         27.73 (27.71..27.76)     27.72 (27.70..27.75)   -0.03 %
+22222 9 2
+    v1          6.35 (6.28..6.44)      6.39 (6.39..6.39)   +0.63 %
+    v4         17.33 (17.29..17.37)     17.35 (17.35..17.35)   +0.11 %
+    v7         22.64 (22.57..22.66)     22.65 (22.65..22.65)   +0.07 %
+    v8         23.71 (23.70..23.73)     23.72 (23.72..23.72)   +0.04 %
+    v10        25.22 (25.21..25.23)     25.22 (25.22..25.22)   +0.01 %
+    peak       26.13 (26.09..26.15)     26.15 (26.15..26.15)   +0.07 %
+    final2s    25.71 (25.69..25.72)     25.70 (25.70..25.70)   -0.01 %
+    reach98         -                         -              
+    hit             -                         -              
+    s1          7.22 (7.15..7.29)      7.20 (7.20..7.20)   -0.30 %
+    s4         17.72 (17.69..17.79)     17.74 (17.74..17.74)   +0.11 %
+    s8         23.87 (23.86..23.89)     23.87 (23.87..23.87)   +0.00 %
+21111 5 2
+    v1          6.46 (6.38..6.52)      6.62 (6.58..6.66)   +2.55 %
+    v4         19.13 (19.10..19.18)     19.21 (19.21..19.22)   +0.41 %
+    v7         26.45 (26.43..26.48)     26.51 (26.50..26.52)   +0.22 %
+    v8         27.73 (27.68..27.77)     27.66 (27.65..27.67)   -0.25 %
+    v10        27.66 (27.62..27.70)     27.69 (27.68..27.70)   +0.12 %
+    peak       27.78 (27.77..27.79)     27.78 (27.78..27.79)   +0.02 %
+    final2s    27.70 (27.69..27.71)     27.70 (27.69..27.70)   +0.00 %
+    reach98     7.45 (7.43..7.47)      7.42 (7.42..7.43)   -0.28 %
+    hit        11.49 (11.48..11.50)     11.46 (11.45..11.47)   -0.24 %
+    s1          7.43 (7.37..7.51)      7.50 (7.44..7.57)   +0.97 %
+    s4         19.69 (19.63..19.74)     19.73 (19.70..19.77)   +0.22 %
+    s8         27.68 (27.66..27.72)     27.66 (27.65..27.67)   -0.08 %
+12222 1 1
+    v1          6.45 (6.45..6.45)      6.56 (6.56..6.56)   +1.66 %
+    v4         18.61 (18.61..18.61)     18.67 (18.67..18.67)   +0.31 %
+    v7         25.28 (25.28..25.28)     25.31 (25.31..25.31)   +0.13 %
+    v8         26.72 (26.72..26.72)     26.78 (26.78..26.78)   +0.21 %
+    v10        27.69 (27.69..27.69)     27.68 (27.68..27.68)   -0.02 %
+    peak       27.78 (27.78..27.78)     27.77 (27.77..27.77)   -0.01 %
+    final2s    27.69 (27.69..27.69)     27.68 (27.68..27.68)   -0.01 %
+    reach98     8.40 (8.40..8.40)      8.35 (8.35..8.35)   -0.60 %
+    hit        11.65 (11.65..11.65)     11.63 (11.63..11.63)   -0.15 %
+    s1          7.35 (7.35..7.35)      7.43 (7.43..7.43)   +1.06 %
+    s4         19.10 (19.10..19.10)     19.14 (19.14..19.14)   +0.21 %
+    s8         26.94 (26.94..26.94)     26.99 (26.99..26.99)   +0.20 %
+
+## details
+name regime gear4_after limit omega_end height_mean height_min height_max dist4 dist8 lateral_end
+launch60-01        11111   0.28  69.444   69.35  1.322  1.047  1.592   461.2  1480.2  0.23
+launch60-02        21111   0.32  69.444   69.26  1.330  1.298  1.366   436.8  1404.8  0.03
+launch60-03        22222   0.32  69.444   65.13  1.320  1.299  1.356   412.1  1255.1  0.06
+launch60-04        11111   0.32  69.444   69.35  1.326  1.297  1.351   459.8  1496.1  0.02
+launch60-05        12222   0.28  69.444   69.23  1.318  1.262  1.347   431.1  1357.3  0.02
+launch60-06        22222   0.28  69.444   64.85  1.323  1.289  1.357   410.0  1252.0  0.04
+launch60-07        11111   0.30  69.444   69.35  1.322  1.286  1.357   463.2  1501.0  0.05
+launch60-08        11111   0.28  69.444   69.36  1.318  1.287  1.346   466.1  1505.0  0.04
+launch60-09        22222   0.30  69.444   64.89  1.323  1.290  1.353   412.1  1255.1  0.05
+launch60-10        21111   0.30  69.444   69.32  1.328  1.299  1.361   434.7  1401.3  0.05
+launch60-11        21111   0.27  69.444   69.36  1.324  1.291  1.351   437.9  1406.4  0.03
+launch60-12        22222   0.30  69.444   65.14  1.320  1.275  1.346   407.9  1249.0  0.05
+launch60-13        22222   0.28  69.444   65.12  1.323  1.284  1.360   409.9  1251.8  0.03
+launch60-14        21111   0.28  69.444   69.25  1.327  1.296  1.358   437.0  1404.8  0.04
+launch60-15        22222   0.32  69.444   65.12  1.315  1.282  1.341   407.9  1249.2  0.04
+launch60-16        22222   0.32  69.444   64.89  1.316  1.285  1.345   408.6  1250.2  0.06
+repeat60-1         22222   0.33  69.444   65.21  1.315  1.282  1.344   410.0  1252.4  0.07
+repeat60-2         11111   0.28  69.444   69.35  1.316  1.276  1.353   460.0  1491.8  0.04
+repeat60-3         22222   0.28  69.444   64.85  1.317  1.288  1.351   406.9  1251.7  0.05
+repeat60-4         11111   0.33  69.444   69.37  1.318  1.290  1.347   456.6  1491.8  0.04
+repeat60-5         21111   0.28  69.444   69.26  1.324  1.275  1.357   438.4  1407.0  0.05
+repeat60-6         11111   0.28  69.444   69.37  1.324  1.290  1.347   460.5  1492.5  0.04
+port-launch60-01   22222   0.27  69.444   61.55  1.323  1.293  1.356   409.7  1251.7  0.04
+port-launch60-02   22222   0.27  69.444   64.85  1.323  1.293  1.356   409.7  1251.7  0.05
+port-launch60-03   11111   0.28  69.444   69.36  1.325  1.293  1.356   463.0  1500.9  0.02
+port-launch60-04   11111   0.27  69.444   69.36  1.318  1.291  1.346   461.1  1498.0  0.03
+port-launch60-05   11111   0.27  69.444   69.43  1.322  1.297  1.349   460.0  1496.6  0.03
+port-launch60-06   11111   0.28  69.444   69.36  1.322  1.289  1.354   461.7  1499.1  0.04
+port-launch60-07   11111   0.28  69.444   69.37  1.325  1.299  1.354   462.6  1500.3  0.03
+port-launch60-08   11111   0.27  69.444   69.35  1.322  1.280  1.353   460.8  1497.8  0.04
+port-launch60-09   12222   0.28  69.444   69.23  1.319  1.290  1.356   431.1  1362.0  0.04
+port-launch60-10   21111   0.28  69.444   69.27  1.325  1.297  1.361   439.1  1408.3  0.04
+port-launch60-11   11111   0.27  69.444   69.37  1.323  1.294  1.348   459.8  1496.3  0.03
+port-launch60-12   11111   0.28  69.444   69.35  1.317  1.279  1.340   462.4  1499.9  0.03
+port-launch60-13   11111   0.23  69.444   69.38  1.320  1.280  1.353   458.0  1493.8  0.04
+port-launch60-14   11111   0.27  69.444   69.34  1.320  1.290  1.348   460.6  1497.3  0.03
+port-launch60-15   11111   0.28  69.444   69.35  1.323  1.285  1.354   462.3  1499.8  0.04
+port-launch60-16   21111   0.27  69.444   69.28  1.324  1.284  1.358   436.8  1404.9  0.05
+
+## first steps
+launch60-01        r0    11.578  L   8.44 ms  field pass 1-6: 2.92372 1.47091 1.46121 0.01584 0.01847 0.01659  getter: 0.1000 0.1000 0.1000 0.0158 0.0185 0.0166
+launch60-02        r0    11.373  L   7.86 ms  field pass 1-6: 2.87215 1.44502 1.43545 0.01576 0.01872 0.01653  getter: 0.1000 0.1000 0.1000 0.0158 0.0187 0.0165
+launch60-03        r0    11.643  L   8.30 ms  field pass 1-6: 2.93997 1.47900 1.46929 0.01569 0.01868 0.01653  getter: 0.1000 0.1000 0.1000 0.0157 0.0187 0.0165
+launch60-04        r0    11.336  L   8.32 ms  field pass 1-6: 2.86304 1.44051 1.43096 0.01578 0.01846 0.01652  getter: 0.1000 0.1000 0.1000 0.0158 0.0185 0.0165
+launch60-05        r0    12.152  L   7.90 ms  field pass 1-6: 3.06695 1.54242 1.53291 0.01580 0.01851 0.01662  getter: 0.1000 0.1000 0.1000 0.0158 0.0185 0.0166
+launch60-06        r0    12.133  L   8.84 ms  field pass 1-6: 3.06264 1.54038 1.53063 0.01574 0.01867 0.01652  getter: 0.1000 0.1000 0.1000 0.0157 0.0187 0.0165
+launch60-07        r0    11.443  L   8.62 ms  field pass 1-6: 2.89011 1.45413 1.44450 0.01590 0.01851 0.01659  getter: 0.1000 0.1000 0.1000 0.0159 0.0185 0.0166
+launch60-08        r0    11.962  L   8.70 ms  field pass 1-6: 3.01979 1.51892 1.50918 0.01579 0.01865 0.01658  getter: 0.1000 0.1000 0.1000 0.0158 0.0187 0.0166
+launch60-09        r0    11.766  L   8.50 ms  field pass 1-6: 2.97084 1.49448 1.48465 0.01572 0.01867 0.01651  getter: 0.1000 0.1000 0.1000 0.0157 0.0187 0.0165
+launch60-10        r0    11.778  L   8.49 ms  field pass 1-6: 2.97367 1.49577 1.48619 0.01589 0.01834 0.01668  getter: 0.1000 0.1000 0.1000 0.0159 0.0183 0.0167
+launch60-11        r0    11.941  L   7.95 ms  field pass 1-6: 3.01427 1.51607 1.50666 0.01578 0.01833 0.01672  getter: 0.1000 0.1000 0.1000 0.0158 0.0183 0.0167
+launch60-12        first update not sampled
+launch60-13        r0    11.997  L   8.57 ms  field pass 1-6: 3.02852 1.52332 1.51353 0.01591 0.01850 0.01646  getter: 0.1000 0.1000 0.1000 0.0159 0.0185 0.0165
+launch60-14        r0    12.034  L   8.33 ms  field pass 1-6: 3.03758 1.52782 1.51818 0.01570 0.01855 0.01647  getter: 0.1000 0.1000 0.1000 0.0157 0.0185 0.0165
+launch60-15        r0    11.448  L   8.94 ms  field pass 1-6: 2.89152 1.45490 1.44499 0.01573 0.01844 0.01656  getter: 0.1000 0.1000 0.1000 0.0157 0.0184 0.0166
+launch60-16        r0    12.129  L   8.57 ms  field pass 1-6: 3.06142 1.53978 1.53002 0.01569 0.01859 0.01647  getter: 0.1000 0.1000 0.1000 0.0157 0.0186 0.0165
+repeat60-1         r0    11.511  L   8.24 ms  field pass 1-6: 2.90676 1.46243 1.45278 0.01576 0.01830 0.01670  getter: 0.1000 0.1000 0.1000 0.0158 0.0183 0.0167
+repeat60-2         first update not sampled
+repeat60-3         r0    12.093  L   7.81 ms  field pass 1-6: 3.05213 1.53509 1.52536 0.01569 0.01862 0.01649  getter: 0.1000 0.1000 0.1000 0.0157 0.0186 0.0165
+repeat60-4         r0    11.920  L   7.93 ms  field pass 1-6: 3.00893 1.51349 1.50378 0.01567 0.01863 0.01655  getter: 0.1000 0.1000 0.1000 0.0157 0.0186 0.0166
+repeat60-5         first update not sampled
+repeat60-6         r0    11.511  L   8.29 ms  field pass 1-6: 2.90693 1.46251 1.45288 0.01582 0.01835 0.01655  getter: 0.1000 0.1000 0.1000 0.0158 0.0183 0.0165
+launch30-1         r0    11.730  L   8.45 ms  field pass 1-6: 2.96183 1.49834 1.49268 0.03032 0.03539 0.03307  getter: 0.1000 0.1000 0.1000 0.0303 0.0354 0.0331
+launch30-2         first update not sampled
+launch30-3         r0    11.819  L   8.46 ms  field pass 1-6: 2.98402 1.50938 1.50374 0.03044 0.03551 0.03306  getter: 0.1000 0.1000 0.1000 0.0304 0.0355 0.0331
+launch30-4         r0    12.016  L   8.52 ms  field pass 1-6: 3.03325 1.53400 1.52838 0.03046 0.03538 0.03327  getter: 0.1000 0.1000 0.1000 0.0305 0.0354 0.0333
+launch120-1        r0    11.853  L   7.95 ms  field pass 1-6: 2.99223 1.50097 1.48933 0.00838 0.01011 0.00831  getter: 0.1000 0.1000 0.1000 0.0084 0.0101 0.0083
+launch120-2        r0    11.411  L   8.57 ms  field pass 1-6: 2.88213 1.44601 1.43406 0.00846 0.01016 0.00817  getter: 0.1000 0.1000 0.1000 0.0085 0.0102 0.0082
+launch120-3        first update not sampled
+launch120-4        r0    11.641  L   7.98 ms  field pass 1-6: 2.93929 1.47443 1.46286 0.00844 0.01009 0.00825  getter: 0.1000 0.1000 0.1000 0.0084 0.0101 0.0083
+launch240-1        r0    11.316  L   8.49 ms  field pass 1-6: 2.85827 1.43187 1.41913 0.00488 0.00602 0.00420  getter: 0.1000 0.1000 0.1000 0.0049 0.0060 0.0042
+launch240-2        r0    11.931  L   8.08 ms  field pass 1-6: 3.01189 1.50867 1.49608 0.00479 0.00614 0.00430  getter: 0.1000 0.1000 0.1000 0.0048 0.0061 0.0043
+launch240-3        r0    11.259  L   8.26 ms  field pass 1-6: 2.84387 1.42470 1.41188 0.00486 0.00608 0.00432  getter: 0.1000 0.1000 0.1000 0.0049 0.0061 0.0043
+launch240-4        first update not sampled
+free-clean-1       first update not sampled
+free-clean-2       first update not sampled
+free-clean-3       first update not sampled
+free-clean-4       first update not sampled
+free-host-1        first update not sampled
+free-host-2        first update not sampled
+host60-1           r0 111797.120  L  10.00 ms  field pass 1-6: 27949.31100 13974.66700 13974.65400 0.01540 0.01819 0.01429  getter: 0.1000 0.1000 0.1000 0.0154 0.0182 0.0143
+host60-2           r0 111817.440  L  10.00 ms  field pass 1-6: 27954.38700 13977.20200 13977.19300 0.01611 0.02000 0.01703  getter: 0.1000 0.1000 0.1000 0.0161 0.0200 0.0170
+L over 30 starts: mean 8.45 ms, min 7.81, max 10.00
+
+## clock, one start each
+evidence/reference-wine/raw/launch60-01.json.gz
+  update 0: t 1.19978 tick 0 time 11.578008 raw 11.578008 field 5.839004 getter 0.100000 physics ema 0.000000
+  update 1: t 1.20323 tick 0 time 11.586447 raw 0.008439 field 2.923722 getter 0.100000 physics ema 0.000000
+  update 2: t 1.22132 tick 1 time 11.604545 raw 0.018098 field 1.470910 getter 0.100000 physics ema 0.100000
+  update 3: t 1.23801 tick 2 time 11.621294 raw 0.016749 field 1.461205 getter 0.100000 physics ema 0.100000
+  update 4: t 1.25468 tick 3 time 11.637975 raw 0.016681 field 0.015845 getter 0.015845 physics ema 0.100000
+  update 5: t 1.27455 tick 4 time 11.657857 raw 0.019883 field 0.018467 getter 0.018467 physics ema 0.078961
+  update 6: t 1.28955 tick 5 time 11.672732 raw 0.014876 field 0.016587 getter 0.016587 physics ema 0.066862
+  update 7: t 1.30659 tick 6 time 11.689799 raw 0.017067 field 0.016823 getter 0.016823 physics ema 0.058483
+  update 8: t 1.32271 tick 7 time 11.705971 raw 0.016172 field 0.016697 getter 0.016697 physics ema 0.052532
+  update 9: t 1.33970 tick 8 time 11.722982 raw 0.017011 field 0.016541 getter 0.016541 physics ema 0.048052
+  overlay [(0.545, 0, 0), (1.2, 0, 1), (3.157, 117, 8), (4.073, 172, 9), (4.973, 226, 10), (5.89, 281, 11), (6.906, 342, 1)]
+    state  0: 0.655 s, 0 ticks
+    state  1: 1.957 s, 117 ticks
+    state  8: 0.916 s, 55 ticks
+    state  9: 0.900 s, 54 ticks
+    state 10: 0.917 s, 55 ticks
+    state 11: 1.017 s, 61 ticks
+evidence/reference-wine/raw/port-launch60-01.json.gz
+  update 0: t 0.01667 tick 1 time 1.016667 raw 3.000000 field 2.275000 getter 0.100000 physics ema 0.100000
+  update 1: t 0.03333 tick 2 time 1.033333 raw 0.016667 field 1.145833 getter 0.100000 physics ema 0.100000
+  update 2: t 0.05000 tick 3 time 1.050000 raw 0.016667 field 0.762500 getter 0.100000 physics ema 0.100000
+  update 3: t 0.06667 tick 4 time 1.066667 raw 0.016667 field 0.389583 getter 0.100000 physics ema 0.100000
+  update 4: t 0.08333 tick 5 time 1.083333 raw 0.016667 field 0.016667 getter 0.016667 physics ema 0.083333
+  update 5: t 0.10000 tick 6 time 1.100000 raw 0.016667 field 0.016667 getter 0.016667 physics ema 0.072222
+  update 6: t 0.11667 tick 7 time 1.116667 raw 0.016667 field 0.016667 getter 0.016667 physics ema 0.064286
+  update 7: t 0.13333 tick 8 time 1.133333 raw 0.016667 field 0.016667 getter 0.016667 physics ema 0.058333
+  update 8: t 0.15000 tick 9 time 1.150000 raw 0.016667 field 0.016667 getter 0.016667 physics ema 0.053704
+  update 9: t 0.16667 tick 10 time 1.166667 raw 0.016667 field 0.016667 getter 0.016667 physics ema 0.050000
+  overlay [(0.017, 1, 1), (1.883, 113, 8), (2.8, 168, 9), (3.717, 223, 10), (4.633, 278, 11), (5.65, 339, 1)]
+    state  1: 1.867 s, 112 ticks
+    state  8: 0.917 s, 55 ticks
+    state  9: 0.917 s, 55 ticks
+    state 10: 0.917 s, 55 ticks
+    state 11: 1.017 s, 61 ticks
+evidence/reference-wine/raw/free-clean-3.json.gz
+  update 0: t 1.15203 tick 0 time 11.292944 raw 11.292944 field 5.696472 getter 0.100000 physics ema 0.000000
+  update 1: t 1.15827 tick 1 time 11.302401 raw 0.001170 field 1.426775 getter 0.100000 physics ema 0.100000
+  update 2: t 1.15974 tick 2 time 11.303385 raw 0.000984 field 1.413438 getter 0.100000 physics ema 0.100000
+  update 3: t 1.16534 tick 4 time 11.309370 raw 0.004720 field 0.002946 getter 0.002946 physics ema 0.075515
+  update 4: t 1.16834 tick 5 time 11.312445 raw 0.003074 field 0.002998 getter 0.002998 physics ema 0.061001
+  update 5: t 1.17180 tick 6 time 11.315843 raw 0.003398 field 0.003216 getter 0.003216 physics ema 0.051334
+  update 6: t 1.17465 tick 7 time 11.318777 raw 0.002935 field 0.003291 getter 0.003291 physics ema 0.044460
+  update 7: t 1.18095 tick 9 time 11.322091 raw 0.003314 field 0.003200 getter 0.003200 physics ema 0.035301
+  update 8: t 1.18440 tick 10 time 11.328438 raw 0.003317 field 0.003197 getter 0.003197 physics ema 0.032085
+  update 9: t 1.18741 tick 11 time 11.331426 raw 0.002988 field 0.003116 getter 0.003116 physics ema 0.029458
+  overlay [(0.467, 0, 0), (1.152, 0, 1), (3.064, 641, 8), (3.966, 950, 9), (4.868, 1259, 10), (5.769, 1569, 11), (6.771, 1907, 1)]
+    state  0: 0.685 s, 0 ticks
+    state  1: 1.912 s, 641 ticks
+    state  8: 0.902 s, 309 ticks
+    state  9: 0.902 s, 309 ticks
+    state 10: 0.901 s, 310 ticks
+    state 11: 1.002 s, 338 ticks
+evidence/reference-wine/raw/launch30-1.json.gz
+  update 0: t 1.16637 tick 0 time 11.730435 raw 11.730435 field 5.915217 getter 0.100000 physics ema 0.000000
+  update 1: t 1.17030 tick 0 time 11.738882 raw 0.008447 field 2.961832 getter 0.100000 physics ema 0.000000
+  update 2: t 1.20525 tick 1 time 11.773734 raw 0.034852 field 1.498342 getter 0.100000 physics ema 0.100000
+  update 3: t 1.23836 tick 2 time 11.806953 raw 0.033220 field 1.492683 getter 0.100000 physics ema 0.100000
+  update 4: t 1.27159 tick 3 time 11.840159 raw 0.033206 field 0.030320 getter 0.030320 physics ema 0.100000
+  update 5: t 1.30877 tick 4 time 11.877311 raw 0.037151 field 0.035386 getter 0.035386 physics ema 0.082580
+  update 6: t 1.33968 tick 5 time 11.908259 raw 0.030949 field 0.033066 getter 0.033066 physics ema 0.073141
+  update 7: t 1.37316 tick 6 time 11.941749 raw 0.033489 field 0.033276 getter 0.033276 physics ema 0.066462
+  update 8: t 1.40726 tick 7 time 11.975786 raw 0.034038 field 0.033904 getter 0.033904 physics ema 0.061721
+  update 9: t 1.44045 tick 8 time 12.008969 raw 0.033183 field 0.033156 getter 0.033156 physics ema 0.058244
+  overlay [(0.471, 0, 0), (1.166, 0, 1), (3.207, 61, 8), (4.14, 89, 9), (5.04, 116, 10), (5.94, 143, 11), (6.973, 174, 1)]
+    state  0: 0.695 s, 0 ticks
+    state  1: 2.041 s, 61 ticks
+    state  8: 0.933 s, 28 ticks
+    state  9: 0.900 s, 27 ticks
+    state 10: 0.900 s, 27 ticks
+    state 11: 1.033 s, 31 ticks
+evidence/reference-wine/raw/launch120-1.json.gz
+  update 0: t 1.16415 tick 0 time 11.853017 raw 11.853017 field 5.976508 getter 0.100000 physics ema 0.000000
+  update 1: t 1.16816 tick 0 time 11.860969 raw 0.007952 field 2.992230 getter 0.100000 physics ema 0.000000
+  update 2: t 1.17779 tick 1 time 11.870684 raw 0.009716 field 1.500973 getter 0.100000 physics ema 0.100000
+  update 3: t 1.18645 tick 2 time 11.879252 raw 0.008569 field 1.489335 getter 0.100000 physics ema 0.100000
+  update 4: t 1.19448 tick 3 time 11.887311 raw 0.008058 field 0.008380 getter 0.008380 physics ema 0.100000
+  update 5: t 1.20603 tick 4 time 11.898932 raw 0.011621 field 0.010110 getter 0.010110 physics ema 0.077095
+  update 6: t 1.21281 tick 5 time 11.905579 raw 0.006647 field 0.008307 getter 0.008307 physics ema 0.063698
+  update 7: t 1.22085 tick 6 time 11.913764 raw 0.008185 field 0.008214 getter 0.008214 physics ema 0.054466
+  update 8: t 1.22966 tick 7 time 11.922503 raw 0.008739 field 0.008699 getter 0.008699 physics ema 0.047859
+  update 9: t 1.23870 tick 8 time 11.931509 raw 0.009006 field 0.008542 getter 0.008542 physics ema 0.042964
+  overlay [(0.469, 0, 0), (1.164, 0, 1), (3.096, 231, 8), (4.005, 340, 9), (4.904, 448, 10), (5.805, 556, 11), (6.804, 676, 1)]
+    state  0: 0.695 s, 0 ticks
+    state  1: 1.932 s, 231 ticks
+    state  8: 0.908 s, 109 ticks
+    state  9: 0.900 s, 108 ticks
+    state 10: 0.900 s, 108 ticks
+    state 11: 1.000 s, 120 ticks
+evidence/reference-wine/raw/launch240-1.json.gz
+  update 0: t 1.16626 tick 0 time 11.316096 raw 11.316096 field 5.708048 getter 0.100000 physics ema 0.000000
+  update 1: t 1.16802 tick 0 time 11.324582 raw 0.008486 field 2.858267 getter 0.100000 physics ema 0.000000
+  update 2: t 1.17348 tick 1 time 11.330047 raw 0.005465 field 1.431866 getter 0.100000 physics ema 0.100000
+  update 3: t 1.17784 tick 2 time 11.334421 raw 0.004374 field 1.419126 getter 0.100000 physics ema 0.100000
+  update 4: t 1.18196 tick 3 time 11.338499 raw 0.004078 field 0.004876 getter 0.004876 physics ema 0.100000
+  update 5: t 1.18949 tick 4 time 11.346032 raw 0.007533 field 0.006016 getter 0.006016 physics ema 0.076219
+  update 6: t 1.19206 tick 5 time 11.348543 raw 0.002511 field 0.004196 getter 0.004196 physics ema 0.062178
+  update 7: t 1.19560 tick 6 time 11.352155 raw 0.003611 field 0.003885 getter 0.003885 physics ema 0.052515
+  update 8: t 1.20033 tick 7 time 11.356833 raw 0.004678 field 0.004497 getter 0.004497 physics ema 0.045568
+  update 9: t 1.20497 tick 8 time 11.361472 raw 0.004640 field 0.004255 getter 0.004255 physics ema 0.040434
+  overlay [(0.471, 0, 0), (1.166, 0, 1), (3.084, 459, 8), (3.984, 675, 9), (4.884, 891, 10), (5.788, 1108, 11), (6.792, 1349, 1)]
+    state  0: 0.695 s, 0 ticks
+    state  1: 1.917 s, 459 ticks
+    state  8: 0.900 s, 216 ticks
+    state  9: 0.900 s, 216 ticks
+    state 10: 0.904 s, 217 ticks
+    state 11: 1.004 s, 241 ticks
+evidence/reference-wine/raw/host60-1.json.gz
+  update 0: t 1.17031 tick 0 time 111797.120000 raw 111797.120000 field 55898.609000 getter 0.100000 physics ema 0.000000
+  update 1: t 1.17347 tick 0 time 111797.130000 raw 0.011029 field 27949.311000 getter 0.100000 physics ema 0.000000
+  update 2: t 1.19147 tick 1 time 111797.160000 raw 0.021264 field 13974.667000 getter 0.100000 physics ema 0.100000
+  update 3: t 1.20828 tick 2 time 111797.170000 raw 0.014547 field 13974.654000 getter 0.100000 physics ema 0.100000
+  update 4: t 1.22478 tick 3 time 111797.190000 raw 0.015451 field 0.015399 getter 0.015399 physics ema 0.100000
+  update 5: t 1.24462 tick 4 time 111797.210000 raw 0.019706 field 0.018192 getter 0.018192 physics ema 0.078850
+  update 6: t 1.25971 tick 5 time 111797.220000 raw 0.011237 field 0.014295 getter 0.014295 physics ema 0.066718
+  update 7: t 1.27702 tick 6 time 111797.240000 raw 0.020822 field 0.017615 getter 0.017615 physics ema 0.057981
+  update 8: t 1.29317 tick 7 time 111797.260000 raw 0.013557 field 0.015852 getter 0.015852 physics ema 0.052214
+  update 9: t 1.30981 tick 8 time 111797.270000 raw 0.014600 field 0.014697 getter 0.014697 physics ema 0.047669
+  overlay [(0.506, 0, 0), (1.17, 0, 1), (3.127, 117, 8), (4.027, 171, 9), (4.926, 225, 10), (5.843, 280, 11), (6.843, 340, 1)]
+    state  0: 0.664 s, 0 ticks
+    state  1: 1.956 s, 117 ticks
+    state  8: 0.900 s, 54 ticks
+    state  9: 0.899 s, 54 ticks
+    state 10: 0.917 s, 55 ticks
+    state 11: 1.000 s, 60 ticks
+
+## rate
+free-clean-1: countdown   329.5 ticks/s, driving   359.0 ticks/s, tick1 at 1.174, dt mean 0.00278 min 0.00226 max 0.00553, final fwd 3.77 gas 0.0
+   v1   0.34 v4   1.43 v8   3.92 peak   4.05 states [(0.0, '22222'), (0.25, '11111')]
+free-clean-2: countdown   317.3 ticks/s, driving   358.0 ticks/s, tick1 at 1.218, dt mean 0.00279 min 0.00217 max 0.00400, final fwd 11.81 gas 0.0
+   v1   0.63 v4   4.10 v8   8.87 peak  12.64 states [(0.0, '22222'), (0.06, '11111')]
+free-clean-3: countdown   340.1 ticks/s, driving   365.3 ticks/s, tick1 at 1.158, dt mean 0.00274 min 0.00228 max 0.00325, final fwd 1.17 gas 0.0
+   v1   0.22 v4   0.72 v8   1.12 peak   1.25 states [(0.0, '22222'), (0.34, '11111')]
+free-clean-4: countdown   335.4 ticks/s, driving   360.7 ticks/s, tick1 at 1.160, dt mean 0.00277 min 0.00204 max 0.00342, final fwd 3.60 gas 0.0
+   v1   0.22 v4   1.78 v8   3.87 peak      - states [(0.0, '22222'), (0.15, '11111')]
+free-host-1: countdown   331.9 ticks/s, driving   369.1 ticks/s, tick1 at 1.190, dt mean 0.00272 min 0.00020 max 0.00536, final fwd 23.27 gas 0.0
+   v1   5.79 v4  17.09 v8  23.69 peak  26.13 states [(0.0, '22222')]
+free-host-2: countdown   332.8 ticks/s, driving   368.8 ticks/s, tick1 at 1.215, dt mean 0.00270 min 0.00019 max 0.00536, final fwd 22.23 gas 0.0
+   v1   5.93 v4  19.03 v8  27.68 peak  27.77 states [(0.0, '12222'), (0.03, '21111')]
+host60-1: countdown    60.0 ticks/s, driving    60.0 ticks/s, tick1 at 1.191, dt mean 0.01673 min 0.01475 max 0.01989, final fwd 18.17 gas 0.0
+   v1   6.61 v4  19.23 v8  27.71 peak  27.78 states [(0.0, '21111')]
+host60-2: countdown    60.0 ticks/s, driving    60.0 ticks/s, tick1 at 1.208, dt mean 0.01665 min 0.01409 max 0.02011, final fwd 19.51 gas 0.0
+   v1   6.45 v4  19.09 v8  27.71 peak  27.77 states [(0.0, '21111')]
+launch30-1: countdown    30.0 ticks/s, driving    30.0 ticks/s, tick1 at 1.205, dt mean 0.03333 min 0.03299 max 0.03375, final fwd 22.76 gas 0.0
+   v1   6.73 v4  17.55 v8  23.80 peak  26.17 states [(0.0, '22222')]
+launch120-1: countdown   120.0 ticks/s, driving   120.0 ticks/s, tick1 at 1.178, dt mean 0.00833 min 0.00786 max 0.00876, final fwd 23.05 gas 0.0
+   v1   6.33 v4  17.31 v8  23.71 peak  26.14 states [(0.0, '22222')]
+launch240-1: countdown   239.9 ticks/s, driving   240.0 ticks/s, tick1 at 1.173, dt mean 0.00417 min 0.00343 max 0.00468, final fwd 9.65 gas 0.0
+   v1   6.64 v4  20.66 v8  27.74 peak  27.79 states [(0.0, '11111')]
+
+## other rates
+launch30-1           key   0.30 gas   0.37 before 22222 v1   6.73 v4  17.55 v7  22.75 v8  23.80 v10  25.27 peak  26.17 hit      - r98      - states [(0.0, '22222')]
+launch30-2           key   1.03 gas   1.10 before 11111 v1   7.11 v4  21.06 v7  27.72 v8  27.72 v10  27.75 peak  27.76 hit  11.07 r98   5.93 states [(0.0, '11111')]
+launch30-3           key   1.73 gas   1.80 before 22222 v1   6.71 v4  19.29 v7  26.54 v8  27.66 v10  27.71 peak  27.77 hit  11.43 r98   7.40 states [(0.0, '21111')]
+launch30-4           key   2.40 gas   2.47 before 22222 v1   6.78 v4  17.57 v7  22.76 v8  23.81 v10  25.27 peak  26.16 hit      - r98      - states [(0.0, '22222')]
+launch120-1          key   0.30 gas   0.31 before 22222 v1   6.33 v4  17.31 v7  22.58 v8  23.71 v10  25.21 peak  26.14 hit      - r98      - states [(0.0, '22222')]
+launch120-2          key   1.00 gas   1.02 before 22222 v1   6.33 v4  17.32 v7  22.64 v8  23.71 v10  25.21 peak  26.15 hit      - r98      - states [(0.0, '22222')]
+launch120-3          key   1.70 gas   1.72 before 22222 v1   6.40 v4  17.37 v7  22.66 v8  23.73 v10  25.23 peak  26.15 hit      - r98      - states [(0.0, '22222')]
+launch120-4          key   2.41 gas   2.42 before 22222 v1   6.45 v4  18.62 v7  25.28 v8  26.75 v10  27.66 peak  27.77 hit  11.66 r98   8.37 states [(0.0, '22222'), (0.02, '12222')]
+launch240-1          key   0.30 gas   0.31 before 11111 v1   6.64 v4  20.66 v7  27.72 v8  27.74 v10  27.74 peak  27.79 hit  11.14 r98   6.02 states [(0.0, '11111')]
+launch240-2          key   1.00 gas   1.01 before 22222 v1   6.60 v4  19.27 v7  26.53 v8  27.69 v10  27.62 peak  27.78 hit  11.45 r98   7.41 states [(0.0, '22222'), (0.04, '21111')]
+launch240-3          key   1.70 gas   1.71 before 22222 v1   6.48 v4  20.56 v7  27.73 v8  27.73 v10  27.74 peak  27.80 hit  11.17 r98   6.06 states [(0.0, '22222'), (0.15, '11111')]
+launch240-4          key   2.40 gas   2.41 before 22222 v1   6.38 v4  17.34 v7  22.61 v8  23.72 v10  25.22 peak  26.14 hit      - r98      - states [(0.0, '22222')]
+free-clean-1         key   1.00 gas   1.07 before 22222 v1   0.34 v4   1.43 v7   3.35 v8   3.92 v10   3.99 peak   4.05 hit      - r98      - states [(0.0, '22222'), (0.25, '11111')]
+free-clean-2         key   2.00 gas   2.01 before 22222 v1   0.63 v4   4.10 v7   7.62 v8   8.87 v10  11.00 peak  12.64 hit      - r98      - states [(0.0, '22222'), (0.06, '11111')]
+free-clean-3         key   1.00 gas   1.01 before 22222 v1   0.22 v4   0.72 v7   1.04 v8   1.12 v10   1.21 peak   1.25 hit      - r98      - states [(0.0, '22222'), (0.34, '11111')]
+free-clean-4         key   2.00 gas   3.79 before 22222 v1   0.22 v4   1.78 v7   3.50 v8   3.87 v10   3.86 peak      - hit      - r98      - states [(0.0, '22222'), (0.15, '11111')]
+free-host-1          key   1.00 gas   1.01 before 22222 v1   5.79 v4  17.09 v7  22.66 v8  23.69 v10  25.20 peak  26.13 hit      - r98      - states [(0.0, '22222')]
+free-host-2          key   2.00 gas   2.01 before 12222 v1   5.93 v4  19.03 v7  26.40 v8  27.68 v10  27.73 peak  27.77 hit  11.62 r98   7.45 states [(0.0, '12222'), (0.03, '21111')]
+host60-1             key   1.02 gas   1.05 before 21111 v1   6.61 v4  19.23 v7  26.54 v8  27.71 v10  27.65 peak  27.78 hit  11.42 r98   7.40 states [(0.0, '21111')]
+host60-2             key   2.00 gas   2.03 before 21111 v1   6.45 v4  19.09 v7  26.43 v8  27.71 v10  27.69 peak  27.77 hit  11.50 r98   7.45 states [(0.0, '21111')]
+
+## reverse
+reverse60-1        start  -0.01 state 22222 then 22222 0.5s  -4.01 1s  -8.51 2s -16.56 3s -23.69 4s -27.79 5s -27.78 6s -27.82 min -27.88 steady mean -27.79 reach98   3.62 until   7.23 zero   0.00 om0lim 69.44
+reverse60-2        start  -0.04 state 22222 then 22222 0.5s  -4.01 1s  -8.51 2s -16.56 3s -23.69 4s -27.73 5s -27.80 6s -27.80 min -27.89 steady mean -27.79 reach98   3.62 until   7.37 zero   0.00 om0lim 69.44
+reverse60-3        start  -0.02 state 22222 then 22222 0.5s  -3.97 1s  -8.47 2s -16.53 3s -23.83 4s -27.79 5s -27.84 6s -27.78 min -27.90 steady mean -27.79 reach98   3.55 until   7.30 zero   0.00 om0lim 69.44
+reverse60-4        start  -0.01 state 22222 then 11111 0.5s  -4.04 1s  -8.84 2s -18.14 3s -26.93 4s -27.93 5s -27.89 6s -27.93 min -28.09 steady mean -27.91 reach98   3.05 until   7.12 zero   0.00 om0lim 69.44
+reverse60-5        start  -0.01 state 12222 then 11111 0.5s  -4.04 1s  -8.84 2s -18.14 3s -26.94 4s -28.02 5s -28.03 6s -28.02 min -28.12 steady mean -27.91 reach98   3.05 until   7.25 zero   0.00 om0lim 69.44
+reverse60-6        start  -0.02 state 22222 then 11111 0.5s  -4.05 1s  -8.85 2s -18.13 3s -27.21 4s -28.01 5s -27.86 6s -27.84 min -28.06 steady mean -27.91 reach98   3.02 until   7.12 zero   0.00 om0lim 69.44
+port-reverse60-1   start  -0.01 state 11111 then 11111 0.5s  -4.00 1s  -8.80 2s -18.10 3s -27.25 4s -27.77 5s -27.84 6s -27.85 min -28.13 steady mean -27.90 reach98   3.00 until   7.20 zero   0.00 om0lim 69.44
+port-reverse60-2   start  -0.01 state 22222 then 22222 0.5s  -3.92 1s  -8.43 2s -16.48 3s -23.43 4s -27.81 5s -27.80 6s -27.74 min -27.90 steady mean -27.79 reach98   3.63 until   7.27 zero   0.00 om0lim 69.44
+port-reverse60-3   start  -0.01 state 21111 then 22211 0.5s  -3.94 1s  -8.51 2s -16.83 3s -24.61 4s -27.81 5s -27.81 6s -27.78 min -27.90 steady mean -27.81 reach98   3.40 until   7.15 zero   0.00 om0lim 69.44
+port-reverse60-4   start  -0.01 state 22222 then 22222 0.5s  -3.93 1s  -8.43 2s -16.48 3s -23.62 4s -27.81 5s -27.81 6s -27.74 min -27.90 steady mean -27.80 reach98   3.60 until   7.27 zero   0.00 om0lim 69.44
+port-reverse60-5   start  -0.01 state 22222 then 22222 0.5s  -3.92 1s  -8.43 2s -16.48 3s -23.62 4s -27.82 5s -27.78 6s -27.77 min -27.91 steady mean -27.79 reach98   3.60 until   7.25 zero   0.00 om0lim 69.44
+port-reverse60-6   start  -0.01 state 22222 then 12222 0.5s  -3.95 1s  -8.58 2s -17.14 3s -25.24 4s -27.85 5s -27.83 6s -27.81 min -27.92 steady mean -27.82 reach98   3.33 until   7.20 zero   0.00 om0lim 69.44
+
+## brake
+brake60-1          start  24.10 state 11111 then 11111 0.5s  17.36 1s  10.24 2s  -3.81 3s -15.07 4s -24.22 5s -27.90 6s -27.92 min -28.10 steady mean -27.90 reach98   4.35 until   6.10 zero   1.73 om0lim 69.44
+brake60-2          start  24.07 state 11111 then 11111 0.5s  17.14 1s   9.95 2s  -4.09 3s -16.18 4s -25.42 5s -27.69 6s -24.96 min -28.07 steady mean -27.86 reach98   4.22 until   5.82 zero   1.72 om0lim 69.44
+brake60-3          start  22.03 state 21111 then 21111 0.5s  15.13 1s   7.70 2s  -6.59 3s -16.72 4s -26.09 5s -27.91 6s -27.78 min -28.09 steady mean -27.90 reach98   4.13 until   6.07 zero   1.53 om0lim 69.44
+port-brake60-1     start  24.10 state 11111 then 11111 0.5s  17.41 1s  10.35 2s  -3.59 3s -14.79 4s -24.00 5s -28.02 6s -27.91 min -28.08 steady mean -27.90 reach98   4.40 until   6.08 zero   1.73 om0lim 69.44
+port-brake60-2     start  24.13 state 11111 then 11111 0.5s  17.34 1s  10.22 2s  -5.43 3s -16.81 4s -25.98 5s -27.56 6s  -1.49 min -28.06 steady mean -27.83 reach98   4.15 until   5.87 zero   1.72 om0lim 69.44
+port-brake60-3     start  19.45 state 22222 then 22222 0.5s  11.81 1s   4.51 2s  -8.76 3s -18.53 4s -27.28 5s -27.79 6s -27.99 min -28.13 steady mean -27.77 reach98   3.97 until   6.08 zero   1.33 om0lim 69.44
+
+## racers
+racers60-1 indices [246, 808, 1169, 1196, 1209, 1217, 1230] go 5.84
+   after 10s straight distance from their GO spot: [0, 0, 0, 1975, 2930, 1810, 1600] speeds [-0.0, 0.0, 0.0, 24.964, 29.249, 24.979, 23.17]
+   after 20s straight distance from their GO spot: [0, 0, 0, 4333, 5261, 4199, 3940] speeds [-0.0, 0.0, 0.0, 24.723, 25.028, 24.958, 23.837]
+   after 30s straight distance from their GO spot: [0, 0, 0, 6638, 7563, 6500, 6161] speeds [-0.0, 0.0, 0.0, 24.191, 24.996, 23.688, 24.512]
+   path length 30 s: [0, 0, 0, 6884, 7845, 6742, 6374]
+racers60-2 indices [246, 808, 1169, 1196, 1209, 1217, 1230] go 5.87
+   after 10s straight distance from their GO spot: [0, 0, 0, 1956, 2858, 1793, 1822] speeds [-0.0, -0.0, 0.001, 24.989, 32.334, 24.958, 24.911]
+   after 20s straight distance from their GO spot: [0, 0, 1, 4332, 5234, 4199, 4223] speeds [-0.0, -0.0, 0.0, 24.769, 25.041, 24.982, 24.903]
+   after 30s straight distance from their GO spot: [0, 0, 1, 6656, 7534, 6518, 6544] speeds [-0.0, -0.0, 0.0, 24.669, 25.015, 23.871, 24.879]
+   path length 30 s: [0, 0, 1, 6907, 7826, 6765, 6781]
+racers60-3 indices [246, 808, 1169, 1196, 1209, 1217, 1230] go 5.84
+   after 10s straight distance from their GO spot: [0, 0, 0, 1999, 2950, 1821, 1851] speeds [-0.0, 0.0, 0.0, 24.996, 31.781, 24.982, 24.913]
+   after 20s straight distance from their GO spot: [0, 0, 0, 4260, 5202, 4130, 4240] speeds [-0.0, 0.0, 0.0, 24.745, 25.011, 24.817, 24.288]
+   after 30s straight distance from their GO spot: [0, 0, 0, 6590, 7538, 6458, 6557] speeds [-0.0, 0.0, 0.0, 23.639, 24.977, 26.358, 24.362]
+   path length 30 s: [0, 0, 0, 6811, 7797, 6673, 6771]
+port-racers60 indices [246, 808, 1169, 1196, 1209, 1217, 1230] go 4.63
+   after 10s straight distance from their GO spot: [0, 0, 1, 1996, 2896, 1806, 1837] speeds [0, 0, 0.001, 24.98, 34.179, 24.969, 24.9]
+   after 20s straight distance from their GO spot: [0, 0, 1, 4353, 5290, 4196, 4221] speeds [0, 0, 0, 24.785, 25.032, 24.974, 24.88]
+   after 30s straight distance from their GO spot: [0, 0, 1, 6678, 7606, 6515, 6542] speeds [0, 0, 0, 24.832, 24.898, 23.872, 24.431]
+   path length 30 s: [0, 0, 1, 6929, 7888, 6763, 6779]
+port-racers60-whole indices [246, 808, 1169, 1196, 1209, 1217, 1230] go 4.63
+   after 10s straight distance from their GO spot: [0, 0, 0, 1970, 2892, 1806, 1836] speeds [0, 0, 0.001, 24.982, 27.488, 24.98, 24.908]
+   after 20s straight distance from their GO spot: [0, 0, 1, 4328, 5214, 4195, 4223] speeds [0, 0, 0, 24.761, 25.052, 24.956, 24.91]
+   after 30s straight distance from their GO spot: [0, 0, 1, 6652, 7528, 6515, 6543] speeds [0, 0, 0, 24.418, 24.978, 23.895, 24.146]
+   path length 30 s: [0, 0, 1, 6903, 7813, 6762, 6780]
+
+## traffic
+racers60-1: slots seen 5, starts 1, nose mean 0.032 highest 0.032, highest any time 0.032
+racers60-2: slots seen 5, starts 0, nose mean     - highest     -, highest any time 0.204
+racers60-3: slots seen 5, starts 0, nose mean     - highest     -, highest any time 0.232
+port-racers60: slots seen 5, starts 1, nose mean 0.004 highest 0.004, highest any time 0.004
+port-racers60-whole: slots seen 5, starts 1, nose mean 0.088 highest 0.088, highest any time 0.088

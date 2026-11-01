@@ -1,0 +1,73 @@
+{
+ "date": "2026-10-31T13:31:14.090Z",
+ "level": "etappe of the shipped game.ini, bot follows the road from the start",
+ "seconds": 12,
+ "warmSeconds": 8,
+ "throttle": 1,
+ "viewportCss": [
+  800,
+  360
+ ],
+ "dpr": 2,
+ "drawingBuffer": [
+  1600,
+  720
+ ],
+ "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+ "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+ "frameMs": {
+  "count": 891,
+  "mean": 13.55,
+  "p50": 0.4,
+  "p95": 137.6,
+  "p99": 172.1,
+  "max": 225.3
+ },
+ "fps": {
+  "mean": 73.8,
+  "worstSecond": 58.1,
+  "perSecond": [
+   58.1,
+   71,
+   72.2,
+   71.7,
+   71.7,
+   73.8,
+   71.9,
+   76,
+   87.1,
+   75.9,
+   72.4
+  ]
+ },
+ "tickMs": {
+  "count": 537,
+  "mean": 1.61,
+  "p50": 1.5,
+  "p95": 2.4,
+  "p99": 3,
+  "max": 5.2
+ },
+ "presentMs": {
+  "count": 891,
+  "mean": 12.37,
+  "p50": 0.2,
+  "p95": 149.3,
+  "p99": 180.6,
+  "max": 227.1
+ },
+ "renderer": {
+  "verts": 31525,
+  "indices": 23148,
+  "batches": 17,
+  "matrices": 257,
+  "ticksCaptured": 928,
+  "calls": 1
+ },
+ "webgl": {
+  "calls": 1,
+  "triangles": 367
+ },
+ "botChunkAtEnd": 118,
+ "botSpeedAtEnd": 0.15065208077430725
+}

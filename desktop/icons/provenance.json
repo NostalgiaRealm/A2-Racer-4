@@ -1,0 +1,60 @@
+{
+  "source": "original-game-decompiled/decompiled/game__A2Racer4.exe/resources/ICON/ICON_1_1043.ico.raw",
+  "sourceSha256": "4ecbdab9976737a8b2a9a18bbdf26482bc75397da7fc9ff6ad3ed1ec08cac158",
+  "sourceBytes": 2216,
+  "sourceImage": {
+    "width": 32,
+    "height": 32,
+    "bitsPerPixel": 8,
+    "format": "uncompressed paletted DIB plus 1-bit AND mask",
+    "transparentPixels": 272,
+    "opaquePixels": 752,
+    "rgbaSha256": "60ef42ed419c823cf1016436268e0fa1b512ab83c1d96fa0dd9d430f32823316"
+  },
+  "conversion": "Original palette RGB and binary transparency preserved. Nearest-neighbor pixel replication only; no smoothing, padding, redrawing, or synthesized detail. Original 32px DIB retained byte-for-byte inside ICO.",
+  "formats": {
+    "icon.png": {
+      "width": 512,
+      "height": 512
+    },
+    "icon.ico": {
+      "sizes": [
+        32,
+        48,
+        64,
+        128,
+        256
+      ]
+    },
+    "icon.icns": {
+      "records": [
+        {
+          "type": "ic08",
+          "size": 256
+        },
+        {
+          "type": "ic09",
+          "size": 512
+        },
+        {
+          "type": "ic10",
+          "size": 1024
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "icon.png": {
+      "bytes": 6126,
+      "sha256": "0799833df1a7b299fc482b820089ae8790f2c22907398a38e63a30c1079de3da"
+    },
+    "icon.ico": {
+      "bytes": 8897,
+      "sha256": "58baf48c409f4977208d2c5b67d7d960f8ad3081a8c3c57606f395ce1a740399"
+    },
+    "icon.icns": {
+      "bytes": 28694,
+      "sha256": "c63f5267d530532b044508255a1e74704c0322537fad0bf43c0df6297e90b15a"
+    }
+  }
+}

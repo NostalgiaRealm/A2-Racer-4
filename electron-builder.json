@@ -1,0 +1,34 @@
+{
+  "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
+  "appId": "com.nostalgiarealm.a2racer4.port",
+  "productName": "A2 Racer 4",
+  "directories": { "output": "release", "buildResources": "desktop" },
+  "artifactName": "A2-Racer-4-${version}-${os}-${arch}.${ext}",
+  "asar": true,
+  "npmRebuild": false,
+  "afterPack": "tools/verify-desktop-package.mjs",
+  "files": ["electron/**/*", "desktop/icons/icon.png", "package.json", "!node_modules/**"],
+  "extraResources": [
+    { "from": "dist", "to": "game", "filter": ["**/*"] }
+  ],
+  "linux": {
+    "executableName": "a2racer4",
+    "target": ["AppImage", "tar.gz"],
+    "icon": "desktop/icons/icon.png",
+    "category": "Game",
+    "syncDesktopName": true,
+    "desktop": { "entry": { "Categories": "Game;ArcadeGame;" } }
+  },
+  "win": { "target": ["nsis", "zip"], "icon": "desktop/icons/icon.ico", "executableName": "a2racer4" },
+  "nsis": { "oneClick": false, "allowToChangeInstallationDirectory": true, "perMachine": false },
+  "mac": {
+    "target": ["dmg", "zip"],
+    "icon": "desktop/icons/icon.icns",
+    "category": "public.app-category.racing-games",
+    "identity": "-",
+    "hardenedRuntime": true,
+    "entitlements": "desktop/entitlements.mac.plist",
+    "entitlementsInherit": "desktop/entitlements.mac.plist",
+    "notarize": false
+  }
+}

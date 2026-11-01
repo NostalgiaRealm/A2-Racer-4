@@ -1,0 +1,36 @@
+node_modules/
+dist/
+release/
+tools/recomp/out/
+__pycache__/
+*.pyc
+evidence/forms/
+evidence/smoke/
+evidence/desktop/*/profile/
+*.map
+.env
+.env.*
+*.pem
+*.key
+
+# Over GitHub's 100 MB limit per file: large-files/ holds the pieces, tools/large-files.mjs restores these.
+public/assets/game/rcs.img
+original-game-decompiled/original/install/rcs.img
+original-game-decompiled/original/disc/Data/rcs.IMG
+
+# Kept out of the published decompile, see docs/releasing.md: the disc image, third-party
+# redistributables and installers on the disc, what the installer put in a Wine prefix,
+# and installer logs that name the local user.
+original-game-decompiled/original/disc-image/
+original-game-decompiled/original/wine-prefix-external/
+original-game-decompiled/original/disc/Adobe Acrobat/
+original-game-decompiled/original/disc/DXSetup/
+original-game-decompiled/original/disc/MSagent/
+original-game-decompiled/original/disc/dxmedia/
+original-game-decompiled/original/disc/service/
+original-game-decompiled/original/disc/setup.EXE
+original-game-decompiled/original/disc/autorun.exe
+original-game-decompiled/extracted/disc*/
+INSTALL.LOG
+INSTTRCK.LOG
+original-game-decompiled/reach.pkl

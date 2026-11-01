@@ -1,0 +1,193 @@
+{
+ "options: starts with 3D kaart and Normaal, Laag off": {
+  "ok": true,
+  "detail": {
+   "three": true,
+   "low": false,
+   "medium": true,
+   "high": false,
+   "lowEnabled": false,
+   "highEnabled": false,
+   "cardShown": true
+  }
+ },
+ "options: 3D kaart off opens Laag, Hoog stays off, picture of the card goes": {
+  "ok": true,
+  "detail": {
+   "three": false,
+   "low": false,
+   "medium": true,
+   "high": false,
+   "lowEnabled": true,
+   "highEnabled": false,
+   "cardShown": false
+  }
+ },
+ "Weergave: the 3D-only controls are off without 3D kaart": {
+  "ok": true,
+  "detail": {
+   "chkMipMapping": false,
+   "btnBilinearFiltering": false,
+   "btnAlphaBlending": false,
+   "btnBrightnessLight": false,
+   "optLowDetail": false,
+   "optHighDetail": false
+  }
+ },
+ "options: Normaal without 3D kaart writes RESOLUTION 1": {
+  "ok": true,
+  "detail": {
+   "resolution": "1"
+  }
+ },
+ "RESOLUTION 1: Ramp device, 640x480, view on the mode grid": {
+  "ok": true,
+  "detail": {
+   "indexed": true,
+   "mode": [
+    640,
+    480
+   ],
+   "clipY": 0.75,
+   "effective": [
+    853,
+    480
+   ],
+   "ticks": 1321,
+   "verts": 5464
+  }
+ },
+ "RESOLUTION 1: render scale 50% halves the world only, and comes back": {
+  "ok": true,
+  "detail": {
+   "half": {
+    "world": [
+     427,
+     240
+    ],
+    "hud": [
+     853,
+     480
+    ],
+    "buffer": [
+     1280,
+     720
+    ]
+   },
+   "back": [
+    853,
+    480
+   ]
+  }
+ },
+ "RESOLUTION 1: a whole race ends with the results written": {
+  "ok": true,
+  "detail": {
+   "FINISHED": "1",
+   "TRACKTIME": "593233",
+   "LAP_1_TIME": "289450",
+   "LAP_2_TIME": "303783",
+   "seconds": 74
+  }
+ },
+ "RESOLUTION 1: the flitser flashes the palette and it comes back": {
+  "ok": true,
+  "detail": {
+   "presents": 4,
+   "last": [
+    0,
+    255,
+    255,
+    255
+   ]
+  }
+ },
+ "RESOLUTION 1: back in the menu": {
+  "ok": true,
+  "detail": {
+   "form": "TfrmQuickRace"
+  }
+ },
+ "options: a save at 1 shows 3D kaart off and Normaal": {
+  "ok": true,
+  "detail": {
+   "three": false,
+   "low": false,
+   "medium": true,
+   "high": false,
+   "lowEnabled": true,
+   "highEnabled": false,
+   "cardShown": false
+  }
+ },
+ "options: Laag writes RESOLUTION 0": {
+  "ok": true,
+  "detail": {
+   "resolution": "0"
+  }
+ },
+ "RESOLUTION 0: Ramp device, 320x200, clip 0.625, 200 rows": {
+  "ok": true,
+  "detail": {
+   "indexed": true,
+   "mode": [
+    320,
+    200
+   ],
+   "clipY": 0.625,
+   "effective": [
+    427,
+    200
+   ],
+   "ticks": 37970,
+   "verts": 5372
+  }
+ },
+ "RESOLUTION 0: quit by Esc and J returns to the menu": {
+  "ok": true,
+  "detail": {
+   "form": "TfrmQuickRace"
+  }
+ },
+ "options: 3D kaart on from Laag goes to Normaal": {
+  "ok": true,
+  "detail": {
+   "three": true,
+   "low": false,
+   "medium": true,
+   "high": false,
+   "lowEnabled": false,
+   "highEnabled": false,
+   "cardShown": true
+  }
+ },
+ "options: writes RESOLUTION 3": {
+  "ok": true,
+  "detail": {
+   "resolution": "3"
+  }
+ },
+ "RESOLUTION 3 after the 8-bit path: normal device, native view": {
+  "ok": true,
+  "detail": {
+   "indexed": false,
+   "mode": [
+    640,
+    480
+   ],
+   "clipY": 0.75,
+   "effective": [
+    1280,
+    720
+   ],
+   "ticks": 42252,
+   "verts": 5847
+  }
+ },
+ "no console errors": {
+  "ok": true,
+  "detail": {
+   "errors": 0
+  }
+ }
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#000000">
+<title>A2 Racer 4</title>
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<canvas id="game"></canvas>
+<canvas id="menu"></canvas>
+<div id="overlay"></div>
+<div id="touch-controls" hidden aria-label="Aanraakbediening">
+  <div id="touch-wheel" role="group" aria-label="Stuur: links en rechts sturen, boven gas geven, onder remmen en achteruit" aria-describedby="touch-wheel-help" tabindex="0">
+    <img src="assets/touch/steering-wheel.svg" alt="" draggable="false">
+    <span class="touch-wheel-forward" aria-hidden="true">▲ Gas</span>
+    <span class="touch-wheel-reverse" aria-hidden="true">Achteruit ▼</span>
+  </div>
+  <span id="touch-wheel-help" class="visually-hidden">Houd het stuur vast. Beweeg je vinger naar links of rechts om te sturen, naar boven om gas te geven en naar beneden om te remmen en achteruit te rijden.</span>
+  <div class="touch-actions">
+    <button id="touch-horn" data-button="1" aria-label="Claxon">Claxon</button>
+    <button id="touch-turbo" data-button="0" aria-label="Turbo">Turbo</button>
+    <button id="touch-handbrake" data-button="3" aria-label="Handrem"><img src="assets/touch/brake-pedal.svg" alt="" draggable="false"><span>Handrem</span></button>
+  </div>
+  <div class="touch-top">
+    <button id="touch-camera" aria-label="Camera wisselen">Camera</button>
+    <button id="touch-lookback" data-vk="51" data-dik="4" aria-label="Terugkijken, zolang je vasthoudt">Terugkijken</button>
+    <button id="touch-reset" data-vk="13" data-dik="28" aria-label="Auto terugzetten op de weg">Reset</button>
+    <button id="touch-pause" data-vk="80" aria-label="Pauze">Pauze</button>
+    <button id="touch-quit" data-vk="27" aria-label="Stoppen">Stop</button>
+    <button id="touch-more" aria-expanded="false" aria-controls="touch-taunt touch-dashboard touch-detail">Meer</button>
+    <button id="touch-taunt" class="touch-extra" data-vk="84" data-dik="20" aria-label="Roepen">Roepen</button>
+    <button id="touch-dashboard" class="touch-extra" data-vk="53" data-dik="6" aria-label="Dashboard aan of uit">Dashboard</button>
+    <button id="touch-detail" class="touch-extra" data-vk="68" data-dik="32" aria-label="Detail van het dashboard">Detail</button>
+  </div>
+</div>
+<div id="dialog-keys" hidden>
+  <button id="dlg-yes" data-vk="74">Ja</button>
+  <button id="dlg-no" data-vk="78">Nee</button>
+  <button id="dlg-go" data-vk="1">Verder</button>
+  <button id="dlg-results" data-vk="32">Verder</button>
+</div>
+<div id="loading" hidden><div id="loading-stage"><img id="loading-art" alt=""><img id="loading-bar" alt=""></div></div>
+<button id="race-settings" hidden aria-label="Instellingen">⚙</button>
+<button id="race-stop" hidden data-vk="27" aria-label="Stoppen">Stop</button>
+<div id="settings-panel" hidden></div>
+<div id="fps" hidden></div>
+<div id="status"></div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "name": "a2racer4-port",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser port of A2 Racer 4 - De politie slaat terug!, recompiled from the original race executable",
+  "main": "electron/main.mjs",
+  "desktopName": "a2racer4.desktop",
+  "author": "NostalgiaRealm",
+  "homepage": "https://github.com/NostalgiaRealm/A2-Racer-4",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "postinstall": "node tools/large-files.mjs restore",
+    "prepare:assets": "python3 tools/prepare-assets.py",
+    "recompile": "${A2R4_PYTHON:-python3} -I tools/recomp/build.py --no-ret-store",
+    "bundle": "node tools/bundle.mjs",
+    "start": "node tools/bundle.mjs && node tools/serve.mjs",
+    "dev": "node tools/bundle.mjs && node tools/serve.mjs",
+    "build": "node tools/build.mjs",
+    "preview": "node tools/serve.mjs --dist",
+    "test:headless": "node tools/run-headless.mjs --ticks 300",
+    "bench": "node tools/benchmark.mjs",
+    "desktop": "npm run bundle && electron .",
+    "desktop:icons": "node tools/prepare-desktop-icons.mjs",
+    "desktop:prepare": "npm run build && npm run desktop:icons",
+    "desktop:linux": "npm run desktop:prepare && electron-builder --linux --x64 --publish never",
+    "desktop:win": "npm run desktop:prepare && electron-builder --win --x64 --publish never",
+    "check:desktop": "node tools/check-desktop.mjs",
+    "release:archives": "node tools/package-release.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.0"
+  },
+  "devDependencies": {
+    "electron": "44.9.2",
+    "electron-builder": "26.15.3",
+    "esbuild": "0.28.2",
+    "playwright": "1.58.2"
+  }
+}

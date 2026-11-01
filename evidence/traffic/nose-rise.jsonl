@@ -1,0 +1,4 @@
+{"hz":60,"seconds":110,"wholePush":true,"share":1,"starts":24,"peakForwardY":{"mean":0.295,"highest":0.742},"highestAnyTime":0.931}
+{"hz":30,"seconds":110,"wholePush":true,"share":1,"starts":17,"peakForwardY":{"mean":0.102,"highest":0.327},"highestAnyTime":0.327}
+{"hz":60,"seconds":110,"wholePush":false,"share":0.4166666567325592,"starts":15,"peakForwardY":{"mean":0.087,"highest":0.208},"highestAnyTime":0.208}
+{"hz":30,"seconds":110,"wholePush":false,"share":0.8333333134651184,"starts":17,"peakForwardY":{"mean":0.064,"highest":0.193},"highestAnyTime":0.193}

@@ -1,0 +1,753 @@
+{
+ "touch: device 2 at race start, wheel shown": {
+  "ok": true,
+  "detail": {
+   "device": 2
+  }
+ },
+ "touch: wheel at the reference size": {
+  "ok": true,
+  "detail": {
+   "width": 158.390625
+  }
+ },
+ "touch: wheel up is gas, car accelerates": {
+  "ok": true,
+  "detail": {
+   "speed": 17.315200805664062,
+   "gas": 100
+  }
+ },
+ "touch: steering and turbo together": {
+  "ok": true,
+  "detail": {
+   "steer": 97.22281646728516,
+   "wheel": 0.9722221687019772,
+   "buttons": 1
+  }
+ },
+ "touch: cancel releases everything": {
+  "ok": true,
+  "detail": {
+   "touch": {
+    "steer": 0,
+    "gas": false,
+    "brake": false,
+    "buttons": 0
+   }
+  }
+ },
+ "touch: wheel down brakes, then reverses": {
+  "ok": true,
+  "detail": {
+   "fastestBackward": -14.491045951843262,
+   "brake": 100
+  }
+ },
+ "touch: Reset places the car back, with the wheel held and still held after": {
+  "ok": true,
+  "detail": {
+   "stamp": [
+    0,
+    17183
+   ]
+  }
+ },
+ "touch: Terugkijken holds view 4, the release restores": {
+  "ok": true,
+  "detail": {
+   "views": [
+    5,
+    4,
+    5
+   ]
+  }
+ },
+ "touch: wheel, turbo and handbrake together, each lifted by itself": {
+  "ok": true,
+  "detail": {
+   "buttons": [
+    9,
+    8
+   ]
+  }
+ },
+ "touch: Camera goes through 2, 4, 1, and on from what a key chose": {
+  "ok": true,
+  "detail": {
+   "views": [
+    0,
+    3,
+    5
+   ],
+   "fromKey": 3,
+   "afterKey": 5
+  }
+ },
+ "touch: Meer shows Roepen, Dashboard and Detail, which work": {
+  "ok": true,
+  "detail": {
+   "dashboard": [
+    0,
+    1,
+    0
+   ],
+   "detail": [
+    3,
+    0,
+    1
+   ],
+   "tauntKeys": [
+    20
+   ]
+  }
+ },
+ "touch: a right mouse button presses no on-screen control": {
+  "ok": true,
+  "detail": {
+   "buttons": 0
+  }
+ },
+ "focus: clock stops, sound suspends, input clears": {
+  "ok": true,
+  "detail": {
+   "clock": [
+    22.08333333333336,
+    22.08333333333336
+   ],
+   "audio": "suspended"
+  }
+ },
+ "focus: resumes without a jump": {
+  "ok": true,
+  "detail": {
+   "clockAfter1s": 0.9833333333332774,
+   "audio": "running"
+  }
+ },
+ "hidden tab: clock stops and resumes": {
+  "ok": true,
+  "detail": {
+   "hidden": 0,
+   "after": 0.48333333333330586
+  }
+ },
+ "settings: gear works with a second finger, and the panel releases the wheel": {
+  "ok": true,
+  "detail": {
+   "open": true,
+   "gas": false
+  }
+ },
+ "settings: touching the panel does not start the sound again": {
+  "ok": true,
+  "detail": {
+   "audio": "suspended"
+  }
+ },
+ "settings: Volume sets the master gain, once": {
+  "ok": true,
+  "detail": {
+   "volume": [
+    0.5,
+    1,
+    1
+   ]
+  }
+ },
+ "settings: closing the panel does": {
+  "ok": true,
+  "detail": {
+   "audio": "running"
+  }
+ },
+ "settings: Auto at 100% gives 1600x720": {
+  "ok": true,
+  "detail": {
+   "effective": {
+    "width": 1600,
+    "height": 720,
+    "limited": false
+   },
+   "drawing": [
+    1600,
+    720
+   ],
+   "target": null
+  }
+ },
+ "settings: 480p at 50% applies at once, drawing buffer stays native": {
+  "ok": true,
+  "detail": {
+   "effective": {
+    "width": 533,
+    "height": 240,
+    "limited": false
+   },
+   "target": [
+    533,
+    240
+   ],
+   "text": "3D-beeld: 533 × 240 pixels"
+  }
+ },
+ "settings: survive a restart": {
+  "ok": true,
+  "detail": {
+   "effective": {
+    "width": 533,
+    "height": 240,
+    "limited": false
+   }
+  }
+ },
+ "settings: Auto at 200% renders 3200x1440": {
+  "ok": true,
+  "detail": {
+   "effective": {
+    "width": 3200,
+    "height": 1440,
+    "limited": false
+   },
+   "target": [
+    3200,
+    1440
+   ],
+   "drawing": [
+    1600,
+    720
+   ]
+  }
+ },
+ "settings: the GPU limit is applied and shown": {
+  "ok": true,
+  "detail": {
+   "size": {
+    "width": 2048,
+    "height": 922,
+    "limited": true
+   },
+   "line": "3D-beeld: 2048 × 922 pixels · GPU-limiet"
+  }
+ },
+ "orientation: portrait keeps the controls on screen": {
+  "ok": true,
+  "detail": {
+   "effective": {
+    "width": 720,
+    "height": 864,
+    "limited": false
+   },
+   "wheel": {
+    "x": 16,
+    "y": 622,
+    "width": 162,
+    "height": 162
+   }
+  }
+ },
+ "orientation: the gesture ends with the rotation": {
+  "ok": true,
+  "detail": {
+   "before": true,
+   "after": false
+  }
+ },
+ "orientation: back to landscape": {
+  "ok": true,
+  "detail": {
+   "effective": {
+    "width": 1600,
+    "height": 720,
+    "limited": false
+   }
+  }
+ },
+ "layout: 800x360 covers nothing important": {
+  "ok": true,
+  "detail": {
+   "hits": [],
+   "wheel": [
+    36,
+    185.609375,
+    194.390625,
+    344
+   ],
+   "lifted": false
+  }
+ },
+ "layout: 640x360 covers nothing important": {
+  "ok": true,
+  "detail": {
+   "hits": [],
+   "wheel": [
+    36,
+    185.609375,
+    194.390625,
+    344
+   ],
+   "lifted": true
+  }
+ },
+ "layout: 1024x768 covers nothing important": {
+  "ok": true,
+  "detail": {
+   "hits": [],
+   "wheel": [
+    20,
+    528,
+    244,
+    752
+   ],
+   "lifted": true
+  }
+ },
+ "layout: 360x800 covers nothing important": {
+  "ok": true,
+  "detail": {
+   "hits": [],
+   "wheel": [
+    16,
+    622,
+    178,
+    784
+   ],
+   "lifted": false
+  }
+ },
+ "layout: 800x880 covers nothing important": {
+  "ok": true,
+  "detail": {
+   "hits": [],
+   "wheel": [
+    20,
+    640,
+    244,
+    864
+   ],
+   "lifted": true
+  }
+ },
+ "layout: 844x390 covers nothing important": {
+  "ok": true,
+  "detail": {
+   "hits": [],
+   "wheel": [
+    39,
+    202.40625,
+    210.59375,
+    374
+   ],
+   "lifted": false
+  }
+ },
+ "layout: 390x844 covers nothing important": {
+  "ok": true,
+  "detail": {
+   "hits": [],
+   "wheel": [
+    16,
+    652.5,
+    191.5,
+    828
+   ],
+   "lifted": false
+  }
+ },
+ "layout: 360x640 covers nothing important": {
+  "ok": true,
+  "detail": {
+   "hits": [],
+   "wheel": [
+    16,
+    462,
+    178,
+    624
+   ],
+   "lifted": false
+  }
+ },
+ "keyboard: device 1": {
+  "ok": true,
+  "detail": {
+   "device": 1
+  }
+ },
+ "pointer: none over the race, back for 2 s on a move": {
+  "ok": true,
+  "detail": {
+   "hiddenAtStart": "none",
+   "moved": "auto",
+   "idle": "none"
+  }
+ },
+ "keyboard: gas": {
+  "ok": true,
+  "detail": {
+   "speed": 20.640056610107422,
+   "gas": 100
+  }
+ },
+ "keyboard: steering": {
+  "ok": true,
+  "detail": {
+   "steer": -80.00001525878906
+  }
+ },
+ "pause: P stops the race clocks, the wall clock runs on": {
+  "ok": true,
+  "detail": {
+   "trackTime": [
+    434,
+    434
+   ],
+   "clock": [
+    13.833333333333599,
+    14.833333333333648
+   ]
+  }
+ },
+ "pause: the picture stays still": {
+  "ok": true,
+  "detail": {
+   "frames": 98,
+   "distinct": [
+    1
+   ]
+  }
+ },
+ "pause: Shift alone resumes nothing, and masks other keys": {
+  "ok": true,
+  "detail": {
+   "pause": [
+    1,
+    1
+   ]
+  }
+ },
+ "pause: any key resumes, and the race clock goes on from where it stood": {
+  "ok": true,
+  "detail": {
+   "pause": 0,
+   "trackTime": [
+    434,
+    901
+   ]
+  }
+ },
+ "pause: a mouse button on the race resumes, once released": {
+  "ok": true,
+  "detail": {
+   "after": [
+    0,
+    1,
+    1,
+    0
+   ]
+  }
+ },
+ "quit dialog: Esc asks, Shift masks J, N stays without waiting for its own release": {
+  "ok": true,
+  "detail": {
+   "asked": 2,
+   "shiftJ": 2,
+   "afterN": 0
+  }
+ },
+ "keyboard: turbo chords stay in the game, browser keys stay with the browser": {
+  "ok": true,
+  "detail": {
+   "turboKeys": [
+    true,
+    true,
+    true
+   ],
+   "browser": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  }
+ },
+ "keyboard: repeat of an unseen key, re-press in a tick, Shift read every time": {
+  "ok": true,
+  "detail": {
+   "repeat": true,
+   "again": true,
+   "shift": true
+  }
+ },
+ "keyboard: 40 keys held do not end the race": {
+  "ok": true,
+  "detail": {
+   "ended": false,
+   "keys": 40
+  }
+ },
+ "settings: F9 opens with the focus inside, keys stay out of the race, Esc closes": {
+  "ok": true,
+  "detail": {
+   "focusInside": true,
+   "closedByEsc": true,
+   "pause": 0
+  }
+ },
+ "gamepad: found in a keyboard race gives a note, lost pauses": {
+  "ok": true,
+  "detail": {
+   "note": "Gamepad werkt vanaf de volgende race",
+   "pause": 1
+  }
+ },
+ "full screen: on at the first gesture, with Stop for the mouse": {
+  "ok": true,
+  "detail": {
+   "inside": true,
+   "setting": true,
+   "stop": true
+  }
+ },
+ "full screen: Stop asks, and Nee answers on screen": {
+  "ok": true,
+  "detail": {
+   "asked": 2,
+   "answers": true,
+   "after": 0
+  }
+ },
+ "full screen: leaving opens the quit prompt, and it stays off": {
+  "ok": true,
+  "detail": {
+   "left": {
+    "inside": false,
+    "setting": false,
+    "stop": false
+   },
+   "prompt": 2,
+   "stayed": {
+    "inside": false,
+    "setting": false,
+    "stop": false
+   }
+  }
+ },
+ "full screen: setting it again enters": {
+  "ok": true,
+  "detail": {
+   "inside": true,
+   "setting": true,
+   "stop": true
+  }
+ },
+ "quit dialog: J ends the race, finished=0": {
+  "ok": true,
+  "detail": {
+   "ended": true,
+   "finished": "0"
+  }
+ },
+ "touch setting: on gives the wheel on a desktop, and a mouse drives it": {
+  "ok": true,
+  "detail": {
+   "device": 2,
+   "gas": true
+  }
+ },
+ "touch setting: off and on again during a race": {
+  "ok": true,
+  "detail": {
+   "hidden": true,
+   "back": true
+  }
+ },
+ "touch setting: off on a phone gives device 1, and on waits for the next race": {
+  "ok": true,
+  "detail": {
+   "device": 1,
+   "note": "Aanraakbediening werkt vanaf de volgende race"
+  }
+ },
+ "finish: wheel and actions gone, Verder shown": {
+  "ok": true,
+  "detail": {
+   "before": false,
+   "shown": true,
+   "wheelGone": true
+  }
+ },
+ "finish: Verder ends the race, which waits for the finger to lift": {
+  "ok": true,
+  "detail": {
+   "pressed": [
+    true,
+    "race"
+   ],
+   "finished": {
+    "mode": "menu",
+    "value": "1",
+    "controls": false,
+    "keys": false,
+    "classes": ""
+   }
+  }
+ },
+ "game over: Enter ends it, the race waits for its release, and the menu ignores repeats": {
+  "ok": true,
+  "detail": {
+   "held": [
+    true,
+    "race"
+   ],
+   "back": {
+    "mode": "menu",
+    "ignoreRepeat": true
+   }
+  }
+ },
+ "gamepad: connected at start selects device 2": {
+  "ok": true,
+  "detail": {
+   "device": 2
+  }
+ },
+ "gamepad: right trigger is gas, small stick stays in the deadzone": {
+  "ok": true,
+  "detail": {
+   "speed": 17.323713302612305,
+   "steer": 0
+  }
+ },
+ "gamepad: analog steering": {
+  "ok": true,
+  "detail": {
+   "steer": -100
+  }
+ },
+ "gamepad: the deadzone follows the setting": {
+  "ok": true,
+  "detail": {
+   "at50": 0,
+   "at18": 0.2682926829268293
+  }
+ },
+ "gamepad: left stick click resets the car": {
+  "ok": true,
+  "detail": {
+   "stamp": [
+    0,
+    10550
+   ]
+  }
+ },
+ "gamepad: right stick click holds the view behind": {
+  "ok": true,
+  "detail": {
+   "views": [
+    5,
+    4,
+    5
+   ]
+  }
+ },
+ "gamepad: D-pad up calls, D-pad down and stick down brake": {
+  "ok": true,
+  "detail": {
+   "pulses": [
+    84
+   ],
+   "dpad": 90,
+   "stick": 100
+  }
+ },
+ "gamepad session: the keyboard uses the player's keys, with lock to lock in 0.5 s": {
+  "ok": true,
+  "detail": {
+   "leftLock": -0.9999999999999999,
+   "halfway": -5.551115123125783e-17,
+   "rightLock": 0.9999999999999998,
+   "horn": 2,
+   "ownLeft": -0.9999999999999999,
+   "numpad": -0.9999999999999999
+  }
+ },
+ "gamepad: a non-standard device goes by button number": {
+  "ok": true,
+  "detail": {
+   "pad": {
+    "active": true,
+    "steer": 0,
+    "y": -1,
+    "gas": true,
+    "brake": true,
+    "turbo": true,
+    "horn": false,
+    "handbrake": true
+   }
+  }
+ },
+ "gamepad: disconnect releases the controls and pauses": {
+  "ok": true,
+  "detail": {
+   "pad": {
+    "active": false,
+    "steer": 0,
+    "y": 0,
+    "gas": false,
+    "brake": false,
+    "turbo": false,
+    "horn": false,
+    "handbrake": false
+   },
+   "pause": 1
+  }
+ },
+ "gamepad: found again, A resumes": {
+  "ok": true,
+  "detail": {
+   "pause": 0
+  }
+ },
+ "finish: pad A held does not skip it, a new press does": {
+  "ok": true,
+  "detail": {
+   "stillThere": false,
+   "ended": {
+    "ended": true,
+    "mode": "menu"
+   }
+  }
+ },
+ "menu: a pad button held from the race counts only after its release": {
+  "ok": true,
+  "detail": {
+   "heldInMenu": [],
+   "released": [],
+   "pressedNew": [
+    [
+     "Enter",
+     true
+    ]
+   ]
+  }
+ },
+ "load failure: back in the menu with a message, finished=0": {
+  "ok": true,
+  "detail": {
+   "mode": "menu",
+   "loading": false,
+   "status": "De race kon niet starten: Failed to fetch",
+   "finished": "0",
+   "form": "TfrmIntro",
+   "gear": false
+  }
+ },
+ "intro: pauses in a hidden tab, goes on when shown": {
+  "ok": true,
+  "detail": {
+   "hidden": true,
+   "shown": false
+  }
+ }
+}

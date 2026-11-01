@@ -1,0 +1,232 @@
+Create a faithful WebGL/Three.js port of the Windows game **A2 Racer 4 – De politie slaat terug!**
+
+The target is complete original gameplay and content, with the modern platform features specified below. Prioritize verified behavior, visual accuracy, and working functionality. Preserve the original Dutch language, artwork, music, sound effects, and other assets.
+
+Work autonomously through investigation, implementation, testing, and corrections. **Do NOT pause between milestones or ask whether to proceed.** Continue beyond the plan, prototype, and first playable race until the requirements are fulfilled or a genuine external blocker prevents further progress.
+
+Implement the full game, but keep verification focused on **one representative level only**. Do not perform thorough verification checks, a full campaign playthrough, or an exhaustive browser/device/frame-rate test matrix. Do not invoke a final critic, reviewer agent, or separate final review pass. These limits take precedence over broader verification language elsewhere in this prompt.
+
+1. **Project locations and preservation**
+
+   Create the project and its generated files in:
+
+   `/home/rick/Documents/Rebuilds/A2 Racer 4/`
+
+   Original game installation:
+
+   `/home/rick/.wine/drive_c/Program Files (x86)/Davilex/A2 Racer 4/`
+
+   Original disc image:
+
+   `/home/rick/V1.01 A2 Racer 4 - De politie slaat terug!.iso`
+
+   Inspect existing project contents before making changes. Preserve any existing work and determine whether extracted assets, decompiled code, or reverse engineering documentation are already available.
+
+   Keep the original installation and disc image unchanged. Perform extraction, conversion, development, and generated analysis inside the project directory. Use working copies and a separate test environment when reference testing could modify game files, settings, registry entries, or saved data.
+
+   Inventory the installation and disc contents. Verify their actual versions and identify differences. Record which original files and versions serve as the authority for the port; do not silently combine conflicting versions.
+
+2. **Establish the original startup sequence**
+
+   Discover and verify the actual launcher, intro videos, menus, configuration utilities, and game executables. Inspect file types rather than relying on filename extensions.
+
+   Determine:
+
+   - Executable responsibilities and relationships.
+   - Command-line arguments and working directories.
+   - Configuration files, registry settings, and save locations.
+   - How selected vehicles, tracks, modes, difficulty, and other settings pass between components.
+   - Disc dependencies, media locations, and other startup requirements.
+   - Intro playback order, transitions, and skip behavior.
+
+   Reproduce the player-facing startup, intro, menu, loading, gameplay, results, and return-to-menu flows.
+
+   Convert media where necessary while preserving content, proportions, sound, and timing. Handle browser audio and video restrictions with the smallest necessary user interaction, while retaining the original presentation.
+
+   Document every discovered executable and its purpose so another developer or LLM can understand the original program structure.
+
+3. **Establish the original engine and behavior**
+
+   Identify the actual engine, graphics interfaces, asset formats, scripting or data-driven systems, and simulation timing from the supplied game.
+
+   Do not assume that A2 Racer 4 uses the same engine, scripts, physics, or file formats as another Davilex game.
+
+   Use available reverse engineering tools to inspect executable code, libraries, scripts, data, and runtime behavior. Reuse existing decompilation or research when available, but verify consequential findings against the original artifacts.
+
+   Treat decompiled code as reconstructed analysis output. Corroborate important conclusions with assembly, callers, original data, and reachable runtime behavior. A function’s presence does not prove the game actually uses it.
+
+   For every significant system, record:
+
+   - Original behavior and relevant numerical values.
+   - Supporting evidence: file, script, executable module and function address, runtime trace, or reproducible observation.
+   - Whether the finding is confirmed, inferred, or unresolved.
+   - Where and how the port implements it.
+   - How the implementation was compared with the original.
+
+   Hypotheses are allowed during investigation. Do not silently turn unverified hypotheses into accepted original behavior or invent physics constants, gameplay rules, or visual effects to fill gaps.
+
+   If the original cannot be run or a behavior cannot be established, document the specific limitation and continue independent work. Identify the environment used for reference testing, including Wine and graphics translation layers where applicable. Distinguish game behavior from possible compatibility problems.
+
+   Keep asset extraction and conversion reproducible, including source-to-output mappings and documented commands.
+
+4. **Use existing ports as technical references**
+
+   Existing related projects are located at:
+
+   `/home/rick/Documents/Rebuilds/RedCat Superkarts/`
+
+   `/home/rick/Documents/Rebuilds/RedCat Spookkasteel/RCSPOOK_NEW/`
+
+   Inspect relevant documentation and tools before duplicating substantial work. Investigate whether asset extraction, rendering, audio, input handling, responsive layouts, or other infrastructure can be reused.
+
+   Establish compatibility before reusing game-specific parsers, scripts, simulation logic, collision behavior, cameras, or animation systems.
+
+   The original A2 Racer 4 files and observed behavior remain authoritative. Do not inherit another port’s approximations, unresolved findings, gameplay rules, or intentional changes without evaluating their relevance.
+
+   Document what was reused, the evidence supporting compatibility, and any adaptations required. Keep both reference projects unchanged and identify their editable-source and generated-output boundaries before using them.
+
+5. **Full game functionality and fidelity**
+
+   Build an inventory of all original content and features before treating the implementation scope as complete. Update it as discoveries are made.
+
+   Include every discovered track or route, environment, vehicle, game mode, difficulty setting, menu flow, opponent system, race rule, progression feature, and save/settings mechanism.
+
+   Investigate traffic, police pursuits, roadblocks, vehicle damage, repairs, pickups, shortcuts, unlocks, multiplayer, and other possible systems. Include them where confirmed in the original; their mention here does not establish that they exist.
+
+   Reproduce and verify:
+
+   - Acceleration, braking, reverse, steering, traction, grip, speed limits, and collision response.
+   - Gear changes, drivetrain behavior, airborne movement, slopes, and surface effects where present.
+   - Opponent driving, overtaking, recovery, route following, and interactions.
+   - Traffic and police behavior, detection, pursuit, collisions, and consequences where present.
+   - Checkpoints, laps or point-to-point routes, timers, race positions, penalties, results, restarts, and progression.
+   - Camera position, movement, smoothing, field of view, and transitions.
+   - Track geometry, roadside objects, textures, materials, lighting, transparency, fog, sky, visibility, and draw-distance behavior.
+   - Vehicle models, wheels, animations, particles, skid marks, and other original effects.
+   - Original menu artwork, fonts, navigation, transitions, maps, instruments, and HUD.
+   - Music selection and looping, engine sounds, sirens, collisions, speech, ambient audio, and other original audio triggers.
+   - Save data, unlocks, records, selected settings, and persistence behavior.
+
+   Apply these requirements to features that actually exist. Use original assets wherever available and preserve their appearance while implementing the explicit platform adaptations below.
+
+   Recreate the original menus. Grey out only options that genuinely do not apply to the target platform, with a clear explanation. Do not disable gameplay features simply because they remain unimplemented.
+
+6. **Frame-rate-independent behavior**
+
+   Measure the original rendering behavior and separately determine how its simulation timing works. Do not assume a particular frame cap or that rendering and simulation run at the same rate.
+
+   Support smooth rendering at the rate available from the browser and display, without imposing an artificial cap inherited from the original.
+
+   Decouple simulation from rendering. Choose simulation timing and update rules based on the original behavior, with interpolation where appropriate. Do not arbitrarily change the simulation to 60 Hz or blindly multiply every original calculation by delta time.
+
+   Vehicle handling, opponents, traffic, police, race clocks, cameras, animations, effects, and audio triggers must remain consistent as rendering frame rate changes.
+
+   Use one repeatable driving sequence in the selected level for a brief comparison between the mobile performance profile in section 9 and normal unthrottled rendering. Do not run a broad frame-rate matrix.
+
+   Within that same level, briefly check acceleration, braking, cornering, representative collisions, reversing from a standstill, sustained reverse, steering while reversing, and transitions between forward and reverse. Preserve the original control behavior and timing. A vehicle merely appearing to move backward is insufficient.
+
+   Handle focus loss, suspension, and resumption without uncontrolled simulation jumps, stuck controls, or unintended audio playback.
+
+7. **Platforms, controls, and responsive layouts**
+
+   Target desktop browsers on Linux, Windows, and macOS, plus mobile browsers on Android and iOS, including relevant Chrome/Chromium, Firefox, and Safari environments. These are implementation targets; do not expand verification into a full browser or device matrix.
+
+   Support:
+
+   - Keyboard controls.
+   - Controllers through the Gamepad API, including menu navigation, driving, appropriate analog steering and pedal inputs, deadzones, and connection/disconnection handling.
+   - Touch controls with simultaneous inputs, allowing steering together with acceleration, braking/reverse, and any additional original gameplay actions.
+
+   **Use the same steering wheel graphic and interaction logic used in RedCat Superkarts, with A2 Racer 4 steering, reversing, and acceleration applied to it.** Locate and reuse the actual graphic and maintained implementation from `/home/rick/Documents/Rebuilds/RedCat Superkarts/`; preserve its wheel appearance and input interaction behavior rather than drawing an approximation.
+
+   Adapt the wheel output and associated driving controls to A2 Racer 4's original steering response, steering limits, acceleration, braking, and reverse behavior. Reuse the input interface without importing Superkarts vehicle physics or handling constants. Preserve simultaneous touch input, input release/cancellation, and wheel feedback as implemented in the reference, while ensuring the resulting vehicle behavior follows A2 Racer 4. Keep the reference project unchanged.
+
+   Document the controls. Preserve original control behavior where applicable and make platform adaptations explicit. Support original actions such as camera switching, gear changes, horn, or other functions where discovered.
+
+   Implement responsive menus and HUD layouts for desktop, tablet, and phone screens.
+
+   Support landscape and portrait orientation. In portrait mode, rearrange original artwork, menus, HUD elements, and touch controls into a usable vertical layout. Preserve artwork proportions and keep essential information and controls visible without obscuring critical gameplay.
+
+   Handle orientation changes, screen safe areas, touch cancellation, and input transitions between menus and gameplay.
+
+8. **Widescreen, resolution, and settings**
+
+   Support widescreen and high-resolution rendering without stretching the scene or original interface artwork.
+
+   Preserve the original camera framing at its original aspect ratio. Adapt wider and taller views deliberately and document the field-of-view behavior.
+
+   Add persistent settings for:
+
+   - Resolution selection, including Auto/native and suitable explicit presets.
+   - Render scale from 25% to 200%.
+   - Relevant audio and control options.
+   - Original settings that remain applicable.
+
+   For the browser build, the resolution selector controls the base 3D render resolution. Define 100% render scale as the selected base resolution; the percentage scales both its width and height.
+
+   Display the effective rendering dimensions. Account for device pixel ratio without applying scaling twice. Preserve the viewport’s correct aspect ratio and keep menus, HUD, and touch controls readable independently of the 3D render scale.
+
+   Ensure changes apply correctly during gameplay and survive restarting.
+
+9. **Mobile performance goal and focused optimization**
+
+   **Reach and sustain at least 30 FPS at an 800×360 CSS-pixel viewport, DPR 2, and 8× CPU throttle.** Use a browser that supports this explicit emulation profile and record the browser and host used.
+
+   Benchmark at Auto/native resolution and 100% render scale: at this viewport and DPR, the expected 3D rendering dimensions are 1600×720. Record the actual drawing-buffer dimensions. Do not silently reduce resolution, DPR, render scale, or throttling to claim the target has been reached.
+
+   Choose **one representative level** with normal active gameplay and a reasonably demanding section. Use the same level, route, and short measurement window for the baseline and subsequent optimization measurements. Include actual driving, scenery, opponents, traffic, and effects where present. Measure after initial loading and shader warm-up; do not use menus, a stationary empty view, or loading time as the performance result.
+
+   Record FPS and frame times over that short run so a single peak FPS value or an average concealing sustained slow sections is not presented as success. Keep this measurement lightweight; do not build an extensive benchmark suite or test additional levels.
+
+   Profile the actual bottlenecks and optimize rendering, scene updates, allocations, asset handling, or other expensive work as needed. Preserve original visuals and gameplay. Do not reach the target by removing visible content, introducing popping or missing objects, degrading textures or effects, changing handling or simulation timing, or disabling opponents, traffic, police, collisions, or other game systems.
+
+   **Keep going until this optimization goal is reached without introducing visual anomalies or breaking the game.** After each relevant change, repeat the same short measurement and a brief visual/gameplay smoke check in the same level. Correct any observed regression before accepting the change. Do not stop merely because performance has improved if it remains below the target; report a genuine external blocker if one prevents further progress.
+
+   This is an emulated performance target, not proof of performance on every physical mobile device. Record what was actually measured without starting a separate real-device validation campaign.
+
+   Do not perform thorough verification checks. Use only the selected level and focused checks needed to establish the performance result and catch regressions from the changes. **Do not invoke a final critic or any separate final reviewer.**
+
+10. **Workflow, documentation, and verification**
+
+   Create and maintain:
+
+   - `PLAN.md`: milestones, current progress, blockers, and next actions.
+   - `README.md`: exact commands for asset preparation, installation, development, building, and running.
+   - `docs/LLM_GUIDE.md`: folder map, source/generated boundaries, entry points, subsystem locations, original executable roles, and instructions for continuing the work.
+   - `docs/original-behavior.md`: reverse engineering findings and supporting evidence.
+   - `docs/feature-parity.md`: the original content and feature inventory, implementation status, and verification status.
+   - `docs/validation.md`: test procedures, results, comparison evidence, environments, and known discrepancies.
+   - `docs/intentional-differences.md`: requested platform adaptations and their effects on original behavior.
+
+   Keep extracted originals, converted assets, recovered analysis, maintained source, generated files, and distribution output clearly organized.
+
+   Keep checks lightweight and directly relevant to implementation or optimization changes. Use the selected level for brief visual, audio, input, and gameplay smoke checks. Run only narrowly relevant existing checks where needed; do not create or run an exhaustive regression suite.
+
+   Define measurable comparison criteria and justified tolerances before judging a system verified. Do not loosen criteria simply to make a failing implementation pass.
+
+   Keep “implemented” and “verified” status separate. A successful build, plausible screenshot, or passing isolated test does not establish full gameplay parity.
+
+   Update documentation throughout the work so another LLM can continue without relying on chat history.
+
+   Continue through milestones without requesting routine approval. Investigate alternatives when blocked and continue work that does not depend on the blocker. Ask for input only when a concrete missing fact, access requirement, or consequential scope decision prevents further progress.
+
+   If interrupted or stopped by an execution limit, leave a precise checkpoint with completed work, unresolved issues, evidence locations, and next actions.
+
+11. **Completion criteria within the verification limit**
+
+    Implement the full discovered content and feature inventory. Limiting verification to one level does not authorize omitting other tracks, vehicles, modes, progression, persistence, controls, or requested platform features.
+
+    Finish when:
+
+    - The full game implementation and requested adaptations are present, with no silently omitted requirements.
+    - The RedCat Superkarts steering wheel graphic and interaction logic are reused with A2 Racer 4 steering, acceleration, braking, and reverse behavior.
+    - The selected level reaches the 30 FPS target at 800×360, DPR 2, 8× CPU throttle, Auto/native resolution, and 100% render scale.
+    - The same level's brief visual and gameplay checks show no observed anomalies or broken behavior introduced by the changes.
+    - Asset preparation, build, and launch instructions are documented and usable.
+    - The measured result, optimization changes, remaining issues, and unverified areas are recorded.
+
+    Report the level, route, measurement duration, browser/host, viewport, DPR, drawing-buffer dimensions, CPU throttle, and before/after performance. State which brief checks were actually performed. Do not imply that untested levels, modes, browsers, or physical devices have been verified.
+
+    Do not count placeholders, approximations, disabled unfinished features, or untested claims as verified parity. State any known incomplete implementation explicitly. Do not expand the work into a full campaign test, exhaustive verification, or a final critic/reviewer pass.
+
+Begin by inspecting the supplied files and existing project contents, establishing the engine and startup interfaces, and creating the feature inventory. Then continue directly into implementation and focused optimization until the mobile performance goal is reached, using only the one-level verification scope above and without pausing between milestones.
