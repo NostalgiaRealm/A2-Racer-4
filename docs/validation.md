@@ -185,7 +185,7 @@ Package content and launch are separate checks, and neither is gameplay testing:
 | Check | Covers | Result |
 |---|---|---|
 | Package content, `tools/verify-desktop-package.mjs` | Linux and Windows x64 here, macOS on GitHub Actions: every game file equals `dist/` byte for byte, `app.asar` holds the wrapper only | 774 game files, 5 wrapper files, same tree hash on Linux and Windows. Written to `integrity-*.json` in the release |
-| Launch, `tools/check-desktop.mjs` | Linux package: the first screen of the menu, then a race on etappe 0 by the bot for 30 s, read through the app's own protocol with byte ranges | Pass, no console errors or failed requests. Bot at chunk 151, 16.2 m/s. `evidence/desktop/linux/` |
+| Launch, `tools/check-desktop.mjs` | Linux package: the first screen of the menu, then a race on etappe 0 by the bot for 30 s, read through the app's own protocol with byte ranges. Also the app extracted from the AppImage, 20 s | Pass, no console errors or failed requests. Bot at chunk 151, 16.0 m/s. `evidence/desktop/linux/` |
 | Launch under Wine, by hand through the remote debugging port | Windows package, `win-unpacked/a2racer4.exe`, Wine on Linux with a throwaway prefix. Not Windows. Menu, then a race on etappe 0 by the bot for 20 s | Pass, no console errors. `evidence/desktop/wine/` |
 | Source, from a fresh clone of the tag | `npm ci` restores `rcs.img`, `npm run recompile`, `npm run build` | `spel.wasm` and every file of `dist/` byte-identical to the working copy's |
 | Not run | Windows package on Windows, macOS packages. `npm run prepare:assets` from a fresh clone | Not started |
