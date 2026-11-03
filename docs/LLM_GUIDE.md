@@ -38,7 +38,7 @@ Live site: <https://games.nostalgiarealm.com/a2racer4/>, updated with `tools/dep
 | `source/dev/` | Source | `bot.js`, the test driver. Not part of the game, but it is in the bundle |
 | `source/assets/touch/` | Source | The two wheel and pedal SVGs from RedCat SuperKarts, with `ATTRIBUTION.md` and the CC0 text |
 | `tools/` | Source | Asset preparation, server, build, checks |
-| `tools/recomp/` | Source | The recompiler. `tools/recomp/out/` is generated |
+| `tools/recomp/` | Source | The recompiler. `tools/recomp/out/` is generated. `owner-fixes/` holds the owner's patch code the race runs, with what it takes and leaves out |
 | `tools/reference-wine/` | Source | The reference runs: the original `spel.dat` under Wine, and the same key scripts on the port. Has its own `README.md` |
 | `tools/reference-86box/` | Source | The reference runs of the 8-bit path, which Wine cannot run: the original `spel.dat` on a throwaway copy of the owner's 86Box Windows 98 machine, and the port's frame set against a screenshot of the guest. Has its own `README.md` |
 | `docs/` | Documents | `research/` is analysis, `behavior/` evidence, `parity/` status |

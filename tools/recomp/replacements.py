@@ -9,6 +9,8 @@ Each entry maps an original address to one of:
 Every entry needs a reason. Addresses come from the Ghidra export and were
 checked against disassembly.asm.
 """
+import os
+
 from recompile import L_ESP, L_EAX, L_ECX, L_EDX, L_EBP, L_T2, G_EDX, G_ST0, G_ST1, TIB_BASE
 from wasmgen import *  # noqa: F403
 
@@ -242,6 +244,59 @@ PATCHES = [
 ]
 
 
+# The owner's A2-Racer-4-Fixes v1.5.4 (commit 6c46de2): its added code, spel_patch.asm assembled at
+# 0x575500, and the hooks of its parts 11 to 13, which fix game bugs that the fixed 60 ticks per
+# second of this port still has. owner-fixes/README.md says which parts are in and why the others
+# are not. sites.json is the patcher's whole table, copied unchanged; only the labels below apply.
+OWNER_FIXES = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'owner-fixes')
+OWNER_FIXES_VERSION = '1.5.4'
+OWNER_CODE_VA = 0x00575500
+OWNER_TEXT_SIZE = 0x175000          # the patcher's 'code section size', so the added code is .text
+OWNER_LABELS = {
+    # Part 11: a car that stands still with an axle in the air, or tipped over, goes back on the road.
+    'hung car',
+    # Part 12: body contacts end when they leave their triangle, and the reset cleans up after itself.
+    'contact check', 'object move', 'reset waypoint', 'reset time and rotation', 'reset next section',
+    'reset previous section', 'reset height',
+    # Part 13: what counted per frame what it meant per second, held to what it did at 25 FPS.
+    'frame limit', 'camera damping', 'car lighting', 'portrait outline', 'skid mark length', 'skid mark fade',
+    'smoke fade', 'smoke drift', 'smoke rise', 'mud spray', 'water spray', 'pickup spin', 'pickup fade',
+    'animation', 'speed camera flash', 'police brake', 'Supercop pedal', 'Supercop patrol', 'turbo tank',
+    'mail drift', 'debris spin',
+}
+
+
+# Functions of the added code that take values on the x87 stack: they stand in for an instruction
+# such as `fadd dword [x]`, or for `__ftol`. Compiled code never does that, so the analysis has to be told.
+OWNER_FPU_ARGS = {
+    0x00575BB9: 1,   # reset_height: the height found under the lane
+    0x00575C25: 1,   # reset_done: the time of the reset
+    0x00575CD2: 1,   # color_round: the colour value to convert
+    0x00575DB3: 1,   # pickup_spin: the angle
+    0x00575DDB: 1,   # mail_drift: the speed
+}
+OWNER_CODE_END = 0x00576000
+OWNER_DATA_VA = 0x00575ED7          # ai_frame_rate: constants and strings from here on
+# reset_done tells the Enter key's reset from the others by the return address of the reset
+# function on the stack, so calls to it, and calls from the added code, write their return address.
+RET_STORE_TARGETS = {0x0040E5A0}
+# Hooks that stand in for plain instructions and hand back results in registers a call does not
+# return here (ecx, edx, esi, ebp): their code is spliced into the caller at the one site each has.
+OWNER_SPLICES = {
+    0x0040E7C0: (0x00575BF4, 0x00575C25),   # reset_unlink: ecx, edx
+    0x0040E838: (0x00575C7A, 0x00575C8E),   # reset_next_section: esi, ebp
+    0x0040E841: (0x00575C8E, 0x00575CA5),   # reset_previous_section: esi, ebp
+    0x0041F29A: (0x00575DA2, 0x00575DB3),   # patrol_step: ecx, edx
+}
+
+
+def owner_fix_sites():
+    import json
+    with open(os.path.join(OWNER_FIXES, 'sites.json')) as f:
+        rows = json.load(f)
+    return [r for r in rows if r['label'] in OWNER_LABELS]
+
+
 def apply_patches(img):
     """Byte patches applied to the image before lifting."""
     for va, old, new in PATCHES:
@@ -249,3 +304,22 @@ def apply_patches(img):
         if bytes(img.mem[off:off + len(old)]) != old:
             raise SystemExit('patch mismatch at %08x' % va)
         img.mem[off:off + len(new)] = new
+    with open(os.path.join(OWNER_FIXES, 'spel_patch.bin'), 'rb') as f:
+        code = f.read()
+    off = OWNER_CODE_VA - img.base
+    if any(img.mem[off:off + len(code)]):
+        raise SystemExit('the space for the owner\'s added code is not empty')
+    img.mem[off:off + len(code)] = code
+    img.text_hi = img.text_lo + OWNER_TEXT_SIZE
+    sites = owner_fix_sites()
+    found = {r['label'] for r in sites}
+    if found != OWNER_LABELS:
+        raise SystemExit('owner-fixes/sites.json lacks %s' % sorted(OWNER_LABELS - found))
+    for r in sites:
+        # .text starts at file offset 0x1000 and RVA 0x1000, so file offsets are RVAs.
+        off = int(r['fileOffset'], 16)
+        old, new = bytes.fromhex(r['original']), bytes.fromhex(r['replacement'])
+        if bytes(img.mem[off:off + len(old)]) != old:
+            raise SystemExit('owner fix %s: bytes differ at %08x' % (r['label'], img.base + off))
+        img.mem[off:off + len(new)] = new
+    return sites

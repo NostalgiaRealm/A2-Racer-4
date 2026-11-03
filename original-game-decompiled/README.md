@@ -1,6 +1,6 @@
 # A2 Racer 4 - De politie slaat terug! (decompiled)
 
-Decompilation and documentation of the Dutch racing game by Davilex (version 1.01, 22-12-2000), made from one Wine installation and one disc image for preservation and study. It is published with the browser port in the parent folder, version 1.0.0. All code here is **generated pseudocode**, not the original source, and it has not been verified to compile. No original source files were found.
+Decompilation and documentation of the Dutch racing game by Davilex (version 1.01, 22-12-2000), made from one Wine installation and one disc image for preservation and study. It is published with the browser port in the parent folder. All code here is **generated pseudocode**, not the original source, and it has not been verified to compile. No original source files were found.
 
 ## Start here
 

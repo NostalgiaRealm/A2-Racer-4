@@ -53,8 +53,8 @@
     853,
     480
    ],
-   "ticks": 1321,
-   "verts": 5464
+   "ticks": 1329,
+   "verts": 4828
   }
  },
  "RESOLUTION 1: render scale 50% halves the world only, and comes back": {
@@ -84,16 +84,16 @@
   "ok": true,
   "detail": {
    "FINISHED": "1",
-   "TRACKTIME": "593233",
-   "LAP_1_TIME": "289450",
-   "LAP_2_TIME": "303783",
-   "seconds": 74
+   "TRACKTIME": "603433",
+   "LAP_1_TIME": "307617",
+   "LAP_2_TIME": "295816",
+   "seconds": 75
   }
  },
  "RESOLUTION 1: the flitser flashes the palette and it comes back": {
   "ok": true,
   "detail": {
-   "presents": 4,
+   "presents": 2,
    "last": [
     0,
     255,
@@ -139,8 +139,8 @@
     427,
     200
    ],
-   "ticks": 37970,
-   "verts": 5372
+   "ticks": 38346,
+   "verts": 5348
   }
  },
  "RESOLUTION 0: quit by Esc and J returns to the menu": {
@@ -180,8 +180,8 @@
     1280,
     720
    ],
-   "ticks": 42252,
-   "verts": 5847
+   "ticks": 42628,
+   "verts": 5823
   }
  },
  "no console errors": {

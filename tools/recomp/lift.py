@@ -451,13 +451,13 @@ class FnLifter:
             raise Unsupported('cond %s on kind %s at %08x' % (cc, k, self.fn.addr))
 
     # --- calls ---------------------------------------------------------------
-    def push_ret(self, i):
+    def push_ret(self, i, target=None):
         c = self.c
         c.get(L_ESP)
         c.i32(4)
         c.op(I32_SUB)
         c.set(L_ESP)
-        if self.rec.debug_ret:
+        if self.rec.debug_ret or target in self.rec.ret_store_targets or self.rec.ret_store_from(i.addr):
             c.get(L_ESP)
             c.i32(i.next)
             c.mem(I32_STORE)
@@ -569,7 +569,7 @@ class FnLifter:
             if idx is None:
                 raise Unsupported('call to unknown %08x from %08x' % (t, self.fn.addr))
             self.fpu_call_in(fpu)
-            self.push_ret(i)
+            self.push_ret(i, t)
             self.pass_saved(t)
             self.call_args()
             c.call(idx)
@@ -595,6 +595,21 @@ class FnLifter:
         """Terminates a block with a tail call and returns the callee's results."""
         c = self.c
         i = block.tail_insn
+        if block.kind == 'tail' and (self.rec.replacements.get(block.target) or {}).get('inline'):
+            r = self.rec.replacements[block.target]
+            self.fpu_call_in(r.get('fpu', (0, 0)))
+            r['inline'](self, i, block, len(block.insns) - 1)
+            if r.get('fpu', (0, 0))[1]:
+                raise Unsupported('tail to a float-returning inline helper in %s' % self.fn.name)
+            if self.writes_edx:
+                c.get(L_EDX)
+                c.gset(G_EDX)
+            c.get(L_ESP)
+            c.i32(4)
+            c.op(I32_ADD)
+            c.get(L_EAX)
+            c.op(RETURN)
+            return
         if block.kind == 'tail':
             t = block.target
             r = self.rec.replacements.get(t)
@@ -1799,8 +1814,33 @@ class FnLifter:
             c.op(I32_ADD)
             c.mem(I32_LOAD8_U)
             self.wr_reg(REG_AL)
-        elif mn in ('nop', 'cld', 'wait'):
+        elif mn in ('nop', 'cld', 'wait', 'pause'):
             pass
+        elif mn == 'pushal':
+            # eax, ecx, edx, ebx, the esp before, ebp, esi, edi, from high to low.
+            c.get(L_ESP)
+            c.set(L_T2)
+            for k, li in enumerate((L_EAX, L_ECX, L_EDX, L_EBX, L_T2, L_EBP, L_ESI, L_EDI)):
+                c.get(L_T2)
+                c.i32(4 * (k + 1))
+                c.op(I32_SUB)
+                c.get(li)
+                c.mem(I32_STORE)
+            c.get(L_T2)
+            c.i32(32)
+            c.op(I32_SUB)
+            c.set(L_ESP)
+        elif mn == 'popal':
+            for k, li in enumerate((L_EDI, L_ESI, L_EBP, None, L_EBX, L_EDX, L_ECX, L_EAX)):
+                if li is None:
+                    continue
+                c.get(L_ESP)
+                c.mem(I32_LOAD, 4 * k)
+                c.set(li)
+            c.get(L_ESP)
+            c.i32(32)
+            c.op(I32_ADD)
+            c.set(L_ESP)
         elif mn == 'std':
             self.rec.problems['std'].append('%08x in %s' % (i.addr, self.fn.name))
         elif mn == 'clc':
@@ -1921,6 +1961,17 @@ class FnLifter:
                 r, w, _ = flag_effect(i)
                 live = (live & ~w) | r
         for k, i in enumerate(b.insns):
+            if b.kind == 'jmp' and i is b.tail_insn and i.mn in ('call', 'ret'):
+                # Spliced code (recompile.py, splices): the call pushes its return address and
+                # jumps in, the ret pops it, and its arguments, and jumps back.
+                if i.mn == 'call':
+                    self.push_ret(i, i.ops[0].imm & 0xFFFFFFFF)
+                else:
+                    c.get(L_ESP)
+                    c.i32(4 + ((i.ops[0].imm & 0xFFFF) if i.ops else 0))
+                    c.op(I32_ADD)
+                    c.set(L_ESP)
+                continue
             self.insn(i, lives[k], b, k)
             # Track the flag representation in mode A.
             if i.mn == 'call':

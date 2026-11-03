@@ -94,7 +94,7 @@ Fatal path `FUN_004c4150` (over 1,600 sites): format the text, force the debug l
 
 **How it was compared.**
 
-- check-flow: a race ends with the game writing `FINISHED=1` and `TRACKTIME 593233`, then `TfrmResults` and back to `TfrmQuickRace`, with the save file present and zero console errors or warnings. run-bot does the same race headless.
+- check-flow: a race ends with the game writing `FINISHED=1` and `TRACKTIME 603433`, then `TfrmResults` and back to `TfrmQuickRace`, with the save file present and zero console errors or warnings. run-bot does the same race headless.
 - check-race-ui: `quit dialog: J ends the race, finished=0`, the finish and game-over screens (entered through `FUN_0044cda0`), and `load failure: back in the menu with a message, finished=0`. The load failure was caused by aborting the fetch of `spel.wasm`, not by a fatal in the game.
 - boot-all ran `boot` for all etappes and cars, without a renderer. That is not a gameplay check.
 - No fatal path of the game itself was triggered in any check, and `ExitProcess` has no calls in the host-call count. So the status-line message and the `GameExit` route from a real `FUN_004c4150` are read from the code, not run.

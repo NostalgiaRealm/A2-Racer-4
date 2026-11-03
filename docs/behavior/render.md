@@ -767,7 +767,7 @@ Both rows equal the original.
 - Inferred: why these palette indices: the Ramp driver took entries 240 to 255 for the white material's ramp while they were free (`FUN_004bb190` comes before `FUN_00447d10`), and the game's palette then replaced their colours. The rest of the stipple matrix, as the same Bayer pattern. Perspective correct near enough, with far surfaces off in single texels, which fits spans with subdivision. 4:3 on a monitor of the period.
 - Unresolved: the flash on the real thing: its palette writes are read from the code, and no frame of the guest caught one. The index below blue 17. The stipple at alpha values no frame was read at. What remains between the frames, below. Any real machine of the period.
 
-**Where the port implements it.** The race logic is untouched: it is game code in `spel.wasm` as shipped, and it ran there once the host answered its calls. On fixed seeds a whole race by the bot gives the same result on this path and with the 3D card: `TRACKTIME` 593233, laps 289450, 303783.
+**Where the port implements it.** The race logic is untouched: it is game code in `spel.wasm` as shipped, and it ran there once the host answered its calls. On fixed seeds a whole race by the bot gives the same result on this path and with the 3D card: `TRACKTIME` 603433, laps 307617, 295816.
 
 | Where | What |
 |---|---|

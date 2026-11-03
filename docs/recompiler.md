@@ -45,6 +45,8 @@ Inputs: `original-game-decompiled/original/install/spel.dat` and Ghidra's functi
 | `0x00558550`, `0x00559E50`, `0x00559960`, `0x0055AAF8`... | `_CIacos`, `_CIasin`, `_CIpow`, `_CIsinh`... | x87 helpers that jump between labels with values live across calls. They map to `Math` |
 | `0x005580E0`, `0x0055B3C0`, `0x0055B700`, `0x00559650` | `memcpy`, `memmove`, `memset`, `strrchr` | Computed jumps and the direction flag. Bulk memory instructions instead |
 
+The owner's fixes, parts 11 to 13 of his `A2-Racer-4-Fixes` 1.5.4: his added code at `0x575500` and the hooks of those parts, from `tools/recomp/owner-fixes/`, which also says what they needed from the recompiler: `pushad`, `popad`, `pause`, x87 arguments for five of his functions, a tail jump into the inlined `__ftol`, return addresses stored for the calls of the reset function, and four hooks spliced into their caller because they hand back results in registers a call does not return.
+
 Byte patches, both from the owner's `A2-Racer-4-Fixes`: the no-CD change from part 7 (`0x004CD478`), and part 9's `traffic_mass` in the form of a changed operand: the `1.0` in the two `FDIVR` at `0x00416002` and `0x0042898F` becomes a cell at `0x003F1000` that `source/host/race.js` sets to `min(1, tick * 25)`. Why: `docs/original-behavior.md`, traffic pushes.
 
 ## Debugging

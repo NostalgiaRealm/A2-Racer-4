@@ -106,7 +106,7 @@ E0..E9 are `etappe0..9`. E9 came with the track update, and a row that lists eta
 | Timer 0 lap time | `0x44bf10`, `0x456a30`; GS 3 | yes (recompiled) | checked on Amsterdam: check-flow | `LAP_n_TIME` in `game.ini` |
 | Timer 1 traffic light, 5000 ms | `0x4550c0` | yes (recompiled) | not verified | Runs on through a dialog, as in the original. The slot itself was not read |
 | Timer 2 fuel station | `0x43c885`, no reference | n/a | not verified | |
-| Timer 3 total race time | `0x4504c0`, `0x4504f0` | yes (recompiled) | checked on Amsterdam: check-flow, check-race-ui | `TRACKTIME` 593233 in check-flow. Read directly, and in a pause, in check-race-ui |
+| Timer 3 total race time | `0x4504c0`, `0x4504f0` | yes (recompiled) | checked on Amsterdam: check-flow, check-race-ui | `TRACKTIME` 603433 in check-flow. Read directly, and in a pause, in check-race-ui |
 | Timers 4, 6 | No reference | n/a | not verified | |
 | Timer 5 werklamp blink | `0x4556e0`; no type 6 object placed | n/a | not verified | |
 | Timer 7 werkpijlbord blink | `0x4559d0`; no type 8 object placed | n/a | not verified | |
@@ -174,7 +174,7 @@ E0..E9 are `etappe0..9`. E9 came with the track update, and a row that lists eta
 | Live position, driven chunks with bearing tie | `0x4128a0`; GS 5 | yes (recompiled) | not verified | |
 | `~racer%dpassing`, `~racer%dpassed` | `0x4128a0` | yes (recompiled) | not verified | |
 | Grid slots | `0x42e0d0`, `0x44aa20` | yes (recompiled) | not verified | Race started in check-flow; the order was not asserted |
-| Unfinished racers' time estimate | `0x42e150` | yes (recompiled) | not verified | Not asserted. In check-flow the bot finished fourth, and the fifth row, +6:51:71, lies later than the race lasted, so it reads as the estimate: Inferred |
+| Unfinished racers' time estimate | `0x42e150` | yes (recompiled) | not verified | Not asserted. In an earlier check-flow run the bot finished fourth, and the fifth row, +6:51:71, lay later than the race lasted, so it read as the estimate: Inferred. In the current run all five finished |
 | Finish sequence: 1500 ms, overlay 5, Esc, Enter or Space | `0x43ac80` | yes (recompiled) | checked on Amsterdam: check-flow, check-race-ui | A whole race in check-flow. check-race-ui, entered through `0x44cda0`: Verder on touch stands for Space, and a new press of pad A does too. The 1500 ms was not measured |
 | End of a race waits for Esc, Enter and Space to be up | `0x43ac80` | yes (host) | checked on Amsterdam: check-race-ui | `RaceRunner.endWait` keeps the last frame, with a 5 s limit the original does not have. A held key does not act in the menu until released |
 | In-race finish table with blink, `STRING_FINISH_POS_n` | `0x4940e0`; `hud-overlay.md` | yes (recompiled) | fix check: slide and end positions at 1280x720, 800x360, 360x800, frozen frames looked at | Drawn by `source/render/d3d-renderer.js`. `source/host/hud-layout.js` keeps the slide on non-4:3 shapes. Table contents and blink were not asserted |

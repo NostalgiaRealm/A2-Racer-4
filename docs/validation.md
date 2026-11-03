@@ -118,7 +118,7 @@ Original rendering behaviour, measured separately: nothing in the program limits
 
 What remains: single-pixel lines on polygon edges, single texels on far surfaces, rows of HUD glyphs. Smoke and skid marks were compared by eye and by reading palette indices, in frames at 320x200 on the K6-2 550: `evidence/reference-86box/side-320-smoke.png`. These settled rules the code cannot show: [research/render-8bit.md](research/render-8bit.md).
 
-The race is not affected by the path. On fixed seeds a whole race by the bot gives `TRACKTIME` 593233, laps 289450, 303783 at `RESOLUTION` 1 and with the 3D card. Against a normal run at 3, by `compare-traces`, the player's position and speed differ by 0 at all 71 samples at `RESOLUTION` 1, while the checksums differ from the first sample. A side-by-side run in Node at tick 600 shows why: over 485 bodies every world matrix and every speed is equal, and what differs is heap pointers and object indices (`+4`, `+0x10`, `+0x24`, `+0x7c` to `+0x9c`), one lower from the sky mesh this path does not create.
+The race is not affected by the path. On fixed seeds a whole race by the bot gives `TRACKTIME` 603433, laps 307617, 295816 at `RESOLUTION` 1 and with the 3D card. Against a normal run at 3, by `compare-traces`, the player's position and speed differ by 0 at all 71 samples at `RESOLUTION` 1, while the checksums differ from the first sample. A side-by-side run in Node at tick 600 shows why: over 485 bodies every world matrix and every speed is equal, and what differs is heap pointers and object indices (`+4`, `+0x10`, `+0x24`, `+0x7c` to `+0x9c`), one lower from the sky mesh this path does not create.
 
 **What this does not cover.** A real machine. The flash and the pause dialog against the guest. `gfx_bwlk`. Other levels. Wider and taller views, which the original does not have.
 
@@ -130,10 +130,12 @@ The race is not affected by the path. On fixed seeds a whole race by the bot giv
 |---|---:|---:|
 | 60 ticks, whole pushes (as unpatched) | 0.295, 0.742 | 0.51, 0.74 |
 | 30 ticks, whole pushes (as unpatched) | 0.102, 0.327 | 0.19, 0.30 |
-| 60 ticks, with the traffic share (the port) | 0.087, 0.208 | 0.08, 0.18 |
-| 30 ticks, with the traffic share | 0.064, 0.193 | 0.11, 0.19 |
+| 60 ticks, with the traffic share (the port, 1.0.0) | 0.087, 0.208 | 0.08, 0.18 |
+| 30 ticks, with the traffic share (1.0.0) | 0.064, 0.193 | 0.11, 0.19 |
+| 60 ticks, with the traffic share and the owner's parts 11 to 13 (1.1.0) | 0.125, 0.615 | 0.08, 0.18 |
+| 30 ticks, the same | 0.055, 0.185 | 0.11, 0.19 |
 
-Highest values pass, within 0.03. Means are over more starts of more kinds than his, so they are not comparable. This table is why the port scales traffic pushes: unscaled at 60 ticks, traffic lifts its nose by about 48 degrees, as the owner found and fixed. It is an intentional difference from unpatched behaviour at that rate: [intentional-differences.md](intentional-differences.md).
+Highest values passed, within 0.03, up to 1.0.0. With the owner's parts 11 to 13 the bot's race takes another course after its first hit, so other traffic starts: one of 12 at 60 ticks peaked at 0.615. Over 600 s of the same check, highest values above 0.5 come with and without those parts, often for two vehicles in the same tick, which points to collisions: mean 0.165 and highest 0.662 over 71 starts with them, mean 0.179 and highest 0.988 over 56 without (`evidence/owner-fixes/traffic-600s-*.log`). Means are over more starts of more kinds than his, so they are not comparable. This table is why the port scales traffic pushes: unscaled at 60 ticks, traffic lifts its nose by about 48 degrees, as the owner found and fixed. It is an intentional difference from unpatched behaviour at that rate: [intentional-differences.md](intentional-differences.md).
 
 ### Driving, the brief's list (section 6)
 
@@ -156,7 +158,7 @@ Highest values pass, within 0.03. Means are over more starts of more kinds than 
 
 | Check | What it does | Result |
 |---|---|---|
-| `tools/check-flow.mjs` | Real clicks: intro, new player, main screen, Quick Race, Amsterdam, start info, a race by the bot at speed 8 to the end, `TfrmResults`, back to `TfrmQuickRace`, save file | Pass, 0 console errors or warnings. The game wrote `FINISHED=1`, `TRACKTIME=593233`, `LAP_1_TIME=289450`, `LAP_2_TIME=303783`. `evidence/flow/` |
+| `tools/check-flow.mjs` | Real clicks: intro, new player, main screen, Quick Race, Amsterdam, start info, a race by the bot at speed 8 to the end, `TfrmResults`, back to `TfrmQuickRace`, save file | Pass, 0 console errors or warnings. The game wrote `FINISHED=1`, `TRACKTIME=603433`, `LAP_1_TIME=307617`, `LAP_2_TIME=295816`. `evidence/flow/` |
 | `tools/check-phone-flow.mjs` | Taps on an 844x390 touch profile, then 390x844: same menus, a race on the wheel, Stop and Ja, back to the menu, Tour screens to the Garage without a race | 7 of 7, 0 console errors. `evidence/flow-phone/` |
 | `tools/check-race-ui.mjs` | 76 named checks: touch wheel, simultaneous inputs, cancel, reset, look back, camera; focus loss and hidden tab; settings during a race and after a restart, GPU limit; orientation; layout at 8 sizes; keyboard, pointer, pause, quit, browser chords; gamepad stand-in with deadzone, connect and disconnect; full screen; finish and game-over screens; menu input after a race; load failure; intro in a hidden tab | 76 of 76. `evidence/race-ui/summary.json` |
 | `tools/build.mjs`, launch | `npm run build`, then `dist/` served on its own port and `?race=1&bench=1` opened, at `RESOLUTION` 3, 1 and 0 | Built, 199 MB; a race running at each, 0 console errors; screenshots `evidence/smoke/dist-race.png`, `dist-race-640.png`, `dist-race-320.png` |
@@ -178,6 +180,21 @@ By state only. Nobody has listened to the port. From one-off scripts when the fi
 
 **Other shapes.** By eye, on the checks' screenshots on Amsterdam: `evidence/flow/`, `evidence/flow-phone/`, `evidence/race-ui/`, `evidence/performance/`: 16:9 at 1280x720, 800x360, 844x390, portrait at 360x800 and 390x844. No anomaly is known on these. No reference exists for them: the original has only 4:3.
 
+### The owner's fixes
+
+`A2-Racer-4-Fixes` 1.5.4 parts 11, 12 and 13 in `spel.wasm` since 1.1.0: `tools/recomp/owner-fixes/README.md`. Checked on 2026-11-03.
+
+| Check | Covers | Result |
+|---|---|---|
+| Build | His added code assembled from `spel_patch.asm` with nasm against the bytes in his patcher | Identical, 2764 bytes. Every hook site checked against the original bytes before it is written |
+| Lift | The same 10 functions fail to lift as before, all outside the race's paths. 26 more functions lifted: his and the ones they call through a register | `out/report.json` |
+| `tools/check-owner-fixes.mjs`, whole races by the bot on all 10 etappes, 800 s at most, against a build without the fixes | The state his code keeps: the 25 Hz tick, the camera factors, the colour sequence, the flash timer, `hung_check` | Every race to its end or the time limit, no error, no message box. The tick falls in 25 of 60 ticks, 0.4167, on every etappe. `hung_check` put back 6 cars: five racers on etappes 0, 1 and 8, the player once on 0. Without the fixes: none. `evidence/owner-fixes/races-*.json` |
+| check-driving against its record | Launch, brake, reverse, corner, wall, reset | Speeds at 1, 4 and 8 s, the basis of the comparison with the original under Wine, unchanged. After the first hit the runs part, as contacts now end |
+| check-flow, check-race-ui, check-software, check-phone-flow | As above | Pass: whole race to the results, 76 of 76, 17 of 17, 7 of 7, no console errors. `TRACKTIME` 603433 on both paths |
+| repeat-trace | 8x throttle twice, normal once | Checksums over all 485 physics bodies equal for 71 s |
+| Benchmark, alternating with and without, same machine, same hour | 8x CPU throttle profile | Mean tick about 0.8 ms more: 9.64 and 11.67 against 8.71 and 10.93 ms. The machine was busier than on 2026-11-01: even without the fixes the worst second was 45 to 59 FPS. Normal profile 1.29 ms, 60 FPS |
+| Not checked | | The reset fixes one by one (last section, etappes 5, 6, 7, Enter after a racer's reset), the police and the Supercop, contacts past their triangle counted as his notes count them. His notes measure these on his game under Wine; the port runs the same code |
+
 ### Packages
 
 Package content and launch are separate checks, and neither is gameplay testing: the flow checks above ran in a browser and not on a package.
@@ -185,8 +202,8 @@ Package content and launch are separate checks, and neither is gameplay testing:
 | Check | Covers | Result |
 |---|---|---|
 | Package content, `tools/verify-desktop-package.mjs` | Linux and Windows x64 here, macOS on GitHub Actions: every game file equals `dist/` byte for byte, `app.asar` holds the wrapper only | 774 game files, 5 wrapper files, same tree hash on Linux and Windows. Written to `integrity-*.json` in the release |
-| Launch, `tools/check-desktop.mjs` | Linux package: the first screen of the menu, then a race on etappe 0 by the bot for 30 s, read through the app's own protocol with byte ranges. Also the app extracted from the AppImage, 20 s | Pass, no console errors or failed requests. Bot at chunk 151, 16.0 m/s. `evidence/desktop/linux/` |
-| Launch under Wine, by hand through the remote debugging port | Windows package, `win-unpacked/a2racer4.exe`, Wine on Linux with a throwaway prefix. Not Windows. Menu, then a race on etappe 0 by the bot for 20 s | Pass, no console errors. `evidence/desktop/wine/` |
+| Launch, `tools/check-desktop.mjs` | Linux package: the first screen of the menu, then a race on etappe 0 by the bot for 30 s, read through the app's own protocol with byte ranges. Also the app extracted from the AppImage, 20 s | Pass, no console errors or failed requests, on 1.0.0 and again on 1.1.0: bot at chunk 151, 16.2 m/s. `evidence/desktop/linux/` |
+| Launch under Wine, by hand through the remote debugging port | 1.0.0's Windows package, `win-unpacked/a2racer4.exe`, Wine on Linux with a throwaway prefix. Not Windows. Menu, then a race on etappe 0 by the bot for 20 s | Pass, no console errors. `evidence/desktop/wine/` |
 | Source, from a fresh clone of the tag | `npm ci` restores `rcs.img`, `npm run recompile`, `npm run build` | `spel.wasm` and every file of `dist/` byte-identical to the working copy's |
 | Not run | Windows package on Windows, macOS packages. `npm run prepare:assets` from a fresh clone | Not started |
 
@@ -209,7 +226,7 @@ Run on 2026-11-01 from this machine against <https://games.nostalgiarealm.com/a2
 | Share of each launch regime | Original under Wine | The samples are too small to say | Not established |
 | GO one to three ticks later | Original | 283 against 280 to 282 | Follows from `dt` without noise |
 | Traffic nose rise at 60 ticks | Unpatched original at 60 FPS | 0.208 against 0.74, on purpose | Follows the owner's patched behaviour: [intentional-differences.md](intentional-differences.md) |
-| Rate-dependent cosmetics | A period machine at 25 to 30 FPS | Chase camera lag, skid strip length and copalert decay are half; flitser flash shorter | On purpose: [intentional-differences.md](intentional-differences.md) |
+| Rate-dependent cosmetics | A period machine at 25 to 30 FPS | Chase camera, skid marks, smoke, flash and the rest of the owner's part 13 run as at 25 FPS. Copalert decay is still half | On purpose: [intentional-differences.md](intentional-differences.md) |
 | Numerics | A native run | f64 instead of the x87 stack, last bits only; not bit-equal | [recompiler.md](recompiler.md) |
 | 8-bit path, polygon edges, far texels, HUD glyph rows | Original on an emulated machine | 7 to 8% of world pixels, 18 to 36% of HUD text pixels, at rest | Two rasterisers. No rule found that closes it |
 | 8-bit path, view distance and smoke | The same machine, at the rates it reached | Port: 25 chunks and smoke, since its tick is 60 per second. Guest: fell to 15 chunks and had no smoke at 640x480 | The game's own gates, on a slow machine: [intentional-differences.md](intentional-differences.md) |

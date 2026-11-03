@@ -14,7 +14,7 @@
  "touch: wheel up is gas, car accelerates": {
   "ok": true,
   "detail": {
-   "speed": 17.315200805664062,
+   "speed": 17.276962280273438,
    "gas": 100
   }
  },
@@ -40,7 +40,7 @@
  "touch: wheel down brakes, then reverses": {
   "ok": true,
   "detail": {
-   "fastestBackward": -14.491045951843262,
+   "fastestBackward": -12.696462631225586,
    "brake": 100
   }
  },
@@ -384,7 +384,7 @@
  "keyboard: gas": {
   "ok": true,
   "detail": {
-   "speed": 20.640056610107422,
+   "speed": 18.197168350219727,
    "gas": 100
   }
  },
@@ -398,12 +398,12 @@
   "ok": true,
   "detail": {
    "trackTime": [
-    434,
-    434
+    433,
+    433
    ],
    "clock": [
-    13.833333333333599,
-    14.833333333333648
+    14.116666666666946,
+    15.116666666666996
    ]
   }
  },
@@ -430,8 +430,8 @@
   "detail": {
    "pause": 0,
    "trackTime": [
-    434,
-    901
+    433,
+    900
    ]
   }
  },

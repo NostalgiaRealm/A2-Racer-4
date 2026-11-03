@@ -31,6 +31,7 @@ Why not hand-translate the race: 677 KB of game code plus Ipion cannot be tested
 | 17 | The 8-bit path, `3D kaart` off, at the owner's request | done: indexed pipeline in `source/render/d3d-renderer.js`, palette and 8-bit surfaces in `source/host/directx.js`, the menu's own rules. Compared with the original on an emulated Windows 98 machine, `tools/reference-86box/`, on Amsterdam. Whole race on the bot, `tools/check-software.mjs` |
 | 18 | Public release 1.0.0: repositories, desktop builds, decompile archive, checksums. [`docs/releasing.md`](docs/releasing.md) | done |
 | 19 | Live at <https://games.nostalgiarealm.com/a2racer4/>. [`docs/hosting.md`](docs/hosting.md) | done |
+| 20 | The owner's `A2-Racer-4-Fixes` 1.5.4 parts 11 to 13 in the race, release 1.1.0. [`tools/recomp/owner-fixes/README.md`](tools/recomp/owner-fixes/README.md) | done |
 
 ## Blockers
 

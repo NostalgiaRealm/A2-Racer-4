@@ -1,0 +1,279 @@
+[
+ {
+  "etappe": 0,
+  "ownerFixes": "1.5.4",
+  "messages": [],
+  "hungResets": [
+   {
+    "second": 208.7,
+    "slot": "racer slot 3"
+   },
+   {
+    "second": 639.9,
+    "slot": "player"
+   }
+  ],
+  "error": null,
+  "seconds": 642.1,
+  "tickShare": 0.4167,
+  "cameraK": [
+   0.04425,
+   0.04425,
+   0.12195
+  ],
+  "colourSteps": 3252726799,
+  "flashSeen": false,
+  "result": {
+   "FINISHED": "1",
+   "Out_Of_Time": "1",
+   "Total_Loss": "0",
+   "TRACKTIME": "626517",
+   "LAP_1_TIME": "325350",
+   "LAP_2_TIME": "301167",
+   "DAMAGE": "45"
+  }
+ },
+ {
+  "etappe": 1,
+  "ownerFixes": "1.5.4",
+  "messages": [],
+  "hungResets": [
+   {
+    "second": 239.8,
+    "slot": "racer slot 10"
+   }
+  ],
+  "error": null,
+  "seconds": 244.7,
+  "tickShare": 0.4167,
+  "cameraK": [
+   0.07283,
+   0.04425,
+   0.21493
+  ],
+  "colourSteps": 1659352297,
+  "flashSeen": true,
+  "result": {
+   "FINISHED": "0",
+   "Out_Of_Time": "1",
+   "Total_Loss": "0",
+   "TRACKTIME": "99430",
+   "LAP_1_TIME": "99430",
+   "LAP_2_TIME": "110746",
+   "DAMAGE": "0"
+  }
+ },
+ {
+  "etappe": 2,
+  "ownerFixes": "1.5.4",
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 710.9,
+  "tickShare": 0.4167,
+  "cameraK": [
+   0.12011,
+   0.04425,
+   0.40156
+  ],
+  "colourSteps": 2406068128,
+  "flashSeen": true,
+  "result": {
+   "FINISHED": "1",
+   "Out_Of_Time": "1",
+   "Total_Loss": "0",
+   "TRACKTIME": "677933",
+   "LAP_1_TIME": "337050",
+   "LAP_2_TIME": "340883",
+   "DAMAGE": "0"
+  }
+ },
+ {
+  "etappe": 3,
+  "ownerFixes": "1.5.4",
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 602.8,
+  "tickShare": 0.4167,
+  "cameraK": [
+   0.06658,
+   0.04425,
+   0.19351
+  ],
+  "colourSteps": 2824443185,
+  "flashSeen": true,
+  "result": {
+   "FINISHED": "0",
+   "Out_Of_Time": "0",
+   "Total_Loss": "1",
+   "TRACKTIME": "99430",
+   "LAP_1_TIME": "539133",
+   "LAP_2_TIME": "110746",
+   "DAMAGE": "0"
+  }
+ },
+ {
+  "etappe": 4,
+  "ownerFixes": "1.5.4",
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 326.7,
+  "tickShare": 0.4167,
+  "cameraK": [
+   0.04425,
+   0.04425,
+   0.12195
+  ],
+  "colourSteps": 721768326,
+  "flashSeen": false,
+  "result": {
+   "FINISHED": "0",
+   "Out_Of_Time": "0",
+   "Total_Loss": "1",
+   "TRACKTIME": "99430",
+   "LAP_1_TIME": "99430",
+   "LAP_2_TIME": "110746",
+   "DAMAGE": "0"
+  }
+ },
+ {
+  "etappe": 5,
+  "ownerFixes": "1.5.4",
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 465.8,
+  "tickShare": 0.4167,
+  "cameraK": [
+   0.04425,
+   0.04425,
+   0.12195
+  ],
+  "colourSteps": 3708942347,
+  "flashSeen": false,
+  "result": {
+   "FINISHED": "0",
+   "Out_Of_Time": "1",
+   "Total_Loss": "1",
+   "TRACKTIME": "99430",
+   "LAP_1_TIME": "264217",
+   "LAP_2_TIME": "110746",
+   "DAMAGE": "0"
+  }
+ },
+ {
+  "etappe": 6,
+  "ownerFixes": "1.5.4",
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 541.4,
+  "tickShare": 0.4167,
+  "cameraK": [
+   0.04425,
+   0.04425,
+   0.12195
+  ],
+  "colourSteps": 386813894,
+  "flashSeen": false,
+  "result": {
+   "FINISHED": "1",
+   "Out_Of_Time": "1",
+   "Total_Loss": "0",
+   "TRACKTIME": "521983",
+   "LAP_1_TIME": "260650",
+   "LAP_2_TIME": "261333",
+   "DAMAGE": "118"
+  }
+ },
+ {
+  "etappe": 7,
+  "ownerFixes": "1.5.4",
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 800,
+  "tickShare": 0.4167,
+  "cameraK": [
+   0.04797,
+   0.04425,
+   0.13336
+  ],
+  "colourSteps": 2255233480,
+  "flashSeen": true,
+  "result": {
+   "FINISHED": "0",
+   "Out_Of_Time": "0",
+   "Total_Loss": "0",
+   "TRACKTIME": "99430",
+   "LAP_1_TIME": "99430",
+   "LAP_2_TIME": "110746",
+   "DAMAGE": "0"
+  }
+ },
+ {
+  "etappe": 8,
+  "ownerFixes": "1.5.4",
+  "messages": [],
+  "hungResets": [
+   {
+    "second": 76.9,
+    "slot": "racer slot 3"
+   },
+   {
+    "second": 83.6,
+    "slot": "racer slot 2"
+   },
+   {
+    "second": 222.6,
+    "slot": "racer slot 2"
+   }
+  ],
+  "error": null,
+  "seconds": 370.7,
+  "tickShare": 0.4167,
+  "cameraK": [
+   0.07297,
+   0.04425,
+   0.21543
+  ],
+  "colourSteps": 1083757710,
+  "flashSeen": true,
+  "result": {
+   "FINISHED": "1",
+   "Out_Of_Time": "1",
+   "Total_Loss": "0",
+   "TRACKTIME": "350467",
+   "LAP_1_TIME": "350467",
+   "LAP_2_TIME": "110746",
+   "DAMAGE": "156"
+  }
+ },
+ {
+  "etappe": 9,
+  "ownerFixes": "1.5.4",
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 273.9,
+  "tickShare": 0.4167,
+  "cameraK": [
+   0.05507,
+   0.04425,
+   0.15567
+  ],
+  "colourSteps": 891787218,
+  "flashSeen": true,
+  "result": {
+   "FINISHED": "0",
+   "Out_Of_Time": "1",
+   "Total_Loss": "1",
+   "TRACKTIME": "99430",
+   "LAP_1_TIME": "99430",
+   "LAP_2_TIME": "110746",
+   "DAMAGE": "0"
+  }
+ }
+]

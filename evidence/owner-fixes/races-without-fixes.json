@@ -1,0 +1,252 @@
+[
+ {
+  "etappe": 0,
+  "ownerFixes": null,
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 647,
+  "tickShare": 0,
+  "cameraK": [
+   0,
+   0,
+   0
+  ],
+  "colourSteps": 0,
+  "flashSeen": false,
+  "result": {
+   "FINISHED": "1",
+   "Out_Of_Time": "1",
+   "Total_Loss": "0",
+   "TRACKTIME": "620717",
+   "LAP_1_TIME": "347217",
+   "LAP_2_TIME": "273500",
+   "DAMAGE": "45"
+  }
+ },
+ {
+  "etappe": 1,
+  "ownerFixes": null,
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 345.4,
+  "tickShare": 0,
+  "cameraK": [
+   0,
+   0,
+   0
+  ],
+  "colourSteps": 0,
+  "flashSeen": false,
+  "result": {
+   "FINISHED": "0",
+   "Out_Of_Time": "1",
+   "Total_Loss": "0",
+   "TRACKTIME": "99430",
+   "LAP_1_TIME": "99430",
+   "LAP_2_TIME": "110746",
+   "DAMAGE": "0"
+  }
+ },
+ {
+  "etappe": 2,
+  "ownerFixes": null,
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 670.8,
+  "tickShare": 0,
+  "cameraK": [
+   0,
+   0,
+   0
+  ],
+  "colourSteps": 0,
+  "flashSeen": false,
+  "result": {
+   "FINISHED": "1",
+   "Out_Of_Time": "1",
+   "Total_Loss": "0",
+   "TRACKTIME": "654233",
+   "LAP_1_TIME": "339383",
+   "LAP_2_TIME": "314850",
+   "DAMAGE": "0"
+  }
+ },
+ {
+  "etappe": 3,
+  "ownerFixes": null,
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 124.2,
+  "tickShare": 0,
+  "cameraK": [
+   0,
+   0,
+   0
+  ],
+  "colourSteps": 0,
+  "flashSeen": false,
+  "result": {
+   "FINISHED": "0",
+   "Out_Of_Time": "1",
+   "Total_Loss": "0",
+   "TRACKTIME": "99430",
+   "LAP_1_TIME": "99430",
+   "LAP_2_TIME": "110746",
+   "DAMAGE": "0"
+  }
+ },
+ {
+  "etappe": 4,
+  "ownerFixes": null,
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 133.1,
+  "tickShare": 0,
+  "cameraK": [
+   0,
+   0,
+   0
+  ],
+  "colourSteps": 0,
+  "flashSeen": false,
+  "result": {
+   "FINISHED": "0",
+   "Out_Of_Time": "1",
+   "Total_Loss": "0",
+   "TRACKTIME": "99430",
+   "LAP_1_TIME": "99430",
+   "LAP_2_TIME": "110746",
+   "DAMAGE": "0"
+  }
+ },
+ {
+  "etappe": 5,
+  "ownerFixes": null,
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 529,
+  "tickShare": 0,
+  "cameraK": [
+   0,
+   0,
+   0
+  ],
+  "colourSteps": 0,
+  "flashSeen": false,
+  "result": {
+   "FINISHED": "1",
+   "Out_Of_Time": "1",
+   "Total_Loss": "0",
+   "TRACKTIME": "513166",
+   "LAP_1_TIME": "254167",
+   "LAP_2_TIME": "258999",
+   "DAMAGE": "847"
+  }
+ },
+ {
+  "etappe": 6,
+  "ownerFixes": null,
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 549.1,
+  "tickShare": 0,
+  "cameraK": [
+   0,
+   0,
+   0
+  ],
+  "colourSteps": 0,
+  "flashSeen": false,
+  "result": {
+   "FINISHED": "1",
+   "Out_Of_Time": "1",
+   "Total_Loss": "0",
+   "TRACKTIME": "529717",
+   "LAP_1_TIME": "263650",
+   "LAP_2_TIME": "266067",
+   "DAMAGE": "621"
+  }
+ },
+ {
+  "etappe": 7,
+  "ownerFixes": null,
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 800,
+  "tickShare": 0,
+  "cameraK": [
+   0,
+   0,
+   0
+  ],
+  "colourSteps": 0,
+  "flashSeen": false,
+  "result": {
+   "FINISHED": "0",
+   "Out_Of_Time": "0",
+   "Total_Loss": "0",
+   "TRACKTIME": "99430",
+   "LAP_1_TIME": "99430",
+   "LAP_2_TIME": "110746",
+   "DAMAGE": "0"
+  }
+ },
+ {
+  "etappe": 8,
+  "ownerFixes": null,
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 404.3,
+  "tickShare": 0,
+  "cameraK": [
+   0,
+   0,
+   0
+  ],
+  "colourSteps": 0,
+  "flashSeen": false,
+  "result": {
+   "FINISHED": "1",
+   "Out_Of_Time": "1",
+   "Total_Loss": "0",
+   "TRACKTIME": "385233",
+   "LAP_1_TIME": "385233",
+   "LAP_2_TIME": "110746",
+   "DAMAGE": "233"
+  }
+ },
+ {
+  "etappe": 9,
+  "ownerFixes": null,
+  "messages": [],
+  "hungResets": [],
+  "error": null,
+  "seconds": 290.2,
+  "tickShare": 0,
+  "cameraK": [
+   0,
+   0,
+   0
+  ],
+  "colourSteps": 0,
+  "flashSeen": false,
+  "result": {
+   "FINISHED": "0",
+   "Out_Of_Time": "1",
+   "Total_Loss": "1",
+   "TRACKTIME": "99430",
+   "LAP_1_TIME": "99430",
+   "LAP_2_TIME": "110746",
+   "DAMAGE": "0"
+  }
+ }
+]

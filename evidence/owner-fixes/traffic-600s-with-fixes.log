@@ -1,0 +1,12 @@
+start 6 at 29.1 s peak 0.615 nearest car 0.0
+start 7 at 177.3 s peak 0.264 nearest car 0.1
+start 6 at 317.8 s peak 0.662 nearest car 0.1
+start 6 at 369.2 s peak 0.447 nearest car 0.0
+start 9 at 369.2 s peak 0.447 nearest car 0.0
+start 7 at 485.7 s peak 0.538 nearest car 0.1
+start 10 at 485.7 s peak 0.538 nearest car 0.1
+start 7 at 488.8 s peak 0.495 nearest car 0.0
+start 10 at 488.8 s peak 0.495 nearest car 0.0
+start 7 at 493.5 s peak 0.629 nearest car 0.0
+start 10 at 493.5 s peak 0.629 nearest car 0.0
+{"hz":60,"seconds":600,"wholePush":false,"share":0.4166666567325592,"starts":71,"peakForwardY":{"mean":0.165,"highest":0.662},"highestAnyTime":0.662}

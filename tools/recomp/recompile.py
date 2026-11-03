@@ -382,6 +382,10 @@ class Recompiler:
         self.skip_names = skip_names
         self.replacements = replacements   # addr -> callable(rec, Code) or ('hook', name, pop)
         self.debug_ret = debug_ret
+        self.ret_store_targets = set()
+        # call site -> (start, end) of added code spliced into its caller instead of called.
+        self.splices = {}
+        self.ret_store_range = (0, 0)
         self.fpu_pc = fpu_pc
         self.funcs = {}
         self.real_entries = set()
@@ -407,6 +411,17 @@ class Recompiler:
                 raise Unsupported('undecodable at %08x' % a)
             self.decoded[a] = i
         return i
+
+    def splice_return(self, ret_addr, fn_addr):
+        """Where a ret in spliced code continues in its caller, or None for an ordinary ret."""
+        for site, (lo, hi) in self.splices.items():
+            if lo <= ret_addr < hi and fn_addr != lo:
+                return self.decode(site).next
+        return None
+
+    def ret_store_from(self, addr):
+        lo, hi = self.ret_store_range
+        return lo <= addr < hi
 
     def is_excluded(self, addr):
         row = self.ghidra.get(addr)
@@ -535,7 +550,13 @@ class Recompiler:
                 fn.insn_count += 1
                 mn = i.mn
                 if mn == 'ret' or mn == 'retf':
-                    ends[a] = ('ret', None)
+                    back = self.splice_return(a, addr)
+                    if back is not None:
+                        ends[a] = ('jmp', back)
+                        leaders.add(back)
+                        work.append(back)
+                    else:
+                        ends[a] = ('ret', None)
                     break
                 if mn == 'jmp':
                     o = i.ops[0]
@@ -573,6 +594,14 @@ class Recompiler:
                     continue
                 if mn == 'call':
                     o = i.ops[0]
+                    if a in self.splices:
+                        t = self.splices[a][0]
+                        if o.type != X86_OP_IMM or (o.imm & 0xFFFFFFFF) != t:
+                            raise Unsupported('splice at %08x does not call %08x' % (a, t))
+                        ends[a] = ('jmp', t)
+                        leaders.add(t)
+                        work.append(t)
+                        break
                     if o.type == X86_OP_IMM and (o.imm & 0xFFFFFFFF) in self.noreturn:
                         ends[a] = ('noreturn', None)
                         break
@@ -709,6 +738,8 @@ class Recompiler:
             last_icall = None
             last_direct = None
             for i in b.insns:
+                if i.mn == 'call' and b.kind == 'jmp' and i is b.tail_insn:
+                    continue    # a splice: its code follows in this function
                 if i.mn == 'call':
                     ci, co = self.call_fpu(fn, i)
                     if d < ci:

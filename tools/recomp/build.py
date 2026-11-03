@@ -262,12 +262,30 @@ def ctx_math_pow2(ctx):
     return ctx.rt['pow2']
 
 
+def owner_call_targets(rec):
+    """Original functions the owner's added code calls through a register (mov eax, X / call eax).
+
+    A hook can take a function's only direct call, so these would otherwise not be lifted and the
+    indirect call would find no entry in the code map.
+    """
+    found = []
+    a = RP.OWNER_CODE_VA
+    while a < RP.OWNER_DATA_VA:
+        i = rec.decode(a)
+        if i.mn == 'mov' and len(i.ops) == 2 and i.ops[1].type == R.X86_OP_IMM:
+            v = i.ops[1].imm & 0xFFFFFFFF
+            if v in rec.ghidra and v not in found:
+                found.append(v)
+        a = i.next
+    return found
+
+
 def build(args):
     t0 = time.time()
     img_path = os.path.join(DEC, 'original/install/spel.dat')
     img = Image(img_path)
     print('spel.dat sha256', img.sha256)
-    RP.apply_patches(img)
+    owner_sites = RP.apply_patches(img)
     noreturn = set()
     with open(os.path.join(DEC, 'decompiled/game__spel.dat/noreturn_functions.csv')) as f:
         for row in csv.DictReader(f):
@@ -277,12 +295,18 @@ def build(args):
     rec = Recompiler(img, os.path.join(DEC, 'decompiled/game__spel.dat/functions.csv'), noreturn,
                      ('Unwind@', 'Catch@', '__break'), RP.REPLACEMENTS, debug_ret=not args.no_ret_store,
                      fpu_pc=args.fpu_pc)
-    rec.extra_roots = RP.EXTRA_ROOTS
+    rec.extra_roots = list(RP.EXTRA_ROOTS) + owner_call_targets(rec)
+    rec.ret_store_targets = RP.RET_STORE_TARGETS
+    rec.splices = RP.OWNER_SPLICES
+    rec.ret_store_range = (RP.OWNER_CODE_VA, RP.OWNER_CODE_END)
     rec.force_uses = RP.RESUME_ENTRIES
     rec.scan_entries()
     print('entries', len(rec.real_entries), 'address-taken', len(rec.address_taken), '%.1fs' % (time.time() - t0))
     rec.discover()
     print('functions', len(rec.funcs), 'instructions', sum(f.insn_count for f in rec.funcs.values()), '%.1fs' % (time.time() - t0))
+    for a, n in RP.OWNER_FPU_ARGS.items():
+        if a in rec.funcs:
+            rec.funcs[a].fpu_in = n
     rec.analyse_fpu()
     rec.analyse_inputs()
     uses = sorted('%08x %s %s' % (a, f.name, sorted(f.uses)) for a, f in rec.funcs.items() if f.uses)
@@ -522,6 +546,8 @@ def build(args):
         'firstFreeThunk': first_free_thunk,
         'codeMap': code_map,
         'fpuPrecisionBits': args.fpu_pc,
+        'ownerFixes': {'version': RP.OWNER_FIXES_VERSION, 'labels': sorted(RP.OWNER_LABELS),
+                       'sites': len(owner_sites)},
     }
     with open(os.path.join(args.out, 'spel.meta.json'), 'w') as f:
         json.dump(meta, f)

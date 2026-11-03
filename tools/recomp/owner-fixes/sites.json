@@ -1,0 +1,692 @@
+[
+ {
+  "fileOffset": "0x0582AA",
+  "original": "E831FEFFFF",
+  "replacement": "E8A2D31100",
+  "label": "startup call"
+ },
+ {
+  "fileOffset": "0x07FDCF",
+  "original": "E89C110000",
+  "replacement": "E869590F00",
+  "label": "HUD position read"
+ },
+ {
+  "fileOffset": "0x07FF43",
+  "original": "E828100000",
+  "replacement": "E8F5570F00",
+  "label": "HUD position read"
+ },
+ {
+  "fileOffset": "0x080610",
+  "original": "E85B090000",
+  "replacement": "E828510F00",
+  "label": "HUD position read"
+ },
+ {
+  "fileOffset": "0x0C287D",
+  "original": "8E",
+  "replacement": "8D",
+  "label": "alpha format choice"
+ },
+ {
+  "fileOffset": "0x0C058A",
+  "original": "E801260000",
+  "replacement": "E8714F0B00",
+  "label": "texture format choice"
+ },
+ {
+  "fileOffset": "0x0C7FF9",
+  "original": "03C65E5BC3",
+  "replacement": "E970D50A00",
+  "label": "24-bit color conversion"
+ },
+ {
+  "fileOffset": "0x0C82C9",
+  "original": "5B03C65EC3",
+  "replacement": "E9A6D20A00",
+  "label": "palette color conversion"
+ },
+ {
+  "fileOffset": "0x03DEF9",
+  "original": "8B08FF515C",
+  "replacement": "E885761300",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x03E04A",
+  "original": "8B08FF515C",
+  "replacement": "E834751300",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x040224",
+  "original": "8B08FF515C",
+  "replacement": "E85A531300",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x04031A",
+  "original": "8B10FF525C",
+  "replacement": "E864521300",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x04275C",
+  "original": "8B08FF515C",
+  "replacement": "E8292E1300",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x042B4E",
+  "original": "8B08FF515C",
+  "replacement": "E8302A1300",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x043D8E",
+  "original": "8B10FF525C",
+  "replacement": "E8F0171300",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x043E9C",
+  "original": "8B10FF525C",
+  "replacement": "E8E2161300",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x04523A",
+  "original": "8B08FF515C",
+  "replacement": "E84B031300",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x0453F9",
+  "original": "8B10FF525C",
+  "replacement": "E885011300",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x0470C3",
+  "original": "8B08FF515C",
+  "replacement": "E8BBE41200",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x047276",
+  "original": "8B10FF525C",
+  "replacement": "E808E31200",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x05DD24",
+  "original": "8B08FF515C",
+  "replacement": "E85A781100",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x05DD98",
+  "original": "8B10FF525C",
+  "replacement": "E8E6771100",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x085F29",
+  "original": "8B08FF515C",
+  "replacement": "E855F60E00",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x08614A",
+  "original": "8B08FF515C",
+  "replacement": "E834F40E00",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x0B5E4D",
+  "original": "8B0850FF515C",
+  "replacement": "50E837F70B00",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x0B5E6C",
+  "original": "8B1050FF525C",
+  "replacement": "50E811F70B00",
+  "label": "alpha blend switch"
+ },
+ {
+  "fileOffset": "0x0C0F80",
+  "original": "8B11506A0151FF5230",
+  "replacement": "506A0151E868460B00",
+  "label": "viewport clear"
+ },
+ {
+  "fileOffset": "0x0C0679",
+  "original": "8B085250FF5118",
+  "replacement": "5250E8ED510B00",
+  "label": "Z-buffer creation"
+ },
+ {
+  "fileOffset": "0x0A6710",
+  "original": "FF1558605700",
+  "replacement": "E8B0F10C0090",
+  "label": "timer counter"
+ },
+ {
+  "fileOffset": "0x0A6850",
+  "original": "FF1558605700",
+  "replacement": "E870F00C0090",
+  "label": "timer counter"
+ },
+ {
+  "fileOffset": "0x0A673B",
+  "original": "FF1550625700",
+  "replacement": "E8D1F10C0090",
+  "label": "timer ticks"
+ },
+ {
+  "fileOffset": "0x0A687E",
+  "original": "FF1550625700",
+  "replacement": "E88EF00C0090",
+  "label": "timer ticks"
+ },
+ {
+  "fileOffset": "0x04CB9E",
+  "original": "E85D9B0500",
+  "replacement": "E8A6921200",
+  "label": "frame limit"
+ },
+ {
+  "fileOffset": "0x0A6751",
+  "original": "D87604D9C0D866",
+  "replacement": "E8E0F10C00EB07",
+  "label": "timer step"
+ },
+ {
+  "fileOffset": "0x0A6894",
+  "original": "D87604D9C0D866",
+  "replacement": "E89DF00C00EB07",
+  "label": "timer step"
+ },
+ {
+  "fileOffset": "0x0A45D0",
+  "original": "D9442404D8",
+  "replacement": "E97C130D00",
+  "label": "world time"
+ },
+ {
+  "fileOffset": "0x02898F",
+  "original": "D83D18635700",
+  "replacement": "E80ED0140090",
+  "label": "traffic mass"
+ },
+ {
+  "fileOffset": "0x016002",
+  "original": "D83D18635700",
+  "replacement": "E89BF9150090",
+  "label": "traffic mass"
+ },
+ {
+  "fileOffset": "0x0A97F0",
+  "original": "568BF18B4610",
+  "replacement": "E9BBC10C0090",
+  "label": "trailer push"
+ },
+ {
+  "fileOffset": "0x0A5C9E",
+  "original": "D944240C8B",
+  "replacement": "E93AFD0C00",
+  "label": "driving force"
+ },
+ {
+  "fileOffset": "0x0A5D9C",
+  "original": "E8DF380500",
+  "replacement": "E878FC0C00",
+  "label": "driving force"
+ },
+ {
+  "fileOffset": "0x06F2C6",
+  "original": "E859920E00",
+  "replacement": "E862671000",
+  "label": "gas pedal"
+ },
+ {
+  "fileOffset": "0x06F308",
+  "original": "E817920E00",
+  "replacement": "E827671000",
+  "label": "brake pedal"
+ },
+ {
+  "fileOffset": "0x030F36",
+  "original": "E8E9751200",
+  "replacement": "E8114B1400",
+  "label": "trailer fade"
+ },
+ {
+  "fileOffset": "0x030F5D",
+  "original": "E8C2751200",
+  "replacement": "E8EA4A1400",
+  "label": "trailer fade"
+ },
+ {
+  "fileOffset": "0x030FA4",
+  "original": "E87B751200",
+  "replacement": "E8A34A1400",
+  "label": "trailer fade"
+ },
+ {
+  "fileOffset": "0x0310E6",
+  "original": "E839741200",
+  "replacement": "E861491400",
+  "label": "trailer fade"
+ },
+ {
+  "fileOffset": "0x0C58AB",
+  "original": "8B15A0375B00",
+  "replacement": "E8A9010B0090",
+  "label": "display depth"
+ },
+ {
+  "fileOffset": "0x0C03C0",
+  "original": "E8EB7D000083C4",
+  "replacement": "E8AF560B00EB07",
+  "label": "image pixel"
+ },
+ {
+  "fileOffset": "0x028F30",
+  "original": "E83BA2FDFF",
+  "replacement": "E876CB1400",
+  "label": "hung car"
+ },
+ {
+  "fileOffset": "0x105CC6",
+  "original": "81ECB0000000",
+  "replacement": "E9C9FE060090",
+  "label": "contact check"
+ },
+ {
+  "fileOffset": "0x0F3130",
+  "original": "81ECD8000000",
+  "replacement": "E96E2A080090",
+  "label": "object move"
+ },
+ {
+  "fileOffset": "0x00E7C0",
+  "original": "8B4C17108D542444",
+  "replacement": "E82F741600909090",
+  "label": "reset waypoint"
+ },
+ {
+  "fileOffset": "0x00E818",
+  "original": "D91D001B5D00",
+  "replacement": "E80874160090",
+  "label": "reset time and rotation"
+ },
+ {
+  "fileOffset": "0x00E838",
+  "original": "4681C594090000",
+  "replacement": "E83D7416009090",
+  "label": "reset next section"
+ },
+ {
+  "fileOffset": "0x00E841",
+  "original": "4E81ED94090000",
+  "replacement": "E8487416009090",
+  "label": "reset previous section"
+ },
+ {
+  "fileOffset": "0x00E7B6",
+  "original": "D80510635700",
+  "replacement": "E8FE73160090",
+  "label": "reset height"
+ },
+ {
+  "fileOffset": "0x0B18D4",
+  "original": "E8C7260100",
+  "replacement": "E8CC430C00",
+  "label": "camera damping"
+ },
+ {
+  "fileOffset": "0x0B195F",
+  "original": "D88D88000000",
+  "replacement": "D80D981F7500",
+  "label": "camera damping"
+ },
+ {
+  "fileOffset": "0x0B1974",
+  "original": "D88D8C000000",
+  "replacement": "D80D9C1F7500",
+  "label": "camera damping"
+ },
+ {
+  "fileOffset": "0x0B198D",
+  "original": "D88D90000000",
+  "replacement": "D80DA01F7500",
+  "label": "camera damping"
+ },
+ {
+  "fileOffset": "0x0A83A1",
+  "original": "E87E010B00",
+  "replacement": "E82CD90C00",
+  "label": "car lighting"
+ },
+ {
+  "fileOffset": "0x0A83B1",
+  "original": "E86E010B00",
+  "replacement": "E81CD90C00",
+  "label": "car lighting"
+ },
+ {
+  "fileOffset": "0x0A83BD",
+  "original": "E862010B00",
+  "replacement": "E810D90C00",
+  "label": "car lighting"
+ },
+ {
+  "fileOffset": "0x093D41",
+  "original": "E8DE470C00",
+  "replacement": "E88C1F0E00",
+  "label": "portrait outline"
+ },
+ {
+  "fileOffset": "0x044EA6",
+  "original": "E875FEFFFF",
+  "replacement": "E84B0E1300",
+  "label": "skid mark length"
+ },
+ {
+  "fileOffset": "0x04516B",
+  "original": "E810FEFFFF",
+  "replacement": "E88D0B1300",
+  "label": "skid mark fade"
+ },
+ {
+  "fileOffset": "0x0467E2",
+  "original": "E849FFFFFF",
+  "replacement": "E81DF51200",
+  "label": "smoke fade"
+ },
+ {
+  "fileOffset": "0x03D962",
+  "original": "E889FFFFFF",
+  "replacement": "E8A4831300",
+  "label": "smoke fade"
+ },
+ {
+  "fileOffset": "0x04685D",
+  "original": "E89EFF0500D80D90675700",
+  "replacement": "E803F51200909090909090",
+  "label": "smoke drift"
+ },
+ {
+  "fileOffset": "0x03D9D3",
+  "original": "E8288E0600D80DE4665700",
+  "replacement": "E89A831300909090909090",
+  "label": "smoke drift"
+ },
+ {
+  "fileOffset": "0x046AC3",
+  "original": "E838FD0500",
+  "replacement": "E884F21200",
+  "label": "smoke rise"
+ },
+ {
+  "fileOffset": "0x03DB45",
+  "original": "E8B68C0600",
+  "replacement": "E802821300",
+  "label": "smoke rise"
+ },
+ {
+  "fileOffset": "0x051E0F",
+  "original": "E85C980000",
+  "replacement": "E8FE3E1200",
+  "label": "mud spray"
+ },
+ {
+  "fileOffset": "0x0553EF",
+  "original": "E8DC650000",
+  "replacement": "E825091200",
+  "label": "water spray"
+ },
+ {
+  "fileOffset": "0x0513DC",
+  "original": "D881CC000000",
+  "replacement": "E8D249120090",
+  "label": "pickup spin"
+ },
+ {
+  "fileOffset": "0x05153B",
+  "original": "E8D06A0200",
+  "replacement": "E8EA471200",
+  "label": "pickup fade"
+ },
+ {
+  "fileOffset": "0x05366A",
+  "original": "E8F1650100",
+  "replacement": "E8CB261200",
+  "label": "animation"
+ },
+ {
+  "fileOffset": "0x053693",
+  "original": "E8C8650100",
+  "replacement": "E8A2261200",
+  "label": "animation"
+ },
+ {
+  "fileOffset": "0x069D3C",
+  "original": "E8BFCA0300",
+  "replacement": "E80BC01000",
+  "label": "animation"
+ },
+ {
+  "fileOffset": "0x03B1AE",
+  "original": "B801000000",
+  "replacement": "E867AC1300",
+  "label": "speed camera flash"
+ },
+ {
+  "fileOffset": "0x007EA4",
+  "original": "E8D7AFFFFF",
+  "replacement": "E8D9DE1600",
+  "label": "police brake"
+ },
+ {
+  "fileOffset": "0x007FFE",
+  "original": "E87DAEFFFF",
+  "replacement": "E87FDD1600",
+  "label": "police brake"
+ },
+ {
+  "fileOffset": "0x0080EB",
+  "original": "E890ADFFFF",
+  "replacement": "E892DC1600",
+  "label": "police brake"
+ },
+ {
+  "fileOffset": "0x008ECC",
+  "original": "E8AF9FFFFF",
+  "replacement": "E8B1CE1600",
+  "label": "police brake"
+ },
+ {
+  "fileOffset": "0x01F7F9",
+  "original": "E802700800",
+  "replacement": "E84E651500",
+  "label": "Supercop pedal"
+ },
+ {
+  "fileOffset": "0x0204B3",
+  "original": "E848630800",
+  "replacement": "E894581500",
+  "label": "Supercop pedal"
+ },
+ {
+  "fileOffset": "0x01F29A",
+  "original": "8B4B308B5328",
+  "replacement": "E8036B150090",
+  "label": "Supercop patrol"
+ },
+ {
+  "fileOffset": "0x04E9D5",
+  "original": "A340BA6F00",
+  "replacement": "E813741200",
+  "label": "turbo tank"
+ },
+ {
+  "fileOffset": "0x05CCE8",
+  "original": "D80DD8685700",
+  "replacement": "E8EE90110090",
+  "label": "mail drift"
+ },
+ {
+  "fileOffset": "0x05CCFC",
+  "original": "D80DD8685700",
+  "replacement": "E8DA90110090",
+  "label": "mail drift"
+ },
+ {
+  "fileOffset": "0x05B0B1",
+  "original": "E82A520000",
+  "replacement": "E80DAD1100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x05B0C6",
+  "original": "E815520000",
+  "replacement": "E8F8AC1100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x05B0DB",
+  "original": "E800520000",
+  "replacement": "E8E3AC1100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x05C736",
+  "original": "E8A53B0000",
+  "replacement": "E888961100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x05C74B",
+  "original": "E8903B0000",
+  "replacement": "E873961100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x05C760",
+  "original": "E87B3B0000",
+  "replacement": "E85E961100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x05D006",
+  "original": "E8D5320000",
+  "replacement": "E8B88D1100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x05D01B",
+  "original": "E8C0320000",
+  "replacement": "E8A38D1100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x05D030",
+  "original": "E8AB320000",
+  "replacement": "E88E8D1100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x061271",
+  "original": "E86AF0FFFF",
+  "replacement": "E84D4B1100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x061286",
+  "original": "E855F0FFFF",
+  "replacement": "E8384B1100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x06129B",
+  "original": "E840F0FFFF",
+  "replacement": "E8234B1100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x062421",
+  "original": "E8BADEFFFF",
+  "replacement": "E89D391100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x062436",
+  "original": "E8A5DEFFFF",
+  "replacement": "E888391100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x06244B",
+  "original": "E890DEFFFF",
+  "replacement": "E873391100",
+  "label": "debris spin"
+ },
+ {
+  "fileOffset": "0x026566",
+  "original": "8E",
+  "replacement": "86",
+  "label": "damage smoke at long uptime"
+ },
+ {
+  "fileOffset": "0x04E85D",
+  "original": "8C",
+  "replacement": "82",
+  "label": "tyre smoke at long uptime"
+ },
+ {
+  "fileOffset": "0x04E9D0",
+  "original": "8C",
+  "replacement": "82",
+  "label": "turbo at long uptime"
+ },
+ {
+  "fileOffset": "0x08AC02",
+  "original": "FF1598615700",
+  "replacement": "E8F7B10E0090",
+  "label": "communicator clock"
+ },
+ {
+  "fileOffset": "0x01F8DB",
+  "original": "E8206F0800",
+  "replacement": "E86C641500",
+  "label": "Supercop pedal"
+ },
+ {
+  "fileOffset": "0x020E15",
+  "original": "E8E6590800",
+  "replacement": "E8324F1500",
+  "label": "Supercop pedal"
+ },
+ {
+  "fileOffset": "0x000248",
+  "original": "08441C00",
+  "replacement": "00501C00",
+  "label": "data section size"
+ },
+ {
+  "fileOffset": "0x0001F8",
+  "original": "4A441700",
+  "replacement": "00501700",
+  "label": "code section size"
+ },
+ {
+  "fileOffset": "0x0CD478",
+  "original": "6870",
+  "replacement": "EBB6",
+  "label": "CD check"
+ }
+]

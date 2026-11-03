@@ -6,22 +6,22 @@
     "menuForm": "TfrmIntro",
     "race": {
       "stats": {
-        "verts": 5928,
-        "indices": 23019,
+        "verts": 5886,
+        "indices": 22899,
         "batches": 19,
-        "matrices": 281,
-        "ticksCaptured": 1809,
+        "matrices": 285,
+        "ticksCaptured": 1814,
         "calls": 1
       },
       "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
       "bot": {
         "chunk": 151,
-        "speed": 16.016267776489258
+        "speed": 16.243501663208008
       }
     }
   },
   "packaged": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "A2 Racer 4",
   "electron": "44.9.2",
   "chrome": "152.0.7977.167",

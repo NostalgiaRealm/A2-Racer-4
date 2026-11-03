@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.1.0 — 2026-11-03
+
+The race now runs the owner's fixes from `A2-Racer-4-Fixes` 1.5.4 that matter at its 60 ticks per second: his own added code, lifted to WebAssembly with the rest of `spel.dat`. Details and checks: [release notes](docs/releases/1.1.0.md).
+
+### Changed
+
+- **Hung cars** (his part 11): a car that stands still for 3 s with an axle off the ground or tipped over goes back on the road.
+- **Cars that lift up or float** (part 12): body contacts end when they leave their triangle, so a car no longer climbs an invisible plane nose first.
+- **The reset** (part 12): no more `Illegal chunk` at the last section, no landing under the road on etappes 5 and 6 or on a tunnel on 7, lanes freed, and Enter waits only after Enter.
+- **Frame rate** (part 13): police brake, Supercop, chase camera, car lighting, skid marks, smoke, mud and water, pickups, animated objects, debris, the speed camera flash and the turbo tank behave as at 25 FPS. The camera lags more and skid marks last longer than in 1.0.0.
+
+### Recompiler
+
+- `tools/recomp/owner-fixes/`: his source, bytes and hook table. `pushad`, `popad`, `pause`, x87 arguments for added functions, tail jumps into inlined helpers, spliced hooks.
+- `tools/check-owner-fixes.mjs`: whole bot races on every etappe, reading the state his code keeps.
+
 ## 1.0.0 — 2026-11-01
 
 First public release: the browser and desktop port, and the decompile of the original game. Details and what was and was not checked: [release notes](docs/releases/1.0.0.md).
