@@ -40,7 +40,7 @@
  "touch: wheel down brakes, then reverses": {
   "ok": true,
   "detail": {
-   "fastestBackward": -12.696462631225586,
+   "fastestBackward": -25.427431106567383,
    "brake": 100
   }
  },
@@ -49,7 +49,7 @@
   "detail": {
    "stamp": [
     0,
-    17183
+    17166
    ]
   }
  },
@@ -112,8 +112,8 @@
   "ok": true,
   "detail": {
    "clock": [
-    22.08333333333336,
-    22.08333333333336
+    22.066666666666695,
+    22.066666666666695
    ],
    "audio": "suspended"
   }
@@ -410,7 +410,7 @@
  "pause: the picture stays still": {
   "ok": true,
   "detail": {
-   "frames": 97,
+   "frames": 98,
    "distinct": [
     1
    ]
@@ -637,7 +637,7 @@
   "detail": {
    "stamp": [
     0,
-    10566
+    10550
    ]
   }
  },

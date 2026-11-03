@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.1.3 — 2026-11-03
+
+The wheels no longer pulse. [Release notes](docs/releases/1.1.3.md).
+
+### Fixed
+
+- Each car's wheels have their own matrix and turn about 60 degrees per tick at speed. Blending that matrix element by element between ticks shrank and skewed the wheels halfway, by up to a third. A matrix turning more than 20 degrees in a tick now keeps the latest tick's rotation and blends its position only.
+
+### Added
+
+- `tools/check-wheels.mjs`: the size of the wheels as drawn between ticks.
+
 ## 1.1.2 — 2026-11-03
 
 The player's shadow no longer jitters under the car. [Release notes](docs/releases/1.1.2.md).

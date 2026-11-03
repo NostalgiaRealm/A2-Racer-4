@@ -193,6 +193,17 @@ By state only. Nobody has listened to the port. From one-off scripts when the fi
 
 What is left from frame to frame is the game rebuilding the shadow on the next tick, as the original does. Headless Chromium presents nearly in step with the 60 Hz tick, at alpha 0.94 to 0.98, which hid the slide. A real display at 60 Hz drifts against the tick, and one above 60 Hz always shows it. No real display was used. The original was not compared: it draws car and shadow from the same tick, which this now does too. check-flow and check-race-ui pass on the change.
 
+### The wheels
+
+`tools/check-wheels.mjs`, `evidence/wheels/`. Each car's four wheels have their own world matrix, which turns 63 degrees per tick on average with the bot on Amsterdam. Per presented frame, at a 144 Hz stand-in for 15 s, the check reads the matrices drawn for every pair turning more than 20 degrees in a tick and measures their rows against the latest tick's: 1 is the wheel at its size and shape.
+
+| | Matrices | Shortest row, lowest | Shortest row, mean |
+|---|---:|---:|---:|
+| 1.1.2, element by element | 26,320 | 0.658 | 0.924 |
+| 1.1.3, rotation of the latest tick | 26,338 | 1.000 | 1.000 |
+
+So in 1.1.2 a wheel shrank and skewed between ticks and pulsed with the display. check-flow, check-race-ui and check-shadow pass on the change. No real display above 60 Hz was used.
+
 ### The owner's fixes
 
 `A2-Racer-4-Fixes` 1.5.4 parts 11, 12 and 13 in `spel.wasm` since 1.1.0: `tools/recomp/owner-fixes/README.md`. Checked on 2026-11-03.

@@ -823,6 +823,7 @@ Rank portraits differ by the opponents' order, which is not the same run. Remain
 | What | Between ticks | Cut when |
 |---|---|---|
 | World matrix rows | Blended | Pair missing, or translation moved more than 30 units (`TELEPORT_DIST2`). A draw that shows the latest tick has no pair |
+| World matrices that turn more than 20 degrees in a tick: wheels at speed | Position blended, rotation of the latest tick (`SPIN_COS`, since 1.1.3) | As above. Each car's four wheels have their own matrix and turn about 60 degrees a tick at speed; blended element by element they shrank to 66% and skewed between ticks |
 | Moving vertices of `drawPrimitive`: skid strips, flag | Blended | Vertex count changed, or first vertex moved more than 30 units |
 | The player's shadow (`FUN_00443770`) | Carried with its car: the latest tick's polygons, from the car's pose of that tick to its blended pose | The car moved more than 30 units in the tick |
 | Blob shadows: 4-vertex `drawIndexed` with `ZBIAS` | Blended with their cars | As above |

@@ -29438,6 +29438,7 @@ var MAX_DYNAMIC_FLOATS = 2e5;
 var NO_TEXTURE = 65535;
 var MAX_ARRAYS = 6;
 var TELEPORT_DIST2 = 30 * 30;
+var SPIN_COS = Math.cos(20 * Math.PI / 180);
 var TICK_MS = 1e3 / 60;
 var SMOKE_VERTS = [7295120, 7316120];
 var BWLK_VERTS = [7094792, 7115792];
@@ -29643,6 +29644,16 @@ void main() {
   c = vec4(hud.rgb + texture(uWorld, sharp(uWorldSize)).rgb * (1.0 - hud.a), 1.0);
 }`;
 var eyeAxis = (v, o) => -(v[12] * v[o] + v[13] * v[o + 1] + v[14] * v[o + 2]);
+function turnCos(a, q, b, o) {
+  let trace = 0;
+  for (let r = 0; r < 12; r += 4) {
+    const la = Math.hypot(a[q + r], a[q + r + 1], a[q + r + 2]);
+    const lb = Math.hypot(b[o + r], b[o + r + 1], b[o + r + 2]);
+    if (!la || !lb) return 1;
+    trace += (a[q + r] * b[o + r] + a[q + r + 1] * b[o + r + 1] + a[q + r + 2] * b[o + r + 2]) / (la * lb);
+  }
+  return (trace - 1) / 2;
+}
 var Frame = class {
   constructor() {
     this.matrices = new Float32Array(MAX_MATRICES * 16);
@@ -30723,6 +30734,13 @@ var D3DRenderer = class {
       const dz = bm[o + 14] - am[q + 14];
       if (dx * dx + dy * dy + dz * dz > TELEPORT_DIST2) {
         for (let j = 0; j < 16; j++) pal[o + j] = bm[o + j];
+        continue;
+      }
+      if (turnCos(am, q, bm, o) < SPIN_COS) {
+        for (let j = 0; j < 16; j++) pal[o + j] = bm[o + j];
+        pal[o + 12] = am[q + 12] + dx * alpha;
+        pal[o + 13] = am[q + 13] + dy * alpha;
+        pal[o + 14] = am[q + 14] + dz * alpha;
         continue;
       }
       for (let j = 0; j < 16; j++) pal[o + j] = am[q + j] + (bm[o + j] - am[q + j]) * alpha;

@@ -23,6 +23,10 @@ const NO_TEXTURE = 0xFFFF;
 const MAX_ARRAYS = 6;
 // A tick moving a matrix further than this is a teleport, not motion: no blending.
 const TELEPORT_DIST2 = 30 * 30;
+// A matrix turning further than this in one tick, such as a wheel at speed, keeps the latest tick's
+// rotation and blends its position only: blended element by element, two poses 60 degrees apart
+// give a wheel shrunk to 87% and skewed halfway between ticks. cos(20 degrees).
+const SPIN_COS = Math.cos(20 * Math.PI / 180);
 const TICK_MS = 1000 / 60;      // TICK_SECONDS in race-runner.js
 // Vertex arrays in game memory. gfx_wolk and gfx_bwlk sort their 70 slots every frame, so one
 // address holds another puff each tick: FUN_00446fe0, FUN_0043de00. Flag: FUN_0043fff0.
@@ -233,6 +237,18 @@ void main() {
 
 /** One coordinate of the eye of a view matrix, from the row of memory it is the dot product with. */
 const eyeAxis = (v, o) => -(v[12] * v[o] + v[13] * v[o + 1] + v[14] * v[o + 2]);
+
+/** Cosine of the angle of the rotation between two matrices' 3x3 parts, rows normalised for scale. */
+function turnCos(a, q, b, o) {
+  let trace = 0;
+  for (let r = 0; r < 12; r += 4) {
+    const la = Math.hypot(a[q + r], a[q + r + 1], a[q + r + 2]);
+    const lb = Math.hypot(b[o + r], b[o + r + 1], b[o + r + 2]);
+    if (!la || !lb) return 1;
+    trace += (a[q + r] * b[o + r] + a[q + r + 1] * b[o + r + 1] + a[q + r + 2] * b[o + r + 2]) / (la * lb);
+  }
+  return (trace - 1) / 2;
+}
 
 class Frame {
   constructor() {
@@ -1330,6 +1346,13 @@ export class D3DRenderer {
       const dz = bm[o + 14] - am[q + 14];
       if (dx * dx + dy * dy + dz * dz > TELEPORT_DIST2) {
         for (let j = 0; j < 16; j++) pal[o + j] = bm[o + j];
+        continue;
+      }
+      if (turnCos(am, q, bm, o) < SPIN_COS) {
+        for (let j = 0; j < 16; j++) pal[o + j] = bm[o + j];
+        pal[o + 12] = am[q + 12] + dx * alpha;
+        pal[o + 13] = am[q + 13] + dy * alpha;
+        pal[o + 14] = am[q + 14] + dz * alpha;
         continue;
       }
       for (let j = 0; j < 16; j++) pal[o + j] = am[q + j] + (bm[o + j] - am[q + j]) * alpha;

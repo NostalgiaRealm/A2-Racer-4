@@ -1,0 +1,12 @@
+{
+ "hz": 144,
+ "errors": [],
+ "frames": 1081,
+ "pairs": 26338,
+ "meanTurnDegPerTick": 63.1,
+ "rowLength": {
+  "lowest": 1,
+  "meanLowest": 1,
+  "highest": 1
+ }
+}
