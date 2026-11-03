@@ -199,7 +199,16 @@ Reported on 2026-11-04: black textures in Fedora's Chromium 156 on KDE Plasma (W
 
 Cause: three.js r186 creates its WebGL context with an alpha channel whatever it is asked, and the game's draws leave alpha below 1, the road at 0. Read back from the drawing buffer the pixels were the same on both paths; the compositor of a native Wayland window blends the canvas by that alpha, XWayland does not. Since 1.1.4 `D3DRenderer` creates the context itself with `alpha: false` and hands it to three.js. After the change: no black on native Wayland, and check-flow, check-race-ui and check-software pass.
 
-Left: on native Wayland Chromium converts all page colours for the display, plain HTML the same as WebGL (red 255,0,0 shows as 212,0,0, grey unchanged), so its screenshots look warmer. That is the browser's colour management for the screen, not the game.
+Left: a warm shift of saturated colours in Chromium's own screenshots on native Wayland. It is KDE's night light, not the game. Measured on 2026-11-04 at 00:35, night light running at 2500 K (`org.kde.KWin.NightLight`, `currentTemperature` 2500), with HDR, wide colour gamut and an ICC profile off and the output's colour source sRGB (`kscreen-doctor -o`):
+
+| Colour | Plain HTML on native Wayland | WebGL on native Wayland | XWayland | Computed: sRGB to sRGB primaries with a 2500 K white, Bradford adaptation |
+|---|---|---|---|---|
+| Red 255,0,0 | 212,0,0 | 212,0,0 | 255,0,0 | 213,0,0 |
+| Green 0,255,0 | 148,255,0 | 149,255,0 | 0,255,0 | 151,255,0 |
+| Blue 0,0,255 | 51,37,255 | 51,37,255 | 0,0,255 | 47,32,255 |
+| Grey 128 | 127 | 127 | 128 | 128 |
+
+KWin implements night light as a change of the output's white point and tells colour-managed Wayland clients about it. Chromium on native Wayland then converts every page, plain HTML as well as WebGL, into that space, adapting white to white, so greys stay grey and saturated colours move. KWin applies the warming to the whole screen afterwards. XWayland windows are not colour-managed by the client, so their pixels stay sRGB and KWin applies the same warming at the end: on screen both look the same, warm. Only screenshots differ, because Chromium captures its pixels before KWin. Without adaptation the computation gives grey as 91,144,255, which was not seen. With night light off the conversion should not happen; that was not tried, since it is the owner's setting. The game needs nothing for it.
 
 ### The wheels
 

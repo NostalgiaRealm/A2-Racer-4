@@ -28,7 +28,7 @@ No `.zip` copies: they held the same files as the installer, the `.dmg` and the 
 | macOS `.dmg`, `integrity-darwin-*.json` | `.github/workflows/macos-release.yml` on an existing tag and draft release. On GitLab they are the same files |
 | `-source.tar.gz`, `CHANGELOG-*.md`, `BUILD-INFO-*.json` | `npm run release:archives` |
 | `-original-game-decompiled.tar.gz` with `.manifest.json` and `.sha256` | `npm run release:archives -- --decompile`, only in a release where `original-game-decompiled/` changed. Other releases link to the last release that has it: 1.1.1 |
-| `SHA256SUMS.txt` | `node tools/package-release.mjs --sums`, last, over `release/<version>/` |
+| `SHA256SUMS.txt`, and publishing on both hosts | `tools/publish-release.sh <version>`, last: it fetches the `.dmg` files from the draft, writes the sums, uploads to both hosts and publishes with the release notes |
 
 GitHub takes them as release assets. GitLab takes them into the generic package registry, `packages/generic/a2-racer-4/<tag>/<file>`, and the release links them with `direct_asset_url` `/-/releases/<tag>/downloads/<file>`.
 
