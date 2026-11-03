@@ -92,6 +92,21 @@ export class Race {
       if (r) r.hud = false;
       return out;
     });
+    // FUN_00443770 builds the player's shadow in world space from the car's pose at +0x10 of its
+    // object (copied at 0x443ab8), the matrix the car is drawn with in the same tick.
+    const shadowPose = new Float32Array(16);
+    m.bindRaw('hook!playerShadow', 0, (esp, ecx, edx, eax) => {
+      const r = host.render;
+      if (r && r.beginPlayerShadow) {
+        const car = m.u32[0x715e50 >> 2] + m.u32[(esp + 4) >> 2] * 0xf0;
+        const obj = m.u32[0x73b0d0 >> 2] + m.view.getInt32(car + 0x24, true) * 0xa9 + 0x10;
+        for (let k = 0; k < 16; k++) shadowPose[k] = m.view.getFloat32(obj + k * 4, true);
+        r.beginPlayerShadow(shadowPose);
+      }
+      const out = m.__call(0x00443770, esp, eax, ecx, edx);
+      if (r && r.endPlayerShadow) r.endPlayerShadow();
+      return out;
+    });
     if (host.installHooks) host.installHooks(m, this);
     return this;
   }

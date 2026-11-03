@@ -2,7 +2,7 @@
 
 **Play it: <https://games.nostalgiarealm.com/a2racer4/>**
 
-Version 1.1.1. [Changelog](CHANGELOG.md), [release notes](docs/releases/1.1.1.md). Downloads: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4/releases/latest), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4/-/releases). Repositories: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4).
+Version 1.1.2. [Changelog](CHANGELOG.md), [release notes](docs/releases/1.1.2.md). Downloads: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4/releases/latest), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4/-/releases). Repositories: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4).
 
 A port of the Dutch racing game from 2000 to WebGL and Three.js, built from the original game files. The race itself is the original code: `spel.dat` is recompiled from x86 to WebAssembly, so its physics, AI, rules and HUD logic run as shipped. The menu is rewritten by hand from the original forms and code. All artwork, music, speech and text are the originals, in Dutch.
 
@@ -12,7 +12,7 @@ The game's content is in the port, with Davilex's two official updates, track 9 
 
 ## Downloads
 
-Desktop builds for Linux, Windows and macOS, a static web build, the source and the decompile: [`docs/releases/1.1.1.md`](docs/releases/1.1.1.md) and [`1.1.0.md`](docs/releases/1.1.0.md) list the files and what was checked on each. The Windows package has run under Wine but not on Windows, and the macOS packages have not been started so far.
+Desktop builds for Linux, Windows and macOS, a static web build, the source and the decompile: [`docs/releases/`](docs/releases/) lists the files of each release and what was checked on each. The Windows package has run under Wine but not on Windows, and the macOS packages have not been started so far.
 
 The decompile of the original game is in [`original-game-decompiled/`](original-game-decompiled/README.md): generated C and assembly of every game module, unpacked resources, Ghidra projects, format documents and the game's own files. What is left out, such as the disc image and third-party installers: [`docs/releasing.md`](docs/releasing.md#what-is-published).
 
@@ -148,6 +148,7 @@ They do not start a server or bundle anything. Have `npm start` running in anoth
 | `node tools/compare-traces.mjs evidence/performance/final-normal.json evidence/performance/final-8x.json` | Compares two of those runs per game second: the checksum over every object with a physics body, and position and speed of the player's car | No |
 | `node tools/check-driving.mjs --json evidence/driving/amsterdam-no-opponents.json` | Scripted driving, no opponents, prints speeds. Repeatable | No |
 | `node tools/check-owner-fixes.mjs --out evidence/owner-fixes/races-with-fixes.json` | Whole bot races on all 10 etappes, reading the state of the owner's added code: 25 Hz tick, camera, `hung_check`. `--game` points at another build | No |
+| `node tools/check-shadow.mjs --hz 144 --out evidence/shadow/summary-144hz.json` | The player's shadow in its car's frame per presented frame, with the bot on Amsterdam. `--hz` stands in for a display rate | Yes |
 | `node tools/check-traffic.mjs --hz 60` | Traffic nose rise on the owner's method. Also `--hz 30` and `--whole-push`, one JSON line each; `evidence/traffic/nose-rise.jsonl` holds the four | No |
 | `node tools/run-bot.mjs` | A whole race in Node with opponents and traffic. Prints progress and what it writes to `game.ini` | No |
 | `node tools/build-race-lists.mjs` | Boots all 10 etappes with all 8 cars for 2 s, and all 10 at `RESOLUTION` 0 and 1, to list the files each race reads. Not a gameplay check | No |

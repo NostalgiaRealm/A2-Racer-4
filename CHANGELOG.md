@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.1.2 — 2026-11-03
+
+The player's shadow no longer jitters under the car. [Release notes](docs/releases/1.1.2.md).
+
+### Fixed
+
+- The game cuts the player's shadow into new polygons every tick, which the port could not pair between ticks, so it drew the shadow at the latest tick under a car drawn between two ticks: the shadow slid back and forth by up to a tick of motion. It now moves with the car, as the original draws both from the same tick.
+
+### Added
+
+- `tools/check-shadow.mjs`: the shadow's place in the car's frame per presented frame.
+
 ## 1.1.1 — 2026-11-03
 
 The original game icon, from `A2Racer4.exe`, as the browser tab's icon. [Release notes](docs/releases/1.1.1.md).

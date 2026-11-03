@@ -180,6 +180,19 @@ By state only. Nobody has listened to the port. From one-off scripts when the fi
 
 **Other shapes.** By eye, on the checks' screenshots on Amsterdam: `evidence/flow/`, `evidence/flow-phone/`, `evidence/race-ui/`, `evidence/performance/`: 16:9 at 1280x720, 800x360, 844x390, portrait at 360x800 and 390x844. No anomaly is known on these. No reference exists for them: the original has only 4:3.
 
+### The player's shadow
+
+`tools/check-shadow.mjs`, `evidence/shadow/`. The bot drives Amsterdam in a browser, and per presented frame the centre of the player's shadow is put in the car's frame as drawn. In 1.1.1 the shadow showed the latest tick while its car was blended between two ticks. Checked on 2026-11-03, 20 s at a 144 Hz stand-in for `requestAnimationFrame` and 15 s at the headless display's own rate.
+
+| | Within one tick, mean and highest | All frames, mean and 95th percentile |
+|---|---:|---:|
+| 1.1.1, 144 Hz | 2.87, 3.67 units | 0.97, 3.32 |
+| 1.1.2, 144 Hz | 0, 0 | 0.045, 0.34 |
+| 1.1.1, headless display | no two frames in one tick | 0.023, 0.039 |
+| 1.1.2, headless display | the same | 0.016, 0.030 |
+
+What is left from frame to frame is the game rebuilding the shadow on the next tick, as the original does. Headless Chromium presents nearly in step with the 60 Hz tick, at alpha 0.94 to 0.98, which hid the slide. A real display at 60 Hz drifts against the tick, and one above 60 Hz always shows it. No real display was used. The original was not compared: it draws car and shadow from the same tick, which this now does too. check-flow and check-race-ui pass on the change.
+
 ### The owner's fixes
 
 `A2-Racer-4-Fixes` 1.5.4 parts 11, 12 and 13 in `spel.wasm` since 1.1.0: `tools/recomp/owner-fixes/README.md`. Checked on 2026-11-03.

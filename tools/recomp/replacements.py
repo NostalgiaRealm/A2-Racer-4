@@ -193,6 +193,8 @@ REPLACEMENTS = {
     0x0044CA80: {'hook': 'pauseBegin', 'pop': 0},
     # The HUD's draw call: the host marks the pass and moves groups to the screen edges.
     0x00484FC0: {'hook': 'hudDraw', 'pop': 0, 'keep_body': True},
+    # The player's shadow (FUN_00443770): the host hands the renderer the car's pose it is built from.
+    0x00443770: {'hook': 'playerShadow', 'pop': 0, 'keep_body': True},
     0x0051E7A0: {'hook': 'setjmpGuardA', 'pop': 0, 'keep_body': True},
     0x005251C0: {'hook': 'setjmpGuardB', 'pop': 0, 'keep_body': True},
     # WinMain: its loop must not block the browser. race.js runs the same steps per tick.
@@ -225,7 +227,8 @@ RESUME_ENTRIES = {0x0051E837, 0x005251DD}
 # Called from the host in place of WinMain, see source/host/race.js.
 EXTRA_ROOTS = GUARDED + [0x00448CD0, 0x004580E0, 0x0044CF60, 0x0044CB80, 0x004517F0, 0x0044E180, 0x00458020,
                0x004C5E40, 0x00458400, 0x0041C150, 0x00458210, 0x0051E837, 0x005251DD, 0x0051E7A0, 0x005251C0, 0x00484FC0,
-               0x004CE0D0, 0x004CE030, 0x00448330, 0x0042E440, 0x004483A0, 0x0042E4A0, 0x004A6840, 0x0044CDA0]
+               0x004CE0D0, 0x004CE030, 0x00448330, 0x0042E440, 0x004483A0, 0x0042E4A0, 0x004A6840, 0x0044CDA0,
+               0x00443770]
 
 
 # Owner's no-CD patch from A2-Racer-4-Fixes part 7: the disc search stops with an

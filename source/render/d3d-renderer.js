@@ -242,6 +242,8 @@ class Frame {
     this.prevRow = new Int32Array(MAX_MATRICES);
     this.dynFloats = new Float32Array(MAX_DYNAMIC_FLOATS);
     this.dynamic = new Map();     // draw key -> { offset, count, base }
+    this.shadowPose = new Float32Array(16);   // the player's car, when its shadow was built
+    this.shadowParts = [];        // { offset, count, base } of the player's shadow polygons
     this.view = new Float32Array(16);
     this.proj = new Float32Array(16);
     this.reset();
@@ -257,6 +259,8 @@ class Frame {
     this.matKeys.clear();
     this.dynamic.clear();
     this.dynUsed = 0;
+    this.hasShadowPose = false;
+    this.shadowParts.length = 0;
     this.hasView = false;
     this.full = false;
     this.sky = null;
@@ -297,6 +301,9 @@ export class D3DRenderer {
     this.hudClipMap = new THREE.Matrix4();
     this.hudScreenMap = new THREE.Matrix4();
     this.tmpV = new THREE.Matrix4();
+    this.shadowMove = new THREE.Matrix4();
+    this.shadowInverse = new THREE.Matrix4();
+    this.inPlayerShadow = false;
     this.tmpP = new THREE.Matrix4();
     this.hud = false;
     this.noBlend = false;
@@ -690,6 +697,36 @@ export class D3DRenderer {
     }
   }
 
+  /**
+   * The player's shadow (FUN_00443770) is cut against the ground into new polygons on the heap every
+   * tick, so its draws cannot be paired with the tick before. It is moved with its car instead.
+   */
+  beginPlayerShadow(pose) {
+    const f = this.capturing;
+    f.shadowPose.set(pose);
+    f.hasShadowPose = true;
+    this.inPlayerShadow = true;
+  }
+
+  endPlayerShadow() {
+    this.inPlayerShadow = false;
+  }
+
+  noteShadow(verts, count) {
+    const f = this.capturing;
+    if (f.dynUsed + count * 3 > MAX_DYNAMIC_FLOATS) return;
+    const dyn = f.dynFloats;
+    const src = this.f32;
+    let o = f.dynUsed;
+    for (let k = 0, s = verts >> 2; k < count; k++, s += 8, o += 3) {
+      dyn[o] = src[s];
+      dyn[o + 1] = src[s + 1];
+      dyn[o + 2] = src[s + 2];
+    }
+    f.shadowParts.push({ offset: f.dynUsed, count, base: f.vertCount });
+    f.dynUsed = o;
+  }
+
   /** Non-indexed draws carry moving vertices: skid marks, the player's shadow, the flag. */
   drawPrimitive(prim, vtype, verts, count) {
     if (count <= 0) return;
@@ -698,7 +735,10 @@ export class D3DRenderer {
     const f = this.capturing;
     const world = vtype === 3 ? 0 : this.worldIndex(verts);
     this.noteView();
-    if (vtype !== 3 && this.blends(verts)) this.noteMoving(verts, count);
+    if (vtype !== 3 && this.blends(verts)) {
+      if (this.inPlayerShadow) this.noteShadow(verts, count);
+      else this.noteMoving(verts, count);
+    }
     if (this.captureLevel === 1) return;
     const texture = this.host.renderState.texture;
     const base = this.copyVerts(vtype, verts, count, world, texture);
@@ -1315,6 +1355,45 @@ export class D3DRenderer {
           floats[v] = ad[ao] + (bd[bo] - ad[ao]) * alpha;
           floats[v + 1] = ad[ao + 1] + (bd[bo + 1] - ad[ao + 1]) * alpha;
           floats[v + 2] = ad[ao + 2] + (bd[bo + 2] - ad[ao + 2]) * alpha;
+        }
+      }
+      this.dynamicDirty = true;
+    }
+    // The player's shadow, carried by its car from the latest tick to the blended pose: the car's
+    // matrix blends row by row like any world matrix, so the shadow stays where it was under it.
+    if (b.shadowParts.length) {
+      let t = null;
+      if (alpha < 1 && b.hasShadowPose && a.hasShadowPose) {
+        const pb = b.shadowPose;
+        const pa = a.shadowPose;
+        const dx = pb[12] - pa[12];
+        const dy = pb[13] - pa[13];
+        const dz = pb[14] - pa[14];
+        if (dx * dx + dy * dy + dz * dz <= TELEPORT_DIST2) {
+          const e = this.shadowMove.elements;
+          for (let j = 0; j < 16; j++) e[j] = pa[j] + (pb[j] - pa[j]) * alpha;
+          this.shadowInverse.fromArray(pb).invert();
+          t = this.shadowMove.multiply(this.shadowInverse).elements;
+        }
+      }
+      const floats = this.vertFloats;
+      const bd = b.dynFloats;
+      for (const part of b.shadowParts) {
+        let o = part.offset;
+        let v = part.base * 8;
+        for (let k = 0; k < part.count; k++, o += 3, v += 8) {
+          const x = bd[o];
+          const y = bd[o + 1];
+          const z = bd[o + 2];
+          if (t) {
+            floats[v] = t[0] * x + t[4] * y + t[8] * z + t[12];
+            floats[v + 1] = t[1] * x + t[5] * y + t[9] * z + t[13];
+            floats[v + 2] = t[2] * x + t[6] * y + t[10] * z + t[14];
+          } else {
+            floats[v] = x;
+            floats[v + 1] = y;
+            floats[v + 2] = z;
+          }
         }
       }
       this.dynamicDirty = true;

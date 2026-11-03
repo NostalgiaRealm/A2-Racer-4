@@ -1,0 +1,34 @@
+{
+ "frames": 1440,
+ "errors": [],
+ "alpha": {
+  "min": 2.3314683517128287e-14,
+  "max": 0.9979999998212244,
+  "below1": 1440
+ },
+ "hz": 144,
+ "shadowStepInCarFrame": {
+  "asIn111": {
+   "mean": 0.9704,
+   "p95": 3.3217,
+   "max": 3.6737
+  },
+  "now": {
+   "mean": 0.0454,
+   "p95": 0.3443,
+   "max": 2.0183
+  }
+ },
+ "withinOneTick": {
+  "asIn111": {
+   "frames": 239,
+   "mean": 2.8679,
+   "max": 3.6721
+  },
+  "now": {
+   "frames": 239,
+   "mean": 0,
+   "max": 0
+  }
+ }
+}

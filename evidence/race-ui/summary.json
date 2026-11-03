@@ -410,7 +410,7 @@
  "pause: the picture stays still": {
   "ok": true,
   "detail": {
-   "frames": 98,
+   "frames": 97,
    "distinct": [
     1
    ]
@@ -637,7 +637,7 @@
   "detail": {
    "stamp": [
     0,
-    10550
+    10566
    ]
   }
  },

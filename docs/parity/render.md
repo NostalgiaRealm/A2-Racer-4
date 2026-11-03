@@ -237,6 +237,7 @@ The original has no such thing, so nothing here can be compared with it. In `doc
 |---|---|---|---|---|
 | World rows blended, cut above 30 units | none | yes (host) | not verified | `blendPalette`, `endFrame` |
 | Camera blended through turns, cut when the eye jumps above 30 units | `FUN_004b3a60`, row 3 is `-dot(axis, eye)` | yes (host) | fix check: 28 s at a 144 Hz stand-in, 4031 presents, 0 unblended; 60 Hz, 1680, 0; camera switches of 85 and 62 units cut | `eyeAxis`, `blendPalette` |
+| The player's shadow moves with its car between ticks | `FUN_00443770` copies the car's pose at `0x443ab8` | yes (host) | checked on Amsterdam: check-shadow | At a 144 Hz stand-in, within one tick the shadow moved in the car's frame by 2.87 units on average and 3.67 at most in 1.1.1, 0 now. `hook!playerShadow`, `blendPalette` |
 | Moving vertices blended, same count, first vertex within 30 units | none | yes (host) | fix check: 67 of 3842 pairs in 1168 ticks were above 30 units before the first-vertex test | `noteMoving`, `blendPalette`. Skid strips, player's shadow, flag |
 | Blob shadows blend with their car | `FUN_00443ef0` | yes (host) | fix check: recorded as moving vertices, same run | `drawIndexed`, 4 vertices with `ZBIAS` |
 | `gfx_wolk` shows the latest tick | `FUN_00446fe0`, `qsort` per frame | yes (host) | fix check: 2968 smoke rows in 1168 ticks, none linked to the tick before | `SMOKE_VERTS`, `blends`. Steps at 60 Hz on faster displays |

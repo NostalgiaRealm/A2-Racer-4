@@ -484,7 +484,7 @@ Reflection UVs are rewritten per car tick (`FUN_00437370`): reflection vector, `
 - Inferred: `ZBIAS` needs a polygon offset in a WebGL host.
 - Unresolved: why the player's shadow keeps specular alpha 0xFF when other vertices use 0.
 
-**Where the port implements it.** Runs as shipped. `ZBIAS` becomes `polygonOffset` (`materialFor`). Shadow batches draw before the objects, in capture order (section 9). `drawIndexed` records moving vertices for 4-vertex draws with `ZBIAS`, so blob shadows blend with their cars (section 27).
+**Where the port implements it.** Runs as shipped. `ZBIAS` becomes `polygonOffset` (`materialFor`). Shadow batches draw before the objects, in capture order (section 9). `drawIndexed` records moving vertices for 4-vertex draws with `ZBIAS`, so blob shadows blend with their cars (section 27). The player's shadow moves with its car's blended pose (section 27).
 
 **How it was compared.** `reference-frame` by eye for the player's shadow at the start line. With a 3D card blob shadows were not looked at against the original. On the 8-bit path they were: section 26. Fix check, one-off script: with blob shadows recorded, 67 of 3842 vertex pairs in 1168 ticks were more than 30 units apart, which is why each moving draw now has a first-vertex distance test.
 
@@ -823,7 +823,8 @@ Rank portraits differ by the opponents' order, which is not the same run. Remain
 | What | Between ticks | Cut when |
 |---|---|---|
 | World matrix rows | Blended | Pair missing, or translation moved more than 30 units (`TELEPORT_DIST2`). A draw that shows the latest tick has no pair |
-| Moving vertices of `drawPrimitive`: skid strips, player's shadow, flag | Blended | Vertex count changed, or first vertex moved more than 30 units |
+| Moving vertices of `drawPrimitive`: skid strips, flag | Blended | Vertex count changed, or first vertex moved more than 30 units |
+| The player's shadow (`FUN_00443770`) | Carried with its car: the latest tick's polygons, from the car's pose of that tick to its blended pose | The car moved more than 30 units in the tick |
 | Blob shadows: 4-vertex `drawIndexed` with `ZBIAS` | Blended with their cars | As above |
 | Camera view matrix | Blended, also while turning | Eye moved more than 30 units in one tick, as on a camera switch. `eyeAxis` recovers the eye from the view; the test does not read row 3 |
 | Projection | Latest tick | Always |
@@ -831,7 +832,7 @@ Rank portraits differ by the opponents' order, which is not the same run. Remain
 | All particles, sparks included | Latest tick | One mesh per live particle, so an occurrence names another particle after one dies. `noBlend`, set around `FUN_0045dce0` |
 | HUD | Latest tick | `this.hud` in `blends` |
 
-On displays faster than 60 Hz the latest-tick draws step at 60 Hz while the rest moves smoothly. Under a dialog everything stays on tick B (section 10). Scenery: a parse of `.omp` with the 26-chunk window shows occurrence changes for the same mesh almost always land more than 30 units away: none on etappes 0, 1 and 7, and 2 to 4 percent of window steps with one or two objects on etappes 2 to 6 and 8. Etappe 9 was not parsed for this. On a wrong pair the first-vertex test limits the error to one tick within 30 units. Player-shadow polygons pair by heap address and occurrence, with the same limit.
+On displays faster than 60 Hz the latest-tick draws step at 60 Hz while the rest moves smoothly. Under a dialog everything stays on tick B (section 10). Scenery: a parse of `.omp` with the 26-chunk window shows occurrence changes for the same mesh almost always land more than 30 units away: none on etappes 0, 1 and 7, and 2 to 4 percent of window steps with one or two objects on etappes 2 to 6 and 8. Etappe 9 was not parsed for this. On a wrong pair the first-vertex test limits the error to one tick within 30 units. The player's shadow is not paired: `FUN_00443770` cuts it into new polygons on the heap every tick, and in 1.1.1 only 6.4% of them found their pair (2745 heap addresses in 30 s on Amsterdam). Unpaired, it showed the latest tick under a car drawn between ticks, so it slid back and forth under the car, by up to 3.7 units at a 144 Hz stand-in. Since 1.1.2 `hook!playerShadow` (`source/host/race.js`) reads the pose at `+0x10` of the car's object as the function starts, the matrix the car is drawn with in that tick, and `blendPalette` moves the shadow by the blended pose times the inverse of that one.
 
 **How it was compared.** `repeat-trace`: checksums over every object with a physics body, 485 on Amsterdam, identical at all 71 samples between normal rendering at 1280x720 DPR 1 at 60 FPS, the mobile profile at 8x throttle at 60 FPS, and every second display frame at 30 FPS. That shows game state does not depend on the render profile; it does not cover the picture. No comparison with the original is possible, since it does not blend. Fix checks, one-off scripts, on the bot's route:
 
