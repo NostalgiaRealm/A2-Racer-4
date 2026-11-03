@@ -160,13 +160,24 @@ try {
       'icon.icns': {records: icns.formats.map(([type, size]) => ({type, size}))}},
     outputs: Object.fromEntries([...files].map(([name, bytes]) => [name, {bytes: bytes.length, sha256: hash(bytes)}])),
   };
+  // The icon file itself, for the page's favicon and so for every build: the resource's own
+  // group entry and image, put together as an .ico, with nothing converted.
+  const group = await readFile(path.join(path.dirname(source), '../GROUP_ICON/GROUP_ICON_101_1043.bin'));
+  requireValue(group.length === 20 && group.readUInt16LE(4) === 1 && group.readUInt32LE(14) === sourceBytes.length,
+    'The icon group no longer describes the one icon image.');
+  const favicon = Buffer.concat([group.subarray(0, 6), group.subarray(6, 18), Buffer.from([22, 0, 0, 0]), sourceBytes]);
+  provenance.favicon = {path: 'public/favicon.ico', source: 'A2Racer4.exe, GROUP_ICON 101 and ICON 1, language 1043',
+    bytes: favicon.length, sha256: hash(favicon)};
   files.set('provenance.json', Buffer.from(JSON.stringify(provenance, null, 2) + '\n'));
+  const faviconPath = path.join(root, 'public/favicon.ico');
   if (check) {
     for (const [name, expected] of files) requireValue((await readFile(path.join(output, name))).equals(expected),
       `Desktop icon is stale or modified: ${name}. Run node tools/prepare-desktop-icons.mjs.`);
+    requireValue((await readFile(faviconPath)).equals(favicon), 'public/favicon.ico is stale or modified.');
   } else {
     await mkdir(output, {recursive: true});
     for (const [name, bytes] of files) await writeFile(path.join(output, name), bytes);
+    await writeFile(faviconPath, favicon);
   }
   console.log(`${check ? 'Verified' : 'Prepared'} original desktop icons: PNG 512px; ICO ${ico.sizes.join('/')}px; ICNS 256/512/1024px.`);
 } catch (error) {

@@ -2,7 +2,7 @@
 
 **Play it: <https://games.nostalgiarealm.com/a2racer4/>**
 
-Version 1.1.0. [Changelog](CHANGELOG.md), [release notes](docs/releases/1.1.0.md). Downloads: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4/releases/latest), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4/-/releases). Repositories: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4).
+Version 1.1.1. [Changelog](CHANGELOG.md), [release notes](docs/releases/1.1.1.md). Downloads: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4/releases/latest), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4/-/releases). Repositories: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4).
 
 A port of the Dutch racing game from 2000 to WebGL and Three.js, built from the original game files. The race itself is the original code: `spel.dat` is recompiled from x86 to WebAssembly, so its physics, AI, rules and HUD logic run as shipped. The menu is rewritten by hand from the original forms and code. All artwork, music, speech and text are the originals, in Dutch.
 
@@ -12,7 +12,7 @@ The game's content is in the port, with Davilex's two official updates, track 9 
 
 ## Downloads
 
-Desktop builds for Linux, Windows and macOS, a static web build, the source and the decompile: [`docs/releases/1.1.0.md`](docs/releases/1.1.0.md) lists the files and what was checked on each. The Windows package has run under Wine but not on Windows, and the macOS packages have not been started so far.
+Desktop builds for Linux, Windows and macOS, a static web build, the source and the decompile: [`docs/releases/1.1.1.md`](docs/releases/1.1.1.md) and [`1.1.0.md`](docs/releases/1.1.0.md) list the files and what was checked on each. The Windows package has run under Wine but not on Windows, and the macOS packages have not been started so far.
 
 The decompile of the original game is in [`original-game-decompiled/`](original-game-decompiled/README.md): generated C and assembly of every game module, unpacked resources, Ghidra projects, format documents and the game's own files. What is left out, such as the disc image and third-party installers: [`docs/releasing.md`](docs/releasing.md#what-is-published).
 

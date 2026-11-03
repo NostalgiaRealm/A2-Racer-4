@@ -56,5 +56,11 @@
       "bytes": 28694,
       "sha256": "c63f5267d530532b044508255a1e74704c0322537fad0bf43c0df6297e90b15a"
     }
+  },
+  "favicon": {
+    "path": "public/favicon.ico",
+    "source": "A2Racer4.exe, GROUP_ICON 101 and ICON 1, language 1043",
+    "bytes": 2238,
+    "sha256": "cb8984ead1ba261deb2f0769480f6198a7bfb0925efbf0e0ab41207dccf61807"
   }
 }

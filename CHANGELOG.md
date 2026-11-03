@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.1 — 2026-11-03
+
+The original game icon, from `A2Racer4.exe`, as the browser tab's icon. [Release notes](docs/releases/1.1.1.md).
+
+### Added
+
+- `favicon.ico`: the icon resource of `A2Racer4.exe` (32x32, 256 colours) put together as an icon file without conversion, by `tools/prepare-desktop-icons.mjs`. The web build and every desktop build carry it. The desktop packages already used the same icon for the app.
+
 ## 1.1.0 — 2026-11-03
 
 The race now runs the owner's fixes from `A2-Racer-4-Fixes` 1.5.4 that matter at its 60 ticks per second: his own added code, lifted to WebAssembly with the rest of `spel.dat`. Details and checks: [release notes](docs/releases/1.1.0.md).
