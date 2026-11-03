@@ -216,6 +216,7 @@ Run on 2026-11-01 from this machine against <https://games.nostalgiarealm.com/a2
 | `tools/check-flow.mjs --url`, real clicks: intro, new player, Quick Race on Amsterdam, a whole race by the bot, results, back to the menu | Pass, 0 console errors or warnings. `TRACKTIME` 593233, laps 289450 and 303783, the same as locally. `evidence/live-flow/` |
 | A race opened directly, watched for 20 s | 317 responses, 142 by byte range, none outside the folder, no errors |
 | By `curl` | `/a2racer4` 301 to `/a2racer4/`. `rcs.img` answers ranges with 206. `spel.wasm` has `application/wasm`, gzip. A dotfile path gives 404 |
+| `tools/check-flow.mjs --url` again on 2026-11-03, on 1.1.0, after `tools/deploy-website.sh` | Pass, 0 console errors or warnings. `TRACKTIME` 603433, laps 307617 and 295816, the same as locally. 1.1.1 only adds `favicon.ico` and its link, and was deployed without a check, at the owner's request: the deploy script compared the live `index.html`, `src/main.js` and `spel.wasm` with the build |
 | Other games on the host after the change | `redcatsuperkarts`, `kao`, `bookwormdutch`, `redcatspookkasteel` answer 200. Not played |
 
 ## Known discrepancies

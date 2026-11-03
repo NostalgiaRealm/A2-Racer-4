@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 // The non-desktop release assets, from the committed tree, into release/<version>/:
-//   -web.zip                       dist/, the static site
 //   -source.tar.gz                 the commit without original-game-decompiled/
-//   -original-game-decompiled.tar.gz, .manifest.json, .sha256
-//                                  the committed decompile plus the whole rcs.img
+//   -original-game-decompiled.tar.gz, .manifest.json, .sha256, only with --decompile
+//                                  the committed decompile plus the whole rcs.img. Make it only when
+//                                  original-game-decompiled/ changed: releases point to the last one
 //   CHANGELOG-<version>.md, BUILD-INFO-<version>.json
 //   --sums writes SHA256SUMS.txt over everything in the folder and does nothing else.
-//   node tools/package-release.mjs [--ref HEAD] [--sums]
+//   node tools/package-release.mjs [--ref HEAD] [--decompile] [--sums]
 import { execFileSync, spawnSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { createReadStream, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
@@ -49,25 +49,6 @@ const commit = sh('git', ['rev-parse', ref]).trim();
 const stamp = sh('git', ['log', '-1', '--format=%cI', ref]).trim();
 if (sh('git', ['status', '--porcelain']).trim() && ref === 'HEAD') throw new Error('Commit the release first: the working tree is not clean');
 
-// Static site. Files in a fixed order with the commit's time, so a rebuild gives the same zip.
-{
-  const file = join(out, `${prefix}-web.zip`);
-  rmSync(file, { force: true });
-  must('python3', ['-I', '-c', `
-import os, sys, zipfile, datetime
-root, target, stamp = sys.argv[1:4]
-when = datetime.datetime.fromisoformat(stamp).timetuple()[:6]
-with zipfile.ZipFile(target, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as z:
-    names = sorted(os.path.relpath(os.path.join(d, n), root) for d, _, ns in os.walk(root) for n in ns)
-    for n in names:
-        info = zipfile.ZipInfo('${prefix}-web/' + n.replace(os.sep, '/'), when)
-        info.compress_type = zipfile.ZIP_DEFLATED
-        info.external_attr = 0o644 << 16
-        with open(os.path.join(root, n), 'rb') as f:
-            z.writestr(info, f.read())
-`, join(ROOT, 'dist'), file, stamp]);
-}
-
 // The port's source: public/ and large-files/ are in it, so it builds and runs by itself.
 {
   const file = join(out, `${prefix}-source.tar.gz`);
@@ -79,7 +60,7 @@ with zipfile.ZipFile(target, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as z:
 }
 
 // The decompile: everything committed under original-game-decompiled/, and rcs.img whole.
-{
+if (process.argv.includes('--decompile')) {
   const name = `${prefix}-original-game-decompiled.tar.gz`;
   const file = join(out, name);
   const tracked = sh('git', ['ls-tree', '-r', '--name-only', '-z', ref, '--', 'original-game-decompiled']).split('\0').filter(Boolean);

@@ -20,11 +20,14 @@ Kept from the disc: `Data/`, `Handleiding/`, the read-me and help files. `tools/
 
 ## Assets
 
+No `.zip` copies: they held the same files as the installer, the `.dmg` and the source. Since 1.1.1 the Windows installer, the `.dmg` and the AppImage are the desktop downloads, and the web build comes from the source with `npm run build`. Each release uploads about 1.5 GB less per host.
+
 | Asset | Made by |
 |---|---|
-| AppImage, Linux `.tar.gz`, Windows installer and `.zip`, `integrity-*.json` | `npm run desktop:linux`, `npm run desktop:win` on Linux. Wine is on the path for the Windows resource step |
-| macOS `.dmg` and `.zip`, `integrity-darwin-*.json` | `.github/workflows/macos-release.yml` on an existing tag and draft release. On GitLab they are the same files |
-| `-web.zip`, `-source.tar.gz`, `-original-game-decompiled.tar.gz` with `.manifest.json` and `.sha256`, `CHANGELOG-*.md`, `BUILD-INFO-*.json` | `npm run release:archives` |
+| AppImage, Linux `.tar.gz`, Windows installer, `integrity-*.json` | `npm run desktop:linux`, `npm run desktop:win` on Linux. Wine is on the path for the Windows resource step |
+| macOS `.dmg`, `integrity-darwin-*.json` | `.github/workflows/macos-release.yml` on an existing tag and draft release. On GitLab they are the same files |
+| `-source.tar.gz`, `CHANGELOG-*.md`, `BUILD-INFO-*.json` | `npm run release:archives` |
+| `-original-game-decompiled.tar.gz` with `.manifest.json` and `.sha256` | `npm run release:archives -- --decompile`, only in a release where `original-game-decompiled/` changed. Other releases link to the last release that has it: 1.1.1 |
 | `SHA256SUMS.txt` | `node tools/package-release.mjs --sums`, last, over `release/<version>/` |
 
 GitHub takes them as release assets. GitLab takes them into the generic package registry, `packages/generic/a2-racer-4/<tag>/<file>`, and the release links them with `direct_asset_url` `/-/releases/<tag>/downloads/<file>`.

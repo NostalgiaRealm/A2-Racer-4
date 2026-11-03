@@ -54,4 +54,4 @@ To remove the game: restore that backup or delete the `a2racer4` locations, relo
 
 ## Other hosts
 
-Any static host works, with the same needs: unpack `A2-Racer-4-<version>-web.zip`, or build `dist/`, and serve the files. It does not run from `file://`.
+Any static host works, with the same needs: build `dist/` from the repository or the source archive with `npm ci` and `npm run build`, and serve its files. It does not run from `file://`.

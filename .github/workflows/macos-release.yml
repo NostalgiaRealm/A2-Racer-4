@@ -57,7 +57,7 @@ jobs:
         run: npm ci
       - name: Prepare the game payload and original icons
         run: npm run desktop:prepare
-      - name: Create DMG and ZIP packages with ad-hoc signing
+      - name: Create the DMG with ad-hoc signing
         run: |
           npx --no-install electron-builder --mac "--$A2R4_BUILD_ARCH" --publish never \
             "-c.directories.output=release/macos-$A2R4_BUILD_ARCH"
@@ -67,7 +67,6 @@ jobs:
         run: |
           gh release upload "$A2R4_RELEASE_TAG" \
             "release/macos-$A2R4_BUILD_ARCH/"*.dmg \
-            "release/macos-$A2R4_BUILD_ARCH/"*.zip \
             --repo "$GITHUB_REPOSITORY"
       - name: Upload payload integrity report
         env:

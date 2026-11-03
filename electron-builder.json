@@ -19,10 +19,10 @@
     "syncDesktopName": true,
     "desktop": { "entry": { "Categories": "Game;ArcadeGame;" } }
   },
-  "win": { "target": ["nsis", "zip"], "icon": "desktop/icons/icon.ico", "executableName": "a2racer4" },
+  "win": { "target": ["nsis"], "icon": "desktop/icons/icon.ico", "executableName": "a2racer4" },
   "nsis": { "oneClick": false, "allowToChangeInstallationDirectory": true, "perMachine": false },
   "mac": {
-    "target": ["dmg", "zip"],
+    "target": ["dmg"],
     "icon": "desktop/icons/icon.icns",
     "category": "public.app-category.racing-games",
     "identity": "-",
