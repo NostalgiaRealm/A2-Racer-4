@@ -287,10 +287,14 @@ export class D3DRenderer {
   constructor(canvas, options = {}) {
     this.canvas = canvas;
     this.useStatic = options.staticTrack !== false;
-    this.three = new THREE.WebGLRenderer({
-      canvas, antialias: options.antialias === true, alpha: false, depth: true, stencil: false,
-      powerPreference: 'high-performance', preserveDrawingBuffer: options.preserve === true,
-    });
+    // An opaque canvas. three.js asks for a drawing buffer with alpha whatever it is told, and the
+    // game's draws leave alpha below 1 in places; a compositor that blends the page by it, such as
+    // Chromium on native Wayland, then shows the road and the sky black and tints the rest.
+    const attributes = {
+      alpha: false, antialias: options.antialias === true, depth: true, stencil: false,
+      premultipliedAlpha: true, powerPreference: 'high-performance', preserveDrawingBuffer: options.preserve === true,
+    };
+    this.three = new THREE.WebGLRenderer({ canvas, context: canvas.getContext('webgl2', attributes) || undefined, ...attributes });
     this.three.autoClear = false;
     this.three.sortObjects = false;
     this.three.setPixelRatio(1);

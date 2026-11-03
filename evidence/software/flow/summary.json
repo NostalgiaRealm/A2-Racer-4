@@ -139,8 +139,8 @@
     427,
     200
    ],
-   "ticks": 38346,
-   "verts": 5348
+   "ticks": 38354,
+   "verts": 5320
   }
  },
  "RESOLUTION 0: quit by Esc and J returns to the menu": {
@@ -181,7 +181,7 @@
     720
    ],
    "ticks": 42628,
-   "verts": 5823
+   "verts": 5809
   }
  },
  "no console errors": {

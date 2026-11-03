@@ -193,6 +193,14 @@ By state only. Nobody has listened to the port. From one-off scripts when the fi
 
 What is left from frame to frame is the game rebuilding the shadow on the next tick, as the original does. Headless Chromium presents nearly in step with the 60 Hz tick, at alpha 0.94 to 0.98, which hid the slide. A real display at 60 Hz drifts against the tick, and one above 60 Hz always shows it. No real display was used. The original was not compared: it draws car and shadow from the same tick, which this now does too. check-flow and check-race-ui pass on the change.
 
+### Chromium on native Wayland
+
+Reported on 2026-11-04: black textures in Fedora's Chromium 156 on KDE Plasma (Wayland). Reproduced with that binary, a throwaway profile and the RX 6700 XT: in a window on native Wayland the road, the ground and the sky were black and the colours shifted, with default flags and with ANGLE on Vulkan alike. Headless, and in a window through XWayland, the same binary drew correctly. `evidence/wayland/`.
+
+Cause: three.js r186 creates its WebGL context with an alpha channel whatever it is asked, and the game's draws leave alpha below 1, the road at 0. Read back from the drawing buffer the pixels were the same on both paths; the compositor of a native Wayland window blends the canvas by that alpha, XWayland does not. Since 1.1.4 `D3DRenderer` creates the context itself with `alpha: false` and hands it to three.js. After the change: no black on native Wayland, and check-flow, check-race-ui and check-software pass.
+
+Left: on native Wayland Chromium converts all page colours for the display, plain HTML the same as WebGL (red 255,0,0 shows as 212,0,0, grey unchanged), so its screenshots look warmer. That is the browser's colour management for the screen, not the game.
+
 ### The wheels
 
 `tools/check-wheels.mjs`, `evidence/wheels/`. Each car's four wheels have their own world matrix, which turns 63 degrees per tick on average with the bot on Amsterdam. Per presented frame, at a 144 Hz stand-in for 15 s, the check reads the matrices drawn for every pair turning more than 20 degrees in a tick and measures their rows against the latest tick's: 1 is the wheel at its size and shape.

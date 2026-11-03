@@ -2,7 +2,7 @@
 
 **Play it: <https://games.nostalgiarealm.com/a2racer4/>**
 
-Version 1.1.3. [Changelog](CHANGELOG.md), [release notes](docs/releases/1.1.3.md). Downloads: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4/releases/latest), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4/-/releases). Repositories: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4).
+Version 1.1.4. [Changelog](CHANGELOG.md), [release notes](docs/releases/1.1.4.md). Downloads: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4/releases/latest), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4/-/releases). Repositories: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4).
 
 A port of the Dutch racing game from 2000 to WebGL and Three.js, built from the original game files. The race itself is the original code: `spel.dat` is recompiled from x86 to WebAssembly, so its physics, AI, rules and HUD logic run as shipped. The menu is rewritten by hand from the original forms and code. All artwork, music, speech and text are the originals, in Dutch.
 

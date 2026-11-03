@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.4 — 2026-11-04
+
+No more black road and sky in Chromium on native Wayland. [Release notes](docs/releases/1.1.4.md).
+
+### Fixed
+
+- The game's canvas is now opaque. three.js gave it an alpha channel and the game's draws leave alpha below 1, which a native Wayland compositor shows as see-through: black road, ground and sky, and shifted colours. Windows, XWayland and headless browsers ignored it.
+
 ## 1.1.3 — 2026-11-03
 
 The wheels no longer pulse. [Release notes](docs/releases/1.1.3.md).

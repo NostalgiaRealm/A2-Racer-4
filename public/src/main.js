@@ -29689,15 +29689,16 @@ var D3DRenderer = class {
   constructor(canvas, options = {}) {
     this.canvas = canvas;
     this.useStatic = options.staticTrack !== false;
-    this.three = new WebGLRenderer({
-      canvas,
-      antialias: options.antialias === true,
+    const attributes = {
       alpha: false,
+      antialias: options.antialias === true,
       depth: true,
       stencil: false,
+      premultipliedAlpha: true,
       powerPreference: "high-performance",
       preserveDrawingBuffer: options.preserve === true
-    });
+    };
+    this.three = new WebGLRenderer({ canvas, context: canvas.getContext("webgl2", attributes) || void 0, ...attributes });
     this.three.autoClear = false;
     this.three.sortObjects = false;
     this.three.setPixelRatio(1);
