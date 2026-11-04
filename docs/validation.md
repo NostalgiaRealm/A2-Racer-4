@@ -193,6 +193,20 @@ By state only. Nobody has listened to the port. From one-off scripts when the fi
 
 What is left from frame to frame is the game rebuilding the shadow on the next tick, as the original does. Headless Chromium presents nearly in step with the 60 Hz tick, at alpha 0.94 to 0.98, which hid the slide. A real display at 60 Hz drifts against the tick, and one above 60 Hz always shows it. No real display was used. The original was not compared: it draws car and shadow from the same tick, which this now does too. check-flow and check-race-ui pass on the change.
 
+### The HUD under spray
+
+Reported on 2026-11-04: in a river on etappe 7, in a dense water spray, the HUD vanished for a moment. Each spray particle is drawn with its own world matrix, and the renderer had 1,024 rows for them per tick. The HUD's 87 draws come after the last particle in every tick with particles (472 of 472 measured on etappe 7), so from about 940 rows on they all shared row 1023, held the last particle's matrix and landed off screen. The game makes up to 100 spray systems of 9 or 29 particles each at 60 ticks, so a dense spray goes well past 1,000. The bot on its route peaked at 689 rows and never showed it.
+
+`tools/check-hud-spray.mjs` takes rows at the start of each tick as a spray would and samples the HUD's SCHADE box in every frame, `evidence/hud/`:
+
+| Extra rows | 1.1.4 | 1.1.5, 4,096 rows |
+|---:|---:|---:|
+| 0 | 240 of 240 frames | 240 of 240 |
+| 900 | 0 of 240 | 240 of 240 |
+| 3,000 | not run | 240 of 240 |
+
+A real spray as dense as the owner's was not driven in a check: the bot reached the river on etappe 7 with up to 80 particle draws. check-flow, check-race-ui and check-software pass on the change.
+
 ### Chromium on native Wayland
 
 Reported on 2026-11-04: black textures in Fedora's Chromium 156 on KDE Plasma (Wayland). Reproduced with that binary, a throwaway profile and the RX 6700 XT: in a window on native Wayland the road, the ground and the sky were black and the colours shifted, with default flags and with ANGLE on Vulkan alike. Headless, and in a window through XWayland, the same binary drew correctly. `evidence/wayland/`.

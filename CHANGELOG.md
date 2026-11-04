@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.1.5 — 2026-11-04
+
+The HUD no longer vanishes in a dense mud or water spray. [Release notes](docs/releases/1.1.5.md).
+
+### Fixed
+
+- Each spray particle takes a world-matrix row in the renderer, and there were 1,024 per tick. A dense spray used them up before the HUD, whose draws then all took the last row and landed off screen. Now 4,096, more than the game's spray can take.
+
+### Added
+
+- `tools/check-hud-spray.mjs`: the HUD in every frame with rows taken as a dense spray would.
+
 ## 1.1.4 — 2026-11-04
 
 No more black road and sky in Chromium on native Wayland. [Release notes](docs/releases/1.1.4.md).

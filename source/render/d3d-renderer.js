@@ -17,7 +17,10 @@ const STATIC_VERTS = 240000;
 const MAX_VERTS = DYNAMIC_VERTS + STATIC_VERTS;
 const STATIC_MIN = 512;
 const MAX_INDICES = 600000;
-const MAX_MATRICES = 1024;
+// World matrices per tick. Each mud or water particle has its own, and a dense spray takes
+// well over 1,000 of them before the HUD draws its 87: those then shared the last row and
+// the HUD vanished. 12 bits of aInfo.
+const MAX_MATRICES = 4096;
 const MAX_DYNAMIC_FLOATS = 200000;
 const NO_TEXTURE = 0xFFFF;
 const MAX_ARRAYS = 6;
@@ -68,8 +71,8 @@ flat out uint vTex;
 flat out uint vLayer;
 const float BYTE = 1.0 / 255.0;
 void main() {
-  uint matrix = aInfo & 0x3FFu;
-  bool screen = (aInfo & 0x400u) != 0u;
+  uint matrix = aInfo & 0xFFFu;
+  bool screen = (aInfo & 0x1000u) != 0u;
   uint tex = aInfo >> 16;
   vTex = tex == 0xFFFFu ? 7u : tex >> 12;
   vLayer = tex & 0xFFFu;
@@ -856,7 +859,7 @@ export class D3DRenderer {
     const f = this.capturing;
     const base = f.vertCount;
     if (base + count > DYNAMIC_VERTS) return -1;
-    const info = (this.texInfo(texture) << 16) | world | (vtype === 3 ? 0x400 : 0);
+    const info = (this.texInfo(texture) << 16) | world | (vtype === 3 ? 0x1000 : 0);
     const u32 = this.u32;
     const p = verts >> 2;
     if (vtype === 1) {

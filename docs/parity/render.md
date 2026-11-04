@@ -237,6 +237,7 @@ The original has no such thing, so nothing here can be compared with it. In `doc
 |---|---|---|---|---|
 | World rows blended, cut above 30 units | none | yes (host) | not verified | `blendPalette`, `endFrame` |
 | Camera blended through turns, cut when the eye jumps above 30 units | `FUN_004b3a60`, row 3 is `-dot(axis, eye)` | yes (host) | fix check: 28 s at a 144 Hz stand-in, 4031 presents, 0 unblended; 60 Hz, 1680, 0; camera switches of 85 and 62 units cut | `eyeAxis`, `blendPalette` |
+| World matrices per tick: 4,096 | none | yes (host) | checked on Amsterdam: check-hud-spray, etappe 7 | The HUD stays with 3,000 extra rows taken; with 1,024 rows it vanished from about 940. `MAX_MATRICES`, 12 bits of `aInfo` |
 | Opaque canvas: no alpha in the drawing buffer | none | yes (host) | fix check: Chromium 156 on native Wayland, black road and sky before, none after | `D3DRenderer` constructor creates the WebGL2 context with `alpha: false` |
 | Wheels keep their size and shape between ticks | none | yes (host) | checked on Amsterdam: check-wheels | At a 144 Hz stand-in, 26,338 wheel matrices drawn between ticks: shortest row 0.658 of its length in 1.1.2, 1.000 now. `SPIN_COS`, `turnCos` in `source/render/d3d-renderer.js` |
 | The player's shadow moves with its car between ticks | `FUN_00443770` copies the car's pose at `0x443ab8` | yes (host) | checked on Amsterdam: check-shadow | At a 144 Hz stand-in, within one tick the shadow moved in the car's frame by 2.87 units on average and 3.67 at most in 1.1.1, 0 now. `hook!playerShadow`, `blendPalette` |

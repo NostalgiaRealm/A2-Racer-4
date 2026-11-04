@@ -87,7 +87,7 @@
    "TRACKTIME": "603433",
    "LAP_1_TIME": "307617",
    "LAP_2_TIME": "295816",
-   "seconds": 75
+   "seconds": 74
   }
  },
  "RESOLUTION 1: the flitser flashes the palette and it comes back": {
@@ -139,7 +139,7 @@
     427,
     200
    ],
-   "ticks": 38354,
+   "ticks": 38355,
    "verts": 5320
   }
  },
@@ -180,8 +180,8 @@
     1280,
     720
    ],
-   "ticks": 42628,
-   "verts": 5809
+   "ticks": 42637,
+   "verts": 5823
   }
  },
  "no console errors": {
