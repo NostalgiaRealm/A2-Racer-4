@@ -825,9 +825,9 @@ Rank portraits differ by the opponents' order, which is not the same run. Remain
 | World matrix rows | Blended | Pair missing, or translation moved more than 30 units (`TELEPORT_DIST2`). A draw that shows the latest tick has no pair |
 | Pairing of a mesh drawn more than once | By draw order; since 1.1.6, for a mesh whose draws moved, each draw with the nearest draw of the tick before, closest pairs first (`pairMoving`) | Car models and the car lights share meshes, and the order shifts when one enters or leaves the view or the alpha queue sorts differently. Paired by order, a tail light was blended from another light or taken for a teleport and drawn a tick ahead of its car: it flickered |
 | World matrices that turn more than 20 degrees in a tick: wheels at speed | Position blended, rotation of the latest tick (`SPIN_COS`, since 1.1.3) | As above. Each car's four wheels have their own matrix and turn about 60 degrees a tick at speed; blended element by element they shrank to 66% and skewed between ticks |
-| Moving vertices of `drawPrimitive`: skid strips, flag | Blended | Vertex count changed, or first vertex moved more than 30 units |
+| Moving vertices of `drawPrimitive`: skid strips, flag | Blended | Vertex count changed, or first vertex moved more than 30 units. Since 1.1.7 draws of one mesh with the same vertex count pair by the nearest centre (`pairMovingVerts`), not by draw order |
 | The player's shadow (`FUN_00443770`) | Carried with its car: the latest tick's polygons, from the car's pose of that tick to its blended pose | The car moved more than 30 units in the tick |
-| Blob shadows: 4-vertex `drawIndexed` with `ZBIAS` | Blended with their cars | As above |
+| Blob shadows: 4-vertex `drawIndexed` with `ZBIAS` | Blended with their cars, each with the nearest shadow of the tick before (1.1.7) | As above. One mesh rewritten per car: by draw order a shadow was paired with another car's when a car came into range, and drawn a tick ahead of its car |
 | Camera view matrix | Blended, also while turning | Eye moved more than 30 units in one tick, as on a camera switch. `eyeAxis` recovers the eye from the view; the test does not read row 3 |
 | Projection | Latest tick | Always |
 | `gfx_wolk`, `gfx_bwlk` | Latest tick | Slots are re-sorted every frame, so nothing can be paired. `SMOKE_VERTS`, `BWLK_VERTS` |

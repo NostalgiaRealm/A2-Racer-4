@@ -237,6 +237,7 @@ The original has no such thing, so nothing here can be compared with it. In `doc
 |---|---|---|---|---|
 | World rows blended, cut above 30 units | none | yes (host) | not verified | `blendPalette`, `endFrame` |
 | Camera blended through turns, cut when the eye jumps above 30 units | `FUN_004b3a60`, row 3 is `-dot(axis, eye)` | yes (host) | fix check: 28 s at a 144 Hz stand-in, 4031 presents, 0 unblended; 60 Hz, 1680, 0; camera switches of 85 and 62 units cut | `eyeAxis`, `blendPalette` |
+| Moving vertices of a shared mesh pair by nearest centre between ticks | none | yes (host) | checked on all 10 etappes: check-pairing | Blob shadows paired wrongly in 12 s: 44, 12, 17 on etappes 0, 2, 7 in 1.1.6; 0 on every etappe now. `pairMovingVerts` |
 | Draws of a shared mesh pair by nearest position between ticks | none | yes (host) | checked on Amsterdam: check-lights, check-tail-glow, etappe 7 | Lights paired with another light: 17 and 278 in 1.1.5 on etappes 0 and 7, 0 now. Glow off its interpolated place by more than 0.1 units: 28 and 72 samples in 20 s at a 165 Hz stand-in, 2 and 8 now. `pairMoving` |
 | World matrices per tick: 4,096 | none | yes (host) | checked on Amsterdam: check-hud-spray, etappe 7 | The HUD stays with 3,000 extra rows taken; with 1,024 rows it vanished from about 940. `MAX_MATRICES`, 12 bits of `aInfo` |
 | Opaque canvas: no alpha in the drawing buffer | none | yes (host) | fix check: Chromium 156 on native Wayland, black road and sky before, none after | `D3DRenderer` constructor creates the WebGL2 context with `alpha: false` |

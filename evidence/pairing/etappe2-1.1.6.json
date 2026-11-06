@@ -1,0 +1,21 @@
+{
+ "etappe": 2,
+ "errors": [],
+ "ticks": 720,
+ "draws": 108582,
+ "swappedBlended": 0,
+ "swappedTeleport": 12,
+ "meshes": [
+  {
+   "kind": "verts",
+   "mesh": "ff56710",
+   "call": "drawIndexed",
+   "verts": 4,
+   "blend": "5/6",
+   "zbias": 1,
+   "draws": 2624,
+   "swappedBlended": 0,
+   "swappedTeleport": 12
+  }
+ ]
+}

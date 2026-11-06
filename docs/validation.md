@@ -193,6 +193,17 @@ By state only. Nobody has listened to the port. From one-off scripts when the fi
 
 What is left from frame to frame is the game rebuilding the shadow on the next tick, as the original does. Headless Chromium presents nearly in step with the 60 Hz tick, at alpha 0.94 to 0.98, which hid the slide. A real display at 60 Hz drifts against the tick, and one above 60 Hz always shows it. No real display was used. The original was not compared: it draws car and shadow from the same tick, which this now does too. check-flow and check-race-ui pass on the change.
 
+### Pairing between ticks, all draws
+
+`tools/check-pairing.mjs`, `evidence/pairing/`. After the tail lights, every draw was checked for the same fault: per tick, the draw of the tick before that the renderer blends each world matrix and each set of moving vertices from, against the nearest draw of the same mesh that no other draw took. Lights switched off in both ticks are left out. 12 s of the bot per etappe, 2026-11-06.
+
+| | 1.1.6 | 1.1.7 |
+|---|---|---|
+| Etappe 0, 2, 7 | 44, 12, 17 wrong, all blob shadows of other cars (one 4-vertex mesh rewritten per car, moving vertices) | 0, 0, 0 |
+| Etappes 1, 3, 4, 5, 6, 8, 9 | not run | 0 on each, 108,000 to 180,000 draws per etappe |
+
+A wrong shadow pair was beyond 30 units every time, so the shadow was drawn at the latest tick while its car was drawn between ticks. Since 1.1.7 moving vertices of one mesh pair by the nearest centre, as world matrices do since 1.1.6. `check-tail-glow` on etappe 7 still finds a few glow samples off by more than 0.1 units (10 of 3,316 in 15 s); with no wrong pairing left they have another cause, not traced. check-wheels, check-shadow, check-hud-spray, check-flow, check-race-ui and check-software pass on the change.
+
 ### The tail lights
 
 Reported on 2026-11-06: the player's tail lights flicker while driving. The game's state for them does not change: size, colour and texture were the same in all 600 ticks of 10 s on Amsterdam. All car lights are one 6-vertex mesh (about 22 draws per tick), and car models share meshes too. The renderer paired each draw with the tick before by mesh and draw order, and that order shifts when a car or a light enters or leaves the view, or when the alpha queue sorts differently. Then a tail light was paired with a light far away, taken for a teleport and drawn at the latest tick while its car was drawn between ticks: it jumped up to a tick of motion, about 3 units, against the car.

@@ -262,6 +262,7 @@ class Frame {
     this.prevRow = new Int32Array(MAX_MATRICES);
     this.dynFloats = new Float32Array(MAX_DYNAMIC_FLOATS);
     this.dynamic = new Map();     // draw key -> { offset, count, base }
+    this.dynPair = new Map();     // draw key -> its entry in the tick before, by pairMovingVerts
     this.shadowPose = new Float32Array(16);   // the player's car, when its shadow was built
     this.shadowParts = [];        // { offset, count, base } of the player's shadow polygons
     this.view = new Float32Array(16);
@@ -279,6 +280,7 @@ class Frame {
     this.matKeys.clear();
     this.meshRows.clear();
     this.dynamic.clear();
+    this.dynPair.clear();
     this.dynUsed = 0;
     this.hasShadowPose = false;
     this.shadowParts.length = 0;
@@ -954,6 +956,7 @@ export class D3DRenderer {
         if (r !== undefined) rows[row] = r;
       }
       this.pairMoving(f, a);
+      this.pairMovingVerts(f, a);
       const old = this.frameA;
       this.frameA = this.frameB;
       this.frameB = f;
@@ -1387,6 +1390,79 @@ export class D3DRenderer {
   }
 
 
+  /**
+   * The same for moving vertices: the blob shadows of the other cars are one 4-vertex mesh rewritten
+   * per car (FUN_00443ef0), so by draw order a shadow was paired with another car's and drawn a tick
+   * ahead of its car. Draws of one mesh with the same vertex count pair by the nearest centre.
+   */
+  pairMovingVerts(f, a) {
+    const groupsB = new Map();
+    const groupsA = new Map();
+    for (const [key, e] of f.dynamic) {
+      const v = Math.floor(key / 64);
+      let g = groupsB.get(v);
+      if (!g) groupsB.set(v, g = []);
+      g.push(key);
+    }
+    for (const [key, e] of a.dynamic) {
+      const v = Math.floor(key / 64);
+      let g = groupsA.get(v);
+      if (!g) groupsA.set(v, g = []);
+      g.push(e);
+    }
+    const centre = (floats, e) => {
+      let x = 0, y = 0, z = 0;
+      for (let k = 0, o = e.offset; k < e.count; k++, o += 3) {
+        x += floats[o];
+        y += floats[o + 1];
+        z += floats[o + 2];
+      }
+      return [x / e.count, y / e.count, z / e.count];
+    };
+    for (const [v, keys] of groupsB) {
+      const listA = groupsA.get(v);
+      if (!listA) continue;
+      if (keys.length === 1 && listA.length === 1) {
+        f.dynPair.set(keys[0], listA[0]);
+        continue;
+      }
+      if (keys.length * listA.length > 40000) {
+        for (const key of keys) {
+          const p = a.dynamic.get(key);
+          if (p) f.dynPair.set(key, p);
+        }
+        continue;
+      }
+      const cb = keys.map((key) => centre(f.dynFloats, f.dynamic.get(key)));
+      const ca = listA.map((e) => centre(a.dynFloats, e));
+      const pairs = [];
+      for (let i = 0; i < keys.length; i++) {
+        const count = f.dynamic.get(keys[i]).count;
+        for (let j = 0; j < listA.length; j++) {
+          if (listA[j].count !== count) continue;
+          const dx = cb[i][0] - ca[j][0];
+          const dy = cb[i][1] - ca[j][1];
+          const dz = cb[i][2] - ca[j][2];
+          const d = dx * dx + dy * dy + dz * dz;
+          if (d <= TELEPORT_DIST2) pairs.push(d, i, j);
+        }
+      }
+      const order = [];
+      for (let n = 0; n < pairs.length; n += 3) order.push(n);
+      order.sort((x, y) => pairs[x] - pairs[y]);
+      const usedA = new Uint8Array(listA.length);
+      const usedB = new Uint8Array(keys.length);
+      for (const n of order) {
+        const i = pairs[n + 1];
+        const j = pairs[n + 2];
+        if (usedB[i] || usedA[j]) continue;
+        usedB[i] = 1;
+        usedA[j] = 1;
+        f.dynPair.set(keys[i], listA[j]);
+      }
+    }
+  }
+
   /** Writes the palette blended between the last two ticks. Scene matrix rows only. */
   blendPalette(alpha) {
     const b = this.frameB;
@@ -1427,7 +1503,7 @@ export class D3DRenderer {
       const bd = b.dynFloats;
       const ad = a.dynFloats;
       for (const [key, d] of b.dynamic) {
-        const p = a.dynamic.get(key);
+        const p = b.dynPair.get(key);
         if (!p || p.count !== d.count) continue;
         let bo = d.offset;
         let ao = p.offset;

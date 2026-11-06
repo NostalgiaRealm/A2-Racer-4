@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.1.7 — 2026-11-06
+
+The shadows under the other cars no longer jump. [Release notes](docs/releases/1.1.7.md).
+
+### Fixed
+
+- The blob shadows of the other cars are one shape rewritten for each car. Between ticks the renderer matched each with the shadow of the tick before by draw order, which shifts when a car comes within range, so a shadow was matched with another car's and drawn a tick ahead of its car: the same fault as the tail lights in 1.1.6. They now pair with the nearest shadow.
+
+### Added
+
+- `tools/check-pairing.mjs`: every draw's pairing between ticks against the nearest free one, per mesh.
+
 ## 1.1.6 — 2026-11-06
 
 The tail lights no longer flicker. [Release notes](docs/releases/1.1.6.md).
