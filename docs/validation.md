@@ -193,6 +193,17 @@ By state only. Nobody has listened to the port. From one-off scripts when the fi
 
 What is left from frame to frame is the game rebuilding the shadow on the next tick, as the original does. Headless Chromium presents nearly in step with the 60 Hz tick, at alpha 0.94 to 0.98, which hid the slide. A real display at 60 Hz drifts against the tick, and one above 60 Hz always shows it. No real display was used. The original was not compared: it draws car and shadow from the same tick, which this now does too. check-flow and check-race-ui pass on the change.
 
+### The tail lights
+
+Reported on 2026-11-06: the player's tail lights flicker while driving. The game's state for them does not change: size, colour and texture were the same in all 600 ticks of 10 s on Amsterdam. All car lights are one 6-vertex mesh (about 22 draws per tick), and car models share meshes too. The renderer paired each draw with the tick before by mesh and draw order, and that order shifts when a car or a light enters or leaves the view, or when the alpha queue sorts differently. Then a tail light was paired with a light far away, taken for a teleport and drawn at the latest tick while its car was drawn between ticks: it jumped up to a tick of motion, about 3 units, against the car.
+
+| Check | 1.1.5 | 1.1.6 |
+|---|---:|---:|
+| `tools/check-lights.mjs`, 8 s: lights paired with another light, etappe 0 / 7 | 17 / 278 | 0 / 0 |
+| `tools/check-tail-glow.mjs`, 20 s at a 165 Hz stand-in: glow samples more than 0.1 units off where its own two ticks put it, etappe 0 / 7 | 28 / 72 of 3,308 / 4,142 | 2 / 8 of 3,310 / 4,141 |
+
+The few left were not traced. check-wheels, check-shadow, check-hud-spray, check-flow, check-race-ui and check-software pass on the change. Tick time at 1280x720 on this machine: 1.27 ms against 1.22. No real display above 60 Hz was used. `evidence/lights/`.
+
 ### The HUD under spray
 
 Reported on 2026-11-04: in a river on etappe 7, in a dense water spray, the HUD vanished for a moment. Each spray particle is drawn with its own world matrix, and the renderer had 1,024 rows for them per tick. The HUD's 87 draws come after the last particle in every tick with particles (472 of 472 measured on etappe 7), so from about 940 rows on they all shared row 1023, held the last particle's matrix and landed off screen. The game makes up to 100 spray systems of 9 or 29 particles each at 60 ticks, so a dense spray goes well past 1,000. The bot on its route peaked at 689 rows and never showed it.

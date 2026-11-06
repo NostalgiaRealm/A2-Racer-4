@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.1.6 — 2026-11-06
+
+The tail lights no longer flicker. [Release notes](docs/releases/1.1.6.md).
+
+### Fixed
+
+- Car lights, and cars of one model, share a mesh. Between ticks the renderer paired each draw with the same draw of the tick before by order, which shifts when a car or light comes into view. A tail light was then blended from another light, or drawn a tick ahead of its car. A shared mesh whose draws move now pairs each draw with the nearest one of the tick before.
+
+### Added
+
+- `tools/check-lights.mjs` and `tools/check-tail-glow.mjs`: the pairing of the lights, and the glow against its car per presented frame.
+
 ## 1.1.5 — 2026-11-04
 
 The HUD no longer vanishes in a dense mud or water spray. [Release notes](docs/releases/1.1.5.md).

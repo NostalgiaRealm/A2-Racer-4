@@ -2,7 +2,7 @@
 
 **Play it: <https://games.nostalgiarealm.com/a2racer4/>**
 
-Version 1.1.5. [Changelog](CHANGELOG.md), [release notes](docs/releases/1.1.5.md). Downloads: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4/releases/latest), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4/-/releases). Repositories: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4).
+Version 1.1.6. [Changelog](CHANGELOG.md), [release notes](docs/releases/1.1.6.md). Downloads: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4/releases/latest), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4/-/releases). Repositories: [GitHub](https://github.com/NostalgiaRealm/A2-Racer-4), [GitLab](https://gitlab.com/Nostalgia_Realm/A2-Racer-4).
 
 A port of the Dutch racing game from 2000 to WebGL and Three.js, built from the original game files. The race itself is the original code: `spel.dat` is recompiled from x86 to WebAssembly, so its physics, AI, rules and HUD logic run as shipped. The menu is rewritten by hand from the original forms and code. All artwork, music, speech and text are the originals, in Dutch.
 
@@ -151,6 +151,8 @@ They do not start a server or bundle anything. Have `npm start` running in anoth
 | `node tools/check-shadow.mjs --hz 144 --out evidence/shadow/summary-144hz.json` | The player's shadow in its car's frame per presented frame, with the bot on Amsterdam. `--hz` stands in for a display rate | Yes |
 | `node tools/check-wheels.mjs --hz 144 --out evidence/wheels/summary-144hz.json` | The wheels' matrices as drawn between ticks, with the bot on Amsterdam: 1 is a wheel at its own size | Yes |
 | `node tools/check-hud-spray.mjs 900` | The HUD in every frame with 900 extra world-matrix rows taken per tick, as a dense spray does | Yes |
+| `node tools/check-lights.mjs --etappe 7` | How the renderer pairs the car lights between ticks: lights paired with another light | Yes |
+| `node tools/check-tail-glow.mjs 165 7 20` | The player's tail-light glow against its car per presented frame, at a 165 Hz stand-in | Yes |
 | `node tools/check-traffic.mjs --hz 60` | Traffic nose rise on the owner's method. Also `--hz 30` and `--whole-push`, one JSON line each; `evidence/traffic/nose-rise.jsonl` holds the four | No |
 | `node tools/run-bot.mjs` | A whole race in Node with opponents and traffic. Prints progress and what it writes to `game.ini` | No |
 | `node tools/build-race-lists.mjs` | Boots all 10 etappes with all 8 cars for 2 s, and all 10 at `RESOLUTION` 0 and 1, to list the files each race reads. Not a gameplay check | No |

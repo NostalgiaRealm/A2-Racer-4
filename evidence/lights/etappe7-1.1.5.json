@@ -1,0 +1,10 @@
+{
+ "etappe": 7,
+ "errors": [],
+ "lights": 21356,
+ "paired": 21330,
+ "unpaired": 26,
+ "swappedBlended": 0,
+ "swappedAsTeleport": 278,
+ "worstExtraDistance": 23449.98
+}

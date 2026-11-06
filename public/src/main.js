@@ -29659,6 +29659,7 @@ var Frame = class {
     this.matrices = new Float32Array(MAX_MATRICES * 16);
     this.matrices.set([1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1], 0);
     this.matKeys = /* @__PURE__ */ new Map();
+    this.meshRows = /* @__PURE__ */ new Map();
     this.prevRow = new Int32Array(MAX_MATRICES);
     this.dynFloats = new Float32Array(MAX_DYNAMIC_FLOATS);
     this.dynamic = /* @__PURE__ */ new Map();
@@ -29676,6 +29677,7 @@ var Frame = class {
     this.lastKey = -1;
     this.lastBatch = null;
     this.matKeys.clear();
+    this.meshRows.clear();
     this.dynamic.clear();
     this.dynUsed = 0;
     this.hasShadowPose = false;
@@ -30020,6 +30022,9 @@ var D3DRenderer = class {
         const occ = this.occ.get(verts) || 0;
         this.occ.set(verts, occ + 1);
         f.matKeys.set(verts * 64 + occ, k);
+        let rows = f.meshRows.get(verts);
+        if (!rows) f.meshRows.set(verts, rows = []);
+        rows.push(k);
       }
     }
     return this.currentWorld;
@@ -30298,6 +30303,7 @@ var D3DRenderer = class {
         const r = a.matKeys.get(key);
         if (r !== void 0) rows[row] = r;
       }
+      this.pairMoving(f, a);
       const old = this.frameA;
       this.frameA = this.frameB;
       this.frameB = f;
@@ -30712,6 +30718,54 @@ var D3DRenderer = class {
     three.clear(true, true, false);
     three.setViewport(area.x, this.viewH - area.y - area.h, area.w, area.h);
     three.render(this.screenPass.scene, this.camera);
+  }
+  /**
+   * The n-th draw of a mesh is not always the same object from one tick to the next. Cars of one
+   * model, and all car lights, share a mesh, and when one of them enters or leaves the view, or the
+   * game sorts its alpha-blended queue differently, the order shifts. Paired by order, a light or a
+   * car was then blended with another one, or taken for a teleport and drawn a tick ahead of the rest:
+   * the tail lights flickered against their car. A mesh drawn more than once whose draws moved pairs
+   * each draw with the nearest draw of the tick before instead, closest pairs first. Scenery that
+   * stands still keeps the pairing by order.
+   */
+  pairMoving(f, a) {
+    const rows = f.prevRow;
+    const bm = f.matrices;
+    const am = a.matrices;
+    const d2 = (o, q) => {
+      const dx = bm[o + 12] - am[q + 12];
+      const dy = bm[o + 13] - am[q + 13];
+      const dz = bm[o + 14] - am[q + 14];
+      return dx * dx + dy * dy + dz * dz;
+    };
+    for (const [verts, listB] of f.meshRows) {
+      const listA = a.meshRows.get(verts);
+      if (!listA || listB.length < 2 && listA.length < 2) continue;
+      let moved = listA.length !== listB.length;
+      for (let i = 0; !moved && i < listB.length; i++) moved = d2(listB[i] * 16, listA[i] * 16) > 1e-6;
+      if (!moved || listA.length * listB.length > 4e4) continue;
+      const pairs = [];
+      for (let i = 0; i < listB.length; i++) {
+        for (let j = 0; j < listA.length; j++) {
+          const d = d2(listB[i] * 16, listA[j] * 16);
+          if (d <= TELEPORT_DIST2) pairs.push(d, i, j);
+        }
+      }
+      const order = [];
+      for (let n = 0; n < pairs.length; n += 3) order.push(n);
+      order.sort((x, y) => pairs[x] - pairs[y]);
+      for (const row of listB) rows[row] = -1;
+      const usedA = new Uint8Array(listA.length);
+      const usedB = new Uint8Array(listB.length);
+      for (const n of order) {
+        const i = pairs[n + 1];
+        const j = pairs[n + 2];
+        if (usedB[i] || usedA[j]) continue;
+        usedB[i] = 1;
+        usedA[j] = 1;
+        rows[listB[i]] = listA[j];
+      }
+    }
   }
   /** Writes the palette blended between the last two ticks. Scene matrix rows only. */
   blendPalette(alpha) {

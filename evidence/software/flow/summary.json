@@ -87,7 +87,7 @@
    "TRACKTIME": "603433",
    "LAP_1_TIME": "307617",
    "LAP_2_TIME": "295816",
-   "seconds": 74
+   "seconds": 75
   }
  },
  "RESOLUTION 1: the flitser flashes the palette and it comes back": {
@@ -139,8 +139,8 @@
     427,
     200
    ],
-   "ticks": 38355,
-   "verts": 5320
+   "ticks": 38346,
+   "verts": 5348
   }
  },
  "RESOLUTION 0: quit by Esc and J returns to the menu": {
@@ -180,7 +180,7 @@
     1280,
     720
    ],
-   "ticks": 42637,
+   "ticks": 42636,
    "verts": 5823
   }
  },
