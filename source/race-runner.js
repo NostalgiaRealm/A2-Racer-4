@@ -65,16 +65,11 @@ export class RaceRunner {
     const page = document.documentElement;
     const cw = Math.max(1, Math.round(window.innerWidth * dpr));
     const ch = Math.max(1, Math.round(window.innerHeight * dpr));
-    // Portrait: the view and HUD take the top, the controls get the bottom. Elsewhere the
-    // view fills the screen. docs/intentional-differences.md. style.css keys on this one rule.
+    // The view fills the screen in every shape. Portrait only changes where the controls and the
+    // HUD's bottom groups go: docs/intentional-differences.md. style.css keys on this one rule.
     const portrait = ch > cw * 1.15;
     page.classList.toggle('race-portrait', portrait);
-    let area = { x: 0, y: 0, w: cw, h: ch };
-    if (portrait) {
-      const usesTouch = this.useTouch;
-      const h = usesTouch ? Math.min(Math.round(ch * 0.62), Math.round(cw * 1.2)) : Math.min(ch, Math.round(cw * 1.5));
-      area = { x: 0, y: 0, w: cw, h };
-    }
+    const area = { x: 0, y: 0, w: cw, h: ch };
     const cssW = area.w / dpr;
     const cssH = area.h / dpr;
     const grid = this.renderer.indexed ? this.renderer.modeGrid(area) : null;
@@ -85,13 +80,19 @@ export class RaceRunner {
     // CSS pixels per unit of the 640x480 canvas, hud-overlay.md section B: style.css places the
     // controls around the HUD's corner groups with it.
     let unit = 0.99 * Math.min(cssW / 640, cssH / 480);
-    page.style.setProperty('--panel-top', `${cssH}px`);
     if (this.host && this.host.hudLayout) {
       const hud = this.host.hudLayout;
       const safe = safeAreaInsets();
+      // Portrait with touch: the wheel and the action buttons take the bottom of the screen, so the
+      // Speedometer and the Communicator stand above them.
+      let bottom = safe.bottom;
+      if (this.useTouch && portrait && !this.resultScreen) {
+        const wheel = document.getElementById('touch-wheel').getBoundingClientRect();
+        if (wheel.width > 0) bottom = Math.max(bottom, window.innerHeight - wheel.top + 6);
+      }
       hud.setShape(area.w / area.h, {
         left: (safe.left * dpr) / area.w, right: (safe.right * dpr) / area.w,
-        top: (safe.top * dpr) / area.h, bottom: area.h === ch ? (safe.bottom * dpr) / area.h : 0,
+        top: (safe.top * dpr) / area.h, bottom: (bottom * dpr) / area.h,
       }, { w: cssW, h: cssH }, this.renderer.clipY);
       unit *= hud.scale || 1;
       // Touch in landscape: the wheel sits bottom left, so the Communicator moves right of it.
@@ -161,6 +162,7 @@ export class RaceRunner {
     const eight = resolution === 0 || resolution === 1;
     const art = document.getElementById('loading-art');
     art.src = `assets/loading/e${String(etappe).padStart(2, '0')}${eight ? (resolution === 0 ? '-lo' : '-8') : ''}.png`;
+    document.getElementById('loading').style.setProperty('--loading-art', `url("${new URL(art.src, document.baseURI).href}")`);
     document.getElementById('loading-stage').classList.toggle('pixels', eight);
     document.getElementById('loading-bar').removeAttribute('src');
     document.getElementById('loading').hidden = false;
@@ -266,6 +268,13 @@ export class RaceRunner {
           this.acc = 0;
           if (this.audio && !this.holdsSound()) this.audio.resume();
         }
+      },
+      // Enter puts the car back on the road, Esc opens the game's own quit prompt.
+      onReset: () => this.input && this.input.pulseVk(13),
+      onStop: () => {
+        if (!this.input) return;
+        this.dialogByPointer = true;
+        this.input.pulseVk(27);
       },
     });
     const togglePanel = () => {
@@ -434,6 +443,7 @@ export class RaceRunner {
     this.resultScreen = results;
     document.documentElement.classList.toggle('race-results', results);
     if (results && this.touch) this.touch.releaseAll();
+    this.layout();
     this.updateDialogKeys();
   }
 

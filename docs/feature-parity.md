@@ -266,8 +266,8 @@ Every row with Implemented `partial` or `no`: 125 rows, 75 partial and 50 no, ge
 | `5`, dashboard on/off | partial | checked on Amsterdam: check-race-ui | Keyboard and touch `Dashboard`. No pad button, on purpose: no free button is left. The check pressed the touch button: `0x712784` 0, 1, 0 |
 | `D`, overlay detail | partial | checked on Amsterdam: check-race-ui | Keyboard and touch `Detail`. No pad button, on purpose. The check pressed the touch button: `0x6fb924` 3, 0, 1 |
 | HUD clear of touch controls: game text | partial | not verified | Calculated: at 640x360 long texts run 8 to 37 CSS px under `Stop`. Clear at the other checked landscape sizes. Not among the check's rectangles |
-| HUD clear of touch controls: requestor | partial | not verified | Calculated: at 640x360 a corner of 11 by 26 CSS px under `Meer`, text clear. Not among the check's rectangles |
-| HUD clear of touch controls: `Meer` open | partial | not verified | The column widens, 5 columns at 640x360. The layout checks ran with it closed |
+| HUD clear of touch controls: requestor | partial | not verified | Since 1.2.0 only Terugkijken stands at the right edge. Not among the check's rectangles |
+| HUD clear of touch controls: `Meer` open | n/a | | `Meer` was removed in 1.2.0 |
 
 ### Audio: 3 partial, 1 no
 

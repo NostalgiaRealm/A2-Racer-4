@@ -56,15 +56,6 @@ export class TouchControls {
     this.bindWheel(this.wheel);
     for (const b of root.querySelectorAll('button[data-button]')) this.bindHold(b, Number(b.dataset.button));
     for (const b of root.querySelectorAll('button[data-vk]')) this.bindKey(b, Number(b.dataset.vk), b.dataset.dik ? Number(b.dataset.dik) : 0);
-    const cam = root.querySelector('#touch-camera');
-    this.bindPress(cam, (on) => {
-      const input = this.getInput();
-      if (on && input) input.pulseVk(input.nextCameraKey());
-    });
-    this.more = root.querySelector('#touch-more');
-    this.bindPress(this.more, (on) => {
-      if (on) this.showMore(!root.classList.contains('more'));
-    });
     this.wheel.addEventListener('contextmenu', (e) => e.preventDefault());
   }
 
@@ -202,17 +193,8 @@ export class TouchControls {
     if (was && (Math.abs(was.left - r.left) > 1 || Math.abs(was.top - r.top) > 1 || Math.abs(was.width - r.width) > 1)) this.releaseAll();
   }
 
-  /** The less used buttons, in landscape behind Meer. Portrait always shows them: style.css. */
-  showMore(open) {
-    this.root.classList.toggle('more', open);
-    this.more.setAttribute('aria-expanded', String(open));
-  }
-
   setVisible(v) {
     this.root.hidden = !v;
-    if (!v) {
-      this.releaseAll();
-      this.showMore(false);
-    }
+    if (!v) this.releaseAll();
   }
 }

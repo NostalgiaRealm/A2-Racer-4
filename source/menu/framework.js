@@ -1132,6 +1132,20 @@ export class MenuRuntime {
       this.screen.draw(b);
       g.imageSmoothingEnabled = true;
       g.imageSmoothingQuality = 'high';
+      // Around the form the screen is not left black: the form's own picture, reduced to a few
+      // pixels and spread over the whole canvas, dimmed. docs/intentional-differences.md.
+      if (!this.fill) {
+        this.fill = document.createElement('canvas');
+        this.fill.width = 32;
+        this.fill.height = 24;
+        this.fillG = this.fill.getContext('2d');
+      }
+      this.fillG.clearRect(0, 0, 32, 24);
+      this.fillG.drawImage(this.buffer, 0, 0, 32, 24);
+      // Two pixels in from each edge, so the smoothing has neighbours at the canvas edge.
+      g.drawImage(this.fill, 2, 2, 28, 20, 0, 0, cw, ch);
+      g.fillStyle = 'rgba(0,0,0,.45)';
+      g.fillRect(0, 0, cw, ch);
       for (const z of this.layout.zones) {
         g.drawImage(this.buffer, z.sx * s, z.sy * s, z.sw * s, z.sh * s, z.dx, z.dy, z.dw, z.dh);
       }

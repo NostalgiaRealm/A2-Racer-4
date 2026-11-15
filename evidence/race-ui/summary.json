@@ -14,7 +14,7 @@
  "touch: wheel up is gas, car accelerates": {
   "ok": true,
   "detail": {
-   "speed": 17.276962280273438,
+   "speed": 17.315200805664062,
    "gas": 100
   }
  },
@@ -40,16 +40,16 @@
  "touch: wheel down brakes, then reverses": {
   "ok": true,
   "detail": {
-   "fastestBackward": -14.650912284851074,
+   "fastestBackward": -14.40518569946289,
    "brake": 100
   }
  },
- "touch: Reset places the car back, with the wheel held and still held after": {
+ "touch: the gear holds Reset and Stop, Reset places the car back and closes the panel": {
   "ok": true,
   "detail": {
    "stamp": [
     0,
-    17183
+    16916
    ]
   }
  },
@@ -72,34 +72,13 @@
    ]
   }
  },
- "touch: Camera goes through 2, 4, 1, and on from what a key chose": {
+ "touch: Roepen sends T, the removed buttons are not on the page": {
   "ok": true,
   "detail": {
-   "views": [
-    0,
-    3,
-    5
-   ],
-   "fromKey": 3,
-   "afterKey": 5
-  }
- },
- "touch: Meer shows Roepen, Dashboard and Detail, which work": {
-  "ok": true,
-  "detail": {
-   "dashboard": [
-    0,
-    1,
-    0
-   ],
-   "detail": [
-    3,
-    0,
-    1
-   ],
    "tauntKeys": [
     20
-   ]
+   ],
+   "gone": []
   }
  },
  "touch: a right mouse button presses no on-screen control": {
@@ -112,8 +91,8 @@
   "ok": true,
   "detail": {
    "clock": [
-    22.08333333333336,
-    22.08333333333336
+    19.55000000000017,
+    19.55000000000017
    ],
    "audio": "suspended"
   }
@@ -235,7 +214,7 @@
   "detail": {
    "effective": {
     "width": 720,
-    "height": 864,
+    "height": 1600,
     "limited": false
    },
    "wheel": {
@@ -410,7 +389,7 @@
  "pause: the picture stays still": {
   "ok": true,
   "detail": {
-   "frames": 98,
+   "frames": 97,
    "distinct": [
     1
    ]
@@ -431,7 +410,7 @@
    "pause": 0,
    "trackTime": [
     433,
-    917
+    900
    ]
   }
  },

@@ -74,7 +74,7 @@ Path: `/home/rick/Documents/Rebuilds/RedCat Superkarts/`. Read at git head `5bfe
 |---|---|---|
 | Output goes to `GameInput.touch`, then a virtual joystick on DEVICE 2 | `TouchControls.push`, `source/input/touch.js`; `GameInput.updateJoystick`, `source/input/keyboard.js` | No Superkarts constants. Steering ±100 by the game's own code |
 | `throttle > 0` becomes full gas, `brake > 0` becomes full brake | `TouchControls.push` | The game's ramp shapes it. No partial throttle, as DEVICE 2 has none |
-| `Handrem` uses the pedal art; `Claxon`, `Turbo`, and the column `Camera`, `Terugkijken`, `Reset`, `Pauze`, `Stop`, `Meer`, `Roepen`, `Dashboard`, `Detail` are text buttons | `source/index.html`, `source/style.css` | A2 has a horn and more actions |
+| `Handrem` uses the pedal art; `Claxon`, `Turbo`, `Roepen` and `Terugkijken` are text buttons; Reset and Stop are in the gear's panel | `source/index.html`, `source/style.css` | A2 has a horn and more actions |
 | Wheel, buttons and HUD share the screen | `hud.leftShift`, `actions-lifted`, `RaceRunner.layout`, `source/race-runner.js` | The Communicator moves right of the wheel in landscape; action buttons lift above the Speedometer when they would cover it |
 | Portrait: view on top, controls below | `RaceRunner.layout`; `:root.race-portrait`, `source/style.css` | Not in the reference, where the race view stays full screen. One rule, height above 1.15 times width, replaces the reference's `orientation` media query |
 

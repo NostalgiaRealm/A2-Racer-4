@@ -136,8 +136,11 @@ const speed = await page.evaluate(() => {
 await shot('07-race');
 await client.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
 record('wheel drives the car', speed > 5, { speed });
-await page.locator('#touch-quit').tap();
-await page.waitForTimeout(500);
+// Stop is in the gear's panel since 1.2.0.
+await page.locator('#race-settings').tap();
+await page.waitForTimeout(300);
+await page.locator('#set-stop').tap();
+await page.waitForTimeout(800);
 await shot('08-quit');
 await page.locator('#dlg-yes').tap();
 await waitForm('TfrmQuickRace', 15000);

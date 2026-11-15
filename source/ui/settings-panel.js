@@ -10,7 +10,7 @@ export const RESOLUTIONS = [
 const TOUCH_MODES = [['auto', 'Automatisch'], ['on', 'Aan'], ['off', 'Uit']];
 
 export class SettingsPanel {
-  constructor(root, settings, { onOpenChange }) {
+  constructor(root, settings, { onOpenChange, onReset, onStop }) {
     this.root = root;
     this.settings = settings;
     this.onOpenChange = onOpenChange;
@@ -25,6 +25,7 @@ export class SettingsPanel {
       <label>Deadzone gamepad <input id="set-dead" type="range" min="0" max="50" step="1"><output id="set-dead-out"></output></label>
       <label class="check"><input id="set-fps" type="checkbox"> Beeldjes per seconde tonen</label>
       <label class="check"><input id="set-full" type="checkbox"> Volledig scherm</label>
+      <div id="set-race"><button id="set-reset">Auto terugzetten</button><button id="set-stop">Race stoppen</button></div>
       <button id="set-close">Sluiten</button>`;
     const $ = (id) => root.querySelector('#' + id);
     this.$ = $;
@@ -39,6 +40,15 @@ export class SettingsPanel {
     const page = document.documentElement;
     if (!page.requestFullscreen && !page.webkitRequestFullscreen) $('set-full').closest('label').hidden = true;
     onRelease($('set-close'), () => this.close());
+    // Reset (Enter) and Stop (Esc) of the race: the panel closes first, so the key reaches a running game.
+    onRelease($('set-reset'), () => {
+      this.close();
+      onReset();
+    });
+    onRelease($('set-stop'), () => {
+      this.close();
+      onStop();
+    });
     for (const type of ['keydown', 'keyup']) {
       root.addEventListener(type, (e) => {
         // The up of the key that closed it still belongs to the race's key state.

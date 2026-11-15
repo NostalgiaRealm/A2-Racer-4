@@ -97,16 +97,15 @@ const overlayIs = (page, n) => page.waitForFunction((k) => window.__race.overlay
 
 /**
  * What is on screen at the current size, against the HUD's canvas rectangles (hud-overlay.md section
- * 9): no control over the Communicator, Speedometer, statistics or chase timer; in portrait all
- * controls below the view.
+ * 9): no control over the Communicator, Speedometer, statistics or chase timer. In portrait with
+ * touch the HUD's bottom groups stand above the wheel, by the HUD's bottom inset.
  */
 const LAYOUT = `(() => {
   const unit = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--hud-unit'));
   const portrait = document.documentElement.classList.contains('race-portrait');
-  const panelTop = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--panel-top'));
   const W = innerWidth;
-  const H = portrait ? panelTop : innerHeight;
   const hud = window.__app.runner.host.hudLayout;
+  const H = innerHeight * (1 - hud.insets.bottom);
   const shift = (hud.leftShift / (2 * hud.xr)) * W;
   const parts = {
     speedometer: [W - 205 * unit, H - 178 * unit, W, H],
@@ -122,7 +121,6 @@ const LAYOUT = `(() => {
   const hits = [];
   for (const [id, a] of Object.entries(rects)) {
     if (a[0] < 0 || a[1] < 0 || a[2] > innerWidth || a[3] > innerHeight) hits.push(id + ' off screen');
-    if (portrait && id !== 'race-settings' && a[1] < panelTop) hits.push(id + ' over the view');
     for (const [name, b] of Object.entries(parts)) {
       if (a[0] < b[2] && b[0] < a[2] && a[1] < b[3] && b[1] < a[3]) hits.push(id + ' on ' + name);
     }
@@ -178,18 +176,18 @@ if (section('touch')) {
   record('touch: wheel down brakes, then reverses', reverse.touch.brake && backward < -1, { fastestBackward: backward, brake: reverse.brake });
   await touch('touchEnd', []);
 
-  // Reset and look back with a second finger, the wheel held by the first: section 7's simultaneous input.
-  const resetPoint = middle(await page.locator('#touch-reset').boundingBox(), 1);
+  // Reset is in the gear's panel since 1.2.0: the panel closes and the game gets Enter.
+  const beforeReset = await state(page);
+  await page.locator('#race-settings').tap();
+  await wait(page, 0.2);
+  const resetShown = await visible(page, 'set-reset') && await visible(page, 'set-stop');
+  await page.locator('#set-reset').tap();
+  await wait(page, 0.5);
+  const afterReset = await state(page);
+  record('touch: the gear holds Reset and Stop, Reset places the car back and closes the panel', resetShown && afterReset.resetStamp !== beforeReset.resetStamp && !(await visible(page, 'settings-panel')), { stamp: [beforeReset.resetStamp, afterReset.resetStamp] });
+  // Look back with a second finger, the wheel held by the first: section 7's simultaneous input.
   await touch('touchStart', [at(0.5, 0.05)]);
   await wait(page, 0.3);
-  const beforeReset = await state(page);
-  await touch('touchStart', [at(0.5, 0.05), resetPoint]);
-  await wait(page, 0.4);
-  const afterReset = await state(page);
-  await touch('touchEnd', [resetPoint]);
-  await wait(page, 0.2);
-  const wheelStill = await state(page);
-  record('touch: Reset places the car back, with the wheel held and still held after', afterReset.resetStamp !== beforeReset.resetStamp && afterReset.touch.gas && wheelStill.touch.gas && !(await held(page, 'touch-reset')), { stamp: [beforeReset.resetStamp, afterReset.resetStamp] });
   const lookPoint = middle(await page.locator('#touch-lookback').boundingBox(), 1);
   const viewBefore = (await state(page)).view;
   await touch('touchStart', [at(0.5, 0.05), lookPoint]);
@@ -209,54 +207,14 @@ if (section('touch')) {
   record('touch: wheel, turbo and handbrake together, each lifted by itself', three.touch.gas && three.touch.buttons === 9 && two.touch.gas && two.touch.buttons === 8, { buttons: [three.touch.buttons, two.touch.buttons] });
   await touch('touchEnd', []);
 
-  // The camera cycle follows the view in use.
-  const cameraPoint = middle(await page.locator('#touch-camera').boundingBox(), 0);
-  const views = [];
-  for (let k = 0; k < 3; k++) {
-    await touch('touchStart', [cameraPoint]);
-    await touch('touchEnd', []);
-    await wait(page, 0.2);
-    views.push((await state(page)).view);
-  }
-  await page.keyboard.press('Digit4');
-  await wait(page, 0.2);
-  const fromKey = (await state(page)).view;
-  await touch('touchStart', [cameraPoint]);
-  await touch('touchEnd', []);
-  await wait(page, 0.2);
-  const afterKey = (await state(page)).view;
-  record('touch: Camera goes through 2, 4, 1, and on from what a key chose', views[0] === 0 && views[1] === 3 && views[2] === viewBefore && fromKey === 3 && afterKey === viewBefore, { views, fromKey, afterKey });
-
-  // Less used buttons behind Meer: their effect in the game's own state.
-  const morePoint = middle(await page.locator('#touch-more').boundingBox(), 0);
-  const extraHidden = !(await visible(page, 'touch-dashboard'));
-  await touch('touchStart', [morePoint]);
+  // Roepen is a button of its own; Camera, Pauze, Dashboard, Detail, Reset, Stop and Meer are gone from the screen.
+  await touch('touchStart', [middle(await page.locator('#touch-taunt').boundingBox(), 0)]);
+  await wait(page, 0.1);
+  const tauntKeys = await page.evaluate(() => [...window.__app.runner.input.dik].map((v, k) => (v ? k : -1)).filter((k) => k >= 0));
   await touch('touchEnd', []);
   await wait(page, 0.1);
-  const extraShown = await visible(page, 'touch-dashboard') && await visible(page, 'touch-taunt') && await visible(page, 'touch-detail');
-  await page.screenshot({ path: join(dir, 'touch-more.png') });
-  const tapOn = async (id) => {
-    await touch('touchStart', [middle(await page.locator('#' + id).boundingBox(), 0)]);
-    await wait(page, 0.1);
-    const during = await page.evaluate(() => [...window.__app.runner.input.dik].map((v, k) => (v ? k : -1)).filter((k) => k >= 0));
-    await touch('touchEnd', []);
-    await wait(page, 0.1);
-    return during;
-  };
-  const dash0 = (await state(page)).dashboard;
-  await tapOn('touch-dashboard');
-  const dash1 = (await state(page)).dashboard;
-  await tapOn('touch-dashboard');
-  const dash2 = (await state(page)).dashboard;
-  const detail0 = (await state(page)).detail;
-  await tapOn('touch-detail');
-  const detail1 = (await state(page)).detail;
-  await tapOn('touch-detail');
-  const detail2 = (await state(page)).detail;
-  const tauntKeys = await tapOn('touch-taunt');
-  record('touch: Meer shows Roepen, Dashboard and Detail, which work', extraHidden && extraShown && dash1 !== dash0 && dash2 === dash0 && detail1 !== detail0 && detail2 !== detail1 && tauntKeys.includes(0x14), { dashboard: [dash0, dash1, dash2], detail: [detail0, detail1, detail2], tauntKeys });
-  await touch('touchStart', [morePoint]);
-  await touch('touchEnd', []);
+  const gone = await page.evaluate(() => ['touch-camera', 'touch-pause', 'touch-dashboard', 'touch-detail', 'touch-reset', 'touch-quit', 'touch-more'].filter((id) => document.getElementById(id)));
+  record('touch: Roepen sends T, the removed buttons are not on the page', tauntKeys.includes(0x14) && !gone.length, { tauntKeys, gone });
 
   // A right click is no press, as in the reference.
   const box = await page.locator('#touch-turbo').boundingBox();
@@ -667,7 +625,7 @@ if (section('results')) {
   await wait(page, 0.2);
   await page.screenshot({ path: join(dir, 'finish-touch.png') });
   const shown = await visible(page, 'dlg-results');
-  const wheelGone = !(await visible(page, 'touch-wheel')) && !(await visible(page, 'touch-turbo')) && !(await visible(page, 'touch-camera'));
+  const wheelGone = !(await visible(page, 'touch-wheel')) && !(await visible(page, 'touch-turbo')) && !(await visible(page, 'touch-taunt'));
   record('finish: wheel and actions gone, Verder shown', !before && shown && wheelGone, { before, shown, wheelGone });
   await touch('touchStart', [middle(await page.locator('#dlg-results').boundingBox(), 0)]);
   await wait(page, 0.4);

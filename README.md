@@ -52,14 +52,14 @@ The same game in Electron, with its files inside the package. `npm run desktop` 
 | Turbo | Ctrl | X | Turbo |
 | Handbrake | Alt | RB | Handrem |
 | Horn | Space | Y | Claxon |
-| Cameras | 1, 2, 4, also 6 to 0 | LB, next of 1, 2, 4 | Camera, next of 1, 2, 4 |
+| Cameras | 1, 2, 4, also 6 to 0 | LB, next of 1, 2, 4 | None |
 | Look back, while held | 3 | R3 | Terugkijken |
-| Reset | Enter | L3 | Reset |
-| Roepen | T | D-pad up | Roepen, under Meer in landscape |
-| Dashboard | 5 | | Dashboard, under Meer in landscape |
-| Overlay detail | D | | Detail, under Meer in landscape |
-| Pause | P, then any key or a mouse button on the race | Start, then A, B or Start | Pauze, then Verder or a tap on the race |
-| Quit | Esc, then J or Y. Esc or N stays | Back, then A or B | Stop, then Ja or Nee |
+| Reset | Enter | L3 | Gear, then Auto terugzetten |
+| Roepen | T | D-pad up | Roepen |
+| Dashboard | 5 | | None |
+| Overlay detail | D | | None |
+| Pause | P, then any key or a mouse button on the race | Start, then A, B or Start | None: the gear's panel stops the clock while open |
+| Quit | Esc, then J or Y. Esc or N stays | Back, then A or B | Gear, then Race stoppen, then Ja or Nee |
 | Leave finish table or game over | Esc, Enter or Space | A | Verder |
 | Full screen | On at the first gesture. Leaving it turns the setting off and, in a race, opens the quit prompt. With a mouse in full screen: Stop beside the gear | | |
 | Settings | In a race F9, also closes; Esc closes. In the menu `Opties`, `Geavanceerd`, tab `Browser` | | In a race the gear button. In the menu the same dialog |

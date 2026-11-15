@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.2.0 — 2026-11-16
+
+The race fills the whole screen on a phone held upright, and the touch buttons are fewer. [Release notes](docs/releases/1.2.0.md).
+
+### Changed
+
+- Portrait: the 3D view fills the whole screen. Until now it took the top 62 percent, with the touch controls on a black panel below. The wheel and the action buttons lie over the view, and the Speedometer and the Communicator stand above them.
+- Touch buttons: Camera, Pauze, Dashboard, Detail and Meer are gone. Roepen is a round button beside Claxon, Turbo and Handrem. Reset and Stop are in the gear's panel as Auto terugzetten and Race stoppen. Terugkijken stays.
+- Menu and loading screen: what the 4:3 picture leaves open is filled with the same picture, blurred and dimmed, instead of black. Movies keep black beside them.
+
+Checked in headless Chromium at phone sizes: `tools/check-race-ui.mjs` 75 of 75, `tools/check-phone-flow.mjs` 7 of 7. Not run on a phone.
+
 ## 1.1.7 — 2026-11-06
 
 The shadows under the other cars no longer jump. [Release notes](docs/releases/1.1.7.md).

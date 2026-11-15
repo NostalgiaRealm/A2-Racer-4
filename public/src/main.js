@@ -31914,15 +31914,6 @@ var TouchControls = class {
     this.bindWheel(this.wheel);
     for (const b of root.querySelectorAll("button[data-button]")) this.bindHold(b, Number(b.dataset.button));
     for (const b of root.querySelectorAll("button[data-vk]")) this.bindKey(b, Number(b.dataset.vk), b.dataset.dik ? Number(b.dataset.dik) : 0);
-    const cam = root.querySelector("#touch-camera");
-    this.bindPress(cam, (on) => {
-      const input = this.getInput();
-      if (on && input) input.pulseVk(input.nextCameraKey());
-    });
-    this.more = root.querySelector("#touch-more");
-    this.bindPress(this.more, (on) => {
-      if (on) this.showMore(!root.classList.contains("more"));
-    });
     this.wheel.addEventListener("contextmenu", (e) => e.preventDefault());
   }
   /** Calls change(true) at the first pointer on el and change(false) when the last one ends. */
@@ -32051,17 +32042,9 @@ var TouchControls = class {
     this.wheelRect = r;
     if (was && (Math.abs(was.left - r.left) > 1 || Math.abs(was.top - r.top) > 1 || Math.abs(was.width - r.width) > 1)) this.releaseAll();
   }
-  /** The less used buttons, in landscape behind Meer. Portrait always shows them: style.css. */
-  showMore(open) {
-    this.root.classList.toggle("more", open);
-    this.more.setAttribute("aria-expanded", String(open));
-  }
   setVisible(v) {
     this.root.hidden = !v;
-    if (!v) {
-      this.releaseAll();
-      this.showMore(false);
-    }
+    if (!v) this.releaseAll();
   }
 };
 
@@ -32321,7 +32304,7 @@ var RESOLUTIONS = [
 ];
 var TOUCH_MODES = [["auto", "Automatisch"], ["on", "Aan"], ["off", "Uit"]];
 var SettingsPanel = class {
-  constructor(root, settings, { onOpenChange }) {
+  constructor(root, settings, { onOpenChange, onReset, onStop }) {
     this.root = root;
     this.settings = settings;
     this.onOpenChange = onOpenChange;
@@ -32336,6 +32319,7 @@ var SettingsPanel = class {
       <label>Deadzone gamepad <input id="set-dead" type="range" min="0" max="50" step="1"><output id="set-dead-out"></output></label>
       <label class="check"><input id="set-fps" type="checkbox"> Beeldjes per seconde tonen</label>
       <label class="check"><input id="set-full" type="checkbox"> Volledig scherm</label>
+      <div id="set-race"><button id="set-reset">Auto terugzetten</button><button id="set-stop">Race stoppen</button></div>
       <button id="set-close">Sluiten</button>`;
     const $ = (id) => root.querySelector("#" + id);
     this.$ = $;
@@ -32349,6 +32333,14 @@ var SettingsPanel = class {
     const page = document.documentElement;
     if (!page.requestFullscreen && !page.webkitRequestFullscreen) $("set-full").closest("label").hidden = true;
     onRelease($("set-close"), () => this.close());
+    onRelease($("set-reset"), () => {
+      this.close();
+      onReset();
+    });
+    onRelease($("set-stop"), () => {
+      this.close();
+      onStop();
+    });
     for (const type of ["keydown", "keyup"]) {
       root.addEventListener(type, (e) => {
         if (root.hidden) return;
@@ -32459,12 +32451,7 @@ var RaceRunner = class {
     const ch = Math.max(1, Math.round(window.innerHeight * dpr));
     const portrait = ch > cw * 1.15;
     page.classList.toggle("race-portrait", portrait);
-    let area = { x: 0, y: 0, w: cw, h: ch };
-    if (portrait) {
-      const usesTouch = this.useTouch;
-      const h = usesTouch ? Math.min(Math.round(ch * 0.62), Math.round(cw * 1.2)) : Math.min(ch, Math.round(cw * 1.5));
-      area = { x: 0, y: 0, w: cw, h };
-    }
+    const area = { x: 0, y: 0, w: cw, h: ch };
     const cssW = area.w / dpr;
     const cssH = area.h / dpr;
     const grid = this.renderer.indexed ? this.renderer.modeGrid(area) : null;
@@ -32473,15 +32460,19 @@ var RaceRunner = class {
     this.effectiveSize = size;
     if (this.panel && this.panel.isOpen) this.panel.refresh(size);
     let unit = 0.99 * Math.min(cssW / 640, cssH / 480);
-    page.style.setProperty("--panel-top", `${cssH}px`);
     if (this.host && this.host.hudLayout) {
       const hud = this.host.hudLayout;
       const safe = safeAreaInsets();
+      let bottom = safe.bottom;
+      if (this.useTouch && portrait && !this.resultScreen) {
+        const wheel = document.getElementById("touch-wheel").getBoundingClientRect();
+        if (wheel.width > 0) bottom = Math.max(bottom, window.innerHeight - wheel.top + 6);
+      }
       hud.setShape(area.w / area.h, {
         left: safe.left * dpr / area.w,
         right: safe.right * dpr / area.w,
         top: safe.top * dpr / area.h,
-        bottom: area.h === ch ? safe.bottom * dpr / area.h : 0
+        bottom: bottom * dpr / area.h
       }, { w: cssW, h: cssH }, this.renderer.clipY);
       unit *= hud.scale || 1;
       hud.leftShift = 0;
@@ -32542,6 +32533,7 @@ var RaceRunner = class {
     const eight = resolution === 0 || resolution === 1;
     const art = document.getElementById("loading-art");
     art.src = `assets/loading/e${String(etappe).padStart(2, "0")}${eight ? resolution === 0 ? "-lo" : "-8" : ""}.png`;
+    document.getElementById("loading").style.setProperty("--loading-art", `url("${new URL(art.src, document.baseURI).href}")`);
     document.getElementById("loading-stage").classList.toggle("pixels", eight);
     document.getElementById("loading-bar").removeAttribute("src");
     document.getElementById("loading").hidden = false;
@@ -32642,6 +32634,13 @@ var RaceRunner = class {
           this.acc = 0;
           if (this.audio && !this.holdsSound()) this.audio.resume();
         }
+      },
+      // Enter puts the car back on the road, Esc opens the game's own quit prompt.
+      onReset: () => this.input && this.input.pulseVk(13),
+      onStop: () => {
+        if (!this.input) return;
+        this.dialogByPointer = true;
+        this.input.pulseVk(27);
       }
     });
     const togglePanel = () => {
@@ -32795,6 +32794,7 @@ var RaceRunner = class {
     this.resultScreen = results;
     document.documentElement.classList.toggle("race-results", results);
     if (results && this.touch) this.touch.releaseAll();
+    this.layout();
     this.updateDialogKeys();
   }
   /** On-screen answers, where a dialog or result screen waits for keys the device does not have. */
@@ -34168,6 +34168,17 @@ var MenuRuntime = class {
       this.screen.draw(b);
       g.imageSmoothingEnabled = true;
       g.imageSmoothingQuality = "high";
+      if (!this.fill) {
+        this.fill = document.createElement("canvas");
+        this.fill.width = 32;
+        this.fill.height = 24;
+        this.fillG = this.fill.getContext("2d");
+      }
+      this.fillG.clearRect(0, 0, 32, 24);
+      this.fillG.drawImage(this.buffer, 0, 0, 32, 24);
+      g.drawImage(this.fill, 2, 2, 28, 20, 0, 0, cw, ch);
+      g.fillStyle = "rgba(0,0,0,.45)";
+      g.fillRect(0, 0, cw, ch);
       for (const z of this.layout.zones) {
         g.drawImage(this.buffer, z.sx * s, z.sy * s, z.sw * s, z.sh * s, z.dx, z.dy, z.dw, z.dh);
       }
